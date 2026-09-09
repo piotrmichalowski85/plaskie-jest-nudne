@@ -1,26 +1,16 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
+:root { --bg: #f6f7f4; --ink: #17201a; --moss: #2f5d3a; --moss-dark: #1f4128; --sun: #e8b84a; --card: #ffffff; --muted: #5d6b62; }
+html { color-scheme: light; }
+body { background: var(--bg); color: var(--ink); font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+a { text-decoration: none; }
+.btn { display: inline-flex; align-items: center; gap: .5rem; border-radius: 999px; padding: .7rem 1.2rem; font-weight: 600; background: var(--moss); color: #fff; }
+.btn:hover { background: var(--moss-dark); }
+.btn-ghost { background: transparent; color: var(--moss); border: 1.5px solid var(--moss); }
+.btn-ghost:hover { background: #e9efe9; }
+.card { background: var(--card); border: 1px solid #e3e7e1; border-radius: 1rem; padding: 1rem 1.1rem; }
+.chip { display: inline-block; border-radius: 999px; padding: .15rem .6rem; font-size: .75rem; font-weight: 600; background: #eef2ec; color: var(--moss-dark); }
+.chip-sun { background: #fff3d1; color: #7a5a10; }
+.score { display: inline-flex; align-items: center; gap: .25rem; font-size: .8rem; font-weight: 700; }
+select, input[type="text"] { background: #fff; border: 1px solid #cfd6cd; border-radius: .6rem; padding: .5rem .7rem; font-size: .95rem; }
+label { font-size: .8rem; color: var(--muted); font-weight: 600; }

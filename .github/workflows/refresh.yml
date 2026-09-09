@@ -1,0 +1,25 @@
+name: refresh-races
+on:
+  schedule:
+    - cron: "17 4 * * 1"   # poniedziałek 06:17 czasu PL (04:17 UTC)
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - run: npx tsx scripts/scrape.ts
+      - name: sanity check (min. 100 biegów, inaczej nie nadpisuj)
+        run: node -e 'const d=require("./data/races.json"); if (d.count < 100) { console.error("za mało rekordów:", d.count); process.exit(1);} console.log("ok", d.count)'
+      - name: commit
+        run: |
+          git config user.name "plaskie-bot"
+          git config user.email "bot@plaskiejestnudne.pl"
+          git add data/races.json
+          git diff --cached --quiet || git commit -m "data: odświeżenie kalendarza $(date -u +%F)"
+          git push
