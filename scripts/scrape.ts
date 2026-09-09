@@ -3,6 +3,7 @@ import { writeFileSync, mkdirSync } from "node:fs";
 import type { Race, Dataset } from "../lib/types";
 import { parsePolishDate, parseDistances, splitPlace, slugify, guessSurface, beginnerScore, dedupKey } from "../lib/normalize";
 import { extractFromText, fetchText } from "../lib/enrich";
+import organizers from "../data/organizers.json";
 
 const UA = "Mozilla/5.0 (compatible; plaskiejestnudne-bot/0.1; +https://plaskiejestnudne.pl/o-serwisie)";
 async function get(url: string): Promise<string> {
@@ -91,6 +92,13 @@ async function enrich(raws: Raw[]): Promise<number> {
       if (!f) continue;
       let changed = false;
       if (!r.distancesKm.length && f.distances.length) { r.distancesKm = f.distances.map((d) => d.km); r.elevations = f.distances; changed = true; }
+      else if (f.structured && f.distances.length) {
+        // scal: D+ i limity ze strony organizatora dokładamy do dystansów z kalendarza, nic nie tracimy
+        for (const d of f.distances) {
+          const e = r.elevations.find((x) => Math.abs(x.km - d.km) < 0.6);
+          if (e) { if (!e.dplus && d.dplus) { e.dplus = d.dplus; changed = true; } if (d.limitH) { e.limitH = d.limitH; changed = true; } }
+        }
+      }
       if (f.dplusMax && !r.elevations.some((e) => e.dplus) && r.elevations.length) {
         const longest = r.elevations[r.elevations.length - 1]; longest.dplus = f.dplusMax; if (r.elevations.length > 1) longest.approx = true; changed = true;
       }
@@ -99,6 +107,25 @@ async function enrich(raws: Raw[]): Promise<number> {
   };
   await Promise.all(Array.from({ length: 6 }, worker));
   return hits;
+}
+
+/** Flagowce spoza kalendarzy: seed z data/organizers.json + dystanse/D+/limity ze strony organizatora */
+async function organizerSeeds(): Promise<Raw[]> {
+  const out: Raw[] = [];
+  for (const o of organizers as { eventName: string; url: string; city: string; region: string; dateStart: string; dateEnd: string; distancesKm?: number[] }[]) {
+    const text = await fetchText(o.url);
+    const f = text ? extractFromText(text) : null;
+    // seed z ręcznie potwierdzonymi dystansami ma pierwszeństwo; strona organizatora dokłada D+/limity, jeśli je ma
+    const list = o.distancesKm
+      ? o.distancesKm.map((km) => ({ km, ...(f?.structured ? f.distances.find((d) => Math.abs(d.km - km) < 0.6) ?? {} : {}) }))
+      : (f?.structured ? f.distances : []);
+    out.push({
+      name: o.eventName, eventName: o.eventName, dateStart: o.dateStart, dateEnd: o.dateEnd, city: o.city, region: o.region,
+      distancesKm: list.map((x) => x.km), elevations: list, vertical: false, url: o.url,
+      sources: [{ name: "strona organizatora", url: o.url }],
+    });
+  }
+  return out;
 }
 
 function finalize(raws: Raw[]): Race[] {
@@ -140,7 +167,7 @@ function finalize(raws: Raw[]): Race[] {
 
 async function main() {
   const year = new Date().getFullYear();
-  const results = await Promise.allSettled([biegigorskie(year), biegigorskie(year + 1), elektronicznezapisy()]);
+  const results = await Promise.allSettled([biegigorskie(year), biegigorskie(year + 1), elektronicznezapisy(), organizerSeeds()]);
   const raws: Raw[] = [];
   results.forEach((r, i) => {
     if (r.status === "fulfilled") { console.log(`source ${i}: ${r.value.length} rows`); raws.push(...r.value); }

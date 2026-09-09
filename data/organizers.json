@@ -1,0 +1,5 @@
+[
+  { "eventName": "Łemkowyna Ultra-Trail", "url": "https://ultralemkowyna.pl/", "city": "Krynica-Zdrój", "region": "Beskid Niski", "dateStart": "2026-10-16", "dateEnd": "2026-10-18", "note": "potwierdzone ze strony organizatora 09.09.2026" },
+  { "eventName": "ultraMaraton Bieszczadzki by Bieg Rzeźnika", "url": "https://maratonbieszczadzki.pl/", "city": "Cisna", "region": "Bieszczady", "dateStart": "2026-10-09", "dateEnd": "2026-10-10", "distancesKm": [12, 26, 52, 100], "note": "data i dystanse ze strony organizatora 09.09.2026" },
+  { "eventName": "Festiwal Biegu Rzeźnika", "url": "https://biegrzeznika.pl/", "city": "Cisna", "region": "Bieszczady", "dateStart": "2027-05-26", "dateEnd": "2027-05-29", "distancesKm": [7, 12, 16, 28, 52, 80, 102, 106, 175], "note": "XIII edycja, daty i dystanse ze strony organizatora 09.09.2026" }
+]

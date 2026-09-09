@@ -1,12 +1,22 @@
 import * as cheerio from "cheerio";
 
-export type Found = { distances: { km: number; dplus?: number }[]; dplusMax?: number };
+export type Found = { distances: { km: number; dplus?: number; limitH?: number }[]; dplusMax?: number; structured?: boolean };
 
 const KM_CTX = /(dystans|trasa|trasy|bieg|ultra|maraton|półmaraton|polmaraton|km\b)/i;
 
 /** Wyciąga dystanse i przewyższenie z tekstu strony organizatora (heurystyka, bez LLM). */
 export function extractFromText(text: string): Found | null {
   const t = text.replace(/\s+/g, " ");
+  // wzorzec strukturalny (karty dystansów na stronach organizatorów): Dystans 30km Przewyższenie +740m ... Limit 5 godz.
+  const st: { km: number; dplus?: number; limitH?: number }[] = [];
+  const reS = /dystans:?\s*(\d{1,3}(?:[.,]\d)?)\s*km(?:[^0-9]{0,40}przewyższeni\w*:?\s*\+?\s*(\d[\d\s]{1,5})\s*m)?(?:[^a-z0-9]{0,60}limit(?:\s*czasu)?:?\s*(\d{1,2}(?:[.,]\d)?)\s*(?:godz|h))?/gi;
+  let ms: RegExpExecArray | null;
+  while ((ms = reS.exec(t))) {
+    const km = parseFloat(ms[1].replace(",", "."));
+    if (km < 1 || km > 300 || st.some((x) => Math.abs(x.km - km) < 0.05)) continue;
+    st.push({ km, dplus: ms[2] ? parseInt(ms[2].replace(/\s/g, ""), 10) : undefined, limitH: ms[3] ? parseFloat(ms[3].replace(",", ".")) : undefined });
+  }
+  if (st.length >= 1 && st.length <= 12) { st.sort((a, b) => a.km - b.km); return { distances: st, dplusMax: Math.max(0, ...st.map((x) => x.dplus || 0)) || undefined, structured: true }; }
   const kms = new Set<number>();
   const re = /(\d{1,3}(?:[.,]\d)?)\s*(?:km|kilometr)/gi;
   let m: RegExpExecArray | null;

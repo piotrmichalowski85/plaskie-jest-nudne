@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-09T12:20:48.370Z",
- "count": 179,
+ "generatedAt": "2026-09-09T12:34:12.959Z",
+ "count": 182,
  "races": [
   {
    "name": "Grand Prix Krakowa w biegach górskich",
@@ -806,8 +806,8 @@
    "surface": "gorski",
    "minKm": 2.1,
    "maxKm": 2.1,
-   "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 2.1 km; stromo: ok. 127 m na km, dużo marszu pod górę."
+   "beginnerScore": 1,
+   "beginnerWhy": "Tylko vertical (2.1 km): sam podbieg, bez zbiegu; to sprawdzian siły, nie pierwszy kontakt z górami."
   },
   {
    "name": "Coconaut Pomerania Winter Trail",
@@ -1039,8 +1039,8 @@
    "surface": "gorski",
    "minKm": 1.8,
    "maxKm": 1.8,
-   "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 1.8 km; stromo: ok. 168 m na km, dużo marszu pod górę."
+   "beginnerScore": 1,
+   "beginnerWhy": "Tylko vertical (1.8 km): sam podbieg, bez zbiegu; to sprawdzian siły, nie pierwszy kontakt z górami."
   },
   {
    "name": "Ultra ZADEK Festiwal Biegowy (#UZFB)",
@@ -1206,8 +1206,7 @@
    ],
    "elevations": [
     {
-     "km": 17,
-     "dplus": 1050
+     "km": 17
     }
    ],
    "vertical": false,
@@ -1217,18 +1216,14 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
-    },
-    {
-     "name": "strona organizatora",
-     "url": "https://ultraswir.pl/"
     }
    ],
    "id": "wiosenny-ultra-swir-2026-03-21",
-   "surface": "gorski",
+   "surface": "trail",
    "minKm": 17,
    "maxKm": 17,
-   "beginnerScore": 2,
-   "beginnerWhy": "najkrótszy dystans 17 km (jak półmaraton, ale wolniej); stromo: ok. 62 m na km, dużo marszu pod górę."
+   "beginnerScore": 3,
+   "beginnerWhy": "najkrótszy dystans 17 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "IV Bieg po Bańkę Mleka III Bieg po Byczy Róg",
@@ -1873,9 +1868,7 @@
      "km": 52
     },
     {
-     "km": 103,
-     "dplus": 2300,
-     "approx": true
+     "km": 103
     }
    ],
    "vertical": false,
@@ -1885,14 +1878,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
-    },
-    {
-     "name": "strona organizatora",
-     "url": "https://ultrawysoczyzna.pl/"
     }
    ],
    "id": "meble-wojcik-ultra-wysoczyzna-2026-04-24",
-   "surface": "trail",
+   "surface": "przelaj",
    "minKm": 6,
    "maxKm": 103,
    "beginnerScore": 4,
@@ -2262,8 +2251,8 @@
    "surface": "gorski",
    "minKm": 1.6,
    "maxKm": 1.6,
-   "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 1.6 km; stromo: ok. 375 m na km, dużo marszu pod górę."
+   "beginnerScore": 1,
+   "beginnerWhy": "Tylko vertical (1.6 km): sam podbieg, bez zbiegu; to sprawdzian siły, nie pierwszy kontakt z górami."
   },
   {
    "name": "RUDAWY Wiosenny Festiwal Biegowy",
@@ -3273,7 +3262,7 @@
     },
     {
      "km": 164.49,
-     "dplus": 3064,
+     "dplus": 1870,
      "approx": true
     }
    ],
@@ -3314,7 +3303,8 @@
    ],
    "elevations": [
     {
-     "km": 5
+     "km": 5,
+     "dplus": 124
     },
     {
      "km": 10
@@ -3326,12 +3316,12 @@
      "km": 42
     },
     {
-     "km": 60
+     "km": 60,
+     "dplus": 2730
     },
     {
      "km": 100,
-     "dplus": 4570,
-     "approx": true
+     "dplus": 4570
     }
    ],
    "vertical": false,
@@ -3351,8 +3341,8 @@
    "surface": "gorski",
    "minKm": 5,
    "maxKm": 100,
-   "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerScore": 5,
+   "beginnerWhy": "najkrótszy dystans 5 km; łagodnie: ok. 25 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
    "name": "XXVII BIEG GÓRSKI ŻAR 2026",
@@ -3677,8 +3667,7 @@
    ],
    "elevations": [
     {
-     "km": 32,
-     "dplus": 3661
+     "km": 32
     }
    ],
    "vertical": false,
@@ -3688,18 +3677,14 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
-    },
-    {
-     "name": "strona organizatora",
-     "url": "https://www.biegisokole.pl/"
     }
    ],
    "id": "xviii-wysokogorskiego-bieg-im-druha-franciszka-marduly-xiv-2026-07-04",
    "surface": "gorski",
    "minKm": 32,
    "maxKm": 32,
-   "beginnerScore": 1,
-   "beginnerWhy": "najkrótszy dystans 32 km, to już długo w terenie; stromo: ok. 114 m na km, dużo marszu pod górę."
+   "beginnerScore": 2,
+   "beginnerWhy": "najkrótszy dystans 32 km, to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "XIII Bieg do Morskiego Oka im. Władysława hrabiego Zamoyskiego",
@@ -4206,9 +4191,7 @@
      "km": 66
     },
     {
-     "km": 102,
-     "dplus": 7745,
-     "approx": true
+     "km": 102
     }
    ],
    "vertical": false,
@@ -4218,10 +4201,6 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
-    },
-    {
-     "name": "strona organizatora",
-     "url": "https://gorceultratrail.pl/"
     }
    ],
    "id": "xi-festiwal-biegow-gorskich-gorce-ultra-trail-2026-07-31",
@@ -4633,7 +4612,7 @@
    "minKm": 4.6,
    "maxKm": 40,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 4.6 km; stromo: ok. 183 m na km, dużo marszu pod górę; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "pomijamy vertical 4.6 km (sam podbieg), liczymy od 22 km; najkrótszy dystans 22 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "14 LETNI BIEG PIASTÓW: Bieg Śniadaniowy 6km Jakuszycki Ultramaraton Jakuszycki Półmaraton Jakuszycka 13 Marsz Nordic Walking",
@@ -4836,8 +4815,7 @@
    ],
    "elevations": [
     {
-     "km": 17,
-     "dplus": 1050
+     "km": 17
     }
    ],
    "vertical": false,
@@ -4847,18 +4825,14 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
-    },
-    {
-     "name": "strona organizatora",
-     "url": "https://ultraswir.pl/"
     }
    ],
    "id": "letni-ultra-swir-2026-08-29",
-   "surface": "gorski",
+   "surface": "trail",
    "minKm": 17,
    "maxKm": 17,
-   "beginnerScore": 2,
-   "beginnerWhy": "najkrótszy dystans 17 km (jak półmaraton, ale wolniej); stromo: ok. 62 m na km, dużo marszu pod górę."
+   "beginnerScore": 3,
+   "beginnerWhy": "najkrótszy dystans 17 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "Królowa Wołtuszowa Trail: 3x Królowa Wołtuszowa 13,8km (+606m) 6x Królowa Wołtuszowa 27,6km (+1212m)",
@@ -5407,8 +5381,8 @@
    "surface": "gorski",
    "minKm": 3.5,
    "maxKm": 46,
-   "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 3.5 km; stromo: ok. 171 m na km, dużo marszu pod górę; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerScore": 2,
+   "beginnerWhy": "pomijamy vertical 3.5 km (sam podbieg), liczymy od 17 km; najkrótszy dystans 17 km (jak półmaraton, ale wolniej); stromo: ok. 72 m na km, dużo marszu pod górę; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
    "name": "Głuchołaski Bieg Górski",
@@ -5551,9 +5525,7 @@
      "km": 43
     },
     {
-     "km": 66,
-     "dplus": 3450,
-     "approx": true
+     "km": 66
     }
    ],
    "vertical": false,
@@ -5563,14 +5535,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
-    },
-    {
-     "name": "strona organizatora",
-     "url": "https://www.kbsobotka.pl/slezanski-festiwal-biegowy/"
     }
    ],
    "id": "slezanski-festiwal-biegowy-2026-09-26",
-   "surface": "trail",
+   "surface": "przelaj",
    "minKm": 10.5,
    "maxKm": 66,
    "beginnerScore": 4,
@@ -5895,7 +5863,8 @@
    ],
    "elevations": [
     {
-     "km": 15
+     "km": 15,
+     "limitH": 3
     },
     {
      "km": 34
@@ -5904,10 +5873,12 @@
      "km": 57
     },
     {
-     "km": 82
+     "km": 82,
+     "limitH": 15
     },
     {
-     "km": 108
+     "km": 108,
+     "limitH": 22
     },
     {
      "km": 142
@@ -5920,6 +5891,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://ultrakotlina.pl/"
     }
    ],
    "id": "ultrakotlina-140-100-80-50-34-15-ultrakotlina-2026-10-09",
@@ -5928,6 +5903,48 @@
    "maxKm": 142,
    "beginnerScore": 3,
    "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+  },
+  {
+   "name": "ultraMaraton Bieszczadzki by Bieg Rzeźnika",
+   "eventName": "ultraMaraton Bieszczadzki by Bieg Rzeźnika",
+   "dateStart": "2026-10-09",
+   "dateEnd": "2026-10-10",
+   "city": "Cisna",
+   "region": "Bieszczady",
+   "distancesKm": [
+    12,
+    26,
+    52,
+    100
+   ],
+   "elevations": [
+    {
+     "km": 12
+    },
+    {
+     "km": 26
+    },
+    {
+     "km": 52
+    },
+    {
+     "km": 100
+    }
+   ],
+   "vertical": false,
+   "url": "https://maratonbieszczadzki.pl/",
+   "sources": [
+    {
+     "name": "strona organizatora",
+     "url": "https://maratonbieszczadzki.pl/"
+    }
+   ],
+   "id": "ultramaraton-bieszczadzki-by-bieg-rzeznika-2026-10-09",
+   "surface": "trail",
+   "minKm": 12,
+   "maxKm": 100,
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 12 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
    "name": "Walimskie Biegi Górskie: Sowi Light 22 km Sowi Hardcore 51 km",
@@ -6048,6 +6065,62 @@
    "maxKm": 21,
    "beginnerScore": 4,
    "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy."
+  },
+  {
+   "name": "Łemkowyna Ultra-Trail",
+   "eventName": "Łemkowyna Ultra-Trail",
+   "dateStart": "2026-10-16",
+   "dateEnd": "2026-10-18",
+   "city": "Krynica-Zdrój",
+   "region": "Beskid Niski",
+   "distancesKm": [
+    10,
+    30,
+    48,
+    70,
+    102,
+    150
+   ],
+   "elevations": [
+    {
+     "km": 10,
+     "dplus": 200
+    },
+    {
+     "km": 30,
+     "dplus": 740
+    },
+    {
+     "km": 48,
+     "dplus": 1400
+    },
+    {
+     "km": 70,
+     "dplus": 2520
+    },
+    {
+     "km": 102,
+     "dplus": 3300
+    },
+    {
+     "km": 150,
+     "dplus": 5860
+    }
+   ],
+   "vertical": false,
+   "url": "https://ultralemkowyna.pl/",
+   "sources": [
+    {
+     "name": "strona organizatora",
+     "url": "https://ultralemkowyna.pl/"
+    }
+   ],
+   "id": "lemkowyna-ultra-trail-2026-10-16",
+   "surface": "trail",
+   "minKm": 10,
+   "maxKm": 150,
+   "beginnerScore": 5,
+   "beginnerWhy": "najkrótszy dystans 10 km; łagodnie: ok. 20 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
    "name": "Coconaut Pomerania ULTRA Trail",
@@ -7119,6 +7192,68 @@
    "maxKm": 175,
    "beginnerScore": 4,
    "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+  },
+  {
+   "name": "Festiwal Biegu Rzeźnika",
+   "eventName": "Festiwal Biegu Rzeźnika",
+   "dateStart": "2027-05-26",
+   "dateEnd": "2027-05-29",
+   "city": "Cisna",
+   "region": "Bieszczady",
+   "distancesKm": [
+    7,
+    12,
+    16,
+    28,
+    52,
+    80,
+    102,
+    106,
+    175
+   ],
+   "elevations": [
+    {
+     "km": 7
+    },
+    {
+     "km": 12
+    },
+    {
+     "km": 16
+    },
+    {
+     "km": 28
+    },
+    {
+     "km": 52
+    },
+    {
+     "km": 80
+    },
+    {
+     "km": 102
+    },
+    {
+     "km": 106
+    },
+    {
+     "km": 175
+    }
+   ],
+   "vertical": false,
+   "url": "https://biegrzeznika.pl/",
+   "sources": [
+    {
+     "name": "strona organizatora",
+     "url": "https://biegrzeznika.pl/"
+    }
+   ],
+   "id": "festiwal-biegu-rzeznika-2027-05-26",
+   "surface": "trail",
+   "minKm": 7,
+   "maxKm": 175,
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 7 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
    "name": "Suszecki Festiwal Biegowy",

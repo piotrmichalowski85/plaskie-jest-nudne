@@ -94,13 +94,22 @@ export function guessSurface(name: string, region: string, list: { km: number; d
   return maxGrad > 0 ? "trail" : "przelaj";
 }
 
-/** 1-5: 5 = idealny pierwszy niepłaski bieg */
+/** vertical = krótko i bardzo stromo (sam podbieg) */
+export const isVertical = (e: { km: number; dplus?: number }) => e.km <= 8 && !!e.dplus && e.dplus / e.km >= 100;
+
+/** 1-5: 5 = idealny pierwszy niepłaski bieg. Liczone od najkrótszego dystansu, który NIE jest verticalem. */
 export function beginnerScore(list: { km: number; dplus?: number }[], vertical: boolean, category?: string): { score: number; why: string } {
   if (!list.length) return { score: 3, why: "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed decyzją." };
-  const shortest = list[0];
+  const verticals = list.filter(isVertical);
+  const normal = list.filter((e) => !isVertical(e));
+  const why: string[] = [];
+  if (!normal.length) {
+    return { score: 1, why: `Tylko vertical (${list.map((e) => e.km + " km").join(", ")}): sam podbieg, bez zbiegu; to sprawdzian siły, nie pierwszy kontakt z górami.` };
+  }
+  const shortest = normal[0];
+  if (verticals.length) why.push(`pomijamy vertical ${verticals.map((e) => e.km + " km").join(", ")} (sam podbieg), liczymy od ${shortest.km} km`);
   const grad = shortest.dplus ? shortest.dplus / shortest.km : undefined;
   let score = 3;
-  const why: string[] = [];
   if (shortest.km <= 12) { score += 1; why.push(`najkrótszy dystans ${shortest.km} km`); }
   else if (shortest.km <= 22) { why.push(`najkrótszy dystans ${shortest.km} km (jak półmaraton, ale wolniej)`); }
   else if (shortest.km <= 35) { score -= 1; why.push(`najkrótszy dystans ${shortest.km} km, to już długo w terenie`); }
@@ -112,8 +121,7 @@ export function beginnerScore(list: { km: number; dplus?: number }[], vertical: 
   } else {
     why.push("przewyższenie nieznane, sprawdź profil trasy");
   }
-  if (vertical && list.length === 1) { score -= 1; why.push("vertical: sam podbieg, specyficzna formuła"); }
-  if (list.length >= 3) { why.push("kilka dystansów na jednej imprezie, łatwo dobrać swój"); }
+  if (normal.length >= 3) { why.push("kilka dystansów na jednej imprezie, łatwo dobrać swój"); }
   score = Math.max(1, Math.min(5, score));
   return { score, why: why.join("; ") + "." };
 }
