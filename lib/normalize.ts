@@ -96,7 +96,7 @@ export function guessSurface(name: string, region: string, list: { km: number; d
 
 /** 1-5: 5 = idealny pierwszy niepłaski bieg */
 export function beginnerScore(list: { km: number; dplus?: number }[], vertical: boolean, category?: string): { score: number; why: string } {
-  if (!list.length) return { score: 2, why: "Brak danych o dystansie: sprawdź regulamin." };
+  if (!list.length) return { score: 3, why: "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed decyzją." };
   const shortest = list[0];
   const grad = shortest.dplus ? shortest.dplus / shortest.km : undefined;
   let score = 3;

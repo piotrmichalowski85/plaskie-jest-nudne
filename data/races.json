@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-09T11:09:28.406Z",
+ "generatedAt": "2026-09-09T12:16:23.303Z",
  "count": 179,
  "races": [
   {
@@ -774,8 +774,8 @@
    "surface": "trail",
    "minKm": 0,
    "maxKm": 0,
-   "beginnerScore": 2,
-   "beginnerWhy": "Brak danych o dystansie: sprawdź regulamin."
+   "beginnerScore": 3,
+   "beginnerWhy": "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed decyzją."
   },
   {
    "name": "2. Puchar KALWARII 2026: Janowiec",
@@ -1432,8 +1432,8 @@
    "surface": "trail",
    "minKm": 0,
    "maxKm": 0,
-   "beginnerScore": 2,
-   "beginnerWhy": "Brak danych o dystansie: sprawdź regulamin."
+   "beginnerScore": 3,
+   "beginnerWhy": "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed decyzją."
   },
   {
    "name": "VIII Festiwal Pieszo-Biegowy PRZEDWIOŚNIE",
@@ -3771,8 +3771,8 @@
    "surface": "gorski",
    "minKm": 0,
    "maxKm": 0,
-   "beginnerScore": 2,
-   "beginnerWhy": "Brak danych o dystansie: sprawdź regulamin."
+   "beginnerScore": 3,
+   "beginnerWhy": "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed decyzją."
   },
   {
    "name": "Dolnośląski Festiwal Biegów Górskich (DFBG): Bieg 7 Szczytów 240 Sto Mil Trail 170 Super Trail 130 K-B-L 110 Ultra Trail 70 Złoty Maraton 45 Golden Mountains Trail 33 Złoty Półmaraton 21 Nocny Trail 15 Trojak Trail 10",
@@ -3904,8 +3904,8 @@
    "surface": "trail",
    "minKm": 0,
    "maxKm": 0,
-   "beginnerScore": 2,
-   "beginnerWhy": "Brak danych o dystansie: sprawdź regulamin."
+   "beginnerScore": 3,
+   "beginnerWhy": "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed decyzją."
   },
   {
    "name": "VII Bieg Górski o ZŁOTĄ PAPROĆ Prezesa Firmy JONIEC®",
@@ -5097,8 +5097,8 @@
    "surface": "gorski",
    "minKm": 0,
    "maxKm": 0,
-   "beginnerScore": 2,
-   "beginnerWhy": "Brak danych o dystansie: sprawdź regulamin."
+   "beginnerScore": 3,
+   "beginnerWhy": "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed decyzją."
   },
   {
    "name": "X-RUN Vistula Trail",
@@ -5576,7 +5576,7 @@
     }
    ],
    "signupOpen": true,
-   "participants": 227,
+   "participants": 228,
    "id": "festiwal-biegowy-jurarun-2026-10-02",
    "surface": "trail",
    "minKm": 5,
@@ -6784,8 +6784,8 @@
    "surface": "trail",
    "minKm": 0,
    "maxKm": 0,
-   "beginnerScore": 2,
-   "beginnerWhy": "Brak danych o dystansie: sprawdź regulamin."
+   "beginnerScore": 3,
+   "beginnerWhy": "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed decyzją."
   },
   {
    "name": "XV Grand Prix Krakowa w biegach górskich",
