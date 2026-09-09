@@ -20,6 +20,8 @@ export type Race = {
   sources: { name: string; url: string }[];
   beginnerScore: number; // 1-5, 5 = idealny pierwszy
   beginnerWhy: string;
+  regulaminUrl?: string; // regulamin zawodów (pdf/html), znaleziony automatycznie
+  gear?: string[]; // sprzęt obowiązkowy wyciągnięty z regulaminu (heurystyka)
   signupOpen?: boolean;
   participants?: number;
 };

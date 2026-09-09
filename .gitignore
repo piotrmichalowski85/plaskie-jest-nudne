@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# lokalny cache tekstów regulaminów (nie publikujemy cudzych tekstów)
+data/.regulaminy_text/

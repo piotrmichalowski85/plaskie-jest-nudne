@@ -1,0 +1,1791 @@
+{
+ "https://b4sportonline.pl/roza_wiatrow/": {
+  "regulaminUrl": "https://b4sportonline.pl/users-folder/1407/files/802489143502b8c58bdf94148fc45d9d7fc5f.pdf",
+  "distances": [
+   {
+    "km": 5
+   },
+   {
+    "km": 10
+   }
+  ],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:00.848Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.272Z"
+ },
+ "https://ultrarace.pl/radkow/": {
+  "regulaminUrl": "https://ultrarace.pl/radkow/regulamin-radkow/",
+  "distances": [
+   {
+    "km": 11
+   },
+   {
+    "km": 24
+   },
+   {
+    "km": 57
+   },
+   {
+    "km": 78
+   },
+   {
+    "km": 80
+   },
+   {
+    "km": 81
+   },
+   {
+    "km": 101
+   }
+  ],
+  "limits": [
+   {
+    "km": 78,
+    "limitH": 15
+   },
+   {
+    "km": 57,
+    "limitH": 10
+   },
+   {
+    "km": 24,
+    "limitH": 5
+   },
+   {
+    "km": 11,
+    "limitH": 2
+   }
+  ],
+  "gear": [
+   "folia NRC",
+   "bidon lub kubek",
+   "naładowany telefon",
+   "gwizdek",
+   "czołówka lub latarka (78 km)",
+   "dowód osobisty lub paszport",
+   "gotówka min. 50 zł"
+  ],
+  "fetchedAt": "2026-09-09T17:04:01.401Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://utm.run/pl/szczebel_cup/": {
+  "regulaminUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
+  "distances": [
+   {
+    "km": 21
+   }
+  ],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:00.801Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://janosikraceseries.com/janosikultrarace/": {
+  "regulaminUrl": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/",
+  "distances": [],
+  "limits": [
+   {
+    "km": 4,
+    "limitH": 4
+   },
+   {
+    "km": 13,
+    "limitH": 6
+   },
+   {
+    "km": 33,
+    "limitH": 8
+   },
+   {
+    "km": 15,
+    "limitH": 5
+   },
+   {
+    "km": 22,
+    "limitH": 10
+   },
+   {
+    "km": 39,
+    "limitH": 12
+   },
+   {
+    "km": 50,
+    "limitH": 14
+   },
+   {
+    "km": 56,
+    "limitH": 16
+   },
+   {
+    "km": 68,
+    "limitH": 17
+   }
+  ],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:00.427Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://www.biegigorskiesanok.pl/": {
+  "regulaminUrl": "https://www.biegigorskiesanok.pl/regulamin/",
+  "distances": [
+   {
+    "km": 26
+   },
+   {
+    "km": 50
+   }
+  ],
+  "limits": [
+   {
+    "km": 5,
+    "limitH": 1
+   },
+   {
+    "km": 10,
+    "limitH": 3
+   },
+   {
+    "km": 26,
+    "limitH": 6
+   },
+   {
+    "km": 50,
+    "limitH": 10
+   },
+   {
+    "km": 30,
+    "limitH": 6
+   },
+   {
+    "km": 100,
+    "limitH": 26
+   },
+   {
+    "km": 20,
+    "limitH": 4
+   },
+   {
+    "km": 40,
+    "limitH": 8
+   },
+   {
+    "km": 60,
+    "limitH": 15
+   },
+   {
+    "km": 80,
+    "limitH": 20
+   },
+   {
+    "km": 170,
+    "limitH": 40
+   },
+   {
+    "km": 25,
+    "limitH": 5
+   },
+   {
+    "km": 35,
+    "limitH": 10
+   },
+   {
+    "km": 73,
+    "limitH": 20
+   },
+   {
+    "km": 97,
+    "limitH": 26
+   },
+   {
+    "km": 120,
+    "limitH": 31
+   },
+   {
+    "km": 140,
+    "limitH": 35
+   },
+   {
+    "km": 147,
+    "limitH": 37
+   },
+   {
+    "km": 22,
+    "limitH": 4
+   },
+   {
+    "km": 42,
+    "limitH": 8
+   },
+   {
+    "km": 52,
+    "limitH": 16
+   },
+   {
+    "km": 81,
+    "limitH": 21
+   },
+   {
+    "km": 102,
+    "limitH": 26
+   },
+   {
+    "km": 121,
+    "limitH": 31
+   },
+   {
+    "km": 141,
+    "limitH": 36
+   },
+   {
+    "km": 155,
+    "limitH": 41
+   },
+   {
+    "km": 172,
+    "limitH": 46
+   },
+   {
+    "km": 189,
+    "limitH": 51
+   },
+   {
+    "km": 209,
+    "limitH": 56
+   }
+  ],
+  "gear": [
+   "naładowany telefon",
+   "kubek lub bidon",
+   "folia NRC (od 26 km)",
+   "plecak lub nerka na sprzęt (od 26 km)",
+   "pojemnik na wodę 0,5 l (26 km) lub 1 l (od 50 km)",
+   "czołówka lub latarka (od 100 km)",
+   "gwizdek (od 100 km)",
+   "kurtka wiatro- i wodoodporna z długim rękawem (od 100 km)",
+   "czapka lub chusta (od 100 km)",
+   "zegarek lub urządzenie ze śladem GPX (od 100 km)",
+   "mapa trasy (od 100 km)",
+   "gotówka min. 50 zł (od 100 km)",
+   "dokument tożsamości (od 100 km)"
+  ],
+  "fetchedAt": "2026-09-09T17:04:02.705Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://tamizpowrotem.eu/": {
+  "regulaminUrl": "https://tamizpowrotem.eu/wp-content/uploads/2026/06/Regulamin_TIZP_2026.pdf",
+  "distances": [
+   {
+    "km": 5
+   },
+   {
+    "km": 13
+   },
+   {
+    "km": 32
+   },
+   {
+    "km": 46
+   },
+   {
+    "km": 77
+   }
+  ],
+  "limits": [
+   {
+    "km": 77,
+    "limitH": 26
+   },
+   {
+    "km": 46,
+    "limitH": 15
+   },
+   {
+    "km": 32,
+    "limitH": 10
+   },
+   {
+    "km": 13,
+    "limitH": 5
+   },
+   {
+    "km": 5,
+    "limitH": 3
+   }
+  ],
+  "gear": [
+   "telefon z aplikacją Ratunek lub numerem GOPR",
+   "dowód osobisty",
+   "kubek na punkty żywieniowe",
+   "folia NRC (od 13 km)",
+   "czołówka lub latarka z zapasem baterii (od 32 km)"
+  ],
+  "fetchedAt": "2026-09-09T17:04:01.685Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://biegnakasprowy.pl/biegnakasprowy/": {
+  "regulaminUrl": "https://biegnakasprowy.pl/biegnakasprowy/regulamin",
+  "distances": [
+   {
+    "km": 8.7
+   }
+  ],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:02.150Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://my.raceresult.com/415822/": {
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:02:12.306Z",
+  "visited": 1
+ },
+ "https://turystyka.glucholazy.pl/8848/1138/komunikat.html": {
+  "regulaminUrl": "https://turystyka.glucholazy.pl/download/attachment/24767/regulamin.pdf?v=1775550054",
+  "distances": [
+   {
+    "km": 5,
+    "limitH": 1
+   },
+   {
+    "km": 10,
+    "limitH": 2
+   },
+   {
+    "km": 15,
+    "limitH": 3
+   }
+  ],
+  "limits": [
+   {
+    "km": 5,
+    "limitH": 1
+   },
+   {
+    "km": 10,
+    "limitH": 2
+   },
+   {
+    "km": 15,
+    "limitH": 3
+   }
+  ],
+  "gear": [
+   "obuwie terenowe"
+  ],
+  "fetchedAt": "2026-09-09T17:04:02.600Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://www.maraton3jezior.com/": {
+  "regulaminUrl": "https://www.maraton3jezior.com/regulamin/",
+  "distances": [
+   {
+    "km": 3.5
+   },
+   {
+    "km": 17
+   },
+   {
+    "km": 21
+   },
+   {
+    "km": 21.6
+   },
+   {
+    "km": 42.8
+   },
+   {
+    "km": 43
+   },
+   {
+    "km": 63
+   }
+  ],
+  "limits": [
+   {
+    "km": 43,
+    "limitH": 10
+   },
+   {
+    "km": 21,
+    "limitH": 6
+   }
+  ],
+  "gear": [
+   "naładowany telefon z numerami organizatora i GOPR, aplikacja Ratunek",
+   "pojemnik na napój min. 0,5 l",
+   "folia NRC min. 140 x 100 cm",
+   "dokument tożsamości",
+   "bandaż elastyczny",
+   "kurtka przeciwdeszczowa z kapturem",
+   "nakrycie głowy",
+   "drugi pojemnik wielorazowy (43 km)",
+   "Czupel Vertical: tylko dokument tożsamości"
+  ],
+  "fetchedAt": "2026-09-09T17:04:02.607Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://www.bgtimesport.pl/zawody/info/id/870": {
+  "organizerUrl": "https://www.traseo.pl/trasa/bieg-na-blatnia-o-puchar-dowodcy-jw-agat-plk-michala-polaszka",
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:02:12.796Z",
+  "visited": 5
+ },
+ "https://www.kbsobotka.pl/slezanski-festiwal-biegowy/": {
+  "regulaminUrl": "https://www.kbsobotka.pl/slezanski-festiwal-biegowy/regulamin/",
+  "distances": [
+   {
+    "km": 10.5,
+    "dplus": 450
+   },
+   {
+    "km": 23,
+    "dplus": 1000
+   },
+   {
+    "km": 43,
+    "dplus": 1750
+   }
+  ],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:04.774Z",
+  "visited": 3,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://jurarun.pl/": {
+  "organizerUrl": "https://www.katowice.uw.gov.pl/",
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:02:14.781Z",
+  "visited": 6
+ },
+ "https://b4sportonline.pl/przehyba_trail/": {
+  "regulaminUrl": "https://b4sportonline.pl/users-folder/741/files/regulamin_Przehyba_Trail_2026.pdf",
+  "distances": [
+   {
+    "km": 23
+   },
+   {
+    "km": 33
+   },
+   {
+    "km": 43
+   }
+  ],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:03.052Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://bisonultratrail.pl/": {
+  "regulaminUrl": "https://www.kingrunner.com/artykul/regulamin---korona-polskich-ultramaratonow-30/1109",
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:03.189Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://www.maratonbieszczadzki.pl/": {
+  "regulaminUrl": "https://biegpolesie.pl/wp-content/uploads/2024/10/IX-Bieg-Polesie-regulamin-2019.pdf",
+  "organizerUrl": "http://www.biegpolesie.pl/",
+  "distances": [
+   {
+    "km": 47
+   }
+  ],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:08.780Z",
+  "visited": 9,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://ultrakotlina.pl/": {
+  "regulaminUrl": "https://ultrakotlina.pl/regulamin/",
+  "distances": [
+   {
+    "km": 15,
+    "dplus": 724
+   },
+   {
+    "km": 35,
+    "dplus": 1309
+   },
+   {
+    "km": 58,
+    "dplus": 2118
+   },
+   {
+    "km": 82,
+    "dplus": 2908
+   },
+   {
+    "km": 108,
+    "dplus": 3850
+   },
+   {
+    "km": 144,
+    "dplus": 5541
+   }
+  ],
+  "limits": [
+   {
+    "km": 93,
+    "limitH": 30
+   },
+   {
+    "km": 126,
+    "limitH": 15
+   },
+   {
+    "km": 65,
+    "limitH": 10
+   },
+   {
+    "km": 40,
+    "limitH": 6
+   },
+   {
+    "km": 24,
+    "limitH": 3
+   },
+   {
+    "km": 7,
+    "limitH": 23
+   }
+  ],
+  "gear": [
+   "telefon z numerami GOPR i organizatora",
+   "dowód osobisty",
+   "min. 1000 ml wody lub napoju",
+   "wgrany ślad GPX",
+   "folia NRC",
+   "latarka lub czołówka z zapasem baterii",
+   "czerwona lampka i odblask z tyłu",
+   "kurtka wiatro- i wodoodporna",
+   "druga warstwa z długim rękawem",
+   "legginsy lub długie spodnie",
+   "przekąska (żel lub baton)",
+   "bidon lub kubek wielokrotnego użytku",
+   "ubezpieczenie NNW ważne w Czechach (140 km)"
+  ],
+  "fetchedAt": "2026-09-09T17:04:04.921Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://my.raceresult.com/392481/": {
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:02:20.473Z",
+  "visited": 1
+ },
+ "https://janosikraceseries.com/roztoczeultrarace/": {
+  "regulaminUrl": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/",
+  "distances": [],
+  "limits": [
+   {
+    "km": 4,
+    "limitH": 4
+   },
+   {
+    "km": 13,
+    "limitH": 6
+   },
+   {
+    "km": 33,
+    "limitH": 8
+   },
+   {
+    "km": 15,
+    "limitH": 5
+   },
+   {
+    "km": 22,
+    "limitH": 10
+   },
+   {
+    "km": 39,
+    "limitH": 12
+   },
+   {
+    "km": 50,
+    "limitH": 14
+   },
+   {
+    "km": 56,
+    "limitH": 16
+   },
+   {
+    "km": 68,
+    "limitH": 17
+   }
+  ],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:05.271Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://aktywnakorczyna.pl/": {
+  "organizerUrl": "https://outstandingthemes.com/",
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:02:22.009Z",
+  "visited": 2
+ },
+ "https://xrun.pl/wielki-final-2026/": {
+  "regulaminUrl": "https://xrun.pl/regulamin/",
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:10.711Z",
+  "visited": 3,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://xrun.pl/vistula-trail-2026/": {
+  "regulaminUrl": "https://xrun.pl/regulamin",
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:12.222Z",
+  "visited": 4,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://b4sportonline.pl/sfb2026/": {
+  "regulaminUrl": "https://b4sportonline.pl/users-folder/1417/files/regulamin_sfb_2026.pdf",
+  "distances": [
+   {
+    "km": 7
+   },
+   {
+    "km": 15
+   },
+   {
+    "km": 30
+   },
+   {
+    "km": 55
+   },
+   {
+    "km": 84
+   }
+  ],
+  "limits": [],
+  "gear": [
+   "dokument tożsamości",
+   "aktywny telefon",
+   "urządzenie GPS z wgraną trasą",
+   "własny kubeczek lub flask",
+   "folia NRC",
+   "pojemnik na wodę min. 1 l",
+   "kurtka wiatro- i wodoodporna z długim rękawem"
+  ],
+  "fetchedAt": "2026-09-09T17:04:07.664Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://pomeraniatrail.pl/": {
+  "regulaminUrl": "https://pomeraniatrail.pl/wp-content/uploads/2025/11/REGULAMIN-COCONAUT-POMERANIA-ULTRA-TRAIL-2026.pdf",
+  "distances": [
+   {
+    "km": 11
+   },
+   {
+    "km": 21
+   },
+   {
+    "km": 42
+   },
+   {
+    "km": 65
+   },
+   {
+    "km": 100
+   }
+  ],
+  "limits": [
+   {
+    "km": 11,
+    "limitH": 2
+   },
+   {
+    "km": 100,
+    "limitH": 16
+   },
+   {
+    "km": 65,
+    "limitH": 12
+   },
+   {
+    "km": 42,
+    "limitH": 8.5
+   },
+   {
+    "km": 21,
+    "limitH": 4
+   }
+  ],
+  "gear": [
+   "dowód osobisty lub paszport",
+   "latarka czołowa (od 65 km)",
+   "folia NRC min. 140 x 200 cm",
+   "aktywny telefon",
+   "bukłak, bidon lub softflask min. 1 l",
+   "kubek na wodę",
+   "tracker GPS z biura zawodów (100 km)",
+   "plecak, kamizelka lub pas biegowy",
+   "czapka lub chusta wielofunkcyjna"
+  ],
+  "fetchedAt": "2026-09-09T17:04:07.245Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://www.facebook.com/MarszobiegNaCzantorie": {
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:02:24.413Z",
+  "visited": 1
+ },
+ "https://janosikraceseries.com/smok/": {
+  "regulaminUrl": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/",
+  "distances": [],
+  "limits": [
+   {
+    "km": 4,
+    "limitH": 4
+   },
+   {
+    "km": 13,
+    "limitH": 6
+   },
+   {
+    "km": 33,
+    "limitH": 8
+   },
+   {
+    "km": 15,
+    "limitH": 5
+   },
+   {
+    "km": 22,
+    "limitH": 10
+   },
+   {
+    "km": 39,
+    "limitH": 12
+   },
+   {
+    "km": 50,
+    "limitH": 14
+   },
+   {
+    "km": 56,
+    "limitH": 16
+   },
+   {
+    "km": 68,
+    "limitH": 17
+   }
+  ],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:07.896Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://bieggorski.pl/": {
+  "regulaminUrl": "https://bieggorski.pl/regulamin/",
+  "distances": [
+   {
+    "km": 7
+   },
+   {
+    "km": 7.6
+   },
+   {
+    "km": 23.9
+   },
+   {
+    "km": 24
+   }
+  ],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:08.038Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://biegajwgorachsowich.pl/Gorski_Bieg_Niepodleglosci": {
+  "regulaminUrl": "https://biegajwgorachsowich.pl/lib/vv3wnq/14-GBN-regulamin-msyk9hiv.pdf",
+  "distances": [
+   {
+    "km": 10,
+    "dplus": 300
+   }
+  ],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:08.207Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://www.biegzboja.pl/": {
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:02:25.209Z",
+  "visited": 2
+ },
+ "https://jaskiniowy.pl/borowkowa-trail/": {
+  "regulaminUrl": "http://jaskiniowy.pl/regulamin-biegu-jaskiniowego-niedzwiedzia/",
+  "distances": [
+   {
+    "km": 10
+   }
+  ],
+  "limits": [],
+  "gear": [
+   "pojemnik na wodę (kubek, bidon, softflask)",
+   "dowód osobisty (nie dotyczy 10 km)",
+   "naładowany telefon z numerem organizatora i GOPR"
+  ],
+  "fetchedAt": "2026-09-09T17:04:08.791Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://biegajwgorachsowich.pl/orzel-i-trzynastka": {
+  "regulaminUrl": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026-msyirv8m.pdf",
+  "distances": [
+   {
+    "km": 6
+   },
+   {
+    "km": 9
+   },
+   {
+    "km": 13
+   },
+   {
+    "km": 17
+   },
+   {
+    "km": 22
+   }
+  ],
+  "limits": [
+   {
+    "km": 9,
+    "limitH": 3
+   }
+  ],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:08.935Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://b4sportonline.pl/ultra_swir/": {
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:02:26.463Z",
+  "visited": 4
+ },
+ "https://beskidzkiegronie.pl/": {
+  "regulaminUrl": "https://web.sportcrm.pl/pliki/beskidzkiegronie/zalacznikiartykulow/60/19746/Regulamin%20V%20Beskidzkie%20Gr%C3%B3nie%20Lato%202026.pdf",
+  "distances": [
+   {
+    "km": 15
+   },
+   {
+    "km": 16
+   },
+   {
+    "km": 40
+   }
+  ],
+  "limits": [],
+  "gear": [
+   "telefon z baterią na cały rajd",
+   "folia NRC",
+   "kurtka wiatrochronna z kapturem",
+   "ubranie na warunki górskie",
+   "gwizdek",
+   "obuwie do długich marszów",
+   "bandaż elastyczny",
+   "aplikacja Ratunek"
+  ],
+  "fetchedAt": "2026-09-09T17:04:09.453Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://www.biegbeskidnika.powiat.jaslo.pl/": {
+  "organizerUrl": "https://edexbron.pl/",
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:02:28.101Z",
+  "visited": 12
+ },
+ "https://ultrarace.pl/gdansk/": {
+  "regulaminUrl": "https://ultrarace.pl/gdansk/regulamin-gdansk/",
+  "distances": [],
+  "limits": [
+   {
+    "km": 101,
+    "limitH": 17
+   },
+   {
+    "km": 53,
+    "limitH": 10
+   },
+   {
+    "km": 27,
+    "limitH": 5
+   },
+   {
+    "km": 12,
+    "limitH": 2
+   },
+   {
+    "km": 6,
+    "limitH": 1
+   },
+   {
+    "km": 78,
+    "limitH": 15
+   },
+   {
+    "km": 48,
+    "limitH": 10
+   },
+   {
+    "km": 13,
+    "limitH": 2
+   },
+   {
+    "km": 81,
+    "limitH": 15
+   },
+   {
+    "km": 55,
+    "limitH": 10
+   },
+   {
+    "km": 26,
+    "limitH": 5
+   },
+   {
+    "km": 80,
+    "limitH": 15
+   },
+   {
+    "km": 56,
+    "limitH": 10
+   },
+   {
+    "km": 24,
+    "limitH": 5
+   },
+   {
+    "km": 11,
+    "limitH": 2
+   },
+   {
+    "km": 84,
+    "limitH": 15
+   }
+  ],
+  "gear": [
+   "folia NRC",
+   "bidon lub kubek",
+   "naładowany telefon",
+   "gwizdek",
+   "czołówka lub latarka",
+   "dowód osobisty lub paszport",
+   "naładowany powerbank (101 km)",
+   "kurtka przeciwdeszczowa (101 km)",
+   "gotówka min. 50 zł"
+  ],
+  "fetchedAt": "2026-09-09T17:04:09.980Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://krakowbiega.pl/": {
+  "organizerUrl": "https://flousport.com/",
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:02:33.831Z",
+  "visited": 10
+ },
+ "https://utm.run/pl/winter-trail-malopolska/": {
+  "regulaminUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
+  "distances": [
+   {
+    "km": 21
+   }
+  ],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:11.161Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://kandahar.pl/13-jesienny-bieg-potrojnej/": {
+  "organizerUrl": "https://pza.org.pl/",
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:02:29.408Z",
+  "visited": 7
+ },
+ "https://perlymalopolski.pl/rabka-zdroj/": {
+  "regulaminUrl": "https://perlymalopolski.pl/wp-content/uploads/2026/02/RABKA_PERE%C5%81KI-2026-REGULAMIN.docx.pdf",
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:10.393Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://www.zamiec.pl/": {
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:02:29.848Z",
+  "visited": 1
+ },
+ "https://b4sportonline.pl/turbacz_trail/": {
+  "organizerUrl": "https://www.nowytarg.pl/",
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:02:31.996Z",
+  "visited": 9
+ },
+ "https://malopolskabiega.com.pl/": {
+  "regulaminUrl": "https://malopolskabiega.com.pl/regulamin-ultra/",
+  "distances": [
+   {
+    "km": 10
+   },
+   {
+    "km": 15
+   },
+   {
+    "km": 23
+   },
+   {
+    "km": 43
+   }
+  ],
+  "limits": [
+   {
+    "km": 43,
+    "limitH": 3
+   },
+   {
+    "km": 10,
+    "limitH": 2
+   }
+  ],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:10.472Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://elektronicznezapisy.pl/event/14693/strona.html": {
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:02:33.050Z",
+  "visited": 1
+ },
+ "https://elektronicznezapisy.pl/event/14899/strona.html": {
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:02:33.192Z",
+  "visited": 2
+ },
+ "https://b4sportonline.pl/suszecki_festiwal/": {
+  "regulaminUrl": "https://b4sportonline.pl/suszecki_festiwal/regulamin",
+  "distances": [
+   {
+    "km": 5
+   }
+  ],
+  "limits": [
+   {
+    "km": 5,
+    "limitH": 1
+   },
+   {
+    "km": 10,
+    "limitH": 1
+   }
+  ],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:11.084Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://ultralemkowyna.pl/": {
+  "organizerUrl": "http://www.petzl.com/",
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:02:36.586Z",
+  "visited": 5
+ },
+ "https://ultrarace.pl/radkow": {
+  "regulaminUrl": "https://ultrarace.pl/radkow/regulamin-radkow/",
+  "distances": [
+   {
+    "km": 11
+   },
+   {
+    "km": 24
+   },
+   {
+    "km": 57
+   },
+   {
+    "km": 78
+   },
+   {
+    "km": 80
+   },
+   {
+    "km": 81
+   },
+   {
+    "km": 101
+   }
+  ],
+  "limits": [
+   {
+    "km": 78,
+    "limitH": 15
+   },
+   {
+    "km": 57,
+    "limitH": 10
+   },
+   {
+    "km": 24,
+    "limitH": 5
+   },
+   {
+    "km": 11,
+    "limitH": 2
+   }
+  ],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:12.370Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://janosikraceseries.com/janosikultrarace": {
+  "regulaminUrl": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/",
+  "distances": [],
+  "limits": [
+   {
+    "km": 4,
+    "limitH": 4
+   },
+   {
+    "km": 13,
+    "limitH": 6
+   },
+   {
+    "km": 33,
+    "limitH": 8
+   },
+   {
+    "km": 15,
+    "limitH": 5
+   },
+   {
+    "km": 22,
+    "limitH": 10
+   },
+   {
+    "km": 39,
+    "limitH": 12
+   },
+   {
+    "km": 50,
+    "limitH": 14
+   },
+   {
+    "km": 56,
+    "limitH": 16
+   },
+   {
+    "km": 68,
+    "limitH": 17
+   }
+  ],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:11.436Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "http://www.biegigorskiesanok.pl": {
+  "regulaminUrl": "https://www.biegigorskiesanok.pl/regulamin/",
+  "distances": [
+   {
+    "km": 26
+   },
+   {
+    "km": 50
+   }
+  ],
+  "limits": [
+   {
+    "km": 5,
+    "limitH": 1
+   },
+   {
+    "km": 10,
+    "limitH": 3
+   },
+   {
+    "km": 26,
+    "limitH": 6
+   },
+   {
+    "km": 50,
+    "limitH": 10
+   },
+   {
+    "km": 30,
+    "limitH": 6
+   },
+   {
+    "km": 100,
+    "limitH": 26
+   },
+   {
+    "km": 20,
+    "limitH": 4
+   },
+   {
+    "km": 40,
+    "limitH": 8
+   },
+   {
+    "km": 60,
+    "limitH": 15
+   },
+   {
+    "km": 80,
+    "limitH": 20
+   },
+   {
+    "km": 170,
+    "limitH": 40
+   },
+   {
+    "km": 25,
+    "limitH": 5
+   },
+   {
+    "km": 35,
+    "limitH": 10
+   },
+   {
+    "km": 73,
+    "limitH": 20
+   },
+   {
+    "km": 97,
+    "limitH": 26
+   },
+   {
+    "km": 120,
+    "limitH": 31
+   },
+   {
+    "km": 140,
+    "limitH": 35
+   },
+   {
+    "km": 147,
+    "limitH": 37
+   },
+   {
+    "km": 22,
+    "limitH": 4
+   },
+   {
+    "km": 42,
+    "limitH": 8
+   },
+   {
+    "km": 52,
+    "limitH": 16
+   },
+   {
+    "km": 81,
+    "limitH": 21
+   },
+   {
+    "km": 102,
+    "limitH": 26
+   },
+   {
+    "km": 121,
+    "limitH": 31
+   },
+   {
+    "km": 141,
+    "limitH": 36
+   },
+   {
+    "km": 155,
+    "limitH": 41
+   },
+   {
+    "km": 172,
+    "limitH": 46
+   },
+   {
+    "km": 189,
+    "limitH": 51
+   },
+   {
+    "km": 209,
+    "limitH": 56
+   }
+  ],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:13.507Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://maratonbieszczadzki.pl/": {
+  "regulaminUrl": "https://biegpolesie.pl/wp-content/uploads/2024/10/IX-Bieg-Polesie-regulamin-2019.pdf",
+  "organizerUrl": "http://www.biegpolesie.pl/",
+  "distances": [
+   {
+    "km": 47
+   }
+  ],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:15.986Z",
+  "visited": 9,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://www.maraton3jezior.com": {
+  "regulaminUrl": "https://www.maraton3jezior.com/regulamin/",
+  "distances": [
+   {
+    "km": 3.5
+   },
+   {
+    "km": 17
+   },
+   {
+    "km": 21
+   },
+   {
+    "km": 21.6
+   },
+   {
+    "km": 42.8
+   },
+   {
+    "km": 43
+   },
+   {
+    "km": 63
+   }
+  ],
+  "limits": [
+   {
+    "km": 43,
+    "limitH": 10
+   },
+   {
+    "km": 21,
+    "limitH": 6
+   }
+  ],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:13.029Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://biegrzeznika.pl/": {
+  "organizerUrl": "https://b4sportonline.pl/Rzeznicki_Festiwal_Biegowy/",
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:02:42.073Z",
+  "visited": 9
+ },
+ "https://www.biegrzeznika.pl/": {
+  "organizerUrl": "https://b4sportonline.pl/Rzeznicki_Festiwal_Biegowy/",
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:02:42.083Z",
+  "visited": 9
+ },
+ "https://jurarun.pl": {
+  "organizerUrl": "https://www.katowice.uw.gov.pl/",
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:02:42.335Z",
+  "visited": 6
+ },
+ "https://bisonultratrail.pl": {
+  "regulaminUrl": "https://www.kingrunner.com/artykul/regulamin---korona-polskich-ultramaratonow-30/1109",
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:13.524Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://janosikraceseries.com/roztoczeultrarace": {
+  "regulaminUrl": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/",
+  "distances": [],
+  "limits": [
+   {
+    "km": 4,
+    "limitH": 4
+   },
+   {
+    "km": 13,
+    "limitH": 6
+   },
+   {
+    "km": 33,
+    "limitH": 8
+   },
+   {
+    "km": 15,
+    "limitH": 5
+   },
+   {
+    "km": 22,
+    "limitH": 10
+   },
+   {
+    "km": 39,
+    "limitH": 12
+   },
+   {
+    "km": 50,
+    "limitH": 14
+   },
+   {
+    "km": 56,
+    "limitH": 16
+   },
+   {
+    "km": 68,
+    "limitH": 17
+   }
+  ],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:13.340Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "http://www.baranrace.pl": {
+  "regulaminUrl": "https://b4sportonline.pl/users-folder/1253/files/305225445da34133c7f7b1d6d05ecae988bd5.pdf",
+  "organizerUrl": "https://b4sportonline.pl/baran_trail_race/",
+  "distances": [
+   {
+    "km": 11
+   }
+  ],
+  "limits": [
+   {
+    "km": 25,
+    "limitH": 5
+   },
+   {
+    "km": 52,
+    "limitH": 11
+   }
+  ],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:13.102Z",
+  "visited": 4,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "http://ultrakotlina.pl": {
+  "regulaminUrl": "https://ultrakotlina.pl/regulamin/",
+  "distances": [
+   {
+    "km": 15,
+    "dplus": 724
+   },
+   {
+    "km": 35,
+    "dplus": 1309
+   },
+   {
+    "km": 58,
+    "dplus": 2118
+   },
+   {
+    "km": 82,
+    "dplus": 2908
+   },
+   {
+    "km": 108,
+    "dplus": 3850
+   },
+   {
+    "km": 144,
+    "dplus": 5541
+   }
+  ],
+  "limits": [
+   {
+    "km": 93,
+    "limitH": 30
+   },
+   {
+    "km": 126,
+    "limitH": 15
+   },
+   {
+    "km": 65,
+    "limitH": 10
+   },
+   {
+    "km": 40,
+    "limitH": 6
+   },
+   {
+    "km": 24,
+    "limitH": 3
+   },
+   {
+    "km": 7,
+    "limitH": 23
+   }
+  ],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:13.553Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "http://www.ultralemkowyna.pl/trasy/lemkowyna-ultra-trail-70": {
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:02:42.971Z",
+  "visited": 1
+ },
+ "https://www.facebook.com/events/970185795820598": {
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:02:43.228Z",
+  "visited": 1
+ },
+ "https://janosikraceseries.com/smok": {
+  "regulaminUrl": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/",
+  "distances": [],
+  "limits": [
+   {
+    "km": 4,
+    "limitH": 4
+   },
+   {
+    "km": 13,
+    "limitH": 6
+   },
+   {
+    "km": 33,
+    "limitH": 8
+   },
+   {
+    "km": 15,
+    "limitH": 5
+   },
+   {
+    "km": 22,
+    "limitH": 10
+   },
+   {
+    "km": 39,
+    "limitH": 12
+   },
+   {
+    "km": 50,
+    "limitH": 14
+   },
+   {
+    "km": 56,
+    "limitH": 16
+   },
+   {
+    "km": 68,
+    "limitH": 17
+   }
+  ],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:13.655Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "https://ultrarace.pl/gdansk": {
+  "regulaminUrl": "https://ultrarace.pl/gdansk/regulamin-gdansk/",
+  "distances": [],
+  "limits": [
+   {
+    "km": 101,
+    "limitH": 17
+   },
+   {
+    "km": 53,
+    "limitH": 10
+   },
+   {
+    "km": 27,
+    "limitH": 5
+   },
+   {
+    "km": 12,
+    "limitH": 2
+   },
+   {
+    "km": 6,
+    "limitH": 1
+   },
+   {
+    "km": 78,
+    "limitH": 15
+   },
+   {
+    "km": 48,
+    "limitH": 10
+   },
+   {
+    "km": 13,
+    "limitH": 2
+   },
+   {
+    "km": 81,
+    "limitH": 15
+   },
+   {
+    "km": 55,
+    "limitH": 10
+   },
+   {
+    "km": 26,
+    "limitH": 5
+   },
+   {
+    "km": 80,
+    "limitH": 15
+   },
+   {
+    "km": 56,
+    "limitH": 10
+   },
+   {
+    "km": 24,
+    "limitH": 5
+   },
+   {
+    "km": 11,
+    "limitH": 2
+   },
+   {
+    "km": 84,
+    "limitH": 15
+   }
+  ],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:04:14.794Z",
+  "visited": 2,
+  "gearSource": "llm",
+  "gearAt": "2026-09-09T17:07:23.273Z"
+ },
+ "http://www.ultralemkowyna.pl": {
+  "organizerUrl": "http://www.petzl.com/",
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:02:44.771Z",
+  "visited": 5
+ },
+ "https://www.biegbeskidnika.powiat.jaslo.pl": {
+  "organizerUrl": "https://edexbron.pl/",
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:02:48.453Z",
+  "visited": 12
+ }
+}

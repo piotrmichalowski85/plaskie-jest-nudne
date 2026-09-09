@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-09T12:43:46.213Z",
+ "generatedAt": "2026-09-09T17:07:44.416Z",
  "count": 180,
  "races": [
   {
@@ -700,7 +700,7 @@
    ],
    "vertical": false,
    "category": "12km-Kat.M 22km-Kat.M 48km-Kat.M",
-   "url": "https://b4sportonline.pl/turbacz_trail/",
+   "url": "https://www.nowytarg.pl/",
    "sources": [
     {
      "name": "biegigorskie.pl",
@@ -1608,7 +1608,22 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://web.sportcrm.pl/pliki/beskidzkiegronie/zalacznikiartykulow/60/19746/Regulamin%20V%20Beskidzkie%20Gr%C3%B3nie%20Lato%202026.pdf"
     }
+   ],
+   "regulaminUrl": "https://web.sportcrm.pl/pliki/beskidzkiegronie/zalacznikiartykulow/60/19746/Regulamin%20V%20Beskidzkie%20Gr%C3%B3nie%20Lato%202026.pdf",
+   "gear": [
+    "telefon z baterią na cały rajd",
+    "folia NRC",
+    "kurtka wiatrochronna z kapturem",
+    "ubranie na warunki górskie",
+    "gwizdek",
+    "obuwie do długich marszów",
+    "bandaż elastyczny",
+    "aplikacja Ratunek"
    ],
    "id": "szczyt-wytrzymalosci-wiosna-2026-04-17",
    "surface": "gorski",
@@ -3503,7 +3518,7 @@
    ],
    "vertical": false,
    "category": "12km-Kat.M 27km-Kat.M 42km-Kat.S",
-   "url": "https://b4sportonline.pl/turbacz_trail/",
+   "url": "https://www.nowytarg.pl/",
    "sources": [
     {
      "name": "biegigorskie.pl",
@@ -4973,16 +4988,20 @@
    ],
    "elevations": [
     {
-     "km": 11
+     "km": 11,
+     "limitH": 2
     },
     {
-     "km": 24
+     "km": 24,
+     "limitH": 5
     },
     {
-     "km": 57
+     "km": 57,
+     "limitH": 10
     },
     {
-     "km": 78
+     "km": 78,
+     "limitH": 15
     },
     {
      "km": 158,
@@ -5003,9 +5022,23 @@
      "url": "https://ultrarace.pl/radkow/"
     },
     {
+     "name": "regulamin",
+     "url": "https://ultrarace.pl/radkow/regulamin-radkow/"
+    },
+    {
      "name": "kingrunner.com",
      "url": "https://www.kingrunner.com/bieg/garmin-ultra-race-radkow---gur11/4221"
     }
+   ],
+   "regulaminUrl": "https://ultrarace.pl/radkow/regulamin-radkow/",
+   "gear": [
+    "folia NRC",
+    "bidon lub kubek",
+    "naładowany telefon",
+    "gwizdek",
+    "czołówka lub latarka (78 km)",
+    "dowód osobisty lub paszport",
+    "gotówka min. 50 zł"
    ],
    "id": "garmin-ultra-race-radkow-2026-09-11",
    "surface": "trail",
@@ -5041,8 +5074,13 @@
     {
      "name": "strona organizatora",
      "url": "https://utm.run/pl/szczebel_cup/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf"
     }
    ],
+   "regulaminUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
    "id": "szczebel-cup-by-ultra-trail-malopolska-2026-09-12",
    "surface": "gorski",
    "minKm": 21,
@@ -5087,8 +5125,13 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://b4sportonline.pl/users-folder/1407/files/802489143502b8c58bdf94148fc45d9d7fc5f.pdf"
     }
    ],
+   "regulaminUrl": "https://b4sportonline.pl/users-folder/1407/files/802489143502b8c58bdf94148fc45d9d7fc5f.pdf",
    "id": "roza-wiatrow-jeziora-mausz-2026-09-12",
    "surface": "przelaj",
    "minKm": 5,
@@ -5132,10 +5175,15 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
+     "name": "regulamin",
+     "url": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/"
+    },
+    {
      "name": "kingrunner.com",
      "url": "https://www.kingrunner.com/bieg/janosik-ultra-race---maryna-%E2%80%93-10-km/4290"
     }
    ],
+   "regulaminUrl": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/",
    "id": "janosik-ultra-race-2026-09-12",
    "surface": "trail",
    "minKm": 10,
@@ -5153,7 +5201,7 @@
    "distancesKm": [],
    "elevations": [],
    "vertical": false,
-   "url": "https://elektronicznezapisy.pl/62/event/14693/strona.html",
+   "url": "https://elektronicznezapisy.pl/event/14693/strona.html",
    "sources": [
     {
      "name": "elektronicznezapisy.pl",
@@ -5202,8 +5250,13 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://xrun.pl/regulamin"
     }
    ],
+   "regulaminUrl": "https://xrun.pl/regulamin",
    "id": "x-run-vistula-trail-2026-09-13",
    "surface": "trail",
    "minKm": 6,
@@ -5229,22 +5282,28 @@
    ],
    "elevations": [
     {
-     "km": 5
+     "km": 5,
+     "limitH": 1
     },
     {
-     "km": 10
+     "km": 10,
+     "limitH": 3
     },
     {
-     "km": 26
+     "km": 26,
+     "limitH": 6
     },
     {
-     "km": 50
+     "km": 50,
+     "limitH": 10
     },
     {
-     "km": 100
+     "km": 100,
+     "limitH": 26
     },
     {
-     "km": 170
+     "km": 170,
+     "limitH": 40
     },
     {
      "km": 270
@@ -5259,9 +5318,29 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
+     "name": "regulamin",
+     "url": "https://www.biegigorskiesanok.pl/regulamin/"
+    },
+    {
      "name": "kingrunner.com",
      "url": "https://www.kingrunner.com/bieg/biegi-gorskie-sanok---piatka-gajowego-5-km/4357"
     }
+   ],
+   "regulaminUrl": "https://www.biegigorskiesanok.pl/regulamin/",
+   "gear": [
+    "naładowany telefon",
+    "kubek lub bidon",
+    "folia NRC (od 26 km)",
+    "plecak lub nerka na sprzęt (od 26 km)",
+    "pojemnik na wodę 0,5 l (26 km) lub 1 l (od 50 km)",
+    "czołówka lub latarka (od 100 km)",
+    "gwizdek (od 100 km)",
+    "kurtka wiatro- i wodoodporna z długim rękawem (od 100 km)",
+    "czapka lub chusta (od 100 km)",
+    "zegarek lub urządzenie ze śladem GPX (od 100 km)",
+    "mapa trasy (od 100 km)",
+    "gotówka min. 50 zł (od 100 km)",
+    "dokument tożsamości (od 100 km)"
    ],
    "id": "ix-biegi-gorskie-sanok-5-km-nordic-walking-piatka-gajowego-2026-09-17",
    "surface": "gorski",
@@ -5289,7 +5368,8 @@
      "km": 5
     },
     {
-     "km": 13
+     "km": 13,
+     "limitH": 5
     },
     {
      "km": 30
@@ -5298,7 +5378,8 @@
      "km": 45
     },
     {
-     "km": 77
+     "km": 77,
+     "limitH": 26
     }
    ],
    "vertical": false,
@@ -5308,7 +5389,19 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://tamizpowrotem.eu/wp-content/uploads/2026/06/Regulamin_TIZP_2026.pdf"
     }
+   ],
+   "regulaminUrl": "https://tamizpowrotem.eu/wp-content/uploads/2026/06/Regulamin_TIZP_2026.pdf",
+   "gear": [
+    "telefon z aplikacją Ratunek lub numerem GOPR",
+    "dowód osobisty",
+    "kubek na punkty żywieniowe",
+    "folia NRC (od 13 km)",
+    "czołówka lub latarka z zapasem baterii (od 32 km)"
    ],
    "id": "rajd-pieszy-tam-i-z-powrotem-2026-09-18",
    "surface": "trail",
@@ -5340,8 +5433,13 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://biegnakasprowy.pl/biegnakasprowy/regulamin"
     }
    ],
+   "regulaminUrl": "https://biegnakasprowy.pl/biegnakasprowy/regulamin",
    "id": "xix-alpin-sport-tatrzanski-bieg-pod-gore-mistrzostwa-polski-2026-09-19",
    "surface": "gorski",
    "minKm": 8.5,
@@ -5373,7 +5471,8 @@
     },
     {
      "km": 21,
-     "dplus": 1400
+     "dplus": 1400,
+     "limitH": 6
     },
     {
      "km": 46,
@@ -5389,6 +5488,10 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
+     "name": "regulamin",
+     "url": "https://www.maraton3jezior.com/regulamin/"
+    },
+    {
      "name": "kingrunner.com",
      "url": "https://www.kingrunner.com/bieg/maraton-trzech-jezior---czupel-vertical-600/4171"
     },
@@ -5396,6 +5499,18 @@
      "name": "strona organizatora",
      "url": "https://www.maraton3jezior.com"
     }
+   ],
+   "regulaminUrl": "https://www.maraton3jezior.com/regulamin/",
+   "gear": [
+    "naładowany telefon z numerami organizatora i GOPR, aplikacja Ratunek",
+    "pojemnik na napój min. 0,5 l",
+    "folia NRC min. 140 x 100 cm",
+    "dokument tożsamości",
+    "bandaż elastyczny",
+    "kurtka przeciwdeszczowa z kapturem",
+    "nakrycie głowy",
+    "drugi pojemnik wielorazowy (43 km)",
+    "Czupel Vertical: tylko dokument tożsamości"
    ],
    "id": "festiwal-gorski-maraton-trzech-jezior-2026-09-19",
    "surface": "gorski",
@@ -5418,13 +5533,16 @@
    ],
    "elevations": [
     {
-     "km": 5
+     "km": 5,
+     "limitH": 1
     },
     {
-     "km": 10
+     "km": 10,
+     "limitH": 2
     },
     {
-     "km": 15
+     "km": 15,
+     "limitH": 3
     }
    ],
    "vertical": false,
@@ -5434,7 +5552,15 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://turystyka.glucholazy.pl/download/attachment/24767/regulamin.pdf?v=1775550054"
     }
+   ],
+   "regulaminUrl": "https://turystyka.glucholazy.pl/download/attachment/24767/regulamin.pdf?v=1775550054",
+   "gear": [
+    "obuwie terenowe"
    ],
    "id": "glucholaski-bieg-gorski-2026-09-19",
    "surface": "gorski",
@@ -5561,8 +5687,13 @@
     {
      "name": "strona organizatora",
      "url": "https://www.kbsobotka.pl/slezanski-festiwal-biegowy/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://www.kbsobotka.pl/slezanski-festiwal-biegowy/regulamin/"
     }
    ],
+   "regulaminUrl": "https://www.kbsobotka.pl/slezanski-festiwal-biegowy/regulamin/",
    "id": "slezanski-festiwal-biegowy-2026-09-26",
    "surface": "trail",
    "minKm": 10.5,
@@ -5665,6 +5796,10 @@
      "url": "https://elektronicznezapisy.pl/62/bieg-gorski.html"
     },
     {
+     "name": "strona organizatora",
+     "url": "https://elektronicznezapisy.pl/event/14899/strona.html"
+    },
+    {
      "name": "kingrunner.com",
      "url": "https://www.kingrunner.com/bieg/festiwal-biegowy-jurarun---5/4315"
     }
@@ -5696,7 +5831,8 @@
      "km": 10
     },
     {
-     "km": 25
+     "km": 25,
+     "limitH": 5
     },
     {
      "km": 59
@@ -5711,8 +5847,13 @@
     {
      "name": "kingrunner.com",
      "url": "https://www.kingrunner.com/bieg/baran-trail-race-btr-10/4325"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://b4sportonline.pl/users-folder/1253/files/305225445da34133c7f7b1d6d05ecae988bd5.pdf"
     }
    ],
+   "regulaminUrl": "https://b4sportonline.pl/users-folder/1253/files/305225445da34133c7f7b1d6d05ecae988bd5.pdf",
    "id": "baran-trail-race-btr-2026-10-02",
    "surface": "przelaj",
    "minKm": 10,
@@ -5780,8 +5921,13 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://b4sportonline.pl/users-folder/741/files/regulamin_Przehyba_Trail_2026.pdf"
     }
    ],
+   "regulaminUrl": "https://b4sportonline.pl/users-folder/741/files/regulamin_Przehyba_Trail_2026.pdf",
    "id": "przehyba-trail-2026-10-03",
    "surface": "trail",
    "minKm": 23,
@@ -5833,10 +5979,15 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
+     "name": "regulamin",
+     "url": "https://www.kingrunner.com/artykul/regulamin---korona-polskich-ultramaratonow-30/1109"
+    },
+    {
      "name": "kingrunner.com",
      "url": "https://www.kingrunner.com/bieg/bison-trail-10/4282"
     }
    ],
+   "regulaminUrl": "https://www.kingrunner.com/artykul/regulamin---korona-polskich-ultramaratonow-30/1109",
    "id": "bison-ultra-trail-2026-10-03",
    "surface": "przelaj",
    "minKm": 10,
@@ -5874,8 +6025,13 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://xrun.pl/regulamin/"
     }
    ],
+   "regulaminUrl": "https://xrun.pl/regulamin/",
    "id": "x-run-wielki-final-2026-10-04",
    "surface": "trail",
    "minKm": 18,
@@ -5919,10 +6075,15 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
+     "name": "regulamin",
+     "url": "https://biegpolesie.pl/wp-content/uploads/2024/10/IX-Bieg-Polesie-regulamin-2019.pdf"
+    },
+    {
      "name": "strona organizatora",
      "url": "https://maratonbieszczadzki.pl/"
     }
    ],
+   "regulaminUrl": "https://biegpolesie.pl/wp-content/uploads/2024/10/IX-Bieg-Polesie-regulamin-2019.pdf",
    "id": "xiv-ultramaraton-bieszczadzki-final-ale-ligi-biegow-gorskich-2026-10-09",
    "surface": "gorski",
    "minKm": 12,
@@ -5981,9 +6142,29 @@
      "url": "https://ultrakotlina.pl/"
     },
     {
+     "name": "regulamin",
+     "url": "https://ultrakotlina.pl/regulamin/"
+    },
+    {
      "name": "kingrunner.com",
      "url": "https://www.kingrunner.com/bieg/ultrakotlina-15/4183"
     }
+   ],
+   "regulaminUrl": "https://ultrakotlina.pl/regulamin/",
+   "gear": [
+    "telefon z numerami GOPR i organizatora",
+    "dowód osobisty",
+    "min. 1000 ml wody lub napoju",
+    "wgrany ślad GPX",
+    "folia NRC",
+    "latarka lub czołówka z zapasem baterii",
+    "czerwona lampka i odblask z tyłu",
+    "kurtka wiatro- i wodoodporna",
+    "druga warstwa z długim rękawem",
+    "legginsy lub długie spodnie",
+    "przekąska (żel lub baton)",
+    "bidon lub kubek wielokrotnego użytku",
+    "ubezpieczenie NNW ważne w Czechach (140 km)"
    ],
    "id": "ultrakotlina-2026-10-09",
    "surface": "przelaj",
@@ -6071,10 +6252,15 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
+     "name": "regulamin",
+     "url": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/"
+    },
+    {
      "name": "kingrunner.com",
      "url": "https://www.kingrunner.com/bieg/roztocze-ultra-race---roztoczanska-dycha-%E2%80%93-10-km/4239"
     }
    ],
+   "regulaminUrl": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/",
    "id": "roztocze-ultra-race-2026-10-10",
    "surface": "przelaj",
    "minKm": 3,
@@ -6240,19 +6426,24 @@
      "km": 1
     },
     {
-     "km": 11
+     "km": 11,
+     "limitH": 2
     },
     {
-     "km": 21
+     "km": 21,
+     "limitH": 4
     },
     {
-     "km": 42
+     "km": 42,
+     "limitH": 8.5
     },
     {
-     "km": 65
+     "km": 65,
+     "limitH": 12
     },
     {
-     "km": 100
+     "km": 100,
+     "limitH": 16
     }
    ],
    "vertical": false,
@@ -6261,7 +6452,23 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://pomeraniatrail.pl/wp-content/uploads/2025/11/REGULAMIN-COCONAUT-POMERANIA-ULTRA-TRAIL-2026.pdf"
     }
+   ],
+   "regulaminUrl": "https://pomeraniatrail.pl/wp-content/uploads/2025/11/REGULAMIN-COCONAUT-POMERANIA-ULTRA-TRAIL-2026.pdf",
+   "gear": [
+    "dowód osobisty lub paszport",
+    "latarka czołowa (od 65 km)",
+    "folia NRC min. 140 x 200 cm",
+    "aktywny telefon",
+    "bukłak, bidon lub softflask min. 1 l",
+    "kubek na wodę",
+    "tracker GPS z biura zawodów (100 km)",
+    "plecak, kamizelka lub pas biegowy",
+    "czapka lub chusta wielofunkcyjna"
    ],
    "id": "coconaut-pomerania-ultra-trail-2026-10-17",
    "surface": "trail",
@@ -6385,7 +6592,21 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://b4sportonline.pl/users-folder/1417/files/regulamin_sfb_2026.pdf"
     }
+   ],
+   "regulaminUrl": "https://b4sportonline.pl/users-folder/1417/files/regulamin_sfb_2026.pdf",
+   "gear": [
+    "dokument tożsamości",
+    "aktywny telefon",
+    "urządzenie GPS z wgraną trasą",
+    "własny kubeczek lub flask",
+    "folia NRC",
+    "pojemnik na wodę min. 1 l",
+    "kurtka wiatro- i wodoodporna z długim rękawem"
    ],
    "id": "sowiogorski-festiwal-biegowy-2026-10-24",
    "surface": "gorski",
@@ -6418,7 +6639,8 @@
      "km": 30
     },
     {
-     "km": 50
+     "km": 50,
+     "limitH": 14
     }
    ],
    "vertical": false,
@@ -6429,10 +6651,15 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
+     "name": "regulamin",
+     "url": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/"
+    },
+    {
      "name": "kingrunner.com",
      "url": "https://www.kingrunner.com/bieg/smok-ultra-race---smoczus---12-km/4293"
     }
    ],
+   "regulaminUrl": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/",
    "id": "smok-ultra-race-2026-10-24",
    "surface": "przelaj",
    "minKm": 12,
@@ -6548,8 +6775,13 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://bieggorski.pl/regulamin/"
     }
    ],
+   "regulaminUrl": "https://bieggorski.pl/regulamin/",
    "id": "gorlicki-bieg-gorski-24km-radocyna-2026-11-07",
    "surface": "gorski",
    "minKm": 2.4,
@@ -6583,6 +6815,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://biegajwgorachsowich.pl/lib/vv3wnq/14-GBN-regulamin-msyk9hiv.pdf"
     }
    ],
    "id": "xiv-bieg-niepodleglosci-2026-11-11",
@@ -6618,7 +6854,17 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "regulamin",
+     "url": "http://jaskiniowy.pl/regulamin-biegu-jaskiniowego-niedzwiedzia/"
     }
+   ],
+   "regulaminUrl": "http://jaskiniowy.pl/regulamin-biegu-jaskiniowego-niedzwiedzia/",
+   "gear": [
+    "pojemnik na wodę (kubek, bidon, softflask)",
+    "dowód osobisty (nie dotyczy 10 km)",
+    "naładowany telefon z numerem organizatora i GOPR"
    ],
    "id": "borowkowa-trail-2026-11-14",
    "surface": "gorski",
@@ -6649,8 +6895,13 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026-msyirv8m.pdf"
     }
    ],
+   "regulaminUrl": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026-msyirv8m.pdf",
    "id": "2-gorska-trzynastka-2026-11-21",
    "surface": "gorski",
    "minKm": 13,
@@ -6680,8 +6931,13 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026-msyirv8m.pdf"
     }
    ],
+   "regulaminUrl": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026-msyirv8m.pdf",
    "id": "7-polmaraton-orzel-2026-11-21",
    "surface": "trail",
    "minKm": 22,
@@ -6747,7 +7003,22 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://web.sportcrm.pl/pliki/beskidzkiegronie/zalacznikiartykulow/60/19746/Regulamin%20V%20Beskidzkie%20Gr%C3%B3nie%20Lato%202026.pdf"
     }
+   ],
+   "regulaminUrl": "https://web.sportcrm.pl/pliki/beskidzkiegronie/zalacznikiartykulow/60/19746/Regulamin%20V%20Beskidzkie%20Gr%C3%B3nie%20Lato%202026.pdf",
+   "gear": [
+    "telefon z baterią na cały rajd",
+    "folia NRC",
+    "kurtka wiatrochronna z kapturem",
+    "ubranie na warunki górskie",
+    "gwizdek",
+    "obuwie do długich marszów",
+    "bandaż elastyczny",
+    "aplikacja Ratunek"
    ],
    "id": "szczyt-wytrzymalosci-mikolajki-2026-12-04",
    "surface": "gorski",
@@ -6790,7 +7061,12 @@
    ],
    "elevations": [
     {
-     "km": 6
+     "km": 6,
+     "limitH": 1
+    },
+    {
+     "km": 12,
+     "limitH": 2
     },
     {
      "km": 12
@@ -6811,16 +7087,12 @@
      "km": 12
     },
     {
-     "km": 12
+     "km": 26.9,
+     "limitH": 5
     },
     {
-     "km": 26.9
-    },
-    {
-     "km": 53
-    },
-    {
-     "km": 53
+     "km": 53,
+     "limitH": 10
     },
     {
      "km": 53
@@ -6838,7 +7110,11 @@
      "km": 53
     },
     {
-     "km": 101
+     "km": 53
+    },
+    {
+     "km": 101,
+     "limitH": 17
     },
     {
      "km": 101
@@ -6873,9 +7149,25 @@
      "url": "https://ultrarace.pl/gdansk/"
     },
     {
+     "name": "regulamin",
+     "url": "https://ultrarace.pl/gdansk/regulamin-gdansk/"
+    },
+    {
      "name": "kingrunner.com",
      "url": "https://www.kingrunner.com/bieg/garmin-ultra-race-gdansk---6km/4226"
     }
+   ],
+   "regulaminUrl": "https://ultrarace.pl/gdansk/regulamin-gdansk/",
+   "gear": [
+    "folia NRC",
+    "bidon lub kubek",
+    "naładowany telefon",
+    "gwizdek",
+    "czołówka lub latarka",
+    "dowód osobisty lub paszport",
+    "naładowany powerbank (101 km)",
+    "kurtka przeciwdeszczowa (101 km)",
+    "gotówka min. 50 zł"
    ],
    "id": "garmin-ultra-race-gdansk-2026-12-05",
    "surface": "trail",
@@ -6904,7 +7196,7 @@
     }
    ],
    "vertical": false,
-   "url": "https://b4sportonline.pl/turbacz_trail/",
+   "url": "https://www.nowytarg.pl/",
    "sources": [
     {
      "name": "biegigorskie.pl",
@@ -7003,8 +7295,13 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf"
     }
    ],
+   "regulaminUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
    "id": "winter-trail-malopolska-2026-12-12",
    "surface": "trail",
    "minKm": 16,
@@ -7042,8 +7339,13 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://perlymalopolski.pl/wp-content/uploads/2026/02/RABKA_PERE%C5%81KI-2026-REGULAMIN.docx.pdf"
     }
    ],
+   "regulaminUrl": "https://perlymalopolski.pl/wp-content/uploads/2026/02/RABKA_PERE%C5%81KI-2026-REGULAMIN.docx.pdf",
    "id": "perly-malopolski-2026-12-13",
    "surface": "trail",
    "minKm": 7.5,
@@ -7239,8 +7541,13 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2027/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://malopolskabiega.com.pl/regulamin-ultra/"
     }
    ],
+   "regulaminUrl": "https://malopolskabiega.com.pl/regulamin-ultra/",
    "id": "wiosenny-ultra-swir-2027-03-20",
    "surface": "trail",
    "minKm": 15.5,
@@ -7290,8 +7597,13 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2027/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf"
     }
    ],
+   "regulaminUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
    "id": "ultra-trail-malopolska-2027-05-21",
    "surface": "trail",
    "minKm": 16,
@@ -7384,10 +7696,12 @@
      "km": 1.6
     },
     {
-     "km": 5
+     "km": 5,
+     "limitH": 1
     },
     {
-     "km": 10
+     "km": 10,
+     "limitH": 1
     },
     {
      "km": 21
@@ -7400,8 +7714,13 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2027/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://b4sportonline.pl/suszecki_festiwal/regulamin"
     }
    ],
+   "regulaminUrl": "https://b4sportonline.pl/suszecki_festiwal/regulamin",
    "id": "suszecki-festiwal-biegowy-2027-06-12",
    "surface": "przelaj",
    "minKm": 1.6,

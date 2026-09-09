@@ -47,11 +47,16 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
         <h2 className="font-bold">Zanim się zapiszesz</h2>
         <ul className="mt-2 text-sm list-disc pl-5 space-y-1">
           <li>Sprawdź <strong>limit czasu</strong> (cutoff) na swoim dystansie i punkty kontrolne z limitami pośrednimi.</li>
-          <li>Sprawdź <strong>sprzęt obowiązkowy</strong> w regulaminie: w górach zwykle kurtka z membraną, czołówka, folia NRC, telefon, zapas wody i jedzenia.</li>
+          {r.gear ? (
+            <li><strong>Sprzęt obowiązkowy wg regulaminu</strong> (wyciąg automatyczny z regulaminu, przed startem sprawdź oryginał): <ul className="mt-1 grid gap-0.5 sm:grid-cols-2 list-[square] pl-5">{r.gear.map((g) => <li key={g}>{g}</li>)}</ul></li>
+          ) : (
+            <li>Sprawdź <strong>sprzęt obowiązkowy</strong> w regulaminie: w górach zwykle kurtka z membraną, czołówka, folia NRC, telefon, zapas wody i jedzenia.</li>
+          )}
           <li>Zobacz profil trasy: {r.elevations.some((e) => e.dplus) ? "przewyższenie na kilometr wyżej mówi, ile będzie marszu." : "organizator nie podał przewyższenia, więc spójrz na mapę trasy."}</li>
         </ul>
         <div className="mt-3 flex flex-wrap gap-2">
           {r.url && <a className="btn" href={r.url} target="_blank" rel="noopener">Strona organizatora / zapisy</a>}
+          {r.regulaminUrl && <a className="btn btn-ghost" href={r.regulaminUrl} target="_blank" rel="noopener">Regulamin{/\.pdf/i.test(r.regulaminUrl) ? " (PDF)" : ""}</a>}
           <Link href="/slownik" className="btn btn-ghost">Słownik trailowy</Link>
         </div>
       </section>

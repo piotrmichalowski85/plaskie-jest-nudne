@@ -5,6 +5,9 @@ import { parsePolishDate, parseDistances, splitPlace, slugify, guessSurface, beg
 import { extractFromText, fetchText } from "../lib/enrich";
 import organizers from "../data/organizers.json";
 import { kingrunnerRows, kingrunnerDetail } from "../lib/adapters/kingrunner";
+import { findRegulamin, extractLimits, extractGear } from "../lib/deep";
+import { existsSync, readFileSync, mkdirSync } from "node:fs";
+import { createHash } from "node:crypto";
 
 const UA = "Mozilla/5.0 (compatible; plaskiejestnudne-bot/0.1; +https://plaskiejestnudne.pl/o-serwisie)";
 async function get(url: string): Promise<string> {
@@ -71,7 +74,7 @@ async function elektronicznezapisy(): Promise<Raw[]> {
     out.push({
       name, eventName: name, dateStart: d.start, dateEnd: d.end, city, region: "",
       distancesKm: list.map((x) => x.km), elevations: list, vertical,
-      url: href ? new URL(href, url).toString() : undefined,
+      url: href ? new URL(href, "https://elektronicznezapisy.pl/").toString() : undefined,
       sources: [{ name: "elektronicznezapisy.pl", url }],
       signupOpen: true, participants: isFinite(signed) ? signed : undefined,
     });
@@ -157,6 +160,56 @@ async function organizerSeeds(): Promise<Raw[]> {
   return out;
 }
 
+type RegCache = Record<string, { regulaminUrl?: string; organizerUrl?: string; distances: { km: number; dplus?: number }[]; limits: { km: number; limitH: number }[]; gear: string[]; gearSource?: "llm"; gearAt?: string; fetchedAt: string; visited: number }>;
+const CACHE_PATH = "data/regulaminy.json";
+export const TEXT_DIR = "data/.regulaminy_text"; // lokalny cache tekstu regulaminów (poza git)
+export const textPath = (u: string) => `${TEXT_DIR}/${createHash("sha1").update(u).digest("hex")}.txt`;
+const TTL_DAYS = 30;
+
+/** Regulamin do 2 poziomów w głąb (zapisy -> organizator -> pdf). Cache 30 dni, tylko nadchodzące biegi z linkiem. */
+async function regulaminy(raws: Raw[]): Promise<number> {
+  const cache: RegCache = existsSync(CACHE_PATH) ? JSON.parse(readFileSync(CACHE_PATH, "utf8")) : {};
+  const todayS = new Date().toISOString().slice(0, 10);
+  mkdirSync(TEXT_DIR, { recursive: true });
+  const fresh = (u: string) => cache[u] && (Date.now() - Date.parse(cache[u].fetchedAt)) / 86400000 < TTL_DAYS && (!cache[u].regulaminUrl || existsSync(textPath(cache[u].regulaminUrl!)));
+  const todo = raws.filter((r) => r.url && r.dateEnd >= todayS && !fresh(r.url!));
+  let n = 0;
+  const queue = [...todo];
+  await Promise.all(Array.from({ length: 4 }, async () => {
+    while (queue.length) {
+      const r = queue.shift()!;
+      const res = await findRegulamin(r.url!);
+      const text = res.regulaminText || "";
+      if (res.regulaminUrl && text) writeFileSync(textPath(res.regulaminUrl), text.slice(0, 60000));
+      const prevGear = cache[r.url!]?.gearSource === "llm" ? { gear: cache[r.url!].gear, gearSource: "llm" as const, gearAt: cache[r.url!].gearAt } : {};
+      cache[r.url!] = {
+        regulaminUrl: res.regulaminUrl, organizerUrl: res.organizerUrl,
+        distances: text ? (extractFromText(text)?.distances ?? []) : [],
+        limits: text ? extractLimits(text) : [], gear: [], ...prevGear,
+        fetchedAt: new Date().toISOString(), visited: res.visited.length,
+      };
+      if (res.regulaminUrl) n++;
+    }
+  }));
+  writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 1));
+  // zastosuj do biegów
+  for (const r of raws) {
+    const c = r.url ? cache[r.url] : undefined;
+    if (!c) continue;
+    if (c.regulaminUrl) r.regulaminUrl = c.regulaminUrl;
+    if (c.organizerUrl && /elektronicznezapisy|b4sportonline|datasport|kingrunner|zapisy/i.test(r.url!)) r.url = c.organizerUrl;
+    if (!r.distancesKm.length && c.distances.length && c.distances.length <= 8) { r.distancesKm = c.distances.map((d) => d.km); r.elevations = c.distances; }
+    for (const l of c.limits) {
+      const e = r.elevations.find((x) => Math.abs(x.km - l.km) < 0.6);
+      const hPerKm = l.limitH / l.km;
+      if (e && !e.limitH && hPerKm >= 0.1 && hPerKm <= 0.5) e.limitH = l.limitH;
+    }
+    if (c.gearSource === "llm" && c.gear.length >= 1 && !r.gear) r.gear = c.gear;
+    if (c.regulaminUrl && !r.sources.some((s) => s.name === "regulamin")) r.sources.push({ name: "regulamin", url: c.regulaminUrl });
+  }
+  return n;
+}
+
 function finalize(raws: Raw[]): Race[] {
   const byKey = new Map<string, Raw>();
   for (const r of raws) {
@@ -214,6 +267,8 @@ async function main() {
   });
   const hits = await enrich(raws);
   console.log(`enriched from organizer pages: ${hits}`);
+  const regs = await regulaminy(raws);
+  console.log(`regulaminy found this run: ${regs}, with regulamin total: ${raws.filter((r) => r.regulaminUrl).length}, with gear: ${raws.filter((r) => r.gear).length}`);
   const races = finalize(raws);
   const ds: Dataset = { generatedAt: new Date().toISOString(), count: races.length, races };
   mkdirSync("data", { recursive: true });
