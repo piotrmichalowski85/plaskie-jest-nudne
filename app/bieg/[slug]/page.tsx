@@ -39,7 +39,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
         <h2 className="font-bold mb-2">Dystanse</h2>
         {r.elevations.length ? (
           <ul className="grid gap-2 sm:grid-cols-2">{r.elevations.map((e) => (
-            <li key={e.km} className="card py-3 flex justify-between gap-3"><span className="font-semibold">{fmtKm(e.km)}</span><span className="text-[var(--muted)] text-right">{e.dplus ? (e.approx ? `ok. +${e.dplus} m wg strony organizatora` : `+${e.dplus} m${isVertical(e) ? " (vertical)" : ""}`) : "przewyższenie: patrz regulamin"}{e.limitH ? `, limit ${e.limitH} h` : ""}</span></li>
+            <li key={e.km} className="card py-3 flex justify-between gap-3"><span className="font-semibold">{fmtKm(e.km)}</span><span className="text-[var(--muted)] text-right">{e.dplus ? (e.approx ? `ok. +${e.dplus} m wg strony organizatora` : `+${e.dplus} m${isVertical(e) ? " (vertical)" : ""}`) : "przewyższenie nieznane (organizator nie podał; sprawdź na stronie biegu lub w regulaminie)"}{e.limitH ? `, limit ${e.limitH} h` : ""}</span></li>
           ))}</ul>
         ) : <p className="text-[var(--muted)]">Dystanse nieznane, sprawdź u organizatora.</p>}
       </section>

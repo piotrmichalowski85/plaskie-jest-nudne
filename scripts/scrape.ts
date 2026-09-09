@@ -27,7 +27,7 @@ async function biegigorskie(year: number): Promise<Raw[]> {
   $("tr").each((_, tr) => {
     const tds = $(tr).find("td,th");
     if (tds.length < 6) return;
-    const cell = (i: number) => $(tds[i]).text().replace(/\s+/g, " ").trim();
+    const cell = (i: number) => $(tds[i]).text().replace(/\s*\|\s*/g, " ").replace(/\s+/g, " ").trim();
     // znajdź kolumnę daty (pierwsza komórka, która parsuje się jako data)
     let di = -1;
     for (let i = 0; i < Math.min(3, tds.length); i++) if (parsePolishDate(cell(i))) { di = i; break; }
@@ -287,6 +287,7 @@ async function main() {
   console.log(`regulaminy found this run: ${regs}, with regulamin total: ${raws.filter((r) => r.regulaminUrl).length}, with gear: ${raws.filter((r) => r.gear).length}`);
   const races = finalize(raws);
   const ds: Dataset = { generatedAt: new Date().toISOString(), count: races.length, races };
+  if (races.length < 100 && !process.env.FORCE) { console.error(`STOP: tylko ${races.length} biegów, nie nadpisuję data/races.json (FORCE=1, żeby wymusić)`); process.exit(2); }
   mkdirSync("data", { recursive: true });
   writeFileSync("data/races.json", JSON.stringify(ds, null, 1));
   const today = new Date().toISOString().slice(0, 10);
