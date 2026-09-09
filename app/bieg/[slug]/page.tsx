@@ -38,7 +38,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
         <h2 className="font-bold mb-2">Dystanse</h2>
         {r.elevations.length ? (
           <ul className="grid gap-2 sm:grid-cols-2">{r.elevations.map((e) => (
-            <li key={e.km} className="card py-3 flex justify-between"><span className="font-semibold">{fmtKm(e.km)}</span><span className="text-[var(--muted)]">{e.dplus ? `+${e.dplus} m (${Math.round(e.dplus / e.km)} m/km)` : "przewyższenie: patrz regulamin"}</span></li>
+            <li key={e.km} className="card py-3 flex justify-between"><span className="font-semibold">{fmtKm(e.km)}</span><span className="text-[var(--muted)]">{e.dplus ? (e.approx ? `ok. +${e.dplus} m wg strony organizatora` : `+${e.dplus} m (${Math.round(e.dplus / e.km)} m/km)`) : "przewyższenie: patrz regulamin"}</span></li>
           ))}</ul>
         ) : <p className="text-[var(--muted)]">Dystanse nieznane, sprawdź u organizatora.</p>}
       </section>

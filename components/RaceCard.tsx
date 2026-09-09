@@ -8,7 +8,8 @@ export function Score({ s }: { s: number }) {
 }
 
 export function RaceCard({ race }: { race: Race }) {
-  const dplus = race.elevations.find((e) => e.dplus)?.dplus;
+  const first = race.elevations.find((e) => e.dplus);
+  const dplus = first && !first.approx ? first.dplus : undefined;
   return (
     <Link href={`/bieg/${race.id}`} className="card hover:border-[var(--moss)] transition-colors block">
       <div className="flex items-start justify-between gap-3">

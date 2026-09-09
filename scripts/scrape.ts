@@ -2,6 +2,7 @@ import * as cheerio from "cheerio";
 import { writeFileSync, mkdirSync } from "node:fs";
 import type { Race, Dataset } from "../lib/types";
 import { parsePolishDate, parseDistances, splitPlace, slugify, guessSurface, beginnerScore, dedupKey } from "../lib/normalize";
+import { extractFromText, fetchText } from "../lib/enrich";
 
 const UA = "Mozilla/5.0 (compatible; plaskiejestnudne-bot/0.1; +https://plaskiejestnudne.pl/o-serwisie)";
 async function get(url: string): Promise<string> {
@@ -76,6 +77,30 @@ async function elektronicznezapisy(): Promise<Raw[]> {
   return out;
 }
 
+/** Dla biegów bez dystansu albo bez D+ zagląda na stronę organizatora (heurystyka regex, bez LLM). */
+async function enrich(raws: Raw[]): Promise<number> {
+  const todo = raws.filter((r) => r.url && (!r.distancesKm.length || !r.elevations.some((e) => e.dplus)));
+  let hits = 0;
+  const queue = [...todo];
+  const worker = async () => {
+    while (queue.length) {
+      const r = queue.shift()!;
+      const text = await fetchText(r.url!);
+      if (!text) continue;
+      const f = extractFromText(text);
+      if (!f) continue;
+      let changed = false;
+      if (!r.distancesKm.length && f.distances.length) { r.distancesKm = f.distances.map((d) => d.km); r.elevations = f.distances; changed = true; }
+      if (f.dplusMax && !r.elevations.some((e) => e.dplus) && r.elevations.length) {
+        const longest = r.elevations[r.elevations.length - 1]; longest.dplus = f.dplusMax; if (r.elevations.length > 1) longest.approx = true; changed = true;
+      }
+      if (changed) { hits++; r.sources.push({ name: "strona organizatora", url: r.url! }); }
+    }
+  };
+  await Promise.all(Array.from({ length: 6 }, worker));
+  return hits;
+}
+
 function finalize(raws: Raw[]): Race[] {
   const byKey = new Map<string, Raw>();
   for (const r of raws) {
@@ -121,6 +146,8 @@ async function main() {
     if (r.status === "fulfilled") { console.log(`source ${i}: ${r.value.length} rows`); raws.push(...r.value); }
     else console.warn(`source ${i} failed: ${(r.reason as Error).message}`);
   });
+  const hits = await enrich(raws);
+  console.log(`enriched from organizer pages: ${hits}`);
   const races = finalize(raws);
   const ds: Dataset = { generatedAt: new Date().toISOString(), count: races.length, races };
   mkdirSync("data", { recursive: true });

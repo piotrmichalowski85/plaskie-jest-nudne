@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-09T12:16:23.303Z",
+ "generatedAt": "2026-09-09T12:20:48.370Z",
  "count": 179,
  "races": [
   {
@@ -1206,7 +1206,8 @@
    ],
    "elevations": [
     {
-     "km": 17
+     "km": 17,
+     "dplus": 1050
     }
    ],
    "vertical": false,
@@ -1216,14 +1217,18 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://ultraswir.pl/"
     }
    ],
    "id": "wiosenny-ultra-swir-2026-03-21",
-   "surface": "trail",
+   "surface": "gorski",
    "minKm": 17,
    "maxKm": 17,
-   "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 17 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerScore": 2,
+   "beginnerWhy": "najkrótszy dystans 17 km (jak półmaraton, ale wolniej); stromo: ok. 62 m na km, dużo marszu pod górę."
   },
   {
    "name": "IV Bieg po Bańkę Mleka III Bieg po Byczy Róg",
@@ -1587,7 +1592,9 @@
      "km": 25
     },
     {
-     "km": 45
+     "km": 45,
+     "dplus": 460,
+     "approx": true
     }
    ],
    "vertical": false,
@@ -1597,6 +1604,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://xrun.pl/mercure-szczyrk-run-2026/"
     }
    ],
    "id": "x-run-mercure-szczyrk-run-2026-04-12",
@@ -1862,7 +1873,9 @@
      "km": 52
     },
     {
-     "km": 103
+     "km": 103,
+     "dplus": 2300,
+     "approx": true
     }
    ],
    "vertical": false,
@@ -1872,10 +1885,14 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://ultrawysoczyzna.pl/"
     }
    ],
    "id": "meble-wojcik-ultra-wysoczyzna-2026-04-24",
-   "surface": "przelaj",
+   "surface": "trail",
    "minKm": 6,
    "maxKm": 103,
    "beginnerScore": 4,
@@ -2117,7 +2134,9 @@
      "km": 48
     },
     {
-     "km": 78
+     "km": 78,
+     "dplus": 3195,
+     "approx": true
     }
    ],
    "vertical": false,
@@ -2127,6 +2146,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://ultrarace.pl/myslenice/"
     }
    ],
    "id": "garmin-ultra-race-myslenice-2026-05-09",
@@ -3020,7 +3043,9 @@
      "km": 63
     },
     {
-     "km": 106
+     "km": 106,
+     "dplus": 5510,
+     "approx": true
     }
    ],
    "vertical": false,
@@ -3030,6 +3055,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://www.zawojabieg.pl/"
     }
    ],
    "id": "zawojski-festiwal-biegowy-2026-06-13",
@@ -3243,7 +3272,9 @@
      "km": 100.48
     },
     {
-     "km": 164.49
+     "km": 164.49,
+     "dplus": 3064,
+     "approx": true
     }
    ],
    "vertical": false,
@@ -3253,10 +3284,14 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://ultra-way.pl/letni-festiwal-biegowy-ultra-way/"
     }
    ],
    "id": "gdynia-ultra-way-summer-race-2026-06-26",
-   "surface": "przelaj",
+   "surface": "trail",
    "minKm": 14.86,
    "maxKm": 164.49,
    "beginnerScore": 3,
@@ -3294,7 +3329,9 @@
      "km": 60
     },
     {
-     "km": 100
+     "km": 100,
+     "dplus": 4570,
+     "approx": true
     }
    ],
    "vertical": false,
@@ -3304,6 +3341,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://malopolskiebiegigorskie.pl/"
     }
    ],
    "id": "malopolskie-biegi-gorskie-2026-06-26",
@@ -3636,7 +3677,8 @@
    ],
    "elevations": [
     {
-     "km": 32
+     "km": 32,
+     "dplus": 3661
     }
    ],
    "vertical": false,
@@ -3646,14 +3688,18 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://www.biegisokole.pl/"
     }
    ],
    "id": "xviii-wysokogorskiego-bieg-im-druha-franciszka-marduly-xiv-2026-07-04",
    "surface": "gorski",
    "minKm": 32,
    "maxKm": 32,
-   "beginnerScore": 2,
-   "beginnerWhy": "najkrótszy dystans 32 km, to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerScore": 1,
+   "beginnerWhy": "najkrótszy dystans 32 km, to już długo w terenie; stromo: ok. 114 m na km, dużo marszu pod górę."
   },
   {
    "name": "XIII Bieg do Morskiego Oka im. Władysława hrabiego Zamoyskiego",
@@ -3864,7 +3910,9 @@
      "km": 51
     },
     {
-     "km": 81
+     "km": 81,
+     "dplus": 3195,
+     "approx": true
     }
    ],
    "vertical": false,
@@ -3874,10 +3922,14 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://ultrarace.pl/tolkmicko/"
     }
    ],
    "id": "garmin-ultra-race-tolkmicko-2026-07-18",
-   "surface": "przelaj",
+   "surface": "trail",
    "minKm": 14,
    "maxKm": 81,
    "beginnerScore": 3,
@@ -4154,7 +4206,9 @@
      "km": 66
     },
     {
-     "km": 102
+     "km": 102,
+     "dplus": 7745,
+     "approx": true
     }
    ],
    "vertical": false,
@@ -4164,6 +4218,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://gorceultratrail.pl/"
     }
    ],
    "id": "xi-festiwal-biegow-gorskich-gorce-ultra-trail-2026-07-31",
@@ -4205,7 +4263,9 @@
      "km": 82
     },
     {
-     "km": 102
+     "km": 102,
+     "dplus": 5115,
+     "approx": true
     }
    ],
    "vertical": false,
@@ -4215,6 +4275,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://chudywawrzyniec.pl/"
     }
    ],
    "id": "chudy-wawrzyniec-2026-08-07",
@@ -4772,7 +4836,8 @@
    ],
    "elevations": [
     {
-     "km": 17
+     "km": 17,
+     "dplus": 1050
     }
    ],
    "vertical": false,
@@ -4782,14 +4847,18 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://ultraswir.pl/"
     }
    ],
    "id": "letni-ultra-swir-2026-08-29",
-   "surface": "trail",
+   "surface": "gorski",
    "minKm": 17,
    "maxKm": 17,
-   "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 17 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerScore": 2,
+   "beginnerWhy": "najkrótszy dystans 17 km (jak półmaraton, ale wolniej); stromo: ok. 62 m na km, dużo marszu pod górę."
   },
   {
    "name": "Królowa Wołtuszowa Trail: 3x Królowa Wołtuszowa 13,8km (+606m) 6x Królowa Wołtuszowa 27,6km (+1212m)",
@@ -4807,7 +4876,9 @@
      "km": 13.8
     },
     {
-     "km": 27.6
+     "km": 27.6,
+     "dplus": 606,
+     "approx": true
     }
    ],
    "vertical": false,
@@ -4817,6 +4888,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://fundacjalistek.org/krolowawoltuszowa/"
     }
    ],
    "id": "krolowa-woltuszowa-trail-2026-09-05",
@@ -4936,7 +5011,9 @@
      "km": 78
     },
     {
-     "km": 158
+     "km": 158,
+     "dplus": 3195,
+     "approx": true
     }
    ],
    "vertical": false,
@@ -4946,6 +5023,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://ultrarace.pl/radkow/"
     }
    ],
    "id": "garmin-ultra-race-radkow-2026-09-11",
@@ -4967,7 +5048,8 @@
    ],
    "elevations": [
     {
-     "km": 21
+     "km": 21,
+     "dplus": 2000
     }
    ],
    "vertical": false,
@@ -4977,14 +5059,18 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://utm.run/pl/szczebel_cup/"
     }
    ],
    "id": "szczebel-cup-by-ultra-trail-malopolska-2026-09-12",
-   "surface": "trail",
+   "surface": "gorski",
    "minKm": 21,
    "maxKm": 21,
-   "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 21 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerScore": 2,
+   "beginnerWhy": "najkrótszy dystans 21 km (jak półmaraton, ale wolniej); stromo: ok. 95 m na km, dużo marszu pod górę."
   },
   {
    "name": "Róża Wiatrów Jeziora Mausz: Bieg i Nordic Walking 5 km Bieg i Nordic Walking 10 km Półmaraton i Nordic Walking 21 km Maraton 42 km Ultra Róża Wiatrów 52,5 km",
@@ -5465,7 +5551,9 @@
      "km": 43
     },
     {
-     "km": 66
+     "km": 66,
+     "dplus": 3450,
+     "approx": true
     }
    ],
    "vertical": false,
@@ -5475,10 +5563,14 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://www.kbsobotka.pl/slezanski-festiwal-biegowy/"
     }
    ],
    "id": "slezanski-festiwal-biegowy-2026-09-26",
-   "surface": "przelaj",
+   "surface": "trail",
    "minKm": 10.5,
    "maxKm": 66,
    "beginnerScore": 4,
@@ -6530,7 +6622,9 @@
      "km": 53
     },
     {
-     "km": 101
+     "km": 101,
+     "dplus": 3195,
+     "approx": true
     }
    ],
    "vertical": false,
@@ -6539,10 +6633,14 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://ultrarace.pl/gdansk/"
     }
    ],
    "id": "garmin-ultra-race-gdansk-2026-12-05",
-   "surface": "przelaj",
+   "surface": "trail",
    "minKm": 6,
    "maxKm": 101,
    "beginnerScore": 4,

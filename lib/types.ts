@@ -12,7 +12,7 @@ export type Race = {
   distancesKm: number[]; // wszystkie dystanse imprezy
   minKm: number;
   maxKm: number;
-  elevations: { km: number; dplus?: number }[];
+  elevations: { km: number; dplus?: number; approx?: boolean }[]; // approx = D+ zebrane ze strony organizatora, przypisane do najdłuższego dystansu
   vertical: boolean;
   category?: string; // np. Kat.I (liga biegigorskie)
   surface: Surface;
