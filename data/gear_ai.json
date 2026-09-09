@@ -1,13 +1,111 @@
 {
-  "https://ultrarace.pl/radkow/": ["folia NRC", "bidon lub kubek", "naładowany telefon", "gwizdek", "czołówka lub latarka (78 km)", "dowód osobisty lub paszport", "gotówka min. 50 zł"],
-  "https://www.biegigorskiesanok.pl/": ["naładowany telefon", "kubek lub bidon", "folia NRC (od 26 km)", "plecak lub nerka na sprzęt (od 26 km)", "pojemnik na wodę 0,5 l (26 km) lub 1 l (od 50 km)", "czołówka lub latarka (od 100 km)", "gwizdek (od 100 km)", "kurtka wiatro- i wodoodporna z długim rękawem (od 100 km)", "czapka lub chusta (od 100 km)", "zegarek lub urządzenie ze śladem GPX (od 100 km)", "mapa trasy (od 100 km)", "gotówka min. 50 zł (od 100 km)", "dokument tożsamości (od 100 km)"],
-  "https://tamizpowrotem.eu/": ["telefon z aplikacją Ratunek lub numerem GOPR", "dowód osobisty", "kubek na punkty żywieniowe", "folia NRC (od 13 km)", "czołówka lub latarka z zapasem baterii (od 32 km)"],
-  "https://turystyka.glucholazy.pl/8848/1138/komunikat.html": ["obuwie terenowe"],
-  "https://www.maraton3jezior.com/": ["naładowany telefon z numerami organizatora i GOPR, aplikacja Ratunek", "pojemnik na napój min. 0,5 l", "folia NRC min. 140 x 100 cm", "dokument tożsamości", "bandaż elastyczny", "kurtka przeciwdeszczowa z kapturem", "nakrycie głowy", "drugi pojemnik wielorazowy (43 km)", "Czupel Vertical: tylko dokument tożsamości"],
-  "https://ultrakotlina.pl/": ["telefon z numerami GOPR i organizatora", "dowód osobisty", "min. 1000 ml wody lub napoju", "wgrany ślad GPX", "folia NRC", "latarka lub czołówka z zapasem baterii", "czerwona lampka i odblask z tyłu", "kurtka wiatro- i wodoodporna", "druga warstwa z długim rękawem", "legginsy lub długie spodnie", "przekąska (żel lub baton)", "bidon lub kubek wielokrotnego użytku", "ubezpieczenie NNW ważne w Czechach (140 km)"],
-  "https://b4sportonline.pl/sfb2026/": ["dokument tożsamości", "aktywny telefon", "urządzenie GPS z wgraną trasą", "własny kubeczek lub flask", "folia NRC", "pojemnik na wodę min. 1 l", "kurtka wiatro- i wodoodporna z długim rękawem"],
-  "https://pomeraniatrail.pl/": ["dowód osobisty lub paszport", "latarka czołowa (od 65 km)", "folia NRC min. 140 x 200 cm", "aktywny telefon", "bukłak, bidon lub softflask min. 1 l", "kubek na wodę", "tracker GPS z biura zawodów (100 km)", "plecak, kamizelka lub pas biegowy", "czapka lub chusta wielofunkcyjna"],
-  "https://jaskiniowy.pl/borowkowa-trail/": ["pojemnik na wodę (kubek, bidon, softflask)", "dowód osobisty (nie dotyczy 10 km)", "naładowany telefon z numerem organizatora i GOPR"],
-  "https://beskidzkiegronie.pl/": ["telefon z baterią na cały rajd", "folia NRC", "kurtka wiatrochronna z kapturem", "ubranie na warunki górskie", "gwizdek", "obuwie do długich marszów", "bandaż elastyczny", "aplikacja Ratunek"],
-  "https://ultrarace.pl/gdansk/": ["folia NRC", "bidon lub kubek", "naładowany telefon", "gwizdek", "czołówka lub latarka", "dowód osobisty lub paszport", "naładowany powerbank (101 km)", "kurtka przeciwdeszczowa (101 km)", "gotówka min. 50 zł"]
+ "https://ultrarace.pl/radkow/": [
+  "folia NRC",
+  "bidon lub kubek",
+  "naładowany telefon",
+  "gwizdek",
+  "czołówka lub latarka (78 km)",
+  "dowód osobisty lub paszport",
+  "gotówka min. 50 zł"
+ ],
+ "https://www.biegigorskiesanok.pl/": [
+  "naładowany telefon",
+  "kubek lub bidon",
+  "folia NRC (od 26 km)",
+  "plecak lub nerka na sprzęt (od 26 km)",
+  "pojemnik na wodę 0,5 l (26 km) lub 1 l (od 50 km)",
+  "czołówka lub latarka (od 100 km)",
+  "gwizdek (od 100 km)",
+  "kurtka wiatro- i wodoodporna z długim rękawem (od 100 km)",
+  "czapka lub chusta (od 100 km)",
+  "zegarek lub urządzenie ze śladem GPX (od 100 km)",
+  "mapa trasy (od 100 km)",
+  "gotówka min. 50 zł (od 100 km)",
+  "dokument tożsamości (od 100 km)"
+ ],
+ "https://tamizpowrotem.eu/": [
+  "telefon z aplikacją Ratunek lub numerem GOPR",
+  "dowód osobisty",
+  "kubek na punkty żywieniowe",
+  "folia NRC (od 13 km)",
+  "czołówka lub latarka z zapasem baterii (od 32 km)"
+ ],
+ "https://turystyka.glucholazy.pl/8848/1138/komunikat.html": [
+  "obuwie terenowe"
+ ],
+ "https://www.maraton3jezior.com/": [
+  "naładowany telefon z numerami organizatora i GOPR, aplikacja Ratunek",
+  "pojemnik na napój min. 0,5 l",
+  "folia NRC min. 140 x 100 cm",
+  "dokument tożsamości",
+  "bandaż elastyczny",
+  "kurtka przeciwdeszczowa z kapturem",
+  "nakrycie głowy",
+  "drugi pojemnik wielorazowy (43 km)",
+  "Czupel Vertical: tylko dokument tożsamości"
+ ],
+ "https://ultrakotlina.pl/": [
+  "telefon z numerami GOPR i organizatora",
+  "dowód osobisty",
+  "min. 1000 ml wody lub napoju",
+  "wgrany ślad GPX",
+  "folia NRC",
+  "latarka lub czołówka z zapasem baterii",
+  "czerwona lampka i odblask z tyłu",
+  "kurtka wiatro- i wodoodporna",
+  "druga warstwa z długim rękawem",
+  "legginsy lub długie spodnie",
+  "przekąska (żel lub baton)",
+  "bidon lub kubek wielokrotnego użytku",
+  "ubezpieczenie NNW ważne w Czechach (140 km)"
+ ],
+ "https://b4sportonline.pl/sfb2026/": [
+  "dokument tożsamości",
+  "aktywny telefon",
+  "urządzenie GPS z wgraną trasą",
+  "własny kubeczek lub flask",
+  "folia NRC",
+  "pojemnik na wodę min. 1 l",
+  "kurtka wiatro- i wodoodporna z długim rękawem"
+ ],
+ "https://pomeraniatrail.pl/": [
+  "dowód osobisty lub paszport",
+  "latarka czołowa (od 65 km)",
+  "folia NRC min. 140 x 200 cm",
+  "aktywny telefon",
+  "bukłak, bidon lub softflask min. 1 l",
+  "kubek na wodę",
+  "tracker GPS z biura zawodów (100 km)",
+  "plecak, kamizelka lub pas biegowy",
+  "czapka lub chusta wielofunkcyjna"
+ ],
+ "https://jaskiniowy.pl/borowkowa-trail/": [
+  "pojemnik na wodę (kubek, bidon, softflask)",
+  "dowód osobisty (nie dotyczy 10 km)",
+  "naładowany telefon z numerem organizatora i GOPR"
+ ],
+ "https://beskidzkiegronie.pl/": [
+  "telefon z baterią na cały rajd",
+  "folia NRC",
+  "kurtka wiatrochronna z kapturem",
+  "ubranie na warunki górskie",
+  "gwizdek",
+  "obuwie do długich marszów",
+  "bandaż elastyczny",
+  "aplikacja Ratunek"
+ ],
+ "https://ultrarace.pl/gdansk/": [
+  "folia NRC",
+  "bidon lub kubek",
+  "naładowany telefon",
+  "gwizdek",
+  "czołówka lub latarka",
+  "dowód osobisty lub paszport",
+  "naładowany powerbank (101 km)",
+  "kurtka przeciwdeszczowa (101 km)",
+  "gotówka min. 50 zł"
+ ],
+ "https://online.datasport.pl/zapisy/portal/zawody.php?zawody=11477": [
+  "naładowany telefon z numerem organizatora"
+ ]
 }

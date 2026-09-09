@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-09T17:07:44.416Z",
+ "generatedAt": "2026-09-09T17:10:30.877Z",
  "count": 180,
  "races": [
   {
@@ -5198,23 +5198,43 @@
    "dateEnd": "2026-09-12",
    "city": "Kielce",
    "region": "",
-   "distancesKm": [],
-   "elevations": [],
+   "distancesKm": [
+    16,
+    26
+   ],
+   "elevations": [
+    {
+     "km": 16,
+     "limitH": 2.5
+    },
+    {
+     "km": 26,
+     "limitH": 5
+    }
+   ],
    "vertical": false,
-   "url": "https://elektronicznezapisy.pl/event/14693/strona.html",
+   "url": "https://online.datasport.pl/zapisy/portal/zawody.php?zawody=11477",
    "sources": [
     {
      "name": "elektronicznezapisy.pl",
      "url": "https://elektronicznezapisy.pl/62/bieg-gorski.html"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://online.datasport.pl/zapisy/portal/regulaminy/regulamin_11477.pdf"
     }
    ],
    "signupOpen": true,
+   "regulaminUrl": "https://online.datasport.pl/zapisy/portal/regulaminy/regulamin_11477.pdf",
+   "gear": [
+    "naładowany telefon z numerem organizatora"
+   ],
    "id": "12-kielecki-bieg-gorski-biesak-trail-2026-09-12",
    "surface": "gorski",
-   "minKm": 0,
-   "maxKm": 0,
+   "minKm": 16,
+   "maxKm": 26,
    "beginnerScore": 3,
-   "beginnerWhy": "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed decyzją."
+   "beginnerWhy": "najkrótszy dystans 16 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "X-RUN Vistula Trail",

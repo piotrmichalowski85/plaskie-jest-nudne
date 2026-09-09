@@ -6,7 +6,7 @@ const SKIP = /facebook|instagram|youtube|twitter|x\.com|tiktok|google|apple|tpay
 
 export type DeepResult = { regulaminUrl?: string; regulaminText?: string; organizerUrl?: string; visited: string[] };
 
-async function fetchAny(url: string, ms = 15000): Promise<{ kind: "html" | "pdf"; text: string; $?: cheerio.CheerioAPI } | null> {
+export async function fetchAny(url: string, ms = 15000): Promise<{ kind: "html" | "pdf"; text: string; $?: cheerio.CheerioAPI } | null> {
   try {
     const r = await fetch(url, { headers: { "user-agent": UA, accept: "text/html,application/pdf" }, signal: AbortSignal.timeout(ms), redirect: "follow" });
     if (!r.ok) return null;

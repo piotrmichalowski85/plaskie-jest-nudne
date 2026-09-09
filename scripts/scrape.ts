@@ -5,7 +5,8 @@ import { parsePolishDate, parseDistances, splitPlace, slugify, guessSurface, beg
 import { extractFromText, fetchText } from "../lib/enrich";
 import organizers from "../data/organizers.json";
 import { kingrunnerRows, kingrunnerDetail } from "../lib/adapters/kingrunner";
-import { findRegulamin, extractLimits, extractGear } from "../lib/deep";
+import { findRegulamin, extractLimits, extractGear, fetchAny } from "../lib/deep";
+import overrides from "../data/overrides.json";
 import { existsSync, readFileSync, mkdirSync } from "node:fs";
 import { createHash } from "node:crypto";
 
@@ -172,13 +173,20 @@ async function regulaminy(raws: Raw[]): Promise<number> {
   const todayS = new Date().toISOString().slice(0, 10);
   mkdirSync(TEXT_DIR, { recursive: true });
   const fresh = (u: string) => cache[u] && (Date.now() - Date.parse(cache[u].fetchedAt)) / 86400000 < TTL_DAYS && (!cache[u].regulaminUrl || existsSync(textPath(cache[u].regulaminUrl!)));
+  // ręczne nadpisania (data/overrides.json): link organizatora i/lub regulamin, gdy źródło ich nie ma
+  for (const o of overrides as { match: string; url?: string; regulaminUrl?: string }[]) {
+    const re = new RegExp(o.match, "i");
+    for (const r of raws.filter((x) => re.test(x.name))) { if (o.url) r.url = o.url; if (o.regulaminUrl) r.regulaminUrl = o.regulaminUrl; }
+  }
   const todo = raws.filter((r) => r.url && r.dateEnd >= todayS && !fresh(r.url!));
   let n = 0;
   const queue = [...todo];
   await Promise.all(Array.from({ length: 4 }, async () => {
     while (queue.length) {
       const r = queue.shift()!;
-      const res = await findRegulamin(r.url!);
+      const res = r.regulaminUrl
+        ? await (async () => { const pg = await fetchAny(r.regulaminUrl!); return { regulaminUrl: pg ? r.regulaminUrl : undefined, regulaminText: pg?.text, organizerUrl: undefined, visited: [r.regulaminUrl!] } as Awaited<ReturnType<typeof findRegulamin>>; })()
+        : await findRegulamin(r.url!);
       const text = res.regulaminText || "";
       if (res.regulaminUrl && text) writeFileSync(textPath(res.regulaminUrl), text.slice(0, 60000));
       const prevGear = cache[r.url!]?.gearSource === "llm" ? { gear: cache[r.url!].gear, gearSource: "llm" as const, gearAt: cache[r.url!].gearAt } : {};
@@ -198,7 +206,12 @@ async function regulaminy(raws: Raw[]): Promise<number> {
     if (!c) continue;
     if (c.regulaminUrl) r.regulaminUrl = c.regulaminUrl;
     if (c.organizerUrl && /elektronicznezapisy|b4sportonline|datasport|kingrunner|zapisy/i.test(r.url!)) r.url = c.organizerUrl;
-    if (!r.distancesKm.length && c.distances.length && c.distances.length <= 8) { r.distancesKm = c.distances.map((d) => d.km); r.elevations = c.distances; }
+    if (!r.distancesKm.length) {
+      // dystanse z regulaminu: najpewniejsze są te, przy których stoi limit czasu; reszta tekstu bywa o punktach kontrolnych
+      const fromLimits = c.limits.filter((l) => l.limitH / l.km >= 0.1 && l.limitH / l.km <= 0.5).map((l) => ({ km: l.km, limitH: l.limitH })).sort((a, b) => a.km - b.km);
+      const list = fromLimits.length ? fromLimits : c.distances.length <= 8 ? c.distances : [];
+      if (list.length) { r.distancesKm = list.map((d) => d.km); r.elevations = list; }
+    }
     for (const l of c.limits) {
       const e = r.elevations.find((x) => Math.abs(x.km - l.km) < 0.6);
       const hPerKm = l.limitH / l.km;
