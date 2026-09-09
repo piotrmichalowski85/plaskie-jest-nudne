@@ -177,8 +177,18 @@ function finalize(raws: Raw[]): Race[] {
     };
     byKey.set(k, merged);
   }
+  // drugi przebieg: ta sama pierwsza znacząca nazwa + miesiąc i (to samo miasto albo wspólny dystans) = ta sama impreza
+  const merged2: Raw[] = [];
+  const firstWord = (r: Raw) => (eventCore(r.eventName).split("-")[0] || slugify(r.eventName).slice(0, 8)) + "|" + r.dateStart.slice(0, 7);
+  for (const r of byKey.values()) {
+    const cand = merged2.find((m) => firstWord(m) === firstWord(r) && (slugify(m.city).split("-")[0] === slugify(r.city).split("-")[0] || m.distancesKm.some((a) => r.distancesKm.some((b) => Math.abs(a - b) < 0.6))));
+    if (!cand) { merged2.push(r); continue; }
+    const rich = cand.distancesKm.length >= r.distancesKm.length ? cand : r, poor = rich === cand ? r : cand;
+    for (const e of poor.elevations) { const x = rich.elevations.find((y) => Math.abs(y.km - e.km) < 0.6); if (x) { x.dplus ??= e.dplus; x.limitH ??= e.limitH; } }
+    Object.assign(cand, { ...rich, region: cand.region || r.region, url: cand.url || r.url, category: cand.category || r.category, signupOpen: cand.signupOpen || r.signupOpen, participants: cand.participants ?? r.participants, sources: [...cand.sources, ...r.sources.filter((s) => !cand.sources.some((p) => p.name === s.name))] });
+  }
   const used = new Set<string>();
-  return [...byKey.values()]
+  return merged2
     .map((r) => {
       const { score, why } = beginnerScore(r.elevations, r.vertical, r.category);
       let id = `${slugify(r.eventName)}-${r.dateStart}`;

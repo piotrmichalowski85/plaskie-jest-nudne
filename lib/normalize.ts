@@ -140,7 +140,7 @@ export function dedupKey(r: Pick<Race, "eventName" | "dateStart" | "city">): str
   return `${core}|${r.dateStart.slice(0, 7)}`;
 }
 export function cleanCity(place: string): string {
-  const parts = place.split(",").map((x) => x.trim()).filter(Boolean);
+  const parts = place.split(/,|\s[–-]\s/).map((x) => x.trim()).filter(Boolean);
   const venue = /\b(ul\.|ulica|plac|hala|galeria|stadion|zalew|rynek|park|schronisko|osir|mosir|boisko|parking|centrum|szkoła|szkola|al\.|aleja)\b|\d/i;
   const town = parts.find((x) => !venue.test(x));
   return (town || parts[parts.length - 1] || place).replace(/\s+/g, " ");

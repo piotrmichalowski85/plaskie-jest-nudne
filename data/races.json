@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-09T12:40:25.313Z",
- "count": 182,
+ "generatedAt": "2026-09-09T12:41:25.368Z",
+ "count": 179,
  "races": [
   {
    "name": "Grand Prix Krakowa w biegach górskich",
@@ -5257,6 +5257,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/biegi-gorskie-sanok---piatka-gajowego-5-km/4357"
     }
    ],
    "id": "ix-biegi-gorskie-sanok-5-km-nordic-walking-piatka-gajowego-2026-09-17",
@@ -5265,60 +5269,6 @@
    "maxKm": 270,
    "beginnerScore": 4,
    "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
-  },
-  {
-   "name": "Biegi Górskie Sanok: Piątka Gajowego 5 km, Pierwsza Dycha 10 km, Orli 25 km, Słonny 50 km, Dzika 100 km, Podkarpacki Szlak 170 km, Ultra Wyrypa 250 km",
-   "eventName": "Biegi Górskie Sanok",
-   "dateStart": "2026-09-17",
-   "dateEnd": "2026-09-19",
-   "city": "Sanok – Muzeum Budownictwa Ludowego",
-   "region": "",
-   "distancesKm": [
-    5.3,
-    10,
-    25,
-    52,
-    105,
-    171.6,
-    270
-   ],
-   "elevations": [
-    {
-     "km": 5.3
-    },
-    {
-     "km": 10
-    },
-    {
-     "km": 25
-    },
-    {
-     "km": 52
-    },
-    {
-     "km": 105
-    },
-    {
-     "km": 171.6
-    },
-    {
-     "km": 270
-    }
-   ],
-   "vertical": false,
-   "url": "http://www.biegigorskiesanok.pl",
-   "sources": [
-    {
-     "name": "kingrunner.com",
-     "url": "https://www.kingrunner.com/bieg/biegi-gorskie-sanok---piatka-gajowego-5-km/4357"
-    }
-   ],
-   "id": "biegi-gorskie-sanok-2026-09-17",
-   "surface": "gorski",
-   "minKm": 5.3,
-   "maxKm": 270,
-   "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 5.3 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
    "name": "RAJD PIESZY „Tam i z Powrotem\"",
@@ -6029,6 +5979,10 @@
     {
      "name": "strona organizatora",
      "url": "https://ultrakotlina.pl/"
+    },
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/ultrakotlina-15/4183"
     }
    ],
    "id": "ultrakotlina-140-100-80-50-34-15-ultrakotlina-2026-10-09",
@@ -6199,62 +6153,6 @@
    "maxKm": 53,
    "beginnerScore": 4,
    "beginnerWhy": "najkrótszy dystans 11 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
-  },
-  {
-   "name": "UltraKotlina: 15 km, 34 km, 55 km, 82 km, 109 km, 140 km",
-   "eventName": "UltraKotlina",
-   "dateStart": "2026-10-10",
-   "dateEnd": "2026-10-11",
-   "city": "Piechowice",
-   "region": "",
-   "distancesKm": [
-    15,
-    34,
-    55,
-    82,
-    109,
-    140
-   ],
-   "elevations": [
-    {
-     "km": 15,
-     "limitH": 3
-    },
-    {
-     "km": 34
-    },
-    {
-     "km": 55
-    },
-    {
-     "km": 82,
-     "limitH": 15
-    },
-    {
-     "km": 109
-    },
-    {
-     "km": 140
-    }
-   ],
-   "vertical": false,
-   "url": "http://ultrakotlina.pl",
-   "sources": [
-    {
-     "name": "kingrunner.com",
-     "url": "https://www.kingrunner.com/bieg/ultrakotlina-15/4183"
-    },
-    {
-     "name": "strona organizatora",
-     "url": "http://ultrakotlina.pl"
-    }
-   ],
-   "id": "ultrakotlina-2026-10-10",
-   "surface": "przelaj",
-   "minKm": 15,
-   "maxKm": 140,
-   "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
    "name": "Łemkowyna Ultra-Trail",
@@ -6590,38 +6488,6 @@
    "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
-   "name": "13 Jesienny Bieg Potrójnej",
-   "eventName": "13 Jesienny Bieg Potrójnej",
-   "dateStart": "2026-11-07",
-   "dateEnd": "2026-11-07",
-   "city": "Rzyki k/Andrychowa",
-   "region": "Beskidy",
-   "distancesKm": [
-    15
-   ],
-   "elevations": [
-    {
-     "km": 15,
-     "dplus": 1000
-    }
-   ],
-   "vertical": false,
-   "category": "Kat.I",
-   "url": "https://kandahar.pl/13-jesienny-bieg-potrojnej/",
-   "sources": [
-    {
-     "name": "biegigorskie.pl",
-     "url": "https://www.biegigorskie.pl/kalendarz-2026/"
-    }
-   ],
-   "id": "13-jesienny-bieg-potrojnej-2026-11-07",
-   "surface": "gorski",
-   "minKm": 15,
-   "maxKm": 15,
-   "beginnerScore": 2,
-   "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton, ale wolniej); stromo: ok. 67 m na km, dużo marszu pod górę."
-  },
-  {
    "name": "Gorlicki Bieg Górski 24km Radocyna 7km (150m) Vertical 2,4km (340m)",
    "eventName": "Gorlicki Bieg Górski 24km Radocyna 7km",
    "dateStart": "2026-11-07",
@@ -6797,22 +6663,23 @@
    "dateStart": "2026-11-28",
    "dateEnd": "2026-11-28",
    "city": "Gołkowice Dolne",
-   "region": "Beskid Niski",
+   "region": "Beskidy",
    "distancesKm": [
     15,
     24
    ],
    "elevations": [
     {
-     "km": 15
+     "km": 15,
+     "dplus": 1000
     },
     {
      "km": 24
     }
    ],
    "vertical": false,
-   "category": "Kat.II",
-   "url": "https://b4sportonline.pl/ultra_swir/",
+   "category": "Kat.I",
+   "url": "https://kandahar.pl/13-jesienny-bieg-potrojnej/",
    "sources": [
     {
      "name": "biegigorskie.pl",
@@ -6820,11 +6687,11 @@
     }
    ],
    "id": "jesienny-ultra-swir-2026-11-28",
-   "surface": "trail",
+   "surface": "gorski",
    "minKm": 15,
    "maxKm": 24,
-   "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerScore": 2,
+   "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton, ale wolniej); stromo: ok. 67 m na km, dużo marszu pod górę."
   },
   {
    "name": "Szczyt Wytrzymałości Mikołajki: 12H 8848 Everest",
