@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-09T12:35:58.411Z",
+ "generatedAt": "2026-09-09T12:40:25.313Z",
  "count": 182,
  "races": [
   {
@@ -1161,38 +1161,6 @@
    "maxKm": 60,
    "beginnerScore": 4,
    "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
-  },
-  {
-   "name": "2. Puchar KALWARII 2026: Laskówka FINAŁ",
-   "eventName": "2. Puchar KALWARII 2026",
-   "dateStart": "2026-03-15",
-   "dateEnd": "2026-03-15",
-   "city": "Laskówka",
-   "region": "Sudety",
-   "distancesKm": [
-    4.68
-   ],
-   "elevations": [
-    {
-     "km": 4.68,
-     "dplus": 240
-    }
-   ],
-   "vertical": false,
-   "category": "Kat.II",
-   "url": "https://www.facebook.com/events/1274207241303976",
-   "sources": [
-    {
-     "name": "biegigorskie.pl",
-     "url": "https://www.biegigorskie.pl/kalendarz-2026/"
-    }
-   ],
-   "id": "2-puchar-kalwarii-2026-2026-03-15",
-   "surface": "trail",
-   "minKm": 4.68,
-   "maxKm": 4.68,
-   "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 4.68 km; średnio stromo: ok. 51 m na km."
   },
   {
    "name": "WIOSENNY ULTRA ŚWIR",
@@ -5033,6 +5001,10 @@
     {
      "name": "strona organizatora",
      "url": "https://ultrarace.pl/radkow/"
+    },
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/garmin-ultra-race-radkow---gur11/4221"
     }
    ],
    "id": "garmin-ultra-race-radkow-2026-09-11",
@@ -5158,6 +5130,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/janosik-ultra-race---maryna-%E2%80%93-10-km/4290"
     }
    ],
    "id": "janosik-ultra-race-2026-09-12",
@@ -5291,6 +5267,60 @@
    "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
+   "name": "Biegi Górskie Sanok: Piątka Gajowego 5 km, Pierwsza Dycha 10 km, Orli 25 km, Słonny 50 km, Dzika 100 km, Podkarpacki Szlak 170 km, Ultra Wyrypa 250 km",
+   "eventName": "Biegi Górskie Sanok",
+   "dateStart": "2026-09-17",
+   "dateEnd": "2026-09-19",
+   "city": "Sanok – Muzeum Budownictwa Ludowego",
+   "region": "",
+   "distancesKm": [
+    5.3,
+    10,
+    25,
+    52,
+    105,
+    171.6,
+    270
+   ],
+   "elevations": [
+    {
+     "km": 5.3
+    },
+    {
+     "km": 10
+    },
+    {
+     "km": 25
+    },
+    {
+     "km": 52
+    },
+    {
+     "km": 105
+    },
+    {
+     "km": 171.6
+    },
+    {
+     "km": 270
+    }
+   ],
+   "vertical": false,
+   "url": "http://www.biegigorskiesanok.pl",
+   "sources": [
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/biegi-gorskie-sanok---piatka-gajowego-5-km/4357"
+    }
+   ],
+   "id": "biegi-gorskie-sanok-2026-09-17",
+   "surface": "gorski",
+   "minKm": 5.3,
+   "maxKm": 270,
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 5.3 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+  },
+  {
    "name": "RAJD PIESZY „Tam i z Powrotem\"",
    "eventName": "RAJD PIESZY „Tam i z Powrotem\"",
    "dateStart": "2026-09-18",
@@ -5407,6 +5437,14 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/maraton-trzech-jezior---czupel-vertical-600/4171"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://www.maraton3jezior.com"
     }
    ],
    "id": "festiwal-gorski-maraton-trzech-jezior-2026-09-19",
@@ -5612,6 +5650,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/x-bieg-beskidnika---6km/4358"
     }
    ],
    "id": "xi-bieg-beskidnika-2026-09-27",
@@ -5671,16 +5713,62 @@
     {
      "name": "elektronicznezapisy.pl",
      "url": "https://elektronicznezapisy.pl/62/bieg-gorski.html"
+    },
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/festiwal-biegowy-jurarun---5/4315"
     }
    ],
    "signupOpen": true,
-   "participants": 228,
+   "participants": 229,
    "id": "festiwal-biegowy-jurarun-2026-10-02",
    "surface": "trail",
    "minKm": 5,
    "maxKm": 104,
    "beginnerScore": 4,
    "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+  },
+  {
+   "name": "Baran Trail Race BTR: 10 km, 25 km, 59 km, 107 km",
+   "eventName": "Baran Trail Race BTR",
+   "dateStart": "2026-10-02",
+   "dateEnd": "2026-10-03",
+   "city": "Węgierska Górka",
+   "region": "",
+   "distancesKm": [
+    10,
+    25,
+    59,
+    107
+   ],
+   "elevations": [
+    {
+     "km": 10
+    },
+    {
+     "km": 25
+    },
+    {
+     "km": 59
+    },
+    {
+     "km": 107
+    }
+   ],
+   "vertical": false,
+   "url": "http://www.baranrace.pl",
+   "sources": [
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/baran-trail-race-btr-10/4325"
+    }
+   ],
+   "id": "baran-trail-race-btr-2026-10-02",
+   "surface": "przelaj",
+   "minKm": 10,
+   "maxKm": 107,
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
    "name": "XIII Podbieg na Makowicę",
@@ -5793,6 +5881,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/bison-trail-10/4282"
     }
    ],
    "id": "bison-ultra-trail-2026-10-03",
@@ -5875,6 +5967,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://maratonbieszczadzki.pl/"
     }
    ],
    "id": "xiv-ultramaraton-bieszczadzki-final-ale-ligi-biegow-gorskich-2026-10-09",
@@ -5941,48 +6037,6 @@
    "maxKm": 142,
    "beginnerScore": 3,
    "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
-  },
-  {
-   "name": "ultraMaraton Bieszczadzki by Bieg Rzeźnika",
-   "eventName": "ultraMaraton Bieszczadzki by Bieg Rzeźnika",
-   "dateStart": "2026-10-09",
-   "dateEnd": "2026-10-10",
-   "city": "Cisna",
-   "region": "Bieszczady",
-   "distancesKm": [
-    12,
-    26,
-    52,
-    100
-   ],
-   "elevations": [
-    {
-     "km": 12
-    },
-    {
-     "km": 26
-    },
-    {
-     "km": 52
-    },
-    {
-     "km": 100
-    }
-   ],
-   "vertical": false,
-   "url": "https://maratonbieszczadzki.pl/",
-   "sources": [
-    {
-     "name": "strona organizatora",
-     "url": "https://maratonbieszczadzki.pl/"
-    }
-   ],
-   "id": "ultramaraton-bieszczadzki-by-bieg-rzeznika-2026-10-09",
-   "surface": "trail",
-   "minKm": 12,
-   "maxKm": 100,
-   "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 12 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
    "name": "Walimskie Biegi Górskie: Sowi Light 22 km Sowi Hardcore 51 km",
@@ -6061,6 +6115,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/roztocze-ultra-race---roztoczanska-dycha-%E2%80%93-10-km/4239"
     }
    ],
    "id": "roztocze-ultra-race-2026-10-10",
@@ -6103,6 +6161,100 @@
    "maxKm": 21,
    "beginnerScore": 4,
    "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy."
+  },
+  {
+   "name": "Jeziorka Ultra River: Ćwiartka na dziko, Połówka na dziko, Heavy Ultra Jeziorka",
+   "eventName": "Jeziorka Ultra River",
+   "dateStart": "2026-10-10",
+   "dateEnd": "2026-10-10",
+   "city": "Plac Sołecki w Jazgarzewie",
+   "region": "",
+   "distancesKm": [
+    11,
+    21,
+    53
+   ],
+   "elevations": [
+    {
+     "km": 11
+    },
+    {
+     "km": 21
+    },
+    {
+     "km": 53
+    }
+   ],
+   "vertical": false,
+   "url": "https://www.facebook.com/events/970185795820598",
+   "sources": [
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/jeziorka-ultra-river---cwiartka-na-dziko/4341"
+    }
+   ],
+   "id": "jeziorka-ultra-river-2026-10-10",
+   "surface": "przelaj",
+   "minKm": 11,
+   "maxKm": 53,
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 11 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+  },
+  {
+   "name": "UltraKotlina: 15 km, 34 km, 55 km, 82 km, 109 km, 140 km",
+   "eventName": "UltraKotlina",
+   "dateStart": "2026-10-10",
+   "dateEnd": "2026-10-11",
+   "city": "Piechowice",
+   "region": "",
+   "distancesKm": [
+    15,
+    34,
+    55,
+    82,
+    109,
+    140
+   ],
+   "elevations": [
+    {
+     "km": 15,
+     "limitH": 3
+    },
+    {
+     "km": 34
+    },
+    {
+     "km": 55
+    },
+    {
+     "km": 82,
+     "limitH": 15
+    },
+    {
+     "km": 109
+    },
+    {
+     "km": 140
+    }
+   ],
+   "vertical": false,
+   "url": "http://ultrakotlina.pl",
+   "sources": [
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/ultrakotlina-15/4183"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "http://ultrakotlina.pl"
+    }
+   ],
+   "id": "ultrakotlina-2026-10-10",
+   "surface": "przelaj",
+   "minKm": 15,
+   "maxKm": 140,
+   "beginnerScore": 3,
+   "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
    "name": "Łemkowyna Ultra-Trail",
@@ -6157,6 +6309,10 @@
     {
      "name": "strona organizatora",
      "url": "https://ultralemkowyna.pl/"
+    },
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/lemkowyna-trail-70/4116"
     }
    ],
    "id": "lemkowyna-ultra-trail-2026-10-16",
@@ -6247,6 +6403,54 @@
    "beginnerWhy": "najkrótszy dystans 9.2 km; przewyższenie nieznane, sprawdź profil trasy."
   },
   {
+   "name": "Łemko Trail: 10 km, 30 km, 48 km",
+   "eventName": "Łemko Trail",
+   "dateStart": "2026-10-17",
+   "dateEnd": "2026-10-18",
+   "city": "Komańcza",
+   "region": "",
+   "distancesKm": [
+    10,
+    30,
+    48
+   ],
+   "elevations": [
+    {
+     "km": 10,
+     "dplus": 200,
+     "limitH": 2
+    },
+    {
+     "km": 30,
+     "dplus": 740,
+     "limitH": 5
+    },
+    {
+     "km": 48,
+     "dplus": 1400,
+     "limitH": 8
+    }
+   ],
+   "vertical": false,
+   "url": "http://www.ultralemkowyna.pl",
+   "sources": [
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/lemko-trail-10/4119"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "http://www.ultralemkowyna.pl"
+    }
+   ],
+   "id": "lemko-trail-2026-10-17",
+   "surface": "trail",
+   "minKm": 10,
+   "maxKm": 48,
+   "beginnerScore": 5,
+   "beginnerWhy": "najkrótszy dystans 10 km; łagodnie: ok. 20 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+  },
+  {
    "name": "Sowiogórski Festiwal Biegowy: Don Jon Czarny Rycerz Mroczny Śpiewak Stara Jodła Ostoja Nietoperza",
    "eventName": "Sowiogórski Festiwal Biegowy",
    "dateStart": "2026-10-24",
@@ -6325,6 +6529,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/smok-ultra-race---smoczus---12-km/4293"
     }
    ],
    "id": "smok-ultra-race-2026-10-24",
@@ -6471,6 +6679,8 @@
     }
    ],
    "vertical": false,
+   "category": "Kat.S",
+   "url": "https://biegajwgorachsowich.pl/Gorski_Bieg_Niepodleglosci",
    "sources": [
     {
      "name": "biegigorskie.pl",
@@ -6483,73 +6693,6 @@
    "maxKm": 10,
    "beginnerScore": 4,
    "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy."
-  },
-  {
-   "name": "14. GÓRSKI BIEG NIEPODLEGŁOŚCI",
-   "eventName": "14. GÓRSKI BIEG NIEPODLEGŁOŚCI",
-   "dateStart": "2026-11-11",
-   "dateEnd": "2026-11-11",
-   "city": "Świerki",
-   "region": "Góry Sowie",
-   "distancesKm": [
-    11
-   ],
-   "elevations": [
-    {
-     "km": 11,
-     "dplus": 300
-    }
-   ],
-   "vertical": false,
-   "category": "Kat.S",
-   "url": "https://biegajwgorachsowich.pl/Gorski_Bieg_Niepodleglosci",
-   "sources": [
-    {
-     "name": "biegigorskie.pl",
-     "url": "https://www.biegigorskie.pl/kalendarz-2026/"
-    }
-   ],
-   "id": "14-gorski-bieg-niepodleglosci-2026-11-11",
-   "surface": "gorski",
-   "minKm": 11,
-   "maxKm": 11,
-   "beginnerScore": 5,
-   "beginnerWhy": "najkrótszy dystans 11 km; łagodnie: ok. 27 m przewyższenia na km."
-  },
-  {
-   "name": "Górski Bieg Niepodległości",
-   "eventName": "Górski Bieg Niepodległości",
-   "dateStart": "2026-11-11",
-   "dateEnd": "2026-11-11",
-   "city": "Bielsko-Biała",
-   "region": "Beskidy",
-   "distancesKm": [
-    11,
-    21
-   ],
-   "elevations": [
-    {
-     "km": 11
-    },
-    {
-     "km": 21
-    }
-   ],
-   "vertical": false,
-   "category": "Kat.II",
-   "url": "https://www.biegzboja.pl/",
-   "sources": [
-    {
-     "name": "biegigorskie.pl",
-     "url": "https://www.biegigorskie.pl/kalendarz-2026/"
-    }
-   ],
-   "id": "gorski-bieg-niepodleglosci-2026-11-11",
-   "surface": "gorski",
-   "minKm": 11,
-   "maxKm": 21,
-   "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 11 km; przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "Borówkowa Trail – Górska Kuracja",
@@ -6724,8 +6867,27 @@
    "region": "",
    "distancesKm": [
     6,
-    27,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    26.9,
     53,
+    53,
+    53,
+    53,
+    53,
+    53,
+    53,
+    101,
+    101,
+    101,
+    101,
+    101,
+    101,
     101
    ],
    "elevations": [
@@ -6733,10 +6895,67 @@
      "km": 6
     },
     {
-     "km": 27
+     "km": 12
+    },
+    {
+     "km": 12
+    },
+    {
+     "km": 12
+    },
+    {
+     "km": 12
+    },
+    {
+     "km": 12
+    },
+    {
+     "km": 12
+    },
+    {
+     "km": 12
+    },
+    {
+     "km": 26.9
     },
     {
      "km": 53
+    },
+    {
+     "km": 53
+    },
+    {
+     "km": 53
+    },
+    {
+     "km": 53
+    },
+    {
+     "km": 53
+    },
+    {
+     "km": 53
+    },
+    {
+     "km": 53
+    },
+    {
+     "km": 101
+    },
+    {
+     "km": 101
+    },
+    {
+     "km": 101
+    },
+    {
+     "km": 101
+    },
+    {
+     "km": 101
+    },
+    {
+     "km": 101
     },
     {
      "km": 101,
@@ -6754,6 +6973,10 @@
     {
      "name": "strona organizatora",
      "url": "https://ultrarace.pl/gdansk/"
+    },
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/garmin-ultra-race-gdansk---6km/4226"
     }
    ],
    "id": "garmin-ultra-race-gdansk-2026-12-05",
@@ -7186,65 +7409,6 @@
    "city": "Cisna",
    "region": "Bieszczady",
    "distancesKm": [
-    5,
-    12,
-    16,
-    28,
-    52,
-    80,
-    95,
-    175
-   ],
-   "elevations": [
-    {
-     "km": 5
-    },
-    {
-     "km": 12
-    },
-    {
-     "km": 16
-    },
-    {
-     "km": 28
-    },
-    {
-     "km": 52
-    },
-    {
-     "km": 80
-    },
-    {
-     "km": 95
-    },
-    {
-     "km": 175
-    }
-   ],
-   "vertical": false,
-   "category": "5km-Kat.I 12km-Kat.S 28km-Kat.M 52km-Kat.M 80km-Kat.M 95km-Kat.S",
-   "url": "https://www.biegrzeznika.pl/",
-   "sources": [
-    {
-     "name": "biegigorskie.pl",
-     "url": "https://www.biegigorskie.pl/kalendarz-2027/"
-    }
-   ],
-   "id": "xiii-festiwal-biegu-rzeznika-2027-05-26",
-   "surface": "trail",
-   "minKm": 5,
-   "maxKm": 175,
-   "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
-  },
-  {
-   "name": "Festiwal Biegu Rzeźnika",
-   "eventName": "Festiwal Biegu Rzeźnika",
-   "dateStart": "2027-05-26",
-   "dateEnd": "2027-05-29",
-   "city": "Cisna",
-   "region": "Bieszczady",
-   "distancesKm": [
     7,
     12,
     16,
@@ -7285,14 +7449,19 @@
     }
    ],
    "vertical": false,
-   "url": "https://biegrzeznika.pl/",
+   "category": "5km-Kat.I 12km-Kat.S 28km-Kat.M 52km-Kat.M 80km-Kat.M 95km-Kat.S",
+   "url": "https://www.biegrzeznika.pl/",
    "sources": [
+    {
+     "name": "biegigorskie.pl",
+     "url": "https://www.biegigorskie.pl/kalendarz-2027/"
+    },
     {
      "name": "strona organizatora",
      "url": "https://biegrzeznika.pl/"
     }
    ],
-   "id": "festiwal-biegu-rzeznika-2027-05-26",
+   "id": "xiii-festiwal-biegu-rzeznika-2027-05-26",
    "surface": "trail",
    "minKm": 7,
    "maxKm": 175,

@@ -126,7 +126,22 @@ export function beginnerScore(list: { km: number; dplus?: number }[], vertical: 
   return { score, why: why.join("; ") + "." };
 }
 
+const GENERIC = new Set(["ultra", "trail", "race", "run", "bieg", "biegi", "biegowy", "festiwal", "maraton", "polmaraton", "by", "utmb", "the", "and", "edycja", "cup", "series", "gorski", "gorskie", "winter", "summer"]);
+/** rdzeń nazwy imprezy: bez liczb, rzymskich numerów edycji i słów generycznych; 2 pierwsze znaczące słowa */
+export function eventCore(name: string): string {
+  return slugify(name)
+    .split("-")
+    .filter((w) => w.length > 2 && !/^\d+$/.test(w) && !/^[ivx]+$/.test(w) && !GENERIC.has(w))
+    .slice(0, 2)
+    .join("-");
+}
 export function dedupKey(r: Pick<Race, "eventName" | "dateStart" | "city">): string {
-  const n = slugify(r.eventName).replace(/-(20\d\d|edycja|\d+)\b/g, "").split("-").filter((w) => w.length > 2).slice(0, 3).join("-");
-  return `${n}|${r.dateStart.slice(0, 7)}|${slugify(r.city).split("-")[0]}`;
+  const core = eventCore(r.eventName) || slugify(r.eventName).slice(0, 12);
+  return `${core}|${r.dateStart.slice(0, 7)}`;
+}
+export function cleanCity(place: string): string {
+  const parts = place.split(",").map((x) => x.trim()).filter(Boolean);
+  const venue = /\b(ul\.|ulica|plac|hala|galeria|stadion|zalew|rynek|park|schronisko|osir|mosir|boisko|parking|centrum|szkoła|szkola|al\.|aleja)\b|\d/i;
+  const town = parts.find((x) => !venue.test(x));
+  return (town || parts[parts.length - 1] || place).replace(/\s+/g, " ");
 }

@@ -1,9 +1,10 @@
 import * as cheerio from "cheerio";
 import { writeFileSync, mkdirSync } from "node:fs";
 import type { Race, Dataset } from "../lib/types";
-import { parsePolishDate, parseDistances, splitPlace, slugify, guessSurface, beginnerScore, dedupKey } from "../lib/normalize";
+import { parsePolishDate, parseDistances, splitPlace, slugify, guessSurface, beginnerScore, dedupKey, eventCore, cleanCity } from "../lib/normalize";
 import { extractFromText, fetchText } from "../lib/enrich";
 import organizers from "../data/organizers.json";
+import { kingrunnerRows, kingrunnerDetail } from "../lib/adapters/kingrunner";
 
 const UA = "Mozilla/5.0 (compatible; plaskiejestnudne-bot/0.1; +https://plaskiejestnudne.pl/o-serwisie)";
 async function get(url: string): Promise<string> {
@@ -109,6 +110,34 @@ async function enrich(raws: Raw[]): Promise<number> {
   return hits;
 }
 
+/** kingrunner.com: wiersze per dystans -> grupujemy w imprezy (ta sama nazwa, daty w oknie 3 dni) */
+async function kingrunner(): Promise<Raw[]> {
+  const rows = (await kingrunnerRows()).filter((r) => r.polska && (/górski|terenowy|vertical/i.test(r.typ) && !/uliczny/i.test(r.typ)));
+  const groups = new Map<string, typeof rows>();
+  for (const r of rows) {
+    const key = `${eventCore(r.event) || slugify(r.event)}|${r.date.slice(0, 7)}`;
+    (groups.get(key) ?? groups.set(key, []).get(key)!).push(r);
+  }
+  const out: Raw[] = [];
+  const src = "https://www.kingrunner.com/biegi";
+  for (const g of groups.values()) {
+    g.sort((a, b) => a.km - b.km);
+    const dates = g.map((x) => x.date).sort();
+    const detail = g[0].href ? await kingrunnerDetail(g[0].href) : {};
+    const list = g.map((x) => ({ km: x.km, dplus: undefined as number | undefined }));
+    if (detail.dplus && list.length === 1) list[0].dplus = detail.dplus;
+    // nazwa imprezy = najkrótsza z nazw w grupie, bez końcowej liczby dystansu ("Łemkowyna Trail 150" -> "Łemkowyna Trail")
+    const eventName = g.map((x) => x.event).sort((a, b) => a.length - b.length)[0].replace(/\s+\d{1,3}\s*(km)?$/i, "").trim();
+    out.push({
+      name: g.length > 1 ? `${eventName}: ${g.map((x) => x.variant || x.km + " km").join(", ")}` : `${eventName}${g[0].variant ? " - " + g[0].variant : ""}`,
+      eventName, dateStart: dates[0], dateEnd: dates[dates.length - 1], city: cleanCity(g[0].city), region: "",
+      distancesKm: g.map((x) => x.km), elevations: list, vertical: g.some((x) => /vertical/i.test(x.typ + x.variant)),
+      url: detail.url, sources: [{ name: "kingrunner.com", url: g[0].href || src }],
+    });
+  }
+  return out;
+}
+
 /** Flagowce spoza kalendarzy: seed z data/organizers.json + dystanse/D+/limity ze strony organizatora */
 async function organizerSeeds(): Promise<Raw[]> {
   const out: Raw[] = [];
@@ -167,7 +196,7 @@ function finalize(raws: Raw[]): Race[] {
 
 async function main() {
   const year = new Date().getFullYear();
-  const results = await Promise.allSettled([biegigorskie(year), biegigorskie(year + 1), elektronicznezapisy(), organizerSeeds()]);
+  const results = await Promise.allSettled([biegigorskie(year), biegigorskie(year + 1), elektronicznezapisy(), organizerSeeds(), kingrunner()]);
   const raws: Raw[] = [];
   results.forEach((r, i) => {
     if (r.status === "fulfilled") { console.log(`source ${i}: ${r.value.length} rows`); raws.push(...r.value); }
