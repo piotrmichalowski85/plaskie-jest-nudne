@@ -99,7 +99,7 @@ async function enrich(raws: Raw[]): Promise<number> {
           if (e) { if (!e.dplus && d.dplus) { e.dplus = d.dplus; changed = true; } if (d.limitH) { e.limitH = d.limitH; changed = true; } }
         }
       }
-      if (f.dplusMax && !r.elevations.some((e) => e.dplus) && r.elevations.length) {
+      if (f.dplusMax && !r.elevations.some((e) => e.dplus) && r.elevations.length && !changed) {
         const longest = r.elevations[r.elevations.length - 1]; longest.dplus = f.dplusMax; if (r.elevations.length > 1) longest.approx = true; changed = true;
       }
       if (changed) { hits++; r.sources.push({ name: "strona organizatora", url: r.url! }); }

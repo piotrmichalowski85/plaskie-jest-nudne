@@ -16,7 +16,12 @@ export function extractFromText(text: string): Found | null {
     if (km < 1 || km > 300 || st.some((x) => Math.abs(x.km - km) < 0.05)) continue;
     st.push({ km, dplus: ms[2] ? parseInt(ms[2].replace(/\s/g, ""), 10) : undefined, limitH: ms[3] ? parseFloat(ms[3].replace(",", ".")) : undefined });
   }
-  if (st.length >= 1 && st.length <= 12) { st.sort((a, b) => a.km - b.km); return { distances: st, dplusMax: Math.max(0, ...st.map((x) => x.dplus || 0)) || undefined, structured: true }; }
+  if (st.length >= 1 && st.length <= 12) {
+    st.sort((a, b) => a.km - b.km);
+    let dplusMax = Math.max(0, ...st.map((x) => x.dplus || 0)) || undefined;
+    if (!dplusMax) { const loose = [...t.matchAll(/(?:\+\s?|D\s?\+\s?|przewyższeni\w*[^0-9]{0,25})(\d[\d\s]{2,5})\s*m\b/gi)].map((x) => parseInt(x[1].replace(/\s/g, ""), 10)).filter((v) => v >= 100 && v <= 15000); if (loose.length) dplusMax = Math.max(...loose); }
+    return { distances: st, dplusMax, structured: true };
+  }
   const kms = new Set<number>();
   const re = /(\d{1,3}(?:[.,]\d)?)\s*(?:km|kilometr)/gi;
   let m: RegExpExecArray | null;
