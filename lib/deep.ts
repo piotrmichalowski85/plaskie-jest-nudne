@@ -2,7 +2,7 @@ import * as cheerio from "cheerio";
 import { PDFParse } from "pdf-parse";
 
 const UA = "Mozilla/5.0 (compatible; plaskiejestnudne-bot/0.1; +https://plaskiejestnudne.pl/o-serwisie)";
-const SKIP = /facebook|instagram|youtube|twitter|x\.com|tiktok|google|apple|tpay|przelewy24|payu|linkedin|strava|garmin|wikipedia|allegro|sklep|shop|cookies|polityka|privacy|regulamin_portalu|regulamin-portalu|regulamin_serwisu/i;
+const SKIP = /facebook|instagram|youtube|twitter|x\.com|tiktok|google|apple|tpay|przelewy24|payu|imoje|linkedin|strava|garmin|wikipedia|allegro|sklep|shop|cookies|polityka|privacy|regulamin_portalu|regulamin-portalu|regulamin_serwisu|regulamin\.php|regapk|rossmann|zaloguj|rejestracja\.php|queue\/|wyniki\.|results/i;
 
 export type DeepResult = { regulaminUrl?: string; regulaminText?: string; organizerUrl?: string; visited: string[] };
 
@@ -30,22 +30,24 @@ function abs(base: string, href: string): string | null {
 }
 
 /** Kandydaci z jednej strony: linki do regulaminu (pdf/html) i do zewnętrznej strony organizatora */
-function candidates(base: string, $: cheerio.CheerioAPI): { regulamin: string[]; external: string[] } {
+function candidates(base: string, $: cheerio.CheerioAPI): { regulamin: string[]; external: string[]; internal: string[] } {
   const baseHost = new URL(base).hostname.replace(/^www\./, "");
-  const regulamin: string[] = [], external: string[] = [];
+  const regulamin: string[] = [], external: string[] = [], internal: string[] = [];
   $("a[href]").each((_, a) => {
     const href = $(a).attr("href") || "";
     const text = $(a).text().replace(/\s+/g, " ").trim();
     const u = abs(base, href);
     if (!u || !/^https?:/.test(u) || SKIP.test(u) || u.startsWith("mailto:")) return;
     const host = new URL(u).hostname.replace(/^www\./, "");
-    if (/regulamin|rules/i.test(text) || /regulamin|rules|zasady/i.test(u)) { if (!regulamin.includes(u)) regulamin.push(u); return; }
-    if (host !== baseHost && (/strona|www|organizator|zapisy|więcej|wiecej|bieg|trail|szczegół|info/i.test(text) || /\.pl\/?$|\.com\/?$|\.eu\/?$/i.test(u))) {
+    if ((/regulamin|rules/i.test(text) && !/serwisu|portalu|aplikacji|płatno|platno/i.test(text)) || /regulamin|rules|zasady/i.test(u)) { if (!regulamin.includes(u)) regulamin.push(u); return; }
+    if (host !== baseHost && (/strona|www|organizator|zapisy|zapisz|rejestr|więcej|wiecej|bieg|trail|szczegół|info/i.test(text) || /\.pl\/?$|\.com\/?$|\.eu\/?$/i.test(u))) {
       if (!external.includes(u)) external.push(u);
+    } else if (host === baseHost && u !== base && /zapisz|zapisy|rejestracja|strona biegu|szczegóły|więcej/i.test(text) && !/^(#|javascript)/.test(href)) {
+      if (!internal.includes(u)) internal.push(u);
     }
   });
   regulamin.sort((a, b) => Number(/\.pdf/i.test(b)) - Number(/\.pdf/i.test(a)));
-  return { regulamin, external: external.slice(0, 4) };
+  return { regulamin, external: external.slice(0, 4), internal: internal.slice(0, 2) };
 }
 
 const looksLikeRegulamin = (t: string) => /regulamin/i.test(t) && /(dystans|km)/i.test(t) && /(limit|organizator|uczestnik)/i.test(t) && t.length > 1500;
@@ -66,7 +68,13 @@ export async function findRegulamin(startUrl: string): Promise<DeepResult> {
   const first = (await tryUrl(startUrl)) as (DeepResult & { _c?: ReturnType<typeof candidates> }) | null;
   if (!first) return { visited };
   if (first.regulaminText) return first;
-  const c1 = first._c ?? { regulamin: [], external: [] };
+  const c1 = first._c ?? { regulamin: [], external: [], internal: [] };
+  for (const inl of c1.internal) {
+    const mid = (await tryUrl(inl)) as (DeepResult & { _c?: ReturnType<typeof candidates> }) | null;
+    if (mid?.regulaminText) return mid;
+    for (const r of mid?._c?.regulamin ?? []) if (!c1.regulamin.includes(r)) c1.regulamin.push(r);
+    for (const e of mid?._c?.external ?? []) if (!c1.external.includes(e)) c1.external.push(e);
+  }
   for (const r of c1.regulamin.slice(0, 3)) { const res = await tryUrl(r); if (res?.regulaminText) return { ...res, organizerUrl: undefined }; }
   for (const ext of c1.external) {
     const second = (await tryUrl(ext)) as (DeepResult & { _c?: ReturnType<typeof candidates> }) | null;

@@ -71,7 +71,7 @@
   "fetchedAt": "2026-09-09T17:04:01.401Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:10:10.707Z"
+  "gearAt": "2026-09-09T17:15:16.069Z"
  },
  "https://utm.run/pl/szczebel_cup/": {
   "regulaminUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
@@ -280,7 +280,7 @@
   "fetchedAt": "2026-09-09T17:04:02.705Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:10:10.708Z"
+  "gearAt": "2026-09-09T17:15:16.070Z"
  },
  "https://tamizpowrotem.eu/": {
   "regulaminUrl": "https://tamizpowrotem.eu/wp-content/uploads/2026/06/Regulamin_TIZP_2026.pdf",
@@ -333,7 +333,7 @@
   "fetchedAt": "2026-09-09T17:04:01.685Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:10:10.708Z"
+  "gearAt": "2026-09-09T17:15:16.070Z"
  },
  "https://biegnakasprowy.pl/biegnakasprowy/": {
   "regulaminUrl": "https://biegnakasprowy.pl/biegnakasprowy/regulamin",
@@ -392,7 +392,7 @@
   "fetchedAt": "2026-09-09T17:04:02.600Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:10:10.708Z"
+  "gearAt": "2026-09-09T17:15:16.070Z"
  },
  "https://www.maraton3jezior.com/": {
   "regulaminUrl": "https://www.maraton3jezior.com/regulamin/",
@@ -443,7 +443,7 @@
   "fetchedAt": "2026-09-09T17:04:02.607Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:10:10.708Z"
+  "gearAt": "2026-09-09T17:15:16.070Z"
  },
  "https://www.bgtimesport.pl/zawody/info/id/870": {
   "organizerUrl": "https://www.traseo.pl/trasa/bieg-na-blatnia-o-puchar-dowodcy-jw-agat-plk-michala-polaszka",
@@ -601,7 +601,7 @@
   "fetchedAt": "2026-09-09T17:04:04.921Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:10:10.708Z"
+  "gearAt": "2026-09-09T17:15:16.070Z"
  },
  "https://my.raceresult.com/392481/": {
   "distances": [],
@@ -717,7 +717,7 @@
   "fetchedAt": "2026-09-09T17:04:07.664Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:10:10.708Z"
+  "gearAt": "2026-09-09T17:15:16.070Z"
  },
  "https://pomeraniatrail.pl/": {
   "regulaminUrl": "https://pomeraniatrail.pl/wp-content/uploads/2025/11/REGULAMIN-COCONAUT-POMERANIA-ULTRA-TRAIL-2026.pdf",
@@ -774,7 +774,7 @@
   "fetchedAt": "2026-09-09T17:04:07.245Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:10:10.708Z"
+  "gearAt": "2026-09-09T17:15:16.070Z"
  },
  "https://www.facebook.com/MarszobiegNaCzantorie": {
   "distances": [],
@@ -891,7 +891,7 @@
   "fetchedAt": "2026-09-09T17:04:08.791Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:10:10.708Z"
+  "gearAt": "2026-09-09T17:15:16.070Z"
  },
  "https://biegajwgorachsowich.pl/orzel-i-trzynastka": {
   "regulaminUrl": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026-msyirv8m.pdf",
@@ -958,7 +958,7 @@
   "fetchedAt": "2026-09-09T17:04:09.453Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:10:10.708Z"
+  "gearAt": "2026-09-09T17:15:16.070Z"
  },
  "https://www.biegbeskidnika.powiat.jaslo.pl/": {
   "organizerUrl": "https://edexbron.pl/",
@@ -1051,7 +1051,7 @@
   "fetchedAt": "2026-09-09T17:04:09.980Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:10:10.708Z"
+  "gearAt": "2026-09-09T17:15:16.070Z"
  },
  "https://krakowbiega.pl/": {
   "organizerUrl": "https://flousport.com/",
@@ -1139,20 +1139,6 @@
   "visited": 2,
   "gearSource": "llm",
   "gearAt": "2026-09-09T17:07:23.273Z"
- },
- "https://elektronicznezapisy.pl/event/14693/strona.html": {
-  "distances": [],
-  "limits": [],
-  "gear": [],
-  "fetchedAt": "2026-09-09T17:02:33.050Z",
-  "visited": 1
- },
- "https://elektronicznezapisy.pl/event/14899/strona.html": {
-  "distances": [],
-  "limits": [],
-  "gear": [],
-  "fetchedAt": "2026-09-09T17:02:33.192Z",
-  "visited": 2
  },
  "https://b4sportonline.pl/suszecki_festiwal/": {
   "regulaminUrl": "https://b4sportonline.pl/suszecki_festiwal/regulamin",
@@ -1788,8 +1774,16 @@
   "fetchedAt": "2026-09-09T17:02:48.453Z",
   "visited": 12
  },
- "https://online.datasport.pl/zapisy/portal/zawody.php?zawody=11477": {
+ "https://elektronicznezapisy.pl/event/14899/strona.html": {
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-09T17:15:15.415Z",
+  "visited": 4
+ },
+ "https://elektronicznezapisy.pl/event/14693/strona.html": {
   "regulaminUrl": "https://online.datasport.pl/zapisy/portal/regulaminy/regulamin_11477.pdf",
+  "organizerUrl": "https://liveds.datasport.pl/zawody_files/zawody11477.html",
   "distances": [
    {
     "km": 13
@@ -1814,9 +1808,9 @@
   "gear": [
    "naładowany telefon z numerem organizatora"
   ],
-  "fetchedAt": "2026-09-09T17:09:48.485Z",
-  "visited": 1,
+  "fetchedAt": "2026-09-09T17:15:15.914Z",
+  "visited": 4,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:10:10.708Z"
+  "gearAt": "2026-09-09T17:15:16.070Z"
  }
 }

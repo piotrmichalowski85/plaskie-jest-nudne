@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-09T17:10:30.877Z",
+ "generatedAt": "2026-09-09T17:15:34.491Z",
  "count": 180,
  "races": [
   {
@@ -5213,7 +5213,7 @@
     }
    ],
    "vertical": false,
-   "url": "https://online.datasport.pl/zapisy/portal/zawody.php?zawody=11477",
+   "url": "https://liveds.datasport.pl/zawody_files/zawody11477.html",
    "sources": [
     {
      "name": "elektronicznezapisy.pl",
