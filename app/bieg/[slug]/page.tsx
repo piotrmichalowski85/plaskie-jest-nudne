@@ -52,7 +52,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
         </ul>
         <div className="mt-3 flex flex-wrap gap-2">
           {r.url && <a className="btn" href={r.url} target="_blank" rel="noopener">Strona organizatora / zapisy</a>}
-          <Link href="/slownik" className="btn btn-ghost">Słownik pojęć</Link>
+          <Link href="/slownik" className="btn btn-ghost">Słownik trailowy</Link>
         </div>
       </section>
       <p className="mt-6 text-xs text-[var(--muted)]">Źródła: {r.sources.map((s) => <a key={s.name} className="underline mr-2" href={s.url} target="_blank" rel="noopener">{s.name}</a>)}. Dane mogą się zmienić, wiążący jest regulamin organizatora.</p>
