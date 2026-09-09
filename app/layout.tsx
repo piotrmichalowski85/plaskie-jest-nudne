@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import "./globals.css";
+import { Logo } from "@/components/Logo";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://plaskiejestnudne.pl"),
@@ -15,7 +16,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-screen flex flex-col">
         <header className="border-b border-[#e3e7e1] bg-white/80 backdrop-blur sticky top-0 z-10">
           <nav className="mx-auto max-w-5xl px-4 h-14 flex items-center justify-between gap-4">
-            <Link href="/" className="font-extrabold tracking-tight text-[var(--moss-dark)]">płaskie<span className="text-[var(--sun)]">jest</span>nudne</Link>
+            <Link href="/" aria-label="Płaskie jest nudne, strona główna"><Logo /></Link>
             <div className="flex gap-4 text-sm font-semibold text-[var(--moss-dark)]">
               <Link href="/biegi">Biegi</Link>
               <Link href="/kreator">Pierwszy bieg</Link>

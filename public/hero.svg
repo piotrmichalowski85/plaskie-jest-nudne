@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-label="Góry o poranku i biegacz na grani">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7e9c4"/><stop offset=".55" stop-color="#f3d58f"/><stop offset="1" stop-color="#e8b84a"/></linearGradient>
+    <linearGradient id="far" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9fb8a5"/><stop offset="1" stop-color="#7d9a86"/></linearGradient>
+    <linearGradient id="mid" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5f8a6b"/><stop offset="1" stop-color="#3f6a4c"/></linearGradient>
+    <linearGradient id="near" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2f5d3a"/><stop offset="1" stop-color="#1f4128"/></linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff7dc" stop-opacity=".9"/><stop offset="1" stop-color="#fff7dc" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#sky)"/>
+  <circle cx="860" cy="250" r="220" fill="url(#glow)"/>
+  <circle cx="860" cy="250" r="78" fill="#fff3cf"/>
+  <g opacity=".9"><path d="M0 420 L120 300 L210 360 L330 230 L440 330 L560 250 L690 340 L800 270 L930 350 L1050 260 L1200 330 L1200 700 L0 700Z" fill="url(#far)"/></g>
+  <path d="M0 500 L90 430 L180 470 L300 360 L400 440 L520 380 L650 470 L760 400 L880 460 L1010 380 L1200 470 L1200 700 L0 700Z" fill="url(#mid)"/>
+  <path d="M0 600 L110 540 L230 580 L340 500 L470 570 L600 520 L720 590 L860 530 L1000 600 L1200 560 L1200 700 L0 700Z" fill="url(#near)"/>
+  <path d="M340 500 L470 570 L600 520" fill="none" stroke="#e8b84a" stroke-width="4" stroke-dasharray="10 12" stroke-linecap="round" opacity=".8"/>
+  <!-- biegacz na grani -->
+  <g transform="translate(596 478) scale(1.15)" fill="#17201a">
+    <circle cx="14" cy="-2" r="6"/>
+    <path d="M12 4 L20 10 L16 26 L22 40 L18 42 L10 28 L4 34 L0 32 L6 22 L4 14 L-6 18 L-8 14 L4 8 Z"/>
+    <path d="M20 10 L32 6 L34 10 L22 15 Z"/>
+    <path d="M22 40 L30 46 L28 49 L18 44 Z"/>
+    <path d="M4 34 L-4 46 L-8 44 L-1 32 Z"/>
+  </g>
+  <text x="40" y="660" font-family="ui-sans-serif, system-ui, sans-serif" font-size="22" font-weight="700" fill="#fff3cf" opacity=".85">płaskie jest nudne</text>
+</svg>
