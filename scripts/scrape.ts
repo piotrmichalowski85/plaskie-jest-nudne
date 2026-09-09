@@ -22,7 +22,7 @@ type Raw = Omit<Race, "id" | "beginnerScore" | "beginnerWhy" | "minKm" | "maxKm"
 async function biegigorskie(year: number): Promise<Raw[]> {
   const url = `https://www.biegigorskie.pl/kalendarz-${year}/`;
   const $ = cheerio.load(await get(url));
-  $("br").replaceWith(" ");
+  $("br").replaceWith(" | ");
   const out: Raw[] = [];
   $("tr").each((_, tr) => {
     const tds = $(tr).find("td,th");
@@ -35,18 +35,21 @@ async function biegigorskie(year: number): Promise<Raw[]> {
     const dateTxt = cell(di), place = cell(di + 1), distTxt = cell(di + 2), nameCell = $(tds[di + 3]), category = cell(di + 4);
     const d = parsePolishDate(dateTxt);
     if (!d) return;
-    const rawName = nameCell.text().replace(/\s+/g, " ").trim();
-    if (!rawName) return;
+    // komórka nazwy: pierwszy wiersz = impreza, kolejne = biegi/dystanse (w źródle rozdzielone <br>)
+    const segs = nameCell.text().replace(/\s+/g, " ").split("|").map((x) => x.trim()).filter(Boolean);
+    if (!segs.length) return;
+    const head = segs[0].replace(/[:\-–]\s*$/, "").trim();
+    const rawName = segs.length > 1 ? `${head}: ${segs.slice(1).join(", ")}` : head;
     const link = nameCell.find("a[href]").first().attr("href") || $(tds[di + 1]).find("a[href]").first().attr("href");
-    const { city, region } = splitPlace(place);
+    const { city, region } = splitPlace(place.replace(/\s*\|\s*/g, " "));
     const { list, vertical } = parseDistances(distTxt);
-    // pierwszy człon nazwy = impreza (przed nawiasem albo przed drugim tytułem)
-    let eventName = (rawName.split(/\s[–-]\s|\(|:|\//)[0].trim() || rawName).replace(/\s+\d{1,3}(?:[.,]\d)?\s*(km)?$/i, "").trim() || rawName;
+    // impreza = pierwszy wiersz komórki (bez nawiasu, dwukropka, ukośnika i końcowej liczby dystansu)
+    let eventName = (head.split(/\s[–-]\s|\(|:|\//)[0].trim() || head).replace(/\s+\d{1,3}(?:[.,]\d)?\s*(km)?$/i, "").trim() || head;
     if (eventName.length > 60) eventName = eventName.slice(0, 60).replace(/\s\S*$/, "");
     out.push({
       name: rawName, eventName, dateStart: d.start, dateEnd: d.end, city, region,
       distancesKm: list.map((x) => x.km), elevations: list, vertical,
-      category: category || undefined, url: link && /^https?:/.test(link) ? link : undefined,
+      category: category.replace(/\s*\|\s*/g, " ") || undefined, url: link && /^https?:/.test(link) ? link : undefined,
       sources: [{ name: "biegigorskie.pl", url }],
     });
   });
