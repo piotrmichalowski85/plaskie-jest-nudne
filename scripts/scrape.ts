@@ -1,5 +1,5 @@
 import * as cheerio from "cheerio";
-import { writeFileSync, mkdirSync } from "node:fs";
+import { writeFileSync } from "node:fs";
 import type { Race, Dataset } from "../lib/types";
 import { parsePolishDate, parseDistances, splitPlace, slugify, guessSurface, beginnerScore, dedupKey, eventCore, cleanCity } from "../lib/normalize";
 import { extractFromText, fetchText } from "../lib/enrich";
