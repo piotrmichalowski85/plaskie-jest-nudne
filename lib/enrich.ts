@@ -9,7 +9,7 @@ export function extractFromText(text: string): Found | null {
   const t = text.replace(/\s+/g, " ");
   // wzorzec strukturalny (karty dystansów na stronach organizatorów): Dystans 30km Przewyższenie +740m ... Limit 5 godz.
   const st: { km: number; dplus?: number; limitH?: number }[] = [];
-  const reS = /dystans:?\s*(\d{1,3}(?:[.,]\d)?)\s*km(?:[^0-9]{0,40}przewyższeni\w*:?\s*\+?\s*(\d[\d\s]{1,5})\s*m)?(?:[^a-z0-9]{0,60}limit(?:\s*czasu)?:?\s*(\d{1,2}(?:[.,]\d)?)\s*(?:godz|h))?/gi;
+  const reS = /dystans:?\s*(\d{1,3}(?:[.,]\d)?)\s*km(?:[^0-9]{0,40}przewyższeni\w*:?\s*\+?\s*(\d[\d\s]{1,5})\s*m(?:\s*\/\s*-\s*\d[\d\s]*m)?)?(?:[^a-z0-9]{0,60}limit(?:\s*czasu)?:?\s*(\d{1,2}(?:[.,]\d)?)\s*(?:godz|h))?/gi;
   let ms: RegExpExecArray | null;
   while ((ms = reS.exec(t))) {
     const km = parseFloat(ms[1].replace(",", "."));
