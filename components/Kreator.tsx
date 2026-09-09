@@ -6,7 +6,7 @@ import { RaceCard } from "./RaceCard";
 type A = { level: string; longest: string; region: string; when: string; goal: string };
 const Q = [
   { key: "level", q: "Skąd startujesz biegowo?", opts: [["zero", "Prawie nie biegam, ale chodzę po górach"], ["flat", "Biegam po płaskim regularnie"], ["marathon", "Mam za sobą półmaraton lub maraton"]] },
-  { key: "longest", q: "Najdłuższy dystans, jaki przebiegłeś/aś jednym ciągiem?", opts: [["5", "do 5 km"], ["10", "ok. 10 km"], ["21", "ok. 21 km"], ["42", "42 km i więcej"]] },
+  { key: "longest", q: "Najdłuższy dystans przebiegnięty jednym ciągiem?", opts: [["5", "do 5 km"], ["10", "ok. 10 km"], ["21", "ok. 21 km"], ["42", "42 km i więcej"]] },
   { key: "region", q: "Gdzie chcesz pobiec?", opts: [["", "gdziekolwiek w Polsce"], ["Karkonosze", "Sudety (Karkonosze, Góry Stołowe, Sowie...)"], ["Beskid", "Beskidy (Śląski, Żywiecki, Sądecki, Niski...)"], ["Tatry", "Tatry, Pieniny, Gorce"], ["Bieszczady", "Bieszczady"], ["nizina", "blisko domu, niekoniecznie góry (przełaje, Jura, Kaszuby)"]] },
   { key: "when", q: "Kiedy?", opts: [["3", "w najbliższe 3 miesiące"], ["6", "w pół roku"], ["12", "w ciągu roku, spokojnie"]] },
   { key: "goal", q: "Cel?", opts: [["finish", "Ukończyć na luzie i mieć frajdę"], ["race", "Ścigać się, sprawdzić czas"]] },
