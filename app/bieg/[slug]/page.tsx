@@ -9,7 +9,7 @@ export function generateStaticParams() { return allRaces.map((r) => ({ slug: r.i
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const r = raceById((await params).slug);
   if (!r) return {};
-  return { title: `${r.eventName}, ${fmtDate(r.dateStart, r.dateEnd)}`, description: `${r.eventName} w ${r.city}${r.region ? ` (${r.region})` : ""}: dystanse ${r.distancesKm.map(fmtKm).join(", ") || "sprawdź regulamin"}. Ocena dla początkujących: ${r.beginnerScore}/5.` };
+  return { title: `${r.eventName}, ${fmtDate(r.dateStart, r.dateEnd)}`, description: `${r.eventName} w ${r.city}${r.region ? ` (${r.region})` : ""}: dystanse ${r.distancesKm.map(fmtKm).join(", ") || "sprawdź regulamin"}. Dla początkujących: ${scoreLabel(r.beginnerScore)}.` };
 }
 
 export default async function RacePage({ params }: { params: Promise<{ slug: string }> }) {
@@ -31,7 +31,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
         {r.signupOpen && <span className="chip chip-sun">zapisy otwarte{r.participants ? `, ${r.participants} os.` : ""}</span>}
       </div>
       <section className="card mt-6">
-        <div className="flex items-center justify-between"><h2 className="font-bold">Dla początkujących: {scoreLabel[r.beginnerScore]}</h2><Score s={r.beginnerScore} /></div>
+        <div className="flex items-center justify-between"><h2 className="font-bold">Dla początkujących</h2><Score s={r.beginnerScore} /></div>
         <p className="mt-2 text-sm">{r.beginnerWhy}</p>
       </section>
       <section className="mt-6">

@@ -7,7 +7,7 @@ export default function Biegi() {
   return (
     <div>
       <h1 className="text-3xl font-extrabold mb-1">Kalendarz biegów</h1>
-      <p className="text-[var(--muted)] mb-6">Górskie, trail i przełaje w całej Polsce. Kropki to ocena "dobry na start" (5 = idealny pierwszy).</p>
+      <p className="text-[var(--muted)] mb-6">Górskie, trail i przełaje w całej Polsce. Zielony = dobry na start, żółty = ujdzie, czerwony = zły na start.</p>
       <Suspense><RaceList races={allRaces} regions={regions()} today={today()} /></Suspense>
     </div>
   );

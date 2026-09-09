@@ -9,5 +9,8 @@ export function fmtDate(start: string, end?: string): string {
 }
 export const monthName = (m: number) => M[m - 1];
 export function fmtKm(km: number) { return `${km % 1 === 0 ? km : km.toFixed(1).replace(".", ",")} km`; }
-export const scoreLabel: Record<number, string> = { 5: "idealny na start", 4: "dobry na start", 3: "dla biegających", 2: "wymagający", 1: "dla zaawansowanych" };
+export type Level = "good" | "ok" | "bad";
+export const level = (s: number): Level => (s >= 4 ? "good" : s === 3 ? "ok" : "bad");
+export const levelLabel: Record<Level, string> = { good: "dobry na start", ok: "ujdzie na start", bad: "zły na start" };
+export const scoreLabel = (s: number) => levelLabel[level(s)];
 export const surfaceLabel: Record<string, string> = { gorski: "górski", trail: "trail", przelaj: "przełaj", miejski: "miejski" };

@@ -10,7 +10,7 @@ export default function About() {
       <h2 className="text-xl font-bold">Skąd dane</h2>
       <p>Agregujemy wyłącznie fakty: nazwę, datę, miejsce, dystanse i przewyższenia, zawsze z linkiem do źródła i do strony organizatora. Nie kopiujemy list startowych, wyników ani opisów. Źródła: kalendarz biegigorskie.pl (Liga Biegów Górskich), elektronicznezapisy.pl, strony organizatorów. Baza odświeża się automatycznie raz w tygodniu.</p>
       <h2 className="text-xl font-bold">Ocena "dobry na start"</h2>
-      <p>Liczona z najkrótszego dystansu imprezy, przewyższenia na kilometr i formuły biegu (vertical, kilka dystansów). Skala 1-5, gdzie 5 to bieg, na który możesz przyjść z płaskiego bez większego ryzyka. To podpowiedź, nie wyrocznia: zawsze sprawdź regulamin i limit czasu.</p>
+      <p>Liczona z najkrótszego dystansu imprezy, przewyższenia na kilometr i formuły biegu (vertical, kilka dystansów). Trzy stopnie: zielony "dobry na start" (możesz przyjść z płaskiego bez większego ryzyka), żółty "ujdzie" (dla biegających regularnie), czerwony "zły na start" (długo, stromo albo formuła dla zaawansowanych). To podpowiedź, nie wyrocznia: zawsze sprawdź regulamin i limit czasu.</p>
       <h2 className="text-xl font-bold">Organizujesz bieg?</h2>
       <p>Jeśli brakuje Twojego biegu albo dane są nieaktualne, napisz: <a className="underline" href="mailto:piotr.michalowski85@gmail.com?subject=plaskiejestnudne.pl">piotr.michalowski85@gmail.com</a>. Poprawki wchodzą przy najbliższym odświeżeniu.</p>
     </article>
