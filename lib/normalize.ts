@@ -132,6 +132,7 @@ export function eventCore(name: string): string {
   return slugify(name)
     .split("-")
     .filter((w) => w.length > 2 && !/^\d+$/.test(w) && !/^[ivx]+$/.test(w) && !GENERIC.has(w))
+    .filter((w, i, arr) => arr.indexOf(w) === i)
     .slice(0, 2)
     .join("-");
 }

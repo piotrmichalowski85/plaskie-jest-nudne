@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-09T12:42:36.167Z",
- "count": 181,
+ "generatedAt": "2026-09-09T12:43:46.213Z",
+ "count": 180,
  "races": [
   {
    "name": "Grand Prix Krakowa w biegach górskich",
@@ -1320,7 +1320,7 @@
   },
   {
    "name": "12. Górska Pętla UBS 12:12 ULTRA Górska Pętla UBS 16 km",
-   "eventName": "12. Górska Pętla UBS 12",
+   "eventName": "12. Górska Pętla UBS",
    "dateStart": "2026-03-28",
    "dateEnd": "2026-03-28",
    "city": "Brenna",
@@ -1342,7 +1342,7 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
-   "id": "12-gorska-petla-ubs-12-2026-03-28",
+   "id": "12-gorska-petla-ubs-2026-03-28",
    "surface": "gorski",
    "minKm": 16,
    "maxKm": 16,
@@ -2203,7 +2203,7 @@
   },
   {
    "name": "Barbarian Peak 28",
-   "eventName": "Barbarian Peak 28",
+   "eventName": "Barbarian Peak",
    "dateStart": "2026-05-15",
    "dateEnd": "2026-05-15",
    "city": "Ustroń",
@@ -2226,7 +2226,7 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
-   "id": "barbarian-peak-28-2026-05-15",
+   "id": "barbarian-peak-2026-05-15",
    "surface": "gorski",
    "minKm": 1.6,
    "maxKm": 1.6,
@@ -2398,7 +2398,7 @@
   },
   {
    "name": "I GÓRSKI PÓŁMARATON SZCZYTNIAŃSKI NORDIC WALKING 10KM",
-   "eventName": "I GÓRSKI PÓŁMARATON SZCZYTNIAŃSKI NORDIC WALKING 10KM",
+   "eventName": "I GÓRSKI PÓŁMARATON SZCZYTNIAŃSKI NORDIC WALKING",
    "dateStart": "2026-05-23",
    "dateEnd": "2026-05-23",
    "city": "Szczytna",
@@ -2424,7 +2424,7 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
-   "id": "i-gorski-polmaraton-szczytnianski-nordic-walking-10km-2026-05-23",
+   "id": "i-gorski-polmaraton-szczytnianski-nordic-walking-2026-05-23",
    "surface": "gorski",
    "minKm": 10,
    "maxKm": 21,
@@ -2663,7 +2663,7 @@
   },
   {
    "name": "RZEŹNIK 500",
-   "eventName": "RZEŹNIK 500",
+   "eventName": "RZEŹNIK",
    "dateStart": "2026-06-05",
    "dateEnd": "2026-06-05",
    "city": "Cisna",
@@ -2685,7 +2685,7 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
-   "id": "rzeznik-500-2026-06-05",
+   "id": "rzeznik-2026-06-05",
    "surface": "trail",
    "minKm": 500,
    "maxKm": 500,
@@ -2942,7 +2942,7 @@
   },
   {
    "name": "SUSZECKI FESTIWAL BIEGOWY 21km / 10km / 5km Marsz 5km Biegi dla dzieci i młodzieży",
-   "eventName": "SUSZECKI FESTIWAL BIEGOWY 21km / 10km / 5km Marsz 5km Biegi",
+   "eventName": "SUSZECKI FESTIWAL BIEGOWY",
    "dateStart": "2026-06-13",
    "dateEnd": "2026-06-14",
    "city": "Suszec",
@@ -2976,7 +2976,7 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
-   "id": "suszecki-festiwal-biegowy-21km-10km-5km-marsz-5km-biegi-2026-06-13",
+   "id": "suszecki-festiwal-biegowy-2026-06-13",
    "surface": "przelaj",
    "minKm": 1.8,
    "maxKm": 21,
@@ -3395,7 +3395,7 @@
   },
   {
    "name": "IZERY ULTRA TRAIL 16/25/35/50/70/100 Izery Trail Kids",
-   "eventName": "IZERY ULTRA TRAIL 16/25/35/50/70/100 Izery Trail Kids",
+   "eventName": "IZERY ULTRA TRAIL",
    "dateStart": "2026-06-27",
    "dateEnd": "2026-06-28",
    "city": "Świeradów-Zdrój",
@@ -3437,7 +3437,7 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
-   "id": "izery-ultra-trail-16-25-35-50-70-100-izery-trail-kids-2026-06-27",
+   "id": "izery-ultra-trail-2026-06-27",
    "surface": "trail",
    "minKm": 16,
    "maxKm": 100,
@@ -5932,7 +5932,7 @@
   },
   {
    "name": "UltraKotlina 140 / 100 / 80 / 50 / 34 / 15 UltraKotlina Sztafety - 142km (5541 m. up.)",
-   "eventName": "UltraKotlina 140 / 100 / 80 / 50 / 34 / 15 UltraKotlina",
+   "eventName": "UltraKotlina",
    "dateStart": "2026-10-09",
    "dateEnd": "2026-10-11",
    "city": "Szklarska Poręba Kotlina Jeleniogórska",
@@ -5979,9 +5979,13 @@
     {
      "name": "strona organizatora",
      "url": "https://ultrakotlina.pl/"
+    },
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/ultrakotlina-15/4183"
     }
    ],
-   "id": "ultrakotlina-140-100-80-50-34-15-ultrakotlina-2026-10-09",
+   "id": "ultrakotlina-2026-10-09",
    "surface": "przelaj",
    "minKm": 15,
    "maxKm": 142,
@@ -6149,62 +6153,6 @@
    "maxKm": 53,
    "beginnerScore": 4,
    "beginnerWhy": "najkrótszy dystans 11 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
-  },
-  {
-   "name": "UltraKotlina: 15 km, 34 km, 55 km, 82 km, 109 km, 140 km",
-   "eventName": "UltraKotlina",
-   "dateStart": "2026-10-10",
-   "dateEnd": "2026-10-11",
-   "city": "Piechowice",
-   "region": "",
-   "distancesKm": [
-    15,
-    34,
-    55,
-    82,
-    109,
-    140
-   ],
-   "elevations": [
-    {
-     "km": 15,
-     "limitH": 3
-    },
-    {
-     "km": 34
-    },
-    {
-     "km": 55
-    },
-    {
-     "km": 82,
-     "limitH": 15
-    },
-    {
-     "km": 109
-    },
-    {
-     "km": 140
-    }
-   ],
-   "vertical": false,
-   "url": "http://ultrakotlina.pl",
-   "sources": [
-    {
-     "name": "kingrunner.com",
-     "url": "https://www.kingrunner.com/bieg/ultrakotlina-15/4183"
-    },
-    {
-     "name": "strona organizatora",
-     "url": "http://ultrakotlina.pl"
-    }
-   ],
-   "id": "ultrakotlina-2026-10-10",
-   "surface": "przelaj",
-   "minKm": 15,
-   "maxKm": 140,
-   "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
    "name": "Łemkowyna Ultra-Trail",
@@ -6573,7 +6521,7 @@
   },
   {
    "name": "Gorlicki Bieg Górski 24km Radocyna 7km (150m) Vertical 2,4km (340m)",
-   "eventName": "Gorlicki Bieg Górski 24km Radocyna 7km",
+   "eventName": "Gorlicki Bieg Górski 24km Radocyna",
    "dateStart": "2026-11-07",
    "dateEnd": "2026-11-08",
    "city": "Radocyna",
@@ -6602,7 +6550,7 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
-   "id": "gorlicki-bieg-gorski-24km-radocyna-7km-2026-11-07",
+   "id": "gorlicki-bieg-gorski-24km-radocyna-2026-11-07",
    "surface": "gorski",
    "minKm": 2.4,
    "maxKm": 24,

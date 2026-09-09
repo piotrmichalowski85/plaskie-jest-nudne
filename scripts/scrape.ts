@@ -37,7 +37,7 @@ async function biegigorskie(year: number): Promise<Raw[]> {
     const { city, region } = splitPlace(place);
     const { list, vertical } = parseDistances(distTxt);
     // pierwszy człon nazwy = impreza (przed nawiasem albo przed drugim tytułem)
-    let eventName = rawName.split(/\s[–-]\s|\(|:/)[0].trim() || rawName;
+    let eventName = (rawName.split(/\s[–-]\s|\(|:|\//)[0].trim() || rawName).replace(/\s+\d{1,3}(?:[.,]\d)?\s*(km)?$/i, "").trim() || rawName;
     if (eventName.length > 60) eventName = eventName.slice(0, 60).replace(/\s\S*$/, "");
     out.push({
       name: rawName, eventName, dateStart: d.start, dateEnd: d.end, city, region,
