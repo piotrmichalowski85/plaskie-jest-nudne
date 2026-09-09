@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-09T12:41:25.368Z",
- "count": 179,
+ "generatedAt": "2026-09-09T12:42:36.167Z",
+ "count": 181,
  "races": [
   {
    "name": "Grand Prix Krakowa w biegach górskich",
@@ -5979,10 +5979,6 @@
     {
      "name": "strona organizatora",
      "url": "https://ultrakotlina.pl/"
-    },
-    {
-     "name": "kingrunner.com",
-     "url": "https://www.kingrunner.com/bieg/ultrakotlina-15/4183"
     }
    ],
    "id": "ultrakotlina-140-100-80-50-34-15-ultrakotlina-2026-10-09",
@@ -6153,6 +6149,62 @@
    "maxKm": 53,
    "beginnerScore": 4,
    "beginnerWhy": "najkrótszy dystans 11 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+  },
+  {
+   "name": "UltraKotlina: 15 km, 34 km, 55 km, 82 km, 109 km, 140 km",
+   "eventName": "UltraKotlina",
+   "dateStart": "2026-10-10",
+   "dateEnd": "2026-10-11",
+   "city": "Piechowice",
+   "region": "",
+   "distancesKm": [
+    15,
+    34,
+    55,
+    82,
+    109,
+    140
+   ],
+   "elevations": [
+    {
+     "km": 15,
+     "limitH": 3
+    },
+    {
+     "km": 34
+    },
+    {
+     "km": 55
+    },
+    {
+     "km": 82,
+     "limitH": 15
+    },
+    {
+     "km": 109
+    },
+    {
+     "km": 140
+    }
+   ],
+   "vertical": false,
+   "url": "http://ultrakotlina.pl",
+   "sources": [
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/ultrakotlina-15/4183"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "http://ultrakotlina.pl"
+    }
+   ],
+   "id": "ultrakotlina-2026-10-10",
+   "surface": "przelaj",
+   "minKm": 15,
+   "maxKm": 140,
+   "beginnerScore": 3,
+   "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
    "name": "Łemkowyna Ultra-Trail",
@@ -6488,6 +6540,38 @@
    "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
+   "name": "13 Jesienny Bieg Potrójnej",
+   "eventName": "13 Jesienny Bieg Potrójnej",
+   "dateStart": "2026-11-07",
+   "dateEnd": "2026-11-07",
+   "city": "Rzyki k/Andrychowa",
+   "region": "Beskidy",
+   "distancesKm": [
+    15
+   ],
+   "elevations": [
+    {
+     "km": 15,
+     "dplus": 1000
+    }
+   ],
+   "vertical": false,
+   "category": "Kat.I",
+   "url": "https://kandahar.pl/13-jesienny-bieg-potrojnej/",
+   "sources": [
+    {
+     "name": "biegigorskie.pl",
+     "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    }
+   ],
+   "id": "13-jesienny-bieg-potrojnej-2026-11-07",
+   "surface": "gorski",
+   "minKm": 15,
+   "maxKm": 15,
+   "beginnerScore": 2,
+   "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton, ale wolniej); stromo: ok. 67 m na km, dużo marszu pod górę."
+  },
+  {
    "name": "Gorlicki Bieg Górski 24km Radocyna 7km (150m) Vertical 2,4km (340m)",
    "eventName": "Gorlicki Bieg Górski 24km Radocyna 7km",
    "dateStart": "2026-11-07",
@@ -6663,23 +6747,22 @@
    "dateStart": "2026-11-28",
    "dateEnd": "2026-11-28",
    "city": "Gołkowice Dolne",
-   "region": "Beskidy",
+   "region": "Beskid Niski",
    "distancesKm": [
     15,
     24
    ],
    "elevations": [
     {
-     "km": 15,
-     "dplus": 1000
+     "km": 15
     },
     {
      "km": 24
     }
    ],
    "vertical": false,
-   "category": "Kat.I",
-   "url": "https://kandahar.pl/13-jesienny-bieg-potrojnej/",
+   "category": "Kat.II",
+   "url": "https://b4sportonline.pl/ultra_swir/",
    "sources": [
     {
      "name": "biegigorskie.pl",
@@ -6687,11 +6770,11 @@
     }
    ],
    "id": "jesienny-ultra-swir-2026-11-28",
-   "surface": "gorski",
+   "surface": "trail",
    "minKm": 15,
    "maxKm": 24,
-   "beginnerScore": 2,
-   "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton, ale wolniej); stromo: ok. 67 m na km, dużo marszu pod górę."
+   "beginnerScore": 3,
+   "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "Szczyt Wytrzymałości Mikołajki: 12H 8848 Everest",
