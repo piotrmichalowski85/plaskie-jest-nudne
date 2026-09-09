@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-export const metadata: Metadata = { title: "Słownik początkującego biegacza górskiego", description: "D+, cutoff, ITRA, UTMB Index, Running Stones, vertical, sprzęt obowiązkowy: pojęcia z biegów górskich wyjaśnione prosto." };
+export const metadata: Metadata = { title: "Słownik trailowy dla początkujących", description: "D+, cutoff, ITRA, UTMB Index, Running Stones, vertical, sprzęt obowiązkowy: pojęcia z biegów górskich wyjaśnione prosto." };
 
 const T: [string, string][] = [
   ["Bieg górski a trail", "Bieg górski to zwykle wyraźny podbieg i zbieg, często krótszy i stromy (typowa Liga Biegów Górskich). Trail to bieg w terenie naturalnym: ścieżki, lasy, łąki, pagórki, czasem góry. Przełaj to krótki bieg terenowy po miękkim, często w mieście lub parku. Granice są płynne, w kalendarzu oznaczamy je szacunkowo."],
@@ -19,7 +19,7 @@ const T: [string, string][] = [
 export default function Slownik() {
   return (
     <article className="max-w-3xl">
-      <h1 className="text-3xl font-extrabold mb-1">Słownik początkującego</h1>
+      <h1 className="text-3xl font-extrabold mb-1">Słownik początkującego biegacza trailowego i górskiego</h1>
       <p className="text-[var(--muted)] mb-6">Pojęcia, które spotkasz w regulaminach i na forach, wyjaśnione tak, jak tłumaczy się je koledze na podbiegu.</p>
       <dl className="space-y-5">{T.map(([k, v]) => <div key={k} className="card"><dt className="font-bold">{k}</dt><dd className="mt-1 text-sm leading-relaxed">{v}</dd></div>)}</dl>
     </article>

@@ -20,7 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="flex gap-4 text-sm font-semibold text-[var(--moss-dark)]">
               <Link href="/biegi">Biegi</Link>
               <Link href="/kreator">Pierwszy bieg</Link>
-              <Link href="/slownik">Słownik</Link>
+              <Link href="/slownik">Słownik trailowy</Link>
               <Link href="/o-serwisie" className="hidden sm:inline">O serwisie</Link>
             </div>
           </nav>
