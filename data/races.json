@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-09T17:18:41.713Z",
- "count": 180,
+ "generatedAt": "2026-09-10T08:24:27.261Z",
+ "count": 181,
  "races": [
   {
    "name": "Grand Prix Krakowa w biegach górskich",
@@ -18,19 +18,27 @@
    "elevations": [
     {
      "km": 3.7,
-     "dplus": 110
+     "dplus": 110,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "km": 5.7,
-     "dplus": 250
+     "dplus": 250,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "km": 11.6,
-     "dplus": 470
+     "dplus": 470,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "km": 23.2,
-     "dplus": 940
+     "dplus": 940,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
    "vertical": true,
@@ -62,7 +70,9 @@
    "elevations": [
     {
      "km": 12.5,
-     "dplus": 650
+     "dplus": 650,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
    "vertical": false,
@@ -215,11 +225,15 @@
    "elevations": [
     {
      "km": 26,
-     "dplus": 630
+     "dplus": 630,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "km": 48,
-     "dplus": 1250
+     "dplus": 1250,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
    "vertical": false,
@@ -531,19 +545,27 @@
    "elevations": [
     {
      "km": 3.7,
-     "dplus": 110
+     "dplus": 110,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "km": 5.7,
-     "dplus": 250
+     "dplus": 250,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "km": 11.6,
-     "dplus": 470
+     "dplus": 470,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "km": 23.2,
-     "dplus": 940
+     "dplus": 940,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
    "vertical": true,
@@ -790,7 +812,9 @@
    "elevations": [
     {
      "km": 2.1,
-     "dplus": 266
+     "dplus": 266,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
    "vertical": false,
@@ -979,19 +1003,27 @@
    "elevations": [
     {
      "km": 3.7,
-     "dplus": 110
+     "dplus": 110,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "km": 5.7,
-     "dplus": 250
+     "dplus": 250,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "km": 11.6,
-     "dplus": 470
+     "dplus": 470,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "km": 23.2,
-     "dplus": 940
+     "dplus": 940,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
    "vertical": true,
@@ -1023,7 +1055,9 @@
    "elevations": [
     {
      "km": 1.8,
-     "dplus": 303
+     "dplus": 303,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
    "vertical": false,
@@ -1175,7 +1209,9 @@
    "elevations": [
     {
      "km": 17,
-     "dplus": 1050
+     "dplus": 1050,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://ultraswir.pl/"
     }
    ],
    "vertical": false,
@@ -1562,6 +1598,8 @@
     {
      "km": 45,
      "dplus": 460,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://xrun.pl/mercure-szczyrk-run-2026/",
      "approx": true
     }
    ],
@@ -1598,7 +1636,9 @@
    "elevations": [
     {
      "km": 95,
-     "dplus": 8848
+     "dplus": 8848,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
    "vertical": false,
@@ -1858,6 +1898,8 @@
     {
      "km": 103,
      "dplus": 2300,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://ultrawysoczyzna.pl/",
      "approx": true
     }
    ],
@@ -1895,11 +1937,15 @@
    "elevations": [
     {
      "km": 10,
-     "dplus": 600
+     "dplus": 600,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "km": 21,
-     "dplus": 1150
+     "dplus": 1150,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
    "vertical": false,
@@ -2119,6 +2165,8 @@
     {
      "km": 78,
      "dplus": 3195,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://ultrarace.pl/myslenice/",
      "approx": true
     }
    ],
@@ -2229,7 +2277,9 @@
    "elevations": [
     {
      "km": 1.6,
-     "dplus": 600
+     "dplus": 600,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
    "vertical": false,
@@ -2642,7 +2692,11 @@
      "km": 12
     },
     {
-     "km": 16
+     "km": 16,
+     "dplus": 492,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://www.biegrzeznika.pl/rzeznicka-piatka/",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
      "km": 28
@@ -2667,6 +2721,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://www.biegrzeznika.pl/rzeznicka-piatka/"
     }
    ],
    "id": "xii-festiwal-biegu-rzeznika-2026-06-04",
@@ -2839,15 +2897,21 @@
    "elevations": [
     {
      "km": 5,
-     "dplus": 80
+     "dplus": 80,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "km": 10,
-     "dplus": 150
+     "dplus": 150,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "km": 22,
-     "dplus": 725
+     "dplus": 725,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
    "vertical": false,
@@ -3028,6 +3092,8 @@
     {
      "km": 106,
      "dplus": 5510,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://www.zawojabieg.pl/",
      "approx": true
     }
    ],
@@ -3257,6 +3323,8 @@
     {
      "km": 164.49,
      "dplus": 1870,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://ultra-way.pl/letni-festiwal-biegowy-ultra-way/",
      "approx": true
     }
    ],
@@ -3298,7 +3366,9 @@
    "elevations": [
     {
      "km": 5,
-     "dplus": 124
+     "dplus": 124,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://malopolskiebiegigorskie.pl/"
     },
     {
      "km": 10
@@ -3311,11 +3381,15 @@
     },
     {
      "km": 60,
-     "dplus": 2730
+     "dplus": 2730,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://malopolskiebiegigorskie.pl/"
     },
     {
      "km": 100,
-     "dplus": 4570
+     "dplus": 4570,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://malopolskiebiegigorskie.pl/"
     }
    ],
    "vertical": false,
@@ -3662,7 +3736,9 @@
    "elevations": [
     {
      "km": 32,
-     "dplus": 3661
+     "dplus": 3661,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://www.biegisokole.pl/"
     }
    ],
    "vertical": false,
@@ -3698,7 +3774,9 @@
    "elevations": [
     {
      "km": 10,
-     "dplus": 3661
+     "dplus": 3661,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://www.biegisokole.pl/"
     }
    ],
    "vertical": false,
@@ -3734,7 +3812,9 @@
    "elevations": [
     {
      "km": 7,
-     "dplus": 300
+     "dplus": 300,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
    "vertical": false,
@@ -3901,6 +3981,8 @@
     {
      "km": 81,
      "dplus": 3195,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://ultrarace.pl/tolkmicko/",
      "approx": true
     }
    ],
@@ -4197,6 +4279,8 @@
     {
      "km": 102,
      "dplus": 7745,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://gorceultratrail.pl/",
      "approx": true
     }
    ],
@@ -4254,6 +4338,8 @@
     {
      "km": 102,
      "dplus": 5115,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://chudywawrzyniec.pl/",
      "approx": true
     }
    ],
@@ -4553,19 +4639,27 @@
    "elevations": [
     {
      "km": 3.7,
-     "dplus": 110
+     "dplus": 110,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "km": 5.7,
-     "dplus": 250
+     "dplus": 250,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "km": 11.6,
-     "dplus": 470
+     "dplus": 470,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "km": 23.2,
-     "dplus": 940
+     "dplus": 940,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
    "vertical": false,
@@ -4599,7 +4693,9 @@
    "elevations": [
     {
      "km": 4.6,
-     "dplus": 840
+     "dplus": 840,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "km": 22
@@ -4826,7 +4922,9 @@
    "elevations": [
     {
      "km": 17,
-     "dplus": 1050
+     "dplus": 1050,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://ultraswir.pl/"
     }
    ],
    "vertical": false,
@@ -4867,6 +4965,8 @@
     {
      "km": 27.6,
      "dplus": 606,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://fundacjalistek.org/krolowawoltuszowa/",
      "approx": true
     }
    ],
@@ -4989,23 +5089,41 @@
    "elevations": [
     {
      "km": 11,
+     "dplus": 600,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://ultrarace.pl/radkow/trasa-radkow/",
+     "dplusCheckedAt": "2026-09-10",
      "limitH": 2
     },
     {
      "km": 24,
+     "dplus": 1050,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://ultrarace.pl/radkow/trasa-radkow/",
+     "dplusCheckedAt": "2026-09-10",
      "limitH": 5
     },
     {
      "km": 57,
+     "dplus": 1700,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://ultrarace.pl/radkow/trasa-radkow/",
+     "dplusCheckedAt": "2026-09-10",
      "limitH": 10
     },
     {
      "km": 78,
+     "dplus": 2600,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://ultrarace.pl/radkow/trasa-radkow/",
+     "dplusCheckedAt": "2026-09-10",
      "limitH": 15
     },
     {
      "km": 158,
      "dplus": 3195,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://ultrarace.pl/radkow/",
      "approx": true
     }
    ],
@@ -5020,6 +5138,10 @@
     {
      "name": "strona organizatora",
      "url": "https://ultrarace.pl/radkow/"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://ultrarace.pl/radkow/trasa-radkow/"
     },
     {
      "name": "regulamin",
@@ -5045,7 +5167,7 @@
    "minKm": 11,
    "maxKm": 158,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 11 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 11 km; średnio stromo: ok. 55 m na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
    "name": "Szczebel CUP by Ultra-Trail Małopolska",
@@ -5060,7 +5182,9 @@
    "elevations": [
     {
      "km": 21,
-     "dplus": 2000
+     "dplus": 2000,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://utm.run/pl/szczebel_cup/"
     }
    ],
    "vertical": false,
@@ -5154,7 +5278,11 @@
    ],
    "elevations": [
     {
-     "km": 10
+     "km": 10,
+     "dplus": 180,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://janosikraceseries.com/roztoczeultrarace/trasy-new/",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
      "km": 20
@@ -5175,6 +5303,10 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
+     "name": "trasa (organizator)",
+     "url": "https://janosikraceseries.com/roztoczeultrarace/trasy-new/"
+    },
+    {
      "name": "regulamin",
      "url": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/"
     },
@@ -5188,8 +5320,46 @@
    "surface": "trail",
    "minKm": 10,
    "maxKm": 75,
+   "beginnerScore": 5,
+   "beginnerWhy": "najkrótszy dystans 10 km; łagodnie: ok. 18 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+  },
+  {
+   "name": "XII Bieg Przełajowy - Bardzka Piąteczka 5/10/15 km",
+   "eventName": "XII Bieg Przełajowy",
+   "dateStart": "2026-09-12",
+   "dateEnd": "2026-09-12",
+   "city": "Bardo",
+   "region": "Góry Bardzkie",
+   "distancesKm": [
+    5,
+    10,
+    15
+   ],
+   "elevations": [
+    {
+     "km": 5
+    },
+    {
+     "km": 10
+    },
+    {
+     "km": 15
+    }
+   ],
+   "vertical": false,
+   "category": "Kat.II",
+   "sources": [
+    {
+     "name": "biegigorskie.pl",
+     "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    }
+   ],
+   "id": "xii-bieg-przelajowy-2026-09-12",
+   "surface": "trail",
+   "minKm": 5,
+   "maxKm": 15,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
    "name": "12. Kielecki Bieg Górski Biesak Trail",
@@ -5323,10 +5493,18 @@
     },
     {
      "km": 170,
+     "dplus": 5900,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://www.biegigorskiesanok.pl/biegi/piatkagajowego/",
+     "dplusCheckedAt": "2026-09-10",
      "limitH": 40
     },
     {
-     "km": 270
+     "km": 270,
+     "dplus": 9400,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://www.biegigorskiesanok.pl/biegi/piatkagajowego/",
+     "dplusCheckedAt": "2026-09-10"
     }
    ],
    "vertical": false,
@@ -5336,6 +5514,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://www.biegigorskiesanok.pl/biegi/piatkagajowego/"
     },
     {
      "name": "regulamin",
@@ -5399,6 +5581,10 @@
     },
     {
      "km": 77,
+     "dplus": 2800,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://tamizpowrotem.eu/nasze-trasy/",
+     "dplusCheckedAt": "2026-09-10",
      "limitH": 26
     }
    ],
@@ -5409,6 +5595,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://tamizpowrotem.eu/nasze-trasy/"
     },
     {
      "name": "regulamin",
@@ -5443,7 +5633,10 @@
    "elevations": [
     {
      "km": 8.5,
-     "dplus": 1072
+     "dplus": 1072,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://biegnakasprowy.pl/biegnakasprowy/trasa",
+     "dplusCheckedAt": "2026-09-10"
     }
    ],
    "vertical": false,
@@ -5453,6 +5646,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://biegnakasprowy.pl/biegnakasprowy/trasa"
     },
     {
      "name": "regulamin",
@@ -5483,20 +5680,28 @@
    "elevations": [
     {
      "km": 3.5,
-     "dplus": 600
+     "dplus": 600,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "km": 17,
-     "dplus": 1230
+     "dplus": 1230,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "km": 21,
      "dplus": 1400,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/",
      "limitH": 6
     },
     {
      "km": 46,
-     "dplus": 2485
+     "dplus": 2485,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
    "vertical": true,
@@ -5518,6 +5723,10 @@
     {
      "name": "strona organizatora",
      "url": "https://www.maraton3jezior.com"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://www.maraton3jezior.com/trasa-maratonu-trzech-jezior/"
     }
    ],
    "regulaminUrl": "https://www.maraton3jezior.com/regulamin/",
@@ -5638,7 +5847,11 @@
    ],
    "elevations": [
     {
-     "km": 9
+     "km": 9,
+     "dplus": 515,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://www.bgtimesport.pl/zawody/info/id/870",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
      "km": 12
@@ -5654,6 +5867,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://www.bgtimesport.pl/zawody/info/id/870"
     }
    ],
    "id": "bieg-gorski-na-blatnia-2026-09-26",
@@ -5661,7 +5878,7 @@
    "minKm": 9,
    "maxKm": 24,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 9 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 9 km; średnio stromo: ok. 57 m na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
    "name": "Ślężański Festiwal Biegowy: Maraton, Półmaraton, Dziesiątka, Sztafeta 10+33+23km",
@@ -5693,6 +5910,8 @@
     {
      "km": 66,
      "dplus": 3450,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://www.kbsobotka.pl/slezanski-festiwal-biegowy/",
      "approx": true
     }
    ],
@@ -5782,7 +6001,11 @@
    ],
    "elevations": [
     {
-     "km": 5
+     "km": 5,
+     "dplus": 180,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://jurarun.pl/trasy/jurarun-ultra-100/",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
      "km": 10
@@ -5791,16 +6014,32 @@
      "km": 12
     },
     {
-     "km": 23
+     "km": 23,
+     "dplus": 515,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://jurarun.pl/trasy/jurarun-ultra-100/",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
-     "km": 42
+     "km": 42,
+     "dplus": 763,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://jurarun.pl/trasy/jurarun-ultra-100/",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
-     "km": 81
+     "km": 81,
+     "dplus": 1209,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://jurarun.pl/trasy/jurarun-ultra-100/",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
-     "km": 104
+     "km": 104,
+     "dplus": 1516,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://jurarun.pl/trasy/jurarun-ultra-100/",
+     "dplusCheckedAt": "2026-09-10"
     }
    ],
    "vertical": false,
@@ -5810,6 +6049,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://jurarun.pl/trasy/jurarun-ultra-100/"
     },
     {
      "name": "elektronicznezapisy.pl",
@@ -5825,13 +6068,13 @@
     }
    ],
    "signupOpen": true,
-   "participants": 229,
+   "participants": 234,
    "id": "festiwal-biegowy-jurarun-2026-10-02",
    "surface": "trail",
    "minKm": 5,
    "maxKm": 104,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 5 km; średnio stromo: ok. 36 m na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
    "name": "Baran Trail Race BTR: 10 km, 25 km, 59 km, 107 km",
@@ -6074,16 +6317,32 @@
    ],
    "elevations": [
     {
-     "km": 12
+     "km": 12,
+     "dplus": 596,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://www.maratonbieszczadzki.pl/zimowy-maraton-bieszczadzki-zimb/",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
-     "km": 26
+     "km": 26,
+     "dplus": 1120,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://www.maratonbieszczadzki.pl/zimowy-maraton-bieszczadzki-zimb/",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
-     "km": 52
+     "km": 52,
+     "dplus": 2250,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://www.maratonbieszczadzki.pl/zimowy-maraton-bieszczadzki-zimb/",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
-     "km": 100
+     "km": 100,
+     "dplus": 4010,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://www.maratonbieszczadzki.pl/zimowy-maraton-bieszczadzki-zimb/",
+     "dplusCheckedAt": "2026-09-10"
     }
    ],
    "vertical": false,
@@ -6093,6 +6352,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://www.maratonbieszczadzki.pl/zimowy-maraton-bieszczadzki-zimb/"
     },
     {
      "name": "regulamin",
@@ -6109,7 +6372,7 @@
    "minKm": 12,
    "maxKm": 100,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 12 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 12 km; średnio stromo: ok. 50 m na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
    "name": "UltraKotlina: 140 / 100 / 80 / 50 / 34 / 15, UltraKotlina Sztafety - 142km (5541 m. up.)",
@@ -6248,13 +6511,21 @@
      "km": 3
     },
     {
-     "km": 10
+     "km": 10,
+     "dplus": 180,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://janosikraceseries.com/roztoczeultrarace/trasy-new/",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
      "km": 21
     },
     {
-     "km": 37
+     "km": 37,
+     "dplus": 450,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://janosikraceseries.com/roztoczeultrarace/trasy-new/",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
      "km": 60
@@ -6272,6 +6543,10 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
+     "name": "trasa (organizator)",
+     "url": "https://janosikraceseries.com/roztoczeultrarace/trasy-new/"
+    },
+    {
      "name": "regulamin",
      "url": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/"
     },
@@ -6282,7 +6557,7 @@
    ],
    "regulaminUrl": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/",
    "id": "roztocze-ultra-race-2026-10-10",
-   "surface": "przelaj",
+   "surface": "trail",
    "minKm": 3,
    "maxKm": 120,
    "beginnerScore": 4,
@@ -6379,32 +6654,50 @@
     {
      "km": 10,
      "dplus": 200,
-     "limitH": 2
+     "limitH": 2,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://ultralemkowyna.pl/trasy",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
      "km": 30,
      "dplus": 740,
-     "limitH": 5
+     "limitH": 5,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://ultralemkowyna.pl/trasy",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
      "km": 48,
      "dplus": 1400,
-     "limitH": 8
+     "limitH": 8,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://ultralemkowyna.pl/trasy",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
      "km": 70,
      "dplus": 2520,
-     "limitH": 13
+     "limitH": 13,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://ultralemkowyna.pl/trasy",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
      "km": 102,
      "dplus": 3300,
-     "limitH": 22
+     "limitH": 22,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://ultralemkowyna.pl/trasy",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
      "km": 150,
      "dplus": 5860,
-     "limitH": 35
+     "limitH": 35,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://ultralemkowyna.pl/trasy",
+     "dplusCheckedAt": "2026-09-10"
     }
    ],
    "vertical": false,
@@ -6413,6 +6706,10 @@
     {
      "name": "strona organizatora",
      "url": "https://ultralemkowyna.pl/"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://ultralemkowyna.pl/trasy"
     },
     {
      "name": "kingrunner.com",
@@ -6447,22 +6744,42 @@
     },
     {
      "km": 11,
+     "dplus": 300,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://pomeraniatrail.pl/trasa/put100/",
+     "dplusCheckedAt": "2026-09-10",
      "limitH": 2
     },
     {
      "km": 21,
+     "dplus": 600,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://pomeraniatrail.pl/trasa/put100/",
+     "dplusCheckedAt": "2026-09-10",
      "limitH": 4
     },
     {
      "km": 42,
+     "dplus": 1300,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://pomeraniatrail.pl/trasa/put100/",
+     "dplusCheckedAt": "2026-09-10",
      "limitH": 8.5
     },
     {
      "km": 65,
+     "dplus": 1750,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://pomeraniatrail.pl/trasa/put100/",
+     "dplusCheckedAt": "2026-09-10",
      "limitH": 12
     },
     {
      "km": 100,
+     "dplus": 2450,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://pomeraniatrail.pl/trasa/put100/",
+     "dplusCheckedAt": "2026-09-10",
      "limitH": 16
     }
    ],
@@ -6472,6 +6789,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://pomeraniatrail.pl/trasa/put100/"
     },
     {
      "name": "regulamin",
@@ -6543,17 +6864,26 @@
     {
      "km": 10,
      "dplus": 200,
-     "limitH": 2
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "http://www.ultralemkowyna.pl/trasy",
+     "limitH": 2,
+     "dplusCheckedAt": "2026-09-10"
     },
     {
      "km": 30,
      "dplus": 740,
-     "limitH": 5
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "http://www.ultralemkowyna.pl/trasy",
+     "limitH": 5,
+     "dplusCheckedAt": "2026-09-10"
     },
     {
      "km": 48,
      "dplus": 1400,
-     "limitH": 8
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "http://www.ultralemkowyna.pl/trasy",
+     "limitH": 8,
+     "dplusCheckedAt": "2026-09-10"
     }
    ],
    "vertical": false,
@@ -6566,6 +6896,10 @@
     {
      "name": "strona organizatora",
      "url": "http://www.ultralemkowyna.pl"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "http://www.ultralemkowyna.pl/trasy"
     }
    ],
    "id": "lemko-trail-2026-10-17",
@@ -6650,7 +6984,11 @@
    ],
    "elevations": [
     {
-     "km": 12
+     "km": 12,
+     "dplus": 180,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://janosikraceseries.com/roztoczeultrarace/trasy-new/",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
      "km": 21
@@ -6671,6 +7009,10 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
+     "name": "trasa (organizator)",
+     "url": "https://janosikraceseries.com/roztoczeultrarace/trasy-new/"
+    },
+    {
      "name": "regulamin",
      "url": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/"
     },
@@ -6681,11 +7023,11 @@
    ],
    "regulaminUrl": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/",
    "id": "smok-ultra-race-2026-10-24",
-   "surface": "przelaj",
+   "surface": "trail",
    "minKm": 12,
    "maxKm": 50,
-   "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 12 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerScore": 5,
+   "beginnerWhy": "najkrótszy dystans 12 km; łagodnie: ok. 15 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
    "name": "XV Grand Prix Krakowa w biegach górskich",
@@ -6703,19 +7045,27 @@
    "elevations": [
     {
      "km": 3.7,
-     "dplus": 110
+     "dplus": 110,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "km": 5.7,
-     "dplus": 250
+     "dplus": 250,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "km": 11.6,
-     "dplus": 470
+     "dplus": 470,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "km": 23.2,
-     "dplus": 940
+     "dplus": 940,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
    "vertical": true,
@@ -6747,7 +7097,9 @@
    "elevations": [
     {
      "km": 15,
-     "dplus": 1000
+     "dplus": 1000,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
    "vertical": false,
@@ -7013,7 +7365,9 @@
    "elevations": [
     {
      "km": 95,
-     "dplus": 8848
+     "dplus": 8848,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
    "vertical": false,
@@ -7082,6 +7436,10 @@
    "elevations": [
     {
      "km": 6,
+     "dplus": 106,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://ultrarace.pl/gdansk/trasa-gdansk/",
+     "dplusCheckedAt": "2026-09-10",
      "limitH": 1
     },
     {
@@ -7134,6 +7492,10 @@
     },
     {
      "km": 101,
+     "dplus": 1800,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://ultrarace.pl/gdansk/trasa-gdansk/",
+     "dplusCheckedAt": "2026-09-10",
      "limitH": 17
     },
     {
@@ -7154,6 +7516,8 @@
     {
      "km": 101,
      "dplus": 3195,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://ultrarace.pl/gdansk",
      "approx": true
     }
    ],
@@ -7167,6 +7531,10 @@
     {
      "name": "strona organizatora",
      "url": "https://ultrarace.pl/gdansk/"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://ultrarace.pl/gdansk/trasa-gdansk/"
     },
     {
      "name": "regulamin",
@@ -7193,8 +7561,8 @@
    "surface": "trail",
    "minKm": 6,
    "maxKm": 101,
-   "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerScore": 5,
+   "beginnerWhy": "najkrótszy dystans 6 km; łagodnie: ok. 18 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
    "name": "Turbacz Trail - Podhalański Bieg Mikołajkowy: Ostrowskie Mikołajki 9 km, Rodzinny Bieg Mikołajkowy 1 km",
@@ -7246,19 +7614,27 @@
    "elevations": [
     {
      "km": 3.7,
-     "dplus": 110
+     "dplus": 110,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "km": 5.7,
-     "dplus": 250
+     "dplus": 250,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "km": 11.6,
-     "dplus": 470
+     "dplus": 470,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "km": 23.2,
-     "dplus": 940
+     "dplus": 940,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
    "vertical": true,
@@ -7389,19 +7765,27 @@
    "elevations": [
     {
      "km": 3.7,
-     "dplus": 110
+     "dplus": 110,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2027/"
     },
     {
      "km": 5.7,
-     "dplus": 250
+     "dplus": 250,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2027/"
     },
     {
      "km": 11.6,
-     "dplus": 470
+     "dplus": 470,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2027/"
     },
     {
      "km": 23.2,
-     "dplus": 940
+     "dplus": 940,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2027/"
     }
    ],
    "vertical": true,
@@ -7461,19 +7845,27 @@
    "elevations": [
     {
      "km": 3.7,
-     "dplus": 110
+     "dplus": 110,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2027/"
     },
     {
      "km": 5.7,
-     "dplus": 250
+     "dplus": 250,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2027/"
     },
     {
      "km": 11.6,
-     "dplus": 470
+     "dplus": 470,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2027/"
     },
     {
      "km": 23.2,
-     "dplus": 940
+     "dplus": 940,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2027/"
     }
    ],
    "vertical": true,
@@ -7508,19 +7900,27 @@
    "elevations": [
     {
      "km": 3.7,
-     "dplus": 110
+     "dplus": 110,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2027/"
     },
     {
      "km": 5.7,
-     "dplus": 250
+     "dplus": 250,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2027/"
     },
     {
      "km": 11.6,
-     "dplus": 470
+     "dplus": 470,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2027/"
     },
     {
      "km": 23.2,
-     "dplus": 940
+     "dplus": 940,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2027/"
     }
    ],
    "vertical": true,
@@ -7657,7 +8057,11 @@
      "km": 12
     },
     {
-     "km": 16
+     "km": 16,
+     "dplus": 492,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://www.biegrzeznika.pl/rzeznicka-piatka/",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
      "km": 28
@@ -7685,6 +8089,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2027/"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://www.biegrzeznika.pl/rzeznicka-piatka/"
     },
     {
      "name": "strona organizatora",

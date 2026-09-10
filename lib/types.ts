@@ -12,7 +12,11 @@ export type Race = {
   distancesKm: number[]; // wszystkie dystanse imprezy
   minKm: number;
   maxKm: number;
-  elevations: { km: number; dplus?: number; approx?: boolean; limitH?: number }[]; // approx = D+ zebrane ze strony organizatora, przypisane do najdłuższego dystansu
+  elevations: {
+    km: number; dplus?: number; approx?: boolean; limitH?: number;
+    dplusSource?: "gpx" | "trasa" | "organizator" | "regulamin" | "kalendarz"; // drabina źródeł: gpx > trasa > organizator > regulamin > kalendarz
+    dplusSourceUrl?: string; dplusCheckedAt?: string; dplusStale?: boolean; // stale = strona źródła opisuje inną edycję (inny rok)
+  }[]; // approx = D+ zebrane ze strony organizatora, przypisane do najdłuższego dystansu
   vertical: boolean;
   category?: string; // np. Kat.I (liga biegigorskie)
   surface: Surface;

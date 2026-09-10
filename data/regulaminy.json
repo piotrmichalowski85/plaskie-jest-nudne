@@ -71,7 +71,33 @@
   "fetchedAt": "2026-09-09T17:04:01.401Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:15:16.069Z"
+  "gearAt": "2026-09-09T17:15:16.069Z",
+  "trasa": {
+   "found": [
+    {
+     "km": 11,
+     "dplus": 600
+    },
+    {
+     "km": 25,
+     "dplus": 1050
+    },
+    {
+     "km": 59,
+     "dplus": 1700
+    },
+    {
+     "km": 79,
+     "dplus": 2600
+    }
+   ],
+   "years": [
+    2026,
+    2025
+   ],
+   "checkedAt": "2026-09-10T08:24:06.366Z",
+   "url": "https://ultrarace.pl/radkow/trasa-radkow/"
+  }
  },
  "https://utm.run/pl/szczebel_cup/": {
   "regulaminUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
@@ -85,7 +111,12 @@
   "fetchedAt": "2026-09-09T17:04:00.801Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:06.367Z"
+  }
  },
  "https://janosikraceseries.com/janosikultrarace/": {
   "regulaminUrl": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/",
@@ -132,7 +163,37 @@
   "fetchedAt": "2026-09-09T17:04:00.427Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [
+    {
+     "km": 10,
+     "dplus": 180
+    },
+    {
+     "km": 25,
+     "dplus": 430
+    },
+    {
+     "km": 35,
+     "dplus": 450
+    },
+    {
+     "km": 65,
+     "dplus": 1080
+    },
+    {
+     "km": 102,
+     "dplus": 1870
+    }
+   ],
+   "years": [
+    2026,
+    2025
+   ],
+   "checkedAt": "2026-09-10T08:24:06.367Z",
+   "url": "https://janosikraceseries.com/roztoczeultrarace/trasy-new/"
+  }
  },
  "https://www.biegigorskiesanok.pl/": {
   "regulaminUrl": "https://www.biegigorskiesanok.pl/regulamin/",
@@ -280,7 +341,29 @@
   "fetchedAt": "2026-09-09T17:04:02.705Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:15:16.070Z"
+  "gearAt": "2026-09-09T17:15:16.070Z",
+  "trasa": {
+   "found": [
+    {
+     "km": 170,
+     "dplus": 5900
+    },
+    {
+     "km": 270,
+     "dplus": 9400
+    }
+   ],
+   "years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022,
+    2020
+   ],
+   "checkedAt": "2026-09-10T08:24:06.646Z",
+   "url": "https://www.biegigorskiesanok.pl/biegi/piatkagajowego/"
+  }
  },
  "https://tamizpowrotem.eu/": {
   "regulaminUrl": "https://tamizpowrotem.eu/wp-content/uploads/2026/06/Regulamin_TIZP_2026.pdf",
@@ -333,7 +416,20 @@
   "fetchedAt": "2026-09-09T17:04:01.685Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:15:16.070Z"
+  "gearAt": "2026-09-09T17:15:16.070Z",
+  "trasa": {
+   "found": [
+    {
+     "km": 77,
+     "dplus": 2800
+    }
+   ],
+   "years": [
+    2026
+   ],
+   "checkedAt": "2026-09-10T08:24:07.117Z",
+   "url": "https://tamizpowrotem.eu/nasze-trasy/"
+  }
  },
  "https://biegnakasprowy.pl/biegnakasprowy/": {
   "regulaminUrl": "https://biegnakasprowy.pl/biegnakasprowy/regulamin",
@@ -347,14 +443,38 @@
   "fetchedAt": "2026-09-09T17:04:02.150Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [
+    {
+     "km": 8.5,
+     "dplus": 1072
+    }
+   ],
+   "years": [
+    2025,
+    2024,
+    2023,
+    2022,
+    2021,
+    2020,
+    2026
+   ],
+   "checkedAt": "2026-09-10T08:24:07.311Z",
+   "url": "https://biegnakasprowy.pl/biegnakasprowy/trasa"
+  }
  },
  "https://my.raceresult.com/415822/": {
   "distances": [],
   "limits": [],
   "gear": [],
   "fetchedAt": "2026-09-09T17:02:12.306Z",
-  "visited": 1
+  "visited": 1,
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:08.103Z"
+  }
  },
  "https://turystyka.glucholazy.pl/8848/1138/komunikat.html": {
   "regulaminUrl": "https://turystyka.glucholazy.pl/download/attachment/24767/regulamin.pdf?v=1775550054",
@@ -392,7 +512,12 @@
   "fetchedAt": "2026-09-09T17:04:02.600Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:15:16.070Z"
+  "gearAt": "2026-09-09T17:15:16.070Z",
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:08.011Z"
+  }
  },
  "https://www.maraton3jezior.com/": {
   "regulaminUrl": "https://www.maraton3jezior.com/regulamin/",
@@ -443,7 +568,25 @@
   "fetchedAt": "2026-09-09T17:04:02.607Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:15:16.070Z"
+  "gearAt": "2026-09-09T17:15:16.070Z",
+  "trasa": {
+   "found": [
+    {
+     "km": 42.8,
+     "dplus": 2492
+    }
+   ],
+   "years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022,
+    2021
+   ],
+   "checkedAt": "2026-09-10T08:24:07.894Z",
+   "url": "https://www.maraton3jezior.com/trasa-maratonu-trzech-jezior/"
+  }
  },
  "https://www.bgtimesport.pl/zawody/info/id/870": {
   "organizerUrl": "https://www.traseo.pl/trasa/bieg-na-blatnia-o-puchar-dowodcy-jw-agat-plk-michala-polaszka",
@@ -451,7 +594,20 @@
   "limits": [],
   "gear": [],
   "fetchedAt": "2026-09-09T17:02:12.796Z",
-  "visited": 5
+  "visited": 5,
+  "trasa": {
+   "found": [
+    {
+     "km": 9,
+     "dplus": 515
+    }
+   ],
+   "years": [
+    2026
+   ],
+   "checkedAt": "2026-09-10T08:24:08.273Z",
+   "url": "https://www.bgtimesport.pl/zawody/info/id/870"
+  }
  },
  "https://www.kbsobotka.pl/slezanski-festiwal-biegowy/": {
   "regulaminUrl": "https://www.kbsobotka.pl/slezanski-festiwal-biegowy/regulamin/",
@@ -474,7 +630,12 @@
   "fetchedAt": "2026-09-09T17:04:04.774Z",
   "visited": 3,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:08.456Z"
+  }
  },
  "https://jurarun.pl/": {
   "organizerUrl": "https://www.katowice.uw.gov.pl/",
@@ -482,7 +643,44 @@
   "limits": [],
   "gear": [],
   "fetchedAt": "2026-09-09T17:02:14.781Z",
-  "visited": 6
+  "visited": 6,
+  "trasa": {
+   "found": [
+    {
+     "km": 5,
+     "dplus": 180
+    },
+    {
+     "km": 10,
+     "dplus": 238
+    },
+    {
+     "km": 12,
+     "dplus": 361
+    },
+    {
+     "km": 21,
+     "dplus": 515
+    },
+    {
+     "km": 42,
+     "dplus": 763
+    },
+    {
+     "km": 80,
+     "dplus": 1209
+    },
+    {
+     "km": 100,
+     "dplus": 1516
+    }
+   ],
+   "years": [
+    2026
+   ],
+   "checkedAt": "2026-09-10T08:24:09.031Z",
+   "url": "https://jurarun.pl/trasy/jurarun-ultra-100/"
+  }
  },
  "https://b4sportonline.pl/przehyba_trail/": {
   "regulaminUrl": "https://b4sportonline.pl/users-folder/741/files/regulamin_Przehyba_Trail_2026.pdf",
@@ -512,7 +710,12 @@
   "fetchedAt": "2026-09-09T17:04:03.189Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:09.246Z"
+  }
  },
  "https://www.maratonbieszczadzki.pl/": {
   "regulaminUrl": "https://biegpolesie.pl/wp-content/uploads/2024/10/IX-Bieg-Polesie-regulamin-2019.pdf",
@@ -527,7 +730,32 @@
   "fetchedAt": "2026-09-09T17:04:08.780Z",
   "visited": 9,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [
+    {
+     "km": 12,
+     "dplus": 596
+    },
+    {
+     "km": 26,
+     "dplus": 1120
+    },
+    {
+     "km": 52,
+     "dplus": 2250
+    },
+    {
+     "km": 100,
+     "dplus": 4010
+    }
+   ],
+   "years": [
+    2026
+   ],
+   "checkedAt": "2026-09-10T08:24:09.705Z",
+   "url": "https://www.maratonbieszczadzki.pl/zimowy-maraton-bieszczadzki-zimb/"
+  }
  },
  "https://ultrakotlina.pl/": {
   "regulaminUrl": "https://ultrakotlina.pl/regulamin/",
@@ -601,14 +829,24 @@
   "fetchedAt": "2026-09-09T17:04:04.921Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:15:16.070Z"
+  "gearAt": "2026-09-09T17:15:16.070Z",
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:09.718Z"
+  }
  },
  "https://my.raceresult.com/392481/": {
   "distances": [],
   "limits": [],
   "gear": [],
   "fetchedAt": "2026-09-09T17:02:20.473Z",
-  "visited": 1
+  "visited": 1,
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:09.837Z"
+  }
  },
  "https://janosikraceseries.com/roztoczeultrarace/": {
   "regulaminUrl": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/",
@@ -655,7 +893,37 @@
   "fetchedAt": "2026-09-09T17:04:05.271Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [
+    {
+     "km": 10,
+     "dplus": 180
+    },
+    {
+     "km": 25,
+     "dplus": 430
+    },
+    {
+     "km": 35,
+     "dplus": 450
+    },
+    {
+     "km": 65,
+     "dplus": 1080
+    },
+    {
+     "km": 102,
+     "dplus": 1870
+    }
+   ],
+   "years": [
+    2026,
+    2025
+   ],
+   "checkedAt": "2026-09-10T08:24:09.887Z",
+   "url": "https://janosikraceseries.com/roztoczeultrarace/trasy-new/"
+  }
  },
  "https://aktywnakorczyna.pl/": {
   "organizerUrl": "https://outstandingthemes.com/",
@@ -663,7 +931,12 @@
   "limits": [],
   "gear": [],
   "fetchedAt": "2026-09-09T17:02:22.009Z",
-  "visited": 2
+  "visited": 2,
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:10.149Z"
+  }
  },
  "https://xrun.pl/wielki-final-2026/": {
   "regulaminUrl": "https://xrun.pl/regulamin/",
@@ -673,7 +946,12 @@
   "fetchedAt": "2026-09-09T17:04:10.711Z",
   "visited": 3,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:09.528Z"
+  }
  },
  "https://xrun.pl/vistula-trail-2026/": {
   "regulaminUrl": "https://xrun.pl/regulamin",
@@ -683,7 +961,12 @@
   "fetchedAt": "2026-09-09T17:04:12.222Z",
   "visited": 4,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:06.367Z"
+  }
  },
  "https://b4sportonline.pl/sfb2026/": {
   "regulaminUrl": "https://b4sportonline.pl/users-folder/1417/files/regulamin_sfb_2026.pdf",
@@ -774,14 +1057,54 @@
   "fetchedAt": "2026-09-09T17:04:07.245Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:15:16.070Z"
+  "gearAt": "2026-09-09T17:15:16.070Z",
+  "trasa": {
+   "found": [
+    {
+     "km": 11,
+     "dplus": 300
+    },
+    {
+     "km": 21,
+     "dplus": 600
+    },
+    {
+     "km": 42,
+     "dplus": 1300
+    },
+    {
+     "km": 65,
+     "dplus": 1750
+    },
+    {
+     "km": 100,
+     "dplus": 2450
+    }
+   ],
+   "years": [
+    2024,
+    2025,
+    2021,
+    2023,
+    2026,
+    2022,
+    2020
+   ],
+   "checkedAt": "2026-09-10T08:24:10.363Z",
+   "url": "https://pomeraniatrail.pl/trasa/put100/"
+  }
  },
  "https://www.facebook.com/MarszobiegNaCzantorie": {
   "distances": [],
   "limits": [],
   "gear": [],
   "fetchedAt": "2026-09-09T17:02:24.413Z",
-  "visited": 1
+  "visited": 1,
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:10.579Z"
+  }
  },
  "https://janosikraceseries.com/smok/": {
   "regulaminUrl": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/",
@@ -828,7 +1151,37 @@
   "fetchedAt": "2026-09-09T17:04:07.896Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [
+    {
+     "km": 10,
+     "dplus": 180
+    },
+    {
+     "km": 25,
+     "dplus": 430
+    },
+    {
+     "km": 35,
+     "dplus": 450
+    },
+    {
+     "km": 65,
+     "dplus": 1080
+    },
+    {
+     "km": 102,
+     "dplus": 1870
+    }
+   ],
+   "years": [
+    2026,
+    2025
+   ],
+   "checkedAt": "2026-09-10T08:24:11.307Z",
+   "url": "https://janosikraceseries.com/roztoczeultrarace/trasy-new/"
+  }
  },
  "https://bieggorski.pl/": {
   "regulaminUrl": "https://bieggorski.pl/regulamin/",
@@ -851,7 +1204,12 @@
   "fetchedAt": "2026-09-09T17:04:08.038Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:12.724Z"
+  }
  },
  "https://biegajwgorachsowich.pl/Gorski_Bieg_Niepodleglosci": {
   "regulaminUrl": "https://biegajwgorachsowich.pl/lib/vv3wnq/14-GBN-regulamin-msyk9hiv.pdf",
@@ -866,14 +1224,24 @@
   "fetchedAt": "2026-09-09T17:04:08.207Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:12.867Z"
+  }
  },
  "https://www.biegzboja.pl/": {
   "distances": [],
   "limits": [],
   "gear": [],
   "fetchedAt": "2026-09-09T17:02:25.209Z",
-  "visited": 2
+  "visited": 2,
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:12.914Z"
+  }
  },
  "https://jaskiniowy.pl/borowkowa-trail/": {
   "regulaminUrl": "http://jaskiniowy.pl/regulamin-biegu-jaskiniowego-niedzwiedzia/",
@@ -891,7 +1259,12 @@
   "fetchedAt": "2026-09-09T17:04:08.791Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:15:16.070Z"
+  "gearAt": "2026-09-09T17:15:16.070Z",
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:13.280Z"
+  }
  },
  "https://biegajwgorachsowich.pl/orzel-i-trzynastka": {
   "regulaminUrl": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026-msyirv8m.pdf",
@@ -922,7 +1295,12 @@
   "fetchedAt": "2026-09-09T17:04:08.935Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:13.457Z"
+  }
  },
  "https://b4sportonline.pl/ultra_swir/": {
   "distances": [],
@@ -958,7 +1336,12 @@
   "fetchedAt": "2026-09-09T17:04:09.453Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:15:16.070Z"
+  "gearAt": "2026-09-09T17:15:16.070Z",
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:13.566Z"
+  }
  },
  "https://www.biegbeskidnika.powiat.jaslo.pl/": {
   "organizerUrl": "https://edexbron.pl/",
@@ -966,7 +1349,12 @@
   "limits": [],
   "gear": [],
   "fetchedAt": "2026-09-09T17:02:28.101Z",
-  "visited": 12
+  "visited": 12,
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:08.845Z"
+  }
  },
  "https://ultrarace.pl/gdansk/": {
   "regulaminUrl": "https://ultrarace.pl/gdansk/regulamin-gdansk/",
@@ -1051,7 +1439,81 @@
   "fetchedAt": "2026-09-09T17:04:09.980Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:15:16.070Z"
+  "gearAt": "2026-09-09T17:15:16.070Z",
+  "trasa": {
+   "found": [
+    {
+     "km": 6,
+     "dplus": 106
+    },
+    {
+     "km": 11,
+     "dplus": 420
+    },
+    {
+     "km": 12,
+     "dplus": 250
+    },
+    {
+     "km": 13,
+     "dplus": 600
+    },
+    {
+     "km": 24,
+     "dplus": 800
+    },
+    {
+     "km": 26,
+     "dplus": 530
+    },
+    {
+     "km": 27,
+     "dplus": 600
+    },
+    {
+     "km": 48,
+     "dplus": 2241
+    },
+    {
+     "km": 53,
+     "dplus": 1200
+    },
+    {
+     "km": 55,
+     "dplus": 1040
+    },
+    {
+     "km": 56,
+     "dplus": 1600
+    },
+    {
+     "km": 78,
+     "dplus": 3195
+    },
+    {
+     "km": 80,
+     "dplus": 2300
+    },
+    {
+     "km": 81,
+     "dplus": 1400
+    },
+    {
+     "km": 84,
+     "dplus": 1800
+    },
+    {
+     "km": 101,
+     "dplus": 1800
+    }
+   ],
+   "years": [
+    2026,
+    2025
+   ],
+   "checkedAt": "2026-09-10T08:24:13.619Z",
+   "url": "https://ultrarace.pl/gdansk/trasa-gdansk/"
+  }
  },
  "https://krakowbiega.pl/": {
   "organizerUrl": "https://flousport.com/",
@@ -1059,7 +1521,12 @@
   "limits": [],
   "gear": [],
   "fetchedAt": "2026-09-09T17:02:33.831Z",
-  "visited": 10
+  "visited": 10,
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:15.623Z"
+  }
  },
  "https://utm.run/pl/winter-trail-malopolska/": {
   "regulaminUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
@@ -1073,7 +1540,12 @@
   "fetchedAt": "2026-09-09T17:04:11.161Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:16.547Z"
+  }
  },
  "https://kandahar.pl/13-jesienny-bieg-potrojnej/": {
   "organizerUrl": "https://pza.org.pl/",
@@ -1081,7 +1553,12 @@
   "limits": [],
   "gear": [],
   "fetchedAt": "2026-09-09T17:02:29.408Z",
-  "visited": 7
+  "visited": 7,
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:11.855Z"
+  }
  },
  "https://perlymalopolski.pl/rabka-zdroj/": {
   "regulaminUrl": "https://perlymalopolski.pl/wp-content/uploads/2026/02/RABKA_PERE%C5%81KI-2026-REGULAMIN.docx.pdf",
@@ -1091,14 +1568,24 @@
   "fetchedAt": "2026-09-09T17:04:10.393Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:14.672Z"
+  }
  },
  "https://www.zamiec.pl/": {
   "distances": [],
   "limits": [],
   "gear": [],
   "fetchedAt": "2026-09-09T17:02:29.848Z",
-  "visited": 1
+  "visited": 1,
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:15.243Z"
+  }
  },
  "https://b4sportonline.pl/turbacz_trail/": {
   "organizerUrl": "https://www.nowytarg.pl/",
@@ -1138,7 +1625,12 @@
   "fetchedAt": "2026-09-09T17:04:10.472Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:15.779Z"
+  }
  },
  "https://b4sportonline.pl/suszecki_festiwal/": {
   "regulaminUrl": "https://b4sportonline.pl/suszecki_festiwal/regulamin",
@@ -1169,7 +1661,40 @@
   "limits": [],
   "gear": [],
   "fetchedAt": "2026-09-09T17:02:36.586Z",
-  "visited": 5
+  "visited": 5,
+  "trasa": {
+   "found": [
+    {
+     "km": 10,
+     "dplus": 200
+    },
+    {
+     "km": 30,
+     "dplus": 740
+    },
+    {
+     "km": 48,
+     "dplus": 1400
+    },
+    {
+     "km": 70,
+     "dplus": 2520
+    },
+    {
+     "km": 102,
+     "dplus": 3300
+    },
+    {
+     "km": 150,
+     "dplus": 5860
+    }
+   ],
+   "years": [
+    2026
+   ],
+   "checkedAt": "2026-09-10T08:24:16.873Z",
+   "url": "https://ultralemkowyna.pl/trasy"
+  }
  },
  "https://ultrarace.pl/radkow": {
   "regulaminUrl": "https://ultrarace.pl/radkow/regulamin-radkow/",
@@ -1218,7 +1743,33 @@
   "fetchedAt": "2026-09-09T17:04:12.370Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [
+    {
+     "km": 11,
+     "dplus": 600
+    },
+    {
+     "km": 25,
+     "dplus": 1050
+    },
+    {
+     "km": 59,
+     "dplus": 1700
+    },
+    {
+     "km": 79,
+     "dplus": 2600
+    }
+   ],
+   "years": [
+    2026,
+    2025
+   ],
+   "checkedAt": "2026-09-10T08:24:21.332Z",
+   "url": "https://ultrarace.pl/radkow/trasa-radkow/"
+  }
  },
  "https://janosikraceseries.com/janosikultrarace": {
   "regulaminUrl": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/",
@@ -1265,7 +1816,37 @@
   "fetchedAt": "2026-09-09T17:04:11.436Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [
+    {
+     "km": 10,
+     "dplus": 180
+    },
+    {
+     "km": 25,
+     "dplus": 430
+    },
+    {
+     "km": 35,
+     "dplus": 450
+    },
+    {
+     "km": 65,
+     "dplus": 1080
+    },
+    {
+     "km": 102,
+     "dplus": 1870
+    }
+   ],
+   "years": [
+    2026,
+    2025
+   ],
+   "checkedAt": "2026-09-10T08:24:22.307Z",
+   "url": "https://janosikraceseries.com/roztoczeultrarace/trasy-new/"
+  }
  },
  "http://www.biegigorskiesanok.pl": {
   "regulaminUrl": "https://www.biegigorskiesanok.pl/regulamin/",
@@ -1399,7 +1980,29 @@
   "fetchedAt": "2026-09-09T17:04:13.507Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [
+    {
+     "km": 170,
+     "dplus": 5900
+    },
+    {
+     "km": 270,
+     "dplus": 9400
+    }
+   ],
+   "years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022,
+    2020
+   ],
+   "checkedAt": "2026-09-10T08:24:22.680Z",
+   "url": "https://www.biegigorskiesanok.pl/biegi/piatkagajowego/"
+  }
  },
  "https://maratonbieszczadzki.pl/": {
   "regulaminUrl": "https://biegpolesie.pl/wp-content/uploads/2024/10/IX-Bieg-Polesie-regulamin-2019.pdf",
@@ -1414,7 +2017,32 @@
   "fetchedAt": "2026-09-09T17:04:15.986Z",
   "visited": 9,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [
+    {
+     "km": 12,
+     "dplus": 596
+    },
+    {
+     "km": 26,
+     "dplus": 1120
+    },
+    {
+     "km": 52,
+     "dplus": 2250
+    },
+    {
+     "km": 100,
+     "dplus": 4010
+    }
+   ],
+   "years": [
+    2026
+   ],
+   "checkedAt": "2026-09-10T08:24:17.698Z",
+   "url": "https://www.maratonbieszczadzki.pl/zimowy-maraton-bieszczadzki-zimb/"
+  }
  },
  "https://www.maraton3jezior.com": {
   "regulaminUrl": "https://www.maraton3jezior.com/regulamin/",
@@ -1455,7 +2083,25 @@
   "fetchedAt": "2026-09-09T17:04:13.029Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [
+    {
+     "km": 42.8,
+     "dplus": 2492
+    }
+   ],
+   "years": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022,
+    2021
+   ],
+   "checkedAt": "2026-09-10T08:24:22.707Z",
+   "url": "https://www.maraton3jezior.com/trasa-maratonu-trzech-jezior/"
+  }
  },
  "https://biegrzeznika.pl/": {
   "organizerUrl": "https://b4sportonline.pl/Rzeznicki_Festiwal_Biegowy/",
@@ -1463,7 +2109,21 @@
   "limits": [],
   "gear": [],
   "fetchedAt": "2026-09-09T17:02:42.073Z",
-  "visited": 9
+  "visited": 9,
+  "trasa": {
+   "found": [
+    {
+     "km": 16,
+     "dplus": 492
+    }
+   ],
+   "years": [
+    2026,
+    2027
+   ],
+   "checkedAt": "2026-09-10T08:24:18.197Z",
+   "url": "https://www.biegrzeznika.pl/rzeznicka-piatka/"
+  }
  },
  "https://www.biegrzeznika.pl/": {
   "organizerUrl": "https://b4sportonline.pl/Rzeznicki_Festiwal_Biegowy/",
@@ -1471,7 +2131,21 @@
   "limits": [],
   "gear": [],
   "fetchedAt": "2026-09-09T17:02:42.083Z",
-  "visited": 9
+  "visited": 9,
+  "trasa": {
+   "found": [
+    {
+     "km": 16,
+     "dplus": 492
+    }
+   ],
+   "years": [
+    2026,
+    2027
+   ],
+   "checkedAt": "2026-09-10T08:24:16.683Z",
+   "url": "https://www.biegrzeznika.pl/rzeznicka-piatka/"
+  }
  },
  "https://jurarun.pl": {
   "organizerUrl": "https://www.katowice.uw.gov.pl/",
@@ -1479,7 +2153,44 @@
   "limits": [],
   "gear": [],
   "fetchedAt": "2026-09-09T17:02:42.335Z",
-  "visited": 6
+  "visited": 6,
+  "trasa": {
+   "found": [
+    {
+     "km": 5,
+     "dplus": 180
+    },
+    {
+     "km": 10,
+     "dplus": 238
+    },
+    {
+     "km": 12,
+     "dplus": 361
+    },
+    {
+     "km": 21,
+     "dplus": 515
+    },
+    {
+     "km": 42,
+     "dplus": 763
+    },
+    {
+     "km": 80,
+     "dplus": 1209
+    },
+    {
+     "km": 100,
+     "dplus": 1516
+    }
+   ],
+   "years": [
+    2026
+   ],
+   "checkedAt": "2026-09-10T08:24:23.831Z",
+   "url": "https://jurarun.pl/trasy/jurarun-ultra-100/"
+  }
  },
  "https://bisonultratrail.pl": {
   "regulaminUrl": "https://www.kingrunner.com/artykul/regulamin---korona-polskich-ultramaratonow-30/1109",
@@ -1489,7 +2200,12 @@
   "fetchedAt": "2026-09-09T17:04:13.524Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:24.331Z"
+  }
  },
  "https://janosikraceseries.com/roztoczeultrarace": {
   "regulaminUrl": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/",
@@ -1536,7 +2252,37 @@
   "fetchedAt": "2026-09-09T17:04:13.340Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [
+    {
+     "km": 10,
+     "dplus": 180
+    },
+    {
+     "km": 25,
+     "dplus": 430
+    },
+    {
+     "km": 35,
+     "dplus": 450
+    },
+    {
+     "km": 65,
+     "dplus": 1080
+    },
+    {
+     "km": 102,
+     "dplus": 1870
+    }
+   ],
+   "years": [
+    2026,
+    2025
+   ],
+   "checkedAt": "2026-09-10T08:24:24.863Z",
+   "url": "https://janosikraceseries.com/roztoczeultrarace/trasy-new/"
+  }
  },
  "http://www.baranrace.pl": {
   "regulaminUrl": "https://b4sportonline.pl/users-folder/1253/files/305225445da34133c7f7b1d6d05ecae988bd5.pdf",
@@ -1560,7 +2306,12 @@
   "fetchedAt": "2026-09-09T17:04:13.102Z",
   "visited": 4,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:24.206Z"
+  }
  },
  "http://ultrakotlina.pl": {
   "regulaminUrl": "https://ultrakotlina.pl/regulamin/",
@@ -1620,21 +2371,36 @@
   "fetchedAt": "2026-09-09T17:04:13.553Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:25.385Z"
+  }
  },
  "http://www.ultralemkowyna.pl/trasy/lemkowyna-ultra-trail-70": {
   "distances": [],
   "limits": [],
   "gear": [],
   "fetchedAt": "2026-09-09T17:02:42.971Z",
-  "visited": 1
+  "visited": 1,
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:25.581Z"
+  }
  },
  "https://www.facebook.com/events/970185795820598": {
   "distances": [],
   "limits": [],
   "gear": [],
   "fetchedAt": "2026-09-09T17:02:43.228Z",
-  "visited": 1
+  "visited": 1,
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:25.149Z"
+  }
  },
  "https://janosikraceseries.com/smok": {
   "regulaminUrl": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/",
@@ -1681,7 +2447,37 @@
   "fetchedAt": "2026-09-09T17:04:13.655Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [
+    {
+     "km": 10,
+     "dplus": 180
+    },
+    {
+     "km": 25,
+     "dplus": 430
+    },
+    {
+     "km": 35,
+     "dplus": 450
+    },
+    {
+     "km": 65,
+     "dplus": 1080
+    },
+    {
+     "km": 102,
+     "dplus": 1870
+    }
+   ],
+   "years": [
+    2026,
+    2025
+   ],
+   "checkedAt": "2026-09-10T08:24:25.783Z",
+   "url": "https://janosikraceseries.com/roztoczeultrarace/trasy-new/"
+  }
  },
  "https://ultrarace.pl/gdansk": {
   "regulaminUrl": "https://ultrarace.pl/gdansk/regulamin-gdansk/",
@@ -1756,7 +2552,81 @@
   "fetchedAt": "2026-09-09T17:04:14.794Z",
   "visited": 2,
   "gearSource": "llm",
-  "gearAt": "2026-09-09T17:07:23.273Z"
+  "gearAt": "2026-09-09T17:07:23.273Z",
+  "trasa": {
+   "found": [
+    {
+     "km": 6,
+     "dplus": 106
+    },
+    {
+     "km": 11,
+     "dplus": 420
+    },
+    {
+     "km": 12,
+     "dplus": 250
+    },
+    {
+     "km": 13,
+     "dplus": 600
+    },
+    {
+     "km": 24,
+     "dplus": 800
+    },
+    {
+     "km": 26,
+     "dplus": 530
+    },
+    {
+     "km": 27,
+     "dplus": 600
+    },
+    {
+     "km": 48,
+     "dplus": 2241
+    },
+    {
+     "km": 53,
+     "dplus": 1200
+    },
+    {
+     "km": 55,
+     "dplus": 1040
+    },
+    {
+     "km": 56,
+     "dplus": 1600
+    },
+    {
+     "km": 78,
+     "dplus": 3195
+    },
+    {
+     "km": 80,
+     "dplus": 2300
+    },
+    {
+     "km": 81,
+     "dplus": 1400
+    },
+    {
+     "km": 84,
+     "dplus": 1800
+    },
+    {
+     "km": 101,
+     "dplus": 1800
+    }
+   ],
+   "years": [
+    2026,
+    2025
+   ],
+   "checkedAt": "2026-09-10T08:24:25.794Z",
+   "url": "https://ultrarace.pl/gdansk/trasa-gdansk/"
+  }
  },
  "http://www.ultralemkowyna.pl": {
   "organizerUrl": "http://www.petzl.com/",
@@ -1764,7 +2634,40 @@
   "limits": [],
   "gear": [],
   "fetchedAt": "2026-09-09T17:02:44.771Z",
-  "visited": 5
+  "visited": 5,
+  "trasa": {
+   "found": [
+    {
+     "km": 10,
+     "dplus": 200
+    },
+    {
+     "km": 30,
+     "dplus": 740
+    },
+    {
+     "km": 48,
+     "dplus": 1400
+    },
+    {
+     "km": 70,
+     "dplus": 2520
+    },
+    {
+     "km": 102,
+     "dplus": 3300
+    },
+    {
+     "km": 150,
+     "dplus": 5860
+    }
+   ],
+   "years": [
+    2026
+   ],
+   "checkedAt": "2026-09-10T08:24:25.609Z",
+   "url": "http://www.ultralemkowyna.pl/trasy"
+  }
  },
  "https://www.biegbeskidnika.powiat.jaslo.pl": {
   "organizerUrl": "https://edexbron.pl/",
@@ -1772,7 +2675,12 @@
   "limits": [],
   "gear": [],
   "fetchedAt": "2026-09-09T17:02:48.453Z",
-  "visited": 12
+  "visited": 12,
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-10T08:24:23.270Z"
+  }
  },
  "https://elektronicznezapisy.pl/event/14899/strona.html": {
   "distances": [],

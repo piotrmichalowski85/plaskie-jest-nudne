@@ -6,6 +6,7 @@ import { extractFromText, fetchText } from "../lib/enrich";
 import organizers from "../data/organizers.json";
 import { kingrunnerRows, kingrunnerDetail } from "../lib/adapters/kingrunner";
 import { findRegulamin, extractLimits, extractGear, fetchAny } from "../lib/deep";
+import { findTrasa, type TrasaResult } from "../lib/trasa";
 import overrides from "../data/overrides.json";
 import { existsSync, readFileSync, mkdirSync } from "node:fs";
 import { createHash } from "node:crypto";
@@ -48,7 +49,7 @@ async function biegigorskie(year: number): Promise<Raw[]> {
     if (eventName.length > 60) eventName = eventName.slice(0, 60).replace(/\s\S*$/, "");
     out.push({
       name: rawName, eventName, dateStart: d.start, dateEnd: d.end, city, region,
-      distancesKm: list.map((x) => x.km), elevations: list, vertical,
+      distancesKm: list.map((x) => x.km), elevations: list.map((x) => ({ ...x, dplusSource: x.dplus ? ("kalendarz" as const) : undefined, dplusSourceUrl: x.dplus ? url : undefined })), vertical,
       category: category.replace(/\s*\|\s*/g, " ") || undefined, url: link && /^https?:/.test(link) ? link : undefined,
       sources: [{ name: "biegigorskie.pl", url }],
     });
@@ -99,16 +100,16 @@ async function enrich(raws: Raw[]): Promise<number> {
       const f = extractFromText(text);
       if (!f) continue;
       let changed = false;
-      if (!r.distancesKm.length && f.distances.length) { r.distancesKm = f.distances.map((d) => d.km); r.elevations = f.distances; changed = true; }
+      if (!r.distancesKm.length && f.distances.length) { r.distancesKm = f.distances.map((d) => d.km); r.elevations = f.distances.map((d) => ({ ...d, dplusSource: d.dplus ? ("organizator" as const) : undefined, dplusSourceUrl: d.dplus ? r.url : undefined })); changed = true; }
       else if (f.structured && f.distances.length) {
         // scal: D+ i limity ze strony organizatora dokładamy do dystansów z kalendarza, nic nie tracimy
         for (const d of f.distances) {
           const e = r.elevations.find((x) => Math.abs(x.km - d.km) < 0.6);
-          if (e) { if (!e.dplus && d.dplus) { e.dplus = d.dplus; changed = true; } if (d.limitH) { e.limitH = d.limitH; changed = true; } }
+          if (e) { if (!e.dplus && d.dplus) { e.dplus = d.dplus; e.dplusSource = "organizator"; e.dplusSourceUrl = r.url; changed = true; } if (d.limitH) { e.limitH = d.limitH; changed = true; } }
         }
       }
       if (f.dplusMax && !r.elevations.some((e) => e.dplus) && r.elevations.length && !changed) {
-        const longest = r.elevations[r.elevations.length - 1]; longest.dplus = f.dplusMax; if (r.elevations.length > 1) longest.approx = true; changed = true;
+        const longest = r.elevations[r.elevations.length - 1]; longest.dplus = f.dplusMax; longest.dplusSource = "organizator"; longest.dplusSourceUrl = r.url; if (r.elevations.length > 1) longest.approx = true; changed = true;
       }
       if (changed) { hits++; r.sources.push({ name: "strona organizatora", url: r.url! }); }
     }
@@ -164,7 +165,7 @@ async function organizerSeeds(): Promise<Raw[]> {
   return out;
 }
 
-type RegCache = Record<string, { regulaminUrl?: string; organizerUrl?: string; distances: { km: number; dplus?: number }[]; limits: { km: number; limitH: number }[]; gear: string[]; gearSource?: "llm"; gearAt?: string; fetchedAt: string; visited: number }>;
+type RegCache = Record<string, { trasa?: TrasaResult; regulaminUrl?: string; organizerUrl?: string; distances: { km: number; dplus?: number }[]; limits: { km: number; limitH: number }[]; gear: string[]; gearSource?: "llm"; gearAt?: string; fetchedAt: string; visited: number }>;
 const CACHE_PATH = "data/regulaminy.json";
 export const TEXT_DIR = "data/.regulaminy_text"; // lokalny cache tekstu regulaminów (poza git)
 export const textPath = (u: string) => `${TEXT_DIR}/${createHash("sha1").update(u).digest("hex")}.txt`;
@@ -226,6 +227,51 @@ async function regulaminy(raws: Raw[]): Promise<number> {
   return n;
 }
 
+const PLATFORM = /elektronicznezapisy|b4sportonline|datasport|kingrunner|zapisy\.|e-gepard|dostartu|zmierzymyczas/i;
+
+/** Poziom B drabiny: podstrona "Trasa" / podstrony dystansów u organizatora. Cache w regulaminy.json (pole trasa, TTL 30 dni). */
+async function trasy(raws: Raw[]): Promise<{ hits: number; conflicts: string[] }> {
+  const cache: RegCache = existsSync(CACHE_PATH) ? JSON.parse(readFileSync(CACHE_PATH, "utf8")) : {};
+  const todayS = new Date().toISOString().slice(0, 10);
+  const fresh = (u: string) => cache[u]?.trasa && (Date.now() - Date.parse(cache[u].trasa!.checkedAt)) / 86400000 < TTL_DAYS;
+  const todo = raws.filter((r) => r.url && !PLATFORM.test(r.url) && r.dateEnd >= todayS && !fresh(r.url!));
+  const queue = [...todo];
+  await Promise.all(Array.from({ length: 4 }, async () => {
+    while (queue.length) {
+      const r = queue.shift()!;
+      const t = await findTrasa(r.url!, r.distancesKm);
+      cache[r.url!] = { ...(cache[r.url!] ?? { distances: [], limits: [], gear: [], fetchedAt: new Date(0).toISOString(), visited: 0 }), trasa: t };
+    }
+  }));
+  writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 1));
+  let hits = 0; const conflicts: string[] = [];
+  for (const r of raws) {
+    const t = r.url ? cache[r.url]?.trasa : undefined;
+    if (!t?.found.length) continue;
+    const raceYear = Number(r.dateStart.slice(0, 4));
+    const stale = t.years.length > 0 && !t.years.includes(raceYear);
+    let changed = false;
+    for (const f of t.found) {
+      const tol = Math.max(3, f.km * 0.06);
+      const near = r.elevations.filter((e) => Math.abs(e.km - f.km) <= tol).sort((a, b) => Math.abs(a.km - f.km) - Math.abs(b.km - f.km));
+      const e = near[0];
+      if (!e) continue;
+      // niejednoznaczność: dwa źródłowe wpisy celują w ten sam dystans z różnymi wartościami
+      const rivals = t.found.filter((g) => g !== f && Math.abs(g.km - e.km) <= tol);
+      if (rivals.some((g) => Math.abs(g.dplus - f.dplus) / f.dplus > 0.2)) continue;
+      const rank: Record<string, number> = { gpx: 5, trasa: 4, organizator: 3, regulamin: 2, kalendarz: 1 };
+      const cur = e.dplusSource ? rank[e.dplusSource] : 0;
+      if (e.dplus && cur >= rank.trasa) continue;
+      if (e.dplus && Math.abs(e.dplus - f.dplus) / e.dplus > 0.15) conflicts.push(`${r.eventName} ${e.km} km: ${e.dplusSource} ${e.dplus} m vs trasa ${f.dplus} m (${t.url})`);
+      e.dplus = f.dplus; e.dplusSource = "trasa"; e.dplusSourceUrl = t.url; e.dplusCheckedAt = t.checkedAt.slice(0, 10); e.dplusStale = stale || undefined; e.approx = undefined;
+      changed = true;
+    }
+    if (changed) { hits++; if (!r.sources.some((s) => s.name === "trasa (organizator)")) r.sources.push({ name: "trasa (organizator)", url: t.url! }); }
+  }
+  writeFileSync("data/_konflikty.json", JSON.stringify({ generatedAt: new Date().toISOString(), conflicts }, null, 1));
+  return { hits, conflicts };
+}
+
 function finalize(raws: Raw[]): Race[] {
   const byKey = new Map<string, Raw>();
   for (const r of raws) {
@@ -283,6 +329,8 @@ async function main() {
   });
   const hits = await enrich(raws);
   console.log(`enriched from organizer pages: ${hits}`);
+  const tr = await trasy(raws);
+  console.log(`trasa: D+ dołożone/zaktualizowane w ${tr.hits} biegach, konflikty: ${tr.conflicts.length}`);
   const regs = await regulaminy(raws);
   console.log(`regulaminy found this run: ${regs}, with regulamin total: ${raws.filter((r) => r.regulaminUrl).length}, with gear: ${raws.filter((r) => r.gear).length}`);
   const races = finalize(raws);
