@@ -132,7 +132,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
         </aside>
       </div>
       <p className="mt-8 text-sm">Nie wiesz, co znaczy D+, cutoff albo sprzęt obowiązkowy? Zajrzyj do <Link href="/slownik" className="underline font-semibold text-[var(--moss)]">słownika trailowego</Link>.</p>
-      <p className="mt-2 text-xs text-[var(--muted)]">Źródła danych: {r.sources.map((s) => s.name).join(", ")}. Wiążący jest regulamin organizatora.</p>
+      <p className="mt-2 text-sm text-[var(--muted)]">Organizujesz ten bieg i widzisz braki albo błędy? Napisz na <a className="underline" href={`mailto:kontakt@plaskiejestnudne.pl?subject=${encodeURIComponent(`Poprawka: ${r.eventName} (${r.dateStart})`)}`}>kontakt@plaskiejestnudne.pl</a>, poprawimy przy najbliższym odświeżeniu.</p>
     </article>
   );
 }

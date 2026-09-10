@@ -12,7 +12,7 @@ export default function About() {
       <h2 className="text-xl font-bold">Ocena "dobry na start"</h2>
       <p>Liczona z najkrótszego dystansu imprezy, przewyższenia na kilometr i formuły biegu (vertical, kilka dystansów). Trzy stopnie: zielony "dobry na start" (możesz przyjść z płaskiego bez większego ryzyka), żółty "ujdzie" (dla biegających regularnie), czerwony "zły na start" (długo, stromo albo formuła dla zaawansowanych). To podpowiedź, nie wyrocznia: zawsze sprawdź regulamin i limit czasu.</p>
       <h2 className="text-xl font-bold">Organizujesz bieg?</h2>
-      <p>Jeśli brakuje Twojego biegu albo dane są nieaktualne, napisz: <a className="underline" href="mailto:piotr.michalowski85@gmail.com?subject=plaskiejestnudne.pl">piotr.michalowski85@gmail.com</a>. Poprawki wchodzą przy najbliższym odświeżeniu.</p>
+      <p>Jeśli brakuje Twojego biegu albo dane są nieaktualne, napisz: <a className="underline" href="mailto:kontakt@plaskiejestnudne.pl">kontakt@plaskiejestnudne.pl</a>. Poprawki wchodzą przy najbliższym odświeżeniu.</p>
     </article>
   );
 }
