@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-10T12:45:47.205Z",
+ "generatedAt": "2026-09-10T12:47:23.921Z",
  "count": 181,
  "races": [
   {
@@ -2658,7 +2658,11 @@
      "km": 5
     },
     {
-     "km": 12
+     "km": 12,
+     "dplus": 582,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://www.biegrzeznika.pl/rzeznicka-piatka/",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
      "km": 16,
@@ -2668,7 +2672,11 @@
      "dplusCheckedAt": "2026-09-10"
     },
     {
-     "km": 28
+     "km": 28,
+     "dplus": 1060,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://www.biegrzeznika.pl/rzeznicka-piatka/",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
      "km": 52
@@ -5020,7 +5028,12 @@
      "limitH": 15
     },
     {
-     "km": 158
+     "km": 158,
+     "dplus": 5350,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://ultrarace.pl/radkow/trasa-radkow/",
+     "dplusCheckedAt": "2026-09-10",
+     "note": "3 etapy: 79 + 59 + 25 km"
     }
    ],
    "vertical": false,
@@ -7066,13 +7079,24 @@
    ],
    "elevations": [
     {
-     "km": 2.4
+     "km": 2.4,
+     "dplus": 340,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://bieggorski.pl/"
     },
     {
-     "km": 7
+     "km": 7,
+     "dplus": 160,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://bieggorski.pl/trasa/",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
-     "km": 24
+     "km": 24,
+     "dplus": 610,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://bieggorski.pl/trasa/",
+     "dplusCheckedAt": "2026-09-10"
     }
    ],
    "vertical": false,
@@ -7081,6 +7105,14 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://bieggorski.pl/"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://bieggorski.pl/trasa/"
     },
     {
      "name": "regulamin",
@@ -7092,8 +7124,8 @@
    "surface": "gorski",
    "minKm": 2.4,
    "maxKm": 24,
-   "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 2.4 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerScore": 5,
+   "beginnerWhy": "pomijamy vertical 2.4 km (sam podbieg), liczymy od 7 km; najkrótszy dystans 7 km; łagodnie: ok. 23 m przewyższenia na km."
   },
   {
    "name": "XIV BIEG NIEPODLEGŁOŚCI",
@@ -7990,7 +8022,11 @@
      "km": 7
     },
     {
-     "km": 12
+     "km": 12,
+     "dplus": 582,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://www.biegrzeznika.pl/rzeznicka-piatka/",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
      "km": 16,
@@ -8000,7 +8036,11 @@
      "dplusCheckedAt": "2026-09-10"
     },
     {
-     "km": 28
+     "km": 28,
+     "dplus": 1060,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://www.biegrzeznika.pl/rzeznicka-piatka/",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
      "km": 52

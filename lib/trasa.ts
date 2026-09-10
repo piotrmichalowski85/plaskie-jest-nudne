@@ -13,9 +13,9 @@ export function extractTrasa(text: string): TrasaFound[] {
   const push = (km: number, d: number) => { if (km >= 3 && km <= 300 && d >= 50 && d <= 20000 && !out.some((x) => Math.abs(x.km - km) < 0.5)) out.push({ km, dplus: d }); };
   const pats: RegExp[] = [
     // "Dystans GUR 79 Przewyższenia +2600 m", "Dystans: 48 km, przewyższenie: 1700 m"
-    /dystans\w*:?\s*(?:[A-ZŁŚŻ]{2,6}\s*)?(\d{1,3}(?:[.,]\d)?)\s*(?:km)?[^0-9+\-]{0,30}przewyższeni\w*:?\s*\+?\s*(\d[\d\s]{1,5})\s*m\b/gi,
+    /dystans\w*:?\s*(?:[A-ZŁŚŻ]{2,6}\s*)?(\d{1,3}(?:[.,]\d)?)\s*(?:km)?[^0-9+\-]{0,30}przewyższe[^\s\d+:]*:?\s*\+?\s*(\d[\d\s]{1,5})\s*m\b/gi,
     // "78 km (+2600 m)", "78 km / +2600 m", "78 km, D+ 2600 m", "78km +2600m", "100 km Przewyższenie: 2450+/-"
-    /(\d{1,3}(?:[.,]\d)?)\s*km[^.;\n]{0,25}?(?:\+\s?|D\s?\+\s?|przewyższeni\w*\s*:?\s*\+?\s?)(\d[\d\s]{1,5})\s*(?:m\b|\+|\/)/gi,
+    /(\d{1,3}(?:[.,]\d)?)\s*km[^.;\n]{0,25}?(?:\+\s?|D\s?\+\s?|przewyższe[^\s\d+:]*\s*:?\s*\+?\s?)(\d[\d\s]{1,5})\s*(?:m\b|\+|\/)/gi,
     // "+2600 m ... 78 km" (D+ przed dystansem, w tym samym wierszu-opisie)
     /(?:\+\s?|D\s?\+\s?)(\d[\d\s]{1,5})\s*m\b[^.;\n]{0,25}?(\d{1,3}(?:[.,]\d)?)\s*km/gi,
   ];
@@ -50,7 +50,7 @@ export function trasaLinks(base: string, $: cheerio.CheerioAPI): string[] {
 /** Etapówka / challenge: "(79 km + 59 km + 25 km) o sumie przewyższeń +5350 m" -> suma km, suma D+, lista etapów */
 export function extractStageSum(text: string): TrasaFound | null {
   const t = text.replace(/\s+/g, " ");
-  const m = t.match(/((?:\d{1,3}(?:[.,]\d)?\s*km\s*\+\s*){1,6}\d{1,3}(?:[.,]\d)?\s*km)[^.]{0,60}?(?:sum\w*\s+)?przewyższe\w*\s*\+?\s?(\d[\d\s]{2,5})\s*m/i);
+  const m = t.match(/((?:\d{1,3}(?:[.,]\d)?\s*km\s*\+\s*){1,6}\d{1,3}(?:[.,]\d)?\s*km)[^.]{0,60}?(?:sum\w*\s+)?przewyższe[^\s\d+:]*\s*\+?\s?(\d[\d\s]{2,5})\s*m/i);
   if (!m) return null;
   const stages = [...m[1].matchAll(/(\d{1,3}(?:[.,]\d)?)\s*km/g)].map((x) => parseFloat(x[1].replace(",", ".")));
   const km = stages.reduce((a, b) => a + b, 0), dplus = parseInt(m[2].replace(/\s/g, ""), 10);
@@ -80,7 +80,7 @@ export function distanceLinks(base: string, $: cheerio.CheerioAPI): { km: number
 /** D+ z pojedynczej podstrony dystansu: pierwsza sensowna liczba przy "przewyższenie" albo "+N m". */
 export function extractDplusOnly(text: string): number | undefined {
   const t = text.replace(/\s+/g, " ");
-  const m = t.match(/przewyższeni\w*[^0-9]{0,25}?\+?\s?(\d[\d\s]{1,5})\s*(?:m\b|\+|\/)/i) || t.match(/(?:\bD\s?\+|\s\+)\s?(\d[\d\s]{2,5})\s*m\b/);
+  const m = t.match(/przewyższe[^\s\d+:]*[^0-9]{0,25}?\+?\s?(\d[\d\s]{1,5})\s*(?:m\b|\+|\/)/i) || t.match(/(?:\bD\s?\+|\s\+)\s?(\d[\d\s]{2,5})\s*m\b/);
   if (!m) return undefined;
   const d = parseInt(m[1].replace(/\s/g, ""), 10);
   return d >= 50 && d <= 20000 ? d : undefined;

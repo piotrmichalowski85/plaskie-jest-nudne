@@ -9,7 +9,7 @@ export function extractFromText(text: string): Found | null {
   const t = text.replace(/\s+/g, " ");
   // wzorzec strukturalny (karty dystansów na stronach organizatorów): Dystans 30km Przewyższenie +740m ... Limit 5 godz.
   const st: { km: number; dplus?: number; limitH?: number }[] = [];
-  const reS = /dystans:?\s*(\d{1,3}(?:[.,]\d)?)\s*km(?:[^0-9]{0,40}przewyższeni\w*:?\s*\+?\s*(\d[\d\s]{1,5})\s*m(?:\s*\/\s*-\s*\d[\d\s]*m)?)?(?:[^a-z0-9]{0,60}limit(?:\s*czasu)?:?\s*(\d{1,2}(?:[.,]\d)?)\s*(?:godz|h))?/gi;
+  const reS = /dystans:?\s*(\d{1,3}(?:[.,]\d)?)\s*km(?:[^0-9]{0,40}przewyższe[^\s\d+:]*:?\s*\+?\s*(\d[\d\s]{1,5})\s*m(?:\s*\/\s*-\s*\d[\d\s]*m)?)?(?:[^a-z0-9]{0,60}limit(?:\s*czasu)?:?\s*(\d{1,2}(?:[.,]\d)?)\s*(?:godz|h))?/gi;
   let ms: RegExpExecArray | null;
   while ((ms = reS.exec(t))) {
     const km = parseFloat(ms[1].replace(",", "."));
@@ -19,7 +19,7 @@ export function extractFromText(text: string): Found | null {
   if (st.length >= 1 && st.length <= 12) {
     st.sort((a, b) => a.km - b.km);
     let dplusMax = Math.max(0, ...st.map((x) => x.dplus || 0)) || undefined;
-    if (!dplusMax) { const loose = [...t.matchAll(/(?:\+\s?|D\s?\+\s?|przewyższeni\w*[^0-9]{0,25})(\d[\d\s]{2,5})\s*m\b/gi)].map((x) => parseInt(x[1].replace(/\s/g, ""), 10)).filter((v) => v >= 100 && v <= 15000); if (loose.length) dplusMax = Math.max(...loose); }
+    if (!dplusMax) { const loose = [...t.matchAll(/(?:\+\s?|D\s?\+\s?|przewyższe[^\s\d+:]*[^0-9]{0,25})(\d[\d\s]{2,5})\s*m\b/gi)].map((x) => parseInt(x[1].replace(/\s/g, ""), 10)).filter((v) => v >= 100 && v <= 15000); if (loose.length) dplusMax = Math.max(...loose); }
     return { distances: st, dplusMax, structured: true };
   }
   const kms = new Set<number>();
@@ -31,7 +31,7 @@ export function extractFromText(text: string): Found | null {
     if (km >= 3 && km <= 250 && KM_CTX.test(ctx) && !/od (centrum|miasta|dworca)|w promieniu|godzin|zł\/km|\/h/i.test(ctx)) kms.add(km);
   }
   const dplus: number[] = [];
-  const re2 = /(?:\+\s?|D\s?\+\s?|przewyższeni\w*[^0-9]{0,25}|suma podejść[^0-9]{0,25})(\d[\d\s]{2,5})\s*m\b/gi;
+  const re2 = /(?:\+\s?|D\s?\+\s?|przewyższe[^\s\d+:]*[^0-9]{0,25}|suma podejść[^0-9]{0,25})(\d[\d\s]{2,5})\s*m\b/gi;
   while ((m = re2.exec(t))) {
     const v = parseInt(m[1].replace(/\s/g, ""), 10);
     if (v >= 100 && v <= 15000) dplus.push(v);

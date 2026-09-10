@@ -89,13 +89,18 @@
     {
      "km": 79,
      "dplus": 2600
+    },
+    {
+     "km": 158,
+     "dplus": 5350,
+     "note": "3 etapy: 79 + 59 + 25 km"
     }
    ],
    "years": [
     2026,
     2025
    ],
-   "checkedAt": "2026-09-10T12:45:21.678Z",
+   "checkedAt": "2026-09-10T12:46:59.896Z",
    "url": "https://ultrarace.pl/radkow/trasa-radkow/",
    "gpx": []
   }
@@ -124,7 +129,7 @@
     2021,
     2020
    ],
-   "checkedAt": "2026-09-10T12:45:21.679Z",
+   "checkedAt": "2026-09-10T12:46:59.896Z",
    "url": "https://utm.run/pl/nowa-huta-w-czterech-smakach/",
    "gpx": [
     "https://utm.run/wp-content/uploads/static/SZCZEBEL_CUP.gpx",
@@ -218,7 +223,7 @@
     2026,
     2025
    ],
-   "checkedAt": "2026-09-10T12:45:21.679Z",
+   "checkedAt": "2026-09-10T12:46:59.896Z",
    "url": "https://janosikraceseries.com/roztoczeultrarace/trasy-new/",
    "gpx": [
     "https://janosikraceseries.com/gpx/UJ-2026-Legenda-75-km.gpx",
@@ -385,7 +390,7 @@
     2022,
     2020
    ],
-   "checkedAt": "2026-09-10T12:45:23.192Z",
+   "checkedAt": "2026-09-10T12:47:00.505Z",
    "url": "https://www.biegigorskiesanok.pl/biegi/piatkagajowego/",
    "gpx": []
   }
@@ -452,7 +457,7 @@
    "years": [
     2026
    ],
-   "checkedAt": "2026-09-10T12:45:23.255Z",
+   "checkedAt": "2026-09-10T12:47:00.703Z",
    "url": "https://tamizpowrotem.eu/nasze-trasy/",
    "gpx": []
   }
@@ -486,7 +491,7 @@
     2020,
     2026
    ],
-   "checkedAt": "2026-09-10T12:45:23.704Z",
+   "checkedAt": "2026-09-10T12:47:01.383Z",
    "url": "https://biegnakasprowy.pl/biegnakasprowy/trasa",
    "gpx": []
   }
@@ -500,7 +505,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:24.515Z"
+   "checkedAt": "2026-09-10T12:47:02.161Z"
   }
  },
  "https://turystyka.glucholazy.pl/8848/1138/komunikat.html": {
@@ -543,7 +548,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:24.259Z",
+   "checkedAt": "2026-09-10T12:47:01.641Z",
    "gpx": []
   }
  },
@@ -612,7 +617,7 @@
     2022,
     2021
    ],
-   "checkedAt": "2026-09-10T12:45:24.036Z",
+   "checkedAt": "2026-09-10T12:47:01.471Z",
    "url": "https://www.maraton3jezior.com/trasa-maratonu-trzech-jezior/",
    "gpx": []
   }
@@ -634,7 +639,7 @@
    "years": [
     2026
    ],
-   "checkedAt": "2026-09-10T12:45:24.744Z",
+   "checkedAt": "2026-09-10T12:47:02.184Z",
    "url": "https://www.bgtimesport.pl/zawody/info/id/870",
    "gpx": []
   }
@@ -664,7 +669,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:24.802Z",
+   "checkedAt": "2026-09-10T12:47:02.302Z",
    "gpx": []
   }
  },
@@ -697,7 +702,7 @@
    "years": [
     2026
    ],
-   "checkedAt": "2026-09-10T12:45:25.104Z",
+   "checkedAt": "2026-09-10T12:47:02.730Z",
    "url": "https://jurarun.pl/trasy/jurarun-ultra-100/",
    "gpx": [
     "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j100h.gpx",
@@ -739,7 +744,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:25.423Z",
+   "checkedAt": "2026-09-10T12:47:03.063Z",
    "gpx": []
   }
  },
@@ -767,7 +772,7 @@
    "years": [
     2026
    ],
-   "checkedAt": "2026-09-10T12:45:25.764Z",
+   "checkedAt": "2026-09-10T12:47:03.242Z",
    "url": "https://www.maratonbieszczadzki.pl/zimowy-maraton-bieszczadzki-zimb/",
    "gpx": []
   }
@@ -848,7 +853,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:25.795Z",
+   "checkedAt": "2026-09-10T12:47:03.261Z",
    "gpx": []
   }
  },
@@ -861,7 +866,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:25.909Z"
+   "checkedAt": "2026-09-10T12:47:03.371Z"
   }
  },
  "https://janosikraceseries.com/roztoczeultrarace/": {
@@ -949,7 +954,7 @@
     2026,
     2025
    ],
-   "checkedAt": "2026-09-10T12:45:25.959Z",
+   "checkedAt": "2026-09-10T12:47:03.420Z",
    "url": "https://janosikraceseries.com/roztoczeultrarace/trasy-new/",
    "gpx": [
     "https://janosikraceseries.com/gpx/UJ-2026-Legenda-75-km.gpx",
@@ -969,7 +974,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:26.085Z",
+   "checkedAt": "2026-09-10T12:47:03.497Z",
    "gpx": []
   }
  },
@@ -985,7 +990,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:25.652Z",
+   "checkedAt": "2026-09-10T12:47:03.109Z",
    "gpx": []
   }
  },
@@ -1001,7 +1006,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:21.680Z",
+   "checkedAt": "2026-09-10T12:46:59.896Z",
    "gpx": [
     "https://xrun.pl/wp-content/uploads/2026/08/XRUN_Vistula_Trail_Long_Trail.gpx",
     "https://xrun.pl/wp-content/uploads/2026/08/XRUN_Vistula_Trail_Classic.gpx",
@@ -1128,7 +1133,7 @@
     2022,
     2020
    ],
-   "checkedAt": "2026-09-10T12:45:26.375Z",
+   "checkedAt": "2026-09-10T12:47:03.703Z",
    "url": "https://pomeraniatrail.pl/trasa/put100/",
    "gpx": []
   }
@@ -1142,7 +1147,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:26.531Z",
+   "checkedAt": "2026-09-10T12:47:03.995Z",
    "gpx": []
   }
  },
@@ -1231,7 +1236,7 @@
     2026,
     2025
    ],
-   "checkedAt": "2026-09-10T12:45:27.209Z",
+   "checkedAt": "2026-09-10T12:47:05.193Z",
    "url": "https://janosikraceseries.com/roztoczeultrarace/trasy-new/",
    "gpx": [
     "https://janosikraceseries.com/gpx/UJ-2026-Legenda-75-km.gpx",
@@ -1264,9 +1269,27 @@
   "gearSource": "llm",
   "gearAt": "2026-09-09T17:07:23.273Z",
   "trasa": {
-   "found": [],
-   "years": [],
-   "checkedAt": "2026-09-10T12:45:28.458Z",
+   "found": [
+    {
+     "km": 7.6,
+     "dplus": 160
+    },
+    {
+     "km": 23.9,
+     "dplus": 610
+    }
+   ],
+   "years": [
+    2025,
+    2024,
+    2023,
+    2022,
+    2021,
+    2020,
+    2026
+   ],
+   "checkedAt": "2026-09-10T12:47:07.986Z",
+   "url": "https://bieggorski.pl/trasa/",
    "gpx": []
   }
  },
@@ -1287,7 +1310,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:28.634Z",
+   "checkedAt": "2026-09-10T12:47:08.150Z",
    "gpx": []
   }
  },
@@ -1300,7 +1323,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:28.781Z",
+   "checkedAt": "2026-09-10T12:47:08.157Z",
    "gpx": []
   }
  },
@@ -1324,7 +1347,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:28.993Z",
+   "checkedAt": "2026-09-10T12:47:08.282Z",
    "gpx": []
   }
  },
@@ -1361,7 +1384,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:29.203Z",
+   "checkedAt": "2026-09-10T12:47:08.513Z",
    "gpx": []
   }
  },
@@ -1403,7 +1426,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:29.214Z",
+   "checkedAt": "2026-09-10T12:47:08.562Z",
    "gpx": []
   }
  },
@@ -1417,7 +1440,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:24.905Z",
+   "checkedAt": "2026-09-10T12:47:02.306Z",
    "gpx": []
   }
  },
@@ -1576,7 +1599,7 @@
     2026,
     2025
    ],
-   "checkedAt": "2026-09-10T12:45:29.310Z",
+   "checkedAt": "2026-09-10T12:47:08.653Z",
    "url": "https://ultrarace.pl/gdansk/trasa-gdansk/",
    "gpx": []
   }
@@ -1591,7 +1614,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:30.463Z",
+   "checkedAt": "2026-09-10T12:47:10.322Z",
    "gpx": []
   }
  },
@@ -1619,7 +1642,7 @@
     2021,
     2020
    ],
-   "checkedAt": "2026-09-10T12:45:31.011Z",
+   "checkedAt": "2026-09-10T12:47:10.821Z",
    "url": "https://utm.run/pl/nowa-huta-w-czterech-smakach/",
    "gpx": [
     "https://utm.run/wp-content/uploads/static/2026_NH_przylasek_10km.gpx",
@@ -1637,7 +1660,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:27.831Z",
+   "checkedAt": "2026-09-10T12:47:05.609Z",
    "gpx": []
   }
  },
@@ -1653,7 +1676,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:29.791Z",
+   "checkedAt": "2026-09-10T12:47:09.734Z",
    "gpx": []
   }
  },
@@ -1666,7 +1689,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:30.347Z",
+   "checkedAt": "2026-09-10T12:47:10.218Z",
    "gpx": []
   }
  },
@@ -1712,7 +1735,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:30.662Z",
+   "checkedAt": "2026-09-10T12:47:10.547Z",
    "gpx": [
     "https://100milesofbeskidwyspowy.com/wp-content/uploads/2023/03/30mil-12.03.2023.gpx",
     "https://100milesofbeskidwyspowy.com/wp-content/uploads/2022/04/14-mil-30.03.2022-garmin.gpx",
@@ -1780,7 +1803,7 @@
    "years": [
     2026
    ],
-   "checkedAt": "2026-09-10T12:45:31.519Z",
+   "checkedAt": "2026-09-10T12:47:10.843Z",
    "url": "https://ultralemkowyna.pl/trasy",
    "gpx": []
   }
@@ -1850,13 +1873,18 @@
     {
      "km": 79,
      "dplus": 2600
+    },
+    {
+     "km": 158,
+     "dplus": 5350,
+     "note": "3 etapy: 79 + 59 + 25 km"
     }
    ],
    "years": [
     2026,
     2025
    ],
-   "checkedAt": "2026-09-10T12:45:33.299Z",
+   "checkedAt": "2026-09-10T12:47:12.224Z",
    "url": "https://ultrarace.pl/radkow/trasa-radkow/",
    "gpx": []
   }
@@ -1946,7 +1974,7 @@
     2026,
     2025
    ],
-   "checkedAt": "2026-09-10T12:45:34.505Z",
+   "checkedAt": "2026-09-10T12:47:13.967Z",
    "url": "https://janosikraceseries.com/roztoczeultrarace/trasy-new/",
    "gpx": [
     "https://janosikraceseries.com/gpx/UJ-2026-Legenda-75-km.gpx",
@@ -2099,7 +2127,7 @@
     2022,
     2020
    ],
-   "checkedAt": "2026-09-10T12:45:35.227Z",
+   "checkedAt": "2026-09-10T12:47:14.082Z",
    "url": "https://www.biegigorskiesanok.pl/biegi/piatkagajowego/",
    "gpx": []
   }
@@ -2128,7 +2156,7 @@
    "years": [
     2026
    ],
-   "checkedAt": "2026-09-10T12:45:31.540Z",
+   "checkedAt": "2026-09-10T12:47:11.519Z",
    "url": "https://www.maratonbieszczadzki.pl/zimowy-maraton-bieszczadzki-zimb/",
    "gpx": []
   }
@@ -2188,7 +2216,7 @@
     2022,
     2021
    ],
-   "checkedAt": "2026-09-10T12:45:35.330Z",
+   "checkedAt": "2026-09-10T12:47:14.635Z",
    "url": "https://www.maraton3jezior.com/trasa-maratonu-trzech-jezior/",
    "gpx": []
   }
@@ -2203,15 +2231,23 @@
   "trasa": {
    "found": [
     {
+     "km": 12,
+     "dplus": 582
+    },
+    {
      "km": 16,
      "dplus": 492
+    },
+    {
+     "km": 28,
+     "dplus": 1060
     }
    ],
    "years": [
     2026,
     2027
    ],
-   "checkedAt": "2026-09-10T12:45:32.851Z",
+   "checkedAt": "2026-09-10T12:47:11.536Z",
    "url": "https://www.biegrzeznika.pl/rzeznicka-piatka/",
    "gpx": []
   }
@@ -2226,15 +2262,23 @@
   "trasa": {
    "found": [
     {
+     "km": 12,
+     "dplus": 582
+    },
+    {
      "km": 16,
      "dplus": 492
+    },
+    {
+     "km": 28,
+     "dplus": 1060
     }
    ],
    "years": [
     2026,
     2027
    ],
-   "checkedAt": "2026-09-10T12:45:31.062Z",
+   "checkedAt": "2026-09-10T12:47:10.827Z",
    "url": "https://www.biegrzeznika.pl/rzeznicka-piatka/",
    "gpx": []
   }
@@ -2268,7 +2312,7 @@
    "years": [
     2026
    ],
-   "checkedAt": "2026-09-10T12:45:38.504Z",
+   "checkedAt": "2026-09-10T12:47:15.789Z",
    "url": "https://jurarun.pl/trasy/jurarun-ultra-100/",
    "gpx": [
     "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j100h.gpx",
@@ -2290,7 +2334,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:38.858Z",
+   "checkedAt": "2026-09-10T12:47:16.245Z",
    "gpx": []
   }
  },
@@ -2379,7 +2423,7 @@
     2026,
     2025
    ],
-   "checkedAt": "2026-09-10T12:45:38.877Z",
+   "checkedAt": "2026-09-10T12:47:16.496Z",
    "url": "https://janosikraceseries.com/roztoczeultrarace/trasy-new/",
    "gpx": [
     "https://janosikraceseries.com/gpx/UJ-2026-Legenda-75-km.gpx",
@@ -2415,7 +2459,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:38.572Z",
+   "checkedAt": "2026-09-10T12:47:16.178Z",
    "gpx": [
     "https://baranrace.pl/wp-content/uploads/2025/07/BaranTrailRace10.gpx",
     "https://baranrace.pl/wp-content/uploads/2025/07/BaranTrailRace25.gpx"
@@ -2484,7 +2528,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:39.372Z",
+   "checkedAt": "2026-09-10T12:47:16.717Z",
    "gpx": []
   }
  },
@@ -2497,7 +2541,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:39.464Z"
+   "checkedAt": "2026-09-10T12:47:16.867Z"
   }
  },
  "https://www.facebook.com/events/970185795820598": {
@@ -2509,7 +2553,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:39.204Z",
+   "checkedAt": "2026-09-10T12:47:16.568Z",
    "gpx": []
   }
  },
@@ -2598,7 +2642,7 @@
     2026,
     2025
    ],
-   "checkedAt": "2026-09-10T12:45:39.680Z",
+   "checkedAt": "2026-09-10T12:47:17.130Z",
    "url": "https://janosikraceseries.com/roztoczeultrarace/trasy-new/",
    "gpx": [
     "https://janosikraceseries.com/gpx/UJ-2026-Legenda-75-km.gpx",
@@ -2753,7 +2797,7 @@
     2026,
     2025
    ],
-   "checkedAt": "2026-09-10T12:45:39.899Z",
+   "checkedAt": "2026-09-10T12:47:17.173Z",
    "url": "https://ultrarace.pl/gdansk/trasa-gdansk/",
    "gpx": []
   }
@@ -2795,7 +2839,7 @@
    "years": [
     2026
    ],
-   "checkedAt": "2026-09-10T12:45:39.524Z",
+   "checkedAt": "2026-09-10T12:47:17.027Z",
    "url": "http://www.ultralemkowyna.pl/trasy",
    "gpx": []
   }
@@ -2810,7 +2854,7 @@
   "trasa": {
    "found": [],
    "years": [],
-   "checkedAt": "2026-09-10T12:45:37.734Z",
+   "checkedAt": "2026-09-10T12:47:15.359Z",
    "gpx": []
   }
  },
