@@ -29,7 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="border-t border-[#e3e7e1] text-sm text-[var(--muted)]">
           <div className="mx-auto max-w-5xl px-4 py-6 flex flex-col sm:flex-row gap-2 justify-between">
             <span>Płaskie jest nudne: wejdź w trail, zacznij od podbiegu. Serwis niekomercyjny.</span>
-            <span><Link href="/o-serwisie" className="underline">Skąd dane i kto to robi</Link></span>
+            <span><Link href="/o-serwisie" className="underline">O serwisie</Link></span>
           </div>
         </footer>
       </body>
