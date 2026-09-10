@@ -108,9 +108,7 @@ async function enrich(raws: Raw[]): Promise<number> {
           if (e) { if (!e.dplus && d.dplus) { e.dplus = d.dplus; e.dplusSource = "organizator"; e.dplusSourceUrl = r.url; changed = true; } if (d.limitH) { e.limitH = d.limitH; changed = true; } }
         }
       }
-      if (f.dplusMax && !r.elevations.some((e) => e.dplus) && r.elevations.length && !changed) {
-        const longest = r.elevations[r.elevations.length - 1]; longest.dplus = f.dplusMax; longest.dplusSource = "organizator"; longest.dplusSourceUrl = r.url; if (r.elevations.length > 1) longest.approx = true; changed = true;
-      }
+      // (zasada "nieznane zostaje nieznane": nie przypisujemy luźno znalezionego D+ do najdłuższego dystansu; wcześniej dawało to błędy przy stronach serii)
       if (changed) { hits++; r.sources.push({ name: "strona organizatora", url: r.url! }); }
     }
   };
