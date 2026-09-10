@@ -12,8 +12,7 @@ export function RacesMap({ races, center }: { races: RaceWithGeo[]; center?: [nu
   useEffect(() => {
     let map: import("maplibre-gl").Map | undefined;
     (async () => {
-      const ml = await import("maplibre-gl");
-      ml.setWorkerUrl("/maplibre-gl-csp-worker.js");
+      const ml = (await import("maplibre-gl")).default;
       if (!ref.current) return;
       const m = new ml.Map({ container: ref.current, style: "https://tiles.openfreemap.org/styles/liberty", center: center ? [center[1], center[0]] : [19.4, 51.0], zoom: center ? 8 : 5.6, attributionControl: { compact: true } });
       map = m;
