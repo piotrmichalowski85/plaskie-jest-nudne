@@ -26,7 +26,11 @@ export function RaceMap({ lat, lng, label, track }: { lat: number; lng: number; 
             m.fitBounds(b, { padding: 30, duration: 0 });
           } catch (err) { console.error("track draw failed", err); }
         };
-        if (m.isStyleLoaded()) draw(); else m.once("load", draw);
+        if (m.isStyleLoaded()) draw(); else { m.once("load", draw); m.once("idle", draw); }
+        // karta w tle wstrzymuje pętlę renderowania MapLibre; po powrocie wymuś odświeżenie
+        const onVis = () => { if (document.visibilityState === "visible") { m.resize(); m.triggerRepaint(); draw(); } };
+        document.addEventListener("visibilitychange", onVis);
+        m.once("remove", () => document.removeEventListener("visibilitychange", onVis));
         (window as unknown as { __pjnMap?: unknown }).__pjnMap = m;
       }
     })();
