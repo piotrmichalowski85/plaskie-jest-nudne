@@ -8,6 +8,7 @@ export function RaceMap({ lat, lng, label, track }: { lat: number; lng: number; 
     let map: import("maplibre-gl").Map | undefined;
     (async () => {
       const maplibregl = await import("maplibre-gl");
+      maplibregl.setWorkerUrl("/maplibre-gl-csp-worker.js"); // worker z pliku, nie z bloba: bundler nie zawsze poprawnie pakuje workera MapLibre
       if (!ref.current) return;
       const m = new maplibregl.Map({ container: ref.current, style: "https://tiles.openfreemap.org/styles/liberty", center: [lng, lat], zoom: track ? 10 : 9.5, attributionControl: { compact: true } });
       map = m;
