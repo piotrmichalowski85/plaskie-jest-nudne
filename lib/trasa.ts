@@ -2,7 +2,7 @@ import * as cheerio from "cheerio";
 import { fetchAny } from "./deep";
 
 export type TrasaFound = { km: number; dplus: number };
-export type TrasaResult = { url?: string; found: TrasaFound[]; years: number[]; checkedAt: string };
+export type TrasaResult = { url?: string; found: TrasaFound[]; years: number[]; checkedAt: string; gpx?: string[] };
 
 const UA = "Mozilla/5.0 (compatible; plaskiejestnudne-bot/0.1; +https://plaskiejestnudne.pl/o-serwisie)";
 
@@ -75,16 +75,30 @@ export function extractDplusOnly(text: string): number | undefined {
   return d >= 50 && d <= 20000 ? d : undefined;
 }
 
+/** Linki do plików GPX/KML na stronie (ta sama lub inna domena). */
+export function gpxLinks(base: string, $: cheerio.CheerioAPI): string[] {
+  const out: string[] = [];
+  $("a[href]").each((_, a) => {
+    const href = $(a).attr("href") || "";
+    if (!/\.(gpx|kml)(\?|$)/i.test(href)) return;
+    try { const u = new URL(href, base).toString(); if (!out.includes(u)) out.push(u); } catch { /* zły href */ }
+  });
+  return out.slice(0, 12);
+}
+
 export async function findTrasa(startUrl: string, raceKms: number[] = []): Promise<TrasaResult> {
   const res: TrasaResult = { found: [], years: [], checkedAt: new Date().toISOString() };
   const page = await fetchAny(startUrl);
   if (!page || page.kind !== "html" || !page.$) return res;
+  const gpx = new Set(gpxLinks(startUrl, page.$));
+  const collectGpx = async (u: string, $?: cheerio.CheerioAPI) => { if ($) for (const g of gpxLinks(u, $)) gpx.add(g); };
   const years = (t: string) => [...new Set((t.match(/\b20\d{2}\b/g) || []).map(Number))].filter((y) => y >= 2020 && y <= 2030);
   // 1) podstrona "Trasa" (najpewniejsza: dotyczy tej imprezy)
   for (const u of trasaLinks(startUrl, page.$)) {
     const p = await fetchAny(u); if (!p) continue;
+    await collectGpx(u, p.$);
     const found = extractTrasa(p.text);
-    if (found.length) { res.url = u; res.found = found; res.years = years(p.text); return res; }
+    if (found.length) { res.url = u; res.found = found; res.years = years(p.text); res.gpx = [...gpx]; return res; }
   }
   // 2) podstrony per dystans z menu (D+ z każdej, km z tekstu linku)
   const dl = distanceLinks(startUrl, page.$);
@@ -92,13 +106,15 @@ export async function findTrasa(startUrl: string, raceKms: number[] = []): Promi
     const found: TrasaFound[] = [];
     for (const l of dl) {
       const p = await fetchAny(l.url); if (!p) continue;
+      await collectGpx(l.url, p.$);
       const d = extractDplusOnly(p.text);
       if (d && !found.some((x) => Math.abs(x.km - l.km) < 0.5)) found.push({ km: l.km, dplus: d });
     }
-    if (found.length) { res.url = dl[0].url; res.found = found.sort((a, b) => a.km - b.km); res.years = years(page.text); return res; }
+    if (found.length) { res.url = dl[0].url; res.found = found.sort((a, b) => a.km - b.km); res.years = years(page.text); res.gpx = [...gpx]; return res; }
   }
   // 3) strona główna, tylko gdy liczba trafień nie przekracza liczby dystansów imprezy + 2 (inaczej to lista wielu imprez, np. seria)
   const home = extractTrasa(page.text);
   if (home.length && (!raceKms.length || home.length <= raceKms.length + 2)) { res.url = startUrl; res.found = home; res.years = years(page.text); }
+  res.gpx = [...gpx];
   return res;
 }

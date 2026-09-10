@@ -8,6 +8,8 @@ import { geoFor } from "@/lib/geo";
 import { Score, RaceCard } from "@/components/RaceCard";
 import { RaceMap } from "@/components/RaceMap";
 import { ShareButton } from "@/components/ShareButton";
+import { ElevationProfile } from "@/components/ElevationProfile";
+import { loadTrack } from "@/lib/gpxdata";
 
 const srcLabel: Record<string, string> = { gpx: "policzone z GPX", trasa: "wg podstrony Trasa organizatora", organizator: "wg strony organizatora", regulamin: "wg regulaminu", kalendarz: "wg kalendarza" };
 
@@ -32,6 +34,10 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
   const g = geoFor(r.city);
   const ld = { "@context": "https://schema.org", "@type": "SportsEvent", name: r.eventName, startDate: r.dateStart, endDate: r.dateEnd, location: { "@type": "Place", name: r.city, address: { "@type": "PostalAddress", addressLocality: r.city, addressCountry: "PL" }, ...(g ? { geo: { "@type": "GeoCoordinates", latitude: g.lat, longitude: g.lng } } : {}) }, url: r.url, sport: "Trail running" };
   const sim = similar(r.id, r.region, r.distancesKm, r.dateStart);
+  const withGpx = r.elevations.filter((e) => e.gpx);
+  const mapTrackEl = withGpx.length ? withGpx[withGpx.length - 1] : undefined; // najdłuższy ślad na mapie
+  const mapTrack = mapTrackEl ? loadTrack(mapTrackEl.gpx!) : null;
+  const profiles = withGpx.map((e) => ({ e, t: loadTrack(e.gpx!) })).filter((x) => x.t);
   const lvlDot: Record<string, string> = { good: "lvl-good", ok: "lvl-ok", bad: "lvl-bad" };
   return (
     <article>
@@ -58,7 +64,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
                 const l = distanceLevel(e);
                 return (
                   <li key={e.km} className="card py-3 flex items-start justify-between gap-3">
-                    <span className="flex items-center gap-2 font-semibold"><span className={`lvl ${lvlDot[l]} !px-1.5`} title={levelLabel[l]}><span className="dot" /></span>{fmtKm(e.km)}{isVertical(e) ? <span className="chip">vertical</span> : null}</span>
+                    <span className="flex items-center gap-2 font-semibold whitespace-nowrap"><span className={`lvl ${lvlDot[l]} !px-1.5`} title={levelLabel[l]}><span className="dot" /></span>{fmtKm(e.km)}{isVertical(e) ? <span className="chip">vertical</span> : null}</span>
                     <span className="text-[var(--muted)] text-right text-sm">
                       {e.dplus ? `+${e.dplus} m` : "przewyższenie nieznane (organizator nie podał; sprawdź na stronie biegu lub w regulaminie)"}{e.limitH ? `, limit ${e.limitH} h` : ""}
                       {e.dplus && e.dplusSource && e.dplusSource !== "kalendarz" ? <span className="block text-xs">{e.dplusSourceUrl ? <a className="underline" href={e.dplusSourceUrl} target="_blank" rel="noopener">{srcLabel[e.dplusSource]}</a> : srcLabel[e.dplusSource]}{e.dplusCheckedAt ? `, spr. ${e.dplusCheckedAt.slice(8, 10)}.${e.dplusCheckedAt.slice(5, 7)}` : ""}{e.dplusStale ? ", uwaga: strona opisuje inną edycję" : ""}</span> : null}
@@ -69,6 +75,13 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
             ) : <p className="text-[var(--muted)]">Dystanse nieznane, sprawdź u organizatora.</p>}
             <p className="mt-2 text-xs text-[var(--muted)]">Kropka przy dystansie: zielona = dobry na start, żółta = ujdzie, czerwona = zły na start. Plakietka imprezy odpowiada najłatwiejszemu dystansowi.</p>
           </section>
+
+          {profiles.length > 0 && (
+            <section className="space-y-3">
+              <h2 className="font-bold">Profil trasy</h2>
+              {profiles.map(({ e, t }) => <div key={e.km}><p className="text-xs text-[var(--muted)] mb-1">{fmtKm(e.km)}{e.dplusStale ? " (plik GPX z poprzedniej edycji)" : ""}</p><ElevationProfile profile={t!.profile} km={t!.km} dplus={t!.dplus} /></div>)}
+            </section>
+          )}
 
           <section className="card">
             <h2 className="font-bold">Zanim się zapiszesz</h2>
@@ -93,7 +106,8 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
 
         {/* wąska kolumna: fakty i akcje */}
         <aside className="space-y-4 md:sticky md:top-20">
-          {g ? <RaceMap lat={g.lat} lng={g.lng} label={`${r.eventName}, ${r.city}`} /> : <div className="card text-sm text-[var(--muted)]">Mapa: brak współrzędnych dla "{r.city}".</div>}
+          {g || mapTrack ? <RaceMap lat={g?.lat ?? mapTrack!.coords[0][1]} lng={g?.lng ?? mapTrack!.coords[0][0]} label={`${r.eventName}, ${r.city}`} track={mapTrack?.coords} /> : <div className="card text-sm text-[var(--muted)]">Mapa: brak współrzędnych dla "{r.city}".</div>}
+          {mapTrack && mapTrackEl && <p className="text-xs text-[var(--muted)]">Na mapie: ślad GPX dystansu {fmtKm(mapTrackEl.km)}{mapTrackEl.dplusStale ? " (plik z poprzedniej edycji)" : ""}.</p>}
           <div className="card text-sm">
             <p className="font-semibold">{r.city}{r.region ? `, ${r.region}` : ""}</p>
             {g && <a className="underline text-[var(--moss)]" href={`https://www.google.com/maps/dir/?api=1&destination=${g.lat},${g.lng}`} target="_blank" rel="noopener">Jak dojechać</a>}

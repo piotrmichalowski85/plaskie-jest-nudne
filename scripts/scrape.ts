@@ -7,6 +7,7 @@ import organizers from "../data/organizers.json";
 import { kingrunnerRows, kingrunnerDetail } from "../lib/adapters/kingrunner";
 import { findRegulamin, extractLimits, extractGear, fetchAny } from "../lib/deep";
 import { findTrasa, type TrasaResult } from "../lib/trasa";
+import { parseGpx } from "../lib/gpx";
 import overrides from "../data/overrides.json";
 import { existsSync, readFileSync, mkdirSync } from "node:fs";
 import { createHash } from "node:crypto";
@@ -266,6 +267,35 @@ async function trasy(raws: Raw[]): Promise<{ hits: number; conflicts: string[] }
     }
     if (changed) { hits++; if (!r.sources.some((s) => s.name === "trasa (organizator)")) r.sources.push({ name: "trasa (organizator)", url: t.url! }); }
   }
+  // poziom A drabiny: pliki GPX (ślad, profil, D+ liczone jednolicie)
+  mkdirSync("data/gpx", { recursive: true });
+  let gpxHits = 0;
+  for (const r of raws) {
+    const t = r.url ? cache[r.url]?.trasa : undefined;
+    if (!t?.gpx?.length) continue;
+    const raceYear = Number(r.dateStart.slice(0, 4));
+    for (const g of t.gpx.slice(0, 8)) {
+      const id = createHash("sha1").update(g).digest("hex").slice(0, 12);
+      const path = `data/gpx/${id}.json`;
+      let track: ReturnType<typeof parseGpx> | null = null;
+      if (existsSync(path)) track = JSON.parse(readFileSync(path, "utf8"));
+      else {
+        try { const res = await fetch(g, { headers: { "user-agent": "plaskiejestnudne-bot/0.1" }, signal: AbortSignal.timeout(25000) }); if (res.ok) track = parseGpx(await res.text()); } catch { track = null; }
+        if (track) writeFileSync(path, JSON.stringify({ ...track, source: g, fetchedAt: new Date().toISOString().slice(0, 10) }));
+      }
+      if (!track) continue;
+      const tol = Math.max(3, track.km * 0.08);
+      const e = r.elevations.filter((x) => Math.abs(x.km - track!.km) <= tol && !x.gpx).sort((a, b) => Math.abs(a.km - track!.km) - Math.abs(b.km - track!.km))[0];
+      if (!e) continue;
+      const fileYear = (g.match(/20\d{2}/) || [])[0];
+      const stale = fileYear ? Number(fileYear) < raceYear : false;
+      e.gpx = id;
+      if (track.dplus > 0) { e.dplus = track.dplus; e.dplusSource = "gpx"; e.dplusSourceUrl = g; e.dplusCheckedAt = new Date().toISOString().slice(0, 10); e.dplusStale = stale || undefined; e.approx = undefined; }
+      gpxHits++;
+    }
+    if (r.elevations.some((x) => x.gpx) && !r.sources.some((s) => s.name === "GPX")) r.sources.push({ name: "GPX", url: t.gpx[0] });
+  }
+  console.log(`gpx: dopasowane ślady: ${gpxHits}`);
   writeFileSync("data/_konflikty.json", JSON.stringify({ generatedAt: new Date().toISOString(), conflicts }, null, 1));
   return { hits, conflicts };
 }

@@ -3,7 +3,10 @@ import { useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import type { Race } from "@/lib/types";
 import { RaceCard } from "./RaceCard";
+import { RacesMap, type RaceWithGeo } from "./RacesMap";
 import { monthName } from "@/lib/format";
+
+const distKm = (a: [number, number], b: [number, number]) => { const R = 6371, r = (d: number) => (d * Math.PI) / 180; const h = Math.sin(r(b[0] - a[0]) / 2) ** 2 + Math.cos(r(a[0])) * Math.cos(r(b[0])) * Math.sin(r(b[1] - a[1]) / 2) ** 2; return 2 * R * Math.asin(Math.sqrt(h)); };
 
 const DIST = [
   { id: "all", label: "każdy dystans", test: () => true },
@@ -13,7 +16,7 @@ const DIST = [
   { id: "u", label: "ultra (45+ km)", test: (r: Race) => r.maxKm > 45 },
 ];
 
-export function RaceList({ races, regions, today }: { races: Race[]; regions: string[]; today: string }) {
+export function RaceList({ races, regions, today }: { races: RaceWithGeo[]; regions: string[]; today: string }) {
   const sp = useSearchParams();
   const [q, setQ] = useState("");
   const [region, setRegion] = useState("");
@@ -22,6 +25,14 @@ export function RaceList({ races, regions, today }: { races: Race[]; regions: st
   const [surface, setSurface] = useState("");
   const [start, setStart] = useState(sp.get("start") === "1");
   const [past, setPast] = useState(false);
+  const [view, setView] = useState<"lista" | "mapa">("lista");
+  const [me, setMe] = useState<[number, number] | null>(null);
+  const [radius, setRadius] = useState(120);
+  const [geoErr, setGeoErr] = useState("");
+  const locate = () => {
+    if (!navigator.geolocation) { setGeoErr("Przeglądarka nie udostępnia lokalizacji."); return; }
+    navigator.geolocation.getCurrentPosition((p) => { setMe([p.coords.latitude, p.coords.longitude]); setGeoErr(""); }, () => setGeoErr("Brak zgody na lokalizację."), { timeout: 8000 });
+  };
 
   const months = useMemo(() => [...new Set(races.filter((r) => r.dateEnd >= today).map((r) => r.dateStart.slice(0, 7)))].sort(), [races, today]);
   const list = useMemo(() => races.filter((r) =>
@@ -31,8 +42,9 @@ export function RaceList({ races, regions, today }: { races: Race[]; regions: st
     (!month || r.dateStart.startsWith(month)) &&
     DIST.find((d) => d.id === dist)!.test(r) &&
     (!surface || r.surface === surface) &&
-    (!start || r.beginnerScore >= 4)
-  ), [races, q, region, month, dist, surface, start, past, today]);
+    (!start || r.beginnerScore >= 4) &&
+    (!me || (r.lat !== undefined && r.lng !== undefined && distKm(me, [r.lat, r.lng]) <= radius))
+  ).sort((a, b) => me && a.lat !== undefined && b.lat !== undefined ? distKm(me, [a.lat, a.lng!]) - distKm(me, [b.lat, b.lng!]) : 0), [races, q, region, month, dist, surface, start, past, today, me, radius]);
 
   return (
     <div>
@@ -45,10 +57,16 @@ export function RaceList({ races, regions, today }: { races: Race[]; regions: st
         <div className="sm:col-span-3 lg:col-span-6 flex flex-wrap gap-4 text-sm">
           <label className="flex items-center gap-2 cursor-pointer"><input type="checkbox" checked={start} onChange={(e) => setStart(e.target.checked)} /> tylko dobre na start</label>
           <label className="flex items-center gap-2 cursor-pointer"><input type="checkbox" checked={past} onChange={(e) => setPast(e.target.checked)} /> pokaż też minione</label>
-          <span className="ml-auto text-[var(--muted)]">{list.length} biegów</span>
+          {me ? (
+            <span className="flex items-center gap-2">blisko mnie: <select value={radius} onChange={(e) => setRadius(+e.target.value)} className="!py-1">{[50, 120, 200, 400].map((k) => <option key={k} value={k}>do {k} km</option>)}</select> <button className="underline text-[var(--muted)]" onClick={() => setMe(null)}>wyłącz</button></span>
+          ) : <button className="underline" onClick={locate}>blisko mnie</button>}
+          {geoErr && <span className="text-[#a1291c]">{geoErr}</span>}
+          <span className="ml-auto flex items-center gap-3"><span className="text-[var(--muted)]">{list.length} biegów</span>
+            <span className="inline-flex rounded-full border border-[var(--moss)] overflow-hidden text-xs font-semibold">{(["lista", "mapa"] as const).map((v) => <button key={v} onClick={() => setView(v)} className={`px-3 py-1 ${view === v ? "bg-[var(--moss)] text-white" : "text-[var(--moss)]"}`}>{v}</button>)}</span>
+          </span>
         </div>
       </div>
-      {list.length === 0 ? <p className="text-[var(--muted)]">Nic nie pasuje. Poluzuj filtry albo zajrzyj do kreatora.</p> : (
+      {view === "mapa" ? <RacesMap races={list} center={me ?? undefined} /> : list.length === 0 ? <p className="text-[var(--muted)]">Nic nie pasuje. Poluzuj filtry albo zajrzyj do kreatora.</p> : (
         <div className="grid gap-3 sm:grid-cols-2">{list.map((r) => <RaceCard key={r.id} race={r} />)}</div>
       )}
     </div>

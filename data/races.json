@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-10T08:25:20.093Z",
+ "generatedAt": "2026-09-10T08:34:22.905Z",
  "count": 181,
  "races": [
   {
@@ -5073,7 +5073,12 @@
    ],
    "elevations": [
     {
-     "km": 21
+     "km": 21,
+     "dplus": 1947,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://utm.run/wp-content/uploads/static/SZCZEBEL_CUP.gpx",
+     "gpx": "4a8589f7345e",
+     "dplusCheckedAt": "2026-09-10"
     }
    ],
    "vertical": false,
@@ -5085,17 +5090,21 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
+     "name": "GPX",
+     "url": "https://utm.run/wp-content/uploads/static/SZCZEBEL_CUP.gpx"
+    },
+    {
      "name": "regulamin",
      "url": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf"
     }
    ],
    "regulaminUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
    "id": "szczebel-cup-by-ultra-trail-malopolska-2026-09-12",
-   "surface": "trail",
+   "surface": "gorski",
    "minKm": 21,
    "maxKm": 21,
-   "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 21 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerScore": 2,
+   "beginnerWhy": "najkrótszy dystans 21 km (jak półmaraton, ale wolniej); stromo: ok. 93 m na km, dużo marszu pod górę."
   },
   {
    "name": "Róża Wiatrów Jeziora Mausz: Bieg i Nordic Walking 5 km, Bieg i Nordic Walking 10 km, Półmaraton i Nordic Walking 21 km, Maraton 42 km, Ultra Róża Wiatrów 52,5 km",
@@ -5306,13 +5315,28 @@
    ],
    "elevations": [
     {
-     "km": 6
+     "km": 6,
+     "dplus": 318,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/08/XRUN_Vistula_Trail_Start.gpx",
+     "gpx": "16d6fbfd531c",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
-     "km": 15
+     "km": 15,
+     "dplus": 1037,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/08/XRUN_Vistula_Trail_Intro.gpx",
+     "gpx": "a3c57adb8f36",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
-     "km": 24
+     "km": 24,
+     "dplus": 1336,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/08/XRUN_Vistula_Trail_Classic.gpx",
+     "gpx": "617087805737",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
      "km": 35
@@ -5327,17 +5351,21 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
+     "name": "GPX",
+     "url": "https://xrun.pl/wp-content/uploads/2026/08/XRUN_Vistula_Trail_Long_Trail.gpx"
+    },
+    {
      "name": "regulamin",
      "url": "https://xrun.pl/regulamin"
     }
    ],
    "regulaminUrl": "https://xrun.pl/regulamin",
    "id": "x-run-vistula-trail-2026-09-13",
-   "surface": "trail",
+   "surface": "gorski",
    "minKm": 6,
    "maxKm": 35,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 6 km; średnio stromo: ok. 53 m na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
    "name": "IX Biegi Górskie Sanok: 5 km Nordic Walking, Piątka Gajowego – 5 km, Pierwsza Dycha – 10 km, Orli – ok. 26 km, Słonny – 50 km, Dzika Setka – 100 km, Podkarpacki Szlak – 170 km, Ultra Wyrypa – 270 km",
@@ -5879,44 +5907,59 @@
    "elevations": [
     {
      "km": 5,
-     "dplus": 180,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "https://jurarun.pl/trasy/jurarun-ultra-100/",
+     "dplus": 153,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j5h.gpx",
+     "dplusCheckedAt": "2026-09-10",
+     "gpx": "f518534da5ef"
+    },
+    {
+     "km": 10,
+     "dplus": 197,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j10h.gpx",
+     "gpx": "fe93bb7354aa",
      "dplusCheckedAt": "2026-09-10"
     },
     {
-     "km": 10
-    },
-    {
-     "km": 12
+     "km": 12,
+     "dplus": 297,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j12h.gpx",
+     "gpx": "946a8083e362",
+     "dplusCheckedAt": "2026-09-10"
     },
     {
      "km": 23,
-     "dplus": 515,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "https://jurarun.pl/trasy/jurarun-ultra-100/",
-     "dplusCheckedAt": "2026-09-10"
+     "dplus": 393,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j21h.gpx",
+     "dplusCheckedAt": "2026-09-10",
+     "gpx": "cdec575b3f4f"
     },
     {
      "km": 42,
-     "dplus": 763,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "https://jurarun.pl/trasy/jurarun-ultra-100/",
-     "dplusCheckedAt": "2026-09-10"
+     "dplus": 586,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j42h.gpx",
+     "dplusCheckedAt": "2026-09-10",
+     "gpx": "dc7a5c91fcdd"
     },
     {
      "km": 81,
-     "dplus": 1209,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "https://jurarun.pl/trasy/jurarun-ultra-100/",
-     "dplusCheckedAt": "2026-09-10"
+     "dplus": 1094,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j80h.gpx",
+     "dplusCheckedAt": "2026-09-10",
+     "gpx": "695f72b9675c"
     },
     {
      "km": 104,
-     "dplus": 1516,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "https://jurarun.pl/trasy/jurarun-ultra-100/",
-     "dplusCheckedAt": "2026-09-10"
+     "dplus": 1450,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j100h.gpx",
+     "dplusCheckedAt": "2026-09-10",
+     "gpx": "175b992a02fa"
     }
    ],
    "vertical": false,
@@ -5930,6 +5973,10 @@
     {
      "name": "trasa (organizator)",
      "url": "https://jurarun.pl/trasy/jurarun-ultra-100/"
+    },
+    {
+     "name": "GPX",
+     "url": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j100h.gpx"
     },
     {
      "name": "elektronicznezapisy.pl",
@@ -5950,8 +5997,8 @@
    "surface": "trail",
    "minKm": 5,
    "maxKm": 104,
-   "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 5 km; średnio stromo: ok. 36 m na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerScore": 5,
+   "beginnerWhy": "najkrótszy dystans 5 km; łagodnie: ok. 31 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
    "name": "Baran Trail Race BTR: 10 km, 25 km, 59 km, 107 km",
@@ -5968,10 +6015,22 @@
    ],
    "elevations": [
     {
-     "km": 10
+     "km": 10,
+     "dplus": 557,
+     "gpx": "ce107d34005e",
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://baranrace.pl/wp-content/uploads/2025/07/BaranTrailRace10.gpx",
+     "dplusCheckedAt": "2026-09-10",
+     "dplusStale": true
     },
     {
      "km": 25,
+     "dplus": 1235,
+     "gpx": "5421d44db270",
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://baranrace.pl/wp-content/uploads/2025/07/BaranTrailRace25.gpx",
+     "dplusCheckedAt": "2026-09-10",
+     "dplusStale": true,
      "limitH": 5
     },
     {
@@ -5989,17 +6048,21 @@
      "url": "https://www.kingrunner.com/bieg/baran-trail-race-btr-10/4325"
     },
     {
+     "name": "GPX",
+     "url": "https://baranrace.pl/wp-content/uploads/2025/07/BaranTrailRace10.gpx"
+    },
+    {
      "name": "regulamin",
      "url": "https://b4sportonline.pl/users-folder/1253/files/305225445da34133c7f7b1d6d05ecae988bd5.pdf"
     }
    ],
    "regulaminUrl": "https://b4sportonline.pl/users-folder/1253/files/305225445da34133c7f7b1d6d05ecae988bd5.pdf",
    "id": "baran-trail-race-btr-2026-10-02",
-   "surface": "przelaj",
+   "surface": "trail",
    "minKm": 10,
    "maxKm": 107,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 10 km; średnio stromo: ok. 56 m na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
    "name": "XIII Podbieg na Makowicę",
@@ -7820,7 +7883,13 @@
    ],
    "elevations": [
     {
-     "km": 15.5
+     "km": 15.5,
+     "dplus": 647,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://malopolskabiega.com.pl/wp-content/uploads/2026/06/us_lato_15_5km.gpx",
+     "gpx": "72ad52c273e3",
+     "dplusCheckedAt": "2026-09-10",
+     "dplusStale": true
     }
    ],
    "vertical": false,
@@ -7830,6 +7899,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2027/"
+    },
+    {
+     "name": "GPX",
+     "url": "https://100milesofbeskidwyspowy.com/wp-content/uploads/2023/03/30mil-12.03.2023.gpx"
     },
     {
      "name": "regulamin",
@@ -7842,7 +7915,7 @@
    "minKm": 15.5,
    "maxKm": 15.5,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 15.5 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerWhy": "najkrótszy dystans 15.5 km (jak półmaraton, ale wolniej); średnio stromo: ok. 42 m na km."
   },
   {
    "name": "Ultra-Trail Małopolska",
