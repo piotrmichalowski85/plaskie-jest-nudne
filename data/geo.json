@@ -1,7 +1,7 @@
 {
  "kraków": {
-  "lat": 50.0469432,
-  "lng": 19.9971534,
+  "lat": 50.0619474,
+  "lng": 19.9368564,
   "display": "Kraków, województwo małopolskie, Polska",
   "at": "2026-09-10"
  },
@@ -12,8 +12,8 @@
   "at": "2026-09-10"
  },
  "gdynia": {
-  "lat": 54.5164982,
-  "lng": 18.5402738,
+  "lat": 54.5233304,
+  "lng": 18.6040279,
   "display": "Gdynia, województwo pomorskie, Polska",
   "at": "2026-09-10"
  },
@@ -60,9 +60,9 @@
   "at": "2026-09-10"
  },
  "olsztyn": {
-  "lat": 53.776644,
-  "lng": 20.4777531,
-  "display": "Olsztyn, powiat olsztyński, województwo warmińsko-mazurskie",
+  "lat": 50.7494569,
+  "lng": 19.2686901,
+  "display": "Olsztyn, gmina Olsztyn, powiat częstochowski",
   "at": "2026-09-10"
  },
  "bielsko-biała": {
@@ -84,27 +84,27 @@
   "at": "2026-09-10"
  },
  "młyńczyska cisowy dział": {
-  "lat": 49.6180556,
-  "lng": 20.4044444,
+  "lat": 49.6164286,
+  "lng": 20.401983,
   "display": "Cisowy Dział, Młyńczyska, gmina Łukowica",
   "at": "2026-09-10"
  },
  "nowy targ": {
-  "lat": 49.4818229,
-  "lng": 20.030541,
+  "lat": 49.4892092,
+  "lng": 20.0263411,
   "display": "Nowy Targ, powiat nowotarski, województwo małopolskie",
   "at": "2026-09-10"
  },
  "szczyrk": {
-  "lat": 49.7165976,
-  "lng": 19.0254613,
+  "lat": 49.6964912,
+  "lng": 19.0109469,
   "display": "Szczyrk, powiat bielski, województwo śląskie",
   "at": "2026-09-10"
  },
  "janowiec": {
-  "lat": 51.3232858,
-  "lng": 21.890616,
-  "display": "Janowiec, gmina Janowiec, powiat puławski",
+  "lat": 51.245654,
+  "lng": 18.3754726,
+  "display": "Janowiec, gmina Biała, powiat wieluński",
   "at": "2026-09-10"
  },
  "szemud trójmiejski park krajobrazowy": {
@@ -120,8 +120,8 @@
   "at": "2026-09-10"
  },
  "szklarska poręba karpacz": {
-  "lat": 50.8142837,
-  "lng": 15.4544967,
+  "lat": 50.8268011,
+  "lng": 15.5221261,
   "display": "Szklarska Poręba, powiat karkonoski, województwo dolnośląskie",
   "at": "2026-09-10"
  },
@@ -138,8 +138,8 @@
   "at": "2026-09-10"
  },
  "kędzierzyn-koźle": {
-  "lat": 50.345463,
-  "lng": 18.2447945,
+  "lat": 50.3448836,
+  "lng": 18.2109594,
   "display": "Kędzierzyn-Koźle, powiat kędzierzyńsko-kozielski, województwo opolskie",
   "at": "2026-09-10"
  },
@@ -162,9 +162,9 @@
   "at": "2026-09-10"
  },
  "trzebieszowice": {
-  "lat": 50.3464713,
-  "lng": 16.7863779,
-  "display": "Trzebieszowice, gmina Lądek-Zdrój, powiat kłodzki",
+  "lat": 50.3435827,
+  "lng": 16.7766917,
+  "display": "Trzebieszowice, 392, Trzebieszowice",
   "at": "2026-09-10"
  },
  "głuszyca": {
@@ -204,8 +204,8 @@
   "at": "2026-09-10"
  },
  "kudowa": {
-  "lat": 50.4420034,
-  "lng": 16.2416299,
+  "lat": 50.4457857,
+  "lng": 16.2541473,
   "display": "Kudowa-Zdrój, powiat kłodzki, województwo dolnośląskie",
   "at": "2026-09-10"
  },
@@ -246,8 +246,8 @@
   "at": "2026-09-10"
  },
  "elbląg": {
-  "lat": 54.1558708,
-  "lng": 19.4044583,
+  "lat": 54.1988997,
+  "lng": 19.4410857,
   "display": "Elbląg, województwo warmińsko-mazurskie, Polska",
   "at": "2026-09-10"
  },
@@ -270,9 +270,9 @@
   "at": "2026-09-10"
  },
  "myślenice": {
-  "lat": 49.834608,
-  "lng": 19.9384283,
-  "display": "Myślenice, gmina Myślenice, powiat myślenicki",
+  "lat": 49.7750834,
+  "lng": 19.976009,
+  "display": "powiat myślenicki, województwo małopolskie, Polska",
   "at": "2026-09-10"
  },
  "jedlina-zdrój polska": {
@@ -294,14 +294,14 @@
   "at": "2026-09-10"
  },
  "limanowa": {
-  "lat": 49.7149918,
-  "lng": 20.4230742,
-  "display": "Limanowa, powiat limanowski, województwo małopolskie",
+  "lat": 49.6825837,
+  "lng": 20.295996,
+  "display": "powiat limanowski, województwo małopolskie, Polska",
   "at": "2026-09-10"
  },
  "mszana dolna": {
-  "lat": 49.6810782,
-  "lng": 20.0764991,
+  "lat": 49.6779756,
+  "lng": 20.0820073,
   "display": "Mszana Dolna, powiat limanowski, województwo małopolskie",
   "at": "2026-09-10"
  },
@@ -342,9 +342,9 @@
   "at": "2026-09-10"
  },
  "burzyn ciężkowickie pasmo brzanki": {
-  "lat": 53.277754,
-  "lng": 22.45417,
-  "display": "Burzyn, gmina Jedwabne, powiat łomżyński",
+  "lat": 49.8749209,
+  "lng": 21.0614577,
+  "display": "Burzyn, gmina Tuchów, powiat tarnowski",
   "at": "2026-09-10"
  },
  "rogoźnik wyżyna śląska góra św.doroty": {
@@ -402,15 +402,15 @@
   "at": "2026-09-10"
  },
  "międzybrodzie żywieckie": {
-  "lat": 49.7710809,
-  "lng": 19.2196505,
-  "display": "Lotnisko Żar, Beskidzka, Sobusie",
+  "lat": 49.7694519,
+  "lng": 19.2219006,
+  "display": "Międzybrodzie Żywieckie, gmina Czernichów, powiat żywiecki",
   "at": "2026-09-10"
  },
  "laliki": {
-  "lat": 49.5318,
-  "lng": 19.01387,
-  "display": "Laliki, gmina Milówka, powiat żywiecki",
+  "lat": 49.7260115,
+  "lng": 19.4688411,
+  "display": "Laliki, Lachowice, gmina Stryszawa",
   "at": "2026-09-10"
  },
  "świeradów-zdrój": {
@@ -428,13 +428,13 @@
  "nadwarciański gród załęczański park krajobrazowy": {
   "lat": 51.0994399,
   "lng": 18.6617928,
-  "display": "Ośrodek Szkoleniowo-Wypoczynkowy ZHP \"Nadwarciański Gród\", Ścieżka Biegowa Załęcze Wielkie, Załęcze Wielkie",
+  "display": "Ośrodek Szkoleniowo-Wypoczynkowy ZHP \"Nadwarciański Gród\", Ścieżka Biegowa Załęcze Wielkie, Piaski",
   "at": "2026-09-10"
  },
  "ujsoły-złatna": {
-  "lat": 49.5003603,
-  "lng": 19.1530262,
-  "display": "Złatna, Kręcichłosty, Ujsoły",
+  "lat": 49.4950164,
+  "lng": 19.1761308,
+  "display": "Złatna, gmina Ujsoły, powiat żywiecki",
   "at": "2026-09-10"
  },
  "złoty stok": {
@@ -462,9 +462,9 @@
   "at": "2026-09-10"
  },
  "tymbark": {
-  "lat": 49.7293607,
-  "lng": 20.3248972,
-  "display": "Tymbark, gmina Tymbark, powiat limanowski",
+  "lat": 49.7296469,
+  "lng": 20.3123781,
+  "display": "gmina Tymbark, powiat limanowski, województwo małopolskie",
   "at": "2026-09-10"
  },
  "kościelisko": {
@@ -474,15 +474,15 @@
   "at": "2026-09-10"
  },
  "strzyżów strzyżowskie": {
-  "lat": 49.813066,
-  "lng": 21.6542954,
-  "display": "Łęki Strzyżowskie - Podlas, 990, Zalesie",
+  "lat": 49.8206065,
+  "lng": 21.6476791,
+  "display": "Łęki Strzyżowskie - Bartne, 990, Zalesie",
   "at": "2026-09-10"
  },
  "szczawno-zdrój środkowe": {
-  "lat": 51.4388599,
-  "lng": 18.7942608,
-  "display": "Szczawno, gmina Burzenin, powiat sieradzki",
+  "lat": 50.821898,
+  "lng": 16.2852666,
+  "display": "Szczawno, Szczawienko, Wałbrzych",
   "at": "2026-09-10"
  },
  "krościenko nad dunajcem": {
@@ -510,9 +510,9 @@
   "at": "2026-09-10"
  },
  "okraj": {
-  "lat": 50.7468795,
-  "lng": 15.8236749,
-  "display": "Przełęcz Okraj, Kowary, powiat karkonoski",
+  "lat": 50.7484559,
+  "lng": 15.8239046,
+  "display": "Na Przełęczy Okraj, Graniczne Budy, Kowary",
   "at": "2026-09-10"
  },
  "łomnica-zdrój": {
@@ -576,9 +576,9 @@
   "at": "2026-09-10"
  },
  "żor pod czarną górą łapsze niżne": {
-  "lat": 50.0477604,
-  "lng": 18.6880704,
-  "display": "Pod Eskulapem, PU-15, Osiedle 700 Lecia Żor",
+  "lat": 49.4239046,
+  "lng": 19.9738601,
+  "display": "Za Żor, Pod Żarem, Maruszyna",
   "at": "2026-09-10"
  },
  "kielce": {
@@ -588,9 +588,9 @@
   "at": "2026-09-10"
  },
  "wisła": {
-  "lat": 52.380897,
-  "lng": 20.0867774,
-  "display": "Wisła, Polska",
+  "lat": 49.6357259,
+  "lng": 18.9101831,
+  "display": "Wisła, powiat cieszyński, województwo śląskie",
   "at": "2026-09-10"
  },
  "sanok góry słonne": {
@@ -600,9 +600,9 @@
   "at": "2026-09-10"
  },
  "porąbka międzybrodzie bialskie": {
-  "lat": 49.8071892,
-  "lng": 19.2018866,
-  "display": "Zapora Porąbka, Żarnówka Mała, Międzybrodzie Bialskie",
+  "lat": 49.8067869,
+  "lng": 19.2030955,
+  "display": "Elektrownia Wodna Porąbka, Żarnówka Mała, Międzybrodzie Bialskie",
   "at": "2026-09-10"
  },
  "głuchołazy": {
@@ -618,9 +618,9 @@
   "at": "2026-09-10"
  },
  "folusz": {
-  "lat": 54.3277906,
-  "lng": 22.9902476,
-  "display": "Folusz, gmina Rutka-Tartak, powiat suwalski",
+  "lat": 49.6154171,
+  "lng": 21.3790755,
+  "display": "Folusz, gmina Dębowiec, powiat jasielski",
   "at": "2026-09-10"
  },
  "podlesice gmina kroczyce": {
@@ -666,9 +666,9 @@
   "at": "2026-09-10"
  },
  "korczyna": {
-  "lat": 49.7144991,
-  "lng": 21.811188,
-  "display": "Korczyna, gmina Korczyna, powiat krośnieński",
+  "lat": 49.7170858,
+  "lng": 21.2493985,
+  "display": "Korczyna, gmina Biecz, powiat gorlicki",
   "at": "2026-09-10"
  },
  "plac sołecki w jazgarzewie": {
@@ -732,8 +732,8 @@
   "at": "2026-09-10"
  },
  "gdańsk": {
-  "lat": 54.4288032,
-  "lng": 18.798327,
+  "lat": 54.3482907,
+  "lng": 18.6540233,
   "display": "Gdańsk, województwo pomorskie, Polska",
   "at": "2026-09-10"
  },
@@ -744,9 +744,9 @@
   "at": "2026-09-10"
  },
  "ujsoły": {
-  "lat": 49.4824152,
-  "lng": 19.1388455,
-  "display": "Ujsoły, gmina Ujsoły, powiat żywiecki",
+  "lat": 49.4696725,
+  "lng": 19.1576135,
+  "display": "gmina Ujsoły, powiat żywiecki, województwo śląskie",
   "at": "2026-09-10"
  }
 }
