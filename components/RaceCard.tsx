@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Race } from "@/lib/types";
 import { fmtDate, fmtKm, scoreLabel, surfaceLabel, level } from "@/lib/format";
+import { RegionArt } from "./RegionArt";
 
 export function Score({ s }: { s: number }) {
   const l = level(s);
@@ -11,9 +12,10 @@ export function RaceCard({ race }: { race: Race }) {
   const first = race.elevations.find((e) => e.dplus);
   const dplus = first && !first.approx ? first.dplus : undefined;
   return (
-    <Link href={`/bieg/${race.id}`} className="card hover:border-[var(--moss)] transition-colors block">
+    <Link href={`/bieg/${race.id}`} className="card hover:border-[var(--moss)] transition-colors block overflow-hidden">
       <div className="flex items-start justify-between gap-3">
-        <div className="min-w-0">
+        <RegionArt region={race.region} surface={race.surface} className="w-16 h-12 rounded-lg shrink-0" label="" />
+        <div className="min-w-0 flex-1">
           <p className="text-xs font-semibold text-[var(--muted)]">{fmtDate(race.dateStart, race.dateEnd)}</p>
           <h3 className="font-bold leading-snug mt-0.5">{race.eventName}</h3>
           <p className="text-sm text-[var(--muted)] mt-0.5">{race.city}{race.region ? `, ${race.region}` : ""}</p>

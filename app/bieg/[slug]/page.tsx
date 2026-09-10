@@ -10,6 +10,8 @@ import { RaceMap } from "@/components/RaceMap";
 import { ShareButton } from "@/components/ShareButton";
 import { ElevationProfile } from "@/components/ElevationProfile";
 import { loadTrack } from "@/lib/gpxdata";
+import { RegionArt } from "@/components/RegionArt";
+import { IconExternal, IconDoc, IconCalendar, IconPin } from "@/components/Icons";
 
 const srcLabel: Record<string, string> = { gpx: "policzone z GPX", trasa: "wg podstrony Trasa organizatora", organizator: "wg strony organizatora", regulamin: "wg regulaminu", kalendarz: "wg kalendarza" };
 
@@ -43,7 +45,8 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
     <article>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
       <Link href="/biegi" className="text-sm font-semibold text-[var(--moss)]">← kalendarz</Link>
-      <header className="mt-3">
+      <RegionArt region={r.region} surface={r.surface} className="mt-3 w-full h-28 sm:h-36 rounded-2xl border border-[#e3e7e1]" />
+      <header className="mt-4">
         <p className="text-sm font-semibold text-[var(--muted)]">{fmtDate(r.dateStart, r.dateEnd)}{r.region ? ` · ${r.region}` : ""}</p>
         <h1 className="text-3xl sm:text-4xl font-extrabold leading-tight">{r.eventName}</h1>
         {r.name !== r.eventName && <p className="mt-1 text-[var(--muted)]">{r.name}</p>}
@@ -114,21 +117,22 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
 
         {/* wąska kolumna: fakty i akcje */}
         <aside className="space-y-4 md:sticky md:top-20">
+          <div className="card text-sm flex items-start gap-2">
+            <span className="text-[var(--moss)] mt-0.5"><IconPin /></span>
+            <span><span className="font-semibold">{r.city}{r.region ? `, ${r.region}` : ""}</span>{g && <><br /><a className="underline text-[var(--moss)]" href={`https://www.google.com/maps/dir/?api=1&destination=${g.lat},${g.lng}`} target="_blank" rel="noopener">Jak dojechać</a></>}</span>
+          </div>
           {g || mapTrack ? <RaceMap lat={g?.lat ?? mapTrack!.coords[0][1]} lng={g?.lng ?? mapTrack!.coords[0][0]} label={`${r.eventName}, ${r.city}`} track={mapTrack?.coords} /> : <div className="card text-sm text-[var(--muted)]">Mapa: brak współrzędnych dla "{r.city}".</div>}
           {mapTrack && mapTrackEl && <p className="text-xs text-[var(--muted)]">Na mapie: ślad GPX dystansu {fmtKm(mapTrackEl.km)}{mapTrackEl.dplusStale ? " (plik z poprzedniej edycji)" : ""}.</p>}
-          <div className="card text-sm">
-            <p className="font-semibold">{r.city}{r.region ? `, ${r.region}` : ""}</p>
-            {g && <a className="underline text-[var(--moss)]" href={`https://www.google.com/maps/dir/?api=1&destination=${g.lat},${g.lng}`} target="_blank" rel="noopener">Jak dojechać</a>}
-          </div>
           <div className="grid gap-2">
-            {r.url && <a className="btn justify-center" href={r.url} target="_blank" rel="noopener">Strona organizatora / zapisy</a>}
-            {r.regulaminUrl && <a className="btn btn-ghost justify-center" href={r.regulaminUrl} target="_blank" rel="noopener">Regulamin{/\.pdf/i.test(r.regulaminUrl) ? " (PDF)" : ""}</a>}
-            <a className="btn btn-ghost justify-center" href={`/ics/${r.id}`}>Dodaj do kalendarza</a>
+            {r.url && <a className="btn justify-center" href={r.url} target="_blank" rel="noopener"><IconExternal />Strona organizatora / zapisy</a>}
+            {r.regulaminUrl && <a className="btn btn-ghost justify-center" href={r.regulaminUrl} target="_blank" rel="noopener"><IconDoc />Regulamin{/\.pdf/i.test(r.regulaminUrl) ? " (PDF)" : ""}</a>}
+            <a className="btn btn-ghost justify-center" href={`/ics/${r.id}`}><IconCalendar />Dodaj do kalendarza</a>
             <ShareButton title={r.eventName} />
           </div>
         </aside>
       </div>
-      <p className="mt-8 flex flex-wrap items-center gap-3 text-sm"><Link href="/slownik" className="btn btn-ghost">Słownik trailowy: D+, cutoff, sprzęt obowiązkowy</Link><span className="text-xs text-[var(--muted)]">Źródła danych: {r.sources.map((s) => s.name).join(", ")}. Wiążący jest regulamin organizatora.</span></p>
+      <p className="mt-8 text-sm">Nie wiesz, co znaczy D+, cutoff albo sprzęt obowiązkowy? Zajrzyj do <Link href="/slownik" className="underline font-semibold text-[var(--moss)]">słownika trailowego</Link>.</p>
+      <p className="mt-2 text-xs text-[var(--muted)]">Źródła danych: {r.sources.map((s) => s.name).join(", ")}. Wiążący jest regulamin organizatora.</p>
     </article>
   );
 }
