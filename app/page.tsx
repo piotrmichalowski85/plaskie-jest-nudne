@@ -18,7 +18,11 @@ export default function Home() {
             <Link href="/biegi" className="btn btn-ghost">Przeglądaj kalendarz</Link>
           </div>
         </div>
-        <img src="/hero.svg" alt="Góry o poranku i biegacz na grani" className="w-full rounded-2xl shadow-lg border border-[#e3e7e1]" width={1200} height={700} />
+        <div className="relative">
+          <img id="hero-photo" src="/hero/hero-1.jpg" alt="Biegacz na górskim szlaku" className="w-full aspect-[3/2] object-cover rounded-2xl shadow-lg border border-[#e3e7e1]" width={1400} height={933} fetchPriority="high" />
+          {/* losowe zdjęcie z puli 7, ustawiane zanim przeglądarka narysuje obraz (bez migania) */}
+          <script dangerouslySetInnerHTML={{ __html: `(function(){var n=1+Math.floor(Math.random()*7);var e=document.getElementById('hero-photo');if(e&&n!==1)e.src='/hero/hero-'+n+'.jpg';})();` }} />
+        </div>
       </section>
       <section>
         <div className="flex items-baseline justify-between mb-4"><h2 className="text-2xl font-bold">Najbliższe starty</h2><Link href="/biegi" className="text-sm font-semibold text-[var(--moss)]">wszystkie</Link></div>
