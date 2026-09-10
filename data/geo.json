@@ -1,0 +1,752 @@
+{
+ "kraków": {
+  "lat": 50.0469432,
+  "lng": 19.9971534,
+  "display": "Kraków, województwo małopolskie, Polska",
+  "at": "2026-09-10"
+ },
+ "rymanów-zdrój": {
+  "lat": 49.54975,
+  "lng": 21.85129,
+  "display": "Rymanów-Zdrój, gmina Rymanów, powiat krośnieński",
+  "at": "2026-09-10"
+ },
+ "gdynia": {
+  "lat": 54.5164982,
+  "lng": 18.5402738,
+  "display": "Gdynia, województwo pomorskie, Polska",
+  "at": "2026-09-10"
+ },
+ "góra św.anny": {
+  "lat": 50.4558474,
+  "lng": 18.1696309,
+  "display": "Góra Świętej Anny, gmina Leśnica, powiat strzelecki",
+  "at": "2026-09-10"
+ },
+ "sobótka masyw ślęży": {
+  "lat": 50.8541185,
+  "lng": 16.706959,
+  "display": "Masyw Ślęży, Sobótka, gmina Sobótka",
+  "at": "2026-09-10"
+ },
+ "chęciny": {
+  "lat": 50.8000835,
+  "lng": 20.4622228,
+  "display": "Chęciny, gmina Chęciny, powiat kielecki",
+  "at": "2026-09-10"
+ },
+ "góra kamieńsk": {
+  "lat": 51.2078383,
+  "lng": 19.4343087,
+  "display": "Góra Kamieńska, Pytowice, gmina Kamieńsk",
+  "at": "2026-09-10"
+ },
+ "cisna": {
+  "lat": 49.2131799,
+  "lng": 22.3283323,
+  "display": "Cisna, gmina Cisna, powiat leski",
+  "at": "2026-09-10"
+ },
+ "jaworze": {
+  "lat": 49.79248,
+  "lng": 18.94034,
+  "display": "Jaworze, gmina Jaworze, powiat bielski",
+  "at": "2026-09-10"
+ },
+ "jedlina_zdrój góry sowie": {
+  "lat": 50.7327622,
+  "lng": 16.3472135,
+  "display": "Panorama Góry Sowie, Tytusa Chałubińskiego, Suliszów",
+  "at": "2026-09-10"
+ },
+ "olsztyn": {
+  "lat": 53.776644,
+  "lng": 20.4777531,
+  "display": "Olsztyn, powiat olsztyński, województwo warmińsko-mazurskie",
+  "at": "2026-09-10"
+ },
+ "bielsko-biała": {
+  "lat": 49.822118,
+  "lng": 19.0448936,
+  "display": "Bielsko-Biała, województwo śląskie, Polska",
+  "at": "2026-09-10"
+ },
+ "łomnica góry suche": {
+  "lat": 50.6774985,
+  "lng": 16.2781232,
+  "display": "Widok na Góry Suche, Masyw Śnieżnika, Jeseniky",
+  "at": "2026-09-10"
+ },
+ "niedzica spisz": {
+  "lat": 49.4075175,
+  "lng": 20.2998447,
+  "display": "Niedzica, gmina Łapsze Niżne, powiat nowotarski",
+  "at": "2026-09-10"
+ },
+ "młyńczyska cisowy dział": {
+  "lat": 49.6180556,
+  "lng": 20.4044444,
+  "display": "Cisowy Dział, Młyńczyska, gmina Łukowica",
+  "at": "2026-09-10"
+ },
+ "nowy targ": {
+  "lat": 49.4818229,
+  "lng": 20.030541,
+  "display": "Nowy Targ, powiat nowotarski, województwo małopolskie",
+  "at": "2026-09-10"
+ },
+ "szczyrk": {
+  "lat": 49.7165976,
+  "lng": 19.0254613,
+  "display": "Szczyrk, powiat bielski, województwo śląskie",
+  "at": "2026-09-10"
+ },
+ "janowiec": {
+  "lat": 51.3232858,
+  "lng": 21.890616,
+  "display": "Janowiec, gmina Janowiec, powiat puławski",
+  "at": "2026-09-10"
+ },
+ "szemud trójmiejski park krajobrazowy": {
+  "lat": 54.4863129,
+  "lng": 18.2208129,
+  "display": "Szemud, gmina Szemud, powiat wejherowski",
+  "at": "2026-09-10"
+ },
+ "ochotnica górna": {
+  "lat": 49.51295,
+  "lng": 20.24923,
+  "display": "Ochotnica Górna, gmina Ochotnica Dolna, powiat nowotarski",
+  "at": "2026-09-10"
+ },
+ "szklarska poręba karpacz": {
+  "lat": 50.8142837,
+  "lng": 15.4544967,
+  "display": "Szklarska Poręba, powiat karkonoski, województwo dolnośląskie",
+  "at": "2026-09-10"
+ },
+ "iwonicz-zdrój": {
+  "lat": 49.5696688,
+  "lng": 21.7932328,
+  "display": "Iwonicz-Zdrój, gmina Iwonicz-Zdrój, powiat krośnieński",
+  "at": "2026-09-10"
+ },
+ "bardo": {
+  "lat": 50.5068014,
+  "lng": 16.7402729,
+  "display": "Bardo, gmina Bardo, powiat ząbkowicki",
+  "at": "2026-09-10"
+ },
+ "kędzierzyn-koźle": {
+  "lat": 50.345463,
+  "lng": 18.2447945,
+  "display": "Kędzierzyn-Koźle, powiat kędzierzyńsko-kozielski, województwo opolskie",
+  "at": "2026-09-10"
+ },
+ "dobczyce": {
+  "lat": 49.8803432,
+  "lng": 20.0905415,
+  "display": "Dobczyce, gmina Dobczyce, powiat myślenicki",
+  "at": "2026-09-10"
+ },
+ "węgierska górka": {
+  "lat": 49.6088205,
+  "lng": 19.1195861,
+  "display": "Węgierska Górka, gmina Węgierska Górka, powiat żywiecki",
+  "at": "2026-09-10"
+ },
+ "ptaszkowa": {
+  "lat": 49.6013865,
+  "lng": 20.8865863,
+  "display": "Ptaszkowa, gmina Grybów, powiat nowosądecki",
+  "at": "2026-09-10"
+ },
+ "trzebieszowice": {
+  "lat": 50.3464713,
+  "lng": 16.7863779,
+  "display": "Trzebieszowice, gmina Lądek-Zdrój, powiat kłodzki",
+  "at": "2026-09-10"
+ },
+ "głuszyca": {
+  "lat": 50.6850304,
+  "lng": 16.3730344,
+  "display": "Głuszyca, gmina Głuszyca, powiat wałbrzyski",
+  "at": "2026-09-10"
+ },
+ "dubiecko przemysko dynowskie": {
+  "lat": 49.8253187,
+  "lng": 22.3916222,
+  "display": "Dubiecko, gmina Dubiecko, powiat przemyski",
+  "at": "2026-09-10"
+ },
+ "brenna": {
+  "lat": 49.7251074,
+  "lng": 18.9188902,
+  "display": "Brenna, gmina Brenna, powiat cieszyński",
+  "at": "2026-09-10"
+ },
+ "trójkąt sudecki śśś ślęża śnieżka śnieżnik": {
+  "lat": 51.1008365,
+  "lng": 17.0499434,
+  "display": "Trójkąt, Przedmieście Oławskie, Wrocław",
+  "at": "2026-09-10"
+ },
+ "łącko": {
+  "lat": 49.5576697,
+  "lng": 20.4349281,
+  "display": "Łącko, gmina Łącko, powiat nowosądecki",
+  "at": "2026-09-10"
+ },
+ "ciekoty k/kielc": {
+  "lat": 50.9169944,
+  "lng": 20.8033442,
+  "display": "Ciekoty, gmina Masłów, powiat kielecki",
+  "at": "2026-09-10"
+ },
+ "kudowa": {
+  "lat": 50.4420034,
+  "lng": 16.2416299,
+  "display": "Kudowa-Zdrój, powiat kłodzki, województwo dolnośląskie",
+  "at": "2026-09-10"
+ },
+ "skała krakowsko- częstochowska": {
+  "lat": 50.2303769,
+  "lng": 19.853537,
+  "display": "Skała, gmina Skała, powiat krakowski",
+  "at": "2026-09-10"
+ },
+ "ustroń": {
+  "lat": 49.7186488,
+  "lng": 18.8251075,
+  "display": "Ustroń, powiat cieszyński, województwo śląskie",
+  "at": "2026-09-10"
+ },
+ "kraków częstochowa bydlin olsztyn krakowsko- częstochowska": {
+  "lat": 50.13299,
+  "lng": 19.6388877,
+  "display": "Tramwaj 105Na, MPK Częstochowa, Tadeusza Kościuszki",
+  "at": "2026-09-10"
+ },
+ "kazimierz dolny": {
+  "lat": 51.3220058,
+  "lng": 21.947372,
+  "display": "Kazimierz Dolny, gmina Kazimierz Dolny, powiat puławski",
+  "at": "2026-09-10"
+ },
+ "szczawnica beskidy zachodnie": {
+  "lat": 49.4266299,
+  "lng": 20.4761439,
+  "display": "Szczawnica, gmina Szczawnica, powiat nowotarski",
+  "at": "2026-09-10"
+ },
+ "pokrzywna/ głuchołazy": {
+  "lat": 50.285242,
+  "lng": 17.4761765,
+  "display": "Pokrzywna, gmina Głuchołazy, powiat nyski",
+  "at": "2026-09-10"
+ },
+ "elbląg": {
+  "lat": 54.1558708,
+  "lng": 19.4044583,
+  "display": "Elbląg, województwo warmińsko-mazurskie, Polska",
+  "at": "2026-09-10"
+ },
+ "wierchomla mała": {
+  "lat": 49.4294658,
+  "lng": 20.8223074,
+  "display": "Wierchomla Mała, gmina Piwniczna-Zdrój, powiat nowosądecki",
+  "at": "2026-09-10"
+ },
+ "ludwikowice kłodzkie": {
+  "lat": 50.620784,
+  "lng": 16.4741551,
+  "display": "Ludwikowice Kłodzkie, gmina Nowa Ruda, powiat kłodzki",
+  "at": "2026-09-10"
+ },
+ "rabka-zdrój": {
+  "lat": 49.6076663,
+  "lng": 19.9622575,
+  "display": "Rabka-Zdrój, gmina Rabka-Zdrój, powiat nowotarski",
+  "at": "2026-09-10"
+ },
+ "myślenice": {
+  "lat": 49.834608,
+  "lng": 19.9384283,
+  "display": "Myślenice, gmina Myślenice, powiat myślenicki",
+  "at": "2026-09-10"
+ },
+ "jedlina-zdrój polska": {
+  "lat": 50.724228,
+  "lng": 16.337581,
+  "display": "Jedlina-Zdrój, powiat wałbrzyski, województwo dolnośląskie",
+  "at": "2026-09-10"
+ },
+ "miedzianka rudawy": {
+  "lat": 50.8776846,
+  "lng": 15.9440726,
+  "display": "Miedzianka, gmina Janowice Wielkie, powiat karkonoski",
+  "at": "2026-09-10"
+ },
+ "walim": {
+  "lat": 50.6974888,
+  "lng": 16.4411137,
+  "display": "Walim, gmina Walim, powiat wałbrzyski",
+  "at": "2026-09-10"
+ },
+ "limanowa": {
+  "lat": 49.7149918,
+  "lng": 20.4230742,
+  "display": "Limanowa, powiat limanowski, województwo małopolskie",
+  "at": "2026-09-10"
+ },
+ "mszana dolna": {
+  "lat": 49.6810782,
+  "lng": 20.0764991,
+  "display": "Mszana Dolna, powiat limanowski, województwo małopolskie",
+  "at": "2026-09-10"
+ },
+ "szczytna": {
+  "lat": 50.4169281,
+  "lng": 16.4408185,
+  "display": "Szczytna, gmina Szczytna, powiat kłodzki",
+  "at": "2026-09-10"
+ },
+ "międzygórze wschodnie": {
+  "lat": 50.2279399,
+  "lng": 16.7668681,
+  "display": "Międzygórze, gmina Bystrzyca Kłodzka, powiat kłodzki",
+  "at": "2026-09-10"
+ },
+ "rzeszów": {
+  "lat": 50.013319,
+  "lng": 22.0161677,
+  "display": "Rzeszów, województwo podkarpackie, Polska",
+  "at": "2026-09-10"
+ },
+ "stryszów": {
+  "lat": 49.825128,
+  "lng": 19.6261498,
+  "display": "Stryszów, gmina Stryszów, powiat wadowicki",
+  "at": "2026-09-10"
+ },
+ "kozy": {
+  "lat": 49.8462862,
+  "lng": 19.145175,
+  "display": "Kozy, gmina Kozy, powiat bielski",
+  "at": "2026-09-10"
+ },
+ "lipnica wielka": {
+  "lat": 49.4849727,
+  "lng": 19.6292186,
+  "display": "Lipnica Wielka, gmina Lipnica Wielka, powiat nowotarski",
+  "at": "2026-09-10"
+ },
+ "burzyn ciężkowickie pasmo brzanki": {
+  "lat": 53.277754,
+  "lng": 22.45417,
+  "display": "Burzyn, gmina Jedwabne, powiat łomżyński",
+  "at": "2026-09-10"
+ },
+ "rogoźnik wyżyna śląska góra św.doroty": {
+  "lat": 49.4442097,
+  "lng": 19.9425781,
+  "display": "Rogoźnik, gmina Nowy Targ, powiat nowotarski",
+  "at": "2026-09-10"
+ },
+ "zakopane": {
+  "lat": 49.2757934,
+  "lng": 19.9692811,
+  "display": "Zakopane, powiat tatrzański, województwo małopolskie",
+  "at": "2026-09-10"
+ },
+ "suszec": {
+  "lat": 50.0380334,
+  "lng": 18.7883358,
+  "display": "Suszec, gmina Suszec, powiat pszczyński",
+  "at": "2026-09-10"
+ },
+ "zawoja": {
+  "lat": 49.6600228,
+  "lng": 19.5579106,
+  "display": "Zawoja, gmina Zawoja, powiat suski",
+  "at": "2026-09-10"
+ },
+ "czymanowo jezioro żarnowieckie kaszubskie oko": {
+  "lat": 54.7599416,
+  "lng": 18.0576659,
+  "display": "Jezioro Żarnowieckie, Czymanowo, gmina Gniewino",
+  "at": "2026-09-10"
+ },
+ "rytro": {
+  "lat": 49.490202,
+  "lng": 20.6701855,
+  "display": "Rytro, gmina Rytro, powiat nowosądecki",
+  "at": "2026-09-10"
+ },
+ "huwniki przemyskie": {
+  "lat": 49.65584,
+  "lng": 22.7031,
+  "display": "Huwniki, gmina Fredropol, powiat przemyski",
+  "at": "2026-09-10"
+ },
+ "wapienne magurski park narodowy": {
+  "lat": 49.6225986,
+  "lng": 21.2917852,
+  "display": "Wapienne, gmina Sękowa, powiat gorlicki",
+  "at": "2026-09-10"
+ },
+ "krynica-zdrój beskid niski": {
+  "lat": 49.4220113,
+  "lng": 20.9564713,
+  "display": "Centrum Leczenia i Rehabitacji \"Beskid\", Piękna, Krynica-Zdrój",
+  "at": "2026-09-10"
+ },
+ "międzybrodzie żywieckie": {
+  "lat": 49.7710809,
+  "lng": 19.2196505,
+  "display": "Lotnisko Żar, Beskidzka, Sobusie",
+  "at": "2026-09-10"
+ },
+ "laliki": {
+  "lat": 49.5318,
+  "lng": 19.01387,
+  "display": "Laliki, gmina Milówka, powiat żywiecki",
+  "at": "2026-09-10"
+ },
+ "świeradów-zdrój": {
+  "lat": 50.9093388,
+  "lng": 15.3332153,
+  "display": "Świeradów-Zdrój, powiat lubański, województwo dolnośląskie",
+  "at": "2026-09-10"
+ },
+ "karłów": {
+  "lat": 50.4755803,
+  "lng": 16.3388069,
+  "display": "Karłów, gmina Radków, powiat kłodzki",
+  "at": "2026-09-10"
+ },
+ "nadwarciański gród załęczański park krajobrazowy": {
+  "lat": 51.0994399,
+  "lng": 18.6617928,
+  "display": "Ośrodek Szkoleniowo-Wypoczynkowy ZHP \"Nadwarciański Gród\", Ścieżka Biegowa Załęcze Wielkie, Załęcze Wielkie",
+  "at": "2026-09-10"
+ },
+ "ujsoły-złatna": {
+  "lat": 49.5003603,
+  "lng": 19.1530262,
+  "display": "Złatna, Kręcichłosty, Ujsoły",
+  "at": "2026-09-10"
+ },
+ "złoty stok": {
+  "lat": 50.4429267,
+  "lng": 16.8746559,
+  "display": "Złoty Stok, gmina Złoty Stok, powiat ząbkowicki",
+  "at": "2026-09-10"
+ },
+ "górki wielkie": {
+  "lat": 49.7721682,
+  "lng": 18.8525357,
+  "display": "Górki Wielkie, gmina Brenna, powiat cieszyński",
+  "at": "2026-09-10"
+ },
+ "lądek zdrój sedety": {
+  "lat": 50.3458254,
+  "lng": 16.8725948,
+  "display": "Lądek-Zdrój, gmina Lądek-Zdrój, powiat kłodzki",
+  "at": "2026-09-10"
+ },
+ "tolkmicko wysoczyzna elbląska": {
+  "lat": 54.3201802,
+  "lng": 19.5270187,
+  "display": "Tolkmicko, gmina Tolkmicko, powiat elbląski",
+  "at": "2026-09-10"
+ },
+ "tymbark": {
+  "lat": 49.7293607,
+  "lng": 20.3248972,
+  "display": "Tymbark, gmina Tymbark, powiat limanowski",
+  "at": "2026-09-10"
+ },
+ "kościelisko": {
+  "lat": 49.2907179,
+  "lng": 19.8885727,
+  "display": "Kościelisko, gmina Kościelisko, powiat tatrzański",
+  "at": "2026-09-10"
+ },
+ "strzyżów strzyżowskie": {
+  "lat": 49.813066,
+  "lng": 21.6542954,
+  "display": "Łęki Strzyżowskie - Podlas, 990, Zalesie",
+  "at": "2026-09-10"
+ },
+ "szczawno-zdrój środkowe": {
+  "lat": 51.4388599,
+  "lng": 18.7942608,
+  "display": "Szczawno, gmina Burzenin, powiat sieradzki",
+  "at": "2026-09-10"
+ },
+ "krościenko nad dunajcem": {
+  "lat": 49.445684,
+  "lng": 20.4289427,
+  "display": "Krościenko nad Dunajcem, gmina Krościenko nad Dunajcem, powiat nowotarski",
+  "at": "2026-09-10"
+ },
+ "ochotnica dolna": {
+  "lat": 49.5255655,
+  "lng": 20.3202148,
+  "display": "Ochotnica Dolna, gmina Ochotnica Dolna, powiat nowotarski",
+  "at": "2026-09-10"
+ },
+ "rajcza-ujsoły": {
+  "lat": 49.4889342,
+  "lng": 19.096243,
+  "display": "TSR Rajcza \"Góra Hutyrów\", Ujsolska, Janoty",
+  "at": "2026-09-10"
+ },
+ "niedamirów": {
+  "lat": 50.6901912,
+  "lng": 15.8795171,
+  "display": "Niedamirów, gmina Lubawka, powiat kamiennogórski",
+  "at": "2026-09-10"
+ },
+ "okraj": {
+  "lat": 50.7468795,
+  "lng": 15.8236749,
+  "display": "Przełęcz Okraj, Kowary, powiat karkonoski",
+  "at": "2026-09-10"
+ },
+ "łomnica-zdrój": {
+  "lat": 49.4417544,
+  "lng": 20.7466397,
+  "display": "Łomnica-Zdrój, gmina Piwniczna-Zdrój, powiat nowosądecki",
+  "at": "2026-09-10"
+ },
+ "wieruszów woj.łódzkie": {
+  "lat": 51.2951647,
+  "lng": 18.1510623,
+  "display": "Wieruszów, gmina Wieruszów, powiat wieruszowski",
+  "at": "2026-09-10"
+ },
+ "jakuszyce": {
+  "lat": 50.8167267,
+  "lng": 15.4315515,
+  "display": "Jakuszyce, Szklarska Poręba, powiat karkonoski",
+  "at": "2026-09-10"
+ },
+ "marciszó zachodnie": {
+  "lat": 50.8516702,
+  "lng": 16.008639,
+  "display": "Marciszów, gmina Marciszów, powiat kamiennogórski",
+  "at": "2026-09-10"
+ },
+ "kletno": {
+  "lat": 50.2607363,
+  "lng": 16.8637347,
+  "display": "Kletno, gmina Stronie Śląskie, powiat kłodzki",
+  "at": "2026-09-10"
+ },
+ "ptaszkowa góry grybowskie": {
+  "lat": 49.6013865,
+  "lng": 20.8865863,
+  "display": "Ptaszkowa, gmina Grybów, powiat nowosądecki",
+  "at": "2026-09-10"
+ },
+ "młyńczyska": {
+  "lat": 49.6259936,
+  "lng": 20.4095368,
+  "display": "Młyńczyska, gmina Łukowica, powiat limanowski",
+  "at": "2026-09-10"
+ },
+ "szczawnica": {
+  "lat": 49.4266299,
+  "lng": 20.4761439,
+  "display": "Szczawnica, gmina Szczawnica, powiat nowotarski",
+  "at": "2026-09-10"
+ },
+ "radków": {
+  "lat": 50.5042182,
+  "lng": 16.401351,
+  "display": "Radków, gmina Radków, powiat kłodzki",
+  "at": "2026-09-10"
+ },
+ "kłodno powiat kartuski": {
+  "lat": 54.2072543,
+  "lng": 17.7435198,
+  "display": "Kłodno, gmina Sulęczyno, powiat kartuski",
+  "at": "2026-09-10"
+ },
+ "żor pod czarną górą łapsze niżne": {
+  "lat": 50.0477604,
+  "lng": 18.6880704,
+  "display": "Pod Eskulapem, PU-15, Osiedle 700 Lecia Żor",
+  "at": "2026-09-10"
+ },
+ "kielce": {
+  "lat": 50.8540285,
+  "lng": 20.6099157,
+  "display": "Kielce, powiat kielecki, województwo świętokrzyskie",
+  "at": "2026-09-10"
+ },
+ "wisła": {
+  "lat": 52.380897,
+  "lng": 20.0867774,
+  "display": "Wisła, Polska",
+  "at": "2026-09-10"
+ },
+ "sanok góry słonne": {
+  "lat": 49.5522652,
+  "lng": 22.2063961,
+  "display": "Szklana Góra, Sanok, powiat sanocki",
+  "at": "2026-09-10"
+ },
+ "porąbka międzybrodzie bialskie": {
+  "lat": 49.8071892,
+  "lng": 19.2018866,
+  "display": "Zapora Porąbka, Żarnówka Mała, Międzybrodzie Bialskie",
+  "at": "2026-09-10"
+ },
+ "głuchołazy": {
+  "lat": 50.3170828,
+  "lng": 17.3833809,
+  "display": "Głuchołazy, gmina Głuchołazy, powiat nyski",
+  "at": "2026-09-10"
+ },
+ "piwniczna-zdrój": {
+  "lat": 49.4406462,
+  "lng": 20.7142303,
+  "display": "Piwniczna-Zdrój, gmina Piwniczna-Zdrój, powiat nowosądecki",
+  "at": "2026-09-10"
+ },
+ "folusz": {
+  "lat": 54.3277906,
+  "lng": 22.9902476,
+  "display": "Folusz, gmina Rutka-Tartak, powiat suwalski",
+  "at": "2026-09-10"
+ },
+ "podlesice gmina kroczyce": {
+  "lat": 50.5647678,
+  "lng": 19.534455,
+  "display": "Podlesice, gmina Kroczyce, powiat zawierciański",
+  "at": "2026-09-10"
+ },
+ "gołkowice dolne": {
+  "lat": 49.547596,
+  "lng": 20.5840652,
+  "display": "Gołkowice Dolne, gmina Stary Sącz, powiat nowosądecki",
+  "at": "2026-09-10"
+ },
+ "supraśl podlasie": {
+  "lat": 53.2100391,
+  "lng": 23.3360728,
+  "display": "Supraśl, gmina Supraśl, powiat białostocki",
+  "at": "2026-09-10"
+ },
+ "żegiestó zdrój": {
+  "lat": 49.3604297,
+  "lng": 20.8105205,
+  "display": "Żegiestów-Zdrój, Żegiestów, gmina Muszyna",
+  "at": "2026-09-10"
+ },
+ "szklarska poręba kotlina jeleniogórska": {
+  "lat": 50.8142837,
+  "lng": 15.4544967,
+  "display": "Szklarska Poręba, powiat karkonoski, województwo dolnośląskie",
+  "at": "2026-09-10"
+ },
+ "walim środkowe": {
+  "lat": 50.6974888,
+  "lng": 16.4411137,
+  "display": "Walim, gmina Walim, powiat wałbrzyski",
+  "at": "2026-09-10"
+ },
+ "józefów roztoczański": {
+  "lat": 50.5168424,
+  "lng": 23.040519,
+  "display": "Józefów Roztoczański, gmina Józefów, powiat biłgorajski",
+  "at": "2026-09-10"
+ },
+ "korczyna": {
+  "lat": 49.7144991,
+  "lng": 21.811188,
+  "display": "Korczyna, gmina Korczyna, powiat krośnieński",
+  "at": "2026-09-10"
+ },
+ "plac sołecki w jazgarzewie": {
+  "lat": 53.1266429,
+  "lng": 17.8366794,
+  "display": "Plac Sołecki, Łochowo, gmina Białe Błota",
+  "at": "2026-09-10"
+ },
+ "krynica-zdrój": {
+  "lat": 49.4206138,
+  "lng": 20.9594176,
+  "display": "Krynica-Zdrój, gmina Krynica-Zdrój, powiat nowosądecki",
+  "at": "2026-09-10"
+ },
+ "barłomino luzino": {
+  "lat": 54.53678,
+  "lng": 18.09629,
+  "display": "Barłomino, gmina Luzino, powiat wejherowski",
+  "at": "2026-09-10"
+ },
+ "komańcza": {
+  "lat": 49.336141,
+  "lng": 22.0697551,
+  "display": "Komańcza, gmina Komańcza, powiat sanocki",
+  "at": "2026-09-10"
+ },
+ "pieszyce": {
+  "lat": 50.7124412,
+  "lng": 16.581609,
+  "display": "Pieszyce, gmina Pieszyce, powiat dzierżoniowski",
+  "at": "2026-09-10"
+ },
+ "brandysówka dolinki podkrakowskie": {
+  "lat": 49.5430595,
+  "lng": 20.0048541,
+  "display": "Brandysówka, Obidowa, gmina Nowy Targ",
+  "at": "2026-09-10"
+ },
+ "rzyki k/andrychowa": {
+  "lat": 49.8153209,
+  "lng": 19.3884447,
+  "display": "Rzyki, gmina Andrychów, powiat wadowicki",
+  "at": "2026-09-10"
+ },
+ "radocyna": {
+  "lat": 49.4470543,
+  "lng": 21.3727062,
+  "display": "Radocyna, gmina Sękowa, powiat gorlicki",
+  "at": "2026-09-10"
+ },
+ "przełęcz lądecka lądek-zdrój": {
+  "lat": 50.369901,
+  "lng": 16.9189403,
+  "display": "Przełęcz Lądecka, Droga Karpowska, Lądek-Zdrój",
+  "at": "2026-09-10"
+ },
+ "sokolec": {
+  "lat": 50.6543708,
+  "lng": 16.4731325,
+  "display": "Sokolec, gmina Nowa Ruda, powiat kłodzki",
+  "at": "2026-09-10"
+ },
+ "gdańsk": {
+  "lat": 54.4288032,
+  "lng": 18.798327,
+  "display": "Gdańsk, województwo pomorskie, Polska",
+  "at": "2026-09-10"
+ },
+ "suszec woj.śląskie": {
+  "lat": 50.0380334,
+  "lng": 18.7883358,
+  "display": "Suszec, gmina Suszec, powiat pszczyński",
+  "at": "2026-09-10"
+ },
+ "ujsoły": {
+  "lat": 49.4824152,
+  "lng": 19.1388455,
+  "display": "Ujsoły, gmina Ujsoły, powiat żywiecki",
+  "at": "2026-09-10"
+ }
+}

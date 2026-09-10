@@ -146,3 +146,13 @@ export function cleanCity(place: string): string {
   const town = parts.find((x) => !venue.test(x));
   return (town || parts[parts.length - 1] || place).replace(/\s+/g, " ");
 }
+
+/** Poziom trudności pojedynczego dystansu (do kropki przy każdym dystansie). */
+export function distanceLevel(e: { km: number; dplus?: number }): "good" | "ok" | "bad" {
+  if (isVertical(e)) return "bad";
+  const grad = e.dplus ? e.dplus / e.km : undefined;
+  let s = 3;
+  if (e.km <= 12) s += 1; else if (e.km <= 22) s += 0; else if (e.km <= 35) s -= 1; else s -= 2;
+  if (grad !== undefined) { if (grad <= 35) s += 1; else if (grad > 60) s -= 1; }
+  return s >= 4 ? "good" : s === 3 ? "ok" : "bad";
+}
