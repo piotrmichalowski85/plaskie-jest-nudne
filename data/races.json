@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-10T08:34:22.905Z",
+ "generatedAt": "2026-09-10T12:45:47.205Z",
  "count": 181,
  "races": [
   {
@@ -5179,13 +5179,30 @@
      "dplusCheckedAt": "2026-09-10"
     },
     {
-     "km": 20
+     "km": 20,
+     "dplus": 487,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Pyzdra-20-km.gpx",
+     "dplusCheckedAt": "2026-09-10",
+     "dplusStale": true,
+     "gpx": "7ea021f186a9"
     },
     {
-     "km": 40
+     "km": 40,
+     "dplus": 1204,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Kwicol-40-km.gpx",
+     "dplusCheckedAt": "2026-09-10",
+     "dplusStale": true,
+     "gpx": "e82bd411475a"
     },
     {
-     "km": 75
+     "km": 75,
+     "dplus": 3249,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2026-Legenda-75-km.gpx",
+     "dplusCheckedAt": "2026-09-10",
+     "gpx": "ce757376282b"
     }
    ],
    "vertical": false,
@@ -5199,6 +5216,10 @@
     {
      "name": "trasa (organizator)",
      "url": "https://janosikraceseries.com/roztoczeultrarace/trasy-new/"
+    },
+    {
+     "name": "GPX",
+     "url": "https://janosikraceseries.com/gpx/UJ-2026-Legenda-75-km.gpx"
     },
     {
      "name": "regulamin",
@@ -5406,18 +5427,10 @@
     },
     {
      "km": 170,
-     "dplus": 5900,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "https://www.biegigorskiesanok.pl/biegi/piatkagajowego/",
-     "dplusCheckedAt": "2026-09-10",
      "limitH": 40
     },
     {
-     "km": 270,
-     "dplus": 9400,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "https://www.biegigorskiesanok.pl/biegi/piatkagajowego/",
-     "dplusCheckedAt": "2026-09-10"
+     "km": 270
     }
    ],
    "vertical": false,
@@ -5427,10 +5440,6 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
-    },
-    {
-     "name": "trasa (organizator)",
-     "url": "https://www.biegigorskiesanok.pl/biegi/piatkagajowego/"
     },
     {
      "name": "regulamin",
@@ -5906,28 +5915,13 @@
    ],
    "elevations": [
     {
-     "km": 5,
-     "dplus": 153,
-     "dplusSource": "gpx",
-     "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j5h.gpx",
-     "dplusCheckedAt": "2026-09-10",
-     "gpx": "f518534da5ef"
+     "km": 5
     },
     {
-     "km": 10,
-     "dplus": 197,
-     "dplusSource": "gpx",
-     "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j10h.gpx",
-     "gpx": "fe93bb7354aa",
-     "dplusCheckedAt": "2026-09-10"
+     "km": 10
     },
     {
-     "km": 12,
-     "dplus": 297,
-     "dplusSource": "gpx",
-     "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j12h.gpx",
-     "gpx": "946a8083e362",
-     "dplusCheckedAt": "2026-09-10"
+     "km": 12
     },
     {
      "km": 23,
@@ -5997,8 +5991,8 @@
    "surface": "trail",
    "minKm": 5,
    "maxKm": 104,
-   "beginnerScore": 5,
-   "beginnerWhy": "najkrótszy dystans 5 km; łagodnie: ok. 31 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
    "name": "Baran Trail Race BTR: 10 km, 25 km, 59 km, 107 km",
@@ -6257,25 +6251,13 @@
    ],
    "elevations": [
     {
-     "km": 12,
-     "dplus": 596,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "https://www.maratonbieszczadzki.pl/zimowy-maraton-bieszczadzki-zimb/",
-     "dplusCheckedAt": "2026-09-10"
+     "km": 12
     },
     {
-     "km": 26,
-     "dplus": 1120,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "https://www.maratonbieszczadzki.pl/zimowy-maraton-bieszczadzki-zimb/",
-     "dplusCheckedAt": "2026-09-10"
+     "km": 26
     },
     {
-     "km": 52,
-     "dplus": 2250,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "https://www.maratonbieszczadzki.pl/zimowy-maraton-bieszczadzki-zimb/",
-     "dplusCheckedAt": "2026-09-10"
+     "km": 52
     },
     {
      "km": 100,
@@ -6312,7 +6294,7 @@
    "minKm": 12,
    "maxKm": 100,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 12 km; średnio stromo: ok. 50 m na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 12 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
    "name": "UltraKotlina: 140 / 100 / 80 / 50 / 34 / 15, UltraKotlina Sztafety - 142km (5541 m. up.)",
@@ -6458,14 +6440,16 @@
      "dplusCheckedAt": "2026-09-10"
     },
     {
-     "km": 21
+     "km": 21,
+     "dplus": 487,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Pyzdra-20-km.gpx",
+     "dplusCheckedAt": "2026-09-10",
+     "dplusStale": true,
+     "gpx": "7ea021f186a9"
     },
     {
-     "km": 37,
-     "dplus": 450,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "https://janosikraceseries.com/roztoczeultrarace/trasy-new/",
-     "dplusCheckedAt": "2026-09-10"
+     "km": 37
     },
     {
      "km": 60
@@ -6485,6 +6469,10 @@
     {
      "name": "trasa (organizator)",
      "url": "https://janosikraceseries.com/roztoczeultrarace/trasy-new/"
+    },
+    {
+     "name": "GPX",
+     "url": "https://janosikraceseries.com/gpx/UJ-2026-Legenda-75-km.gpx"
     },
     {
      "name": "regulamin",
@@ -6684,10 +6672,6 @@
     },
     {
      "km": 11,
-     "dplus": 300,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "https://pomeraniatrail.pl/trasa/put100/",
-     "dplusCheckedAt": "2026-09-10",
      "limitH": 2
     },
     {
@@ -6931,7 +6915,13 @@
      "dplusCheckedAt": "2026-09-10"
     },
     {
-     "km": 21
+     "km": 21,
+     "dplus": 487,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Pyzdra-20-km.gpx",
+     "dplusCheckedAt": "2026-09-10",
+     "dplusStale": true,
+     "gpx": "7ea021f186a9"
     },
     {
      "km": 30
@@ -6951,6 +6941,10 @@
     {
      "name": "trasa (organizator)",
      "url": "https://janosikraceseries.com/roztoczeultrarace/trasy-new/"
+    },
+    {
+     "name": "GPX",
+     "url": "https://janosikraceseries.com/gpx/UJ-2026-Legenda-75-km.gpx"
     },
     {
      "name": "regulamin",

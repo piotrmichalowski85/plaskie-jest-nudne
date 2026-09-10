@@ -262,7 +262,7 @@ async function trasy(raws: Raw[]): Promise<{ hits: number; conflicts: string[] }
       const cur = e.dplusSource ? rank[e.dplusSource] : 0;
       if (e.dplus && cur >= rank.trasa) continue;
       if (e.dplus && Math.abs(e.dplus - f.dplus) / e.dplus > 0.15) conflicts.push(`${r.eventName} ${e.km} km: ${e.dplusSource} ${e.dplus} m vs trasa ${f.dplus} m (${t.url})`);
-      e.dplus = f.dplus; e.dplusSource = "trasa"; e.dplusSourceUrl = t.url; e.dplusCheckedAt = t.checkedAt.slice(0, 10); e.dplusStale = stale || undefined; e.approx = undefined;
+      e.dplus = f.dplus; e.dplusSource = "trasa"; e.dplusSourceUrl = t.url; e.dplusCheckedAt = t.checkedAt.slice(0, 10); e.dplusStale = stale || undefined; e.approx = undefined; if (f.note) e.note = f.note;
       changed = true;
     }
     if (changed) { hits++; if (!r.sources.some((s) => s.name === "trasa (organizator)")) r.sources.push({ name: "trasa (organizator)", url: t.url! }); }

@@ -5,7 +5,7 @@ import { allRaces, raceById, today } from "@/lib/data";
 import { fmtDate, fmtKm, scoreLabel, surfaceLabel, level, levelLabel } from "@/lib/format";
 import { isVertical, distanceLevel } from "@/lib/normalize";
 import { geoFor } from "@/lib/geo";
-import { Score, RaceCard } from "@/components/RaceCard";
+import { Score } from "@/components/RaceCard";
 import { RaceMap } from "@/components/RaceMap";
 import { ShareButton } from "@/components/ShareButton";
 import { ElevationProfile } from "@/components/ElevationProfile";
@@ -47,6 +47,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
         <p className="text-sm font-semibold text-[var(--muted)]">{fmtDate(r.dateStart, r.dateEnd)}{r.region ? ` · ${r.region}` : ""}</p>
         <h1 className="text-3xl sm:text-4xl font-extrabold leading-tight">{r.eventName}</h1>
         {r.name !== r.eventName && <p className="mt-1 text-[var(--muted)]">{r.name}</p>}
+        <p className="mt-2 flex flex-wrap gap-1.5"><span className="chip">{surfaceLabel[r.surface]}</span>{r.vertical && <span className="chip">vertical</span>}{r.category && <span className="chip">Liga Biegów Górskich {r.category.split(" ")[0]}</span>}{r.signupOpen && <span className="chip chip-sun">zapisy otwarte{r.participants ? `, ${r.participants} os.` : ""}</span>}</p>
       </header>
 
       <div className="mt-6 grid gap-6 md:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] items-start">
@@ -66,8 +67,9 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
                   <li key={e.km} className="card py-3 flex items-start justify-between gap-3">
                     <span className="flex items-center gap-2 font-semibold whitespace-nowrap"><span className={`lvl ${lvlDot[l]} !px-1.5`} title={levelLabel[l]}><span className="dot" /></span>{fmtKm(e.km)}{isVertical(e) ? <span className="chip">vertical</span> : null}</span>
                     <span className="text-[var(--muted)] text-right text-sm">
-                      {e.dplus ? `+${e.dplus} m` : "przewyższenie nieznane (organizator nie podał; sprawdź na stronie biegu lub w regulaminie)"}{e.limitH ? `, limit ${e.limitH} h` : ""}
-                      {e.dplus && e.dplusSource && e.dplusSource !== "kalendarz" ? <span className="block text-xs">{e.dplusSourceUrl ? <a className="underline" href={e.dplusSourceUrl} target="_blank" rel="noopener">{srcLabel[e.dplusSource]}</a> : srcLabel[e.dplusSource]}{e.dplusCheckedAt ? `, spr. ${e.dplusCheckedAt.slice(8, 10)}.${e.dplusCheckedAt.slice(5, 7)}` : ""}{e.dplusStale ? ", uwaga: strona opisuje inną edycję" : ""}</span> : null}
+                      <span title={e.dplusSource ? srcLabel[e.dplusSource] + (e.dplusCheckedAt ? `, sprawdzono ${e.dplusCheckedAt}` : "") : undefined}>{e.dplus ? `+${e.dplus} m` : "przewyższenie nieznane"}</span>{e.limitH ? `, limit ${e.limitH} h` : ""}
+                      {e.note ? <span className="block text-xs">{e.note}</span> : null}
+                      {e.dplusStale ? <span className="block text-xs">dane z poprzedniej edycji</span> : null}
                     </span>
                   </li>
                 );
@@ -99,7 +101,13 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
           {sim.length > 0 && (
             <section>
               <h2 className="font-bold mb-2">Podobne biegi w okolicy terminu</h2>
-              <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{sim.map((x) => <RaceCard key={x.id} race={x} />)}</div>
+              <ul className="card divide-y divide-[#e3e7e1] p-0">{sim.map((x) => (
+                <li key={x.id}><Link href={`/bieg/${x.id}`} className="flex items-center gap-4 px-4 py-3 hover:bg-[#f2f5f1]">
+                  <span className="w-24 shrink-0 text-xs font-semibold text-[var(--muted)]">{fmtDate(x.dateStart, x.dateEnd)}</span>
+                  <span className="min-w-0 flex-1"><span className="block font-semibold truncate">{x.eventName}</span><span className="block text-xs text-[var(--muted)] truncate">{x.city}{x.region ? `, ${x.region}` : ""} · {x.distancesKm.length > 3 ? `${fmtKm(x.minKm)} - ${fmtKm(x.maxKm)}` : x.distancesKm.map(fmtKm).join(" / ")}</span></span>
+                  <span className="shrink-0"><Score s={x.beginnerScore} /></span>
+                </Link></li>
+              ))}</ul>
             </section>
           )}
         </div>
@@ -118,16 +126,9 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
             <a className="btn btn-ghost justify-center" href={`/ics/${r.id}`}>Dodaj do kalendarza</a>
             <ShareButton title={r.eventName} />
           </div>
-          <div className="card text-sm space-y-1">
-            <p><span className="chip">{surfaceLabel[r.surface]}</span> {r.vertical && <span className="chip">vertical</span>}</p>
-            {r.category && <p>Liga Biegów Górskich: {r.category.split(" ")[0]}</p>}
-            {r.signupOpen && <p className="font-semibold text-[#1f6b33]">Zapisy otwarte{r.participants ? `, ${r.participants} os. na liście` : ""}</p>}
-            <p className="text-xs text-[var(--muted)] pt-1">Źródła: {r.sources.map((s) => <a key={s.name + s.url} className="underline mr-2" href={s.url} target="_blank" rel="noopener">{s.name}</a>)}</p>
-            <p className="text-xs text-[var(--muted)]">Dane mogą się zmienić, wiążący jest regulamin organizatora.</p>
-          </div>
         </aside>
       </div>
-      <p className="mt-8 text-sm"><Link href="/slownik" className="underline">Słownik trailowy</Link>: D+, cutoff, sprzęt obowiązkowy i inne pojęcia.</p>
+      <p className="mt-8 flex flex-wrap items-center gap-3 text-sm"><Link href="/slownik" className="btn btn-ghost">Słownik trailowy: D+, cutoff, sprzęt obowiązkowy</Link><span className="text-xs text-[var(--muted)]">Źródła danych: {r.sources.map((s) => s.name).join(", ")}. Wiążący jest regulamin organizatora.</span></p>
     </article>
   );
 }

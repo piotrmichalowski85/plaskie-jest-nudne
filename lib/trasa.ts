@@ -1,7 +1,7 @@
 import * as cheerio from "cheerio";
 import { fetchAny } from "./deep";
 
-export type TrasaFound = { km: number; dplus: number };
+export type TrasaFound = { km: number; dplus: number; note?: string };
 export type TrasaResult = { url?: string; found: TrasaFound[]; years: number[]; checkedAt: string; gpx?: string[] };
 
 const UA = "Mozilla/5.0 (compatible; plaskiejestnudne-bot/0.1; +https://plaskiejestnudne.pl/o-serwisie)";
@@ -45,6 +45,17 @@ export function trasaLinks(base: string, $: cheerio.CheerioAPI): string[] {
     }
   });
   return out.slice(0, 3);
+}
+
+/** Etapówka / challenge: "(79 km + 59 km + 25 km) o sumie przewyższeń +5350 m" -> suma km, suma D+, lista etapów */
+export function extractStageSum(text: string): TrasaFound | null {
+  const t = text.replace(/\s+/g, " ");
+  const m = t.match(/((?:\d{1,3}(?:[.,]\d)?\s*km\s*\+\s*){1,6}\d{1,3}(?:[.,]\d)?\s*km)[^.]{0,60}?(?:sum\w*\s+)?przewyższe\w*\s*\+?\s?(\d[\d\s]{2,5})\s*m/i);
+  if (!m) return null;
+  const stages = [...m[1].matchAll(/(\d{1,3}(?:[.,]\d)?)\s*km/g)].map((x) => parseFloat(x[1].replace(",", ".")));
+  const km = stages.reduce((a, b) => a + b, 0), dplus = parseInt(m[2].replace(/\s/g, ""), 10);
+  if (stages.length < 2 || km < 20 || dplus < 100) return null;
+  return { km, dplus, note: `${stages.length} etapy: ${stages.join(" + ")} km` };
 }
 
 /** Linki z menu, których tekst zawiera dystans ("Orli 25 km", "PUT 100 Km", "JuraRun ULTRA 42+", "40 KM Long Trail"). */
@@ -93,25 +104,26 @@ export async function findTrasa(startUrl: string, raceKms: number[] = []): Promi
   const gpx = new Set(gpxLinks(startUrl, page.$));
   const collectGpx = async (u: string, $?: cheerio.CheerioAPI) => { if ($) for (const g of gpxLinks(u, $)) gpx.add(g); };
   const years = (t: string) => [...new Set((t.match(/\b20\d{2}\b/g) || []).map(Number))].filter((y) => y >= 2020 && y <= 2030);
+  const covered = (km: number) => res.found.some((f) => Math.abs(f.km - km) <= Math.max(3, km * 0.06));
   // 1) podstrona "Trasa" (najpewniejsza: dotyczy tej imprezy)
   for (const u of trasaLinks(startUrl, page.$)) {
     const p = await fetchAny(u); if (!p) continue;
     await collectGpx(u, p.$);
     const found = extractTrasa(p.text);
-    if (found.length) { res.url = u; res.found = found; res.years = years(p.text); res.gpx = [...gpx]; return res; }
+    if (found.length) { res.url = u; res.found = found; res.years = years(p.text); break; }
   }
-  // 2) podstrony per dystans z menu (D+ z każdej, km z tekstu linku)
-  const dl = distanceLinks(startUrl, page.$);
-  if (dl.length) {
-    const found: TrasaFound[] = [];
-    for (const l of dl) {
-      const p = await fetchAny(l.url); if (!p) continue;
-      await collectGpx(l.url, p.$);
-      const d = extractDplusOnly(p.text);
-      if (d && !found.some((x) => Math.abs(x.km - l.km) < 0.5)) found.push({ km: l.km, dplus: d });
-    }
-    if (found.length) { res.url = dl[0].url; res.found = found.sort((a, b) => a.km - b.km); res.years = years(page.text); res.gpx = [...gpx]; return res; }
+  // 2) podstrony per dystans z menu: dokładają dystanse, których nie było na podstronie Trasa (np. Challenge = suma etapów)
+  const dl = distanceLinks(startUrl, page.$).filter((l) => !covered(l.km) && !/faq|regulamin|wyniki/i.test(l.url)).slice(0, 4);
+  for (const l of dl) {
+    const p = await fetchAny(l.url); if (!p) continue;
+    await collectGpx(l.url, p.$);
+    const stage = extractStageSum(p.text);
+    if (stage && Math.abs(stage.km - l.km) <= Math.max(5, l.km * 0.08)) { if (!covered(l.km)) res.found.push({ km: l.km, dplus: stage.dplus, note: stage.note }); continue; }
+    const d = extractDplusOnly(p.text);
+    if (d && !covered(l.km)) res.found.push({ km: l.km, dplus: d });
+    if (!res.url) { res.url = l.url; res.years = years(page.text); }
   }
+  if (res.found.length) { res.found.sort((a, b) => a.km - b.km); res.gpx = [...gpx]; return res; }
   // 3) strona główna, tylko gdy liczba trafień nie przekracza liczby dystansów imprezy + 2 (inaczej to lista wielu imprez, np. seria)
   const home = extractTrasa(page.text);
   if (home.length && (!raceKms.length || home.length <= raceKms.length + 2)) { res.url = startUrl; res.found = home; res.years = years(page.text); }

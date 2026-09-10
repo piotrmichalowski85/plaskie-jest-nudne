@@ -17,6 +17,7 @@ export type Race = {
     dplusSource?: "gpx" | "trasa" | "organizator" | "regulamin" | "kalendarz"; // drabina źródeł: gpx > trasa > organizator > regulamin > kalendarz
     dplusSourceUrl?: string; dplusCheckedAt?: string; dplusStale?: boolean; // stale = strona źródła opisuje inną edycję (inny rok)
     gpx?: string; // id pliku data/gpx/<id>.json (ślad + profil)
+    note?: string; // np. "3 etapy: 79 + 59 + 25 km" (challenge/etapówka)
   }[]; // approx = D+ zebrane ze strony organizatora, przypisane do najdłuższego dystansu
   vertical: boolean;
   category?: string; // np. Kat.I (liga biegigorskie)
