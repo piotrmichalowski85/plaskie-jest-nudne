@@ -12,7 +12,7 @@ export default function Home() {
         <div>
           <p className="chip chip-sun mb-3">kalendarz biegów górskich i trail w Polsce</p>
           <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-[var(--moss-dark)]">Płaskie jest nudne ;)</h1>
-          <p className="mt-3 text-lg max-w-2xl">Po płaskim biegasz na czas. W górach biegasz na widok. Zamiast asfaltu masz korzenie, błoto i ścieżkę, która co chwilę zmienia zdanie. Tempo przestaje mieć znaczenie, liczy się to, że jesteś wyżej niż wczoraj. Na podbiegu wolno iść, na szczycie wolno stanąć, na zbiegu wolno się bać. A meta w górach smakuje inaczej niż każda inna.</p>
+          <p className="mt-3 text-lg max-w-2xl">Po płaskim biegasz na czas. W górach biegasz na widok. Zamiast asfaltu masz korzenie, błoto i ścieżkę, która co chwilę zmienia kierunek. Tempo przestaje mieć znaczenie, liczy się to, że jesteś wyżej niż wczoraj. Na podbiegu wolno iść, na szczycie wolno stanąć, na zbiegu wolno się bać, na punktach wolno jeść. A meta w górach smakuje inaczej niż każda inna.</p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Link href="/kreator" className="btn">Wybierz swój pierwszy bieg</Link>
             <Link href="/biegi" className="btn btn-ghost">Przeglądaj kalendarz</Link>
