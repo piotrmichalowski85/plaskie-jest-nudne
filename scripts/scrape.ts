@@ -323,8 +323,13 @@ function finalize(raws: Raw[]): Race[] {
   // drugi przebieg: ta sama pierwsza znacząca nazwa + miesiąc i (to samo miasto albo wspólny dystans) = ta sama impreza
   const merged2: Raw[] = [];
   const firstWord = (r: Raw) => (eventCore(r.eventName).split("-")[0] || slugify(r.eventName).slice(0, 8)) + "|" + r.dateStart.slice(0, 7);
+  const shared = (a: Raw, b: Raw) => a.distancesKm.filter((x) => b.distancesKm.some((y) => Math.abs(x - y) < 0.6)).length;
+  const daysApart = (a: Raw, b: Raw) => Math.min(Math.abs(Date.parse(a.dateStart) - Date.parse(b.dateStart)), Math.abs(Date.parse(a.dateEnd) - Date.parse(b.dateEnd))) / 86400000;
+  const w1 = (r: Raw) => eventCore(r.eventName).split("-")[0] || "";
+  // "Łemko Trail" vs "Łemkowyna Ultra-Trail": jedno słowo jest przedrostkiem drugiego, wspólne dystanse, ten sam weekend
+  const prefixKin = (a: Raw, b: Raw) => { const x = w1(a), y = w1(b); return x.length >= 4 && y.length >= 4 && (x.startsWith(y) || y.startsWith(x)) && shared(a, b) >= 2 && daysApart(a, b) <= 3; };
   for (const r of byKey.values()) {
-    const cand = merged2.find((m) => firstWord(m) === firstWord(r) && (slugify(m.city).split("-")[0] === slugify(r.city).split("-")[0] || (eventCore(m.eventName) === eventCore(r.eventName) && m.distancesKm.some((a) => r.distancesKm.some((b) => Math.abs(a - b) < 0.6)))));
+    const cand = merged2.find((m) => (firstWord(m) === firstWord(r) && (slugify(m.city).split("-")[0] === slugify(r.city).split("-")[0] || (eventCore(m.eventName) === eventCore(r.eventName) && shared(m, r) >= 1))) || prefixKin(m, r));
     if (!cand) { merged2.push(r); continue; }
     const rich = cand.distancesKm.length >= r.distancesKm.length ? cand : r, poor = rich === cand ? r : cand;
     for (const e of poor.elevations) { const x = rich.elevations.find((y) => Math.abs(y.km - e.km) < 0.6); if (x) { x.dplus ??= e.dplus; x.limitH ??= e.limitH; } }

@@ -2896,5 +2896,36 @@
   "visited": 4,
   "gearSource": "llm",
   "gearAt": "2026-09-09T17:15:16.070Z"
+ },
+ "https://looprun.pl/": {
+  "organizerUrl": "https://rajdbeskidy.pl/",
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-11T14:54:23.377Z",
+  "visited": 2
+ },
+ "https://time-sport.pl/zapisy-20-09-2026-iv-wilczy-ped-na-trojmorski-wierch/": {
+  "regulaminUrl": "https://dostartu.pl/statute_files/15940_pl.pdf",
+  "distances": [
+   {
+    "km": 3.5
+   },
+   {
+    "km": 7.2
+   },
+   {
+    "km": 10.6
+   }
+  ],
+  "limits": [
+   {
+    "km": 10.6,
+    "limitH": 2
+   }
+  ],
+  "gear": [],
+  "fetchedAt": "2026-09-11T14:54:19.962Z",
+  "visited": 4
  }
 }

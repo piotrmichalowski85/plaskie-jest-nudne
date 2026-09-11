@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-10T12:47:23.921Z",
- "count": 181,
+ "generatedAt": "2026-09-11T14:54:23.533Z",
+ "count": 182,
  "races": [
   {
    "name": "Grand Prix Krakowa w biegach górskich",
@@ -5091,7 +5091,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://utm.run/wp-content/uploads/static/SZCZEBEL_CUP.gpx",
      "gpx": "4a8589f7345e",
-     "dplusCheckedAt": "2026-09-10"
+     "dplusCheckedAt": "2026-09-11"
     }
    ],
    "vertical": false,
@@ -5196,7 +5196,7 @@
      "dplus": 487,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Pyzdra-20-km.gpx",
-     "dplusCheckedAt": "2026-09-10",
+     "dplusCheckedAt": "2026-09-11",
      "dplusStale": true,
      "gpx": "7ea021f186a9"
     },
@@ -5205,7 +5205,7 @@
      "dplus": 1204,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Kwicol-40-km.gpx",
-     "dplusCheckedAt": "2026-09-10",
+     "dplusCheckedAt": "2026-09-11",
      "dplusStale": true,
      "gpx": "e82bd411475a"
     },
@@ -5214,7 +5214,7 @@
      "dplus": 3249,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2026-Legenda-75-km.gpx",
-     "dplusCheckedAt": "2026-09-10",
+     "dplusCheckedAt": "2026-09-11",
      "gpx": "ce757376282b"
     }
    ],
@@ -5354,7 +5354,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/08/XRUN_Vistula_Trail_Start.gpx",
      "gpx": "16d6fbfd531c",
-     "dplusCheckedAt": "2026-09-10"
+     "dplusCheckedAt": "2026-09-11"
     },
     {
      "km": 15,
@@ -5362,7 +5362,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/08/XRUN_Vistula_Trail_Intro.gpx",
      "gpx": "a3c57adb8f36",
-     "dplusCheckedAt": "2026-09-10"
+     "dplusCheckedAt": "2026-09-11"
     },
     {
      "km": 24,
@@ -5370,7 +5370,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/08/XRUN_Vistula_Trail_Classic.gpx",
      "gpx": "617087805737",
-     "dplusCheckedAt": "2026-09-10"
+     "dplusCheckedAt": "2026-09-11"
     },
     {
      "km": 35
@@ -5734,6 +5734,52 @@
    "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
+   "name": "IV WILCZY PĘD NA TRÓJMORSKI WIERCH",
+   "eventName": "IV WILCZY PĘD NA TRÓJMORSKI WIERCH",
+   "dateStart": "2026-09-20",
+   "dateEnd": "2026-09-20",
+   "city": "Jodłów Gmina Międzylesie",
+   "region": "Góry Bystrzyckie",
+   "distancesKm": [
+    10.6
+   ],
+   "elevations": [
+    {
+     "km": 10.6,
+     "dplus": 367,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://time-sport.pl/wp-content/uploads/gpx/WilczyPed_trasa.gpx",
+     "gpx": "6e4effa530b7",
+     "dplusCheckedAt": "2026-09-11",
+     "limitH": 2
+    }
+   ],
+   "vertical": false,
+   "category": "Kat.II",
+   "url": "https://time-sport.pl/zapisy-20-09-2026-iv-wilczy-ped-na-trojmorski-wierch/",
+   "sources": [
+    {
+     "name": "biegigorskie.pl",
+     "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "GPX",
+     "url": "https://time-sport.pl/wp-content/uploads/gpx/WilczyPed_trasa.gpx"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://dostartu.pl/statute_files/15940_pl.pdf"
+    }
+   ],
+   "regulaminUrl": "https://dostartu.pl/statute_files/15940_pl.pdf",
+   "id": "iv-wilczy-ped-na-trojmorski-wierch-2026-09-20",
+   "surface": "trail",
+   "minKm": 10.6,
+   "maxKm": 10.6,
+   "beginnerScore": 5,
+   "beginnerWhy": "najkrótszy dystans 10.6 km; łagodnie: ok. 35 m przewyższenia na km."
+  },
+  {
    "name": "Bieg Burego Źwiyrza - 22km: Mały Źwiyrz - 3.5km",
    "eventName": "Bieg Burego Źwiyrza",
    "dateStart": "2026-09-26",
@@ -5941,7 +5987,7 @@
      "dplus": 393,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j21h.gpx",
-     "dplusCheckedAt": "2026-09-10",
+     "dplusCheckedAt": "2026-09-11",
      "gpx": "cdec575b3f4f"
     },
     {
@@ -5949,7 +5995,7 @@
      "dplus": 586,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j42h.gpx",
-     "dplusCheckedAt": "2026-09-10",
+     "dplusCheckedAt": "2026-09-11",
      "gpx": "dc7a5c91fcdd"
     },
     {
@@ -5957,7 +6003,7 @@
      "dplus": 1094,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j80h.gpx",
-     "dplusCheckedAt": "2026-09-10",
+     "dplusCheckedAt": "2026-09-11",
      "gpx": "695f72b9675c"
     },
     {
@@ -5965,7 +6011,7 @@
      "dplus": 1450,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j100h.gpx",
-     "dplusCheckedAt": "2026-09-10",
+     "dplusCheckedAt": "2026-09-11",
      "gpx": "175b992a02fa"
     }
    ],
@@ -5999,7 +6045,7 @@
     }
    ],
    "signupOpen": true,
-   "participants": 234,
+   "participants": 238,
    "id": "festiwal-biegowy-jurarun-2026-10-02",
    "surface": "trail",
    "minKm": 5,
@@ -6027,7 +6073,7 @@
      "gpx": "ce107d34005e",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/uploads/2025/07/BaranTrailRace10.gpx",
-     "dplusCheckedAt": "2026-09-10",
+     "dplusCheckedAt": "2026-09-11",
      "dplusStale": true
     },
     {
@@ -6036,7 +6082,7 @@
      "gpx": "5421d44db270",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/uploads/2025/07/BaranTrailRace25.gpx",
-     "dplusCheckedAt": "2026-09-10",
+     "dplusCheckedAt": "2026-09-11",
      "dplusStale": true,
      "limitH": 5
     },
@@ -6457,7 +6503,7 @@
      "dplus": 487,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Pyzdra-20-km.gpx",
-     "dplusCheckedAt": "2026-09-10",
+     "dplusCheckedAt": "2026-09-11",
      "dplusStale": true,
      "gpx": "7ea021f186a9"
     },
@@ -6786,67 +6832,6 @@
    "beginnerWhy": "najkrótszy dystans 9.2 km; przewyższenie nieznane, sprawdź profil trasy."
   },
   {
-   "name": "Łemko Trail: 10 km, 30 km, 48 km",
-   "eventName": "Łemko Trail",
-   "dateStart": "2026-10-17",
-   "dateEnd": "2026-10-18",
-   "city": "Komańcza",
-   "region": "",
-   "distancesKm": [
-    10,
-    30,
-    48
-   ],
-   "elevations": [
-    {
-     "km": 10,
-     "dplus": 200,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "http://www.ultralemkowyna.pl/trasy",
-     "limitH": 2,
-     "dplusCheckedAt": "2026-09-10"
-    },
-    {
-     "km": 30,
-     "dplus": 740,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "http://www.ultralemkowyna.pl/trasy",
-     "limitH": 5,
-     "dplusCheckedAt": "2026-09-10"
-    },
-    {
-     "km": 48,
-     "dplus": 1400,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "http://www.ultralemkowyna.pl/trasy",
-     "limitH": 8,
-     "dplusCheckedAt": "2026-09-10"
-    }
-   ],
-   "vertical": false,
-   "url": "http://www.ultralemkowyna.pl",
-   "sources": [
-    {
-     "name": "kingrunner.com",
-     "url": "https://www.kingrunner.com/bieg/lemko-trail-10/4119"
-    },
-    {
-     "name": "strona organizatora",
-     "url": "http://www.ultralemkowyna.pl"
-    },
-    {
-     "name": "trasa (organizator)",
-     "url": "http://www.ultralemkowyna.pl/trasy"
-    }
-   ],
-   "id": "lemko-trail-2026-10-17",
-   "surface": "trail",
-   "minKm": 10,
-   "maxKm": 48,
-   "beginnerScore": 5,
-   "beginnerWhy": "najkrótszy dystans 10 km; łagodnie: ok. 20 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
-  },
-  {
    "name": "Sowiogórski Festiwal Biegowy: Don Jon, Czarny Rycerz, Mroczny Śpiewak, Stara Jodła, Ostoja Nietoperza",
    "eventName": "Sowiogórski Festiwal Biegowy",
    "dateStart": "2026-10-24",
@@ -6932,7 +6917,7 @@
      "dplus": 487,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Pyzdra-20-km.gpx",
-     "dplusCheckedAt": "2026-09-10",
+     "dplusCheckedAt": "2026-09-11",
      "dplusStale": true,
      "gpx": "7ea021f186a9"
     },
@@ -7914,7 +7899,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://malopolskabiega.com.pl/wp-content/uploads/2026/06/us_lato_15_5km.gpx",
      "gpx": "72ad52c273e3",
-     "dplusCheckedAt": "2026-09-10",
+     "dplusCheckedAt": "2026-09-11",
      "dplusStale": true
     }
    ],
@@ -8165,6 +8150,57 @@
    "maxKm": 27,
    "beginnerScore": 4,
    "beginnerWhy": "najkrótszy dystans 9 km; przewyższenie nieznane, sprawdź profil trasy."
+  },
+  {
+   "name": "The Loop Run: - Full Loop - 225,7 km +/-11164 m, - Half Loop - 103,6 km +4938/-5118 m, - Quarter Loop - 47,8 km +2211/-2539 m, - Trail Loop 30 - 31 km +/-1493 m, - Klimczok Loop 15 - 15,6 km +/-758 m, - Vertical Loop - 4,4 km +589 m",
+   "eventName": "The Loop Run",
+   "dateStart": "2027-08-19",
+   "dateEnd": "2027-08-22",
+   "city": "Bielsko-Biała",
+   "region": "Beskidy",
+   "distancesKm": [
+    4.4,
+    15,
+    31,
+    47.8,
+    103.6,
+    225.7
+   ],
+   "elevations": [
+    {
+     "km": 4.4
+    },
+    {
+     "km": 15
+    },
+    {
+     "km": 31
+    },
+    {
+     "km": 47.8
+    },
+    {
+     "km": 103.6
+    },
+    {
+     "km": 225.7
+    }
+   ],
+   "vertical": false,
+   "category": "Kat.II",
+   "url": "https://looprun.pl/",
+   "sources": [
+    {
+     "name": "biegigorskie.pl",
+     "url": "https://www.biegigorskie.pl/kalendarz-2027/"
+    }
+   ],
+   "id": "the-loop-run-2027-08-19",
+   "surface": "gorski",
+   "minKm": 4.4,
+   "maxKm": 225.7,
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 4.4 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   }
  ]
 }
