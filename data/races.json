@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-11T14:54:23.533Z",
- "count": 182,
+ "generatedAt": "2026-09-14T09:52:45.421Z",
+ "count": 181,
  "races": [
   {
    "name": "Grand Prix Krakowa w biegach górskich",
@@ -5051,10 +5051,6 @@
     {
      "name": "regulamin",
      "url": "https://ultrarace.pl/radkow/regulamin-radkow/"
-    },
-    {
-     "name": "kingrunner.com",
-     "url": "https://www.kingrunner.com/bieg/garmin-ultra-race-radkow---gur11/4221"
     }
    ],
    "regulaminUrl": "https://ultrarace.pl/radkow/regulamin-radkow/",
@@ -5091,7 +5087,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://utm.run/wp-content/uploads/static/SZCZEBEL_CUP.gpx",
      "gpx": "4a8589f7345e",
-     "dplusCheckedAt": "2026-09-11"
+     "dplusCheckedAt": "2026-09-14"
     }
    ],
    "vertical": false,
@@ -5151,6 +5147,7 @@
     }
    ],
    "vertical": false,
+   "category": "x",
    "url": "https://b4sportonline.pl/roza_wiatrow/",
    "sources": [
     {
@@ -5196,7 +5193,7 @@
      "dplus": 487,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Pyzdra-20-km.gpx",
-     "dplusCheckedAt": "2026-09-11",
+     "dplusCheckedAt": "2026-09-14",
      "dplusStale": true,
      "gpx": "7ea021f186a9"
     },
@@ -5205,7 +5202,7 @@
      "dplus": 1204,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Kwicol-40-km.gpx",
-     "dplusCheckedAt": "2026-09-11",
+     "dplusCheckedAt": "2026-09-14",
      "dplusStale": true,
      "gpx": "e82bd411475a"
     },
@@ -5214,7 +5211,7 @@
      "dplus": 3249,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2026-Legenda-75-km.gpx",
-     "dplusCheckedAt": "2026-09-11",
+     "dplusCheckedAt": "2026-09-14",
      "gpx": "ce757376282b"
     }
    ],
@@ -5237,10 +5234,6 @@
     {
      "name": "regulamin",
      "url": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/"
-    },
-    {
-     "name": "kingrunner.com",
-     "url": "https://www.kingrunner.com/bieg/janosik-ultra-race---maryna-%E2%80%93-10-km/4290"
     }
    ],
    "regulaminUrl": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/",
@@ -5290,51 +5283,6 @@
    "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
-   "name": "12. Kielecki Bieg Górski Biesak Trail",
-   "eventName": "12. Kielecki Bieg Górski Biesak Trail",
-   "dateStart": "2026-09-12",
-   "dateEnd": "2026-09-12",
-   "city": "Kielce",
-   "region": "",
-   "distancesKm": [
-    16,
-    26
-   ],
-   "elevations": [
-    {
-     "km": 16,
-     "limitH": 2.5
-    },
-    {
-     "km": 26,
-     "limitH": 5
-    }
-   ],
-   "vertical": false,
-   "url": "https://liveds.datasport.pl/zawody_files/zawody11477.html",
-   "sources": [
-    {
-     "name": "elektronicznezapisy.pl",
-     "url": "https://elektronicznezapisy.pl/62/bieg-gorski.html"
-    },
-    {
-     "name": "regulamin",
-     "url": "https://online.datasport.pl/zapisy/portal/regulaminy/regulamin_11477.pdf"
-    }
-   ],
-   "signupOpen": true,
-   "regulaminUrl": "https://online.datasport.pl/zapisy/portal/regulaminy/regulamin_11477.pdf",
-   "gear": [
-    "naładowany telefon z numerem organizatora"
-   ],
-   "id": "12-kielecki-bieg-gorski-biesak-trail-2026-09-12",
-   "surface": "gorski",
-   "minKm": 16,
-   "maxKm": 26,
-   "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 16 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
-  },
-  {
    "name": "X-RUN Vistula Trail",
    "eventName": "X-RUN Vistula Trail",
    "dateStart": "2026-09-13",
@@ -5354,7 +5302,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/08/XRUN_Vistula_Trail_Start.gpx",
      "gpx": "16d6fbfd531c",
-     "dplusCheckedAt": "2026-09-11"
+     "dplusCheckedAt": "2026-09-14"
     },
     {
      "km": 15,
@@ -5362,7 +5310,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/08/XRUN_Vistula_Trail_Intro.gpx",
      "gpx": "a3c57adb8f36",
-     "dplusCheckedAt": "2026-09-11"
+     "dplusCheckedAt": "2026-09-14"
     },
     {
      "km": 24,
@@ -5370,7 +5318,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/08/XRUN_Vistula_Trail_Classic.gpx",
      "gpx": "617087805737",
-     "dplusCheckedAt": "2026-09-11"
+     "dplusCheckedAt": "2026-09-14"
     },
     {
      "km": 35
@@ -5750,7 +5698,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://time-sport.pl/wp-content/uploads/gpx/WilczyPed_trasa.gpx",
      "gpx": "6e4effa530b7",
-     "dplusCheckedAt": "2026-09-11",
+     "dplusCheckedAt": "2026-09-14",
      "limitH": 2
     }
    ],
@@ -5987,7 +5935,7 @@
      "dplus": 393,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j21h.gpx",
-     "dplusCheckedAt": "2026-09-11",
+     "dplusCheckedAt": "2026-09-14",
      "gpx": "cdec575b3f4f"
     },
     {
@@ -5995,7 +5943,7 @@
      "dplus": 586,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j42h.gpx",
-     "dplusCheckedAt": "2026-09-11",
+     "dplusCheckedAt": "2026-09-14",
      "gpx": "dc7a5c91fcdd"
     },
     {
@@ -6003,7 +5951,7 @@
      "dplus": 1094,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j80h.gpx",
-     "dplusCheckedAt": "2026-09-11",
+     "dplusCheckedAt": "2026-09-14",
      "gpx": "695f72b9675c"
     },
     {
@@ -6011,7 +5959,7 @@
      "dplus": 1450,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j100h.gpx",
-     "dplusCheckedAt": "2026-09-11",
+     "dplusCheckedAt": "2026-09-14",
      "gpx": "175b992a02fa"
     }
    ],
@@ -6045,7 +5993,7 @@
     }
    ],
    "signupOpen": true,
-   "participants": 238,
+   "participants": 247,
    "id": "festiwal-biegowy-jurarun-2026-10-02",
    "surface": "trail",
    "minKm": 5,
@@ -6073,7 +6021,7 @@
      "gpx": "ce107d34005e",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/uploads/2025/07/BaranTrailRace10.gpx",
-     "dplusCheckedAt": "2026-09-11",
+     "dplusCheckedAt": "2026-09-14",
      "dplusStale": true
     },
     {
@@ -6082,7 +6030,7 @@
      "gpx": "5421d44db270",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/uploads/2025/07/BaranTrailRace25.gpx",
-     "dplusCheckedAt": "2026-09-11",
+     "dplusCheckedAt": "2026-09-14",
      "dplusStale": true,
      "limitH": 5
     },
@@ -6503,7 +6451,7 @@
      "dplus": 487,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Pyzdra-20-km.gpx",
-     "dplusCheckedAt": "2026-09-11",
+     "dplusCheckedAt": "2026-09-14",
      "dplusStale": true,
      "gpx": "7ea021f186a9"
     },
@@ -6623,94 +6571,6 @@
    "beginnerWhy": "najkrótszy dystans 11 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
-   "name": "Łemkowyna Ultra-Trail",
-   "eventName": "Łemkowyna Ultra-Trail",
-   "dateStart": "2026-10-16",
-   "dateEnd": "2026-10-18",
-   "city": "Krynica-Zdrój",
-   "region": "Beskid Niski",
-   "distancesKm": [
-    10,
-    30,
-    48,
-    70,
-    102,
-    150
-   ],
-   "elevations": [
-    {
-     "km": 10,
-     "dplus": 200,
-     "limitH": 2,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "https://ultralemkowyna.pl/trasy",
-     "dplusCheckedAt": "2026-09-10"
-    },
-    {
-     "km": 30,
-     "dplus": 740,
-     "limitH": 5,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "https://ultralemkowyna.pl/trasy",
-     "dplusCheckedAt": "2026-09-10"
-    },
-    {
-     "km": 48,
-     "dplus": 1400,
-     "limitH": 8,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "https://ultralemkowyna.pl/trasy",
-     "dplusCheckedAt": "2026-09-10"
-    },
-    {
-     "km": 70,
-     "dplus": 2520,
-     "limitH": 13,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "https://ultralemkowyna.pl/trasy",
-     "dplusCheckedAt": "2026-09-10"
-    },
-    {
-     "km": 102,
-     "dplus": 3300,
-     "limitH": 22,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "https://ultralemkowyna.pl/trasy",
-     "dplusCheckedAt": "2026-09-10"
-    },
-    {
-     "km": 150,
-     "dplus": 5860,
-     "limitH": 35,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "https://ultralemkowyna.pl/trasy",
-     "dplusCheckedAt": "2026-09-10"
-    }
-   ],
-   "vertical": false,
-   "url": "https://ultralemkowyna.pl/",
-   "sources": [
-    {
-     "name": "strona organizatora",
-     "url": "https://ultralemkowyna.pl/"
-    },
-    {
-     "name": "trasa (organizator)",
-     "url": "https://ultralemkowyna.pl/trasy"
-    },
-    {
-     "name": "kingrunner.com",
-     "url": "https://www.kingrunner.com/bieg/lemkowyna-trail-70/4116"
-    }
-   ],
-   "id": "lemkowyna-ultra-trail-2026-10-16",
-   "surface": "trail",
-   "minKm": 10,
-   "maxKm": 150,
-   "beginnerScore": 5,
-   "beginnerWhy": "najkrótszy dystans 10 km; łagodnie: ok. 20 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
-  },
-  {
    "name": "Coconaut Pomerania ULTRA Trail",
    "eventName": "Coconaut Pomerania ULTRA Trail",
    "dateStart": "2026-10-17",
@@ -6730,40 +6590,35 @@
      "km": 1
     },
     {
-     "km": 11,
-     "limitH": 2
+     "km": 11
     },
     {
      "km": 21,
      "dplus": 600,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://pomeraniatrail.pl/trasa/put100/",
-     "dplusCheckedAt": "2026-09-10",
-     "limitH": 4
+     "dplusCheckedAt": "2026-09-10"
     },
     {
      "km": 42,
      "dplus": 1300,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://pomeraniatrail.pl/trasa/put100/",
-     "dplusCheckedAt": "2026-09-10",
-     "limitH": 8.5
+     "dplusCheckedAt": "2026-09-10"
     },
     {
      "km": 65,
      "dplus": 1750,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://pomeraniatrail.pl/trasa/put100/",
-     "dplusCheckedAt": "2026-09-10",
-     "limitH": 12
+     "dplusCheckedAt": "2026-09-10"
     },
     {
      "km": 100,
      "dplus": 2450,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://pomeraniatrail.pl/trasa/put100/",
-     "dplusCheckedAt": "2026-09-10",
-     "limitH": 16
+     "dplusCheckedAt": "2026-09-10"
     }
    ],
    "vertical": false,
@@ -6776,13 +6631,8 @@
     {
      "name": "trasa (organizator)",
      "url": "https://pomeraniatrail.pl/trasa/put100/"
-    },
-    {
-     "name": "regulamin",
-     "url": "https://pomeraniatrail.pl/wp-content/uploads/2025/11/REGULAMIN-COCONAUT-POMERANIA-ULTRA-TRAIL-2026.pdf"
     }
    ],
-   "regulaminUrl": "https://pomeraniatrail.pl/wp-content/uploads/2025/11/REGULAMIN-COCONAUT-POMERANIA-ULTRA-TRAIL-2026.pdf",
    "gear": [
     "dowód osobisty lub paszport",
     "latarka czołowa (od 65 km)",
@@ -6830,6 +6680,95 @@
    "maxKm": 9.2,
    "beginnerScore": 4,
    "beginnerWhy": "najkrótszy dystans 9.2 km; przewyższenie nieznane, sprawdź profil trasy."
+  },
+  {
+   "name": "Łemko Trail: 10 km, 10 km, 10 km, 10 km, 10 km, 10 km, 10 km, 10 km, 30 km, 48 km",
+   "eventName": "Łemko Trail",
+   "dateStart": "2026-10-17",
+   "dateEnd": "2026-10-18",
+   "city": "Komańcza",
+   "region": "Beskid Niski",
+   "distancesKm": [
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    30,
+    48
+   ],
+   "elevations": [
+    {
+     "km": 10,
+     "dplus": 200,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "http://www.ultralemkowyna.pl/trasy",
+     "limitH": 2,
+     "dplusCheckedAt": "2026-09-10"
+    },
+    {
+     "km": 10
+    },
+    {
+     "km": 10
+    },
+    {
+     "km": 10
+    },
+    {
+     "km": 10
+    },
+    {
+     "km": 10
+    },
+    {
+     "km": 10
+    },
+    {
+     "km": 10
+    },
+    {
+     "km": 30,
+     "dplus": 740,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "http://www.ultralemkowyna.pl/trasy",
+     "limitH": 5,
+     "dplusCheckedAt": "2026-09-10"
+    },
+    {
+     "km": 48,
+     "dplus": 1400,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "http://www.ultralemkowyna.pl/trasy",
+     "limitH": 8,
+     "dplusCheckedAt": "2026-09-10"
+    }
+   ],
+   "vertical": false,
+   "url": "https://ultralemkowyna.pl/",
+   "sources": [
+    {
+     "name": "strona organizatora",
+     "url": "https://ultralemkowyna.pl/"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://ultralemkowyna.pl/trasy"
+    },
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/lemkowyna-trail-70/4116"
+    }
+   ],
+   "id": "lemko-trail-2026-10-17",
+   "surface": "trail",
+   "minKm": 10,
+   "maxKm": 48,
+   "beginnerScore": 5,
+   "beginnerWhy": "najkrótszy dystans 10 km; łagodnie: ok. 20 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
   },
   {
    "name": "Sowiogórski Festiwal Biegowy: Don Jon, Czarny Rycerz, Mroczny Śpiewak, Stara Jodła, Ostoja Nietoperza",
@@ -6900,8 +6839,36 @@
    "region": "",
    "distancesKm": [
     12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    21,
+    21,
+    21,
+    21,
+    21,
+    21,
+    21,
     21,
     30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
     50
    ],
    "elevations": [
@@ -6913,13 +6880,81 @@
      "dplusCheckedAt": "2026-09-10"
     },
     {
+     "km": 12
+    },
+    {
+     "km": 12
+    },
+    {
+     "km": 12
+    },
+    {
+     "km": 12
+    },
+    {
+     "km": 12
+    },
+    {
+     "km": 12
+    },
+    {
+     "km": 12
+    },
+    {
      "km": 21,
      "dplus": 487,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Pyzdra-20-km.gpx",
-     "dplusCheckedAt": "2026-09-11",
+     "dplusCheckedAt": "2026-09-14",
      "dplusStale": true,
      "gpx": "7ea021f186a9"
+    },
+    {
+     "km": 21,
+     "dplus": 596,
+     "gpx": "3286e627d6f9",
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://janosikraceseries.com/gpx/KDR-2026-21.gpx",
+     "dplusCheckedAt": "2026-09-14"
+    },
+    {
+     "km": 21
+    },
+    {
+     "km": 21
+    },
+    {
+     "km": 21
+    },
+    {
+     "km": 21
+    },
+    {
+     "km": 21
+    },
+    {
+     "km": 21
+    },
+    {
+     "km": 30
+    },
+    {
+     "km": 30
+    },
+    {
+     "km": 30
+    },
+    {
+     "km": 30
+    },
+    {
+     "km": 30
+    },
+    {
+     "km": 30
+    },
+    {
+     "km": 30
     },
     {
      "km": 30
@@ -6927,6 +6962,27 @@
     {
      "km": 50,
      "limitH": 14
+    },
+    {
+     "km": 50
+    },
+    {
+     "km": 50
+    },
+    {
+     "km": 50
+    },
+    {
+     "km": 50
+    },
+    {
+     "km": 50
+    },
+    {
+     "km": 50
+    },
+    {
+     "km": 50
     }
    ],
    "vertical": false,
@@ -7361,6 +7417,14 @@
    "region": "",
    "distancesKm": [
     6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    12,
     12,
     12,
     12,
@@ -7369,6 +7433,13 @@
     12,
     12,
     26.9,
+    26.9,
+    26.9,
+    26.9,
+    26.9,
+    26.9,
+    26.9,
+    26.9,
     53,
     53,
     53,
@@ -7376,6 +7447,8 @@
     53,
     53,
     53,
+    53,
+    101,
     101,
     101,
     101,
@@ -7392,6 +7465,27 @@
      "dplusSourceUrl": "https://ultrarace.pl/gdansk/trasa-gdansk/",
      "dplusCheckedAt": "2026-09-10",
      "limitH": 1
+    },
+    {
+     "km": 6
+    },
+    {
+     "km": 6
+    },
+    {
+     "km": 6
+    },
+    {
+     "km": 6
+    },
+    {
+     "km": 6
+    },
+    {
+     "km": 6
+    },
+    {
+     "km": 6
     },
     {
      "km": 12,
@@ -7416,12 +7510,39 @@
      "km": 12
     },
     {
+     "km": 12
+    },
+    {
      "km": 26.9,
      "limitH": 5
     },
     {
+     "km": 26.9
+    },
+    {
+     "km": 26.9
+    },
+    {
+     "km": 26.9
+    },
+    {
+     "km": 26.9
+    },
+    {
+     "km": 26.9
+    },
+    {
+     "km": 26.9
+    },
+    {
+     "km": 26.9
+    },
+    {
      "km": 53,
      "limitH": 10
+    },
+    {
+     "km": 53
     },
     {
      "km": 53
@@ -7448,6 +7569,9 @@
      "dplusSourceUrl": "https://ultrarace.pl/gdansk/trasa-gdansk/",
      "dplusCheckedAt": "2026-09-10",
      "limitH": 17
+    },
+    {
+     "km": 101
     },
     {
      "km": 101
@@ -7899,7 +8023,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://malopolskabiega.com.pl/wp-content/uploads/2026/06/us_lato_15_5km.gpx",
      "gpx": "72ad52c273e3",
-     "dplusCheckedAt": "2026-09-11",
+     "dplusCheckedAt": "2026-09-14",
      "dplusStale": true
     }
    ],
