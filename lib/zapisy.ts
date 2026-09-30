@@ -77,15 +77,19 @@ export function extractSignup(text: string, raceDate: string, source: Signup["so
 export function mergeSignup(parts: (Signup | null)[], today: string): Signup | undefined {
   const xs = parts.filter((x): x is Signup => !!x);
   if (!xs.length) return undefined;
-  const until = xs.map((x) => x.until).filter(Boolean).sort().at(-1) as string | undefined;
+  const plat = xs.find((x) => x.source === "zapisy" && x.until);
+  const until = plat?.until ?? (xs.map((x) => x.until).filter(Boolean).sort().at(-1) as string | undefined);
   const limit = xs.map((x) => x.limit).find(Boolean);
   const registered = xs.map((x) => x.registered).find((v) => v !== undefined);
   const note = xs.map((x) => x.note).find(Boolean);
   let status: SignupStatus = "unknown";
   let src = xs[0];
+  // platforma zapisów (stan na żywo) ma pierwszeństwo przed regulaminem i stroną organizatora
+  const platform = xs.find((x) => x.source === "zapisy" && x.status !== "unknown");
   const closed = xs.find((x) => x.status === "closed" && !x.until);
   const open = xs.find((x) => x.status === "open");
-  if (closed) { status = "closed"; src = closed; }
+  if (platform) { status = platform.status; src = platform; }
+  else if (closed) { status = "closed"; src = closed; }
   else if (until) { status = until >= today ? "open" : "closed"; src = xs.find((x) => x.until === until)!; }
   else if (open) { status = "open"; src = open; }
   if (limit && registered !== undefined && registered >= limit) status = "closed";

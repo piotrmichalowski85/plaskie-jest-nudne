@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-30T13:45:19.301Z",
- "count": 189,
+ "generatedAt": "2026-09-30T14:14:40.516Z",
+ "count": 194,
  "races": [
   {
    "name": "Grand Prix Krakowa w biegach górskich",
@@ -358,41 +358,6 @@
    "maxKm": 45,
    "beginnerScore": 3,
    "beginnerWhy": "najkrótszy dystans 16 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
-  },
-  {
-   "name": "VII Bieszczadzki Rajd Pieszy",
-   "eventName": "VII Bieszczadzki Rajd Pieszy",
-   "dateStart": "2026-01-24",
-   "dateEnd": "2026-01-24",
-   "city": "Cisna",
-   "region": "Bieszczady",
-   "distancesKm": [
-    16,
-    27
-   ],
-   "elevations": [
-    {
-     "km": 16
-    },
-    {
-     "km": 27
-    }
-   ],
-   "vertical": false,
-   "category": "x",
-   "url": "https://b4sportonline.pl/maraton_pieszy/vii_bieszczadzki_rajd_pieszy",
-   "sources": [
-    {
-     "name": "biegigorskie.pl",
-     "url": "https://www.biegigorskie.pl/kalendarz-2026/"
-    }
-   ],
-   "id": "vii-bieszczadzki-rajd-pieszy-2026-01-24",
-   "surface": "trail",
-   "minKm": 16,
-   "maxKm": 27,
-   "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 16 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "MARRODENT WINTER RUN: VII Zimowy Bieg po Zdrój",
@@ -5873,7 +5838,7 @@
    "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Festiwal Biegowy JuraRun",
+   "name": "Festiwal Biegowy JuraRun: 5+, NIGHT 10+, 12+, 21+, ULTRA 42+, ULTRA 80+, ULTRA 100+",
    "eventName": "Festiwal Biegowy JuraRun",
    "dateStart": "2026-10-02",
    "dateEnd": "2026-10-04",
@@ -5949,7 +5914,7 @@
     },
     {
      "name": "elektronicznezapisy.pl",
-     "url": "https://elektronicznezapisy.pl/62/bieg-gorski.html"
+     "url": "https://elektronicznezapisy.pl/event/14899/strona.html"
     },
     {
      "name": "strona organizatora",
@@ -5962,6 +5927,15 @@
    ],
    "signupOpen": true,
    "participants": 296,
+   "signup": {
+    "status": "closed",
+    "until": "2026-09-27",
+    "limit": 330,
+    "registered": 296,
+    "source": "zapisy",
+    "sourceUrl": "https://elektronicznezapisy.pl/event/14899/strona.html",
+    "checkedAt": "2026-09-30"
+   },
    "id": "festiwal-biegowy-jurarun-2026-10-02",
    "surface": "trail",
    "minKm": 5,
@@ -6123,7 +6097,7 @@
    "beginnerWhy": "najkrótszy dystans 23 km to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Bison Ultra-Trail",
+   "name": "Bison Trail: 10 km, 18 km, 32 km, 52 km, 72 km, 106 km",
    "eventName": "Bison Ultra-Trail",
    "dateStart": "2026-10-03",
    "dateEnd": "2026-10-03",
@@ -6252,6 +6226,55 @@
    "maxKm": 21,
    "beginnerScore": 4,
    "beginnerWhy": "najkrótszy dystans 12 km; przewyższenie nieznane, sprawdź profil trasy."
+  },
+  {
+   "name": "Bieg Główny \"Pętelka Mai\" (ok. 10 km, Trasa Górska): Bieg Główny \"Pętelka Mai\" (ok. 10 km, Trasa Górska), Bieg „PRO” - Profesjonalna Pętelka Mai PRO (15 km, Trasa Górska)",
+   "eventName": "Bieg Główny \"Pętelka Mai\" (ok. 10 km, Trasa Górska)",
+   "dateStart": "2026-10-03",
+   "dateEnd": "2026-10-03",
+   "city": "Bielsko-Biała",
+   "region": "",
+   "distancesKm": [
+    10.5,
+    15
+   ],
+   "elevations": [
+    {
+     "km": 10.5
+    },
+    {
+     "km": 15
+    }
+   ],
+   "vertical": false,
+   "url": "https://b4sportonline.pl/biegniemyzmaja/",
+   "sources": [
+    {
+     "name": "b4sportonline.pl",
+     "url": "https://b4sportonline.pl/biegniemyzmaja/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://b4sportonline.pl/users-folder/1216/files/RegulaminBiegu_2026_versja1_(1).pdf"
+    }
+   ],
+   "signup": {
+    "status": "open",
+    "until": "2026-10-02",
+    "registered": 222,
+    "source": "zapisy",
+    "sourceUrl": "https://b4sportonline.pl/biegniemyzmaja/",
+    "checkedAt": "2026-09-30"
+   },
+   "signupOpen": true,
+   "participants": 222,
+   "regulaminUrl": "https://b4sportonline.pl/users-folder/1216/files/RegulaminBiegu_2026_versja1_(1).pdf",
+   "id": "bieg-glowny-petelka-mai-ok-10-km-trasa-gorska-2026-10-03",
+   "surface": "gorski",
+   "minKm": 10.5,
+   "maxKm": 15,
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 10.5 km; przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "X-RUN Wielki Finał",
@@ -6674,7 +6697,7 @@
    "beginnerWhy": "najkrótszy dystans 11 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Łemkowyna Ultra-Trail",
+   "name": "Łemkowyna Trail: Łemkowyna Trail 100 - 17-19.10.2025, Łemko Trail 30 - 18.10.2025, Łemkowyna Trail 70 - 18.10.2025, Łemkowyna Trail 150 17-19.10.2025, Łemko Trail 10 - 19.10.2025, Łemko Trail 18 - 19.10.2025",
    "eventName": "Łemkowyna Ultra-Trail",
    "dateStart": "2026-10-16",
    "dateEnd": "2026-10-18",
@@ -6758,8 +6781,23 @@
     {
      "name": "kingrunner.com",
      "url": "https://www.kingrunner.com/bieg/lemkowyna-trail-70/4116"
+    },
+    {
+     "name": "b4sportonline.pl",
+     "url": "https://b4sportonline.pl/LemkowynaUltraTrail/"
     }
    ],
+   "signupOpen": true,
+   "participants": 1267,
+   "signup": {
+    "status": "open",
+    "until": "2026-09-30",
+    "limit": 2700,
+    "registered": 1267,
+    "source": "zapisy",
+    "sourceUrl": "https://b4sportonline.pl/LemkowynaUltraTrail/",
+    "checkedAt": "2026-09-30"
+   },
    "id": "lemkowyna-ultra-trail-2026-10-16",
    "surface": "trail",
    "minKm": 10,
@@ -6859,7 +6897,7 @@
    "beginnerWhy": "najkrótszy dystans 1 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "33 Marszobieg na Czantorię Wielką",
+   "name": "33. Marszobieg na Czantorię Wielką",
    "eventName": "33 Marszobieg na Czantorię Wielką",
    "dateStart": "2026-10-17",
    "dateEnd": "2026-10-17",
@@ -6870,7 +6908,8 @@
    ],
    "elevations": [
     {
-     "km": 9.2
+     "km": 9.2,
+     "dplus": 710
     }
    ],
    "vertical": false,
@@ -6886,11 +6925,11 @@
     }
    ],
    "id": "33-marszobieg-na-czantorie-wielka-2026-10-17",
-   "surface": "trail",
+   "surface": "gorski",
    "minKm": 9.2,
    "maxKm": 9.2,
-   "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 9.2 km; przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerScore": 3,
+   "beginnerWhy": "najkrótszy dystans 9.2 km; stromo: ok. 77 m przewyższenia na kilometr, dużo marszu pod górę."
   },
   {
    "name": "12. Bieg o Złotą Szyszkę: 13 km, 20 km",
@@ -6927,7 +6966,7 @@
    "beginnerWhy": "najkrótszy dystans 13 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
-   "name": "Sowiogórski Festiwal Biegowy: Don Jon, Czarny Rycerz, Mroczny Śpiewak, Stara Jodła, Ostoja Nietoperza",
+   "name": "Sowiogórski Festiwal Biegowy: #SFB2026 | Stara Jodła, #SFB2026 | Ostoja Nietoperza, #SFB2026 | Czarny Rycerz, #SFB2026 | Mroczny Śpiewak, #SFB2026 | Don Jon, #SFB2025 | Czarny Rycerz",
    "eventName": "Sowiogórski Festiwal Biegowy",
    "dateStart": "2026-10-24",
    "dateEnd": "2026-10-24",
@@ -6967,6 +7006,10 @@
     {
      "name": "regulamin",
      "url": "https://b4sportonline.pl/users-folder/1417/files/regulamin_sfb_2026.pdf"
+    },
+    {
+     "name": "b4sportonline.pl",
+     "url": "https://b4sportonline.pl/sfb2026/"
     }
    ],
    "regulaminUrl": "https://b4sportonline.pl/users-folder/1417/files/regulamin_sfb_2026.pdf",
@@ -6979,6 +7022,17 @@
     "pojemnik na wodę min. 1 l",
     "kurtka wiatro- i wodoodporna z długim rękawem"
    ],
+   "signupOpen": true,
+   "participants": 310,
+   "signup": {
+    "status": "open",
+    "until": "2026-10-20",
+    "limit": 1200,
+    "registered": 310,
+    "source": "zapisy",
+    "sourceUrl": "https://b4sportonline.pl/sfb2026/",
+    "checkedAt": "2026-09-30"
+   },
    "id": "sowiogorski-festiwal-biegowy-2026-10-24",
    "surface": "gorski",
    "minKm": 7,
@@ -7233,7 +7287,7 @@
    "beginnerWhy": "pomijamy vertical 2.4 km (sam podbieg), liczymy od 7 km; najkrótszy dystans 7 km; łagodnie: ok. 23 m przewyższenia na kilometr."
   },
   {
-   "name": "XIV BIEG NIEPODLEGŁOŚCI",
+   "name": "14. GÓRSKI BIEG NIEPODLEGŁOŚCI",
    "eventName": "XIV BIEG NIEPODLEGŁOŚCI",
    "dateStart": "2026-11-11",
    "dateEnd": "2026-11-11",
@@ -7264,8 +7318,9 @@
      "url": "https://biegajwgorachsowich.pl/lib/vv3wnq/14-GBN-regulamin-msyk9hiv.pdf"
     }
    ],
+   "regulaminUrl": "https://biegajwgorachsowich.pl/lib/vv3wnq/14-GBN-regulamin-msyk9hiv.pdf",
    "id": "xiv-bieg-niepodleglosci-2026-11-11",
-   "surface": "trail",
+   "surface": "gorski",
    "minKm": 5,
    "maxKm": 10,
    "beginnerScore": 4,
@@ -7530,7 +7585,7 @@
    "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "JESIENNY ULTRA ŚWIR",
+   "name": "Jesienny ULTRA ŚWIR: Ultra Świr Jesienny Trail, Ultra Świr Jesienny Trail",
    "eventName": "JESIENNY ULTRA ŚWIR",
    "dateStart": "2026-11-28",
    "dateEnd": "2026-11-28",
@@ -7555,8 +7610,23 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "b4sportonline.pl",
+     "url": "https://b4sportonline.pl/ultra_swir/"
     }
    ],
+   "signupOpen": true,
+   "participants": 18,
+   "signup": {
+    "status": "open",
+    "until": "2026-11-25",
+    "limit": 200,
+    "registered": 18,
+    "source": "zapisy",
+    "sourceUrl": "https://b4sportonline.pl/ultra_swir/",
+    "checkedAt": "2026-09-30"
+   },
    "id": "jesienny-ultra-swir-2026-11-28",
    "surface": "trail",
    "minKm": 15,
@@ -7618,9 +7688,9 @@
    "beginnerWhy": "najkrótszy dystans 95 km, dystans ultra; stromo: ok. 93 m przewyższenia na kilometr, dużo marszu pod górę."
   },
   {
-   "name": "Garmin Ultra Race Gdańsk",
+   "name": "Garmin Ultra Race Gdańsk: 6km, 12km, 27km, 53km, 101km",
    "eventName": "Garmin Ultra Race Gdańsk",
-   "dateStart": "2026-12-05",
+   "dateStart": "2026-12-04",
    "dateEnd": "2026-12-05",
    "city": "Gdańsk",
    "region": "",
@@ -7701,7 +7771,7 @@
     "sourceUrl": "https://ultrarace.pl/gdansk/regulamin-gdansk/",
     "checkedAt": "2026-09-30"
    },
-   "id": "garmin-ultra-race-gdansk-2026-12-05",
+   "id": "garmin-ultra-race-gdansk-2026-12-04",
    "surface": "trail",
    "minKm": 6,
    "maxKm": 101,
@@ -7798,10 +7868,58 @@
    "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Winter Trail Małopolska",
+   "name": "Podhalański Bieg Mikołajkowy: Podhalański Bieg Mikołajkowy - Rodzinne Mikołajki 1km, Podhalański Bieg Mikołajkowy - Brama Świętego Mikołaja 13km, Podhalański Bieg Mikołajkowy - Ostrowskie Mikołajki 6km",
+   "eventName": "Podhalański Bieg Mikołajkowy",
+   "dateStart": "2026-12-06",
+   "dateEnd": "2026-12-06",
+   "city": "Ostrowsko",
+   "region": "",
+   "distancesKm": [
+    1,
+    6.03,
+    13
+   ],
+   "elevations": [
+    {
+     "km": 1
+    },
+    {
+     "km": 6.03
+    },
+    {
+     "km": 13
+    }
+   ],
+   "vertical": false,
+   "url": "https://www.nowytarg.pl/",
+   "sources": [
+    {
+     "name": "b4sportonline.pl",
+     "url": "https://b4sportonline.pl/turbacz_trail/"
+    }
+   ],
+   "signup": {
+    "status": "open",
+    "until": "2026-12-03",
+    "registered": 4,
+    "source": "zapisy",
+    "sourceUrl": "https://b4sportonline.pl/turbacz_trail/",
+    "checkedAt": "2026-09-30"
+   },
+   "signupOpen": true,
+   "participants": 4,
+   "id": "podhalanski-bieg-mikolajkowy-2026-12-06",
+   "surface": "przelaj",
+   "minKm": 1,
+   "maxKm": 13,
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 1 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+  },
+  {
+   "name": "Winter Trail Małopolska 2025: WTM 16, WTM 45, WTM 64, WTM 64, WTM 64, WTM 64, WTM 64, WTM 64, WTM 64, WTM 105, WTM 105, WTM 105, WTM 105, WTM 105, WTM 105, WTM 105, WTM 140, WTM 140, WTM 140, WTM 140, WTM 140, WTM 140, WTM 140",
    "eventName": "Winter Trail Małopolska",
    "dateStart": "2026-12-12",
-   "dateEnd": "2026-12-13",
+   "dateEnd": "2026-12-12",
    "city": "Mszana Dolna",
    "region": "Beskid Wyspowy",
    "distancesKm": [
@@ -8123,14 +8241,74 @@
     {
      "name": "trasa (organizator)",
      "url": "https://www.maratongorstolowych.pl/trasy/"
+    },
+    {
+     "name": "b4sportonline.pl",
+     "url": "https://b4sportonline.pl/Zimowy_Polmaraton_Gor_Stolowych/"
     }
    ],
+   "signupOpen": true,
+   "participants": 165,
+   "signup": {
+    "status": "open",
+    "until": "2027-01-14",
+    "limit": 450,
+    "registered": 165,
+    "source": "zapisy",
+    "sourceUrl": "https://b4sportonline.pl/Zimowy_Polmaraton_Gor_Stolowych/",
+    "checkedAt": "2026-09-30"
+   },
    "id": "zimowy-polmaraton-gor-stolowych-2027-01-16",
    "surface": "trail",
    "minKm": 21,
    "maxKm": 31,
    "beginnerScore": 3,
    "beginnerWhy": "najkrótszy dystans 21 km (jak półmaraton w terenie, zwykle wolniej); średnio stromo: ok. 48 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+  },
+  {
+   "name": "Zimowy Maraton Świętokrzyski: Królewska Batalia, Rycerska Szarża",
+   "eventName": "Zimowy Maraton Świętokrzyski",
+   "dateStart": "2027-01-16",
+   "dateEnd": "2027-01-16",
+   "city": "Chęciny",
+   "region": "",
+   "distancesKm": [
+    26,
+    48
+   ],
+   "elevations": [
+    {
+     "km": 26
+    },
+    {
+     "km": 48
+    }
+   ],
+   "vertical": false,
+   "url": "http://www.swietokrzyskipoziomgor.pl/",
+   "sources": [
+    {
+     "name": "b4sportonline.pl",
+     "url": "https://b4sportonline.pl/swietokrzyski_poziom_gor/"
+    }
+   ],
+   "signup": {
+    "status": "open",
+    "until": "2027-01-15",
+    "limit": 900,
+    "registered": 0,
+    "source": "zapisy",
+    "sourceUrl": "https://b4sportonline.pl/swietokrzyski_poziom_gor/",
+    "checkedAt": "2026-09-30"
+   },
+   "signupOpen": true,
+   "participants": 0,
+   "id": "zimowy-maraton-swietokrzyski-2027-01-16",
+   "surface": "przelaj",
+   "minKm": 26,
+   "maxKm": 48,
+   "beginnerScore": 2,
+   "beginnerWhy": "najkrótszy dystans 26 km to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "ZAMIEĆ",
@@ -8213,6 +8391,59 @@
    "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
+   "name": "Turbacz Winter Trail: Turbacz Winter Trail - Zimna Połówka (22km), Turbacz Winter Trail - TWT na 6 Łap (22km), Turbacz Winter Trail - Mizuno Nocna zaDycha (12km), Turbacz Winter Trail - Turbaczowe Love - bieg dla singli (6km), Turbacz Winter Trail - AK-47 (48km), Turbacz Winter Trail - Turbaczowe Love - bieg dla par (6km)",
+   "eventName": "Turbacz Winter Trail",
+   "dateStart": "2027-02-13",
+   "dateEnd": "2027-02-14",
+   "city": "Nowy Targ",
+   "region": "",
+   "distancesKm": [
+    6.3,
+    11.86,
+    22.25,
+    47.89
+   ],
+   "elevations": [
+    {
+     "km": 6.3
+    },
+    {
+     "km": 11.86
+    },
+    {
+     "km": 22.25
+    },
+    {
+     "km": 47.89
+    }
+   ],
+   "vertical": false,
+   "url": "https://www.nowytarg.pl/",
+   "sources": [
+    {
+     "name": "b4sportonline.pl",
+     "url": "https://b4sportonline.pl/turbacz_trail/"
+    }
+   ],
+   "signup": {
+    "status": "open",
+    "until": "2027-02-08",
+    "limit": 550,
+    "registered": 23,
+    "source": "zapisy",
+    "sourceUrl": "https://b4sportonline.pl/turbacz_trail/",
+    "checkedAt": "2026-09-30"
+   },
+   "signupOpen": true,
+   "participants": 23,
+   "id": "turbacz-winter-trail-2027-02-13",
+   "surface": "przelaj",
+   "minKm": 6.3,
+   "maxKm": 47.89,
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 6.3 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+  },
+  {
    "name": "XV Grand Prix Krakowa w biegach górskich",
    "eventName": "XV Grand Prix Krakowa w biegach górskich",
    "dateStart": "2027-03-07",
@@ -8268,7 +8499,7 @@
    "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "WIOSENNY ULTRA ŚWIR",
+   "name": "Ultra Świr: WIOSENNY ULTRA ŚWIR - 12 h, WIOSENNY ULTRA ŚWIR - 6H",
    "eventName": "WIOSENNY ULTRA ŚWIR",
    "dateStart": "2027-03-20",
    "dateEnd": "2027-03-20",
@@ -8303,6 +8534,10 @@
     {
      "name": "regulamin",
      "url": "https://malopolskabiega.com.pl/regulamin-ultra/"
+    },
+    {
+     "name": "b4sportonline.pl",
+     "url": "https://b4sportonline.pl/ultra_swir/"
     }
    ],
    "regulaminUrl": "https://malopolskabiega.com.pl/regulamin-ultra/",
@@ -8313,12 +8548,67 @@
     "sourceUrl": "https://malopolskabiega.com.pl/regulamin-ultra/",
     "checkedAt": "2026-09-30"
    },
+   "signupOpen": true,
+   "participants": 1,
    "id": "wiosenny-ultra-swir-2027-03-20",
    "surface": "trail",
    "minKm": 15.5,
    "maxKm": 15.5,
    "beginnerScore": 3,
    "beginnerWhy": "najkrótszy dystans 15.5 km (jak półmaraton w terenie, zwykle wolniej); średnio stromo: ok. 42 m przewyższenia na kilometr."
+  },
+  {
+   "name": "Festiwal Pieszo - Biegowy PRZEDWIOŚNIE: Ultra Przedwiośnie, Mini Przedwiośnie, Maraton Przedwiośnie, Giga Przedwiośnie",
+   "eventName": "Festiwal Pieszo - Biegowy PRZEDWIOŚNIE",
+   "dateStart": "2027-04-10",
+   "dateEnd": "2027-04-10",
+   "city": "Ciekoty",
+   "region": "",
+   "distancesKm": [
+    25,
+    44,
+    76,
+    101
+   ],
+   "elevations": [
+    {
+     "km": 25
+    },
+    {
+     "km": 44
+    },
+    {
+     "km": 76
+    },
+    {
+     "km": 101
+    }
+   ],
+   "vertical": false,
+   "url": "http://www.swietokrzyskipoziomgor.pl/",
+   "sources": [
+    {
+     "name": "b4sportonline.pl",
+     "url": "https://b4sportonline.pl/swietokrzyski_poziom_gor/"
+    }
+   ],
+   "signup": {
+    "status": "open",
+    "until": "2027-03-29",
+    "limit": 1920,
+    "registered": 0,
+    "source": "zapisy",
+    "sourceUrl": "https://b4sportonline.pl/swietokrzyski_poziom_gor/",
+    "checkedAt": "2026-09-30"
+   },
+   "signupOpen": true,
+   "participants": 0,
+   "id": "festiwal-pieszo-biegowy-przedwiosnie-2027-04-10",
+   "surface": "przelaj",
+   "minKm": 25,
+   "maxKm": 101,
+   "beginnerScore": 2,
+   "beginnerWhy": "najkrótszy dystans 25 km to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Meble Wójcik ULTRA WYSOCZYZNA 2027: 6km HUK SOWY, 6km HUK SOWY, 6km HUK SOWY, 6km HUK SOWY, 6km HUK SOWY, 6km HUK SOWY, 6km HUK SOWY, 13km PISK LISA, 13km PISK LISA, 13km PISK LISA, 13km PISK LISA, 13km PISK LISA, 13km PISK LISA, 13km PISK LISA, 22km KWIK DZIKA, 22km KWIK DZIKA, 22km KWIK DZIKA, 22km KWIK DZIKA, 22km KWIK DZIKA, 22km KWIK DZIKA, 22km KWIK DZIKA, 54km WYCIE WILKA, 54km WYCIE WILKA, 54km WYCIE WILKA, 54km WYCIE WILKA, 54km WYCIE WILKA, 54km WYCIE WILKA, 54km WYCIE WILKA, 103km RYK JELENIA, 103km RYK JELENIA, 103km RYK JELENIA, 103km RYK JELENIA, 103km RYK JELENIA, 103km RYK JELENIA, 103km RYK JELENIA",
@@ -8767,6 +9057,10 @@
     {
      "name": "regulamin",
      "url": "https://malopolskabiega.com.pl/regulamin-ultra/"
+    },
+    {
+     "name": "b4sportonline.pl",
+     "url": "https://b4sportonline.pl/ultra_swir/"
     }
    ],
    "regulaminUrl": "https://malopolskabiega.com.pl/regulamin-ultra/",
@@ -8777,12 +9071,55 @@
     "sourceUrl": "https://malopolskabiega.com.pl/regulamin-ultra/",
     "checkedAt": "2026-09-30"
    },
+   "signupOpen": true,
+   "participants": 0,
    "id": "wyspowy-ultra-swir-2027-06-26",
    "surface": "trail",
    "minKm": 23,
    "maxKm": 43,
    "beginnerScore": 2,
    "beginnerWhy": "najkrótszy dystans 23 km to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy."
+  },
+  {
+   "name": "Ultramaraton - ULTRA",
+   "eventName": "Ultramaraton - ULTRA",
+   "dateStart": "2027-06-26",
+   "dateEnd": "2027-06-26",
+   "city": "Edukacyjne Parku Narodowego Gór Stołowych",
+   "region": "",
+   "distancesKm": [
+    55
+   ],
+   "elevations": [
+    {
+     "km": 55
+    }
+   ],
+   "vertical": false,
+   "url": "https://b4sportonline.pl/Supermaraton_Gor_Stolowych/",
+   "sources": [
+    {
+     "name": "b4sportonline.pl",
+     "url": "https://b4sportonline.pl/Supermaraton_Gor_Stolowych/"
+    }
+   ],
+   "signup": {
+    "status": "open",
+    "until": "2027-06-24",
+    "limit": 390,
+    "registered": 0,
+    "source": "zapisy",
+    "sourceUrl": "https://b4sportonline.pl/Supermaraton_Gor_Stolowych/",
+    "checkedAt": "2026-09-30"
+   },
+   "signupOpen": true,
+   "participants": 0,
+   "id": "ultramaraton-ultra-2027-06-26",
+   "surface": "przelaj",
+   "minKm": 55,
+   "maxKm": 55,
+   "beginnerScore": 1,
+   "beginnerWhy": "najkrótszy dystans 55 km, dystans ultra; przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "Śmierdzący Leń: Mały Śmierdzący Leń",

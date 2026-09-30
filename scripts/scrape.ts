@@ -9,6 +9,8 @@ import { findRegulamin, extractLimits, extractGear, fetchAny } from "../lib/deep
 import { findTrasa, type TrasaResult } from "../lib/trasa";
 import { parseGpx } from "../lib/gpx";
 import { extractSignup, mergeSignup, type Signup } from "../lib/zapisy";
+import { b4Events } from "../lib/adapters/b4sport";
+import { ezStatus } from "../lib/adapters/ez";
 import overrides from "../data/overrides.json";
 import { existsSync, readFileSync, mkdirSync } from "node:fs";
 import { createHash } from "node:crypto";
@@ -82,7 +84,7 @@ async function elektronicznezapisy(): Promise<Raw[]> {
       name, eventName: name, dateStart: d.start, dateEnd: d.end, city, region: "",
       distancesKm: list.map((x) => x.km), elevations: list, vertical,
       url: href ? new URL(href, "https://elektronicznezapisy.pl/").toString() : undefined,
-      sources: [{ name: "elektronicznezapisy.pl", url }],
+      sources: [{ name: "elektronicznezapisy.pl", url: href ? new URL(href, "https://elektronicznezapisy.pl/").toString() : url }],
       signupOpen: true, participants: isFinite(signed) ? signed : undefined,
     });
   });
@@ -144,6 +146,21 @@ async function kingrunner(): Promise<Raw[]> {
     });
   }
   return out;
+}
+
+/** b4sportonline.pl: kalendarz platformy zapisów (kategoria biegi górskie), z pełnym stanem zapisów */
+async function b4sport(): Promise<Raw[]> {
+  const evs = await b4Events();
+  return evs.map((e) => {
+    const list = [...new Map(e.children.map((c) => [Number(c.distance || 0), { km: Number(c.distance || 0) }])).values()].filter((x) => x.km > 0).sort((a, b) => a.km - b.km);
+    return {
+      name: e.children.length > 1 ? `${e.name}: ${e.children.map((c) => c.name).join(", ")}` : e.name,
+      eventName: e.name, dateStart: e.dateStart, dateEnd: e.dateEnd, city: cleanCity(e.city), region: "",
+      distancesKm: list.map((x) => x.km), elevations: list, vertical: e.children.some((c) => /vertical/i.test(c.name)),
+      url: e.www || `https://b4sportonline.pl/${e.slug}/`, sources: [{ name: "b4sportonline.pl", url: `https://b4sportonline.pl/${e.slug}/` }],
+      signup: e.signup, signupOpen: e.signup.status === "open" || undefined, participants: e.signup.registered,
+    } as Raw;
+  });
 }
 
 /** Flagowce spoza kalendarzy: seed z data/organizers.json + dystanse/D+/limity ze strony organizatora */
@@ -324,11 +341,30 @@ async function zapisy(raws: Raw[]): Promise<Record<string, number>> {
       if (x) parts.push({ ...x, sourceUrl: c.regulaminUrl });
     }
     if (c?.signupPage?.text) { const x = extractSignup(c.signupPage.text, r.dateStart, "organizator", todayS); if (x) parts.push({ ...x, sourceUrl: r.url }); }
-    if (r.signupOpen) parts.push({ status: "open", source: "zapisy", sourceUrl: r.sources.find((s) => /elektronicznezapisy/.test(s.url))?.url, registered: r.participants });
+    if (r.signup?.source === "zapisy") parts.push(r.signup); // b4sportonline (dane strukturalne z kalendarza)
+    else {
+      const ez = r.sources.find((s) => /elektronicznezapisy\.pl\/event\/\d+/.test(s.url))?.url;
+      if (ez) { const x = await ezStatus(ez, todayS); if (x) parts.push(x); else if (r.signupOpen) parts.push({ status: "open", source: "zapisy", sourceUrl: ez, registered: r.participants }); }
+    }
     const merged = mergeSignup(parts, todayS);
     if (merged) { r.signup = merged; stats[merged.status]++; if (merged.until) stats.withDate++; } else stats.unknown++;
   }
   return stats;
+}
+
+/** Scalanie dwóch wpisów tej samej imprezy: bogatszy zestaw dystansów wygrywa, reszta uzupełnia się nawzajem. */
+function mergeRaw(a: Raw, b: Raw): Raw {
+  const rich = a.distancesKm.length >= b.distancesKm.length ? a : b, poor = rich === a ? b : a;
+  const elevations = rich.elevations.map((e) => ({ ...e }));
+  for (const e of poor.elevations) { const x = elevations.find((y) => Math.abs(y.km - e.km) < 0.6); if (x) { x.dplus ??= e.dplus; x.limitH ??= e.limitH; x.gpx ??= e.gpx; x.note ??= e.note; if (e.dplusSource && !x.dplusSource) { x.dplusSource = e.dplusSource; x.dplusSourceUrl = e.dplusSourceUrl; } } }
+  return {
+    ...a, ...rich, elevations, distancesKm: elevations.map((e) => e.km),
+    name: a.name.length >= b.name.length ? a.name : b.name, eventName: a.eventName,
+    region: a.region || b.region, city: a.city || b.city, url: a.url || b.url, category: a.category || b.category,
+    signupOpen: a.signupOpen || b.signupOpen, participants: a.participants ?? b.participants, signup: a.signup ?? b.signup,
+    regulaminUrl: a.regulaminUrl || b.regulaminUrl, gear: a.gear || b.gear,
+    sources: [...a.sources, ...b.sources.filter((s) => !a.sources.some((p) => p.name === s.name))],
+  };
 }
 
 function finalize(raws: Raw[]): Race[] {
@@ -336,35 +372,22 @@ function finalize(raws: Raw[]): Race[] {
   for (const r of raws) {
     const k = dedupKey(r);
     const prev = byKey.get(k);
-    if (!prev) { byKey.set(k, r); continue; }
-    // scal: więcej dystansów wygrywa, źródła łączymy
-    const merged: Raw = {
-      ...prev,
-      distancesKm: prev.distancesKm.length >= r.distancesKm.length ? prev.distancesKm : r.distancesKm,
-      elevations: prev.elevations.length >= r.elevations.length ? prev.elevations : r.elevations,
-      region: prev.region || r.region,
-      url: prev.url || r.url,
-      category: prev.category || r.category,
-      signupOpen: prev.signupOpen || r.signupOpen,
-      participants: prev.participants ?? r.participants,
-      sources: [...prev.sources, ...r.sources.filter((s) => !prev.sources.some((p) => p.name === s.name))],
-    };
-    byKey.set(k, merged);
+    byKey.set(k, prev ? mergeRaw(prev, r) : r);
   }
-  // drugi przebieg: ta sama pierwsza znacząca nazwa + miesiąc i (to samo miasto albo wspólny dystans) = ta sama impreza
-  const merged2: Raw[] = [];
-  const firstWord = (r: Raw) => (eventCore(r.eventName).split("-")[0] || slugify(r.eventName).slice(0, 8)) + "|" + r.dateStart.slice(0, 7);
   const shared = (a: Raw, b: Raw) => a.distancesKm.filter((x) => b.distancesKm.some((y) => Math.abs(x - y) < 0.6)).length;
   const daysApart = (a: Raw, b: Raw) => Math.min(Math.abs(Date.parse(a.dateStart) - Date.parse(b.dateStart)), Math.abs(Date.parse(a.dateEnd) - Date.parse(b.dateEnd))) / 86400000;
   const w1 = (r: Raw) => eventCore(r.eventName).split("-")[0] || "";
+  const cityKey = (r: Raw) => slugify(r.city).split("-")[0];
+  const coreWords = (r: Raw) => new Set(eventCore(r.eventName).split("-").filter(Boolean));
+  const overlap = (a: Raw, b: Raw) => [...coreWords(a)].some((w) => coreWords(b).has(w));
   // "Łemko Trail" vs "Łemkowyna Ultra-Trail": jedno słowo jest przedrostkiem drugiego, wspólne dystanse, ten sam weekend
   const prefixKin = (a: Raw, b: Raw) => { const x = w1(a), y = w1(b); return x.length >= 4 && y.length >= 4 && (x.startsWith(y) || y.startsWith(x)) && shared(a, b) >= 2 && daysApart(a, b) <= 3; };
+  // ta sama data i miejscowość + (wspólne słowo nazwy albo >= 2 wspólne dystanse): np. "ZPGS" vs "Zimowy Półmaraton Gór Stołowych"
+  const samePlaceDay = (a: Raw, b: Raw) => a.dateStart === b.dateStart && cityKey(a) === cityKey(b) && cityKey(a).length >= 3 && (overlap(a, b) || shared(a, b) >= 2);
+  const merged2: Raw[] = [];
   for (const r of byKey.values()) {
-    const cand = merged2.find((m) => (firstWord(m) === firstWord(r) && (slugify(m.city).split("-")[0] === slugify(r.city).split("-")[0] || (eventCore(m.eventName) === eventCore(r.eventName) && shared(m, r) >= 1))) || prefixKin(m, r));
-    if (!cand) { merged2.push(r); continue; }
-    const rich = cand.distancesKm.length >= r.distancesKm.length ? cand : r, poor = rich === cand ? r : cand;
-    for (const e of poor.elevations) { const x = rich.elevations.find((y) => Math.abs(y.km - e.km) < 0.6); if (x) { x.dplus ??= e.dplus; x.limitH ??= e.limitH; } }
-    Object.assign(cand, { ...rich, region: cand.region || r.region, url: cand.url || r.url, category: cand.category || r.category, signupOpen: cand.signupOpen || r.signupOpen, participants: cand.participants ?? r.participants, sources: [...cand.sources, ...r.sources.filter((s) => !cand.sources.some((p) => p.name === s.name))] });
+    const i = merged2.findIndex((m) => (w1(m) === w1(r) && m.dateStart.slice(0, 7) === r.dateStart.slice(0, 7) && (cityKey(m) === cityKey(r) || (eventCore(m.eventName) === eventCore(r.eventName) && shared(m, r) >= 1))) || prefixKin(m, r) || samePlaceDay(m, r));
+    if (i < 0) merged2.push(r); else merged2[i] = mergeRaw(merged2[i], r);
   }
   const used = new Set<string>();
   return merged2
@@ -385,7 +408,7 @@ function finalize(raws: Raw[]): Race[] {
 
 async function main() {
   const year = new Date().getFullYear();
-  const results = await Promise.allSettled([biegigorskie(year), biegigorskie(year + 1), elektronicznezapisy(), organizerSeeds(), kingrunner()]);
+  const results = await Promise.allSettled([biegigorskie(year), biegigorskie(year + 1), elektronicznezapisy(), organizerSeeds(), kingrunner(), b4sport()]);
   const raws: Raw[] = [];
   results.forEach((r, i) => {
     if (r.status === "fulfilled") { console.log(`source ${i}: ${r.value.length} rows`); raws.push(...r.value); }
