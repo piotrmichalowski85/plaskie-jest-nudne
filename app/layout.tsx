@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import "./globals.css";
 import { Logo } from "@/components/Logo";
+import { Analytics } from "@/components/Analytics";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://plaskiejestnudne.pl"),
@@ -29,9 +30,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="border-t border-[#e3e7e1] text-sm text-[var(--muted)]">
           <div className="mx-auto max-w-5xl px-4 py-6 flex flex-col sm:flex-row gap-2 justify-between">
             <span>Płaskie jest nudne: wejdź w trail, zacznij od podbiegu. Serwis niekomercyjny.</span>
-            <span><Link href="/o-serwisie" className="underline">O serwisie</Link></span>
+            <span className="flex gap-3"><Link href="/o-serwisie" className="underline">O serwisie</Link><Link href="/prywatnosc" className="underline">Prywatność</Link></span>
           </div>
         </footer>
+        <Analytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
       </body>
     </html>
   );
