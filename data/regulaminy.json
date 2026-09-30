@@ -2903,7 +2903,13 @@
   "limits": [],
   "gear": [],
   "fetchedAt": "2026-09-11T14:54:23.377Z",
-  "visited": 2
+  "visited": 2,
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-09-30T13:12:19.714Z",
+   "gpx": []
+  }
  },
  "https://time-sport.pl/zapisy-20-09-2026-iv-wilczy-ped-na-trojmorski-wierch/": {
   "regulaminUrl": "https://dostartu.pl/statute_files/15940_pl.pdf",
@@ -2926,6 +2932,177 @@
   ],
   "gear": [],
   "fetchedAt": "2026-09-11T14:54:19.962Z",
+  "visited": 4
+ },
+ "https://szczytnabiega.pl/wydarzenia": {
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-30T13:12:33.150Z",
+  "visited": 1
+ },
+ "https://itmbw.pl/magurka-trail/": {
+  "regulaminUrl": "https://itmbw.pl/itmbwieczorem-regulamin/",
+  "distances": [
+   {
+    "km": 5
+   },
+   {
+    "km": 10
+   }
+  ],
+  "limits": [
+   {
+    "km": 5,
+    "limitH": 1
+   }
+  ],
+  "gear": [],
+  "fetchedAt": "2026-09-30T13:12:33.845Z",
+  "visited": 3
+ },
+ "http://www.ultrabeskid.pl": {
+  "organizerUrl": "http://www.miedzybrodzki.pl/",
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-30T13:12:38.183Z",
+  "visited": 11
+ },
+ "https://bieggorski.pl": {
+  "regulaminUrl": "https://bieggorski.pl/regulamin/",
+  "distances": [
+   {
+    "km": 7
+   },
+   {
+    "km": 7.6
+   },
+   {
+    "km": 23.9
+   },
+   {
+    "km": 24
+   }
+  ],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-30T13:12:33.615Z",
+  "visited": 3
+ },
+ "https://boreckatrail.pl": {
+  "regulaminUrl": "https://boreckatrail.pl/regulamin/",
+  "distances": [],
+  "limits": [
+   {
+    "km": 10,
+    "limitH": 4
+   },
+   {
+    "km": 30,
+    "limitH": 6
+   },
+   {
+    "km": 45,
+    "limitH": 7
+   }
+  ],
+  "gear": [],
+  "fetchedAt": "2026-09-30T13:12:34.093Z",
+  "visited": 3
+ },
+ "https://barbarianrace.pl/formula/marszobieg": {
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-30T13:12:33.387Z",
+  "visited": 1
+ },
+ "https://pieklo.b160.pl": {
+  "organizerUrl": "https://dostartu.pl/piek-o-czantorii-2026-v16812",
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-30T13:12:36.844Z",
+  "visited": 9
+ },
+ "https://beskidzkiegronie.pl": {
+  "regulaminUrl": "https://web.sportcrm.pl/pliki/beskidzkiegronie/zalacznikiartykulow/60/19746/Regulamin%20V%20Beskidzkie%20Gr%C3%B3nie%20Lato%202026.pdf",
+  "distances": [
+   {
+    "km": 15
+   },
+   {
+    "km": 16
+   },
+   {
+    "km": 40
+   }
+  ],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-30T13:12:35.678Z",
+  "visited": 4
+ },
+ "https://utm.run/pl/winter-trail-malopolska": {
+  "regulaminUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
+  "distances": [
+   {
+    "km": 21
+   }
+  ],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-30T13:12:37.743Z",
+  "visited": 4
+ },
+ "https://www.maratongorstolowych.pl/zpgs": {
+  "organizerUrl": "https://nabucco.pl/",
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-30T13:12:40.364Z",
+  "visited": 11
+ },
+ "https://xrun.pl/muszyna-trail-2026/": {
+  "regulaminUrl": "https://xrun.pl/regulamin",
+  "distances": [],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-09-30T13:12:48.711Z",
+  "visited": 6
+ },
+ "https://ultrawysoczyzna.pl": {
+  "regulaminUrl": "https://ultrawysoczyzna.pl/regulamin/",
+  "distances": [
+   {
+    "km": 103
+   }
+  ],
+  "limits": [
+   {
+    "km": 103,
+    "limitH": 17
+   },
+   {
+    "km": 54,
+    "limitH": 10
+   },
+   {
+    "km": 22,
+    "limitH": 5
+   },
+   {
+    "km": 13,
+    "limitH": 3
+   },
+   {
+    "km": 6,
+    "limitH": 1.5
+   }
+  ],
+  "gear": [],
+  "fetchedAt": "2026-09-30T13:12:40.999Z",
   "visited": 4
  }
 }

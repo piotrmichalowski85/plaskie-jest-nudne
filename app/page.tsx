@@ -10,7 +10,7 @@ export default function Home() {
     <div className="space-y-12">
       <section className="py-2 grid gap-8 md:grid-cols-[1.1fr_1fr] items-center">
         <div>
-          <p className="chip chip-sun mb-3">kalendarz biegów górskich i trail w Polsce</p>
+          <p className="chip chip-sun mb-3">kalendarz biegów górskich i trailowych w Polsce</p>
           <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-[var(--moss-dark)]">Płaskie jest nudne ;)</h1>
           <p className="mt-3 text-lg max-w-2xl">Po płaskim biegasz na czas. W górach biegasz na widok. Zamiast asfaltu masz korzenie, błoto i ścieżkę, która co chwilę zmienia kierunek. Tempo przestaje mieć znaczenie, liczy się to, że jesteś wyżej niż wczoraj. Na podbiegu wolno iść, na szczycie wolno stanąć, na zbiegu wolno się bać, na punktach wolno jeść. A meta w górach smakuje inaczej niż każda inna.</p>
           <div className="mt-6 flex flex-wrap gap-3">

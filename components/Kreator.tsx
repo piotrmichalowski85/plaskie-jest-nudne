@@ -5,11 +5,11 @@ import { RaceCard } from "./RaceCard";
 
 type A = { level: string; longest: string; region: string; when: string; goal: string };
 const Q = [
-  { key: "level", q: "Skąd startujesz biegowo?", opts: [["zero", "Prawie nie biegam, ale chodzę po górach"], ["flat", "Biegam po płaskim regularnie"], ["marathon", "Mam za sobą półmaraton lub maraton"]] },
+  { key: "level", q: "Jak wygląda Twoje bieganie?", opts: [["zero", "Prawie nie biegam, ale chodzę po górach"], ["flat", "Biegam po płaskim regularnie"], ["marathon", "Mam za sobą półmaraton lub maraton"]] },
   { key: "longest", q: "Najdłuższy dystans przebiegnięty jednym ciągiem?", opts: [["5", "do 5 km"], ["10", "ok. 10 km"], ["21", "ok. 21 km"], ["42", "42 km i więcej"]] },
-  { key: "region", q: "Gdzie chcesz pobiec?", opts: [["", "gdziekolwiek w Polsce"], ["Karkonosze", "Sudety (Karkonosze, Góry Stołowe, Sowie...)"], ["Beskid", "Beskidy (Śląski, Żywiecki, Sądecki, Niski...)"], ["Tatry", "Tatry, Pieniny, Gorce"], ["Bieszczady", "Bieszczady"], ["nizina", "blisko domu, niekoniecznie góry (przełaje, Jura, Kaszuby)"]] },
-  { key: "when", q: "Kiedy?", opts: [["3", "w najbliższe 3 miesiące"], ["6", "w pół roku"], ["12", "w ciągu roku, spokojnie"]] },
-  { key: "goal", q: "Cel?", opts: [["finish", "Ukończyć na luzie i mieć frajdę"], ["race", "Ścigać się, sprawdzić czas"]] },
+  { key: "region", q: "Gdzie chcesz pobiec?", opts: [["", "gdziekolwiek w Polsce"], ["Karkonosze", "Sudety (Karkonosze, Góry Stołowe, Góry Sowie...)"], ["Beskid", "Beskidy (Śląski, Żywiecki, Sądecki, Niski...)"], ["Tatry", "Tatry, Pieniny, Gorce"], ["Bieszczady", "Bieszczady"], ["nizina", "blisko domu, niekoniecznie w górach (przełaje, Jura, Kaszuby)"]] },
+  { key: "when", q: "Kiedy?", opts: [["3", "w najbliższe 3 miesiące"], ["6", "w ciągu pół roku"], ["12", "w ciągu roku, spokojnie"]] },
+  { key: "goal", q: "Cel?", opts: [["finish", "Ukończyć na luzie i mieć frajdę"], ["race", "Ścigać się i sprawdzić czas"]] },
 ] as const;
 
 const REGION_GROUPS: Record<string, string[]> = {
@@ -67,10 +67,10 @@ export function Kreator({ races, today }: { races: Race[]; today: string }) {
   return (
     <div>
       <div className="flex items-baseline justify-between mb-4"><h2 className="text-2xl font-bold">Twoje pierwsze niepłaskie biegi</h2><button className="text-sm underline text-[var(--muted)]" onClick={() => { setA({}); setStep(0); }}>od nowa</button></div>
-      {results.length === 0 ? <p>Nic nie pasuje do tych odpowiedzi w tym oknie czasu. Wydłuż horyzont albo poluzuj region.</p> : (
+      {results.length === 0 ? <p>Nic nie pasuje do tych odpowiedzi w wybranym terminie. Wydłuż czas albo poluzuj region.</p> : (
         <div className="grid gap-3 sm:grid-cols-2">{results.map((r) => <RaceCard key={r.id} race={r} />)}</div>
       )}
-      <p className="mt-6 text-sm text-[var(--muted)]">Jak liczymy: ocena "dobry na start" (najkrótszy dystans, przewyższenie na km, formuła) plus dopasowanie do Twojego najdłuższego biegu, regionu i terminu. Zawsze sprawdź limit czasu i sprzęt obowiązkowy w regulaminie.</p>
+      <p className="mt-6 text-sm text-[var(--muted)]">Jak liczymy: ocena "dobry na start" (najkrótszy dystans, przewyższenie na kilometr, formuła) plus dopasowanie do Twojego najdłuższego biegu, regionu i terminu. Zawsze sprawdź limit czasu i sprzęt obowiązkowy w regulaminie.</p>
     </div>
   );
 }

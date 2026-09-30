@@ -13,7 +13,7 @@ const DIST = [
   { id: "s", label: "do 15 km", test: (r: Race) => r.minKm > 0 && r.minKm <= 15 },
   { id: "m", label: "15-30 km", test: (r: Race) => r.distancesKm.some((k) => k > 15 && k <= 30) },
   { id: "l", label: "30-45 km", test: (r: Race) => r.distancesKm.some((k) => k > 30 && k <= 45) },
-  { id: "u", label: "ultra (45+ km)", test: (r: Race) => r.maxKm > 45 },
+  { id: "u", label: "ultra (ponad 45 km)", test: (r: Race) => r.maxKm > 45 },
 ];
 
 export function RaceList({ races, regions, today }: { races: RaceWithGeo[]; regions: string[]; today: string }) {
@@ -30,8 +30,8 @@ export function RaceList({ races, regions, today }: { races: RaceWithGeo[]; regi
   const [radius, setRadius] = useState(120);
   const [geoErr, setGeoErr] = useState("");
   const locate = () => {
-    if (!navigator.geolocation) { setGeoErr("Przeglądarka nie udostępnia lokalizacji."); return; }
-    navigator.geolocation.getCurrentPosition((p) => { setMe([p.coords.latitude, p.coords.longitude]); setGeoErr(""); }, () => setGeoErr("Brak zgody na lokalizację."), { timeout: 8000 });
+    if (!navigator.geolocation) { setGeoErr("Przeglądarka nie obsługuje lokalizacji."); return; }
+    navigator.geolocation.getCurrentPosition((p) => { setMe([p.coords.latitude, p.coords.longitude]); setGeoErr(""); }, () => setGeoErr("Brak zgody na udostępnienie lokalizacji."), { timeout: 8000 });
   };
 
   const months = useMemo(() => [...new Set(races.filter((r) => r.dateEnd >= today).map((r) => r.dateStart.slice(0, 7)))].sort(), [races, today]);

@@ -99,7 +99,7 @@ export const isVertical = (e: { km: number; dplus?: number }) => e.km <= 8 && !!
 
 /** 1-5: 5 = idealny pierwszy niepłaski bieg. Liczone od najkrótszego dystansu, który NIE jest verticalem. */
 export function beginnerScore(list: { km: number; dplus?: number }[], vertical: boolean, category?: string): { score: number; why: string } {
-  if (!list.length) return { score: 3, why: "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed decyzją." };
+  if (!list.length) return { score: 3, why: "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed zapisem." };
   const verticals = list.filter(isVertical);
   const normal = list.filter((e) => !isVertical(e));
   const why: string[] = [];
@@ -111,17 +111,17 @@ export function beginnerScore(list: { km: number; dplus?: number }[], vertical: 
   const grad = shortest.dplus ? shortest.dplus / shortest.km : undefined;
   let score = 3;
   if (shortest.km <= 12) { score += 1; why.push(`najkrótszy dystans ${shortest.km} km`); }
-  else if (shortest.km <= 22) { why.push(`najkrótszy dystans ${shortest.km} km (jak półmaraton, ale wolniej)`); }
-  else if (shortest.km <= 35) { score -= 1; why.push(`najkrótszy dystans ${shortest.km} km, to już długo w terenie`); }
+  else if (shortest.km <= 22) { why.push(`najkrótszy dystans ${shortest.km} km (jak półmaraton w terenie, zwykle wolniej)`); }
+  else if (shortest.km <= 35) { score -= 1; why.push(`najkrótszy dystans ${shortest.km} km to już długo w terenie`); }
   else { score -= 2; why.push(`najkrótszy dystans ${shortest.km} km, dystans ultra`); }
   if (grad !== undefined) {
-    if (grad <= 35) { score += 1; why.push(`łagodnie: ok. ${Math.round(grad)} m przewyższenia na km`); }
-    else if (grad <= 60) { why.push(`średnio stromo: ok. ${Math.round(grad)} m na km`); }
-    else { score -= 1; why.push(`stromo: ok. ${Math.round(grad)} m na km, dużo marszu pod górę`); }
+    if (grad <= 35) { score += 1; why.push(`łagodnie: ok. ${Math.round(grad)} m przewyższenia na kilometr`); }
+    else if (grad <= 60) { why.push(`średnio stromo: ok. ${Math.round(grad)} m przewyższenia na kilometr`); }
+    else { score -= 1; why.push(`stromo: ok. ${Math.round(grad)} m przewyższenia na kilometr, dużo marszu pod górę`); }
   } else {
     why.push("przewyższenie nieznane, sprawdź profil trasy");
   }
-  if (normal.length >= 3) { why.push("kilka dystansów na jednej imprezie, łatwo dobrać swój"); }
+  if (normal.length >= 3) { why.push("kilka dystansów na jednej imprezie, łatwiej dobrać właściwy"); }
   score = Math.max(1, Math.min(5, score));
   return { score, why: why.join("; ") + "." };
 }

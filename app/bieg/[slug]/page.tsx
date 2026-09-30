@@ -13,7 +13,7 @@ import { loadTrack } from "@/lib/gpxdata";
 import { RegionArt } from "@/components/RegionArt";
 import { IconExternal, IconDoc, IconCalendar, IconPin } from "@/components/Icons";
 
-const srcLabel: Record<string, string> = { gpx: "policzone z GPX", trasa: "wg podstrony Trasa organizatora", organizator: "wg strony organizatora", regulamin: "wg regulaminu", kalendarz: "wg kalendarza" };
+const srcLabel: Record<string, string> = { gpx: "policzone z GPX", trasa: "wg podstrony \"Trasa\" organizatora", organizator: "wg strony organizatora", regulamin: "wg regulaminu", kalendarz: "wg kalendarza" };
 
 export function generateStaticParams() { return allRaces.map((r) => ({ slug: r.id })); }
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -78,7 +78,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
                 );
               })}</ul>
             ) : <p className="text-[var(--muted)]">Dystanse nieznane, sprawdź u organizatora.</p>}
-            <p className="mt-2 text-xs text-[var(--muted)]">Kropka przy dystansie: zielona = dobry na start, żółta = ujdzie, czerwona = zły na start. Plakietka imprezy odpowiada najłatwiejszemu dystansowi.</p>
+            <p className="mt-2 text-xs text-[var(--muted)]">Kropka przy dystansie: zielona = dobry na start, żółta = ujdzie na start, czerwona = zły na start. Plakietka imprezy odpowiada najłatwiejszemu dystansowi.</p>
           </section>
 
           {profiles.length > 0 && (
@@ -93,17 +93,17 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
             <ul className="mt-2 text-sm list-disc pl-5 space-y-1">
               <li>Sprawdź <strong>limit czasu</strong> (cutoff) na swoim dystansie i punkty kontrolne z limitami pośrednimi.</li>
               {r.gear ? (
-                <li><strong>Sprzęt obowiązkowy wg regulaminu</strong> (wyciąg automatyczny z regulaminu, przed startem sprawdź oryginał): <ul className="mt-1 grid gap-0.5 sm:grid-cols-2 list-[square] pl-5">{r.gear.map((x) => <li key={x}>{x}</li>)}</ul></li>
+                <li><strong>Sprzęt obowiązkowy według regulaminu</strong> (wyciąg automatyczny z regulaminu, przed startem sprawdź oryginał): <ul className="mt-1 grid gap-0.5 sm:grid-cols-2 list-[square] pl-5">{r.gear.map((x) => <li key={x}>{x}</li>)}</ul></li>
               ) : (
-                <li>Sprawdź <strong>sprzęt obowiązkowy</strong> w regulaminie: w górach zwykle kurtka z membraną, czołówka, folia NRC, telefon, zapas wody i jedzenia.</li>
+                <li>Sprawdź <strong>sprzęt obowiązkowy</strong> w regulaminie: w górach zwykle potrzebne są kurtka przeciwdeszczowa z kapturem, czołówka, folia NRC, telefon, zapas wody i jedzenia.</li>
               )}
-              <li>Zobacz profil trasy: {r.elevations.some((e) => e.dplus) ? "przewyższenie przy dystansie mówi, ile będzie marszu." : "organizator nie podał przewyższenia, więc spójrz na mapę trasy."}</li>
+              <li>Zobacz profil trasy: {r.elevations.some((e) => e.dplus) ? "przewyższenie przy dystansie podpowiada, ile może być marszu." : "organizator nie podał przewyższenia, więc spójrz na mapę trasy."}</li>
             </ul>
           </section>
 
           {sim.length > 0 && (
             <section>
-              <h2 className="font-bold mb-2">Podobne biegi w okolicy terminu</h2>
+              <h2 className="font-bold mb-2">Podobne biegi w zbliżonym terminie</h2>
               <ul className="card divide-y divide-[#e3e7e1] p-0">{sim.map((x) => (
                 <li key={x.id}><Link href={`/bieg/${x.id}`} className="flex items-center gap-4 px-4 py-3 hover:bg-[#f2f5f1]">
                   <span className="w-24 shrink-0 text-xs font-semibold text-[var(--muted)]">{fmtDate(x.dateStart, x.dateEnd)}</span>
@@ -124,7 +124,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
           {g || mapTrack ? <RaceMap lat={g?.lat ?? mapTrack!.coords[0][1]} lng={g?.lng ?? mapTrack!.coords[0][0]} label={`${r.eventName}, ${r.city}`} track={mapTrack?.coords} /> : <div className="card text-sm text-[var(--muted)]">Mapa: brak współrzędnych dla "{r.city}".</div>}
           {mapTrack && mapTrackEl && <p className="text-xs text-[var(--muted)]">Na mapie: ślad GPX dystansu {fmtKm(mapTrackEl.km)}{mapTrackEl.dplusStale ? " (plik z poprzedniej edycji)" : ""}.</p>}
           <div className="grid gap-2">
-            {r.url && <a className="btn justify-center" href={r.url} target="_blank" rel="noopener"><IconExternal />Strona organizatora / zapisy</a>}
+            {r.url && <a className="btn justify-center" href={r.url} target="_blank" rel="noopener"><IconExternal />Strona organizatora i zapisy</a>}
             {r.regulaminUrl && <a className="btn btn-ghost justify-center" href={r.regulaminUrl} target="_blank" rel="noopener"><IconDoc />Regulamin{/\.pdf/i.test(r.regulaminUrl) ? " (PDF)" : ""}</a>}
             <a className="btn btn-ghost justify-center" href={`/ics/${r.id}`}><IconCalendar />Dodaj do kalendarza</a>
             <ShareButton title={r.eventName} />

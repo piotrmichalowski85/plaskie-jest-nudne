@@ -25,7 +25,7 @@ export function RaceCard({ race }: { race: Race }) {
       <div className="mt-3 flex flex-wrap gap-1.5">
         <span className="chip">{surfaceLabel[race.surface]}</span>
         {race.distancesKm.length > 0 && <span className="chip">{race.distancesKm.length > 3 ? `${fmtKm(race.minKm)} - ${fmtKm(race.maxKm)}` : race.distancesKm.map(fmtKm).join(" / ")}</span>}
-        {dplus && <span className="chip">+{dplus} m na najkrótszym</span>}
+        {dplus && <span className="chip">+{dplus} m na najkrótszym dystansie</span>}
       </div>
     </Link>
   );

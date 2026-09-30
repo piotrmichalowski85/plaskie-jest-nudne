@@ -5,7 +5,7 @@ import { Logo } from "@/components/Logo";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://plaskiejestnudne.pl"),
-  title: { default: "Płaskie jest nudne: biegi górskie i trail w Polsce", template: "%s | Płaskie jest nudne" },
+  title: { default: "Płaskie jest nudne: biegi górskie i trailowe w Polsce", template: "%s | Płaskie jest nudne" },
   description: "Kalendarz biegów górskich, trailowych i przełajowych w Polsce z filtrami po przewyższeniu, dystansie i regionie oraz kreator pierwszego niepłaskiego biegu.",
   openGraph: { type: "website", locale: "pl_PL", siteName: "Płaskie jest nudne" },
 };

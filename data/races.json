@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-28T10:55:14.480Z",
- "count": 187,
+ "generatedAt": "2026-09-30T13:12:48.841Z",
+ "count": 189,
  "races": [
   {
    "name": "Grand Prix Krakowa w biegach górskich",
@@ -55,7 +55,7 @@
    "minKm": 3.7,
    "maxKm": 23.2,
    "beginnerScore": 5,
-   "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Zamczyska Winter Trail",
@@ -88,7 +88,7 @@
    "minKm": 12.5,
    "maxKm": 12.5,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 12.5 km (jak półmaraton, ale wolniej); średnio stromo: ok. 52 m na km."
+   "beginnerWhy": "najkrótszy dystans 12.5 km (jak półmaraton w terenie, zwykle wolniej); średnio stromo: ok. 52 m przewyższenia na kilometr."
   },
   {
    "name": "GDYNIA ULTRA WAY - WINTER RACE: Stary Wilk, Nocny Jeleń, Tropem Rysia, Pół Dzika, Szybka Sarna",
@@ -135,7 +135,7 @@
    "minKm": 10.67,
    "maxKm": 100.66,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 10.67 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 10.67 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Zimowy Ultramaraton Annogórski",
@@ -174,7 +174,7 @@
    "minKm": 21,
    "maxKm": 50,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 21 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 21 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "11. Górski Zimowy Maraton Ślężański",
@@ -209,7 +209,7 @@
    "minKm": 24,
    "maxKm": 43,
    "beginnerScore": 2,
-   "beginnerWhy": "najkrótszy dystans 24 km, to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerWhy": "najkrótszy dystans 24 km to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "Zimowy Maraton Świętokrzyski",
@@ -249,7 +249,7 @@
    "minKm": 26,
    "maxKm": 48,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 26 km, to już długo w terenie; łagodnie: ok. 24 m przewyższenia na km."
+   "beginnerWhy": "najkrótszy dystans 26 km to już długo w terenie; łagodnie: ok. 24 m przewyższenia na kilometr."
   },
   {
    "name": "Ultra Kamieńsk",
@@ -288,7 +288,7 @@
    "minKm": 7,
    "maxKm": 30,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 7 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 7 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "XIII Karnawałowy Bieg Górski PIELGRZYM",
@@ -357,7 +357,7 @@
    "minKm": 16,
    "maxKm": 45,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 16 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 16 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "VII Bieszczadzki Rajd Pieszy",
@@ -392,7 +392,7 @@
    "minKm": 16,
    "maxKm": 27,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 16 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerWhy": "najkrótszy dystans 16 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "MARRODENT WINTER RUN: VII Zimowy Bieg po Zdrój",
@@ -527,7 +527,7 @@
    "minKm": 13,
    "maxKm": 18,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 13 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerWhy": "najkrótszy dystans 13 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "Grand Prix Krakowa w biegach górskich",
@@ -582,7 +582,7 @@
    "minKm": 3.7,
    "maxKm": 23.2,
    "beginnerScore": 5,
-   "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Koliba Łomnicka",
@@ -613,7 +613,7 @@
    "minKm": 15,
    "maxKm": 15,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "Janosik Winter Race: Spacer Murgrabiego - 55km, Bedzies Kwicoł - 30km, Zawiany Pyzdra - 21km, Kierpce Maryny - 10km, Kierpce Maryny - 10km - Marsz NW, Biegi dla dzieci",
@@ -656,7 +656,7 @@
    "minKm": 10,
    "maxKm": 55,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Bieg Zdobywców Modyni - zima 2026: Bieg główny 8.5 km (+ok 450 m), Marsz Nordic Walking 8.5 km, Bieg 17 km (+840 m), Biegi dla dzieci",
@@ -734,7 +734,7 @@
    "minKm": 6,
    "maxKm": 48,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Podhalańskie Rajdy Piesze: Zimowe Gorce",
@@ -772,7 +772,7 @@
    "minKm": 6,
    "maxKm": 22,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "ZAMIEĆ: 6h 12h 24h",
@@ -797,7 +797,7 @@
    "minKm": 0,
    "maxKm": 0,
    "beginnerScore": 3,
-   "beginnerWhy": "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed decyzją."
+   "beginnerWhy": "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed zapisem."
   },
   {
    "name": "2. Puchar KALWARII 2026: Janowiec",
@@ -874,7 +874,7 @@
    "minKm": 1,
    "maxKm": 50,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 1 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 1 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Gorce Ultra-Trail® WINTER: GUT 42 KM - Śnieżne Wyzwanie +/-2080 m, GUT 34 KM - Zimny Wdżar +/-1460 m, GUT 24 KM - Którędy na Lubań +/-960 m, GUT 10 KM - ZaDyszka +/-440 m",
@@ -917,7 +917,7 @@
    "minKm": 10,
    "maxKm": 42,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "XII Zimowy Ultramaraton Karkonoski: im. Tomka Kowalskiego",
@@ -985,7 +985,7 @@
    "minKm": 18,
    "maxKm": 50,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 18 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 18 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Grand Prix Krakowa w biegach górskich",
@@ -1040,7 +1040,7 @@
    "minKm": 3.7,
    "maxKm": 23.2,
    "beginnerScore": 5,
-   "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "2. Puchar KALWARII 2026: Bardo, Strażackie Mistrzostwa w Biegu Pod Górę Powiatu Ząbkowickiego",
@@ -1117,7 +1117,7 @@
    "minKm": 30,
    "maxKm": 100,
    "beginnerScore": 2,
-   "beginnerWhy": "najkrótszy dystans 30 km, to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 30 km to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "X-RUN Tajemnicze Kopce",
@@ -1156,7 +1156,7 @@
    "minKm": 14,
    "maxKm": 32,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 14 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 14 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "BARAN TRAIL RACE WINTER EDITION",
@@ -1194,7 +1194,7 @@
    "minKm": 10,
    "maxKm": 60,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "WIOSENNY ULTRA ŚWIR",
@@ -1225,7 +1225,7 @@
    "minKm": 17,
    "maxKm": 17,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 17 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerWhy": "najkrótszy dystans 17 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "IV Bieg po Bańkę Mleka: III Bieg po Byczy Róg",
@@ -1299,7 +1299,7 @@
    "minKm": 28,
    "maxKm": 82,
    "beginnerScore": 2,
-   "beginnerWhy": "najkrótszy dystans 28 km, to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 28 km to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "DUCH POGÓRZA: Demon 200km, Upiór 115km, Duch 60km, Duszek 30km, Diabelska trzynastka 13km",
@@ -1345,7 +1345,7 @@
    "minKm": 13,
    "maxKm": 208,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 13 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 13 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "12. Górska Pętla UBS 12:12 ULTRA: Górska Pętla UBS 16 km",
@@ -1376,7 +1376,7 @@
    "minKm": 16,
    "maxKm": 16,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 16 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerWhy": "najkrótszy dystans 16 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "Bieg Kreta",
@@ -1435,7 +1435,7 @@
    "minKm": 0,
    "maxKm": 0,
    "beginnerScore": 3,
-   "beginnerWhy": "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed decyzją."
+   "beginnerWhy": "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed zapisem."
   },
   {
    "name": "VIII Festiwal Pieszo-Biegowy PRZEDWIOŚNIE",
@@ -1478,7 +1478,7 @@
    "minKm": 25,
    "maxKm": 101,
    "beginnerScore": 2,
-   "beginnerWhy": "najkrótszy dystans 25 km, to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 25 km to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Kudowska Sztafeta Górska: Sztafeta Górska 3×25, Solo 75 km, O-Błędny Maraton 42km, Półmaraton Błędnych Skał 21km, Kudowska Dziesiątka 10km",
@@ -1524,7 +1524,7 @@
    "minKm": 10,
    "maxKm": 75,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Perły Małopolski - Skała - Ojców: 22,1km / 11,8km / 6,5km / zawody dla dzieci",
@@ -1563,7 +1563,7 @@
    "minKm": 6.5,
    "maxKm": 22.1,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 6.5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 6.5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "X-RUN Mercure Szczyrk Run",
@@ -1606,7 +1606,7 @@
    "minKm": 6,
    "maxKm": 45,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Szczyt Wytrzymałości Wiosna: 12H, 8848 Everest",
@@ -1655,7 +1655,7 @@
    "minKm": 95,
    "maxKm": 95,
    "beginnerScore": 1,
-   "beginnerWhy": "najkrótszy dystans 95 km, dystans ultra; stromo: ok. 93 m na km, dużo marszu pod górę."
+   "beginnerWhy": "najkrótszy dystans 95 km, dystans ultra; stromo: ok. 93 m przewyższenia na kilometr, dużo marszu pod górę."
   },
   {
    "name": "Run & Bike Orlich Gniazd",
@@ -1702,7 +1702,7 @@
    "minKm": 5,
    "maxKm": 190,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Kazimierz Dolny Race: Maraton Złoty Kogut - 40km, Półmaraton Srebrny Kogut - 21km, Brązowy Kogut - 10km, Półmaraton Srebrny Kogut- Spacer, Półmaraton Srebrny Kogut- Nordic Walking, Kurczak Kids – biegi dla Dzieci i młodzieży",
@@ -1741,7 +1741,7 @@
    "minKm": 10,
    "maxKm": 40,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "PIENINY ULTRA-TRAIL: Lubań Vertical: 6,7 km, PZLA MP w Biegach Górskich - UPHILL, Hardy Rolling: 12,9 km, PZLA MP w Biegach Górskich - MOUNTAIN CLASSIC, Chyża Durbaszka: 22,9 km, Żwawe Wierchy: 33,2 km, Wielka Prehyba: 43,5 km, PZLA MP w Biegach Górskich - SHORT TRAIL, Dziki Groń: 64,4 km, Niepokorny Mnich: 92,2 km, Spiski Wędrowiec: 135,7 km",
@@ -1800,7 +1800,7 @@
    "minKm": 6.7,
    "maxKm": 135.7,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 6.7 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 6.7 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Festiwal Biegów Górskich 3xKopa: Vertical 3,7 km + 530 m, Głucha Dyszka 10 km +/- 450 m, Dwudziesta Karlika 21 km +/- 1150 m, Maraton Opawski 44 km +/- 2300 m, Ultramaraton 3xKopa 63 km +/- 3200 m, Petrovicka Setka 104 +/-4850 m",
@@ -1851,7 +1851,7 @@
    "minKm": 3.7,
    "maxKm": 104,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 3.7 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 3.7 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Meble Wójcik Ultra Wysoczyzna: Ryk Jelenia 103km, Wycie Wilka 54 km, Kwik Dzika 22km, Pisk Lisa 13km, Huk Sowy 6km",
@@ -1898,7 +1898,7 @@
    "minKm": 6,
    "maxKm": 103,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Zamczyska Trail",
@@ -1939,7 +1939,7 @@
    "minKm": 10,
    "maxKm": 21,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 10 km; średnio stromo: ok. 60 m na km."
+   "beginnerWhy": "najkrótszy dystans 10 km; średnio stromo: ok. 60 m przewyższenia na kilometr."
   },
   {
    "name": "MARATON GÓRSKI - LEŚNIK: Vertical LEŚNIKA, Piesza Dyszka LEŚNIKA, PółLEŚNIK, LEŚNIK",
@@ -1982,7 +1982,7 @@
    "minKm": 4,
    "maxKm": 49,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 4 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 4 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Nocny Bieg Podkowca",
@@ -2075,7 +2075,7 @@
    "minKm": 22,
    "maxKm": 22,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 22 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerWhy": "najkrótszy dystans 22 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "BACA RUN: Bieg Jednego Schroniska - 8km, Bieg Dwóch Schronisk - 15km, Bieg Trzech Schronisk - 22,5km, Biegi dla dzieci",
@@ -2114,7 +2114,7 @@
    "minKm": 8,
    "maxKm": 22.5,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 8 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 8 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Garmin Ultra Race Myślenice",
@@ -2157,7 +2157,7 @@
    "minKm": 13,
    "maxKm": 78,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 13 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 13 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "5. Festiwal Górski Półmaraton Jedlina-Zdrój",
@@ -2200,7 +2200,7 @@
    "minKm": 10,
    "maxKm": 52,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "XXIX Ogólnopolski Górski Bieg Magurki",
@@ -2308,7 +2308,7 @@
    "minKm": 15,
    "maxKm": 65,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Rajd Pieszy - Sowie Dreptanie",
@@ -2377,7 +2377,7 @@
    "minKm": 22,
    "maxKm": 50,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 22 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 22 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Ultra-Trail Małopolska",
@@ -2428,7 +2428,7 @@
    "minKm": 13,
    "maxKm": 240,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 13 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 13 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "I GÓRSKI PÓŁMARATON SZCZYTNIAŃSKI: NORDIC WALKING 10KM",
@@ -2502,7 +2502,7 @@
    "minKm": 9.7,
    "maxKm": 43,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 9.7 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 9.7 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Ultramaraton Jaga-Kora: Ultramaraton „Orzeł\" 100km +3500m, Ultramaraton „Horbki\" 70km +2050, Maraton Kurier 42km +1450m, Nocny Piotruś 33km +1400m, Surowica Trail 19km +550m",
@@ -2549,7 +2549,7 @@
    "minKm": 19,
    "maxKm": 100,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 19 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 19 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "ULTRAPODKARPACIE",
@@ -2595,7 +2595,7 @@
    "minKm": 10,
    "maxKm": 100,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "STRYSZÓW W BIEGU: Stryszowski Półmaraton Górski, Stryszowska Zadyszka, Rodzinna Szóstka Bo Blisko",
@@ -2634,7 +2634,7 @@
    "minKm": 6,
    "maxKm": 21,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "XII Festiwal Biegu Rzeźnika: III Rzeźnicka Piątka, IX Dycha na Jeleni Skok, V Rzeźnicki Marsz z Walking Lovers, XV Rzeźniczek, XXIII Bieg Rzeźnika, V Maraton Rzeźnika, Rzeźnicki Szlem",
@@ -2709,7 +2709,7 @@
    "minKm": 5,
    "maxKm": 175,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "RZEŹNIK 500",
@@ -2771,7 +2771,7 @@
    "minKm": 14.6,
    "maxKm": 14.6,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 14.6 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerWhy": "najkrótszy dystans 14.6 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "SFBG: Sudecki Festiwal Biegów Górskich:, Historyczna Dycha 10 km, Półmaraton Szlakiem Riese 21 km, Sudecki Olbrzym 43 km",
@@ -2810,7 +2810,7 @@
    "minKm": 10,
    "maxKm": 43,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Ultramaraton 6xBabia Góra - 75km +5200m/-5200m: Ultramaraton 4xBabia Góra - 55km +3800m/-3800m, Mistrzostwa Polski w Skyrunning Ultra, 3xBabia Góra Maraton - 40km +2800m/-2800m, 2xBabia Góra SkyRace® - 20km, +1700m/-1700m, Babia Góra Rolling Trail - 8km, +370m/-370m",
@@ -2857,7 +2857,7 @@
    "minKm": 8,
    "maxKm": 75,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 8 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 8 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Pogórzański Festiwal Biegowy – Lato",
@@ -2905,7 +2905,7 @@
    "minKm": 5,
    "maxKm": 22,
    "beginnerScore": 5,
-   "beginnerWhy": "najkrótszy dystans 5 km; łagodnie: ok. 16 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 5 km; łagodnie: ok. 16 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "BIEGI W ROGOŹNIKU: VI Ultra Rogo Hero (URH) – 104 km, X Maraton 7 Jezior (M7J) – 43 km, XI Półmaraton Dorotki z Plusem (PD+) – 30 km, X Rogocross (RC) - 11 km, II RogoPiątka (RP) - 5,5km",
@@ -2951,7 +2951,7 @@
    "minKm": 5.5,
    "maxKm": 104,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 5.5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 5.5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "TATRA FEST: TATRA FEST BIEG 68 km, Mistrzostwa Polski PZLA long dystans, TATRA FEST RUN 22, TATRA FEST RUN 11, TATRA FEST VERTICAL",
@@ -2994,7 +2994,7 @@
    "minKm": 0.3,
    "maxKm": 68,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 0.3 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 0.3 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "SUSZECKI FESTIWAL BIEGOWY: 21km / 10km / 5km, Marsz 5km, Biegi dla dzieci i młodzieży",
@@ -3037,7 +3037,7 @@
    "minKm": 1.8,
    "maxKm": 21,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 1.8 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 1.8 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Zawojski Festiwal Biegowy: Zawojska 6, Zawojska 6 Marsz NW, Półmaraton Zawojski, Małopolski Maraton Górski, Diablak Ultra Trail 60, Diablak Pilsko Ultra Trail 100",
@@ -3084,7 +3084,7 @@
    "minKm": 6.2,
    "maxKm": 106,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 6.2 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 6.2 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Coconaut Pomerania Summer Trail",
@@ -3127,7 +3127,7 @@
    "minKm": 1,
    "maxKm": 45,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 1 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 1 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "XII BIEG WIERCHAMI: ULTRA WIERCHAMI - 65km, MARATON WIERCHAMI - 45km, PÓŁMARATON WIERCHAMI - 23km, DYCHA WIERCHAMI - 10km, PIĄTKA WIERCHAMI - 5km, PĘTLA WIERCHAMI bieg godzinny, Bieg Wierchami dla dzieci",
@@ -3174,7 +3174,7 @@
    "minKm": 5,
    "maxKm": 65,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "ULTRA TURNICKI: Rybotyckie Sploty 10 km, Suchy Obycz 24 km, Połoniny Trail 48 km, Pomocna Woda 75 km",
@@ -3217,7 +3217,7 @@
    "minKm": 10,
    "maxKm": 75,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Perły Małopolski - Wapienne - Magura: 51,4km / 24,6km / 14,6km / 5,5km / zawody dla dzieci",
@@ -3260,7 +3260,7 @@
    "minKm": 5.5,
    "maxKm": 51.4,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 5.5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 5.5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "GDYNIA ULTRA WAY SUMMER RACE: GWIAZDA PÓŁNOCY 160 km+, GDAŃSKA SETKA PÓŁNOCY 100 km+, KLIFY O PORANKU 50 km+, SŁONECZNE POPOŁUDNIE 27 km+, NADMORSKI MENDEL 14 km+",
@@ -3307,7 +3307,7 @@
    "minKm": 14.86,
    "maxKm": 164.49,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 14.86 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 14.86 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Małopolskie Biegi Górskie: Krynicka Setka 100 km, Aria Kiepury 60 km, Powrót Nikifora 42 km, Słotwiny Arena 21 km, Małopolska Dycha 10 km, Piątka Małopolska 5 km, Super Puchar Małopolski, Towarzyszki Marsz Seniora, Słotwiny Arena Junior",
@@ -3371,7 +3371,7 @@
    "minKm": 5,
    "maxKm": 100,
    "beginnerScore": 5,
-   "beginnerWhy": "najkrótszy dystans 5 km; łagodnie: ok. 25 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 5 km; łagodnie: ok. 25 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "XXVII BIEG GÓRSKI ŻAR 2026",
@@ -3441,7 +3441,7 @@
    "minKm": 5.5,
    "maxKm": 22,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 5.5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 5.5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "IZERY ULTRA TRAIL: 16/25/35/50/70/100, Izery Trail Kids",
@@ -3492,7 +3492,7 @@
    "minKm": 16,
    "maxKm": 100,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 16 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 16 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Super Maraton Gór Stołowych: SGS Ultra, SGS Light Półmaraton",
@@ -3526,7 +3526,7 @@
    "minKm": 21,
    "maxKm": 55,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 21 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerWhy": "najkrótszy dystans 21 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "TURBACZ SUMMER TRAIL: Mizuno Letnia Dwunastka, TST 27/Bez Barier, TST na 6 Łap, Gorce Maraton",
@@ -3565,7 +3565,7 @@
    "minKm": 12,
    "maxKm": 42,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 12 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 12 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Załęcze Ultra Run 2026",
@@ -3608,7 +3608,7 @@
    "minKm": 5,
    "maxKm": 60,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Śmierdzący Leń: Mały Śmierdzący Leń",
@@ -3682,7 +3682,7 @@
    "minKm": 5,
    "maxKm": 20,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "XVIII Wysokogórskiego Bieg im. druha Franciszka Marduły: XIV Mistrzostwa Polski w Biegach Wysokogórskich Skyrunning Classic",
@@ -3713,7 +3713,7 @@
    "minKm": 32,
    "maxKm": 32,
    "beginnerScore": 2,
-   "beginnerWhy": "najkrótszy dystans 32 km, to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerWhy": "najkrótszy dystans 32 km to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "XIII Bieg do Morskiego Oka im. Władysława hrabiego Zamoyskiego",
@@ -3778,7 +3778,7 @@
    "minKm": 7,
    "maxKm": 7,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 7 km; średnio stromo: ok. 43 m na km."
+   "beginnerWhy": "najkrótszy dystans 7 km; średnio stromo: ok. 43 m przewyższenia na kilometr."
   },
   {
    "name": "11. Bieg na Bucze & Nordic Walking",
@@ -3834,7 +3834,7 @@
    "minKm": 0,
    "maxKm": 0,
    "beginnerScore": 3,
-   "beginnerWhy": "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed decyzją."
+   "beginnerWhy": "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed zapisem."
   },
   {
    "name": "Dolnośląski Festiwal Biegów Górskich (DFBG): Bieg 7 Szczytów 240, Sto Mil Trail 170, Super Trail 130, K-B-L 110, Ultra Trail 70, Złoty Maraton 45, Golden Mountains Trail 33, Złoty Półmaraton 21, Nocny Trail 15, Trojak Trail 10",
@@ -3900,7 +3900,7 @@
    "minKm": 10,
    "maxKm": 240,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Garmin Ultra Race Tolkmicko",
@@ -3943,7 +3943,7 @@
    "minKm": 14,
    "maxKm": 81,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 14 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 14 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Duch Sanu",
@@ -3967,7 +3967,7 @@
    "minKm": 0,
    "maxKm": 0,
    "beginnerScore": 3,
-   "beginnerWhy": "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed decyzją."
+   "beginnerWhy": "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed zapisem."
   },
   {
    "name": "VII Bieg Górski o ZŁOTĄ PAPROĆ: Prezesa Firmy JONIEC®",
@@ -4057,7 +4057,7 @@
    "minKm": 5,
    "maxKm": 120,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "PUT - Pogórze Ultra Trail: NOWICJUSZ - 13km, PÓŁÓWKA W PARYJACH - 23km, MARATON NA HERBY - 44km, POGÓRZE ULTRA TRAIL - 69km",
@@ -4100,7 +4100,7 @@
    "minKm": 13,
    "maxKm": 69,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 13 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 13 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "V Festiwal Biegowy Pod Chełmcem: Półmaraton Babinicza (22 km), Bieg Idy (10 km), Bieg Uzdrowiskowy (5 km), Bieg z przeszkodami dla dzieci.",
@@ -4139,7 +4139,7 @@
    "minKm": 5,
    "maxKm": 22,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "X-RUN Ucieczka św.Kingi",
@@ -4178,7 +4178,7 @@
    "minKm": 14,
    "maxKm": 40,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 14 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 14 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "XI Festiwal Biegów Górskich Gorce Ultra-Trail®: ☀ GUT 102 KM +/-4250 m, ☀ GUT 66 KM +/-3300, ☀ GUT 48 KM +/-2360 m, ☀ GUT 33 KM +/-1600, ☀ GUT 20 KM +/-1100 m, ☀ GUT 12 KM +620 m/ -860 m, ☀ GUT 5 KM +740 m/ -20 m",
@@ -4233,7 +4233,7 @@
    "minKm": 5,
    "maxKm": 102,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Chudy Wawrzyniec (100/80/50 km): Parszywa Bendoszka – 60 km, Mała Rycerzowa – 20 km, Muńcuł Vertical – 3 km",
@@ -4284,7 +4284,7 @@
    "minKm": 2.9,
    "maxKm": 102,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 2.9 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 2.9 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Letni Bieg Zbója: 7km - Zbójniczek, 11km - Nowa Twarz Zbójnika, 25km - Zbójnik, 34km - Hardy Zbój, 42km - Wielki Zbój",
@@ -4331,7 +4331,7 @@
    "minKm": 7,
    "maxKm": 42,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 7 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 7 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "niedamiRUN",
@@ -4373,7 +4373,7 @@
    "minKm": 13.1,
    "maxKm": 96.4,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 13.1 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 13.1 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "17. BIEG NA WIELKĄ SOWĘ",
@@ -4435,7 +4435,7 @@
    "minKm": 15.3,
    "maxKm": 15.3,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 15.3 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerWhy": "najkrótszy dystans 15.3 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "XIII Bieg Alpejski Kowary - Okraj",
@@ -4544,7 +4544,7 @@
    "minKm": 3,
    "maxKm": 24,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 3 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 3 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "VII Nocny Bieg: Grand Prix Krakowa w biegach górskich",
@@ -4599,7 +4599,7 @@
    "minKm": 3.7,
    "maxKm": 23.2,
    "beginnerScore": 5,
-   "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "JOMA Diablak SKYRACE® - 23km (+/-1900m): JOMA Diablak SKYMARATHON - 40km (+/-3000m), Bieg Zachodzącego Słońca na Babią Górę - 4,7km (+850m)",
@@ -4641,7 +4641,7 @@
    "minKm": 4.6,
    "maxKm": 40,
    "beginnerScore": 3,
-   "beginnerWhy": "pomijamy vertical 4.6 km (sam podbieg), liczymy od 22 km; najkrótszy dystans 22 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerWhy": "pomijamy vertical 4.6 km (sam podbieg), liczymy od 22 km; najkrótszy dystans 22 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "14 LETNI BIEG PIASTÓW: Bieg Śniadaniowy 6km, Jakuszycki Ultramaraton, Jakuszycki Półmaraton, Jakuszycka 13, Marsz Nordic Walking",
@@ -4688,7 +4688,7 @@
    "minKm": 6,
    "maxKm": 50,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "X Jubileuszowy Charytatywny Cross oraz Nordic Walking w Iwoniczu-Zdroju",
@@ -4727,7 +4727,7 @@
    "minKm": 3.5,
    "maxKm": 11,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 3.5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 3.5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "11. BIEG KURIERÓW SĄDECKICH",
@@ -4830,7 +4830,7 @@
    "minKm": 10,
    "maxKm": 51,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Letni Ultra Świr",
@@ -4861,7 +4861,7 @@
    "minKm": 17,
    "maxKm": 17,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 17 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerWhy": "najkrótszy dystans 17 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "Królowa Wołtuszowa Trail: 3x Królowa Wołtuszowa 13,8km (+606m), 6x Królowa Wołtuszowa 27,6km (+1212m)",
@@ -4896,7 +4896,7 @@
    "minKm": 13.8,
    "maxKm": 27.6,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 13.8 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerWhy": "najkrótszy dystans 13.8 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "Bieg Zdobywców Modyni: Bieg 6 Szczytów – 35 km, Pętla Modyni – 17 km, Modyń – 8,5 km, Nordic Walking – 8,5 km, Biegi dziecięce",
@@ -4935,7 +4935,7 @@
    "minKm": 8.5,
    "maxKm": 35,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 8.5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 8.5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Perły Małopolski - Szczawnica - Pieniny: 49,65km / 21,3km / 10,8km / 5,6km / zawody dla dzieci",
@@ -4978,7 +4978,7 @@
    "minKm": 5.6,
    "maxKm": 49.65,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 5.6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 5.6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Garmin Ultra Race Radków",
@@ -5065,7 +5065,7 @@
    "minKm": 11,
    "maxKm": 163,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 11 km; średnio stromo: ok. 55 m na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 11 km; średnio stromo: ok. 55 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Szczebel CUP by Ultra-Trail Małopolska",
@@ -5084,7 +5084,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://utm.run/wp-content/uploads/static/SZCZEBEL_CUP.gpx",
      "gpx": "4a8589f7345e",
-     "dplusCheckedAt": "2026-09-28"
+     "dplusCheckedAt": "2026-09-30"
     }
    ],
    "vertical": false,
@@ -5110,7 +5110,7 @@
    "minKm": 21,
    "maxKm": 21,
    "beginnerScore": 2,
-   "beginnerWhy": "najkrótszy dystans 21 km (jak półmaraton, ale wolniej); stromo: ok. 93 m na km, dużo marszu pod górę."
+   "beginnerWhy": "najkrótszy dystans 21 km (jak półmaraton w terenie, zwykle wolniej); stromo: ok. 93 m przewyższenia na kilometr, dużo marszu pod górę."
   },
   {
    "name": "Róża Wiatrów Jeziora Mausz: Bieg i Nordic Walking 5 km, Bieg i Nordic Walking 10 km, Półmaraton i Nordic Walking 21 km, Maraton 42 km, Ultra Róża Wiatrów 52,5 km",
@@ -5162,7 +5162,7 @@
    "minKm": 5,
    "maxKm": 52.5,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Janosik Ultra Race:Maryna 10km: Pyzdra 20 km, Pyzdra 20 km Marsz NW, Kwicoł 40km, Legenda 75 km, Janosik KIDS - dla dzieci i młodzieży",
@@ -5190,7 +5190,7 @@
      "dplus": 487,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Pyzdra-20-km.gpx",
-     "dplusCheckedAt": "2026-09-28",
+     "dplusCheckedAt": "2026-09-30",
      "dplusStale": true,
      "gpx": "7ea021f186a9"
     },
@@ -5199,7 +5199,7 @@
      "dplus": 1204,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Kwicol-40-km.gpx",
-     "dplusCheckedAt": "2026-09-28",
+     "dplusCheckedAt": "2026-09-30",
      "dplusStale": true,
      "gpx": "e82bd411475a"
     },
@@ -5208,7 +5208,7 @@
      "dplus": 3249,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2026-Legenda-75-km.gpx",
-     "dplusCheckedAt": "2026-09-28",
+     "dplusCheckedAt": "2026-09-30",
      "gpx": "ce757376282b"
     }
    ],
@@ -5239,7 +5239,7 @@
    "minKm": 10,
    "maxKm": 75,
    "beginnerScore": 5,
-   "beginnerWhy": "najkrótszy dystans 10 km; łagodnie: ok. 18 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 10 km; łagodnie: ok. 18 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "XII Bieg Przełajowy - Bardzka Piąteczka 5/10/15 km",
@@ -5277,7 +5277,7 @@
    "minKm": 5,
    "maxKm": 15,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "X-RUN Vistula Trail",
@@ -5299,7 +5299,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/08/XRUN_Vistula_Trail_Start.gpx",
      "gpx": "16d6fbfd531c",
-     "dplusCheckedAt": "2026-09-28"
+     "dplusCheckedAt": "2026-09-30"
     },
     {
      "km": 15,
@@ -5307,7 +5307,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/08/XRUN_Vistula_Trail_Intro.gpx",
      "gpx": "a3c57adb8f36",
-     "dplusCheckedAt": "2026-09-28"
+     "dplusCheckedAt": "2026-09-30"
     },
     {
      "km": 24,
@@ -5315,7 +5315,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/08/XRUN_Vistula_Trail_Classic.gpx",
      "gpx": "617087805737",
-     "dplusCheckedAt": "2026-09-28"
+     "dplusCheckedAt": "2026-09-30"
     },
     {
      "km": 35
@@ -5344,7 +5344,7 @@
    "minKm": 6,
    "maxKm": 35,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 6 km; średnio stromo: ok. 53 m na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 6 km; średnio stromo: ok. 53 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "IX Biegi Górskie Sanok: 5 km Nordic Walking, Piątka Gajowego – 5 km, Pierwsza Dycha – 10 km, Orli – ok. 26 km, Słonny – 50 km, Dzika Setka – 100 km, Podkarpacki Szlak – 170 km, Ultra Wyrypa – 270 km",
@@ -5425,7 +5425,7 @@
    "minKm": 5,
    "maxKm": 270,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "RAJD PIESZY: „Tam i z Powrotem\"",
@@ -5494,7 +5494,7 @@
    "minKm": 5,
    "maxKm": 77,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "XIX Alpin Sport Tatrzański Bieg Pod Górę: Mistrzostwa Polski Skyrunning Vertical KM",
@@ -5538,7 +5538,7 @@
    "minKm": 8.5,
    "maxKm": 8.5,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 8.5 km; stromo: ok. 126 m na km, dużo marszu pod górę."
+   "beginnerWhy": "najkrótszy dystans 8.5 km; stromo: ok. 126 m przewyższenia na kilometr, dużo marszu pod górę."
   },
   {
    "name": "Festiwal Górski Maraton Trzech Jezior: Czupel Vertical 3.5km +600m, Szlakiem Wołoskich Pasterzy 17km, Rollercoaster 21km, (finałem Pucharu Świata WMRA w biegach górskich), Maraton 3 Jezior 46kmm",
@@ -5610,7 +5610,7 @@
    "minKm": 3.5,
    "maxKm": 46,
    "beginnerScore": 2,
-   "beginnerWhy": "pomijamy vertical 3.5 km (sam podbieg), liczymy od 17 km; najkrótszy dystans 17 km (jak półmaraton, ale wolniej); stromo: ok. 72 m na km, dużo marszu pod górę; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "pomijamy vertical 3.5 km (sam podbieg), liczymy od 17 km; najkrótszy dystans 17 km (jak półmaraton w terenie, zwykle wolniej); stromo: ok. 72 m przewyższenia na kilometr, dużo marszu pod górę; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Głuchołaski Bieg Górski",
@@ -5660,7 +5660,7 @@
    "minKm": 5,
    "maxKm": 15,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "IV WILCZY PĘD NA TRÓJMORSKI WIERCH",
@@ -5779,7 +5779,7 @@
    "minKm": 9,
    "maxKm": 24,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 9 km; średnio stromo: ok. 57 m na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 9 km; średnio stromo: ok. 57 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Ślężański Festiwal Biegowy: Maraton, Półmaraton, Dziesiątka, Sztafeta 10+33+23km",
@@ -5831,7 +5831,7 @@
    "minKm": 10.5,
    "maxKm": 66,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 10.5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 10.5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "XI Bieg Beskidnika",
@@ -5870,7 +5870,7 @@
    "minKm": 6,
    "maxKm": 50,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Festiwal Biegowy JuraRun",
@@ -5903,7 +5903,7 @@
      "dplus": 393,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j21h.gpx",
-     "dplusCheckedAt": "2026-09-28",
+     "dplusCheckedAt": "2026-09-30",
      "gpx": "cdec575b3f4f"
     },
     {
@@ -5911,7 +5911,7 @@
      "dplus": 586,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j42h.gpx",
-     "dplusCheckedAt": "2026-09-28",
+     "dplusCheckedAt": "2026-09-30",
      "gpx": "dc7a5c91fcdd"
     },
     {
@@ -5919,7 +5919,7 @@
      "dplus": 1094,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j80h.gpx",
-     "dplusCheckedAt": "2026-09-28",
+     "dplusCheckedAt": "2026-09-30",
      "gpx": "695f72b9675c"
     },
     {
@@ -5927,7 +5927,7 @@
      "dplus": 1450,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j100h.gpx",
-     "dplusCheckedAt": "2026-09-28",
+     "dplusCheckedAt": "2026-09-30",
      "gpx": "175b992a02fa"
     }
    ],
@@ -5961,13 +5961,13 @@
     }
    ],
    "signupOpen": true,
-   "participants": 297,
+   "participants": 296,
    "id": "festiwal-biegowy-jurarun-2026-10-02",
    "surface": "trail",
    "minKm": 5,
    "maxKm": 104,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Baran Trail Race BTR: 10 km, 25 km, 59 km, 107 km",
@@ -5989,7 +5989,7 @@
      "gpx": "ce107d34005e",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/uploads/2025/07/BaranTrailRace10.gpx",
-     "dplusCheckedAt": "2026-09-28",
+     "dplusCheckedAt": "2026-09-30",
      "dplusStale": true
     },
     {
@@ -5998,7 +5998,7 @@
      "gpx": "5421d44db270",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/uploads/2025/07/BaranTrailRace25.gpx",
-     "dplusCheckedAt": "2026-09-28",
+     "dplusCheckedAt": "2026-09-30",
      "dplusStale": true,
      "limitH": 5
     },
@@ -6031,7 +6031,7 @@
    "minKm": 10,
    "maxKm": 107,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 10 km; średnio stromo: ok. 56 m na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 10 km; średnio stromo: ok. 56 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "XIII Podbieg na Makowicę",
@@ -6096,16 +6096,16 @@
     },
     {
      "name": "regulamin",
-     "url": "https://b4sportonline.pl/users-folder/741/files/regulamin_Przehyba_Trail_2026___aktualizacja_(1).pdf"
+     "url": "https://b4sportonline.pl/users-folder/741/files/regulamin_Przehyba_Trail_2026.pdf"
     }
    ],
-   "regulaminUrl": "https://b4sportonline.pl/users-folder/741/files/regulamin_Przehyba_Trail_2026___aktualizacja_(1).pdf",
+   "regulaminUrl": "https://b4sportonline.pl/users-folder/741/files/regulamin_Przehyba_Trail_2026.pdf",
    "id": "przehyba-trail-2026-10-03",
    "surface": "trail",
    "minKm": 23,
    "maxKm": 43,
    "beginnerScore": 2,
-   "beginnerWhy": "najkrótszy dystans 23 km, to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 23 km to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Bison Ultra-Trail",
@@ -6165,7 +6165,7 @@
    "minKm": 10,
    "maxKm": 100,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "X Bieg Liczyrzepy im. Radosława Szwade",
@@ -6258,7 +6258,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/Muszyna_Start_Trail_6_km.gpx",
      "gpx": "ded571484e41",
-     "dplusCheckedAt": "2026-09-28"
+     "dplusCheckedAt": "2026-09-30"
     },
     {
      "km": 23,
@@ -6266,7 +6266,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/Muszyna_Trail_Intro_Trail.gpx",
      "gpx": "caf5083473b9",
-     "dplusCheckedAt": "2026-09-28"
+     "dplusCheckedAt": "2026-09-30"
     },
     {
      "km": 31,
@@ -6274,7 +6274,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/Muszyna_Trail_Classic_Trail.gpx",
      "gpx": "cb567dad5484",
-     "dplusCheckedAt": "2026-09-28"
+     "dplusCheckedAt": "2026-09-30"
     },
     {
      "km": 43,
@@ -6282,7 +6282,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/Muszyna_Trail_Long_Trail.gpx",
      "gpx": "49371425f97e",
-     "dplusCheckedAt": "2026-09-28"
+     "dplusCheckedAt": "2026-09-30"
     }
    ],
    "vertical": false,
@@ -6308,7 +6308,7 @@
    "minKm": 6,
    "maxKm": 43,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 6 km; stromo: ok. 62 m na km, dużo marszu pod górę; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 6 km; stromo: ok. 62 m przewyższenia na kilometr, dużo marszu pod górę; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "XIV ultraMaraton Bieszczadzki: FINAŁ ALE LIGI BIEGÓW GÓRSKICH",
@@ -6368,7 +6368,7 @@
    "minKm": 12,
    "maxKm": 100,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 12 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 12 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "UltraKotlina: 140 / 100 / 80 / 50 / 34 / 15, UltraKotlina Sztafety - 142km (5541 m. up.)",
@@ -6450,7 +6450,7 @@
    "minKm": 15,
    "maxKm": 142,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Walimskie Biegi Górskie: Sowi Light 22 km, Sowi Hardcore 51 km",
@@ -6485,7 +6485,7 @@
    "minKm": 22,
    "maxKm": 51,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 22 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerWhy": "najkrótszy dystans 22 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "Roztocze Ultra Race: Roztocze Ultra Race Mega Ultra 120 km, Roztocze Ultra Race Ultra 60 km, Roztoczańska Trzydziestka 37 km, Półmaraton Bobrowisko 21 km, Roztoczańska Dycha 10 km, Nocna Trójka3 km, Półmaraton -Marsz Nordic Walking, Urocze Roztocze Walk 30km, Roztocze Kids",
@@ -6518,7 +6518,7 @@
      "dplus": 487,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Pyzdra-20-km.gpx",
-     "dplusCheckedAt": "2026-09-28",
+     "dplusCheckedAt": "2026-09-30",
      "dplusStale": true,
      "gpx": "7ea021f186a9"
     },
@@ -6550,20 +6550,20 @@
     },
     {
      "name": "regulamin",
-     "url": "https://janosikraceseries.com/roztoczeultrarace/regulamin-zawodow/"
+     "url": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/"
     },
     {
      "name": "kingrunner.com",
      "url": "https://www.kingrunner.com/bieg/roztocze-ultra-race---roztoczanska-dycha-%E2%80%93-10-km/4239"
     }
    ],
-   "regulaminUrl": "https://janosikraceseries.com/roztoczeultrarace/regulamin-zawodow/",
+   "regulaminUrl": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/",
    "id": "roztocze-ultra-race-2026-10-10",
    "surface": "trail",
    "minKm": 3,
    "maxKm": 120,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 3 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 3 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "II Korczyński Półmaraton Górski: XI Korczyński Bieg i NW do Prządek",
@@ -6635,7 +6635,7 @@
    "minKm": 11,
    "maxKm": 53,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 11 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 11 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Łemkowyna Ultra-Trail",
@@ -6729,7 +6729,7 @@
    "minKm": 10,
    "maxKm": 150,
    "beginnerScore": 5,
-   "beginnerWhy": "najkrótszy dystans 10 km; łagodnie: ok. 20 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 10 km; łagodnie: ok. 20 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Coconaut Pomerania ULTRA Trail",
@@ -6820,7 +6820,7 @@
    "minKm": 1,
    "maxKm": 100,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 1 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 1 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "33 Marszobieg na Czantorię Wielką",
@@ -6888,7 +6888,7 @@
    "minKm": 13,
    "maxKm": 20.3,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 13 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerWhy": "najkrótszy dystans 13 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "Sowiogórski Festiwal Biegowy: Don Jon, Czarny Rycerz, Mroczny Śpiewak, Stara Jodła, Ostoja Nietoperza",
@@ -6948,7 +6948,7 @@
    "minKm": 7,
    "maxKm": 84,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 7 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 7 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Smok Ultra Race: Smoczysko 50km, Smok 30km, Smoczek 21km, Smoczuś 12km, Smoczuś - Marsz NW 12k, Cumelek - biegi dla dzieci i młodzieży",
@@ -6976,7 +6976,7 @@
      "dplus": 487,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Pyzdra-20-km.gpx",
-     "dplusCheckedAt": "2026-09-28",
+     "dplusCheckedAt": "2026-09-30",
      "dplusStale": true,
      "gpx": "7ea021f186a9"
     },
@@ -6984,7 +6984,8 @@
      "km": 30
     },
     {
-     "km": 50
+     "km": 50,
+     "limitH": 14
     }
    ],
    "vertical": false,
@@ -7004,20 +7005,20 @@
     },
     {
      "name": "regulamin",
-     "url": "https://janosikraceseries.com/roztoczeultrarace/regulamin-zawodow/"
+     "url": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/"
     },
     {
      "name": "kingrunner.com",
      "url": "https://www.kingrunner.com/bieg/smok-ultra-race---smoczus---12-km/4293"
     }
    ],
-   "regulaminUrl": "https://janosikraceseries.com/roztoczeultrarace/regulamin-zawodow/",
+   "regulaminUrl": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/",
    "id": "smok-ultra-race-2026-10-24",
    "surface": "trail",
    "minKm": 12,
    "maxKm": 50,
    "beginnerScore": 5,
-   "beginnerWhy": "najkrótszy dystans 12 km; łagodnie: ok. 15 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 12 km; łagodnie: ok. 15 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "XV Grand Prix Krakowa w biegach górskich",
@@ -7072,7 +7073,7 @@
    "minKm": 3.7,
    "maxKm": 23.2,
    "beginnerScore": 5,
-   "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "13 Jesienny Bieg Potrójnej",
@@ -7106,7 +7107,7 @@
    "minKm": 15,
    "maxKm": 15,
    "beginnerScore": 2,
-   "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton, ale wolniej); stromo: ok. 67 m na km, dużo marszu pod górę."
+   "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton w terenie, zwykle wolniej); stromo: ok. 67 m przewyższenia na kilometr, dużo marszu pod górę."
   },
   {
    "name": "Gorlicki Bieg Górski 24km: Radocyna 7km (150m), Vertical 2,4km (340m)",
@@ -7172,7 +7173,7 @@
    "minKm": 2.4,
    "maxKm": 24,
    "beginnerScore": 5,
-   "beginnerWhy": "pomijamy vertical 2.4 km (sam podbieg), liczymy od 7 km; najkrótszy dystans 7 km; łagodnie: ok. 23 m przewyższenia na km."
+   "beginnerWhy": "pomijamy vertical 2.4 km (sam podbieg), liczymy od 7 km; najkrótszy dystans 7 km; łagodnie: ok. 23 m przewyższenia na kilometr."
   },
   {
    "name": "XIV BIEG NIEPODLEGŁOŚCI",
@@ -7278,7 +7279,7 @@
      "dplus": 1032,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-10k.gpx",
-     "dplusCheckedAt": "2026-09-28",
+     "dplusCheckedAt": "2026-09-30",
      "dplusStale": true,
      "gpx": "2965d86bd7b0"
     },
@@ -7287,7 +7288,7 @@
      "dplus": 2160,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-24k.gpx",
-     "dplusCheckedAt": "2026-09-28",
+     "dplusCheckedAt": "2026-09-30",
      "dplusStale": true,
      "gpx": "9611334ce9c5"
     },
@@ -7296,7 +7297,7 @@
      "dplus": 4020,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-47k.gpx",
-     "dplusCheckedAt": "2026-09-28",
+     "dplusCheckedAt": "2026-09-30",
      "dplusStale": true,
      "gpx": "4a49277d707c"
     },
@@ -7305,7 +7306,7 @@
      "dplus": 5908,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-71k.gpx",
-     "dplusCheckedAt": "2026-09-28",
+     "dplusCheckedAt": "2026-09-30",
      "dplusStale": true,
      "gpx": "5457d8ac05dc"
     },
@@ -7314,7 +7315,7 @@
      "dplus": 7563,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-94k.gpx",
-     "dplusCheckedAt": "2026-09-28",
+     "dplusCheckedAt": "2026-09-30",
      "dplusStale": true,
      "gpx": "78e64752cab5"
     }
@@ -7340,7 +7341,7 @@
    "minKm": 10.2,
    "maxKm": 94,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 10.2 km; stromo: ok. 101 m na km, dużo marszu pod górę; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 10.2 km; stromo: ok. 101 m przewyższenia na kilometr, dużo marszu pod górę; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "2.GÓRSKA TRZYNASTKA",
@@ -7376,7 +7377,7 @@
    "minKm": 13,
    "maxKm": 13,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 13 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerWhy": "najkrótszy dystans 13 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "7. PÓŁMARATON ORZEŁ",
@@ -7412,7 +7413,7 @@
    "minKm": 22,
    "maxKm": 22,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 22 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerWhy": "najkrótszy dystans 22 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "Borecka Łękuk Trail: Dubinek 10km, Wolisko 21km, Szwałk 30km, Litygajno Maraton 45km",
@@ -7462,7 +7463,7 @@
    "minKm": 10,
    "maxKm": 45,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "JESIENNY ULTRA ŚWIR",
@@ -7497,7 +7498,7 @@
    "minKm": 15,
    "maxKm": 24,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "Szczyt Wytrzymałości Mikołajki: 12H, 8848 Everest",
@@ -7550,7 +7551,7 @@
    "minKm": 95,
    "maxKm": 95,
    "beginnerScore": 1,
-   "beginnerWhy": "najkrótszy dystans 95 km, dystans ultra; stromo: ok. 93 m na km, dużo marszu pod górę."
+   "beginnerWhy": "najkrótszy dystans 95 km, dystans ultra; stromo: ok. 93 m przewyższenia na kilometr, dużo marszu pod górę."
   },
   {
    "name": "Garmin Ultra Race Gdańsk",
@@ -7633,7 +7634,7 @@
    "minKm": 6,
    "maxKm": 101,
    "beginnerScore": 5,
-   "beginnerWhy": "najkrótszy dystans 6 km; łagodnie: ok. 18 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 6 km; łagodnie: ok. 18 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Turbacz Trail - Podhalański Bieg Mikołajkowy: Ostrowskie Mikołajki 9 km, Rodzinny Bieg Mikołajkowy 1 km",
@@ -7722,7 +7723,7 @@
    "minKm": 3.7,
    "maxKm": 23.2,
    "beginnerScore": 5,
-   "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Winter Trail Małopolska",
@@ -7733,13 +7734,13 @@
    "region": "Beskid Wyspowy",
    "distancesKm": [
     13,
-    13,
-    13,
-    13,
-    13,
-    13,
-    13,
     51.5,
+    67,
+    67,
+    67,
+    67,
+    67,
+    67,
     67,
     109,
     109,
@@ -7761,25 +7762,25 @@
      "km": 13
     },
     {
-     "km": 13
-    },
-    {
-     "km": 13
-    },
-    {
-     "km": 13
-    },
-    {
-     "km": 13
-    },
-    {
-     "km": 13
-    },
-    {
-     "km": 13
-    },
-    {
      "km": 51.5
+    },
+    {
+     "km": 67
+    },
+    {
+     "km": 67
+    },
+    {
+     "km": 67
+    },
+    {
+     "km": 67
+    },
+    {
+     "km": 67
+    },
+    {
+     "km": 67
     },
     {
      "km": 67
@@ -7850,7 +7851,7 @@
    "minKm": 13,
    "maxKm": 145,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 13 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 13 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Perły Małopolski - Rabka-Zdrój - Gorce: 20,1km / 14,1km / 7,5km / zawody dla dzieci",
@@ -7894,7 +7895,7 @@
    "minKm": 7.5,
    "maxKm": 20.1,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 7.5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 7.5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "XV Grand Prix Krakowa w biegach górskich",
@@ -7949,7 +7950,101 @@
    "minKm": 3.7,
    "maxKm": 23.2,
    "beginnerScore": 5,
-   "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+  },
+  {
+   "name": "Zimowy Półmaraton Gór Stołowych: 21KM, 21KM, 21KM, 21KM, 21KM, 21KM, 21KM, BIAŁA TRZYDZIESTKA 31KM, BIAŁA TRZYDZIESTKA 31KM, BIAŁA TRZYDZIESTKA 31KM, BIAŁA TRZYDZIESTKA 31KM, BIAŁA TRZYDZIESTKA 31KM, BIAŁA TRZYDZIESTKA 31KM, BIAŁA TRZYDZIESTKA 31KM",
+   "eventName": "Zimowy Półmaraton Gór Stołowych",
+   "dateStart": "2027-01-16",
+   "dateEnd": "2027-01-16",
+   "city": "Karłów 10",
+   "region": "",
+   "distancesKm": [
+    21,
+    21,
+    21,
+    21,
+    21,
+    21,
+    21,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31,
+    31
+   ],
+   "elevations": [
+    {
+     "km": 21,
+     "dplus": 1003,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://www.maratongorstolowych.pl/trasy/",
+     "dplusCheckedAt": "2026-09-30"
+    },
+    {
+     "km": 21
+    },
+    {
+     "km": 21
+    },
+    {
+     "km": 21
+    },
+    {
+     "km": 21
+    },
+    {
+     "km": 21
+    },
+    {
+     "km": 21
+    },
+    {
+     "km": 31,
+     "dplus": 1450,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://www.maratongorstolowych.pl/trasy/",
+     "dplusCheckedAt": "2026-09-30"
+    },
+    {
+     "km": 31
+    },
+    {
+     "km": 31
+    },
+    {
+     "km": 31
+    },
+    {
+     "km": 31
+    },
+    {
+     "km": 31
+    },
+    {
+     "km": 31
+    }
+   ],
+   "vertical": false,
+   "url": "https://www.maratongorstolowych.pl/zpgs",
+   "sources": [
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/zimowy-polmaraton-gor-stolowych---21km/4387"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://www.maratongorstolowych.pl/trasy/"
+    }
+   ],
+   "id": "zimowy-polmaraton-gor-stolowych-2027-01-16",
+   "surface": "trail",
+   "minKm": 21,
+   "maxKm": 31,
+   "beginnerScore": 3,
+   "beginnerWhy": "najkrótszy dystans 21 km (jak półmaraton w terenie, zwykle wolniej); średnio stromo: ok. 48 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "ZAMIEĆ",
@@ -7974,7 +8069,7 @@
    "minKm": 0,
    "maxKm": 0,
    "beginnerScore": 3,
-   "beginnerWhy": "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed decyzją."
+   "beginnerWhy": "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed zapisem."
   },
   {
    "name": "XV Grand Prix Krakowa w biegach górskich",
@@ -8029,7 +8124,7 @@
    "minKm": 3.7,
    "maxKm": 23.2,
    "beginnerScore": 5,
-   "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "XV Grand Prix Krakowa w biegach górskich",
@@ -8084,7 +8179,7 @@
    "minKm": 3.7,
    "maxKm": 23.2,
    "beginnerScore": 5,
-   "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na km; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "WIOSENNY ULTRA ŚWIR",
@@ -8103,7 +8198,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://malopolskabiega.com.pl/wp-content/uploads/2026/06/us_lato_15_5km.gpx",
      "gpx": "72ad52c273e3",
-     "dplusCheckedAt": "2026-09-28",
+     "dplusCheckedAt": "2026-09-30",
      "dplusStale": true
     }
    ],
@@ -8130,7 +8225,207 @@
    "minKm": 15.5,
    "maxKm": 15.5,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 15.5 km (jak półmaraton, ale wolniej); średnio stromo: ok. 42 m na km."
+   "beginnerWhy": "najkrótszy dystans 15.5 km (jak półmaraton w terenie, zwykle wolniej); średnio stromo: ok. 42 m przewyższenia na kilometr."
+  },
+  {
+   "name": "Meble Wójcik ULTRA WYSOCZYZNA 2027: 6km HUK SOWY, 6km HUK SOWY, 6km HUK SOWY, 6km HUK SOWY, 6km HUK SOWY, 6km HUK SOWY, 6km HUK SOWY, 13km PISK LISA, 13km PISK LISA, 13km PISK LISA, 13km PISK LISA, 13km PISK LISA, 13km PISK LISA, 13km PISK LISA, 22km KWIK DZIKA, 22km KWIK DZIKA, 22km KWIK DZIKA, 22km KWIK DZIKA, 22km KWIK DZIKA, 22km KWIK DZIKA, 22km KWIK DZIKA, 54km WYCIE WILKA, 54km WYCIE WILKA, 54km WYCIE WILKA, 54km WYCIE WILKA, 54km WYCIE WILKA, 54km WYCIE WILKA, 54km WYCIE WILKA, 103km RYK JELENIA, 103km RYK JELENIA, 103km RYK JELENIA, 103km RYK JELENIA, 103km RYK JELENIA, 103km RYK JELENIA, 103km RYK JELENIA",
+   "eventName": "Meble Wójcik ULTRA WYSOCZYZNA 2027",
+   "dateStart": "2027-04-16",
+   "dateEnd": "2027-04-18",
+   "city": "Elbląg",
+   "region": "",
+   "distancesKm": [
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    22,
+    22,
+    22,
+    22,
+    22,
+    22,
+    22,
+    54,
+    54,
+    54,
+    54,
+    54,
+    54,
+    54,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103
+   ],
+   "elevations": [
+    {
+     "km": 6,
+     "dplus": 160,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://ultrawysoczyzna.pl/trasa/",
+     "dplusCheckedAt": "2026-09-30",
+     "limitH": 1.5
+    },
+    {
+     "km": 6
+    },
+    {
+     "km": 6
+    },
+    {
+     "km": 6
+    },
+    {
+     "km": 6
+    },
+    {
+     "km": 6
+    },
+    {
+     "km": 6
+    },
+    {
+     "km": 13,
+     "dplus": 500,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://ultrawysoczyzna.pl/trasa/",
+     "dplusCheckedAt": "2026-09-30",
+     "limitH": 3
+    },
+    {
+     "km": 13
+    },
+    {
+     "km": 13
+    },
+    {
+     "km": 13
+    },
+    {
+     "km": 13
+    },
+    {
+     "km": 13
+    },
+    {
+     "km": 13
+    },
+    {
+     "km": 22,
+     "dplus": 800,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://ultrawysoczyzna.pl/trasa/",
+     "dplusCheckedAt": "2026-09-30",
+     "limitH": 5
+    },
+    {
+     "km": 22
+    },
+    {
+     "km": 22
+    },
+    {
+     "km": 22
+    },
+    {
+     "km": 22
+    },
+    {
+     "km": 22
+    },
+    {
+     "km": 22
+    },
+    {
+     "km": 54,
+     "dplus": 1160,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://ultrawysoczyzna.pl/trasa/",
+     "dplusCheckedAt": "2026-09-30",
+     "limitH": 10
+    },
+    {
+     "km": 54
+    },
+    {
+     "km": 54
+    },
+    {
+     "km": 54
+    },
+    {
+     "km": 54
+    },
+    {
+     "km": 54
+    },
+    {
+     "km": 54
+    },
+    {
+     "km": 103,
+     "dplus": 2300,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://ultrawysoczyzna.pl/trasa/",
+     "dplusCheckedAt": "2026-09-30",
+     "limitH": 17
+    },
+    {
+     "km": 103
+    },
+    {
+     "km": 103
+    },
+    {
+     "km": 103
+    },
+    {
+     "km": 103
+    },
+    {
+     "km": 103
+    },
+    {
+     "km": 103
+    }
+   ],
+   "vertical": false,
+   "url": "https://ultrawysoczyzna.pl",
+   "sources": [
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/meble-wojcik-ultra-wysoczyzna-2027---6km-huk-sowy/4392"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://ultrawysoczyzna.pl/trasa/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://ultrawysoczyzna.pl/regulamin/"
+    }
+   ],
+   "regulaminUrl": "https://ultrawysoczyzna.pl/regulamin/",
+   "id": "meble-wojcik-ultra-wysoczyzna-2027-2027-04-16",
+   "surface": "trail",
+   "minKm": 6,
+   "maxKm": 103,
+   "beginnerScore": 5,
+   "beginnerWhy": "najkrótszy dystans 6 km; łagodnie: ok. 27 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Ultra-Trail Małopolska",
@@ -8186,7 +8481,7 @@
    "minKm": 16,
    "maxKm": 240,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 16 km (jak półmaraton, ale wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 16 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "XIII Festiwal Biegu Rzeźnika: IV Rzeźnicka Piątka, X Dycha na Jeleni Skok, VI Rzeźnicki Marsz z Walking Lovers, XVI Rzeźniczek, XXIV Bieg Rzeźnika, VI Maraton Rzeźnika Rzeźnicki Szlem",
@@ -8269,7 +8564,7 @@
    "minKm": 7,
    "maxKm": 175,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 7 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 7 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Suszecki Festiwal Biegowy",
@@ -8319,7 +8614,7 @@
    "minKm": 1.6,
    "maxKm": 21,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 1.6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 1.6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "WYSPOWY ULTRA ŚWIR",
@@ -8359,7 +8654,7 @@
    "minKm": 23,
    "maxKm": 43,
    "beginnerScore": 2,
-   "beginnerWhy": "najkrótszy dystans 23 km, to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerWhy": "najkrótszy dystans 23 km to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "Śmierdzący Leń: Mały Śmierdzący Leń",
@@ -8444,7 +8739,7 @@
    "minKm": 4.4,
    "maxKm": 225.7,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 4.4 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwo dobrać swój."
+   "beginnerWhy": "najkrótszy dystans 4.4 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   }
  ]
 }
