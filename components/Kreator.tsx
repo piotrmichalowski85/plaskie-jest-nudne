@@ -42,6 +42,7 @@ export function Kreator({ races, today }: { races: Race[]; today: string }) {
         if (a.goal === "race" && r.category && /Kat\.(I|II)\b/.test(r.category)) s += 1;
         if (a.goal === "finish" && r.distancesKm.length >= 3) s += 1;
         if (r.minKm >= limit * 0.5) s += 1; // nie za krótki, żeby się opłacało jechać
+        if (r.signup?.status === "closed") s -= 6; // zamknięte zapisy: nie polecamy, chyba że nic innego nie ma
         return { r, s };
       })
       .sort((x, y) => y.s - x.s || x.r.dateStart.localeCompare(y.r.dateStart))

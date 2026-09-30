@@ -25,6 +25,7 @@ export function RaceList({ races, regions, today }: { races: RaceWithGeo[]; regi
   const [surface, setSurface] = useState("");
   const [start, setStart] = useState(sp.get("start") === "1");
   const [past, setPast] = useState(false);
+  const [hideClosed, setHideClosed] = useState(false);
   const [view, setView] = useState<"lista" | "mapa">("lista");
   const [me, setMe] = useState<[number, number] | null>(null);
   const [radius, setRadius] = useState(120);
@@ -43,8 +44,9 @@ export function RaceList({ races, regions, today }: { races: RaceWithGeo[]; regi
     DIST.find((d) => d.id === dist)!.test(r) &&
     (!surface || r.surface === surface) &&
     (!start || r.beginnerScore >= 4) &&
+    (!hideClosed || r.signup?.status !== "closed") &&
     (!me || (r.lat !== undefined && r.lng !== undefined && distKm(me, [r.lat, r.lng]) <= radius))
-  ).sort((a, b) => me && a.lat !== undefined && b.lat !== undefined ? distKm(me, [a.lat, a.lng!]) - distKm(me, [b.lat, b.lng!]) : 0), [races, q, region, month, dist, surface, start, past, today, me, radius]);
+  ).sort((a, b) => me && a.lat !== undefined && b.lat !== undefined ? distKm(me, [a.lat, a.lng!]) - distKm(me, [b.lat, b.lng!]) : 0), [races, q, region, month, dist, surface, start, past, today, me, radius, hideClosed]);
 
   return (
     <div>
@@ -56,6 +58,7 @@ export function RaceList({ races, regions, today }: { races: RaceWithGeo[]; regi
         <div className="flex flex-col gap-1"><label>Teren</label><select value={surface} onChange={(e) => setSurface(e.target.value)}><option value="">każdy</option><option value="gorski">górski</option><option value="trail">trail</option><option value="przelaj">przełaj</option></select></div>
         <div className="sm:col-span-3 lg:col-span-6 flex flex-wrap gap-4 text-sm">
           <label className="flex items-center gap-2 cursor-pointer"><input type="checkbox" checked={start} onChange={(e) => setStart(e.target.checked)} /> tylko dobre na start</label>
+          <label className="flex items-center gap-2 cursor-pointer" title="Ukrywa tylko biegi, o których wiemy, że zapisy są zamknięte. Biegi bez informacji o zapisach zostają."><input type="checkbox" checked={hideClosed} onChange={(e) => setHideClosed(e.target.checked)} /> ukryj zamknięte zapisy</label>
           <label className="flex items-center gap-2 cursor-pointer"><input type="checkbox" checked={past} onChange={(e) => setPast(e.target.checked)} /> pokaż też minione</label>
           {me ? (
             <span className="flex items-center gap-2">blisko mnie: <select value={radius} onChange={(e) => setRadius(+e.target.value)} className="!py-1">{[50, 120, 200, 400].map((k) => <option key={k} value={k}>do {k} km</option>)}</select> <button className="underline text-[var(--muted)]" onClick={() => setMe(null)}>wyłącz</button></span>

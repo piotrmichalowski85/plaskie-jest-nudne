@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-30T13:12:48.841Z",
+ "generatedAt": "2026-09-30T13:45:19.301Z",
  "count": 189,
  "races": [
   {
@@ -6026,6 +6026,14 @@
     }
    ],
    "regulaminUrl": "https://b4sportonline.pl/users-folder/1253/files/305225445da34133c7f7b1d6d05ecae988bd5.pdf",
+   "signup": {
+    "status": "closed",
+    "until": "2026-09-24",
+    "limit": 250,
+    "source": "regulamin",
+    "sourceUrl": "https://b4sportonline.pl/users-folder/1253/files/305225445da34133c7f7b1d6d05ecae988bd5.pdf",
+    "checkedAt": "2026-09-30"
+   },
    "id": "baran-trail-race-btr-2026-10-02",
    "surface": "trail",
    "minKm": 10,
@@ -6100,6 +6108,13 @@
     }
    ],
    "regulaminUrl": "https://b4sportonline.pl/users-folder/741/files/regulamin_Przehyba_Trail_2026.pdf",
+   "signup": {
+    "status": "unknown",
+    "limit": 43,
+    "source": "regulamin",
+    "sourceUrl": "https://b4sportonline.pl/users-folder/741/files/regulamin_Przehyba_Trail_2026.pdf",
+    "checkedAt": "2026-09-30"
+   },
    "id": "przehyba-trail-2026-10-03",
    "surface": "trail",
    "minKm": 23,
@@ -6363,6 +6378,13 @@
     }
    ],
    "regulaminUrl": "https://biegpolesie.pl/wp-content/uploads/2024/10/IX-Bieg-Polesie-regulamin-2019.pdf",
+   "signup": {
+    "status": "unknown",
+    "limit": 50,
+    "source": "regulamin",
+    "sourceUrl": "https://biegpolesie.pl/wp-content/uploads/2024/10/IX-Bieg-Polesie-regulamin-2019.pdf",
+    "checkedAt": "2026-09-30"
+   },
    "id": "xiv-ultramaraton-bieszczadzki-2026-10-09",
    "surface": "gorski",
    "minKm": 12,
@@ -6445,6 +6467,13 @@
     "bidon lub kubek wielokrotnego użytku",
     "ubezpieczenie NNW ważne w Czechach (140 km)"
    ],
+   "signup": {
+    "status": "unknown",
+    "limit": 140,
+    "source": "regulamin",
+    "sourceUrl": "https://ultrakotlina.pl/regulamin/",
+    "checkedAt": "2026-09-30"
+   },
    "id": "ultrakotlina-2026-10-09",
    "surface": "przelaj",
    "minKm": 15,
@@ -6558,6 +6587,13 @@
     }
    ],
    "regulaminUrl": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/",
+   "signup": {
+    "status": "closed",
+    "until": "2026-09-12",
+    "source": "regulamin",
+    "sourceUrl": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/",
+    "checkedAt": "2026-09-30"
+   },
    "id": "roztocze-ultra-race-2026-10-10",
    "surface": "trail",
    "minKm": 3,
@@ -7013,6 +7049,13 @@
     }
    ],
    "regulaminUrl": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/",
+   "signup": {
+    "status": "closed",
+    "until": "2026-09-12",
+    "source": "regulamin",
+    "sourceUrl": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/",
+    "checkedAt": "2026-09-30"
+   },
    "id": "smok-ultra-race-2026-10-24",
    "surface": "trail",
    "minKm": 12,
@@ -7102,6 +7145,13 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     }
    ],
+   "signup": {
+    "status": "unknown",
+    "limit": 270,
+    "source": "organizator",
+    "sourceUrl": "https://kandahar.pl/13-jesienny-bieg-potrojnej/",
+    "checkedAt": "2026-09-30"
+   },
    "id": "13-jesienny-bieg-potrojnej-2026-11-07",
    "surface": "gorski",
    "minKm": 15,
@@ -7168,6 +7218,13 @@
     }
    ],
    "regulaminUrl": "https://bieggorski.pl/regulamin/",
+   "signup": {
+    "status": "unknown",
+    "limit": 24,
+    "source": "regulamin",
+    "sourceUrl": "https://bieggorski.pl/regulamin/",
+    "checkedAt": "2026-09-30"
+   },
    "id": "gorlicki-bieg-gorski-2026-11-07",
    "surface": "gorski",
    "minKm": 2.4,
@@ -7458,6 +7515,13 @@
     }
    ],
    "regulaminUrl": "https://boreckatrail.pl/regulamin/",
+   "signup": {
+    "status": "open",
+    "until": "2026-11-18",
+    "source": "regulamin",
+    "sourceUrl": "https://boreckatrail.pl/regulamin/",
+    "checkedAt": "2026-09-30"
+   },
    "id": "borecka-lekuk-trail-2026-11-21",
    "surface": "przelaj",
    "minKm": 10,
@@ -7629,6 +7693,14 @@
     "kurtka przeciwdeszczowa (101 km)",
     "gotówka min. 50 zł"
    ],
+   "signup": {
+    "status": "open",
+    "until": "2026-12-04",
+    "limit": 300,
+    "source": "regulamin",
+    "sourceUrl": "https://ultrarace.pl/gdansk/regulamin-gdansk/",
+    "checkedAt": "2026-09-30"
+   },
    "id": "garmin-ultra-race-gdansk-2026-12-05",
    "surface": "trail",
    "minKm": 6,
@@ -7846,6 +7918,13 @@
     }
    ],
    "regulaminUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
+   "signup": {
+    "status": "unknown",
+    "limit": 200,
+    "source": "regulamin",
+    "sourceUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
+    "checkedAt": "2026-09-30"
+   },
    "id": "winter-trail-malopolska-2026-12-12",
    "surface": "trail",
    "minKm": 13,
@@ -7890,6 +7969,13 @@
     }
    ],
    "regulaminUrl": "https://perlymalopolski.pl/wp-content/uploads/2026/02/RABKA_PERE%C5%81KI-2026-REGULAMIN.docx.pdf",
+   "signup": {
+    "status": "open",
+    "until": "2026-12-06",
+    "source": "regulamin",
+    "sourceUrl": "https://perlymalopolski.pl/wp-content/uploads/2026/02/RABKA_PERE%C5%81KI-2026-REGULAMIN.docx.pdf",
+    "checkedAt": "2026-09-30"
+   },
    "id": "perly-malopolski-2026-12-13",
    "surface": "trail",
    "minKm": 7.5,
@@ -8220,6 +8306,13 @@
     }
    ],
    "regulaminUrl": "https://malopolskabiega.com.pl/regulamin-ultra/",
+   "signup": {
+    "status": "unknown",
+    "limit": 43,
+    "source": "regulamin",
+    "sourceUrl": "https://malopolskabiega.com.pl/regulamin-ultra/",
+    "checkedAt": "2026-09-30"
+   },
    "id": "wiosenny-ultra-swir-2027-03-20",
    "surface": "trail",
    "minKm": 15.5,
@@ -8420,6 +8513,14 @@
     }
    ],
    "regulaminUrl": "https://ultrawysoczyzna.pl/regulamin/",
+   "signup": {
+    "status": "open",
+    "until": "2027-04-16",
+    "limit": 250,
+    "source": "regulamin",
+    "sourceUrl": "https://ultrawysoczyzna.pl/regulamin/",
+    "checkedAt": "2026-09-30"
+   },
    "id": "meble-wojcik-ultra-wysoczyzna-2027-2027-04-16",
    "surface": "trail",
    "minKm": 6,
@@ -8476,6 +8577,13 @@
     }
    ],
    "regulaminUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
+   "signup": {
+    "status": "unknown",
+    "limit": 200,
+    "source": "regulamin",
+    "sourceUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
+    "checkedAt": "2026-09-30"
+   },
    "id": "ultra-trail-malopolska-2027-05-21",
    "surface": "trail",
    "minKm": 16,
@@ -8559,6 +8667,12 @@
      "url": "https://biegrzeznika.pl/"
     }
    ],
+   "signup": {
+    "status": "open",
+    "source": "organizator",
+    "sourceUrl": "https://www.biegrzeznika.pl/",
+    "checkedAt": "2026-09-30"
+   },
    "id": "xiii-festiwal-biegu-rzeznika-2027-05-26",
    "surface": "trail",
    "minKm": 7,
@@ -8609,6 +8723,13 @@
     }
    ],
    "regulaminUrl": "https://b4sportonline.pl/suszecki_festiwal/regulamin",
+   "signup": {
+    "status": "unknown",
+    "note": "do wyczerpania limitu",
+    "source": "regulamin",
+    "sourceUrl": "https://b4sportonline.pl/suszecki_festiwal/regulamin",
+    "checkedAt": "2026-09-30"
+   },
    "id": "suszecki-festiwal-biegowy-2027-06-12",
    "surface": "przelaj",
    "minKm": 1.6,
@@ -8649,6 +8770,13 @@
     }
    ],
    "regulaminUrl": "https://malopolskabiega.com.pl/regulamin-ultra/",
+   "signup": {
+    "status": "unknown",
+    "limit": 43,
+    "source": "regulamin",
+    "sourceUrl": "https://malopolskabiega.com.pl/regulamin-ultra/",
+    "checkedAt": "2026-09-30"
+   },
    "id": "wyspowy-ultra-swir-2027-06-26",
    "surface": "trail",
    "minKm": 23,

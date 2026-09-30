@@ -1,3 +1,5 @@
+import type { Signup } from "./zapisy";
+
 export type Surface = "gorski" | "trail" | "przelaj" | "miejski";
 
 export type Race = {
@@ -28,6 +30,7 @@ export type Race = {
   beginnerWhy: string;
   regulaminUrl?: string; // regulamin zawodów (pdf/html), znaleziony automatycznie
   gear?: string[]; // sprzęt obowiązkowy wyciągnięty z regulaminu (heurystyka)
+  signup?: Signup; // status zapisów: open / closed / unknown + termin, limit, liczba zapisanych
   signupOpen?: boolean;
   participants?: number;
 };

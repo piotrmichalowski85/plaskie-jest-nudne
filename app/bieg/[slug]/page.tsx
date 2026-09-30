@@ -5,7 +5,7 @@ import { allRaces, raceById, today } from "@/lib/data";
 import { fmtDate, fmtKm, scoreLabel, surfaceLabel, level, levelLabel } from "@/lib/format";
 import { isVertical, distanceLevel } from "@/lib/normalize";
 import { geoFor } from "@/lib/geo";
-import { Score } from "@/components/RaceCard";
+import { Score, SignupChip } from "@/components/RaceCard";
 import { RaceMap } from "@/components/RaceMap";
 import { ShareButton } from "@/components/ShareButton";
 import { ElevationProfile } from "@/components/ElevationProfile";
@@ -50,7 +50,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
         <p className="text-sm font-semibold text-[var(--muted)]">{fmtDate(r.dateStart, r.dateEnd)}{r.region ? ` · ${r.region}` : ""}</p>
         <h1 className="text-3xl sm:text-4xl font-extrabold leading-tight">{r.eventName}</h1>
         {r.name !== r.eventName && <p className="mt-1 text-[var(--muted)]">{r.name}</p>}
-        <p className="mt-2 flex flex-wrap gap-1.5"><span className="chip">{surfaceLabel[r.surface]}</span>{r.vertical && <span className="chip">vertical</span>}{r.category && <span className="chip">Liga Biegów Górskich {r.category.split(" ")[0]}</span>}{r.signupOpen && <span className="chip chip-sun">zapisy otwarte{r.participants ? `, ${r.participants} os.` : ""}</span>}</p>
+        <p className="mt-2 flex flex-wrap gap-1.5"><span className="chip">{surfaceLabel[r.surface]}</span>{r.vertical && <span className="chip">vertical</span>}{r.category && <span className="chip">Liga Biegów Górskich {r.category.split(" ")[0]}</span>}<SignupChip race={r} long /></p>
       </header>
 
       <div className="mt-6 grid gap-6 md:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] items-start">

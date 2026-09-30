@@ -8,6 +8,7 @@ import { kingrunnerRows, kingrunnerDetail } from "../lib/adapters/kingrunner";
 import { findRegulamin, extractLimits, extractGear, fetchAny } from "../lib/deep";
 import { findTrasa, type TrasaResult } from "../lib/trasa";
 import { parseGpx } from "../lib/gpx";
+import { extractSignup, mergeSignup, type Signup } from "../lib/zapisy";
 import overrides from "../data/overrides.json";
 import { existsSync, readFileSync, mkdirSync } from "node:fs";
 import { createHash } from "node:crypto";
@@ -164,7 +165,7 @@ async function organizerSeeds(): Promise<Raw[]> {
   return out;
 }
 
-type RegCache = Record<string, { trasa?: TrasaResult; regulaminUrl?: string; organizerUrl?: string; distances: { km: number; dplus?: number }[]; limits: { km: number; limitH: number }[]; gear: string[]; gearSource?: "llm"; gearAt?: string; fetchedAt: string; visited: number }>;
+type RegCache = Record<string, { trasa?: TrasaResult; signupPage?: { text: string; at: string }; regulaminUrl?: string; organizerUrl?: string; distances: { km: number; dplus?: number }[]; limits: { km: number; limitH: number }[]; gear: string[]; gearSource?: "llm"; gearAt?: string; fetchedAt: string; visited: number }>;
 const CACHE_PATH = "data/regulaminy.json";
 export const TEXT_DIR = "data/.regulaminy_text"; // lokalny cache tekstu regulaminów (poza git)
 export const textPath = (u: string) => `${TEXT_DIR}/${createHash("sha1").update(u).digest("hex")}.txt`;
@@ -300,6 +301,36 @@ async function trasy(raws: Raw[]): Promise<{ hits: number; conflicts: string[] }
   return { hits, conflicts };
 }
 
+/** Status zapisów: regulamin (cache tekstu) + strona organizatora (cache 7 dni) + platforma zapisów. */
+async function zapisy(raws: Raw[]): Promise<Record<string, number>> {
+  const cache: RegCache = existsSync(CACHE_PATH) ? JSON.parse(readFileSync(CACHE_PATH, "utf8")) : {};
+  const todayS = new Date().toISOString().slice(0, 10);
+  const up = raws.filter((r) => r.dateEnd >= todayS);
+  const queue = up.filter((r) => r.url && !(cache[r.url]?.signupPage && (Date.now() - Date.parse(cache[r.url].signupPage!.at)) / 86400000 < 7));
+  await Promise.all(Array.from({ length: 4 }, async () => {
+    while (queue.length) {
+      const r = queue.shift()!;
+      const pg = await fetchAny(r.url!);
+      cache[r.url!] = { ...(cache[r.url!] ?? { distances: [], limits: [], gear: [], fetchedAt: new Date(0).toISOString(), visited: 0 }), signupPage: { text: (pg?.text || "").slice(0, 40000), at: new Date().toISOString() } };
+    }
+  }));
+  writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 1));
+  const stats: Record<string, number> = { open: 0, closed: 0, unknown: 0, withDate: 0 };
+  for (const r of up) {
+    const parts: (Signup | null)[] = [];
+    const c = r.url ? cache[r.url] : undefined;
+    if (c?.regulaminUrl && existsSync(textPath(c.regulaminUrl))) {
+      const x = extractSignup(readFileSync(textPath(c.regulaminUrl), "utf8"), r.dateStart, "regulamin", todayS);
+      if (x) parts.push({ ...x, sourceUrl: c.regulaminUrl });
+    }
+    if (c?.signupPage?.text) { const x = extractSignup(c.signupPage.text, r.dateStart, "organizator", todayS); if (x) parts.push({ ...x, sourceUrl: r.url }); }
+    if (r.signupOpen) parts.push({ status: "open", source: "zapisy", sourceUrl: r.sources.find((s) => /elektronicznezapisy/.test(s.url))?.url, registered: r.participants });
+    const merged = mergeSignup(parts, todayS);
+    if (merged) { r.signup = merged; stats[merged.status]++; if (merged.until) stats.withDate++; } else stats.unknown++;
+  }
+  return stats;
+}
+
 function finalize(raws: Raw[]): Race[] {
   const byKey = new Map<string, Raw>();
   for (const r of raws) {
@@ -366,6 +397,8 @@ async function main() {
   console.log(`trasa: D+ dołożone/zaktualizowane w ${tr.hits} biegach, konflikty: ${tr.conflicts.length}`);
   const regs = await regulaminy(raws);
   console.log(`regulaminy found this run: ${regs}, with regulamin total: ${raws.filter((r) => r.regulaminUrl).length}, with gear: ${raws.filter((r) => r.gear).length}`);
+  const zs = await zapisy(raws);
+  console.log(`zapisy (nadchodzące): open ${zs.open}, closed ${zs.closed}, unknown ${zs.unknown}, z datą ${zs.withDate}`);
   const races = finalize(raws);
   const ds: Dataset = { generatedAt: new Date().toISOString(), count: races.length, races };
   if (races.length < 100 && !process.env.FORCE) { console.error(`STOP: tylko ${races.length} biegów, nie nadpisuję data/races.json (FORCE=1, żeby wymusić)`); process.exit(2); }
