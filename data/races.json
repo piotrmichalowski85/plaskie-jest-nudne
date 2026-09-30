@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-30T14:16:01.023Z",
- "count": 195,
+ "generatedAt": "2026-09-30T14:17:09.967Z",
+ "count": 194,
  "races": [
   {
    "name": "Grand Prix Krakowa w biegach górskich",
@@ -8121,8 +8121,23 @@
     {
      "name": "trasa (organizator)",
      "url": "https://www.maratongorstolowych.pl/trasy/"
+    },
+    {
+     "name": "b4sportonline.pl",
+     "url": "https://b4sportonline.pl/Zimowy_Polmaraton_Gor_Stolowych/"
     }
    ],
+   "signupOpen": true,
+   "participants": 165,
+   "signup": {
+    "status": "open",
+    "until": "2027-01-14",
+    "limit": 450,
+    "registered": 165,
+    "source": "zapisy",
+    "sourceUrl": "https://b4sportonline.pl/Zimowy_Polmaraton_Gor_Stolowych/",
+    "checkedAt": "2026-09-30"
+   },
    "id": "zimowy-polmaraton-gor-stolowych-2027-01-16",
    "surface": "trail",
    "minKm": 21,
@@ -8174,47 +8189,6 @@
    "maxKm": 48,
    "beginnerScore": 2,
    "beginnerWhy": "najkrótszy dystans 26 km to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy."
-  },
-  {
-   "name": "ZPGS",
-   "eventName": "ZPGS",
-   "dateStart": "2027-01-16",
-   "dateEnd": "2027-01-16",
-   "city": "Karłów",
-   "region": "",
-   "distancesKm": [
-    21
-   ],
-   "elevations": [
-    {
-     "km": 21
-    }
-   ],
-   "vertical": false,
-   "url": "https://b4sportonline.pl/Zimowy_Polmaraton_Gor_Stolowych/",
-   "sources": [
-    {
-     "name": "b4sportonline.pl",
-     "url": "https://b4sportonline.pl/Zimowy_Polmaraton_Gor_Stolowych/"
-    }
-   ],
-   "signup": {
-    "status": "open",
-    "until": "2027-01-14",
-    "limit": 450,
-    "registered": 165,
-    "source": "zapisy",
-    "sourceUrl": "https://b4sportonline.pl/Zimowy_Polmaraton_Gor_Stolowych/",
-    "checkedAt": "2026-09-30"
-   },
-   "signupOpen": true,
-   "participants": 165,
-   "id": "zpgs-2027-01-16",
-   "surface": "przelaj",
-   "minKm": 21,
-   "maxKm": 21,
-   "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 21 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "ZAMIEĆ",

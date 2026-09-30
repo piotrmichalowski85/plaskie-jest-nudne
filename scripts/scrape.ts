@@ -390,7 +390,7 @@ function finalize(raws: Raw[]): Race[] {
   // "Łemko Trail" vs "Łemkowyna Ultra-Trail": jedno słowo jest przedrostkiem drugiego, wspólne dystanse, ten sam weekend
   const prefixKin = (a: Raw, b: Raw) => { const x = w1(a), y = w1(b); return x.length >= 4 && y.length >= 4 && (x.startsWith(y) || y.startsWith(x)) && shared(a, b) >= 2 && daysApart(a, b) <= 3; };
   // ta sama data i miejscowość + (wspólne słowo nazwy albo >= 2 wspólne dystanse): np. "ZPGS" vs "Zimowy Półmaraton Gór Stołowych"
-  const samePlaceDay = (a: Raw, b: Raw) => a.dateStart === b.dateStart && cityKey(a) === cityKey(b) && cityKey(a).length >= 3 && (overlap(a, b) || shared(a, b) >= 2);
+  const samePlaceDay = (a: Raw, b: Raw) => a.dateStart === b.dateStart && cityKey(a) === cityKey(b) && cityKey(a).length >= 3 && (overlap(a, b) || shared(a, b) >= 1);
   const merged2: Raw[] = [];
   for (const r of byKey.values()) {
     const i = merged2.findIndex((m) => (w1(m) === w1(r) && m.dateStart.slice(0, 7) === r.dateStart.slice(0, 7) && (cityKey(m) === cityKey(r) || (eventCore(m.eventName) === eventCore(r.eventName) && shared(m, r) >= 1))) || prefixKin(m, r) || samePlaceDay(m, r));
