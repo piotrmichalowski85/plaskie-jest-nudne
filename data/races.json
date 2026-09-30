@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-30T14:14:40.516Z",
- "count": 194,
+ "generatedAt": "2026-09-30T14:16:01.023Z",
+ "count": 195,
  "races": [
   {
    "name": "Grand Prix Krakowa w biegach górskich",
@@ -7919,103 +7919,31 @@
    "name": "Winter Trail Małopolska 2025: WTM 16, WTM 45, WTM 64, WTM 64, WTM 64, WTM 64, WTM 64, WTM 64, WTM 64, WTM 105, WTM 105, WTM 105, WTM 105, WTM 105, WTM 105, WTM 105, WTM 140, WTM 140, WTM 140, WTM 140, WTM 140, WTM 140, WTM 140",
    "eventName": "Winter Trail Małopolska",
    "dateStart": "2026-12-12",
-   "dateEnd": "2026-12-12",
+   "dateEnd": "2026-12-13",
    "city": "Mszana Dolna",
    "region": "Beskid Wyspowy",
    "distancesKm": [
-    13,
-    51.5,
-    67,
-    67,
-    67,
-    67,
-    67,
-    67,
-    67,
-    109,
-    109,
-    109,
-    109,
-    109,
-    109,
-    109,
-    145,
-    145,
-    145,
-    145,
-    145,
-    145,
-    145
+    16,
+    45,
+    64,
+    105,
+    140
    ],
    "elevations": [
     {
-     "km": 13
+     "km": 16
     },
     {
-     "km": 51.5
+     "km": 45
     },
     {
-     "km": 67
+     "km": 64
     },
     {
-     "km": 67
+     "km": 105
     },
     {
-     "km": 67
-    },
-    {
-     "km": 67
-    },
-    {
-     "km": 67
-    },
-    {
-     "km": 67
-    },
-    {
-     "km": 67
-    },
-    {
-     "km": 109
-    },
-    {
-     "km": 109
-    },
-    {
-     "km": 109
-    },
-    {
-     "km": 109
-    },
-    {
-     "km": 109
-    },
-    {
-     "km": 109
-    },
-    {
-     "km": 109
-    },
-    {
-     "km": 145
-    },
-    {
-     "km": 145
-    },
-    {
-     "km": 145
-    },
-    {
-     "km": 145
-    },
-    {
-     "km": 145
-    },
-    {
-     "km": 145
-    },
-    {
-     "km": 145
+     "km": 140
     }
    ],
    "vertical": false,
@@ -8045,10 +7973,10 @@
    },
    "id": "winter-trail-malopolska-2026-12-12",
    "surface": "trail",
-   "minKm": 13,
-   "maxKm": 145,
+   "minKm": 16,
+   "maxKm": 140,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 13 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+   "beginnerWhy": "najkrótszy dystans 16 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Perły Małopolski - Rabka-Zdrój - Gorce: 20,1km / 14,1km / 7,5km / zawody dla dzieci",
@@ -8165,18 +8093,6 @@
    "region": "",
    "distancesKm": [
     21,
-    21,
-    21,
-    21,
-    21,
-    21,
-    21,
-    31,
-    31,
-    31,
-    31,
-    31,
-    31,
     31
    ],
    "elevations": [
@@ -8188,47 +8104,11 @@
      "dplusCheckedAt": "2026-09-30"
     },
     {
-     "km": 21
-    },
-    {
-     "km": 21
-    },
-    {
-     "km": 21
-    },
-    {
-     "km": 21
-    },
-    {
-     "km": 21
-    },
-    {
-     "km": 21
-    },
-    {
      "km": 31,
      "dplus": 1450,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://www.maratongorstolowych.pl/trasy/",
      "dplusCheckedAt": "2026-09-30"
-    },
-    {
-     "km": 31
-    },
-    {
-     "km": 31
-    },
-    {
-     "km": 31
-    },
-    {
-     "km": 31
-    },
-    {
-     "km": 31
-    },
-    {
-     "km": 31
     }
    ],
    "vertical": false,
@@ -8241,29 +8121,14 @@
     {
      "name": "trasa (organizator)",
      "url": "https://www.maratongorstolowych.pl/trasy/"
-    },
-    {
-     "name": "b4sportonline.pl",
-     "url": "https://b4sportonline.pl/Zimowy_Polmaraton_Gor_Stolowych/"
     }
    ],
-   "signupOpen": true,
-   "participants": 165,
-   "signup": {
-    "status": "open",
-    "until": "2027-01-14",
-    "limit": 450,
-    "registered": 165,
-    "source": "zapisy",
-    "sourceUrl": "https://b4sportonline.pl/Zimowy_Polmaraton_Gor_Stolowych/",
-    "checkedAt": "2026-09-30"
-   },
    "id": "zimowy-polmaraton-gor-stolowych-2027-01-16",
    "surface": "trail",
    "minKm": 21,
    "maxKm": 31,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 21 km (jak półmaraton w terenie, zwykle wolniej); średnio stromo: ok. 48 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+   "beginnerWhy": "najkrótszy dystans 21 km (jak półmaraton w terenie, zwykle wolniej); średnio stromo: ok. 48 m przewyższenia na kilometr."
   },
   {
    "name": "Zimowy Maraton Świętokrzyski: Królewska Batalia, Rycerska Szarża",
@@ -8309,6 +8174,47 @@
    "maxKm": 48,
    "beginnerScore": 2,
    "beginnerWhy": "najkrótszy dystans 26 km to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy."
+  },
+  {
+   "name": "ZPGS",
+   "eventName": "ZPGS",
+   "dateStart": "2027-01-16",
+   "dateEnd": "2027-01-16",
+   "city": "Karłów",
+   "region": "",
+   "distancesKm": [
+    21
+   ],
+   "elevations": [
+    {
+     "km": 21
+    }
+   ],
+   "vertical": false,
+   "url": "https://b4sportonline.pl/Zimowy_Polmaraton_Gor_Stolowych/",
+   "sources": [
+    {
+     "name": "b4sportonline.pl",
+     "url": "https://b4sportonline.pl/Zimowy_Polmaraton_Gor_Stolowych/"
+    }
+   ],
+   "signup": {
+    "status": "open",
+    "until": "2027-01-14",
+    "limit": 450,
+    "registered": 165,
+    "source": "zapisy",
+    "sourceUrl": "https://b4sportonline.pl/Zimowy_Polmaraton_Gor_Stolowych/",
+    "checkedAt": "2026-09-30"
+   },
+   "signupOpen": true,
+   "participants": 165,
+   "id": "zpgs-2027-01-16",
+   "surface": "przelaj",
+   "minKm": 21,
+   "maxKm": 21,
+   "beginnerScore": 3,
+   "beginnerWhy": "najkrótszy dystans 21 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "ZAMIEĆ",
@@ -8542,10 +8448,12 @@
    ],
    "regulaminUrl": "https://malopolskabiega.com.pl/regulamin-ultra/",
    "signup": {
-    "status": "unknown",
-    "limit": 43,
-    "source": "regulamin",
-    "sourceUrl": "https://malopolskabiega.com.pl/regulamin-ultra/",
+    "status": "open",
+    "until": "2027-03-15",
+    "limit": 100,
+    "registered": 1,
+    "source": "zapisy",
+    "sourceUrl": "https://b4sportonline.pl/ultra_swir/",
     "checkedAt": "2026-09-30"
    },
    "signupOpen": true,
@@ -8619,39 +8527,9 @@
    "region": "",
    "distancesKm": [
     6,
-    6,
-    6,
-    6,
-    6,
-    6,
-    6,
-    13,
-    13,
-    13,
-    13,
-    13,
-    13,
     13,
     22,
-    22,
-    22,
-    22,
-    22,
-    22,
-    22,
     54,
-    54,
-    54,
-    54,
-    54,
-    54,
-    54,
-    103,
-    103,
-    103,
-    103,
-    103,
-    103,
     103
    ],
    "elevations": [
@@ -8664,48 +8542,12 @@
      "limitH": 1.5
     },
     {
-     "km": 6
-    },
-    {
-     "km": 6
-    },
-    {
-     "km": 6
-    },
-    {
-     "km": 6
-    },
-    {
-     "km": 6
-    },
-    {
-     "km": 6
-    },
-    {
      "km": 13,
      "dplus": 500,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://ultrawysoczyzna.pl/trasa/",
      "dplusCheckedAt": "2026-09-30",
      "limitH": 3
-    },
-    {
-     "km": 13
-    },
-    {
-     "km": 13
-    },
-    {
-     "km": 13
-    },
-    {
-     "km": 13
-    },
-    {
-     "km": 13
-    },
-    {
-     "km": 13
     },
     {
      "km": 22,
@@ -8716,24 +8558,6 @@
      "limitH": 5
     },
     {
-     "km": 22
-    },
-    {
-     "km": 22
-    },
-    {
-     "km": 22
-    },
-    {
-     "km": 22
-    },
-    {
-     "km": 22
-    },
-    {
-     "km": 22
-    },
-    {
      "km": 54,
      "dplus": 1160,
      "dplusSource": "trasa",
@@ -8742,48 +8566,12 @@
      "limitH": 10
     },
     {
-     "km": 54
-    },
-    {
-     "km": 54
-    },
-    {
-     "km": 54
-    },
-    {
-     "km": 54
-    },
-    {
-     "km": 54
-    },
-    {
-     "km": 54
-    },
-    {
      "km": 103,
      "dplus": 2300,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://ultrawysoczyzna.pl/trasa/",
      "dplusCheckedAt": "2026-09-30",
      "limitH": 17
-    },
-    {
-     "km": 103
-    },
-    {
-     "km": 103
-    },
-    {
-     "km": 103
-    },
-    {
-     "km": 103
-    },
-    {
-     "km": 103
-    },
-    {
-     "km": 103
     }
    ],
    "vertical": false,
@@ -9065,10 +8853,12 @@
    ],
    "regulaminUrl": "https://malopolskabiega.com.pl/regulamin-ultra/",
    "signup": {
-    "status": "unknown",
-    "limit": 43,
-    "source": "regulamin",
-    "sourceUrl": "https://malopolskabiega.com.pl/regulamin-ultra/",
+    "status": "open",
+    "until": "2027-06-25",
+    "limit": 100,
+    "registered": 0,
+    "source": "zapisy",
+    "sourceUrl": "https://b4sportonline.pl/ultra_swir/",
     "checkedAt": "2026-09-30"
    },
    "signupOpen": true,

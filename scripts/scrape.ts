@@ -134,14 +134,14 @@ async function kingrunner(): Promise<Raw[]> {
     g.sort((a, b) => a.km - b.km);
     const dates = g.map((x) => x.date).sort();
     const detail = g[0].href ? await kingrunnerDetail(g[0].href) : {};
-    const list = g.map((x) => ({ km: x.km, dplus: undefined as number | undefined }));
+    const list = [...new Map(g.map((x) => [x.km, { km: x.km, dplus: undefined as number | undefined }])).values()];
     if (detail.dplus && list.length === 1) list[0].dplus = detail.dplus;
     // nazwa imprezy = najkrótsza z nazw w grupie, bez końcowej liczby dystansu ("Łemkowyna Trail 150" -> "Łemkowyna Trail")
     const eventName = g.map((x) => x.event).sort((a, b) => a.length - b.length)[0].replace(/\s+\d{1,3}\s*(km)?$/i, "").trim();
     out.push({
       name: g.length > 1 ? `${eventName}: ${g.map((x) => x.variant || x.km + " km").join(", ")}` : `${eventName}${g[0].variant ? " - " + g[0].variant : ""}`,
       eventName, dateStart: dates[0], dateEnd: dates[dates.length - 1], city: cleanCity(g[0].city), region: "",
-      distancesKm: g.map((x) => x.km), elevations: list, vertical: g.some((x) => /vertical/i.test(x.typ + x.variant)),
+      distancesKm: list.map((x) => x.km), elevations: list, vertical: g.some((x) => /vertical/i.test(x.typ + x.variant)),
       url: detail.url, sources: [{ name: "kingrunner.com", url: g[0].href || src }],
     });
   }
@@ -352,6 +352,13 @@ async function zapisy(raws: Raw[]): Promise<Record<string, number>> {
   return stats;
 }
 
+/** Który status zapisów zostaje przy scalaniu: platforma zapisów > znany status > cokolwiek. */
+function pickSignup(a?: Signup, b?: Signup): Signup | undefined {
+  const rank = (x?: Signup) => !x ? 0 : x.source === "zapisy" && x.status !== "unknown" ? 3 : x.status !== "unknown" ? 2 : 1;
+  const best = rank(a) >= rank(b) ? a : b, other = best === a ? b : a;
+  return best ? { ...best, limit: best.limit ?? other?.limit, until: best.until ?? other?.until } : undefined;
+}
+
 /** Scalanie dwóch wpisów tej samej imprezy: bogatszy zestaw dystansów wygrywa, reszta uzupełnia się nawzajem. */
 function mergeRaw(a: Raw, b: Raw): Raw {
   const rich = a.distancesKm.length >= b.distancesKm.length ? a : b, poor = rich === a ? b : a;
@@ -361,7 +368,7 @@ function mergeRaw(a: Raw, b: Raw): Raw {
     ...a, ...rich, elevations, distancesKm: elevations.map((e) => e.km),
     name: a.name.length >= b.name.length ? a.name : b.name, eventName: a.eventName,
     region: a.region || b.region, city: a.city || b.city, url: a.url || b.url, category: a.category || b.category,
-    signupOpen: a.signupOpen || b.signupOpen, participants: a.participants ?? b.participants, signup: a.signup ?? b.signup,
+    signupOpen: a.signupOpen || b.signupOpen, participants: a.participants ?? b.participants, signup: pickSignup(a.signup, b.signup),
     regulaminUrl: a.regulaminUrl || b.regulaminUrl, gear: a.gear || b.gear,
     sources: [...a.sources, ...b.sources.filter((s) => !a.sources.some((p) => p.name === s.name))],
   };
