@@ -78,6 +78,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
                 );
               })}</ul>
             ) : <p className="text-[var(--muted)]">Dystanse nieznane, sprawdź u organizatora.</p>}
+            <p className="mt-3"><Link href={`/czy-dam-rade?bieg=${r.id}`} className="btn btn-ghost">Czy dam radę na tym biegu? Policz swój czas</Link></p>
             <p className="mt-2 text-xs text-[var(--muted)]">Kropka przy dystansie: zielona = dobry na start, żółta = ujdzie na start, czerwona = zły na start. Plakietka imprezy odpowiada najłatwiejszemu dystansowi.</p>
           </section>
 

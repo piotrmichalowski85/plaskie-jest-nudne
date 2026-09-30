@@ -16,6 +16,7 @@ export default function Home() {
           <div className="mt-6 flex flex-wrap gap-3">
             <Link href="/kreator" className="btn">Wybierz swój pierwszy bieg</Link>
             <Link href="/biegi" className="btn btn-ghost">Przeglądaj kalendarz</Link>
+            <Link href="/czy-dam-rade" className="btn btn-ghost">Czy dam radę?</Link>
           </div>
         </div>
         <div className="relative">
