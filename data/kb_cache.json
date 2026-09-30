@@ -1,0 +1,2548 @@
+{
+ "3253": {
+  "id": 3253,
+  "name": "Kresowe Trail – Tykocin",
+  "url": "https://kalendarzbiegowy.pl/biegi/kresowe-trail-tykocin/",
+  "start": "2025-05-04",
+  "end": "2025-05-04",
+  "city": "Tykocin",
+  "kinds": [
+   "przelaj",
+   "trail"
+  ],
+  "distancesKm": [
+   8,
+   18
+  ],
+  "dplus": [
+   {
+    "km": 8
+   },
+   {
+    "km": 18
+   }
+  ],
+  "modified": "2025-04-22T17:52:14",
+  "fetchedAt": "2026-09-30"
+ },
+ "3256": {
+  "id": 3256,
+  "name": "Bieg Jaskiniowego Niedźwiedzia",
+  "url": "https://kalendarzbiegowy.pl/biegi/bieg-jaskiniowego-niedzwiedzia-3/",
+  "start": "2025-08-30",
+  "end": "2025-08-30",
+  "city": "Kletno",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   25,
+   42
+  ],
+  "dplus": [
+   {
+    "km": 25
+   },
+   {
+    "km": 42
+   }
+  ],
+  "modified": "2025-04-23T10:34:29",
+  "fetchedAt": "2026-09-30"
+ },
+ "3257": {
+  "id": 3257,
+  "name": "XII Międzynarodowy Bieg Charytatywny Run 4 a Smile 2025",
+  "url": "https://kalendarzbiegowy.pl/biegi/xii-miedzynarodowy-bieg-charytatywny-run-4-a-smile-2025/",
+  "start": "2025-05-31",
+  "end": "2025-05-31",
+  "city": "",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [],
+  "dplus": [],
+  "modified": "2025-04-23T10:35:19",
+  "fetchedAt": "2026-09-30"
+ },
+ "3260": {
+  "id": 3260,
+  "name": "X Jubileuszowy Korczyński Bieg i NW „Do Prządek”",
+  "url": "https://kalendarzbiegowy.pl/biegi/x-jubileuszowy-korczynski-bieg-i-nw-do-przadek-2/",
+  "start": "2025-10-04",
+  "end": "2025-10-04",
+  "city": "Korczyna - Czarnorzeki",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   6,
+   20
+  ],
+  "dplus": [
+   {
+    "km": 6
+   },
+   {
+    "km": 20
+   }
+  ],
+  "modified": "2025-04-30T10:18:39",
+  "fetchedAt": "2026-09-30"
+ },
+ "3261": {
+  "id": 3261,
+  "name": "11 Bieg o Złotą Szyszkę",
+  "url": "https://kalendarzbiegowy.pl/biegi/11-bieg-o-zlota-szyszke/",
+  "start": "2025-10-11",
+  "end": "2025-10-11",
+  "city": "Bystra Śląska",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   13,
+   20.3
+  ],
+  "dplus": [
+   {
+    "km": 13
+   },
+   {
+    "km": 20.3
+   }
+  ],
+  "modified": "2025-04-30T10:19:57",
+  "fetchedAt": "2026-09-30"
+ },
+ "3262": {
+  "id": 3262,
+  "name": "X Jubileuszowy Korczyński Bieg i NW „Do Prządek”",
+  "url": "https://kalendarzbiegowy.pl/biegi/x-jubileuszowy-korczynski-bieg-i-nw-do-przadek/",
+  "start": "2025-10-04",
+  "end": "2025-10-04",
+  "city": "Korczyna - Czarnorzeki",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   6,
+   20
+  ],
+  "dplus": [
+   {
+    "km": 6
+   },
+   {
+    "km": 20
+   }
+  ],
+  "modified": "2025-04-30T10:21:00",
+  "fetchedAt": "2026-09-30"
+ },
+ "3264": {
+  "id": 3264,
+  "name": "Extrém Maratón Oščadnica",
+  "url": "https://kalendarzbiegowy.pl/biegi/extrem-maraton-oscadnica/",
+  "start": "2025-10-18",
+  "end": "2025-10-18",
+  "city": "Oščadnica",
+  "kinds": [
+   "gorski",
+   "trail"
+  ],
+  "distancesKm": [],
+  "dplus": [],
+  "modified": "2025-04-30T10:34:25",
+  "fetchedAt": "2026-09-30"
+ },
+ "3285": {
+  "id": 3285,
+  "name": "Meble Wójcik Ultra Wysoczyzna 2025",
+  "url": "https://kalendarzbiegowy.pl/biegi/meble-wojcik-ultra-wysoczyzna-2025/",
+  "start": "2025-05-09",
+  "end": "2025-05-10",
+  "city": "Elbląg",
+  "kinds": [
+   "ultra",
+   "trail"
+  ],
+  "distancesKm": [
+   6,
+   12,
+   24,
+   54,
+   80
+  ],
+  "dplus": [
+   {
+    "km": 6
+   },
+   {
+    "km": 12
+   },
+   {
+    "km": 24
+   },
+   {
+    "km": 54
+   },
+   {
+    "km": 80
+   }
+  ],
+  "modified": "2025-05-07T12:14:24",
+  "fetchedAt": "2026-09-30"
+ },
+ "3321": {
+  "id": 3321,
+  "name": "Grand Prix Krakowa – VI Bieg Nocny",
+  "url": "https://kalendarzbiegowy.pl/biegi/grand-prix-krakowa-vi-bieg-nocny/",
+  "start": "2025-06-14",
+  "end": "2025-06-15",
+  "city": "Kraków",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   3.7,
+   5.7,
+   11.6,
+   23.2
+  ],
+  "dplus": [
+   {
+    "km": 3.7
+   },
+   {
+    "km": 5.7
+   },
+   {
+    "km": 11.6
+   },
+   {
+    "km": 23.2
+   }
+  ],
+  "modified": "2025-05-23T10:37:57",
+  "fetchedAt": "2026-09-30"
+ },
+ "3337": {
+  "id": 3337,
+  "name": "Podkarpacki Festiwal Sportowy",
+  "url": "https://kalendarzbiegowy.pl/biegi/podkarpacki-festiwal-sportowy/",
+  "start": "2025-05-31",
+  "end": "2025-05-31",
+  "city": "Rzeszów",
+  "kinds": [
+   "gorski",
+   "ultra"
+  ],
+  "distancesKm": [
+   24,
+   45,
+   65
+  ],
+  "dplus": [
+   {
+    "km": 24
+   },
+   {
+    "km": 45
+   },
+   {
+    "km": 65
+   }
+  ],
+  "modified": "2025-05-28T12:32:52",
+  "fetchedAt": "2026-09-30"
+ },
+ "3339": {
+  "id": 3339,
+  "name": "Biegiem Na Bagry 7",
+  "url": "https://kalendarzbiegowy.pl/biegi/biegiem-na-bagry-7/",
+  "start": "2025-05-31",
+  "end": "2025-05-31",
+  "city": "Kraków",
+  "kinds": [
+   "trail"
+  ],
+  "distancesKm": [
+   5
+  ],
+  "dplus": [
+   {
+    "km": 5
+   }
+  ],
+  "modified": "2025-05-28T12:41:59",
+  "fetchedAt": "2026-09-30"
+ },
+ "3365": {
+  "id": 3365,
+  "name": "Potrójna Korona Wałbrzyska",
+  "url": "https://kalendarzbiegowy.pl/biegi/potrojna-korona-walbrzyska/",
+  "start": "2025-06-06",
+  "end": "2025-06-08",
+  "city": "Wałbrzych",
+  "kinds": [
+   "gorski",
+   "ultra"
+  ],
+  "distancesKm": [
+   45,
+   70,
+   85
+  ],
+  "dplus": [
+   {
+    "km": 45
+   },
+   {
+    "km": 70
+   },
+   {
+    "km": 85
+   }
+  ],
+  "modified": "2025-06-03T18:49:50",
+  "fetchedAt": "2026-09-30"
+ },
+ "3367": {
+  "id": 3367,
+  "name": "XXIII Bieg Górski na Hrobaczą Łąkę | VII Rajd Nordic Walking na Hrobaczą Łąkę",
+  "url": "https://kalendarzbiegowy.pl/biegi/xxiii-bieg-gorski-na-hrobacza-lake-vii-rajd-nordic-walking-na-hrobacza-lake/",
+  "start": "2025-06-07",
+  "end": "2025-06-07",
+  "city": "Kozy",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   6,
+   14
+  ],
+  "dplus": [
+   {
+    "km": 6
+   },
+   {
+    "km": 14
+   }
+  ],
+  "modified": "2025-06-03T18:59:00",
+  "fetchedAt": "2026-09-30"
+ },
+ "3378": {
+  "id": 3378,
+  "name": "Sudecki Festiwal Biegów Górskich",
+  "url": "https://kalendarzbiegowy.pl/biegi/sudecki-festiwal-biegow-gorskich/",
+  "start": "2025-06-07",
+  "end": "2025-06-08",
+  "city": "Głuszyca",
+  "kinds": [
+   "gorski",
+   "ultra"
+  ],
+  "distancesKm": [
+   5,
+   10,
+   22,
+   43
+  ],
+  "dplus": [
+   {
+    "km": 5
+   },
+   {
+    "km": 10
+   },
+   {
+    "km": 22
+   },
+   {
+    "km": 43
+   }
+  ],
+  "modified": "2025-06-05T21:49:06",
+  "fetchedAt": "2026-09-30"
+ },
+ "3382": {
+  "id": 3382,
+  "name": "11. Ultra Kamieńsk",
+  "url": "https://kalendarzbiegowy.pl/biegi/11-ultra-kamiensk/",
+  "start": "2025-07-27",
+  "end": "2025-07-27",
+  "city": "Huby Ruszczyńskie",
+  "kinds": [
+   "gorski",
+   "przelaj"
+  ],
+  "distancesKm": [
+   10,
+   25,
+   50
+  ],
+  "dplus": [
+   {
+    "km": 10
+   },
+   {
+    "km": 25
+   },
+   {
+    "km": 50
+   }
+  ],
+  "modified": "2025-06-11T10:59:18",
+  "fetchedAt": "2026-09-30"
+ },
+ "3389": {
+  "id": 3389,
+  "name": "Zwiewna Piątka",
+  "url": "https://kalendarzbiegowy.pl/biegi/zwiewna-piatka/",
+  "start": "2025-06-18",
+  "end": "2025-06-18",
+  "city": "Warszawa",
+  "kinds": [
+   "trail"
+  ],
+  "distancesKm": [
+   5
+  ],
+  "dplus": [
+   {
+    "km": 5
+   }
+  ],
+  "modified": "2025-06-16T13:04:30",
+  "fetchedAt": "2026-09-30"
+ },
+ "3393": {
+  "id": 3393,
+  "name": "Żyrowski Wierch",
+  "url": "https://kalendarzbiegowy.pl/biegi/zyrowski-wierch/",
+  "start": "2025-06-19",
+  "end": "2025-06-19",
+  "city": "Zdzieszowice",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   7
+  ],
+  "dplus": [
+   {
+    "km": 7
+   }
+  ],
+  "modified": "2025-06-16T14:07:49",
+  "fetchedAt": "2026-09-30"
+ },
+ "3396": {
+  "id": 3396,
+  "name": "ULTRA MAZURY",
+  "url": "https://kalendarzbiegowy.pl/biegi/ultra-mazury/",
+  "start": "2025-08-23",
+  "end": "2025-08-23",
+  "city": "Hotel Anders, Stare Jabłonki",
+  "kinds": [
+   "ultra"
+  ],
+  "distancesKm": [
+   10.3,
+   36.9,
+   69.5,
+   98.7
+  ],
+  "dplus": [
+   {
+    "km": 10.3
+   },
+   {
+    "km": 36.9
+   },
+   {
+    "km": 69.5
+   },
+   {
+    "km": 98.7
+   }
+  ],
+  "modified": "2025-06-18T22:24:54",
+  "fetchedAt": "2026-09-30"
+ },
+ "3454": {
+  "id": 3454,
+  "name": "Augustowski Festiwal Biegowy 2025",
+  "url": "https://kalendarzbiegowy.pl/biegi/augustowski-festiwal-biegowy-2025/",
+  "start": "2025-09-20",
+  "end": "2025-09-21",
+  "city": "Augustów",
+  "kinds": [
+   "ultra",
+   "trail"
+  ],
+  "distancesKm": [
+   10,
+   42,
+   84
+  ],
+  "dplus": [
+   {
+    "km": 10
+   },
+   {
+    "km": 42
+   },
+   {
+    "km": 84
+   }
+  ],
+  "modified": "2025-07-15T12:04:32",
+  "fetchedAt": "2026-09-30"
+ },
+ "3468": {
+  "id": 3468,
+  "name": "Zawojski Festiwal Biegowy",
+  "url": "https://kalendarzbiegowy.pl/biegi/zawojski-festiwal-biegowy/",
+  "start": "2025-07-26",
+  "end": "2025-07-26",
+  "city": "Zawoja",
+  "kinds": [
+   "gorski",
+   "ultra"
+  ],
+  "distancesKm": [],
+  "dplus": [],
+  "modified": "2025-07-21T22:06:05",
+  "fetchedAt": "2026-09-30"
+ },
+ "3498": {
+  "id": 3498,
+  "name": "VIII Biegi Górskie Sanok",
+  "url": "https://kalendarzbiegowy.pl/biegi/viii-biegi-gorskie-sanok/",
+  "start": "2025-09-18",
+  "end": "2025-09-20",
+  "city": "Sanok",
+  "kinds": [
+   "gorski",
+   "przelaj",
+   "ultra",
+   "trail"
+  ],
+  "distancesKm": [
+   5,
+   10,
+   25,
+   50,
+   100,
+   255
+  ],
+  "dplus": [
+   {
+    "km": 5
+   },
+   {
+    "km": 10
+   },
+   {
+    "km": 25
+   },
+   {
+    "km": 50
+   },
+   {
+    "km": 100
+   },
+   {
+    "km": 255
+   }
+  ],
+  "modified": "2025-08-01T15:10:34",
+  "fetchedAt": "2026-09-30"
+ },
+ "3499": {
+  "id": 3499,
+  "name": "Ekstremalny Półmaraton Górski o Puchar Starosty Żywieckiego",
+  "url": "https://kalendarzbiegowy.pl/biegi/ekstremalny-polmaraton-gorski-o-puchar-starosty-zywieckiego/",
+  "start": "2025-10-11",
+  "end": "2025-10-11",
+  "city": "Gmina Lipowa - parking leśniczówka",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   21.097
+  ],
+  "dplus": [
+   {
+    "km": 21.097
+   }
+  ],
+  "modified": "2025-08-01T15:08:19",
+  "fetchedAt": "2026-09-30"
+ },
+ "3502": {
+  "id": 3502,
+  "name": "Ultras Oliwski 2025 – Wokół Radości – V edycja",
+  "url": "https://kalendarzbiegowy.pl/biegi/ultras-oliwski-2025-wokol-radosci-v-edycja/",
+  "start": "2025-09-20",
+  "end": "2025-09-20",
+  "city": "Gdańsk",
+  "kinds": [
+   "ultra"
+  ],
+  "distancesKm": [
+   10,
+   21.95
+  ],
+  "dplus": [
+   {
+    "km": 10
+   },
+   {
+    "km": 21.95
+   }
+  ],
+  "modified": "2025-08-17T15:17:05",
+  "fetchedAt": "2026-09-30"
+ },
+ "3509": {
+  "id": 3509,
+  "name": "niedamiRUN ultramaraton sudecki v4.0",
+  "url": "https://kalendarzbiegowy.pl/biegi/niedamirun-ultramaraton-sudecki-v4-0/",
+  "start": "2025-08-23",
+  "end": "2025-08-23",
+  "city": "Niedamirów k. Lubawki",
+  "kinds": [
+   "gorski",
+   "ultra"
+  ],
+  "distancesKm": [
+   13,
+   22,
+   50,
+   100
+  ],
+  "dplus": [
+   {
+    "km": 13
+   },
+   {
+    "km": 22
+   },
+   {
+    "km": 50
+   },
+   {
+    "km": 100
+   }
+  ],
+  "modified": "2025-08-17T16:13:45",
+  "fetchedAt": "2026-09-30"
+ },
+ "3520": {
+  "id": 3520,
+  "name": "Konferencja Biegowe 360 w Zakopanem",
+  "url": "https://kalendarzbiegowy.pl/biegi/konferencja-biegowe-360-w-zakopanem/",
+  "start": "2025-10-17",
+  "end": "2025-10-19",
+  "city": "Zakopane",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [],
+  "dplus": [],
+  "modified": "2025-08-18T11:14:48",
+  "fetchedAt": "2026-09-30"
+ },
+ "3533": {
+  "id": 3533,
+  "name": "7. Górski Maraton Świętokrzyski",
+  "url": "https://kalendarzbiegowy.pl/biegi/7-gorski-maraton-swietokrzyski/",
+  "start": "2025-10-25",
+  "end": "2025-10-25",
+  "city": "Nowa Słupia ul. Świętokrzyska 63 A",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [],
+  "dplus": [],
+  "modified": "2025-08-27T13:36:08",
+  "fetchedAt": "2026-09-30"
+ },
+ "3535": {
+  "id": 3535,
+  "name": "IX Charytatywny Bieg na Grzybową Górę",
+  "url": "https://kalendarzbiegowy.pl/biegi/ix-charytatywny-bieg-na-grzybowa-gore/",
+  "start": "2025-09-14",
+  "end": "2025-09-14",
+  "city": "Koźlice",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   5,
+   10
+  ],
+  "dplus": [
+   {
+    "km": 5
+   },
+   {
+    "km": 10
+   }
+  ],
+  "modified": "2025-08-27T12:40:21",
+  "fetchedAt": "2026-09-30"
+ },
+ "3554": {
+  "id": 3554,
+  "name": "7. Półmaraton Lasy nad Utratą",
+  "url": "https://kalendarzbiegowy.pl/biegi/7-polmaraton-lasy-nad-utrata/",
+  "start": "2025-09-20",
+  "end": "2025-09-20",
+  "city": "",
+  "kinds": [
+   "trail"
+  ],
+  "distancesKm": [
+   1,
+   5,
+   21
+  ],
+  "dplus": [
+   {
+    "km": 1
+   },
+   {
+    "km": 5
+   },
+   {
+    "km": 21
+   }
+  ],
+  "modified": "2025-09-08T13:26:25",
+  "fetchedAt": "2026-09-30"
+ },
+ "3556": {
+  "id": 3556,
+  "name": "Cross Wesoła",
+  "url": "https://kalendarzbiegowy.pl/biegi/cross-wesola/",
+  "start": "2025-10-11",
+  "end": "2025-10-11",
+  "city": "Warszawa",
+  "kinds": [
+   "trail"
+  ],
+  "distancesKm": [
+   3
+  ],
+  "dplus": [
+   {
+    "km": 3
+   }
+  ],
+  "modified": "2025-09-08T13:26:13",
+  "fetchedAt": "2026-09-30"
+ },
+ "3558": {
+  "id": 3558,
+  "name": "Cross Śrem Grand Prix",
+  "url": "https://kalendarzbiegowy.pl/biegi/cross-srem-grand-prix/",
+  "start": "2025-10-19",
+  "end": "2025-10-19",
+  "city": "Śrem",
+  "kinds": [
+   "przelaj",
+   "trail"
+  ],
+  "distancesKm": [
+   5
+  ],
+  "dplus": [
+   {
+    "km": 5
+   }
+  ],
+  "modified": "2025-09-08T13:29:41",
+  "fetchedAt": "2026-09-30"
+ },
+ "3583": {
+  "id": 3583,
+  "name": "X Bieg w Czerniawce",
+  "url": "https://kalendarzbiegowy.pl/biegi/x-bieg-w-czerniawce/",
+  "start": "2025-10-11",
+  "end": "2025-10-11",
+  "city": "Czerniawka",
+  "kinds": [
+   "trail"
+  ],
+  "distancesKm": [
+   6,
+   12
+  ],
+  "dplus": [
+   {
+    "km": 6
+   },
+   {
+    "km": 12
+   }
+  ],
+  "modified": "2025-09-12T17:56:35",
+  "fetchedAt": "2026-09-30"
+ },
+ "3596": {
+  "id": 3596,
+  "name": "LII Maraton Pieszy im. A. Zboińskiego w Puszczy Kampinoskiej",
+  "url": "https://kalendarzbiegowy.pl/biegi/lii-maraton-pieszy-im-a-zboinskiego-w-puszczy-kampinoskiej/",
+  "start": "2025-10-11",
+  "end": "2025-10-12",
+  "city": "Leszno",
+  "kinds": [
+   "ultra"
+  ],
+  "distancesKm": [
+   150
+  ],
+  "dplus": [
+   {
+    "km": 150
+   }
+  ],
+  "modified": "2025-09-26T09:03:14",
+  "fetchedAt": "2026-09-30"
+ },
+ "3608": {
+  "id": 3608,
+  "name": "PKO Dycha Pod Krokwią",
+  "url": "https://kalendarzbiegowy.pl/biegi/pko-dycha-pod-krokwia/",
+  "start": "2025-10-18",
+  "end": "2025-10-18",
+  "city": "",
+  "kinds": [
+   "gorski",
+   "trail"
+  ],
+  "distancesKm": [
+   2.5,
+   10
+  ],
+  "dplus": [
+   {
+    "km": 2.5
+   },
+   {
+    "km": 10
+   }
+  ],
+  "modified": "2025-10-02T14:22:49",
+  "fetchedAt": "2026-09-30"
+ },
+ "3618": {
+  "id": 3618,
+  "name": "Zimna Połówka & Chłodna Ćwiartka 2025",
+  "url": "https://kalendarzbiegowy.pl/biegi/zimna-polowka-chlodna-cwiartka-2025/",
+  "start": "2025-12-20",
+  "end": "2025-12-20",
+  "city": "Niegowonice, gm. Łazy",
+  "kinds": [
+   "trail"
+  ],
+  "distancesKm": [],
+  "dplus": [],
+  "modified": "2025-10-02T13:40:55",
+  "fetchedAt": "2026-09-30"
+ },
+ "3626": {
+  "id": 3626,
+  "name": "Bieg Herosa",
+  "url": "https://kalendarzbiegowy.pl/biegi/bieg-herosa-4/",
+  "start": "2025-11-22",
+  "end": "2025-11-22",
+  "city": "RóżaWiatrów, Pustynia Błędowska",
+  "kinds": [
+   "przelaj",
+   "trail"
+  ],
+  "distancesKm": [
+   5
+  ],
+  "dplus": [
+   {
+    "km": 5
+   }
+  ],
+  "modified": "2025-10-07T21:43:23",
+  "fetchedAt": "2026-09-30"
+ },
+ "3633": {
+  "id": 3633,
+  "name": "Zimowy Maraton Świętokrzyski 2026",
+  "url": "https://kalendarzbiegowy.pl/biegi/zimowy-maraton-swietokrzyski-2026/",
+  "start": "2026-01-17",
+  "end": "2026-01-17",
+  "city": "Chęciny",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [],
+  "dplus": [],
+  "modified": "2025-10-09T12:24:00",
+  "fetchedAt": "2026-09-30"
+ },
+ "3635": {
+  "id": 3635,
+  "name": "Meble Wójcik Ultra Wysoczyzna 2026",
+  "url": "https://kalendarzbiegowy.pl/biegi/meble-wojcik-ultra-wysoczyzna-2026/",
+  "start": "2026-04-24",
+  "end": "2026-04-26",
+  "city": "Elbląg",
+  "kinds": [
+   "ultra"
+  ],
+  "distancesKm": [],
+  "dplus": [],
+  "modified": "2025-10-20T11:52:11",
+  "fetchedAt": "2026-09-30"
+ },
+ "3641": {
+  "id": 3641,
+  "name": "XIII Bieg Niepodległości",
+  "url": "https://kalendarzbiegowy.pl/biegi/xiii-bieg-niepodleglosci-2/",
+  "start": "2025-11-11",
+  "end": "2025-11-11",
+  "city": "Rytro",
+  "kinds": [
+   "gorski",
+   "przelaj"
+  ],
+  "distancesKm": [
+   5,
+   10
+  ],
+  "dplus": [
+   {
+    "km": 5
+   },
+   {
+    "km": 10
+   }
+  ],
+  "modified": "2025-10-20T11:51:44",
+  "fetchedAt": "2026-09-30"
+ },
+ "3642": {
+  "id": 3642,
+  "name": "XII BIEG WIERCHAMI",
+  "url": "https://kalendarzbiegowy.pl/biegi/xii-bieg-wierchami-2/",
+  "start": "2026-06-19",
+  "end": "2026-06-20",
+  "city": "Rytro",
+  "kinds": [
+   "gorski",
+   "ultra"
+  ],
+  "distancesKm": [
+   5,
+   10
+  ],
+  "dplus": [
+   {
+    "km": 5
+   },
+   {
+    "km": 10
+   }
+  ],
+  "modified": "2025-10-20T11:51:31",
+  "fetchedAt": "2026-09-30"
+ },
+ "3645": {
+  "id": 3645,
+  "name": "Gorlicki Bieg Górski",
+  "url": "https://kalendarzbiegowy.pl/biegi/gorlicki-bieg-gorski/",
+  "start": "2025-11-09",
+  "end": "2025-11-09",
+  "city": "Radocyna",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [],
+  "dplus": [],
+  "modified": "2025-10-27T11:09:14",
+  "fetchedAt": "2026-09-30"
+ },
+ "3647": {
+  "id": 3647,
+  "name": "Gdynia Ultra Way – Edycja Letnia 2026",
+  "url": "https://kalendarzbiegowy.pl/biegi/gdynia-ultra-way-winter-race/",
+  "start": "2026-06-26",
+  "end": "2026-06-27",
+  "city": "Gdynia",
+  "kinds": [
+   "gorski",
+   "ultra"
+  ],
+  "distancesKm": [
+   14,
+   14.86,
+   27,
+   50,
+   50.26,
+   100,
+   100.48,
+   160,
+   164.03
+  ],
+  "dplus": [
+   {
+    "km": 14
+   },
+   {
+    "km": 14.86
+   },
+   {
+    "km": 27
+   },
+   {
+    "km": 50
+   },
+   {
+    "km": 50.26
+   },
+   {
+    "km": 100
+   },
+   {
+    "km": 100.48
+   },
+   {
+    "km": 160
+   },
+   {
+    "km": 164.03
+   }
+  ],
+  "modified": "2025-10-27T12:09:57",
+  "fetchedAt": "2026-09-30"
+ },
+ "3650": {
+  "id": 3650,
+  "name": "GDYNIA ULTRA WAY – WINTER RACE",
+  "url": "https://kalendarzbiegowy.pl/biegi/gdynia-ultra-way-winter-race-2/",
+  "start": "2026-01-16",
+  "end": "2026-01-17",
+  "city": "Gdynia",
+  "kinds": [
+   "gorski",
+   "ultra"
+  ],
+  "distancesKm": [
+   10,
+   27,
+   54,
+   76,
+   100
+  ],
+  "dplus": [
+   {
+    "km": 10
+   },
+   {
+    "km": 27
+   },
+   {
+    "km": 54
+   },
+   {
+    "km": 76
+   },
+   {
+    "km": 100
+   }
+  ],
+  "modified": "2025-10-27T12:16:48",
+  "fetchedAt": "2026-09-30"
+ },
+ "3659": {
+  "id": 3659,
+  "name": "Zimowy Ultra Turnicki",
+  "url": "https://kalendarzbiegowy.pl/biegi/zimowy-ultra-turnicki/",
+  "start": "2025-12-06",
+  "end": "2025-12-06",
+  "city": "Huwniki",
+  "kinds": [
+   "gorski",
+   "przelaj",
+   "ultra",
+   "trail"
+  ],
+  "distancesKm": [
+   15,
+   38
+  ],
+  "dplus": [
+   {
+    "km": 15
+   },
+   {
+    "km": 38
+   }
+  ],
+  "modified": "2025-11-12T11:54:54",
+  "fetchedAt": "2026-09-30"
+ },
+ "3669": {
+  "id": 3669,
+  "name": "Festiwal Biegów Górskich 3xKopa",
+  "url": "https://kalendarzbiegowy.pl/biegi/festiwal-biegow-gorskich-3xkopa-4/",
+  "start": "2026-04-24",
+  "end": "2026-04-26",
+  "city": "Pokrzywna",
+  "kinds": [
+   "gorski",
+   "przelaj",
+   "ultra"
+  ],
+  "distancesKm": [],
+  "dplus": [],
+  "modified": "2025-11-17T13:10:39",
+  "fetchedAt": "2026-09-30"
+ },
+ "3673": {
+  "id": 3673,
+  "name": "I GÓRSKI BIEG MIKOŁAJKOWY – GOSIR RYMANÓW",
+  "url": "https://kalendarzbiegowy.pl/biegi/i-gorski-bieg-mikolajkowy-gosir-rymanow/",
+  "start": "2025-12-14",
+  "end": "2025-12-14",
+  "city": "Rymanów-Zdrój",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   7
+  ],
+  "dplus": [
+   {
+    "km": 7
+   }
+  ],
+  "modified": "2025-11-20T11:11:24",
+  "fetchedAt": "2026-09-30"
+ },
+ "3693": {
+  "id": 3693,
+  "name": "XI Gorce Ultra-Trail",
+  "url": "https://kalendarzbiegowy.pl/biegi/xi-gorce-ultra-trail/",
+  "start": "2026-07-31",
+  "end": "2026-08-02",
+  "city": "Ochotnica Dolna",
+  "kinds": [
+   "gorski",
+   "ultra",
+   "trail"
+  ],
+  "distancesKm": [
+   5
+  ],
+  "dplus": [
+   {
+    "km": 5
+   }
+  ],
+  "modified": "2025-11-26T16:28:02",
+  "fetchedAt": "2026-09-30"
+ },
+ "3694": {
+  "id": 3694,
+  "name": "Gorce Ultra-Trail Winter 2026",
+  "url": "https://kalendarzbiegowy.pl/biegi/gorce-ultra-trail-winter-2026/",
+  "start": "2026-02-28",
+  "end": "2026-02-28",
+  "city": "Ochotnica Górna",
+  "kinds": [
+   "gorski",
+   "ultra",
+   "trail"
+  ],
+  "distancesKm": [
+   10
+  ],
+  "dplus": [
+   {
+    "km": 10
+   }
+  ],
+  "modified": "2025-11-26T16:27:34",
+  "fetchedAt": "2026-09-30"
+ },
+ "3703": {
+  "id": 3703,
+  "name": "Bieg Pamięci Sybiru we Wrocławiu",
+  "url": "https://kalendarzbiegowy.pl/biegi/bieg-pamieci-sybiru-we-wroclawiu/",
+  "start": "2026-02-21",
+  "end": "2026-02-21",
+  "city": "Wrocław",
+  "kinds": [
+   "przelaj",
+   "trail"
+  ],
+  "distancesKm": [
+   5
+  ],
+  "dplus": [
+   {
+    "km": 5
+   }
+  ],
+  "modified": "2025-12-02T12:32:22",
+  "fetchedAt": "2026-09-30"
+ },
+ "3710": {
+  "id": 3710,
+  "name": "Pieniny Ultra-Trail® 2026",
+  "url": "https://kalendarzbiegowy.pl/biegi/pieniny-ultra-trail-2026/",
+  "start": "2026-04-23",
+  "end": "2026-04-26",
+  "city": "Szczawnica",
+  "kinds": [
+   "gorski",
+   "ultra"
+  ],
+  "distancesKm": [
+   136
+  ],
+  "dplus": [
+   {
+    "km": 136
+   }
+  ],
+  "modified": "2026-01-21T11:23:33",
+  "fetchedAt": "2026-09-30"
+ },
+ "3712": {
+  "id": 3712,
+  "name": "TATRA FEST 2026",
+  "url": "https://kalendarzbiegowy.pl/biegi/tatra-fest-2026/",
+  "start": "2026-06-12",
+  "end": "2026-06-14",
+  "city": "Zakopane",
+  "kinds": [
+   "gorski",
+   "ultra",
+   "trail"
+  ],
+  "distancesKm": [
+   11,
+   22,
+   68
+  ],
+  "dplus": [
+   {
+    "km": 11
+   },
+   {
+    "km": 22
+   },
+   {
+    "km": 68
+   }
+  ],
+  "modified": "2026-06-23T14:49:08",
+  "fetchedAt": "2026-09-30"
+ },
+ "3716": {
+  "id": 3716,
+  "name": "Tatra SkyMarathon 2026",
+  "url": "https://kalendarzbiegowy.pl/biegi/tatra-skymarathon-2026/",
+  "start": "2026-07-24",
+  "end": "2026-07-25",
+  "city": "Zakopane",
+  "kinds": [
+   "gorski",
+   "ultra"
+  ],
+  "distancesKm": [],
+  "dplus": [],
+  "modified": "2026-01-21T11:49:58",
+  "fetchedAt": "2026-09-30"
+ },
+ "3727": {
+  "id": 3727,
+  "name": "Garmin Ultra Race Myślenice 2026",
+  "url": "https://kalendarzbiegowy.pl/biegi/garmin-ultra-race-myslenice-2026/",
+  "start": "2026-05-09",
+  "end": "2026-05-09",
+  "city": "Myślenice",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   13,
+   27,
+   48,
+   78
+  ],
+  "dplus": [
+   {
+    "km": 13
+   },
+   {
+    "km": 27
+   },
+   {
+    "km": 48
+   },
+   {
+    "km": 78
+   }
+  ],
+  "modified": "2025-12-19T14:36:04",
+  "fetchedAt": "2026-09-30"
+ },
+ "3728": {
+  "id": 3728,
+  "name": "Garmin Ultra Race Tolkmicko 2026",
+  "url": "https://kalendarzbiegowy.pl/biegi/garmin-ultra-race-tolkmicko-2026/",
+  "start": "2026-07-18",
+  "end": "2026-07-18",
+  "city": "",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   14,
+   21.5,
+   51,
+   81
+  ],
+  "dplus": [
+   {
+    "km": 14
+   },
+   {
+    "km": 21.5
+   },
+   {
+    "km": 51
+   },
+   {
+    "km": 81
+   }
+  ],
+  "modified": "2025-12-19T14:35:52",
+  "fetchedAt": "2026-09-30"
+ },
+ "3729": {
+  "id": 3729,
+  "name": "Garmin Ultra Race Radków 2026",
+  "url": "https://kalendarzbiegowy.pl/biegi/garmin-ultra-race-radkow-2026/",
+  "start": "2026-09-11",
+  "end": "2026-09-13",
+  "city": "Radków",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   24,
+   56,
+   80
+  ],
+  "dplus": [
+   {
+    "km": 24
+   },
+   {
+    "km": 56
+   },
+   {
+    "km": 80
+   }
+  ],
+  "modified": "2025-12-19T14:35:34",
+  "fetchedAt": "2026-09-30"
+ },
+ "3730": {
+  "id": 3730,
+  "name": "Garmin Ultra Race Gdańsk 2026",
+  "url": "https://kalendarzbiegowy.pl/biegi/garmin-ultra-race-gdansk-2026/",
+  "start": "2026-12-05",
+  "end": "2026-12-05",
+  "city": "Gdańsk",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   6,
+   12,
+   27,
+   53,
+   101
+  ],
+  "dplus": [
+   {
+    "km": 6
+   },
+   {
+    "km": 12
+   },
+   {
+    "km": 27
+   },
+   {
+    "km": 53
+   },
+   {
+    "km": 101
+   }
+  ],
+  "modified": "2025-12-19T14:35:20",
+  "fetchedAt": "2026-09-30"
+ },
+ "3742": {
+  "id": 3742,
+  "name": "Festiwal Biegowy JuraRun 2026",
+  "url": "https://kalendarzbiegowy.pl/biegi/festiwal-biegowy-jurarun-2026/",
+  "start": "2026-10-02",
+  "end": "2026-10-04",
+  "city": "Podlesice",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   10,
+   102
+  ],
+  "dplus": [
+   {
+    "km": 10
+   },
+   {
+    "km": 102
+   }
+  ],
+  "modified": "2025-12-22T23:14:18",
+  "fetchedAt": "2026-09-30"
+ },
+ "3743": {
+  "id": 3743,
+  "name": "ULTRA TURNICKI",
+  "url": "https://kalendarzbiegowy.pl/biegi/ultra-turnicki/",
+  "start": "2026-06-20",
+  "end": "2026-06-20",
+  "city": "Huwniki",
+  "kinds": [
+   "gorski",
+   "ultra",
+   "trail"
+  ],
+  "distancesKm": [
+   10,
+   24,
+   48,
+   75
+  ],
+  "dplus": [
+   {
+    "km": 10
+   },
+   {
+    "km": 24
+   },
+   {
+    "km": 48
+   },
+   {
+    "km": 75
+   }
+  ],
+  "modified": "2025-12-30T10:39:59",
+  "fetchedAt": "2026-09-30"
+ },
+ "3749": {
+  "id": 3749,
+  "name": "Coconaut Pomerania Winter Trail",
+  "url": "https://kalendarzbiegowy.pl/biegi/coconaut-pomerania-winter-trail/",
+  "start": "2026-02-28",
+  "end": "2026-02-28",
+  "city": "Szemud",
+  "kinds": [
+   "trail"
+  ],
+  "distancesKm": [
+   1,
+   11,
+   25,
+   50
+  ],
+  "dplus": [
+   {
+    "km": 1
+   },
+   {
+    "km": 11
+   },
+   {
+    "km": 25
+   },
+   {
+    "km": 50
+   }
+  ],
+  "modified": "2026-01-05T09:46:11",
+  "fetchedAt": "2026-09-30"
+ },
+ "3750": {
+  "id": 3750,
+  "name": "Coconaut Pomerania Summer Trail",
+  "url": "https://kalendarzbiegowy.pl/biegi/coconaut-pomerania-summer-trail/",
+  "start": "2026-06-13",
+  "end": "2026-06-13",
+  "city": "Gniewino",
+  "kinds": [
+   "trail"
+  ],
+  "distancesKm": [
+   1,
+   10,
+   25,
+   45
+  ],
+  "dplus": [
+   {
+    "km": 1
+   },
+   {
+    "km": 10
+   },
+   {
+    "km": 25
+   },
+   {
+    "km": 45
+   }
+  ],
+  "modified": "2026-01-05T09:46:26",
+  "fetchedAt": "2026-09-30"
+ },
+ "3752": {
+  "id": 3752,
+  "name": "Coconaut Pomerania ULTRA Trail",
+  "url": "https://kalendarzbiegowy.pl/biegi/coconaut-pomerania-ultra-trail/",
+  "start": "2026-10-17",
+  "end": "2026-10-17",
+  "city": "Barłomino",
+  "kinds": [
+   "ultra"
+  ],
+  "distancesKm": [
+   1,
+   11,
+   21,
+   42,
+   65,
+   100
+  ],
+  "dplus": [
+   {
+    "km": 1
+   },
+   {
+    "km": 11
+   },
+   {
+    "km": 21
+   },
+   {
+    "km": 42
+   },
+   {
+    "km": 65
+   },
+   {
+    "km": 100
+   }
+  ],
+  "modified": "2026-01-05T09:46:37",
+  "fetchedAt": "2026-09-30"
+ },
+ "3769": {
+  "id": 3769,
+  "name": "14. Dolnośląski Festiwal Biegów Górskich",
+  "url": "https://kalendarzbiegowy.pl/biegi/14-dolnoslaski-festiwal-biegow-gorskich/",
+  "start": "2026-07-16",
+  "end": "2026-07-19",
+  "city": "Lądek-Zdrój",
+  "kinds": [
+   "gorski",
+   "ultra"
+  ],
+  "distancesKm": [
+   10,
+   15,
+   21,
+   33,
+   45,
+   70,
+   110,
+   130,
+   170,
+   240
+  ],
+  "dplus": [
+   {
+    "km": 10
+   },
+   {
+    "km": 15
+   },
+   {
+    "km": 21
+   },
+   {
+    "km": 33
+   },
+   {
+    "km": 45
+   },
+   {
+    "km": 70
+   },
+   {
+    "km": 110
+   },
+   {
+    "km": 130
+   },
+   {
+    "km": 170
+   },
+   {
+    "km": 240
+   }
+  ],
+  "modified": "2026-01-21T11:46:41",
+  "fetchedAt": "2026-09-30"
+ },
+ "3776": {
+  "id": 3776,
+  "name": "Siedlecki Maraton na Raty",
+  "url": "https://kalendarzbiegowy.pl/biegi/siedlecki-maraton-na-raty-2/",
+  "start": "2026-04-17",
+  "end": "2026-04-19",
+  "city": "Siedlce",
+  "kinds": [
+   "trail"
+  ],
+  "distancesKm": [
+   1.5,
+   3,
+   4.5,
+   5,
+   6,
+   10,
+   12,
+   15
+  ],
+  "dplus": [
+   {
+    "km": 1.5
+   },
+   {
+    "km": 3
+   },
+   {
+    "km": 4.5
+   },
+   {
+    "km": 5
+   },
+   {
+    "km": 6
+   },
+   {
+    "km": 10
+   },
+   {
+    "km": 12
+   },
+   {
+    "km": 15
+   }
+  ],
+  "modified": "2026-01-14T06:03:15",
+  "fetchedAt": "2026-09-30"
+ },
+ "3777": {
+  "id": 3777,
+  "name": "I Górski Pólmaraton Szczytniański",
+  "url": "https://kalendarzbiegowy.pl/biegi/i-gorski-polmaraton-szczytnianski/",
+  "start": "2026-05-23",
+  "end": "2026-05-23",
+  "city": "Szczytna",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   10,
+   21.1
+  ],
+  "dplus": [
+   {
+    "km": 10
+   },
+   {
+    "km": 21.1
+   }
+  ],
+  "modified": "2026-01-14T06:04:08",
+  "fetchedAt": "2026-09-30"
+ },
+ "3784": {
+  "id": 3784,
+  "name": "12. Górska Pętla UBS 12:12",
+  "url": "https://kalendarzbiegowy.pl/biegi/12-gorska-petla-ubs-1212/",
+  "start": "2026-03-28",
+  "end": "2026-03-28",
+  "city": "Brenna",
+  "kinds": [
+   "gorski",
+   "ultra"
+  ],
+  "distancesKm": [
+   16
+  ],
+  "dplus": [
+   {
+    "km": 16
+   }
+  ],
+  "modified": "2026-01-15T08:47:21",
+  "fetchedAt": "2026-09-30"
+ },
+ "3872": {
+  "id": 3872,
+  "name": "Łemkowyna Winter Trail",
+  "url": "https://kalendarzbiegowy.pl/biegi/lemkowyna-winter-trail/",
+  "start": "2026-02-28",
+  "end": "2026-02-28",
+  "city": "Iwonicz-Zdrój",
+  "kinds": [
+   "gorski",
+   "ultra",
+   "trail"
+  ],
+  "distancesKm": [
+   33,
+   50
+  ],
+  "dplus": [
+   {
+    "km": 33
+   },
+   {
+    "km": 50
+   }
+  ],
+  "modified": "2026-02-03T21:30:28",
+  "fetchedAt": "2026-09-30"
+ },
+ "3873": {
+  "id": 3873,
+  "name": "Łemkowyna Trail",
+  "url": "https://kalendarzbiegowy.pl/biegi/lemkowyna-trail/",
+  "start": "2026-10-17",
+  "end": "2026-10-18",
+  "city": "Krynica Zdrój",
+  "kinds": [
+   "gorski",
+   "ultra",
+   "trail"
+  ],
+  "distancesKm": [
+   10,
+   150
+  ],
+  "dplus": [
+   {
+    "km": 10
+   },
+   {
+    "km": 150
+   }
+  ],
+  "modified": "2026-02-03T21:30:20",
+  "fetchedAt": "2026-09-30"
+ },
+ "3874": {
+  "id": 3874,
+  "name": "Maraton Wigry",
+  "url": "https://kalendarzbiegowy.pl/biegi/maraton-wigry-2/",
+  "start": "2026-08-22",
+  "end": "2026-08-22",
+  "city": "Stary Folwark",
+  "kinds": [
+   "przelaj",
+   "trail"
+  ],
+  "distancesKm": [],
+  "dplus": [],
+  "modified": "2026-02-03T21:29:44",
+  "fetchedAt": "2026-09-30"
+ },
+ "3929": {
+  "id": 3929,
+  "name": "VIII Festiwal Pieszo-Biegowy PRZEDWIOŚNIE",
+  "url": "https://kalendarzbiegowy.pl/biegi/viii-festiwal-pieszo-biegowy-przedwiosnie/",
+  "start": "2026-04-11",
+  "end": "2026-04-11",
+  "city": "Ciekoty",
+  "kinds": [
+   "gorski",
+   "ultra"
+  ],
+  "distancesKm": [],
+  "dplus": [],
+  "modified": "2026-02-19T13:56:17",
+  "fetchedAt": "2026-09-30"
+ },
+ "3930": {
+  "id": 3930,
+  "name": "Zimowy Maraton Świętokrzyski 2027",
+  "url": "https://kalendarzbiegowy.pl/biegi/zimowy-maraton-swietokrzyski-2027/",
+  "start": "2027-01-16",
+  "end": "2027-01-16",
+  "city": "Ciekoty",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [],
+  "dplus": [],
+  "modified": "2026-02-19T13:58:42",
+  "fetchedAt": "2026-09-30"
+ },
+ "3959": {
+  "id": 3959,
+  "name": "Biegi Śnieżnickie",
+  "url": "https://kalendarzbiegowy.pl/biegi/biegi-snieznickie/",
+  "start": "2026-05-23",
+  "end": "2026-05-24",
+  "city": "Międzygórze",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   9.7,
+   21,
+   43
+  ],
+  "dplus": [
+   {
+    "km": 9.7
+   },
+   {
+    "km": 21
+   },
+   {
+    "km": 43
+   }
+  ],
+  "modified": "2026-02-23T12:29:44",
+  "fetchedAt": "2026-09-30"
+ },
+ "4239": {
+  "id": 4239,
+  "name": "II Korczyński Półmaraton Górski XI Korczyński Bieg i Nordic Walking „Do Prządek”",
+  "url": "https://kalendarzbiegowy.pl/biegi/ii-korczynski-polmaraton-gorski-xi-korczynski-bieg-i-nordic-walking-do-przadek/",
+  "start": "2026-10-10",
+  "end": "2026-10-10",
+  "city": "Korczyna - Czarnorzeki",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   6
+  ],
+  "dplus": [
+   {
+    "km": 6
+   }
+  ],
+  "modified": "2026-05-06T21:46:03",
+  "fetchedAt": "2026-09-30"
+ },
+ "4261": {
+  "id": 4261,
+  "name": "Festiwal Sportowy im. Kazimierza Bubuli 2026",
+  "url": "https://kalendarzbiegowy.pl/biegi/festiwal-sportowy-im-kazimierza-bubuli-2026/",
+  "start": "2026-09-06",
+  "end": "2026-09-06",
+  "city": "Wiśniowa",
+  "kinds": [
+   "gorski",
+   "przelaj"
+  ],
+  "distancesKm": [
+   5,
+   15
+  ],
+  "dplus": [
+   {
+    "km": 5
+   },
+   {
+    "km": 15
+   }
+  ],
+  "modified": "2026-05-06T21:57:23",
+  "fetchedAt": "2026-09-30"
+ },
+ "4273": {
+  "id": 4273,
+  "name": "Wielonek Trail Festival",
+  "url": "https://kalendarzbiegowy.pl/biegi/wielonek-trail-festival/",
+  "start": "2026-05-30",
+  "end": "2026-05-31",
+  "city": "Wielonek",
+  "kinds": [
+   "przelaj",
+   "ultra",
+   "trail"
+  ],
+  "distancesKm": [
+   5,
+   10,
+   60
+  ],
+  "dplus": [
+   {
+    "km": 5
+   },
+   {
+    "km": 10
+   },
+   {
+    "km": 60
+   }
+  ],
+  "modified": "2026-05-11T17:49:42",
+  "fetchedAt": "2026-09-30"
+ },
+ "4480": {
+  "id": 4480,
+  "name": "IX Bieg CROSS-MOL",
+  "url": "https://kalendarzbiegowy.pl/biegi/ix-bieg-cross-mol/",
+  "start": "2026-08-29",
+  "end": "2026-08-29",
+  "city": "Bytom",
+  "kinds": [
+   "trail"
+  ],
+  "distancesKm": [
+   5.5,
+   10
+  ],
+  "dplus": [
+   {
+    "km": 5.5
+   },
+   {
+    "km": 10
+   }
+  ],
+  "modified": "2026-06-24T11:34:54",
+  "fetchedAt": "2026-09-30"
+ },
+ "4485": {
+  "id": 4485,
+  "name": "Szczęśliwa 13",
+  "url": "https://kalendarzbiegowy.pl/biegi/szczesliwa-13-3/",
+  "start": "2026-08-30",
+  "end": "2026-08-30",
+  "city": "Łódź",
+  "kinds": [
+   "trail"
+  ],
+  "distancesKm": [
+   6.5,
+   13
+  ],
+  "dplus": [
+   {
+    "km": 6.5
+   },
+   {
+    "km": 13
+   }
+  ],
+  "modified": "2026-06-24T09:52:36",
+  "fetchedAt": "2026-09-30"
+ },
+ "4497": {
+  "id": 4497,
+  "name": "XVIII Biegu o Puchar Burmistrza Miasta i Gminy Kąty Wrocławskie",
+  "url": "https://kalendarzbiegowy.pl/biegi/xviii-biegu-o-puchar-burmistrza-miasta-i-gminy-katy-wroclawskie/",
+  "start": "2026-09-13",
+  "end": "2026-09-13",
+  "city": "Kąty Wrocławskie",
+  "kinds": [
+   "przelaj",
+   "trail"
+  ],
+  "distancesKm": [
+   5,
+   10
+  ],
+  "dplus": [
+   {
+    "km": 5
+   },
+   {
+    "km": 10
+   }
+  ],
+  "modified": "2026-07-01T10:35:42",
+  "fetchedAt": "2026-09-30"
+ },
+ "4506": {
+  "id": 4506,
+  "name": "X Jubileuszowy Charytatywny Cross oraz Nordic Walking w Iwoniczu-Zdroju",
+  "url": "https://kalendarzbiegowy.pl/biegi/x-jubileuszowy-charytatywny-cross-oraz-nordic-walking-w-iwoniczu-zdroju/",
+  "start": "2026-08-29",
+  "end": "2026-08-29",
+  "city": "Iwonicz-Zdrój",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   1.5,
+   3.5,
+   5,
+   7
+  ],
+  "dplus": [
+   {
+    "km": 1.5
+   },
+   {
+    "km": 3.5
+   },
+   {
+    "km": 5
+   },
+   {
+    "km": 7
+   }
+  ],
+  "modified": "2026-08-10T13:56:08",
+  "fetchedAt": "2026-09-30"
+ },
+ "4509": {
+  "id": 4509,
+  "name": "Jeziorka Ultra River JUR 2026",
+  "url": "https://kalendarzbiegowy.pl/biegi/jeziorka-ultra-river-jur-2026/",
+  "start": "2026-10-10",
+  "end": "2026-10-10",
+  "city": "Jazgarzew",
+  "kinds": [
+   "ultra",
+   "trail"
+  ],
+  "distancesKm": [
+   11,
+   21,
+   53
+  ],
+  "dplus": [
+   {
+    "km": 11
+   },
+   {
+    "km": 21
+   },
+   {
+    "km": 53
+   }
+  ],
+  "modified": "2026-08-19T15:39:03",
+  "fetchedAt": "2026-09-30"
+ },
+ "4514": {
+  "id": 4514,
+  "name": "Grand Prix Krakowa – VII Bieg Nocny 2026",
+  "url": "https://kalendarzbiegowy.pl/biegi/grand-prix-krakowa-vii-bieg-nocny-2026/",
+  "start": "2026-08-22",
+  "end": "2026-08-22",
+  "city": "Kraków",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   3.7,
+   5.7,
+   11.6,
+   23.2
+  ],
+  "dplus": [
+   {
+    "km": 3.7
+   },
+   {
+    "km": 5.7
+   },
+   {
+    "km": 11.6
+   },
+   {
+    "km": 23.2
+   }
+  ],
+  "modified": "2026-08-10T13:51:20",
+  "fetchedAt": "2026-09-30"
+ },
+ "4542": {
+  "id": 4542,
+  "name": "Bieg Zdobywców Modyni – lato 2026",
+  "url": "https://kalendarzbiegowy.pl/biegi/bieg-zdobywcow-modyni-lato-2026/",
+  "start": "2026-09-05",
+  "end": "2026-09-05",
+  "city": "Młyńczyska",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   8.5,
+   17,
+   36
+  ],
+  "dplus": [
+   {
+    "km": 8.5
+   },
+   {
+    "km": 17
+   },
+   {
+    "km": 36
+   }
+  ],
+  "modified": "2026-08-10T14:00:03",
+  "fetchedAt": "2026-09-30"
+ },
+ "4549": {
+  "id": 4549,
+  "name": "Bieg Górski Na Błatnią",
+  "url": "https://kalendarzbiegowy.pl/biegi/bieg-gorski-na-blatnia/",
+  "start": "2026-09-26",
+  "end": "2026-09-26",
+  "city": "Brenna",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   9,
+   12,
+   24
+  ],
+  "dplus": [
+   {
+    "km": 9
+   },
+   {
+    "km": 12
+   },
+   {
+    "km": 24
+   }
+  ],
+  "modified": "2026-08-10T18:59:30",
+  "fetchedAt": "2026-09-30"
+ },
+ "4551": {
+  "id": 4551,
+  "name": "Maraton Trzech Jezior 2026",
+  "url": "https://kalendarzbiegowy.pl/biegi/maraton-trzech-jezior-2026/",
+  "start": "2026-09-18",
+  "end": "2026-09-20",
+  "city": "Bielsko-Biała",
+  "kinds": [
+   "gorski",
+   "trail"
+  ],
+  "distancesKm": [],
+  "dplus": [],
+  "modified": "2026-07-27T14:57:26",
+  "fetchedAt": "2026-09-30"
+ },
+ "4556": {
+  "id": 4556,
+  "name": "Ultras Oliwski 2026 – Wokół Radości – 6 edycja",
+  "url": "https://kalendarzbiegowy.pl/biegi/ultras-oliwski-2026-wokol-radosci-6-edycja/",
+  "start": "2026-09-19",
+  "end": "2026-09-19",
+  "city": "Gdańsk",
+  "kinds": [
+   "przelaj",
+   "ultra"
+  ],
+  "distancesKm": [
+   10,
+   21.95
+  ],
+  "dplus": [
+   {
+    "km": 10
+   },
+   {
+    "km": 21.95
+   }
+  ],
+  "modified": "2026-08-10T16:10:46",
+  "fetchedAt": "2026-09-30"
+ },
+ "4558": {
+  "id": 4558,
+  "name": "11. Bieg Kurierów Sądeckich",
+  "url": "https://kalendarzbiegowy.pl/biegi/11-bieg-kurierow-sadeckich/",
+  "start": "2026-08-29",
+  "end": "2026-08-29",
+  "city": "Rytro",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   11
+  ],
+  "dplus": [
+   {
+    "km": 11
+   }
+  ],
+  "modified": "2026-08-10T13:53:17",
+  "fetchedAt": "2026-09-30"
+ },
+ "4580": {
+  "id": 4580,
+  "name": "8. Półmaraton Lasy nad Utratą",
+  "url": "https://kalendarzbiegowy.pl/biegi/8-polmaraton-lasy-nad-utrata/",
+  "start": "2026-10-10",
+  "end": "2026-10-10",
+  "city": "",
+  "kinds": [
+   "trail"
+  ],
+  "distancesKm": [
+   1,
+   5
+  ],
+  "dplus": [
+   {
+    "km": 1
+   },
+   {
+    "km": 5
+   }
+  ],
+  "modified": "2026-08-19T15:21:47",
+  "fetchedAt": "2026-09-30"
+ },
+ "4603": {
+  "id": 4603,
+  "name": "XV Grand Prix Krakowa w biegach górskich – Wielkie Otwarcie",
+  "url": "https://kalendarzbiegowy.pl/biegi/xv-grand-prix-krakowa-w-biegach-gorskich-wielkie-otwarcie/",
+  "start": "2026-10-25",
+  "end": "2026-10-25",
+  "city": "Kraków",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   3.7,
+   5.7,
+   11.6,
+   23.2
+  ],
+  "dplus": [
+   {
+    "km": 3.7
+   },
+   {
+    "km": 5.7
+   },
+   {
+    "km": 11.6
+   },
+   {
+    "km": 23.2
+   }
+  ],
+  "modified": "2026-09-21T09:12:33",
+  "fetchedAt": "2026-09-30"
+ },
+ "4604": {
+  "id": 4604,
+  "name": "XV Grand Prix Krakowa w biegach górskich – Bieg Mikołajkowy",
+  "url": "https://kalendarzbiegowy.pl/biegi/xv-grand-prix-krakowa-w-biegach-gorskich-bieg-mikolajkowy/",
+  "start": "2026-12-06",
+  "end": "2026-12-06",
+  "city": "Kraków",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   3.7,
+   5.7,
+   11.6,
+   23.2
+  ],
+  "dplus": [
+   {
+    "km": 3.7
+   },
+   {
+    "km": 5.7
+   },
+   {
+    "km": 11.6
+   },
+   {
+    "km": 23.2
+   }
+  ],
+  "modified": "2026-09-21T10:29:58",
+  "fetchedAt": "2026-09-30"
+ },
+ "4605": {
+  "id": 4605,
+  "name": "XV Grand Prix Krakowa w biegach górskich – Bieg Noworoczny",
+  "url": "https://kalendarzbiegowy.pl/biegi/xv-grand-prix-krakowa-w-biegach-gorskich-bieg-noworoczny/",
+  "start": "2027-01-10",
+  "end": "2027-01-10",
+  "city": "Kraków",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   3.7,
+   5.7,
+   11.6,
+   23.2
+  ],
+  "dplus": [
+   {
+    "km": 3.7
+   },
+   {
+    "km": 5.7
+   },
+   {
+    "km": 11.6
+   },
+   {
+    "km": 23.2
+   }
+  ],
+  "modified": "2026-09-21T10:29:38",
+  "fetchedAt": "2026-09-30"
+ },
+ "4606": {
+  "id": 4606,
+  "name": "XV Grand Prix Krakowa w biegach górskich – Bieg Karnawałowy",
+  "url": "https://kalendarzbiegowy.pl/biegi/xv-grand-prix-krakowa-w-biegach-gorskich-bieg-karnawalowy/",
+  "start": "2027-02-07",
+  "end": "2027-02-07",
+  "city": "Kraków",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   3.7,
+   5.7,
+   11.6,
+   23.2
+  ],
+  "dplus": [
+   {
+    "km": 3.7
+   },
+   {
+    "km": 5.7
+   },
+   {
+    "km": 11.6
+   },
+   {
+    "km": 23.2
+   }
+  ],
+  "modified": "2026-09-21T10:29:25",
+  "fetchedAt": "2026-09-30"
+ },
+ "4607": {
+  "id": 4607,
+  "name": "XV Grand Prix Krakowa w biegach górskich – Wielki Finał",
+  "url": "https://kalendarzbiegowy.pl/biegi/xv-grand-prix-krakowa-w-biegach-gorskich-wielki-final/",
+  "start": "2027-03-07",
+  "end": "2027-03-07",
+  "city": "Kraków",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   3.7,
+   5.7,
+   11.6,
+   23.2
+  ],
+  "dplus": [
+   {
+    "km": 3.7
+   },
+   {
+    "km": 5.7
+   },
+   {
+    "km": 11.6
+   },
+   {
+    "km": 23.2
+   }
+  ],
+  "modified": "2026-09-21T10:29:04",
+  "fetchedAt": "2026-09-30"
+ },
+ "4608": {
+  "id": 4608,
+  "name": "Bieg Burego Źwiyrza",
+  "url": "https://kalendarzbiegowy.pl/biegi/bieg-burego-zwiyrza/",
+  "start": "2026-09-26",
+  "end": "2026-09-26",
+  "city": "Piwniczna-Zdrój",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   22
+  ],
+  "dplus": [
+   {
+    "km": 22
+   }
+  ],
+  "modified": "2026-09-16T10:59:56",
+  "fetchedAt": "2026-09-30"
+ },
+ "4611": {
+  "id": 4611,
+  "name": "Goraj Morena Trail",
+  "url": "https://kalendarzbiegowy.pl/biegi/goraj-morena-trail-2/",
+  "start": "2026-10-04",
+  "end": "2026-10-04",
+  "city": "Goraj-Zamek, gm. Czarnków",
+  "kinds": [
+   "gorski",
+   "ultra",
+   "trail"
+  ],
+  "distancesKm": [
+   10,
+   22,
+   44
+  ],
+  "dplus": [
+   {
+    "km": 10
+   },
+   {
+    "km": 22
+   },
+   {
+    "km": 44
+   }
+  ],
+  "modified": "2026-09-18T12:17:09",
+  "fetchedAt": "2026-09-30"
+ },
+ "4622": {
+  "id": 4622,
+  "name": "Gorlicki Bieg Górski",
+  "url": "https://kalendarzbiegowy.pl/biegi/gorlicki-bieg-gorski-2/",
+  "start": "2026-11-07",
+  "end": "2026-11-08",
+  "city": "Radocyna",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [],
+  "dplus": [],
+  "modified": "2026-09-21T10:21:19",
+  "fetchedAt": "2026-09-30"
+ },
+ "4634": {
+  "id": 4634,
+  "name": "ULTRAMARATON ANNOGÓRSKI",
+  "url": "https://kalendarzbiegowy.pl/biegi/ultramaraton-annogorski/",
+  "start": "2027-01-16",
+  "end": "2027-01-16",
+  "city": "Góra Świętej Anny",
+  "kinds": [
+   "gorski",
+   "przelaj",
+   "ultra"
+  ],
+  "distancesKm": [
+   21,
+   30,
+   50,
+   70
+  ],
+  "dplus": [
+   {
+    "km": 21
+   },
+   {
+    "km": 30
+   },
+   {
+    "km": 50
+   },
+   {
+    "km": 70
+   }
+  ],
+  "modified": "2026-09-29T15:56:16",
+  "fetchedAt": "2026-09-30"
+ },
+ "4637": {
+  "id": 4637,
+  "name": "6. PKO Dycha Pod Krokwią",
+  "url": "https://kalendarzbiegowy.pl/biegi/6-dycha-pod-krokwia/",
+  "start": "2026-10-24",
+  "end": "2026-10-24",
+  "city": "Zakopane",
+  "kinds": [
+   "gorski"
+  ],
+  "distancesKm": [
+   2.5,
+   5,
+   10
+  ],
+  "dplus": [
+   {
+    "km": 2.5
+   },
+   {
+    "km": 5
+   },
+   {
+    "km": 10
+   }
+  ],
+  "modified": "2026-09-29T15:23:56",
+  "fetchedAt": "2026-09-30"
+ }
+}

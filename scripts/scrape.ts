@@ -11,6 +11,7 @@ import { parseGpx } from "../lib/gpx";
 import { extractSignup, mergeSignup, type Signup } from "../lib/zapisy";
 import { b4Events } from "../lib/adapters/b4sport";
 import { ezStatus } from "../lib/adapters/ez";
+import { kbEvents } from "../lib/adapters/kb";
 import overrides from "../data/overrides.json";
 import { existsSync, readFileSync, mkdirSync } from "node:fs";
 import { createHash } from "node:crypto";
@@ -46,7 +47,8 @@ async function biegigorskie(year: number): Promise<Raw[]> {
     const head = segs[0].replace(/[:\-–]\s*$/, "").trim();
     const rawName = segs.length > 1 ? `${head}: ${segs.slice(1).join(", ")}` : head;
     const link = nameCell.find("a[href]").first().attr("href") || $(tds[di + 1]).find("a[href]").first().attr("href");
-    const { city, region } = splitPlace(place.replace(/\s*\|\s*/g, " "));
+    const sp = splitPlace(place.replace(/\s*\|\s*/g, " "));
+    const city = cleanCity(sp.city), region = sp.region;
     const { list, vertical } = parseDistances(distTxt);
     // impreza = pierwszy wiersz komórki (bez nawiasu, dwukropka, ukośnika i końcowej liczby dystansu)
     let eventName = (head.split(/\s[–-]\s|\(|:|\//)[0].trim() || head).replace(/\s+\d{1,3}(?:[.,]\d)?\s*(km)?$/i, "").trim() || head;
@@ -163,6 +165,17 @@ async function b4sport(): Promise<Raw[]> {
   });
 }
 
+/** kalendarzbiegowy.pl: WP REST (kategorie górski/ultra/trailowy) + JSON-LD strony biegu */
+async function kalendarzbiegowy(): Promise<Raw[]> {
+  const evs = await kbEvents();
+  return evs.filter((e) => e.city).map((e) => ({
+    name: e.name, eventName: e.name.replace(/\s+20\d{2}$/, "").trim(), dateStart: e.start, dateEnd: e.end, city: cleanCity(e.city.split(",")[0]), region: "",
+    distancesKm: e.distancesKm, elevations: e.dplus, vertical: /vertical/i.test(e.name),
+    surface: e.kinds.includes("gorski") ? "gorski" : e.kinds.includes("trail") || e.kinds.includes("ultra") ? "trail" : undefined,
+    url: e.url, sources: [{ name: "kalendarzbiegowy.pl", url: e.url }],
+  } as Raw));
+}
+
 /** Flagowce spoza kalendarzy: seed z data/organizers.json + dystanse/D+/limity ze strony organizatora */
 async function organizerSeeds(): Promise<Raw[]> {
   const out: Raw[] = [];
@@ -244,7 +257,7 @@ async function regulaminy(raws: Raw[]): Promise<number> {
   return n;
 }
 
-const PLATFORM = /elektronicznezapisy|b4sportonline|datasport|kingrunner|zapisy\.|e-gepard|dostartu|zmierzymyczas/i;
+const PLATFORM = /elektronicznezapisy|b4sportonline|datasport|kingrunner|kalendarzbiegowy|zapisy\.|e-gepard|dostartu|zmierzymyczas/i;
 
 /** Poziom B drabiny: podstrona "Trasa" / podstrony dystansów u organizatora. Cache w regulaminy.json (pole trasa, TTL 30 dni). */
 async function trasy(raws: Raw[]): Promise<{ hits: number; conflicts: string[] }> {
@@ -415,7 +428,7 @@ function finalize(raws: Raw[]): Race[] {
 
 async function main() {
   const year = new Date().getFullYear();
-  const results = await Promise.allSettled([biegigorskie(year), biegigorskie(year + 1), elektronicznezapisy(), organizerSeeds(), kingrunner(), b4sport()]);
+  const results = await Promise.allSettled([biegigorskie(year), biegigorskie(year + 1), elektronicznezapisy(), organizerSeeds(), kingrunner(), b4sport(), kalendarzbiegowy()]);
   const raws: Raw[] = [];
   results.forEach((r, i) => {
     if (r.status === "fulfilled") { console.log(`source ${i}: ${r.value.length} rows`); raws.push(...r.value); }

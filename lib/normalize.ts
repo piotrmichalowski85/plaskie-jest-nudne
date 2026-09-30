@@ -1,3 +1,4 @@
+import cityOverrides from "../data/city_overrides.json";
 import type { Race, Surface } from "./types";
 
 const MONTHS: Record<string, number> = {
@@ -141,10 +142,18 @@ export function dedupKey(r: Pick<Race, "eventName" | "dateStart" | "city">): str
   return `${core}|${r.dateStart.slice(0, 7)}`;
 }
 export function cleanCity(place: string): string {
+  const ov = (cityOverrides as Record<string, string>)[place.trim()];
+  if (ov) return ov;
+  place = place.replace(/^(ul\.|ulica|al\.|aleja|os\.)\s+.*?\d+[a-z]?\s+/i, ""); // "ul. Fałata 222 Bystra" -> "Bystra"
   const parts = place.split(/,|\s[–-]\s/).map((x) => x.trim()).filter(Boolean);
-  const venue = /\b(ul\.|ulica|plac|hala|galeria|stadion|zalew|rynek|park|schronisko|osir|mosir|boisko|parking|centrum|szkoła|szkola|al\.|aleja)\b|\d/i;
-  const town = parts.find((x) => !venue.test(x));
-  return (town || parts[parts.length - 1] || place).replace(/\s+/g, " ");
+  const venue = /\b(ul\.|ulica|plac|hala|galeria|stadion|zalew|rynek|park|schronisko|osir|mosir|boisko|parking|centrum|szkoła|szkola|al\.|aleja|hotel|resort|muzeum|jana pawła|pawła ii|marszałka|mickiewicza|piłsudskiego)\b|\d/i;
+  // przy adresie "obiekt, ulica, miasto" miasto stoi na końcu; bez przecinków bierzemy pierwszy człon
+  const cands = parts.filter((x) => !venue.test(x));
+  const town = parts.length > 1 && place.includes(",") ? cands[cands.length - 1] : cands[0];
+  const t = (town || parts[parts.length - 1] || place).replace(/\s+/g, " ").replace(/\s+\d+[a-z]?$/i, "").replace(/\s+k\/.*$/i, "").trim();
+  // "Miasto Pasmo/Powiat/Gmina ..." z biegigorskie: zostaw pierwszy człon, jeśli reszta to region/powiat
+  const m = t.match(/^(.+?)\s+(Gmina|Powiat|Kotlina|Góry|Beskid|Pogórze|Podlasie|Gorce|Roztocz\w*|Pojezierze|Dolinki|Jura|Lasek|Tatry|Pieniny|Karkonosze|Bieszczady|Sudety|Beskidy|Kaszuby|Mazury)\b/i);
+  return m ? m[1] : t;
 }
 
 /** Poziom trudności pojedynczego dystansu (do kropki przy każdym dystansie). */
