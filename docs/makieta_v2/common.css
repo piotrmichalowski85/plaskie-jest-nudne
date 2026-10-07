@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600;700&display=swap');
+:root{--paper:#f4efe4;--paper2:#ebe4d3;--ink:#1c2420;--moss:#2f5d3a;--moss2:#1f4128;--sun:#e8b84a;--clay:#c9632f;--mute:#6b7267;--line:#d9d2c0}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,system-ui,sans-serif;font-size:15px}
+.topo{background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='400' viewBox='0 0 600 400'><g fill='none' stroke='%231f4128' stroke-opacity='.07' stroke-width='1.2'><path d='M-20 320c80-60 140-20 210-70s120-110 230-90 170 30 200 10'/><path d='M-20 350c80-60 140-20 210-70s120-110 230-90 170 30 200 10'/><path d='M-20 380c80-60 140-20 210-70s120-110 230-90 170 30 200 10'/><path d='M-20 290c80-60 140-20 210-70s120-110 230-90 170 30 200 10'/><path d='M-20 260c80-60 140-20 210-70s120-110 230-90 170 30 200 10'/><path d='M-20 230c80-60 140-20 210-70s120-110 230-90 170 30 200 10'/><path d='M-20 200c80-60 140-20 210-70s120-110 230-90 170 30 200 10'/><path d='M-20 170c80-60 140-20 210-70s120-110 230-90 170 30 200 10'/></g></svg>")}
+.wrap{max-width:1120px;margin:0 auto;padding:0 32px}
+header{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:19px;color:var(--moss2)}.logo i{width:30px;height:30px;border-radius:9px;background:var(--moss2);display:inline-block;position:relative}.logo i:after{content:"";position:absolute;left:5px;right:5px;bottom:6px;height:11px;background:#6fa27d;clip-path:polygon(0 100%,30% 0,50% 55%,70% 15%,100% 100%)}
+nav{display:flex;gap:26px;font-weight:600;font-size:14px;color:var(--moss2)}nav .cta{background:var(--moss);color:#fff;padding:9px 16px;border-radius:999px}
+h1,h2,h3{font-family:Fraunces,serif;letter-spacing:-.01em;margin:0}
+.btn{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:12px 20px;font-weight:700;background:var(--moss);color:#fff;font-size:15px}.btn.ghost{background:transparent;border:1.5px solid var(--moss);color:var(--moss)}
+.pill{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:4px 10px;font-size:12px;font-weight:700;background:#fff;border:1px solid var(--line)}
+.pill.good{background:#e3f1e5;color:#1f6b33;border-color:transparent}.pill.ok{background:#fff3cf;color:#8a6300;border-color:transparent}.pill.bad{background:#fde4e1;color:#a1291c;border-color:transparent}.pill.sun{background:var(--sun);color:#3b2a00;border-color:transparent}
+.datebox{width:64px;border-radius:12px;background:#fff;border:1px solid var(--line);text-align:center;padding:8px 0;line-height:1}.datebox b{display:block;font-size:24px;font-family:Fraunces,serif}.datebox s{text-decoration:none;font-size:11px;color:var(--mute);text-transform:uppercase;letter-spacing:.06em}
+.card{background:#fff;border:1px solid var(--line);border-radius:18px}
+.mute{color:var(--mute)}
+footer{margin-top:60px;border-top:1px solid var(--line);padding:24px 0;color:var(--mute);font-size:13px;display:flex;justify-content:space-between}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--clay)}
+svg.spark{width:120px;height:34px}

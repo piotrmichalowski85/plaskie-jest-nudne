@@ -1,0 +1,31 @@
+<!doctype html><html lang="pl"><head><meta charset="utf-8"><link rel="stylesheet" href="common.css"><style>
+.head{padding:28px 0 14px}.head h1{font-size:44px}
+.layout{display:grid;grid-template-columns:260px 1fr;gap:28px;align-items:start}
+.filters{position:sticky;top:16px;background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px}.filters h4{margin:14px 0 8px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--mute)}.filters h4:first-child{margin-top:0}
+.chips{display:flex;flex-wrap:wrap;gap:6px}.chips span{padding:6px 10px;border-radius:999px;border:1px solid var(--line);font-size:13px;font-weight:600}.chips span.on{background:var(--moss2);color:#fff;border-color:var(--moss2)}
+.rng{display:flex;gap:8px}.rng input{width:100%;border:1px solid var(--line);border-radius:8px;padding:7px;font:inherit;font-size:13px}
+.tog{display:flex;gap:6px;margin-bottom:12px}.tog span{flex:1;text-align:center;padding:8px;border-radius:10px;border:1px solid var(--moss);font-weight:700;font-size:13px;color:var(--moss)}.tog span.on{background:var(--moss);color:#fff}
+.month{margin:8px 0 18px}.month h2{font-size:22px;color:var(--moss2);display:flex;align-items:baseline;gap:10px}.month h2 small{font-family:Inter;font-size:13px;color:var(--mute);font-weight:500}
+.ev{display:grid;grid-template-columns:64px 110px 1fr auto;gap:16px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px 16px;margin-top:10px}
+.ev .art{height:64px;border-radius:12px;background:linear-gradient(180deg,#f0d48c,#5f8a6b 60%,#2f5d3a)}.ev .art.t{background:linear-gradient(180deg,#c9d6e6,#5f7390 60%,#33455c)}.ev .art.s{background:linear-gradient(180deg,#e0cf9f,#6b7f5f 60%,#3d4d34)}.ev .art.b{background:linear-gradient(180deg,#f2c877,#8d9a4f 60%,#4f6a2f)}
+.ev b.n{font-family:Fraunces,serif;font-size:19px;display:block}.ev .meta{font-size:13px;color:var(--mute);margin-top:3px;display:flex;gap:10px;flex-wrap:wrap}.ev .right{display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+.ev.closed{opacity:.6}
+.count{color:var(--mute);font-size:14px;margin:0 0 6px}
+</style></head><body class="topo"><div class="wrap">
+<header><div class="logo"><i></i>płaskie<span style="color:var(--sun)">jest</span>nudne</div><nav><span>Kalendarz</span><span>Pierwszy bieg</span><span>Czy dam radę?</span><span>Słownik</span><span class="cta">Dodaj bieg</span></nav></header>
+<div class="head"><div class="eyebrow">Kalendarz</div><h1>58 biegów, od jutra do czerwca</h1></div>
+<div class="layout"><aside class="filters"><div class="tog"><span class="on">Lista</span><span>Mapa</span></div><h4>Kiedy</h4><div class="rng"><input value="od 07.10.2026"><input value="do"></div><h4>Dla kogo</h4><div class="chips"><span class="on">dobry na start</span><span>ujdzie</span><span>wszystkie</span></div><h4>Dystans</h4><div class="chips"><span class="on">do 15 km</span><span>15-30</span><span>30-45</span><span>ultra</span></div><h4>Pasmo</h4><div class="chips"><span>Tatry</span><span>Beskidy</span><span class="on">Sudety</span><span>Bieszczady</span><span>Jura</span><span>niziny</span></div><h4>Zapisy</h4><div class="chips"><span class="on">ukryj zamknięte</span></div><h4>Blisko mnie</h4><div class="chips"><span>do 120 km od Wrocławia</span></div></aside>
+<main>
+<div class="month"><h2>Październik <small>6 biegów</small></h2>
+<div class="ev"><div class="datebox"><b>9</b><s>pt-nd</s></div><div class="art s"></div><div><b class="n">UltraKotlina</b><div class="meta"><span>Szklarska Poręba, Karkonosze</span><span>15 / 34 / 57 / 82 / 108 / 142 km</span><span>+600 m na najkrótszym</span></div></div><div class="right"><span class="pill good">dobry na start</span><span class="pill">zapisy do 20.09</span></div></div>
+<div class="ev closed"><div class="datebox"><b>10</b><s>sb</s></div><div class="art b"></div><div><b class="n">Roztocze Ultra Race</b><div class="meta"><span>Józefów, Roztocze</span><span>13 / 23 / 44 / 69 km</span></div></div><div class="right"><span class="pill good">dobry na start</span><span class="pill">zapisy zamknięte</span></div></div>
+<div class="ev"><div class="datebox"><b>16</b><s>pt-nd</s></div><div class="art"></div><div><b class="n">Łemkowyna Ultra-Trail</b><div class="meta"><span>Krynica-Zdrój, Beskid Niski</span><span>10 / 30 / 48 / 70 / 102 / 150 km</span><span>+200 m na 10 km</span></div></div><div class="right"><span class="pill good">dobry na start</span><span class="pill sun">1267 / 2700 zapisanych</span></div></div>
+<div class="ev"><div class="datebox"><b>24</b><s>sb</s></div><div class="art s"></div><div><b class="n">Sowiogórski Festiwal Biegowy</b><div class="meta"><span>Pieszyce, Góry Sowie</span><span>7 / 15 / 30 / 55 / 84 km</span><span>+330 m na 7 km</span></div></div><div class="right"><span class="pill good">dobry na start</span><span class="pill">zapisy do 20.10</span></div></div>
+</div>
+<div class="month"><h2>Listopad <small>5 biegów</small></h2>
+<div class="ev"><div class="datebox"><b>7</b><s>sb</s></div><div class="art"></div><div><b class="n">Gorlicki Bieg Górski</b><div class="meta"><span>Radocyna, Beskid Niski</span><span>7 / 24 km</span><span>przewyższenie nieznane</span></div></div><div class="right"><span class="pill ok">ujdzie na start</span><span class="pill" style="border-style:dashed">zapisy: brak danych</span></div></div>
+<div class="ev"><div class="datebox"><b>11</b><s>śr</s></div><div class="art s"></div><div><b class="n">Górski Bieg Niepodległości</b><div class="meta"><span>Świerki, Góry Sowie</span><span>11 km</span><span>+300 m</span></div></div><div class="right"><span class="pill good">dobry na start</span></div></div>
+</div>
+</main></div>
+<footer><span>Płaskie jest nudne: wejdź w trail, zacznij od podbiegu.</span><span>O serwisie · Prywatność</span></footer>
+</div></body></html>
