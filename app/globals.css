@@ -16,5 +16,5 @@ a { text-decoration: none; }
 .lvl-good { background: #e3f1e5; color: #1f6b33; }
 .lvl-ok { background: #fff3cf; color: #8a6300; }
 .lvl-bad { background: #fde4e1; color: #a1291c; }
-select, input[type="text"] { background: #fff; border: 1px solid #cfd6cd; border-radius: .6rem; padding: .5rem .7rem; font-size: .95rem; }
+select, input[type="text"], input[type="date"] { background: #fff; border: 1px solid #cfd6cd; border-radius: .6rem; padding: .5rem .7rem; font-size: .95rem; }
 label { font-size: .8rem; color: var(--muted); font-weight: 600; }

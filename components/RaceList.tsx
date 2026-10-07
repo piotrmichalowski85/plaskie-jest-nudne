@@ -4,7 +4,6 @@ import { useSearchParams } from "next/navigation";
 import type { Race } from "@/lib/types";
 import { RaceCard } from "./RaceCard";
 import { RacesMap, type RaceWithGeo } from "./RacesMap";
-import { monthName } from "@/lib/format";
 
 const distKm = (a: [number, number], b: [number, number]) => { const R = 6371, r = (d: number) => (d * Math.PI) / 180; const h = Math.sin(r(b[0] - a[0]) / 2) ** 2 + Math.cos(r(a[0])) * Math.cos(r(b[0])) * Math.sin(r(b[1] - a[1]) / 2) ** 2; return 2 * R * Math.asin(Math.sqrt(h)); };
 
@@ -20,7 +19,8 @@ export function RaceList({ races, regions, today }: { races: RaceWithGeo[]; regi
   const sp = useSearchParams();
   const [q, setQ] = useState("");
   const [region, setRegion] = useState("");
-  const [month, setMonth] = useState("");
+  const [from, setFrom] = useState("");
+  const [to, setTo] = useState("");
   const [dist, setDist] = useState("all");
   const [surface, setSurface] = useState("");
   const [start, setStart] = useState(sp.get("start") === "1");
@@ -35,25 +35,26 @@ export function RaceList({ races, regions, today }: { races: RaceWithGeo[]; regi
     navigator.geolocation.getCurrentPosition((p) => { setMe([p.coords.latitude, p.coords.longitude]); setGeoErr(""); }, () => setGeoErr("Brak zgody na udostępnienie lokalizacji."), { timeout: 8000 });
   };
 
-  const months = useMemo(() => [...new Set(races.filter((r) => r.dateEnd >= today).map((r) => r.dateStart.slice(0, 7)))].sort(), [races, today]);
   const list = useMemo(() => races.filter((r) =>
     (past || r.dateEnd >= today) &&
     (!q || (r.name + " " + r.city + " " + r.region).toLowerCase().includes(q.toLowerCase())) &&
     (!region || r.region === region) &&
-    (!month || r.dateStart.startsWith(month)) &&
+    (!from || r.dateEnd >= from) &&
+    (!to || r.dateStart <= to) &&
     DIST.find((d) => d.id === dist)!.test(r) &&
     (!surface || r.surface === surface) &&
     (!start || r.beginnerScore >= 4) &&
     (!hideClosed || r.signup?.status !== "closed") &&
     (!me || (r.lat !== undefined && r.lng !== undefined && distKm(me, [r.lat, r.lng]) <= radius))
-  ).sort((a, b) => me && a.lat !== undefined && b.lat !== undefined ? distKm(me, [a.lat, a.lng!]) - distKm(me, [b.lat, b.lng!]) : 0), [races, q, region, month, dist, surface, start, past, today, me, radius, hideClosed]);
+  ).sort((a, b) => me && a.lat !== undefined && b.lat !== undefined ? distKm(me, [a.lat, a.lng!]) - distKm(me, [b.lat, b.lng!]) : 0), [races, q, region, from, to, dist, surface, start, past, today, me, radius, hideClosed]);
 
   return (
     <div>
-      <div className="card grid gap-3 sm:grid-cols-3 lg:grid-cols-6 mb-6">
+      <div className="card grid gap-3 sm:grid-cols-3 lg:grid-cols-7 mb-6">
         <div className="sm:col-span-3 lg:col-span-2 flex flex-col gap-1"><label>Szukaj</label><input type="text" placeholder="nazwa, miasto, pasmo" value={q} onChange={(e) => setQ(e.target.value)} /></div>
         <div className="flex flex-col gap-1"><label>Pasmo</label><select value={region} onChange={(e) => setRegion(e.target.value)}><option value="">wszystkie</option>{regions.map((r) => <option key={r}>{r}</option>)}</select></div>
-        <div className="flex flex-col gap-1"><label>Miesiąc</label><select value={month} onChange={(e) => setMonth(e.target.value)}><option value="">wszystkie</option>{months.map((m) => <option key={m} value={m}>{monthName(+m.slice(5))} {m.slice(0, 4)}</option>)}</select></div>
+        <div className="flex flex-col gap-1"><label>Od</label><input type="date" value={from} min={past ? undefined : today} onChange={(e) => setFrom(e.target.value)} /></div>
+        <div className="flex flex-col gap-1"><label>Do</label><input type="date" value={to} min={from || undefined} onChange={(e) => setTo(e.target.value)} /></div>
         <div className="flex flex-col gap-1"><label>Dystans</label><select value={dist} onChange={(e) => setDist(e.target.value)}>{DIST.map((d) => <option key={d.id} value={d.id}>{d.label}</option>)}</select></div>
         <div className="flex flex-col gap-1"><label>Teren</label><select value={surface} onChange={(e) => setSurface(e.target.value)}><option value="">każdy</option><option value="gorski">górski</option><option value="trail">trail</option><option value="przelaj">przełaj</option></select></div>
         <div className="sm:col-span-3 lg:col-span-6 flex flex-wrap gap-4 text-sm">

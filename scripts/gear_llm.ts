@@ -14,7 +14,7 @@ for (const [url, e] of Object.entries(cache)) {
   const text = readFileSync(textPath(e.regulaminUrl), "utf8").slice(0, 40000);
   const prompt = `Poniżej tekst regulaminu biegu górskiego lub trailowego. Wypisz WYŁĄCZNIE listę sprzętu obowiązkowego (rzeczy, które uczestnik musi mieć przy sobie podczas biegu). Każda pozycja krótko (do 8 słów), po polsku, bez numeracji, bez sprzętu zalecanego, bez numeru startowego i bez chipa. Jeśli regulamin nie wymienia sprzętu obowiązkowego, zwróć pustą tablicę. Jeśli sprzęt zależy od dystansu, dopisz dystans w nawiasie. Odpowiedz TYLKO tablicą JSON ze stringami, bez komentarza.\n\n<regulamin>\n${text}\n</regulamin>`;
   try {
-    const out = execFileSync("claude", ["-p", "--model", "haiku", "--output-format", "text", prompt], { encoding: "utf8", timeout: 120000, maxBuffer: 10_000_000 });
+    const out = execFileSync("claude", ["-p", "--model", "haiku", "--output-format", "text", prompt], { encoding: "utf8", timeout: 180000, maxBuffer: 10_000_000, env: { HOME: process.env.HOME || "", PATH: process.env.PATH || "", USER: process.env.USER || "", LANG: "pl_PL.UTF-8" } as unknown as NodeJS.ProcessEnv });
     const m = out.match(/\[[\s\S]*\]/);
     const arr = m ? (JSON.parse(m[0]) as unknown) : [];
     const gear = Array.isArray(arr) ? arr.filter((x) => typeof x === "string" && x.length >= 3 && x.length <= 80).slice(0, 20) : [];
