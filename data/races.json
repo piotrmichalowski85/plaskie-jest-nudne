@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T12:24:09.974Z",
+ "generatedAt": "2026-10-08T14:20:57.333Z",
  "count": 240,
  "races": [
   {
@@ -8067,6 +8067,11 @@
     }
    ],
    "regulaminUrl": "https://panel.maratonczykpomiarczasu.pl/sites/default/files/u22/regulamin%20goraj%20morena%20trail%205%20edycja%20-%208.01.2026%20zm%209.07.2026.pdf",
+   "gear": [
+    "Dokument tożsamości",
+    "Telefon komórkowy z działającą baterią",
+    "Kubek lub pojemnik na płyn (22 km, 44 km)"
+   ],
    "id": "goraj-morena-trail-2026-10-04",
    "minKm": 10,
    "maxKm": 44,
@@ -8459,6 +8464,12 @@
     }
    ],
    "regulaminUrl": "https://dostartu.pl/statute_files/16818_pl.pdf",
+   "gear": [
+    "Telefon lub zegarek z nawigacją i trasą",
+    "Kubek lub softflask z zapasem płynów",
+    "Folia NRC",
+    "Strój adekwatny do warunków atmosferycznych"
+   ],
    "id": "jeziorka-ultra-river-2026-10-10",
    "surface": "przelaj",
    "minKm": 11,
@@ -8467,7 +8478,7 @@
    "beginnerWhy": "najkrótszy dystans 11 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Łemko Trail 30 - 18.10.2025: Łemkowyna Trail 100 - 17-19.10.2025, Łemko Trail 30 - 18.10.2025, Łemkowyna Trail 70 - 18.10.2025, Łemkowyna Trail 150 17-19.10.2025, Łemko Trail 10 - 19.10.2025, Łemko Trail 18 - 19.10.2025",
+   "name": "Łemkowyna Trail - zapisy: Łemkowyna Trail 100 - 17-19.10.2025, Łemko Maraton 48 - 18.10.2025, Łemko Trail 30 - 18.10.2025, Łemkowyna Trail 70 - 18.10.2025, Łemkowyna Trail 150 17-19.10.2025, Łemko Trail 10 - 19.10.2025, Łemko Trail 18 - 19.10.2025",
    "eventName": "Łemkowyna Ultra-Trail",
    "dateStart": "2026-10-16",
    "dateEnd": "2026-10-18",
@@ -8562,12 +8573,12 @@
     }
    ],
    "signupOpen": true,
-   "participants": 1457,
+   "participants": 1831,
    "signup": {
     "status": "open",
     "until": "2026-10-07",
-    "limit": 2700,
-    "registered": 1457,
+    "limit": 3200,
+    "registered": 1831,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/LemkowynaUltraTrail/",
     "checkedAt": "2026-10-08"
@@ -8746,7 +8757,7 @@
    "beginnerWhy": "najkrótszy dystans 13 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
-   "name": "#SFB2026 | Don Jon: #SFB2026 | Czarny Rycerz, #SFB2026 | Don Jon, #SFB2025 | Czarny Rycerz, #SFB2026 | Mroczny Śpiewak, #SFB2026 | Stara Jodła, #SFB2026 | Ostoja Nietoperza",
+   "name": "Sowiogórski Festiwal Biegowy: #SFB2026 | Czarny Rycerz, #SFB2026 | Mroczny Śpiewak, #SFB2026 | Stara Jodła, #SFB2026 | Ostoja Nietoperza, #SFB2026 | Don Jon, #SFB2025 | Czarny Rycerz",
    "eventName": "Sowiogórski Festiwal Biegowy",
    "dateStart": "2026-10-24",
    "dateEnd": "2026-10-24",
@@ -8804,18 +8815,18 @@
     "kurtka wiatro- i wodoodporna z długim rękawem"
    ],
    "signupOpen": true,
-   "participants": 398,
+   "participants": 399,
    "signup": {
     "status": "open",
     "until": "2026-10-20",
     "limit": 1200,
-    "registered": 398,
+    "registered": 399,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/sfb2026/",
     "checkedAt": "2026-10-08"
    },
    "id": "sowiogorski-festiwal-biegowy-2026-10-24",
-   "surface": "trail",
+   "surface": "gorski",
    "minKm": 7,
    "maxKm": 84,
    "beginnerScore": 4,
@@ -8972,6 +8983,13 @@
     }
    ],
    "regulaminUrl": "http://maratonswietokrzyski.pl/regulamin/",
+   "gear": [
+    "Kubek wielokrotnego użytku",
+    "Aktywny telefon z naładowaną baterią",
+    "Koszulka i spodenki/getry biegowe",
+    "Butelka lub bidon na wodę (GMS, EMR, PJ)",
+    "Bluza/kurtka z kapturem (GMS, EMR, poniżej 10°C)"
+   ],
    "id": "8-gorski-maraton-swietokrzyski-2026-10-24",
    "surface": "gorski",
    "minKm": 15,
@@ -9504,6 +9522,16 @@
     }
    ],
    "regulaminUrl": "https://boreckatrail.pl/regulamin/",
+   "gear": [
+    "Telefon naładowany i aktywny (45km, 30km)",
+    "Pojemniki na picie 0,5 litra (45km, 30km)",
+    "Minimum trzy batony lub żele energetyczne (45km, 30km)",
+    "Czołówka lub latarka (45km, 30km)",
+    "Folia NRC 140x200 (45km, 30km)",
+    "Nakrycie głowy (45km, 30km)",
+    "Kurtka przeciwdeszczowa lub wiatrówka (45km, 30km)",
+    "Dowód osobisty lub paszport (45km, 30km)"
+   ],
    "signup": {
     "status": "open",
     "until": "2026-11-18",
@@ -9810,7 +9838,7 @@
    "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Podhalański Bieg Mikołajkowy: Podhalański Bieg Mikołajkowy - Rodzinne Mikołajki 1km, Podhalański Bieg Mikołajkowy - Brama Świętego Mikołaja 13km, Podhalański Bieg Mikołajkowy - Ostrowskie Mikołajki 6km",
+   "name": "Podhalański Bieg Mikołajkowy: Podhalański Bieg Mikołajkowy - Brama Świętego Mikołaja 13km, Podhalański Bieg Mikołajkowy - Rodzinne Mikołajki 1km, Podhalański Bieg Mikołajkowy - Ostrowskie Mikołajki 6km",
    "eventName": "Podhalański Bieg Mikołajkowy",
    "dateStart": "2026-12-06",
    "dateEnd": "2026-12-06",
@@ -10091,7 +10119,7 @@
    "beginnerWhy": "najkrótszy dystans 26 km to już długo w terenie; łagodnie: ok. 24 m przewyższenia na kilometr."
   },
   {
-   "name": "Zimowy Półmaraton Gór Stołowych: 21KM, BIAŁA TRZYDZIESTKA 31KM",
+   "name": "ZPGS: Biała Trzydziestka 31km - 2027, Zimowy Półmaraton Gór Stołowych 21km - 2027",
    "eventName": "Zimowy Półmaraton Gór Stołowych",
    "dateStart": "2027-01-16",
    "dateEnd": "2027-01-16",
@@ -10134,12 +10162,12 @@
     }
    ],
    "signupOpen": true,
-   "participants": 244,
+   "participants": 431,
    "signup": {
     "status": "open",
     "until": "2027-01-14",
-    "limit": 450,
-    "registered": 244,
+    "limit": 690,
+    "registered": 431,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/Zimowy_Polmaraton_Gor_Stolowych/",
     "checkedAt": "2026-10-08"
@@ -10196,6 +10224,14 @@
     }
    ],
    "regulaminUrl": "https://www.zmierzymyczas.pl/images/regulaminy/regulamin_ULTRAANKA_2027-1.pdf",
+   "gear": [
+    "Włączony i naładowany telefon",
+    "Wykaz numerów telefonów alarmowych",
+    "Folia NRC",
+    "Kurtka wiatroodporna",
+    "Obuwie do biegów górskich",
+    "Elementy odblaskowe"
+   ],
    "id": "ultramaraton-annogorski-2027-01-16",
    "minKm": 21,
    "maxKm": 70,
@@ -10287,7 +10323,7 @@
    "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Turbacz Winter Trail: Turbacz Winter Trail - AK-47 (48km), Turbacz Winter Trail - Turbaczowe Love - bieg dla par (6km), Turbacz Winter Trail - Turbaczowe Love - bieg dla singli (6km), Turbacz Winter Trail - Zimna Połówka (22km), Turbacz Winter Trail - TWT na 6 Łap (22km), Turbacz Winter Trail - Mizuno Nocna zaDycha (12km)",
+   "name": "Turbacz Winter Trail: Turbacz Winter Trail - Zimna Połówka (22km), Turbacz Winter Trail - TWT na 6 Łap (22km), Turbacz Winter Trail - Mizuno Nocna zaDycha (12km), Turbacz Winter Trail - Turbaczowe Love - bieg dla par (6km), Turbacz Winter Trail - Turbaczowe Love - bieg dla singli (6km), Turbacz Winter Trail - AK-47 (48km)",
    "eventName": "Turbacz Winter Trail",
    "dateStart": "2027-02-13",
    "dateEnd": "2027-02-14",
@@ -10429,7 +10465,7 @@
    "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Ultra Świr: WIOSENNY ULTRA ŚWIR - 6H, WIOSENNY ULTRA ŚWIR - 12 h",
+   "name": "Ultra Świr: WIOSENNY ULTRA ŚWIR - 6H, MARSZ NORDIC WALKING RODZIC + DZIECKO, WIOSENNY ULTRA ŚWIR - 12 h",
    "eventName": "WIOSENNY ULTRA ŚWIR",
    "dateStart": "2027-03-20",
    "dateEnd": "2027-03-20",
@@ -10500,14 +10536,14 @@
    "signup": {
     "status": "open",
     "until": "2027-03-15",
-    "limit": 100,
-    "registered": 1,
+    "limit": 150,
+    "registered": 6,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/ultra_swir/",
     "checkedAt": "2026-10-08"
    },
    "signupOpen": true,
-   "participants": 1,
+   "participants": 6,
    "id": "wiosenny-ultra-swir-2027-03-20",
    "surface": "trail",
    "minKm": 15.5,
@@ -10645,6 +10681,14 @@
     }
    ],
    "regulaminUrl": "https://ultrawysoczyzna.pl/regulamin/",
+   "gear": [
+    "Folia NRC (103 km, 54 km)",
+    "Bidon lub kubek",
+    "Telefon z naładowaną baterią",
+    "Gwizdek (103 km)",
+    "Czołówka lub latarka z bateriami (103 km)",
+    "Gotówka minimum 50 zł (103 km, 54 km)"
+   ],
    "signup": {
     "status": "open",
     "until": "2027-04-16",
@@ -10929,16 +10973,20 @@
    "beginnerWhy": "najkrótszy dystans 23 km to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Ultramaraton - ULTRA",
-   "eventName": "Ultramaraton - ULTRA",
+   "name": "Supermaraton Gór Stołowych: Półmaraton - Light 23 km, Ultramaraton - ULTRA 55km",
+   "eventName": "Supermaraton Gór Stołowych",
    "dateStart": "2027-06-26",
    "dateEnd": "2027-06-26",
    "city": "Karłów",
    "region": "",
    "distancesKm": [
+    21,
     55
    ],
    "elevations": [
+    {
+     "km": 21
+    },
     {
      "km": 55
     }
@@ -10954,7 +11002,7 @@
    "signup": {
     "status": "open",
     "until": "2027-06-24",
-    "limit": 390,
+    "limit": 760,
     "registered": 0,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/Supermaraton_Gor_Stolowych/",
@@ -10962,12 +11010,12 @@
    },
    "signupOpen": true,
    "participants": 0,
-   "id": "ultramaraton-ultra-2027-06-26",
+   "id": "supermaraton-gor-stolowych-2027-06-26",
    "surface": "przelaj",
-   "minKm": 55,
+   "minKm": 21,
    "maxKm": 55,
-   "beginnerScore": 1,
-   "beginnerWhy": "najkrótszy dystans 55 km, dystans ultra; przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerScore": 3,
+   "beginnerWhy": "najkrótszy dystans 21 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "Śmierdzący Leń: Mały Śmierdzący Leń",
