@@ -5,7 +5,7 @@ export const metadata: Metadata = { title: "Wybierz swój pierwszy niepłaski bi
 export default function KreatorPage() {
   return (
     <div>
-      <h1 className="text-3xl font-extrabold mb-1">Wybierz swój pierwszy niepłaski bieg</h1>
+      <h1 className="text-[3rem] mb-1">Wybierz swój pierwszy niepłaski bieg</h1>
       <p className="text-[var(--muted)] mb-6">Pięć pytań, zero rejestracji. Dostaniesz 3-5 biegów dopasowanych do Twojego doświadczenia.</p>
       <Kreator races={allRaces} today={today()} />
     </div>

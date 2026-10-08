@@ -30,6 +30,7 @@ export type Race = {
   beginnerWhy: string;
   regulaminUrl?: string; // regulamin zawodów (pdf/html), znaleziony automatycznie
   gear?: string[]; // sprzęt obowiązkowy wyciągnięty z regulaminu (heurystyka)
+  spark?: number[]; // 24 punktów profilu (0-1) z GPX najkrótszego dystansu ze śladem, do miniatury na karcie
   signup?: Signup; // status zapisów: open / closed / unknown + termin, limit, liczba zapisanych
   signupOpen?: boolean;
   participants?: number;

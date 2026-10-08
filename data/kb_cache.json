@@ -2544,5 +2544,44 @@
   ],
   "modified": "2026-09-29T15:23:56",
   "fetchedAt": "2026-09-30"
+ },
+ "4650": {
+  "id": 4650,
+  "name": "Meble Wójcik Ultra Wysoczyzna 2027",
+  "url": "https://kalendarzbiegowy.pl/biegi/meble-wojcik-ultra-wysoczyzna-2027/",
+  "start": "2027-04-16",
+  "end": "2027-04-18",
+  "city": "Elbląg",
+  "kinds": [
+   "gorski",
+   "ultra",
+   "trail"
+  ],
+  "distancesKm": [
+   6,
+   13,
+   22,
+   54,
+   103
+  ],
+  "dplus": [
+   {
+    "km": 6
+   },
+   {
+    "km": 13
+   },
+   {
+    "km": 22
+   },
+   {
+    "km": 54
+   },
+   {
+    "km": 103
+   }
+  ],
+  "modified": "2026-10-07T15:10:04",
+  "fetchedAt": "2026-10-08"
  }
 }

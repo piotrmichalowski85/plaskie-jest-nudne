@@ -3,7 +3,7 @@ export const metadata: Metadata = { title: "O serwisie" };
 export default function About() {
   return (
     <article className="prose max-w-2xl space-y-4">
-      <h1 className="text-3xl font-extrabold">O serwisie</h1>
+      <h1 className="text-[3rem]">O serwisie</h1>
       <p><strong>Płaskie jest nudne</strong> to niekomercyjny kalendarz biegów górskich, trailowych i przełajowych w Polsce, zbudowany z myślą o osobach, które biegają po płaskim i chcą spróbować gór, ale nie wiedzą, od czego zacząć.</p>
       <h2 className="text-xl font-bold">Kto to robi</h2>
       <p>Piotr Michałowski, biegacz amator, który sam przechodził tę drogę i marzy o starcie na festiwalu UTMB w Chamonix. W prowadzeniu strony pomaga mu oczywiście AI ;) Automaty pobierają kalendarze i liczą ocenę "dobry na start", a ja pilnuję, żeby miało to sens.</p>

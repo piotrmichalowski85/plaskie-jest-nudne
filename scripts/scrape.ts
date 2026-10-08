@@ -325,6 +325,11 @@ async function trasy(raws: Raw[]): Promise<{ hits: number; conflicts: string[] }
       gpxHits++;
     }
     if (r.elevations.some((x) => x.gpx) && !r.sources.some((s) => s.name === "GPX")) r.sources.push({ name: "GPX", url: t.gpx[0] });
+    const withGpx = r.elevations.find((x) => x.gpx);
+    if (withGpx && existsSync(`data/gpx/${withGpx.gpx}.json`)) {
+      const tr = JSON.parse(readFileSync(`data/gpx/${withGpx.gpx}.json`, "utf8")) as { profile: { d: number; ele: number }[] };
+      const pr = tr.profile; if (pr.length > 10) { const mn = Math.min(...pr.map((p) => p.ele)), mx = Math.max(...pr.map((p) => p.ele)); r.spark = Array.from({ length: 24 }, (_, i) => +(((pr[Math.floor((i / 23) * (pr.length - 1))].ele - mn) / Math.max(1, mx - mn)).toFixed(2))); }
+    }
   }
   console.log(`gpx: dopasowane ślady: ${gpxHits}`);
   writeFileSync("data/_konflikty.json", JSON.stringify({ generatedAt: new Date().toISOString(), conflicts }, null, 1));

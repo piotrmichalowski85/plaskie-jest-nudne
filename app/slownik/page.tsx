@@ -19,7 +19,7 @@ const T: [string, string][] = [
 export default function Slownik() {
   return (
     <article className="max-w-3xl">
-      <h1 className="text-3xl font-extrabold mb-1">Słownik początkującego biegacza trailowego i górskiego</h1>
+      <h1 className="text-[3rem] mb-1">Słownik początkującego biegacza trailowego i górskiego</h1>
       <p className="text-[var(--muted)] mb-6">Pojęcia, które spotkasz w regulaminach i na forach, wyjaśnione prosto, jak na podbiegu.</p>
       <dl className="space-y-5">{T.map(([k, v]) => <div key={k} className="card"><dt className="font-bold">{k}</dt><dd className="mt-1 text-sm leading-relaxed">{v}</dd></div>)}</dl>
     </article>

@@ -48,7 +48,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
       <RegionArt region={r.region} surface={r.surface} className="mt-3 w-full h-28 sm:h-36 rounded-2xl border border-[#e3e7e1]" />
       <header className="mt-4">
         <p className="text-sm font-semibold text-[var(--muted)]">{fmtDate(r.dateStart, r.dateEnd)}{r.region ? ` · ${r.region}` : ""}</p>
-        <h1 className="text-3xl sm:text-4xl font-extrabold leading-tight">{r.eventName}</h1>
+        <h1 className="text-[3rem] sm:text-[4rem]">{r.eventName}</h1>
         {r.name !== r.eventName && <p className="mt-1 text-[var(--muted)]">{r.name}</p>}
         <p className="mt-2 flex flex-wrap gap-1.5"><span className="chip">{surfaceLabel[r.surface]}</span>{r.vertical && <span className="chip">vertical</span>}{r.category && <span className="chip">Liga Biegów Górskich {r.category.split(" ")[0]}</span>}<SignupChip race={r} long /></p>
       </header>
@@ -57,12 +57,12 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
         {/* szeroka kolumna: czy jadę */}
         <div className="space-y-6 min-w-0">
           <section className="card">
-            <div className="flex items-center justify-between gap-3"><h2 className="font-bold">Dla początkujących</h2><Score s={r.beginnerScore} /></div>
+            <div className="flex items-center justify-between gap-3"><h2 className="text-[1.6rem]">Dla początkujących</h2><Score s={r.beginnerScore} /></div>
             <p className="mt-2 text-sm">{r.beginnerWhy}</p>
           </section>
 
           <section>
-            <h2 className="font-bold mb-2">Dystanse</h2>
+            <h2 className="text-[1.8rem] mb-2">Dystanse</h2>
             {r.elevations.length ? (
               <ul className="grid gap-2">{r.elevations.map((e) => {
                 const l = distanceLevel(e);
@@ -84,13 +84,13 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
 
           {profiles.length > 0 && (
             <section className="space-y-3">
-              <h2 className="font-bold">Profil trasy</h2>
+              <h2 className="text-[1.8rem]">Profil trasy</h2>
               {profiles.map(({ e, t }) => <div key={e.km}><p className="text-xs text-[var(--muted)] mb-1">{fmtKm(e.km)}{e.dplusStale ? " (plik GPX z poprzedniej edycji)" : ""}</p><ElevationProfile profile={t!.profile} km={t!.km} dplus={t!.dplus} /></div>)}
             </section>
           )}
 
           <section className="card">
-            <h2 className="font-bold">Zanim się zapiszesz</h2>
+            <h2 className="text-[1.6rem]">Zanim się zapiszesz</h2>
             <ul className="mt-2 text-sm list-disc pl-5 space-y-1">
               <li>Sprawdź <strong>limit czasu</strong> (cutoff) na swoim dystansie i punkty kontrolne z limitami pośrednimi.</li>
               {r.gear ? (
@@ -104,7 +104,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
 
           {sim.length > 0 && (
             <section>
-              <h2 className="font-bold mb-2">Podobne biegi w zbliżonym terminie</h2>
+              <h2 className="text-[1.8rem] mb-2">Podobne biegi w zbliżonym terminie</h2>
               <ul className="card divide-y divide-[#e3e7e1] p-0">{sim.map((x) => (
                 <li key={x.id}><Link href={`/bieg/${x.id}`} className="flex items-center gap-4 px-4 py-3 hover:bg-[#f2f5f1]">
                   <span className="w-24 shrink-0 text-xs font-semibold text-[var(--muted)]">{fmtDate(x.dateStart, x.dateEnd)}</span>

@@ -3,7 +3,7 @@ export const metadata: Metadata = { title: "Polityka prywatności" };
 export default function Prywatnosc() {
   return (
     <article className="max-w-2xl space-y-4 text-sm leading-relaxed">
-      <h1 className="text-3xl font-extrabold">Polityka prywatności</h1>
+      <h1 className="text-[3rem]">Polityka prywatności</h1>
       <p>Serwis plaskiejestnudne.pl prowadzi Piotr Michałowski (kontakt: <a className="underline" href="mailto:kontakt@plaskiejestnudne.pl">kontakt@plaskiejestnudne.pl</a>). Serwis jest niekomercyjny i nie wymaga zakładania konta.</p>
       <h2 className="text-xl font-bold">Jakie dane zbieramy</h2>
       <p>Nie zbieramy danych osobowych. Nie ma formularzy rejestracji, list startowych ani wyników. Jeśli napiszesz do nas maila, przetwarzamy Twój adres wyłącznie po to, żeby odpowiedzieć.</p>

@@ -1,7 +1,7 @@
 "use client";
 import { useMemo, useState } from "react";
 import type { Race } from "@/lib/types";
-import { RaceCard } from "./RaceCard";
+import { PosterCard } from "./PosterCard";
 
 type A = { level: string; longest: string; region: string; when: string; goal: string };
 const Q = [
@@ -69,7 +69,7 @@ export function Kreator({ races, today }: { races: Race[]; today: string }) {
     <div>
       <div className="flex items-baseline justify-between mb-4"><h2 className="text-2xl font-bold">Twoje pierwsze niepłaskie biegi</h2><button className="text-sm underline text-[var(--muted)]" onClick={() => { setA({}); setStep(0); }}>od nowa</button></div>
       {results.length === 0 ? <p>Nic nie pasuje do tych odpowiedzi w wybranym terminie. Wydłuż czas albo poluzuj region.</p> : (
-        <div className="grid gap-3 sm:grid-cols-2">{results.map((r) => <RaceCard key={r.id} race={r} />)}</div>
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{results.map((r) => <PosterCard key={r.id} race={r} today={today} />)}</div>
       )}
       <p className="mt-6 text-sm text-[var(--muted)]">Jak liczymy: ocena "dobry na start" (najkrótszy dystans, przewyższenie na kilometr, formuła) plus dopasowanie do Twojego najdłuższego biegu, regionu i terminu. Zawsze sprawdź limit czasu i sprzęt obowiązkowy w regulaminie.</p>
     </div>

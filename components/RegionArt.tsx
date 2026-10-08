@@ -38,7 +38,7 @@ export function RegionArt({ region, surface, className = "", label }: { region: 
   const p = P[k], s = SHAPES[k];
   const id = `g-${k}`;
   return (
-    <svg viewBox="0 0 300 100" preserveAspectRatio="xMidYMid slice" className={className} role="img" aria-label={label ?? `Ilustracja: ${region || "góry"}`}>
+    <svg viewBox="0 0 300 100" preserveAspectRatio="xMidYMax slice" className={className} role="img" aria-label={label ?? `Ilustracja: ${region || "góry"}`}>
       <defs><linearGradient id={id} x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor={p.sky[0]} /><stop offset="1" stopColor={p.sky[1]} /></linearGradient></defs>
       <rect width="300" height="100" fill={`url(#${id})`} />
       <circle cx="232" cy="30" r="14" fill="#fff3cf" opacity="0.95" />

@@ -1,40 +1,56 @@
 import Link from "next/link";
-import { upcomingRaces } from "@/lib/data";
-import { RaceCard } from "@/components/RaceCard";
+import { upcomingRaces, today, allRaces } from "@/lib/data";
+import { PosterCard } from "@/components/PosterCard";
+import { Ticker } from "@/components/Ticker";
 
 export default function Home() {
+  const t = today();
   const up = upcomingRaces();
   const next = up.slice(0, 6);
-  const forStart = up.filter((r) => r.beginnerScore >= 4 && r.elevations.length).slice(0, 6);
+  const forStart = up.filter((r) => r.beginnerScore >= 4 && !next.includes(r)).slice(0, 3);
   return (
-    <div className="space-y-12">
-      <section className="py-2 grid gap-8 md:grid-cols-[1.1fr_1fr] items-center">
-        <div>
-          <p className="chip chip-sun mb-3">kalendarz biegów górskich i trailowych w Polsce</p>
-          <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-[var(--moss-dark)]">Płaskie jest nudne ;)</h1>
-          <p className="mt-3 text-lg max-w-2xl">Po płaskim biegasz na czas. W górach biegasz na widok. Zamiast asfaltu masz korzenie, błoto i ścieżkę, która co chwilę zmienia kierunek. Tempo przestaje mieć znaczenie, liczy się to, że jesteś wyżej niż wczoraj. Na podbiegu wolno iść, na szczycie wolno stanąć, na zbiegu wolno się bać, na punktach wolno jeść. A meta w górach smakuje inaczej niż każda inna.</p>
-          <div className="mt-6 flex flex-wrap gap-3">
+    <div className="space-y-10">
+      <section className="grid gap-8 md:grid-cols-[1fr_1fr] items-end pt-2">
+        <h1 className="display text-[5.2rem] sm:text-[7rem] md:text-[8.5rem] leading-[.86] text-[var(--ink)]">Płaskie<br />jest<br /><span className="text-[var(--moss)]">nudne ;)</span></h1>
+        <div className="md:pb-3">
+          <p className="text-[1.05rem] leading-relaxed text-[#3d4d34] max-w-[30rem]">Po płaskim biegasz na czas. W górach biegasz na widok. Zamiast asfaltu masz korzenie, błoto i ścieżkę, która co chwilę zmienia kierunek. Tempo przestaje mieć znaczenie, liczy się to, że jesteś wyżej niż wczoraj. Na podbiegu wolno iść, na szczycie wolno stanąć, na zbiegu wolno się bać, na punktach wolno jeść. A meta w górach smakuje inaczej niż każda inna.</p>
+          <div className="mt-5 flex flex-wrap gap-3">
             <Link href="/kreator" className="btn">Wybierz swój pierwszy bieg</Link>
-            <Link href="/biegi" className="btn btn-ghost">Przeglądaj kalendarz</Link>
-            <Link href="/czy-dam-rade" className="btn btn-ghost">Czy dam radę?</Link>
+            <Link href="/biegi" className="btn btn-ghost">{up.length} biegów w kalendarzu</Link>
           </div>
         </div>
-        <div className="relative">
-          <img id="hero-photo" src="/hero/hero-1.jpg" alt="Biegacz na górskim szlaku" className="w-full aspect-[3/2] object-cover rounded-2xl shadow-lg border border-[#e3e7e1]" width={1400} height={933} fetchPriority="high" />
-          {/* losowe zdjęcie z puli 7, ustawiane zanim przeglądarka narysuje obraz (bez migania) */}
-          <script dangerouslySetInnerHTML={{ __html: `(function(){var n=1+Math.floor(Math.random()*7);var e=document.getElementById('hero-photo');if(e&&n!==1)e.src='/hero/hero-'+n+'.jpg';})();` }} />
-        </div>
       </section>
+
+      <Ticker races={up} today={t} />
+
       <section>
-        <div className="flex items-baseline justify-between mb-4"><h2 className="text-2xl font-bold">Najbliższe starty</h2><Link href="/biegi" className="text-sm font-semibold text-[var(--moss)]">wszystkie</Link></div>
-        <div className="grid gap-3 sm:grid-cols-2">{next.map((r) => <RaceCard key={r.id} race={r} />)}</div>
+        <div className="flex flex-wrap gap-2 mb-4">
+          <Link href="/biegi" className="qchip on">Wszystkie</Link>
+          <Link href="/biegi?start=1" className="qchip">Dobry na start</Link>
+          <Link href="/biegi?dist=s" className="qchip">Do 15 km</Link>
+          <Link href="/biegi?dist=u" className="qchip">Ultra</Link>
+          <Link href="/biegi?open=1" className="qchip">Zapisy otwarte</Link>
+          <Link href="/biegi?view=mapa" className="qchip">Mapa</Link>
+        </div>
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{next.map((r) => <PosterCard key={r.id} race={r} today={t} />)}</div>
       </section>
+
       {forStart.length > 0 && (
         <section>
-          <div className="flex items-baseline justify-between mb-4"><h2 className="text-2xl font-bold">Dobre na start w tym sezonie</h2><Link href="/biegi?start=1" className="text-sm font-semibold text-[var(--moss)]">więcej</Link></div>
-          <div className="grid gap-3 sm:grid-cols-2">{forStart.map((r) => <RaceCard key={r.id} race={r} />)}</div>
+          <div className="flex items-end justify-between mb-3"><h2 className="text-[2.2rem]">Dobre na pierwszy start</h2><Link href="/biegi?start=1" className="text-sm font-bold text-[var(--moss)]">więcej →</Link></div>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{forStart.map((r) => <PosterCard key={r.id} race={r} today={t} />)}</div>
         </section>
       )}
+
+      <section>
+        <div className="flex items-end justify-between mb-3"><h2 className="text-[2.2rem]">Narzędzia na pierwszy start</h2></div>
+        <div className="grid gap-4 md:grid-cols-3">
+          <Link href="/kreator" className="card block hover:border-[var(--moss)]"><h3 className="text-[1.7rem]">Pierwszy niepłaski bieg</h3><p className="mt-1 text-sm text-[var(--muted)]">Pięć pytań i trzy biegi na Twój staż. Bez rejestracji.</p></Link>
+          <Link href="/czy-dam-rade" className="card block hover:border-[var(--moss)]"><h3 className="text-[1.7rem]">Czy dam radę?</h3><p className="mt-1 text-sm text-[var(--muted)]">Czas z 10 km na płaskim, wybrany bieg, szacunek na każdym dystansie i porównanie z limitem.</p></Link>
+          <Link href="/slownik" className="card block hover:border-[var(--moss)]"><h3 className="text-[1.7rem]">Słownik trailowy</h3><p className="mt-1 text-sm text-[var(--muted)]">D+, cutoff, sprzęt obowiązkowy, kije, ITRA i UTMB. Jak tłumaczy się je na podbiegu.</p></Link>
+        </div>
+      </section>
+      <p className="text-xs text-[var(--muted)]">{allRaces.length} biegów w bazie, odświeżane co tydzień. Fakty pochodzą z kalendarzy, platform zapisów i stron organizatorów.</p>
     </div>
   );
 }
