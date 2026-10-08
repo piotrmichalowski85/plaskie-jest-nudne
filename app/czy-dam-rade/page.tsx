@@ -8,7 +8,7 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ b
   return (
     <div>
       <h1 className="text-[3rem] mb-1">Czy dam radę?</h1>
-      <p className="text-[var(--muted)] mb-6">Czas z płaskiego, wybrany bieg, szacunek na każdym dystansie i porównanie z limitem czasu. Bez rejestracji.</p>
+      <p className="text-[var(--muted)] mb-6">Czas z płaskiego, wybrany bieg, szacunek na każdym dystansie i porównanie z limitem czasu.</p>
       <Suspense><CzyDamRade races={allRaces} today={today()} initialRaceId={sp.bieg} /></Suspense>
     </div>
   );

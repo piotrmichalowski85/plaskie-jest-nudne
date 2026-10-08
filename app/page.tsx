@@ -45,7 +45,7 @@ export default function Home() {
       <section>
         <div className="flex items-end justify-between mb-3"><h2 className="text-[2.2rem]">Narzędzia na pierwszy start</h2></div>
         <div className="grid gap-4 md:grid-cols-3">
-          <Link href="/kreator" className="card block hover:border-[var(--moss)]"><h3 className="text-[1.7rem]">Pierwszy niepłaski bieg</h3><p className="mt-1 text-sm text-[var(--muted)]">Pięć pytań i trzy biegi na Twój staż. Bez rejestracji.</p></Link>
+          <Link href="/kreator" className="card block hover:border-[var(--moss)]"><h3 className="text-[1.7rem]">Pierwszy niepłaski bieg</h3><p className="mt-1 text-sm text-[var(--muted)]">Pięć pytań i trzy biegi na Twój staż.</p></Link>
           <Link href="/czy-dam-rade" className="card block hover:border-[var(--moss)]"><h3 className="text-[1.7rem]">Czy dam radę?</h3><p className="mt-1 text-sm text-[var(--muted)]">Czas z 10 km na płaskim, wybrany bieg, szacunek na każdym dystansie i porównanie z limitem.</p></Link>
           <Link href="/slownik" className="card block hover:border-[var(--moss)]"><h3 className="text-[1.7rem]">Słownik trailowy</h3><p className="mt-1 text-sm text-[var(--muted)]">D+, cutoff, sprzęt obowiązkowy, kije, ITRA i UTMB. Jak tłumaczy się je na podbiegu.</p></Link>
         </div>

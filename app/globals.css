@@ -54,3 +54,27 @@ label { font-size: .8rem; color: var(--muted); font-weight: 600; }
 @media (max-width: 640px) { .poster { aspect-ratio: 4 / 4.6; } .poster .d { font-size: 3.6rem; } .poster h3 { font-size: 1.5rem; } }
 .poster .meta .chip.\!bg-transparent { background: rgba(255,255,255,.75) !important; color: var(--muted) !important; border-color: transparent; }
 .poster .spark { position: absolute; left: 1rem; right: 1rem; top: 30%; height: 18%; width: calc(100% - 2rem); }
+
+/* narzędzia: czy dam radę, słownik */
+.step { font-family: var(--font-display); font-size: 1.05rem; letter-spacing: .08em; color: var(--moss-dark); }
+input.bigtime { font-family: var(--font-display); font-size: 2.6rem; letter-spacing: .04em; line-height: 1; padding: .55rem .9rem .4rem; border-radius: .8rem; }
+input.bigtime::placeholder { color: #b9b3a3; }
+.picklist { max-height: 19rem; overflow-y: auto; border: 1px solid var(--line); border-radius: .8rem; background: #fff; }
+.picklist li + li { border-top: 1px solid #efeadf; }
+.pick { display: grid; grid-template-columns: 3.4rem minmax(0,1fr); gap: .6rem; align-items: center; width: 100%; text-align: left; padding: .55rem .75rem; font-size: .9rem; cursor: pointer; }
+.pick:hover { background: #f4f1e8; }
+.pick.on { background: var(--ink); color: var(--bg); }
+.pick-d { font-family: var(--font-display); font-size: 1.15rem; letter-spacing: .04em; color: var(--clay); line-height: 1; }
+.pick.on .pick-d { color: var(--sun); }
+.empty { border: 1.5px dashed var(--line); border-radius: 1.1rem; padding: 2rem 1.5rem; background: rgba(255,255,255,.45); }
+.bar { position: relative; height: .9rem; border-radius: 999px; background: #ece7da; overflow: visible; }
+.bar-fill { position: absolute; left: 0; top: 0; height: 100%; border-radius: 999px; background: var(--moss); }
+.bar-range { position: absolute; top: 0; height: 100%; background: rgba(47,93,58,.28); border-radius: 999px; }
+.bar-limit { position: absolute; top: -.35rem; height: calc(100% + .7rem); width: 2px; background: var(--clay); }
+.bar-limit i { position: absolute; top: calc(100% + .15rem); left: 50%; transform: translateX(-50%); font-style: normal; font-size: .65rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--clay); }
+.card:has(> .bar) { padding-bottom: 2rem; }
+.toc { display: flex; gap: .4rem; align-items: baseline; font-size: .85rem; color: var(--ink); padding: .15rem 0; }
+.toc:hover { color: var(--moss); }
+.entry { padding: 1.6rem 0; border-top: 1px solid var(--line); scroll-margin-top: 5.5rem; }
+.entry:first-child { border-top: 0; padding-top: 0; }
+.noscroll { scrollbar-width: none; } .noscroll::-webkit-scrollbar { display: none; }
