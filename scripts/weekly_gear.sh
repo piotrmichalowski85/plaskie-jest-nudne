@@ -2,7 +2,7 @@
 # Cotygodniowe czytanie nowych regulaminów (sprzęt obowiązkowy) na Macu Piotra przez lokalne `claude` (subskrypcja).
 # Uruchamiane z crona we wtorek rano, po poniedziałkowym odświeżeniu danych w GitHub Actions.
 set -e
-export PATH="/opt/homebrew/bin:/usr/local/bin:$HOME/.local/bin:/usr/bin:/bin"
+export PATH="/opt/homebrew/bin:/usr/local/bin:$HOME/.local/bin:/usr/bin:/bin"; export USER="${USER:-$(id -un)}"; export LANG=pl_PL.UTF-8
 cd "$HOME/Claude/plaskie-jest-nudne"
 LOG="$HOME/Claude/plaskie-jest-nudne/data/.weekly_gear.log"
 {
