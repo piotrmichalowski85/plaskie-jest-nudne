@@ -1,0 +1,42 @@
+<!doctype html><html lang="pl"><head><meta charset="utf-8"><style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap');
+:root{--bg:#0f1512;--bg2:#161e19;--ink:#f3f1ea;--mute:#9aa49c;--moss:#6fa27d;--sun:#f0c25a;--line:#26302a}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;font-size:14px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+header{height:64px;display:flex;align-items:center;justify-content:space-between}.logo{font-family:'Bebas Neue';font-size:26px;letter-spacing:.04em;display:flex;gap:10px;align-items:center}.logo i{width:28px;height:28px;border-radius:8px;background:var(--moss);display:inline-block}
+nav{display:flex;gap:22px;font-weight:600;color:#cdd5cf}nav .cta{background:var(--sun);color:#1a1200;padding:8px 14px;border-radius:999px}
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:end;padding:36px 0 28px}
+.hero h1{font-family:'Bebas Neue';font-size:148px;line-height:.86;margin:0;letter-spacing:.01em}.hero h1 span{color:var(--sun)}
+.hero p{color:#cdd5cf;font-size:17px;line-height:1.55;max-width:460px;margin:0 0 18px}
+.btn{display:inline-block;padding:12px 20px;border-radius:999px;background:var(--sun);color:#1a1200;font-weight:700}.btn.o{background:transparent;border:1.5px solid #3f4d44;color:var(--ink)}
+.ticker{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 0;font-family:'Bebas Neue';font-size:20px;letter-spacing:.06em;color:#cdd5cf;white-space:nowrap;overflow:hidden}
+.ticker span{margin-right:40px}.ticker b{color:var(--sun)}
+.chips{display:flex;gap:8px;padding:22px 0 14px;flex-wrap:wrap}.chips span{padding:8px 14px;border-radius:999px;border:1px solid #3f4d44;font-weight:600;font-size:13px;color:#cdd5cf}.chips span.on{background:var(--ink);color:#0f1512;border-color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.poster{position:relative;border-radius:18px;overflow:hidden;aspect-ratio:4/5;background:var(--bg2);border:1px solid var(--line);display:flex;flex-direction:column;justify-content:flex-end;padding:18px}
+.poster .art{position:absolute;inset:0;background:linear-gradient(180deg,#2b3a31 0%,#1b2620 55%,#101713 100%)}.poster .art:before,.poster .art:after{content:"";position:absolute;left:-10%;right:-10%;height:60%;bottom:-10%;background:#223129;clip-path:polygon(0 80%,15% 45%,28% 60%,45% 20%,60% 50%,75% 30%,90% 55%,100% 40%,100% 100%,0 100%)}.poster .art:after{bottom:-25%;background:#16211b;clip-path:polygon(0 70%,20% 50%,40% 65%,55% 40%,70% 60%,85% 45%,100% 60%,100% 100%,0 100%)}
+.poster.t .art{background:linear-gradient(180deg,#2a3340,#171d24 60%,#0f1319)}.poster.b .art{background:linear-gradient(180deg,#3a3a22,#232617 60%,#121410)}
+.poster .d{position:absolute;top:16px;left:18px;font-family:'Bebas Neue';font-size:92px;line-height:.8;color:var(--ink)}.poster .d small{display:block;font-size:22px;letter-spacing:.1em;color:var(--sun)}
+.poster .in{position:relative}.poster h3{margin:0;font-family:'Bebas Neue';font-size:34px;letter-spacing:.02em;line-height:.95}.poster .loc{color:#cdd5cf;margin-top:4px}.poster .meta{margin-top:10px;display:flex;gap:6px;flex-wrap:wrap}.poster .meta span{font-size:12px;font-weight:700;padding:4px 9px;border-radius:999px;background:rgba(255,255,255,.08);color:#e7ebe6}
+.g{background:#1f6b33!important;color:#fff!important}.y{background:#8a6300!important;color:#fff!important}.sun{background:var(--sun)!important;color:#1a1200!important}
+.poster .k{position:absolute;top:16px;right:16px;font-size:12px;font-weight:700;color:#cdd5cf;background:rgba(0,0,0,.35);padding:5px 9px;border-radius:999px}
+.sec{display:flex;justify-content:space-between;align-items:end;margin:38px 0 14px}.sec h2{font-family:'Bebas Neue';font-size:40px;margin:0;letter-spacing:.03em}.sec a{color:var(--sun);font-weight:700}
+.tools{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:30px}.tool{border:1px solid var(--line);border-radius:18px;padding:18px;background:var(--bg2)}.tool h3{font-family:'Bebas Neue';font-size:30px;margin:0 0 6px;letter-spacing:.03em}.tool p{margin:0;color:var(--mute);line-height:1.5}
+footer{margin-top:40px;border-top:1px solid var(--line);padding:22px 0;color:var(--mute);display:flex;justify-content:space-between;font-size:13px}
+</style></head><body><div class="wrap">
+<header><div class="logo"><i></i>PŁASKIE JEST NUDNE</div><nav><span>Biegi</span><span>Pierwszy bieg</span><span>Czy dam radę?</span><span>Słownik</span><span class="cta">Dodaj bieg</span></nav></header>
+<section class="hero"><h1>PŁASKIE<br>JEST<br><span>NUDNE ;)</span></h1><div><p>Po płaskim biegasz na czas. W górach biegasz na widok. Na podbiegu wolno iść, na szczycie wolno stanąć, na zbiegu wolno się bać, na punktach wolno jeść.</p><a class="btn">Wybierz swój pierwszy bieg</a> &nbsp; <a class="btn o">58 biegów</a></div></section>
+<div class="ticker"><span>NAJBLIŻEJ: <b>UltraKotlina</b> 9 paź · za 2 dni</span><span><b>ultraMaraton Bieszczadzki</b> 10 paź</span><span><b>Łemkowyna Ultra-Trail</b> 16 paź · 1267 zapisanych</span><span><b>Sowiogórski Festiwal</b> 24 paź</span><span><b>Gorlicki Bieg Górski</b> 7 lis</span></div>
+<div class="chips"><span class="on">Wszystkie</span><span>Dobry na start</span><span>Do 15 km</span><span>Ultra</span><span>Zapisy otwarte</span><span>Sudety</span><span>Beskidy</span><span>Tatry</span><span>Blisko mnie</span></div>
+<div class="grid">
+<div class="poster"><div class="art"></div><div class="d">9<small>PAŹ</small></div><span class="k">za 2 dni</span><div class="in"><h3>UltraKotlina</h3><div class="loc">Szklarska Poręba · Karkonosze</div><div class="meta"><span class="g">dobry na start</span><span>15-142 km</span><span>+600 m</span></div></div></div>
+<div class="poster b"><div class="art"></div><div class="d">10<small>PAŹ</small></div><div class="in"><h3>ultraMaraton Bieszczadzki</h3><div class="loc">Cisna · Bieszczady</div><div class="meta"><span class="g">dobry na start</span><span>12 / 26 / 52 / 100 km</span></div></div></div>
+<div class="poster"><div class="art"></div><div class="d">16<small>PAŹ</small></div><span class="k">pt-nd</span><div class="in"><h3>Łemkowyna Ultra-Trail</h3><div class="loc">Krynica-Zdrój · Beskid Niski</div><div class="meta"><span class="g">dobry na start</span><span>10-150 km</span><span class="sun">1267 / 2700</span></div></div></div>
+<div class="poster"><div class="art"></div><div class="d">24<small>PAŹ</small></div><div class="in"><h3>Sowiogórski Festiwal Biegowy</h3><div class="loc">Pieszyce · Góry Sowie</div><div class="meta"><span class="g">dobry na start</span><span>7-84 km</span><span>zapisy do 20.10</span></div></div></div>
+<div class="poster b"><div class="art"></div><div class="d">7<small>LIS</small></div><div class="in"><h3>Gorlicki Bieg Górski</h3><div class="loc">Radocyna · Beskid Niski</div><div class="meta"><span class="y">ujdzie na start</span><span>7 / 24 km</span></div></div></div>
+<div class="poster t"><div class="art"></div><div class="d">16<small>STY</small></div><div class="in"><h3>Zimowy Półmaraton Gór Stołowych</h3><div class="loc">Karłów · Góry Stołowe</div><div class="meta"><span class="y">ujdzie na start</span><span>21 / 31 km</span><span>165 / 450</span></div></div></div>
+</div>
+<div class="sec"><h2>NARZĘDZIA NA PIERWSZY START</h2><a>wszystkie →</a></div>
+<div class="tools"><div class="tool"><h3>PIERWSZY NIEPŁASKI BIEG</h3><p>Pięć pytań, trzy biegi na Twój staż. Bez rejestracji.</p></div><div class="tool"><h3>CZY DAM RADĘ?</h3><p>Czas z 10 km, wybrany bieg, szacunek i porównanie z limitem.</p></div><div class="tool"><h3>SPRZĘT OBOWIĄZKOWY</h3><p>Lista z regulaminu do odhaczenia na telefonie.</p></div></div>
+<footer><span>Płaskie jest nudne: wejdź w trail, zacznij od podbiegu.</span><span>O serwisie · Prywatność · kontakt@plaskiejestnudne.pl</span></footer>
+</div></body></html>
