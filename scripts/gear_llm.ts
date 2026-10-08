@@ -1,6 +1,6 @@
 /** Sprzęt obowiązkowy z regulaminu przez lokalne `claude -p` (subskrypcja, bez klucza API). Uruchamiać na Macu po scrape. */
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
-import { execFileSync } from "node:child_process";
+import { spawnSync } from "node:child_process";
 import { createHash } from "node:crypto";
 const CACHE_PATH = "data/regulaminy.json";
 const textPath = (u: string) => `data/.regulaminy_text/${createHash("sha1").update(u).digest("hex")}.txt`;
@@ -14,8 +14,10 @@ for (const [url, e] of Object.entries(cache)) {
   const text = readFileSync(textPath(e.regulaminUrl), "utf8").slice(0, 40000);
   const prompt = `Poniżej tekst regulaminu biegu górskiego lub trailowego. Wypisz WYŁĄCZNIE listę sprzętu obowiązkowego (rzeczy, które uczestnik musi mieć przy sobie podczas biegu). Każda pozycja krótko (do 8 słów), po polsku, bez numeracji, bez sprzętu zalecanego, bez numeru startowego i bez chipa. Jeśli regulamin nie wymienia sprzętu obowiązkowego, zwróć pustą tablicę. Jeśli sprzęt zależy od dystansu, dopisz dystans w nawiasie. Odpowiedz TYLKO tablicą JSON ze stringami, bez komentarza.\n\n<regulamin>\n${text}\n</regulamin>`;
   try {
-    const out = execFileSync("claude", ["-p", "--model", "haiku", "--output-format", "text", prompt], { encoding: "utf8", timeout: 180000, maxBuffer: 10_000_000, env: { HOME: process.env.HOME || "", PATH: process.env.PATH || "", USER: process.env.USER || "", LANG: "pl_PL.UTF-8" } as unknown as NodeJS.ProcessEnv });
+    const r = spawnSync("claude", ["-p", "--model", "haiku", "--output-format", "text", prompt], { encoding: "utf8", timeout: 180000, maxBuffer: 10_000_000, stdio: ["ignore", "pipe", "pipe"], env: { HOME: process.env.HOME || "", PATH: process.env.PATH || "", USER: process.env.USER || "", LANG: "pl_PL.UTF-8" } as unknown as NodeJS.ProcessEnv });
+    const out = (r.stdout || "").replace(/```[a-z]*/g, "");
     const m = out.match(/\[[\s\S]*\]/);
+    if (!m) throw Object.assign(new Error(`brak tablicy w odpowiedzi; status=${r.status} signal=${r.signal}`), { stderr: r.stderr, stdout: r.stdout, status: r.status });
     const arr = m ? (JSON.parse(m[0]) as unknown) : [];
     const gear = Array.isArray(arr) ? arr.filter((x) => typeof x === "string" && x.length >= 3 && x.length <= 80).slice(0, 20) : [];
     e.gear = gear; e.gearSource = "llm"; e.gearAt = new Date().toISOString();
