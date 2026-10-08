@@ -10,6 +10,16 @@ export type B4Event = { parentId: string; name: string; city: string; organizer:
 const MOUNTAIN_CAT = new Set(["SportMountainRaces", "SportCrossCountryRaces"]);
 const KW = /trail|górsk|gorsk|ultra|skyrun|vertical|przełaj|przelaj|cross|maraton\s+g/i;
 
+async function pageTitle(slug: string): Promise<string | undefined> {
+  try {
+    const r = await fetch(`https://b4sportonline.pl/${slug}/`, { headers: { "user-agent": UA }, signal: AbortSignal.timeout(15000) });
+    if (!r.ok) return undefined;
+    const m = /<title>([^<]{3,120})<\/title>/i.exec(await r.text());
+    const t = m?.[1].replace(/\s+/g, " ").replace(/\s*[|\-]\s*b4sport.*$/i, "").trim();
+    return t && !/b4sport/i.test(t) ? t : undefined;
+  } catch { return undefined; }
+}
+
 /** Publiczny kalendarz b4sportonline: JSON (HTML stron + strukturalne "children"). Zwraca imprezy górskie/trailowe. */
 export async function b4Events(): Promise<B4Event[]> {
   const blocks = new Map<string, { name: string; city: string; www?: string; regIds: number[] }>();
@@ -40,7 +50,10 @@ export async function b4Events(): Promise<B4Event[]> {
   const out: B4Event[] = [];
   const today = new Date().toISOString().slice(0, 10);
   for (const [pid, arr] of byParent) {
-    const kids = arr.filter((c) => MOUNTAIN_CAT.has(c.category) || (KW.test(c.name) && c.category === "Running"));
+    const hit = arr.some((c) => MOUNTAIN_CAT.has(c.category) || (KW.test(c.name) && c.category === "Running"));
+    if (!hit) continue;
+    // impreza górska jako całość: bierzemy wszystkie biegowe dystanse rodzica (także "Półmaraton - Light 23 km" bez słowa-klucza)
+    const kids = arr.filter((c) => MOUNTAIN_CAT.has(c.category) || c.category === "Running");
     if (!kids.length) continue;
     const ids = new Set(kids.map((c) => c.original_id ?? -1));
     const block = [...blocks.values()].find((b) => b.regIds.some((x) => ids.has(x)));
@@ -52,7 +65,8 @@ export async function b4Events(): Promise<B4Event[]> {
     const slug = kids[0].link;
     const b4url = `https://b4sportonline.pl/${slug}/`;
     const status: Signup["status"] = active.length ? "open" : ends.length && ends[ends.length - 1] >= today ? "open" : "closed";
-    const name = (block?.name || kids.map((c) => c.name).sort((a, b) => a.length - b.length)[0]).replace(/\s+\d{1,3}\s*(km)?$/i, "").replace(/\s+20\d{2}$/, "").trim();
+    // nazwa imprezy: blok HTML kalendarza, a gdy go nie ma, tytuł strony imprezy (nazwy dzieci to dystanse typu "Ultramaraton - ULTRA 55km", nie nazwa biegu)
+    const name = (block?.name || (await pageTitle(slug)) || slug.replace(/_/g, " ")).replace(/\s+\d{1,3}\s*(km)?$/i, "").replace(/\s+20\d{2}$/, "").trim();
     const rawCity = (kids.find((c) => c.city)?.city || "").trim();
     const city = rawCity.toLowerCase().replace(/(^|[\s\-])(\p{L})/gu, (m) => m.toUpperCase());
     out.push({ parentId: pid, name, city, organizer: kids[0].organizer || "", slug, www: block?.www, dateStart: dates[0], dateEnd: dates[dates.length - 1], children: kids,

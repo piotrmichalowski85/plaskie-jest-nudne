@@ -22,7 +22,8 @@ for (const [url, e] of Object.entries(cache)) {
     gear.length ? done++ : none++;
     console.log(gear.length ? `+ ${gear.length}` : "- brak", url);
   } catch (err) {
-    console.warn("x", url, (err as Error).message.slice(0, 120));
+    const e2 = err as Error & { stderr?: string; stdout?: string; status?: number };
+    console.warn("x", url, `status=${e2.status ?? "?"}`, (e2.stderr || e2.stdout || e2.message || "").toString().replace(/\s+/g, " ").slice(0, 300));
   }
   writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 1));
 }
