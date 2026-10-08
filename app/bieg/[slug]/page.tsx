@@ -50,7 +50,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
         <p className="text-sm font-semibold text-[var(--muted)]">{fmtDate(r.dateStart, r.dateEnd)}{r.region ? ` · ${r.region}` : ""}</p>
         <h1 className="text-[3rem] sm:text-[4rem]">{r.eventName}</h1>
         {r.name !== r.eventName && <p className="mt-1 text-[var(--muted)]">{r.name}</p>}
-        <p className="mt-2 flex flex-wrap gap-1.5"><span className="chip">{surfaceLabel[r.surface]}</span>{r.vertical && <span className="chip">vertical</span>}{r.category && <span className="chip">Liga Biegów Górskich {r.category.split(" ")[0]}</span>}<SignupChip race={r} long /></p>
+        <p className="mt-2 flex flex-wrap gap-1.5"><span className="chip">{surfaceLabel[r.surface]}</span>{r.vertical && <span className="chip">vertical</span>}<SignupChip race={r} long /></p>
       </header>
 
       <div className="mt-6 grid gap-6 md:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] items-start">

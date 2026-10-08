@@ -77,4 +77,5 @@ input.bigtime::placeholder { color: #b9b3a3; }
 .toc:hover { color: var(--moss); }
 .entry { padding: 1.6rem 0; border-top: 1px solid var(--line); scroll-margin-top: 5.5rem; }
 .entry:first-child { border-top: 0; padding-top: 0; }
+.grid > .entry { border-top: 1px solid var(--line); padding-top: 1.4rem; }
 .noscroll { scrollbar-width: none; } .noscroll::-webkit-scrollbar { display: none; }

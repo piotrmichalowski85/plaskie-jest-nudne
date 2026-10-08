@@ -1,0 +1,26 @@
+=== 2026-10-08 14:20:01
+regulaminy found this run: 0, with regulamin total: 56, with gear: 13
+zapisy (nadchodzące): open 20, closed 4, unknown 60, z datą 22
+total 240, upcoming 50, with D+ 49
+x https://time-sport.pl/zapisy-20-09-2026-iv-wilczy-ped-na-trojmorski-wierch/ Command failed: claude -p --model haiku --output-format text Poniżej tekst regulaminu biegu górskiego lub trailowego. Wy
+x https://itmbw.pl/magurka-trail/ Command failed: claude -p --model haiku --output-format text Poniżej tekst regulaminu biegu górskiego lub trailowego. Wy
+x https://bieggorski.pl Command failed: claude -p --model haiku --output-format text Poniżej tekst regulaminu biegu górskiego lub trailowego. Wy
+x https://boreckatrail.pl Command failed: claude -p --model haiku --output-format text Poniżej tekst regulaminu biegu górskiego lub trailowego. Wy
+x https://beskidzkiegronie.pl Command failed: claude -p --model haiku --output-format text Poniżej tekst regulaminu biegu górskiego lub trailowego. Wy
+x https://utm.run/pl/winter-trail-malopolska Command failed: claude -p --model haiku --output-format text Poniżej tekst regulaminu biegu górskiego lub trailowego. Wy
+x https://xrun.pl/muszyna-trail-2026/ Command failed: claude -p --model haiku --output-format text Poniżej tekst regulaminu biegu górskiego lub trailowego. Wy
+x https://ultrawysoczyzna.pl Command failed: claude -p --model haiku --output-format text Poniżej tekst regulaminu biegu górskiego lub trailowego. Wy
+x https://b4sportonline.pl/formoza_challenge/ Command failed: claude -p --model haiku --output-format text Poniżej tekst regulaminu biegu górskiego lub trailowego. Wy
+x https://b4sportonline.pl/biegniemyzmaja/ Command failed: claude -p --model haiku --output-format text Poniżej tekst regulaminu biegu górskiego lub trailowego. Wy
+x https://kalendarzbiegowy.pl/biegi/garmin-ultra-race-gdansk-2026/ Command failed: claude -p --model haiku --output-format text Poniżej tekst regulaminu biegu górskiego lub trailowego. Wy
+x https://kalendarzbiegowy.pl/biegi/coconaut-pomerania-ultra-trail/ Command failed: claude -p --model haiku --output-format text Poniżej tekst regulaminu biegu górskiego lub trailowego. Wy
+x https://kalendarzbiegowy.pl/biegi/ii-korczynski-polmaraton-gorski-xi-korczynski-bieg-i-nordic-walking-do-przadek/ Command failed: claude -p --model haiku --output-format text Poniżej tekst regulaminu biegu górskiego lub trailowego. Wy
+x https://kalendarzbiegowy.pl/biegi/jeziorka-ultra-river-jur-2026/ Command failed: claude -p --model haiku --output-format text Poniżej tekst regulaminu biegu górskiego lub trailowego. Wy
+x https://kalendarzbiegowy.pl/biegi/goraj-morena-trail-2/ Command failed: claude -p --model haiku --output-format text Poniżej tekst regulaminu biegu górskiego lub trailowego. Wy
+x https://kalendarzbiegowy.pl/biegi/gorlicki-bieg-gorski-2/ Command failed: claude -p --model haiku --output-format text Poniżej tekst regulaminu biegu górskiego lub trailowego. Wy
+x https://kalendarzbiegowy.pl/biegi/ultramaraton-annogorski/ Command failed: claude -p --model haiku --output-format text Poniżej tekst regulaminu biegu górskiego lub trailowego. Wy
+x http://maratonswietokrzyski.pl/ Command failed: claude -p --model haiku --output-format text Poniżej tekst regulaminu biegu górskiego lub trailowego. Wy
+x https://kalendarzbiegowy.pl/biegi/meble-wojcik-ultra-wysoczyzna-2027/ Command failed: claude -p --model haiku --output-format text Poniżej tekst regulaminu biegu górskiego lub trailowego. Wy
+gear: 0 z listą, 0 bez sprzętu obowiązkowego
+total 240, upcoming 50, with D+ 49
+fatal: could not read Username for 'https://github.com': Device not configured
