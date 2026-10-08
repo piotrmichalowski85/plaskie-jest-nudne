@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T07:35:40.489Z",
+ "generatedAt": "2026-10-08T12:24:09.974Z",
  "count": 240,
  "races": [
   {
@@ -8467,7 +8467,7 @@
    "beginnerWhy": "najkrótszy dystans 11 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Łemko Trail 10 - 19.10.2025: Łemko Trail 10 - 19.10.2025, Łemkowyna Trail 100 - 17-19.10.2025, Łemko Trail 30 - 18.10.2025, Łemkowyna Trail 70 - 18.10.2025, Łemkowyna Trail 150 17-19.10.2025, Łemko Trail 18 - 19.10.2025",
+   "name": "Łemko Trail 30 - 18.10.2025: Łemkowyna Trail 100 - 17-19.10.2025, Łemko Trail 30 - 18.10.2025, Łemkowyna Trail 70 - 18.10.2025, Łemkowyna Trail 150 17-19.10.2025, Łemko Trail 10 - 19.10.2025, Łemko Trail 18 - 19.10.2025",
    "eventName": "Łemkowyna Ultra-Trail",
    "dateStart": "2026-10-16",
    "dateEnd": "2026-10-18",
@@ -8562,12 +8562,12 @@
     }
    ],
    "signupOpen": true,
-   "participants": 1455,
+   "participants": 1457,
    "signup": {
     "status": "open",
     "until": "2026-10-07",
     "limit": 2700,
-    "registered": 1455,
+    "registered": 1457,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/LemkowynaUltraTrail/",
     "checkedAt": "2026-10-08"
@@ -8746,7 +8746,7 @@
    "beginnerWhy": "najkrótszy dystans 13 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
-   "name": "#SFB2026 | Don Jon: #SFB2025 | Czarny Rycerz, #SFB2026 | Czarny Rycerz, #SFB2026 | Mroczny Śpiewak, #SFB2026 | Stara Jodła, #SFB2026 | Ostoja Nietoperza, #SFB2026 | Don Jon",
+   "name": "#SFB2026 | Don Jon: #SFB2026 | Czarny Rycerz, #SFB2026 | Don Jon, #SFB2025 | Czarny Rycerz, #SFB2026 | Mroczny Śpiewak, #SFB2026 | Stara Jodła, #SFB2026 | Ostoja Nietoperza",
    "eventName": "Sowiogórski Festiwal Biegowy",
    "dateStart": "2026-10-24",
    "dateEnd": "2026-10-24",
@@ -10134,12 +10134,12 @@
     }
    ],
    "signupOpen": true,
-   "participants": 241,
+   "participants": 244,
    "signup": {
     "status": "open",
     "until": "2027-01-14",
     "limit": 450,
-    "registered": 241,
+    "registered": 244,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/Zimowy_Polmaraton_Gor_Stolowych/",
     "checkedAt": "2026-10-08"
@@ -10287,7 +10287,7 @@
    "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Turbacz Winter Trail: Turbacz Winter Trail - AK-47 (48km), Turbacz Winter Trail - Zimna Połówka (22km), Turbacz Winter Trail - TWT na 6 Łap (22km), Turbacz Winter Trail - Mizuno Nocna zaDycha (12km), Turbacz Winter Trail - Turbaczowe Love - bieg dla par (6km), Turbacz Winter Trail - Turbaczowe Love - bieg dla singli (6km)",
+   "name": "Turbacz Winter Trail: Turbacz Winter Trail - AK-47 (48km), Turbacz Winter Trail - Turbaczowe Love - bieg dla par (6km), Turbacz Winter Trail - Turbaczowe Love - bieg dla singli (6km), Turbacz Winter Trail - Zimna Połówka (22km), Turbacz Winter Trail - TWT na 6 Łap (22km), Turbacz Winter Trail - Mizuno Nocna zaDycha (12km)",
    "eventName": "Turbacz Winter Trail",
    "dateStart": "2027-02-13",
    "dateEnd": "2027-02-14",
@@ -10325,13 +10325,13 @@
     "status": "open",
     "until": "2027-02-08",
     "limit": 550,
-    "registered": 28,
+    "registered": 34,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/turbacz_trail/",
     "checkedAt": "2026-10-08"
    },
    "signupOpen": true,
-   "participants": 28,
+   "participants": 34,
    "id": "turbacz-winter-trail-2027-02-13",
    "surface": "przelaj",
    "minKm": 6.3,
