@@ -42,3 +42,4 @@ next-env.d.ts
 
 # lokalny cache tekstów regulaminów (nie publikujemy cudzych tekstów)
 data/.regulaminy_text/
+data/.weekly_gear.log
