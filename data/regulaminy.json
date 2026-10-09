@@ -4231,5 +4231,199 @@
   },
   "gearSource": "llm",
   "gearAt": "2026-10-08T14:20:19.362Z"
+ },
+ "https://ultra-way.pl/letni-festiwal-biegowy-ultra-way/": {
+  "regulaminUrl": "http://ultra-way.pl/letni-festiwal-biegowy-ultra-way/regulamin/",
+  "distances": [
+   {
+    "km": 5.4
+   },
+   {
+    "km": 10.1
+   },
+   {
+    "km": 27.7
+   },
+   {
+    "km": 50.5,
+    "dplus": 1663
+   },
+   {
+    "km": 60.6,
+    "dplus": 1870
+   },
+   {
+    "km": 103.6,
+    "dplus": 3064
+   }
+  ],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-10-09T08:13:27.311Z",
+  "visited": 2,
+  "signupPage": {
+   "text": "Skip to contentInfoO nasBaza noclegowaHistoria i legendyPartnerzy bieguSponsorzyPatronat medialnyPatronaty honoroweWolontariatStatut fundacjiAktualnościFestiwale BiegoweGDYNIA ULTRA WAY – SUMMER RACERegulaminTrasyZapisyLista startowaWyniki202620252024202320222021Do pobraniaGDYNIA ULTRA WAY – WINTER RACERegulaminTrasyZapisyLista startowaWyniki20262025202420232022Do pobraniaGaleriaTrenowanieKontaktPolityka Prywatności – RODOStandardy Ochrony MałoletnichInfoO nasBaza noclegowaHistoria i legendyPartnerzy bieguSponsorzyPatronat medialnyPatronaty honoroweWolontariatStatut fundacjiAktualnościFestiwale BiegoweGDYNIA ULTRA WAY – SUMMER RACERegulaminTrasyZapisyLista startowaWyniki202620252024202320222021Do pobraniaGDYNIA ULTRA WAY – WINTER RACERegulaminTrasyZapisyLista startowaWyniki20262025202420232022Do pobraniaGaleriaTrenowanieKontaktPolityka Prywatności – RODOStandardy Ochrony MałoletnichFestiwal Biegowy GDYNIA ULTRA WAY SUMMER RACEOdbędzie się w Gdyni w dniach 25 - 26.06.2027 roku na sześciu dystansach:TRAIL SPRINT 5 kmITRA:-Górskie:4 PKTUTMB:-Dystans:5,49 km,Przewyższenia:+/- 193 mDzień:26.06.2027 r.Start:14:30Miejsce:GDYNIATrasaZapisz sięNADMORSKI MENDEL 10 kmITRA:-Górskie:4 PKTUTMB:-Dystans:10,16 km,Przewyższenia:+/- 365 m,Dzień:26.06.2027 r.Start:14:00Miejsce:GDYNIATrasaZapisz sięSŁONECZNE POPOŁUDNIE 27 KM+ITRA:1 PKTGórskie:4 PKTUTMB:QUALIFIER 20KDystans:27,7 km,Przewyższenia:+/- 1067 m,Dzień:26.06.2027 r.Start:12:00Miejsce:GDYNIATrasaZapisz sięKLIFY O PORANKU 50 KM+ITRA:2 PKTGórskie:3 PKTUTMB:QUALIFIER 50KDystans:50,57 km,Przewyższenia:+1663 m / -1634 m,Dzień:26.06.2027 r.Start:6:00Miejsce:GDYNIATrasaZapisz sięRAZEM PO ZMROKU 60 km+ITRA:3 PKTGórskie:3 PKTUTMB:QUALIFIER 50KDystans:60,6 km,Przewyższenia:+1870 m / -2029 m,Dzień:26.06.2027 r.Start:00:00Miejsce:GDYNIATrasaZapisz sięW BLASKU KSIĘŻYCA 100 km+ITRA:4 PKTGórskie:3 PKTUTMB:QUALIFIER 100KDystans:103,65 km,Przewyższenia:+3064 m / -3035 m,Dzień:25.06.2027 r.Start:21:00Miejsce:GDYNIATrasaZapisz sięDodatkowe informacjeTrasyRegulaminZapisyDo pobraniaKomunikat StartowyWynikiAktualnościWszystkie wpisy GDYNIA ULTRA WAY SUMMER RACE 2027. RUSZAMY Z ZAPISAMI! 22-08-2026 Wchodzimy w erę Rysia! 03-07-2026 Wyniki 26-06-2026 Weź udział w Festiwalu Biegowym GDYNIA ULTRA WAYSprawdź trasy festiwalu!Trasy festiwaluZapisz się na biegGDYNIA ULTRA WAY – SUMMER RACERegulaminGDYNIA ULTRA WAY – WINTER RACERegulaminSzybki kontakt506 708 704kontakt@ultra-way.plCopyrights ULTRA WAY 2026Ta strona korzysta z plików cookies w celu zapewnienia prawidłowego działania, personalizacji treści oraz analizy ruchu.Korzystając z niej, wyrażasz zgodę na ich użycie zgodnie z Polityką prywatności RODO ",
+   "at": "2026-10-09T08:13:30.947Z"
+  },
+  "trasa": {
+   "found": [
+    {
+     "km": 50,
+     "dplus": 1663
+    },
+    {
+     "km": 60,
+     "dplus": 1870
+    },
+    {
+     "km": 60.6,
+     "dplus": 1870
+    },
+    {
+     "km": 100,
+     "dplus": 3064
+    }
+   ],
+   "years": [
+    2027,
+    2029
+   ],
+   "checkedAt": "2026-10-09T08:14:47.084Z",
+   "url": "https://ultra-way.pl/festiwal/letni-festiwal-biegowy-ultra-way/",
+   "gpx": []
+  }
+ },
+ "https://sisxyz.pl/nasze-biegi/ultra-zadek/": {
+  "regulaminUrl": "https://sisxyz.pl/wp-content/uploads/2026/07/REGULAMIN_ZADEK_v1.2027.pdf",
+  "distances": [
+   {
+    "km": 100
+   }
+  ],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-10-09T08:13:27.742Z",
+  "visited": 2,
+  "signupPage": {
+   "text": " Przejdź do treści home o nas aKKtywności STRASZNIE FAJNA 5 ULTRA ZADEK festiwal OBIEG 12H BURSZTYNOWA MILA DDKK festiwal biegowy DDKK szutrowe GRUBA DYCHA&5 aktualności galeria GRUBA DYCHA&5 BURSZTYNOWA MILA DDKK FESTIWAL BIEGOWY ULTRA ZADEK festiwal STRASZNIE FAJNA 5 INNE kontakt i wsparcie wolontariat GRUBA DYCHA&5 BURSZTYNOWA MILA ULTRA ZADEK festiwal DDKK FESTIWAL BIEGOWY STRASZNIE FAJNA 5 kalendarz kalendarz kalendarz kalendarz home o nas aKKtywności STRASZNIE FAJNA 5 ULTRA ZADEK festiwal OBIEG 12H BURSZTYNOWA MILA DDKK festiwal biegowy DDKK szutrowe GRUBA DYCHA&5 aktualności galeria GRUBA DYCHA&5 BURSZTYNOWA MILA DDKK FESTIWAL BIEGOWY ULTRA ZADEK festiwal STRASZNIE FAJNA 5 INNE kontakt i wsparcie wolontariat GRUBA DYCHA&5 BURSZTYNOWA MILA ULTRA ZADEK festiwal DDKK FESTIWAL BIEGOWY STRASZNIE FAJNA 5 ULTRA ZADEK ruszyliśmy z zapisami na 2027... znowu będzie zuchwale... 6.03.2027 000 Dni 00 Godzin 00 Minut 00 Sekund DOŁĄCZ DO EKIPY - zostań wolontariuszem GRUPA wsparcia_GRUPA ultrasów REGULAMIN UZFB 2027 WAŻNE INFORMACJE PRZEDSTARTOWE pobierz GPX100km tropem łosia pobierz GPX70km dziki orła cień pobierz GPX50km śladem wilka pobierz GPX30km ZADEK zajęczy PARTNERZY społeczni UZFB 2027 PARTNERZY UZFB 2027 patronat medialny uzfb 2027 biegi & organizacje partnerskie uzfb 2027 Fabryka aktywności XYZ Ultra ZadekBursztynowa MilaDzień Dobry Festiwal Biegowy Fabryka Aktywności Kędzierzyn-Koźle Copyright © 2026 Fabryka Aktywności XYZ | Przewijanie do góry ",
+   "at": "2026-10-09T08:13:31.095Z"
+  },
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-10-09T08:14:47.084Z",
+   "gpx": []
+  }
+ },
+ "https://3xkopa.pl/": {
+  "regulaminUrl": "https://3xkopa.pl/regulamin/",
+  "distances": [
+   {
+    "km": 3.7
+   },
+   {
+    "km": 10
+   },
+   {
+    "km": 20
+   },
+   {
+    "km": 42
+   },
+   {
+    "km": 63
+   },
+   {
+    "km": 100
+   }
+  ],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-10-09T08:13:27.747Z",
+  "visited": 2,
+  "signupPage": {
+   "text": " Przejdź do treści Regulamin Trasy Trasy Vertical Głucha Dyszka Dwudziestka Karlika Maraton Opawski Ultramaraton Górski 3xKopa Petrovicka Setka Treningi na poszczególnych pętlach Zapisy Vouchery Pakiet rozszerzony Formularze Formularze Samodzielna edycja danych Zmiana dystansu Zmiana uczestnika biegu Pełnomocnictwo do odbioru pakietu startowego Zgoda Rodzica/Opiekuna Rezygnacja z udziału w biegu Plan sytuacyjny Baza noclegowa O nas Powrót Fb Istagram YouTube Weź udział w Festiwalu Biegów Górskich 3xKOPA na jednym z sześciu dystansów 3.5, 10, 20, 42, 63 lub 100 km 23-25 kwietnia 2027 terminy treningów JEDNOSTKI SAMORZĄDU TERYTORIALNEGO PARTNERZY STRATEGICZNI PATRONATY PARTNERZY PARTNERZY TECHNICZNI BIEGI PARTNERSKIE 3 x KOPA, ",
+   "at": "2026-10-09T08:13:31.219Z"
+  },
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-10-09T08:14:47.084Z",
+   "gpx": []
+  }
+ },
+ "http://jedlina.pro-run.pl/": {
+  "regulaminUrl": "http://jedlina.pro-run.pl/regulamin-zimowy-polmaraton/",
+  "distances": [
+   {
+    "km": 23.5
+   }
+  ],
+  "limits": [],
+  "gear": [],
+  "fetchedAt": "2026-10-09T08:13:26.973Z",
+  "visited": 2,
+  "signupPage": {
+   "text": " Przejdź do treści Menu Informacje Zapisy Festiwal 2026 Zapisy zima Lista startowa Regulamin Zimowy Półmaraton Regulamin Festiwal 2025 Koszulka Festiwalu Trasa Wyniki Parking Koszulka Zima Noclegi Foto News Kontakt Biegaj | wypoczywaj | Półmaraton w jedlinie Zapraszamy 7 lutego na 6. Zimowy Półmaraton i Dychę oraz 9 maja 2027 na 6. Festiwal Górski Półmaraton Jedlina-Zdrój (10 km, 23,5 km oraz 51 km) Start i meta Hotel Jedlinka. Zapisy Festiwal 09.05.2027 Zapisy Zima 07.02.2027 najważniejsze Informacje SPONSORZY I PARTNERZY Trasa Atrakcyjna i mocno urozmaicona trasa. Poznaj jej przebieg. Parking Poznaj najbardziej dogodne miejsca parkingowe. Noclegi Przyjedź wypoczywaj w Jedlinie. Poznaj naszą bazę noclegową. Informacje Poznaj najważniejsze informacje organizacyjne. PATRONAT News ORGANIZATORZY News 5. Festiwal Górski Jedlina-Zdrój – 10 maja 2026 Już 10 maja 2026 roku zapraszamy na 5. edycję Festiwalu Górskiego Jedlina-Zdrój – wydarzenia, które na stałe wpisało się w kalendarz biegów górskich na Dolnym Śląsku. Jubileuszowa edycja przynosi istotne … News Zapraszamy na siódmą edycję biegu Siódma edycja Półmaratonu Górskiego Jedlina-Zdrój to ta sama sprawdzona impreza z dodatkowymi atrakcjami, które znacząco uatrakcyjnią całe wydarzenie. Bieg odbędzie się 17 maja ze startem o godzinie 10:00. Zacznijmy jednak … Więcej Masz pytania? Napisz DOŁĄCZ DO NAS Razem stwórzmy to piękne wydarzenie sportowe. Z chęcią usłyszymy Twoja opinię i uwagi. Dzięki temu bieg będzie realizowany wspólnie z uczestnikami. Kontakt Jedlina-Zdrój zawody@pro-run.pl Bądźmy w kontakcie Prawa autorskie © 2026 Półmaraton Górski w Jedlinie-Zdrój – OnePress motyw wg FameThemes ",
+   "at": "2026-10-09T08:13:30.962Z"
+  },
+  "trasa": {
+   "found": [],
+   "years": [],
+   "checkedAt": "2026-10-09T08:14:47.084Z",
+   "gpx": []
+  }
+ },
+ "https://www.ultraturnicki.pl": {
+  "regulaminUrl": "https://www.ultraturnicki.pl/_files/ugd/883a2a_022e1d7fd8b5466e8866635383e749f7.pdf",
+  "distances": [
+   {
+    "km": 36
+   }
+  ],
+  "limits": [
+   {
+    "km": 22,
+    "limitH": 7
+   }
+  ],
+  "gear": [],
+  "fetchedAt": "2026-10-09T08:13:30.643Z",
+  "visited": 4,
+  "signupPage": {
+   "text": " top of pageBIEG ZIMOWYBIEG ZIMOWY INFOZAPISY ZIMASKOK NA ŻYTNE 15 KMPRZEPRAWA PRZEZ OBYCZ 36 KMREGULAMIN 16 STYCZNIABIEG LETNIBIEG LETNI INFOZAPISY LATORYBOTYCKIE SPLOTY 10 KMSUCHY OBYCZ 24 KMPOŁONINY TRAIL 48 KMPOMOCNA WODA 75 KMREGULAMIN 19 CZERWCAOBOZYINFORMACJELOKALIZACJANOCLEGIREKORDY TRASOGLĄDAJ FILMYSTO POWODÓWGALERIEWYNIKIKONTAKTKONTAKTWSPIERAJMoreUse tab to navigate through the menu items. HUWNIKI - POGÓRZE PRZEMYSKIE BIEG ZIMOWY 16 stycznia 2027 ZAPISYZimowe Zawody na trasach 15 i 36 kilometrów, połączone z gorącą kawą i potężnym afterem w Huwnikach.Zobacz WięcejBIEG LETNI 19 czerwca 2027 ZAPISYLetnie Zawody Biegowe na trasie 10, 24, 48 i 75 km. Odbywają się w czasie Letniego Przesilenia, w towarzystwie niesamowitego festiwalu Wianki w Turnickim.Zobacz WięcejPOMOCNA WODA75 KMZOBACZ TRASĘPOŁONINY TRAIL48 KM​ZOBACZ TRASĘSUCHY OBYCZ24 KMZOBACZ TRASĘRYBOTYCKIE SPLOTY10 KMZOBACZ TRASĘPRZEPRAWA PRZEZ OBYCZ BIEG ZIMOWY36 KM​ZOBACZ TRASĘSKOK NA ŻYTNE BIEG ZIMOWY15 KM​ZOBACZ TRASĘPobiegnij tam, gdzie świat zwalnia!Ultra Turnicki oferuje wyjątkowe doświadczenie biegowe. Nasz bieg to przygoda dla biegaczy-odkrywców, którzy mają dość zdeptanych szlaków w zatłoczonych pasmach górskich. A połączenie biegu z festiwalem kulturowym, pełnym ciekawych warsztatów, tworzy dodatkowy wzbogacający wymiar imprezy. Dziękujemy za III Letnią Edycję 20 czerwca 2026!ZAPISY BIEG ZIMOWY ZOBACZ GALERIE FOTO HUWNIKI POGÓRZE PRZEMYSKIEStrefa Startu zlokalizowana jest w Huwnikach, niecałe 30 km od Przemyśla. Z większości kierunków Polski prowadzą do nas autostrady oraz kolej. Możecie liczyć również na PKS z Przemyśla. Rozkład jazdy lokalnego przewoźnika znajdziecie Tutaj! ​GDZIE PRZYJECHAĆLOGISTYKA BAZA NOCLEGOWAW okolicy znajdziecie sporo gospodarstw, gdzie można przenocować - ceny są bardzo atrakcyjne. W niektórych obiektach otrzymacie specjalne zniżki. W sezonie letnim możecie też skorzystać z możliwości rozbicia namiotu. Szukając noclegu skorzystajcie z poniższych wskazówek. BAZA NOCLEGOWA FESTIWAL WIANKI W TURNICKIMWszystkich startujących w biegu letnim zachęcamy do aktywnego wzięcia udziału w Festiwalu. Program wydarzenia jest pełny warsztatów i wycieczek - mogą z nich skorzystać Wasi bliscy. Udział w kluczowej ceremonii letniego przesilenia, czyli Wiankach, to niezapomniane przeżycie. ZOBACZ FESTIWALLOKALIZACJADowiedz się więcej o lokalizacji biegu oraz szczególnej wartości turystycznej i historii miejsca, gdzie jest organizowany.DLACZEGO WARTOPoznaj listę powodów, dla których warto odwiedzić Pogórze Przemyskie i Góry Sanocko-Turczańskie - użyj jej jako planu zwiedzania. PARTNERZYBIEG OBJĘTY HONOROWYM PATRONATEM STAROSTWA PRZEMYSKIEGOPATRONAT MEDIALNYPARTNERZY KOMERCYJNIOŚRODKI PARTNERSKIEBIEGI PARTNERSKIEWIANKIBieg Letni odbywa się w najdłuższy dzień roku, równocześnie z Festiwalem Wianki w Turnickim. Strefa Startu i Festiwal zlokalizowane są nad brzegiem rzeki. Dzień wypełniają interesujące warsztaty, z których mogą skorzystać Wasi bliscy, a najkrótszą noc roku rozpoczynamy koncertem. Rytuał Wianków jest silnym doświadczeniem, dla którego warto zostać po biegu. STREFA METY i RELAKSUULTRA TURNICKIZIMOWYTURNICKISOCIALESUBSKRYBCJARYBOTYCKIE SPLOTY 10SUCHY OBYCZ 24POŁONINY TRAIL 48POMOCNA WODA 75SKOK NA ŻYTNE 15PRZEPRAWA PRZEZ OBYCZ 36GALERIEFILMYLOKALIZACJAFACEBOOKNOCLEGIINSTAGRAMTURYSTYKAREKORDY TRASPOWIADOMIENIA O NADCHODZĄCYCH BIEGACH I OBOZACHSUBSKRYBUJBędziemy pisać!©2026 by Tusiebiega. Powered and secured by Wixbottom of page ",
+   "at": "2026-10-09T08:13:31.216Z"
+  },
+  "trasa": {
+   "found": [
+    {
+     "km": 10,
+     "dplus": 262
+    },
+    {
+     "km": 15,
+     "dplus": 408
+    },
+    {
+     "km": 24,
+     "dplus": 518
+    },
+    {
+     "km": 36,
+     "dplus": 1000
+    }
+   ],
+   "years": [
+    2027,
+    2026
+   ],
+   "checkedAt": "2026-10-09T08:14:47.213Z",
+   "url": "https://www.ultraturnicki.pl/skok-na-zytne-15-km",
+   "gpx": [
+    "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_f9c51c6545aa44cc809c493c248eba7f.gpx?dn=SKOK%20NA%20%C5%BBYTNE%2015%20KM.gpx",
+    "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_08b1fbd6849c4777bf5e9b94fdc66a21.gpx?dn=ULTRA%20TURNICKI%2010%20KM%202026.gpx",
+    "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_8db1bd631c4b48108381e9287d00872a.gpx?dn=ULTRA%20TURNICKI%2024%20KM%202026.gpx"
+   ]
+  }
  }
 }

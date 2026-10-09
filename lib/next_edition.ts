@@ -91,8 +91,9 @@ export async function nextEditions(raws: Raw[], limit = Number(process.env.NEXT_
     if (!e?.found || e.found.start < today || e.prev !== r.dateStart) continue;
     // ta sama data i miejscowość już w przyszłych rekordach = to termin innej imprezy tego organizatora (np. festiwal), nie tej
     if (future.some((f) => f.dateStart === e.found!.start && ck(f) === ck(r))) continue;
+    const ev = r.eventName.replace(/^(\d{1,2}\.|[IVXL]{1,5}\.?)\s+(?=\p{L})/u, "").trim(); // "5. Festiwal..." / "XII Zimowy..." - numer edycji należy do poprzedniego roku
     added.push({
-      name: r.eventName, eventName: r.eventName, dateStart: e.found.start, dateEnd: e.found.end, city: cleanCity(r.city), region: r.region, url: r.url,
+      name: ev, eventName: ev, dateStart: e.found.start, dateEnd: e.found.end, city: cleanCity(r.city), region: r.region, url: r.url,
       distancesKm: r.distancesKm, elevations: r.elevations.map((x) => ({ km: x.km, dplus: x.dplus, dplusSource: x.dplusSource, dplusSourceUrl: x.dplusSourceUrl, dplusStale: x.dplus ? true : undefined, note: x.note })),
       vertical: r.vertical, surface: r.surface, sources: [{ name: "strona organizatora (termin kolejnej edycji)", url: r.url! }],
       provisional: "termin ze strony organizatora, dystanse z poprzedniej edycji",

@@ -144,6 +144,7 @@ export function dedupKey(r: Pick<Race, "eventName" | "dateStart" | "city">): str
 export function cleanCity(place: string): string {
   const ov = (cityOverrides as Record<string, string>)[place.trim()];
   if (ov) return ov;
+  place = place.replace(/\bPOLSKA\b/gi, "").replace(/\s*\/\s*.+$/, "").replace(/\s+/g, " ").trim(); // "Jedlina-Zdrój POLSKA", "Pokrzywna/ Głuchołazy"
   const street = (x: string) => x.replace(/^(ul\.|ulica|al\.|aleja|os\.)\s+.*?\d+[a-z]?\s+/i, "").trim(); // "ul. Fałata 222 Bystra" -> "Bystra"
   const parts = place.split(/,|\s[–-]\s/).map((x) => street(x.trim())).filter(Boolean);
   const venue = /\b(ul\.|ulica|plac|hala|galeria|stadion|zalew|rynek|park|schronisko|osir|mosir|boisko|parking|centrum|szkoła|szkola|al\.|aleja|hotel|resort|muzeum|jana pawła|pawła ii|marszałka|mickiewicza|piłsudskiego)\b|\d/i;
