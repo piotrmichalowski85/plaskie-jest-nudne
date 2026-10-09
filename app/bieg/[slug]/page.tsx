@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { allRaces, raceById, today } from "@/lib/data";
-import { fmtDate, fmtKm, scoreLabel, surfaceLabel, level, levelLabel } from "@/lib/format";
+import { fmtDate, fmtKm, scoreLabel, surfaceLabel, level, levelLabel, outLink } from "@/lib/format";
 import { isVertical, distanceLevel } from "@/lib/normalize";
 import { geoFor } from "@/lib/geo";
 import { Score, SignupChip } from "@/components/RaceCard";
@@ -126,8 +126,8 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
           {g || mapTrack ? <RaceMap lat={g?.lat ?? mapTrack!.coords[0][1]} lng={g?.lng ?? mapTrack!.coords[0][0]} label={`${r.eventName}, ${r.city}`} track={mapTrack?.coords} /> : <div className="card text-sm text-[var(--muted)]">Mapa: brak współrzędnych dla "{r.city}".</div>}
           {mapTrack && mapTrackEl && <p className="text-xs text-[var(--muted)]">Na mapie: ślad GPX dystansu {fmtKm(mapTrackEl.km)}{mapTrackEl.dplusStale ? " (plik z poprzedniej edycji)" : ""}.</p>}
           <div className="grid gap-2">
-            {r.url && <a className="btn justify-center" href={r.url} target="_blank" rel="noopener"><IconExternal />Strona organizatora i zapisy</a>}
-            {r.regulaminUrl && <a className="btn btn-ghost justify-center" href={r.regulaminUrl} target="_blank" rel="noopener"><IconDoc />Regulamin{/\.pdf/i.test(r.regulaminUrl) ? " (PDF)" : ""}</a>}
+            {r.url && <a className="btn justify-center" href={outLink(r.url, "strona-biegu")} target="_blank" rel="noopener"><IconExternal />Strona organizatora i zapisy</a>}
+            {r.regulaminUrl && <a className="btn btn-ghost justify-center" href={outLink(r.regulaminUrl, "regulamin")} target="_blank" rel="noopener"><IconDoc />Regulamin{/\.pdf/i.test(r.regulaminUrl) ? " (PDF)" : ""}</a>}
             <a className="btn btn-ghost justify-center" href={`/ics/${r.id}`}><IconCalendar />Dodaj do kalendarza</a>
             <ShareButton title={r.eventName} />
           </div>

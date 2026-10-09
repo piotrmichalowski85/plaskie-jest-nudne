@@ -28,3 +28,15 @@ export function untilLabel(start: string, end: string, today: string): string {
   if (d <= 60) return `za ${d} dni`;
   return "";
 }
+
+/** Link wychodzący do organizatora z UTM, żeby w swoich statystykach widział ruch z plaskiejestnudne.pl (tylko http(s), bez PDF, bez podwójnego UTM). */
+export function outLink(url: string, content?: string): string {
+  try {
+    const u = new URL(url);
+    if (!/^https?:$/.test(u.protocol) || /\.pdf(\?|$)/i.test(u.pathname) || [...u.searchParams.keys()].some((k) => k.startsWith("utm_"))) return url;
+    u.searchParams.set("utm_source", "plaskiejestnudne.pl");
+    u.searchParams.set("utm_medium", "referral");
+    if (content) u.searchParams.set("utm_content", content);
+    return u.toString();
+  } catch { return url; }
+}
