@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-09T08:14:57.098Z",
- "count": 245,
+ "generatedAt": "2026-10-09T08:45:28.614Z",
+ "count": 246,
  "races": [
   {
    "name": "Meble Wójcik Ultra Wysoczyzna 2025",
@@ -2400,29 +2400,85 @@
    ],
    "elevations": [
     {
-     "km": 10
+     "km": 10,
+     "dplus": 557,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/fa4925849089-barantrailrace10.gpx",
+     "gpx": "039dff8d7c81",
+     "dplusCheckedAt": "2026-10-09"
     },
     {
-     "km": 25
+     "km": 25,
+     "dplus": 1235,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/4b4aaa605098-barantrailrace25.gpx",
+     "gpx": "c4ef4bc38861",
+     "dplusCheckedAt": "2026-10-09",
+     "limitH": 5
     },
     {
-     "km": 60
+     "km": 60,
+     "dplus": 2397,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/4fe4278dd59f-barantrailrace60.gpx",
+     "gpx": "e171fc730de8",
+     "dplusCheckedAt": "2026-10-09"
     }
    ],
    "vertical": false,
    "category": "Kat.I",
+   "url": "https://baranrace.pl/",
    "sources": [
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://baranrace.pl/"
+    },
+    {
+     "name": "GPX",
+     "url": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/fa4925849089-barantrailrace10.gpx"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/assets/BTR_regulamin_2027_03.pdf"
     }
    ],
+   "spark": [
+    0,
+    0.01,
+    0.12,
+    0.18,
+    0.25,
+    0.33,
+    0.42,
+    0.52,
+    0.72,
+    0.86,
+    0.97,
+    0.93,
+    0.81,
+    0.78,
+    0.7,
+    0.43,
+    0.39,
+    0.31,
+    0.17,
+    0.15,
+    0.17,
+    0.09,
+    0.01,
+    0
+   ],
+   "regulaminUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/assets/BTR_regulamin_2027_03.pdf",
    "id": "baran-trail-race-winter-edition-2026-03-13",
    "surface": "trail",
    "minKm": 10,
    "maxKm": 60,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+   "beginnerWhy": "najkrótszy dystans 10 km; średnio stromo: ok. 56 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "WIOSENNY ULTRA ŚWIR",
@@ -5004,6 +5060,7 @@
    ],
    "vertical": false,
    "category": "kat.I",
+   "url": "https://www.maratongorstolowych.pl/",
    "sources": [
     {
      "name": "biegigorskie.pl",
@@ -10604,6 +10661,107 @@
    "maxKm": 23.2,
    "beginnerScore": 5,
    "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+  },
+  {
+   "name": "Baran Trail Race Winter Edition",
+   "eventName": "Baran Trail Race Winter Edition",
+   "dateStart": "2027-03-13",
+   "dateEnd": "2027-03-13",
+   "city": "Węgierska Górka",
+   "region": "Beskid Żywiecki",
+   "distancesKm": [
+    10,
+    25,
+    60,
+    100
+   ],
+   "elevations": [
+    {
+     "km": 10,
+     "gpx": "039dff8d7c81",
+     "dplus": 557,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/fa4925849089-barantrailrace10.gpx",
+     "dplusCheckedAt": "2026-10-09"
+    },
+    {
+     "km": 25,
+     "dplus": 1235,
+     "limitH": 5,
+     "gpx": "c4ef4bc38861",
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/4b4aaa605098-barantrailrace25.gpx",
+     "dplusCheckedAt": "2026-10-09"
+    },
+    {
+     "km": 60,
+     "gpx": "e171fc730de8",
+     "dplus": 2397,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/4fe4278dd59f-barantrailrace60.gpx",
+     "dplusCheckedAt": "2026-10-09"
+    },
+    {
+     "km": 100
+    }
+   ],
+   "vertical": false,
+   "url": "https://baranrace.pl/",
+   "sources": [
+    {
+     "name": "strona organizatora",
+     "url": "https://baranrace.pl/"
+    },
+    {
+     "name": "GPX",
+     "url": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/fa4925849089-barantrailrace10.gpx"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/assets/BTR_regulamin_2027_03.pdf"
+    }
+   ],
+   "spark": [
+    0,
+    0.01,
+    0.12,
+    0.18,
+    0.25,
+    0.33,
+    0.42,
+    0.52,
+    0.72,
+    0.86,
+    0.97,
+    0.93,
+    0.81,
+    0.78,
+    0.7,
+    0.43,
+    0.39,
+    0.31,
+    0.17,
+    0.15,
+    0.17,
+    0.09,
+    0.01,
+    0
+   ],
+   "regulaminUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/assets/BTR_regulamin_2027_03.pdf",
+   "signup": {
+    "status": "open",
+    "until": "2027-03-06",
+    "limit": 150,
+    "source": "regulamin",
+    "sourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/assets/BTR_regulamin_2027_03.pdf",
+    "checkedAt": "2026-10-09"
+   },
+   "id": "baran-trail-race-winter-edition-2027-03-13",
+   "surface": "trail",
+   "minKm": 10,
+   "maxKm": 100,
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 10 km; średnio stromo: ok. 56 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Ultra Świr: WIOSENNY ULTRA ŚWIR - 6H, MARSZ NORDIC WALKING RODZIC + DZIECKO, WIOSENNY ULTRA ŚWIR - 12 h",

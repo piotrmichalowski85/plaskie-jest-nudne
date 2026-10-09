@@ -58,6 +58,9 @@ export async function nextEditions(raws: Raw[], limit = Number(process.env.NEXT_
   const cache: Record<string, Entry> = existsSync(CACHE) ? JSON.parse(readFileSync(CACHE, "utf8")) : {};
   const w1 = (r: Raw) => eventCore(r.eventName).split("-")[0] || "";
   const ck = (r: Raw) => slugify(r.city).split("-")[0];
+  // kalendarze (biegigorskie) nie zawsze dają link: uzupełniamy adres organizatora z data/organizer_urls.json
+  const urlMap: Record<string, string> = existsSync("data/organizer_urls.json") ? JSON.parse(readFileSync("data/organizer_urls.json", "utf8")) : {};
+  for (const r of raws) if (!r.url && urlMap[slugify(r.eventName)]) r.url = urlMap[slugify(r.eventName)];
   const future = raws.filter((r) => r.dateEnd >= today);
   const hasFuture = (r: Raw) => future.some((f) => w1(f) === w1(r) && w1(r).length >= 4 && (ck(f) === ck(r) || eventCore(f.eventName) === eventCore(r.eventName)));
   // najnowsza odbyta edycja per impreza (klucz: rdzeń nazwy + miasto), tylko z własną stroną organizatora
