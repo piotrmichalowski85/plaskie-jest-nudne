@@ -26,7 +26,7 @@ export function PosterCard({ race, today }: { race: Race; today: string }) {
         <span className="meta">
           <span className={`lvl lvl-${lvl}`}><span className="dot" />{scoreLabel(race.beginnerScore)}</span>
           {dist && <span className="chip">{dist}</span>}
-          <SignupChip race={race} />
+          {race.provisional ? <span className="chip chip-sun" title={race.provisional}>termin wstępny</span> : <SignupChip race={race} />}
         </span>
       </span>
     </Link>

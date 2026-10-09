@@ -50,7 +50,8 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
         <p className="text-sm font-semibold text-[var(--muted)]">{fmtDate(r.dateStart, r.dateEnd)}{r.region ? ` · ${r.region}` : ""}</p>
         <h1 className="text-[3rem] sm:text-[4rem]">{r.eventName}</h1>
         {r.name !== r.eventName && <p className="mt-1 text-[var(--muted)]">{r.name}</p>}
-        <p className="mt-2 flex flex-wrap gap-1.5"><span className="chip">{surfaceLabel[r.surface]}</span>{r.vertical && <span className="chip">vertical</span>}<SignupChip race={r} long /></p>
+        <p className="mt-2 flex flex-wrap gap-1.5"><span className="chip">{surfaceLabel[r.surface]}</span>{r.vertical && <span className="chip">vertical</span>}{r.provisional ? <span className="chip" style={{ background: "var(--sun)", color: "#3b2a00" }}>termin wstępny</span> : <SignupChip race={r} long />}</p>
+        {r.provisional && <p className="mt-2 text-sm text-[var(--muted)]">Termin odczytany ze strony organizatora, jeszcze niepotwierdzony w kalendarzach. Dystanse i przewyższenia pochodzą z poprzedniej edycji, a zapisów pewnie jeszcze nie ma. Sprawdź u organizatora.</p>}
       </header>
 
       <div className="mt-6 grid gap-6 md:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] items-start">

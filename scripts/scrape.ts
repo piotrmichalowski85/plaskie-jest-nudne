@@ -12,6 +12,7 @@ import { extractSignup, mergeSignup, type Signup } from "../lib/zapisy";
 import { b4Events } from "../lib/adapters/b4sport";
 import { ezStatus } from "../lib/adapters/ez";
 import { kbEvents } from "../lib/adapters/kb";
+import { nextEditions } from "../lib/next_edition";
 import overrides from "../data/overrides.json";
 import { existsSync, readFileSync, mkdirSync } from "node:fs";
 import { createHash } from "node:crypto";
@@ -388,6 +389,7 @@ function mergeRaw(a: Raw, b: Raw): Raw {
     region: a.region || b.region, city: a.city || b.city, url: a.url || b.url, category: a.category || b.category,
     signupOpen: a.signupOpen || b.signupOpen, participants: a.participants ?? b.participants, signup: pickSignup(a.signup, b.signup),
     regulaminUrl: a.regulaminUrl || b.regulaminUrl, gear: a.gear || b.gear,
+    provisional: a.provisional && b.provisional ? a.provisional : undefined,
     sources: [...a.sources, ...b.sources.filter((s) => !a.sources.some((p) => p.name === s.name))],
   };
 }
@@ -439,6 +441,9 @@ async function main() {
     if (r.status === "fulfilled") { console.log(`source ${i}: ${r.value.length} rows`); raws.push(...r.value); }
     else console.warn(`source ${i} failed: ${(r.reason as Error).message}`);
   });
+  const ne = await nextEditions(raws);
+  console.log(`kolejne edycje: sprawdzone strony ${ne.checked}, wstępne rekordy ${ne.added.length}`);
+  raws.push(...ne.added);
   const hits = await enrich(raws);
   console.log(`enriched from organizer pages: ${hits}`);
   const tr = await trasy(raws);

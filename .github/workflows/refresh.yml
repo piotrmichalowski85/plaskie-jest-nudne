@@ -20,6 +20,6 @@ jobs:
         run: |
           git config user.name "plaskie-bot"
           git config user.email "bot@plaskiejestnudne.pl"
-          git add data/races.json
+          git add data/races.json data/next_edition.json
           git diff --cached --quiet || git commit -m "data: odświeżenie kalendarza $(date -u +%F)"
           git push

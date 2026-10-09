@@ -34,6 +34,7 @@ export type Race = {
   signup?: Signup; // status zapisów: open / closed / unknown + termin, limit, liczba zapisanych
   signupOpen?: boolean;
   participants?: number;
+  provisional?: string; // rekord wstępny: termin kolejnej edycji ze strony organizatora, dystanse skopiowane z poprzedniej (do potwierdzenia przez kalendarze)
 };
 
 export type Dataset = { generatedAt: string; count: number; races: Race[] };
