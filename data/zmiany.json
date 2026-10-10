@@ -1,0 +1,57 @@
+[
+ {
+  "date": "2026-10-10",
+  "label": "ręczne odświeżenie 9-10.10",
+  "total": 246,
+  "upcoming": 56,
+  "added": [
+   {
+    "id": "ultra-zadek-festiwal-biegowy-2027-03-06",
+    "eventName": "Ultra ZADEK Festiwal Biegowy",
+    "dateStart": "2027-03-06",
+    "city": "Kędzierzyn-Koźle",
+    "provisional": true
+   },
+   {
+    "id": "baran-trail-race-winter-edition-2027-03-13",
+    "eventName": "Baran Trail Race Winter Edition",
+    "dateStart": "2027-03-13",
+    "city": "Węgierska Górka"
+   },
+   {
+    "id": "festiwal-biegow-gorskich-3xkopa-2027-04-23",
+    "eventName": "Festiwal Biegów Górskich 3xKopa",
+    "dateStart": "2027-04-23",
+    "city": "Pokrzywna",
+    "provisional": true
+   },
+   {
+    "id": "festiwal-gorski-polmaraton-jedlina-zdroj-2027-05-09",
+    "eventName": "Festiwal Górski Półmaraton Jedlina-Zdrój",
+    "dateStart": "2027-05-09",
+    "city": "Jedlina-Zdrój",
+    "provisional": true
+   },
+   {
+    "id": "ultra-turnicki-2027-06-19",
+    "eventName": "ULTRA TURNICKI",
+    "dateStart": "2027-06-19",
+    "city": "Huwniki",
+    "provisional": true
+   },
+   {
+    "id": "gdynia-ultra-way-summer-race-2027-06-25",
+    "eventName": "GDYNIA ULTRA WAY SUMMER RACE",
+    "dateStart": "2027-06-25",
+    "city": "Gdynia",
+    "provisional": true
+   }
+  ],
+  "removed": [],
+  "dateChanged": [],
+  "signupChanged": [],
+  "gearAdded": [],
+  "dplusAdded": [],
+  "regulaminAdded": []
+ }
+]

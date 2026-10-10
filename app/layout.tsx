@@ -37,7 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="border-t border-[var(--line)] text-sm text-[var(--muted)]">
           <div className="mx-auto max-w-6xl px-4 py-6 flex flex-col sm:flex-row gap-2 justify-between">
             <span>Płaskie jest nudne: wejdź w trail, zacznij od podbiegu. Serwis niekomercyjny.</span>
-            <span className="flex gap-3"><Link href="/o-serwisie" className="underline">O serwisie</Link><Link href="/prywatnosc" className="underline">Prywatność</Link><Link href="/slownik" className="underline md:hidden">Słownik</Link></span>
+            <span className="flex gap-3"><Link href="/zmiany" className="underline">Co nowego</Link><Link href="/o-serwisie" className="underline">O serwisie</Link><Link href="/prywatnosc" className="underline">Prywatność</Link><Link href="/slownik" className="underline md:hidden">Słownik</Link></span>
           </div>
         </footer>
         <Analytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
