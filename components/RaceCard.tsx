@@ -12,7 +12,7 @@ export function SignupChip({ race, long = false }: { race: Race; long?: boolean 
   const s = race.signup;
   const d = (iso: string) => `${Number(iso.slice(8, 10))}.${iso.slice(5, 7)}`;
   if (!s || s.status === "unknown") return <span className="chip !bg-transparent !text-[var(--muted)] border border-dashed border-[#cfd6cd]" title="Nie znaleźliśmy informacji o zapisach. Sprawdź u organizatora.">zapisy: brak danych</span>;
-  if (s.status === "closed") return <span className="chip !bg-[#ececec] !text-[#6b6b6b]" title={s.until ? `Termin zapisów minął ${d(s.until)}` : "Organizator zamknął zapisy"}>zapisy zamknięte</span>;
+  if (s.status === "closed") return <span className="chip !bg-[#ececec] !text-[#555]" title={s.until ? `Termin zapisów minął ${d(s.until)}` : "Organizator zamknął zapisy"}>zapisy zamknięte</span>;
   return <span className="chip chip-sun" title={s.until ? `Ostatni dzień zapisów: ${d(s.until)}` : "Zapisy otwarte"}>{s.until ? `zapisy do ${d(s.until)}` : "zapisy otwarte"}{long && s.registered ? `, ${s.registered} os.` : ""}</span>;
 }
 

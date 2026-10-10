@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { allRaces, generatedAt, today } from "@/lib/data";
 import { allHubs, hubPath } from "@/lib/hubs";
+import { TERMS } from "@/lib/slownik";
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://plaskiejestnudne.pl";
   return [
@@ -11,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/slownik`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${base}/o-serwisie`, changeFrequency: "yearly", priority: 0.3 },
     { url: `${base}/prywatnosc`, changeFrequency: "yearly", priority: 0.1 },
+    ...TERMS.map((t) => ({ url: `${base}/slownik/${t.slug}`, changeFrequency: "monthly" as const, priority: 0.6 })),
     ...allHubs().map((h) => ({ url: `${base}${hubPath(h)}`, lastModified: generatedAt, changeFrequency: "weekly" as const, priority: 0.8 })),
     ...allRaces.map((r) => r.dateEnd >= today()
       ? { url: `${base}/bieg/${r.id}`, lastModified: generatedAt, changeFrequency: "weekly" as const, priority: 0.7 }

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import type { Race } from "@/lib/types";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { allRaces, raceById, today } from "@/lib/data";
@@ -24,12 +25,37 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return { title: raceTitle(r), description: raceDescription(r, today()), alternates: { canonical: `/bieg/${r.id}` }, openGraph: { type: "website", title: `${r.eventName} ${year(r)}`, description: raceDescription(r, today()) } };
 }
 
-function similar(id: string, region: string, kms: number[], date: string) {
-  const t = new Date(date).getTime();
+/** podobne biegi: ten sam region (3 pkt), zbliżony termin do 45 dni (2), podobny dystans (1), ten sam teren (1), ta sama ocena dla początkujących (1); do 6 */
+function similar(r: Race) {
+  const t = new Date(r.dateStart).getTime();
   return allRaces
-    .filter((x) => x.id !== id && x.dateEnd >= today() && Math.abs(new Date(x.dateStart).getTime() - t) < 60 * 86400000)
-    .map((x) => ({ x, s: (region && x.region === region ? 2 : 0) + (x.distancesKm.some((a) => kms.some((b) => Math.abs(a - b) <= Math.max(3, b * 0.2))) ? 1 : 0) }))
-    .filter((y) => y.s > 0).sort((a, b) => b.s - a.s).slice(0, 3).map((y) => y.x);
+    .filter((x) => x.id !== r.id && x.dateEnd >= today())
+    .map((x) => {
+      const why: string[] = [];
+      let s = 0;
+      if (r.region && x.region === r.region) { s += 3; why.push(r.region); }
+      const days = Math.abs(new Date(x.dateStart).getTime() - t) / 86400000;
+      if (days <= 45) { s += 2; why.push("podobny termin"); }
+      if (x.distancesKm.some((a) => r.distancesKm.some((b) => Math.abs(a - b) <= Math.max(3, b * 0.2)))) { s += 1; why.push("podobny dystans"); }
+      if (x.surface === r.surface) { s += 1; }
+      if (level(x.beginnerScore) === level(r.beginnerScore)) { s += 1; }
+      return { x, s, why, days };
+    })
+    .filter((y) => y.s >= 3 && y.why.length).sort((a, b) => b.s - a.s || a.days - b.days).slice(0, 6);
+}
+
+/** FAQ generowane z danych biegu (tylko pytania, na które mamy odpowiedź) */
+function raceFaq(r: Race, past: boolean): [string, string][] {
+  const q: [string, string][] = [];
+  const y = r.dateStart.slice(0, 4);
+  q.push([`Kiedy ${past ? "odbył się" : "odbywa się"} ${r.eventName} ${y}?`, `${fmtDate(r.dateStart, r.dateEnd)}, ${r.city}${r.region ? `, ${r.region}` : ""}.${past ? " Ta edycja już się odbyła." : ""}`]);
+  if (r.distancesKm.length) q.push([`Jakie dystanse ma ${r.eventName}?`, `${r.distancesKm.map(fmtKm).join(", ")}.${r.elevations.some((e) => e.dplus) ? ` Przewyższenie: ${r.elevations.filter((e) => e.dplus).map((e) => `${fmtKm(e.km)} +${e.dplus} m`).join(", ")}.` : ""}`]);
+  const lim = r.elevations.filter((e) => e.limitH);
+  if (lim.length) q.push([`Jaki jest limit czasu na ${r.eventName}?`, `${lim.map((e) => `${fmtKm(e.km)}: ${e.limitH} h`).join(", ")} (wg regulaminu; limity pośrednie na punktach mogą być ostrzejsze).`]);
+  if (!past && r.signup && r.signup.status !== "unknown") q.push([`Czy zapisy na ${r.eventName} ${y} są otwarte?`, r.signup.status === "open" ? `Tak, zapisy są otwarte${r.signup.until ? ` do ${r.signup.until.split("-").reverse().join(".")}` : ""}${r.signup.limit ? `, limit ${r.signup.limit} miejsc` : ""}${r.signup.registered ? `, zapisanych ${r.signup.registered}` : ""}.` : "Nie, według naszych danych zapisy są zamknięte (termin minął albo limit wyczerpany)."]);
+  q.push([`Czy ${r.eventName} nadaje się na pierwszy bieg górski?`, `${scoreLabel(r.beginnerScore).replace(/^./, (c) => c.toUpperCase())}. ${r.beginnerWhy}`]);
+  if (r.gear?.length) q.push([`Jaki sprzęt obowiązkowy jest na ${r.eventName}?`, `Według regulaminu: ${r.gear.join(", ")}. Przed startem sprawdź aktualny regulamin.`]);
+  return q;
 }
 
 export default async function RacePage({ params }: { params: Promise<{ slug: string }> }) {
@@ -41,7 +67,9 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
   const nextEd = past ? nextEditionOf(r, allRaces) : undefined;
   const prevEd = prevEditionOf(r, allRaces);
   const hubs = hubsForRace(r);
-  const sim = similar(r.id, r.region, r.distancesKm, r.dateStart);
+  const faq = raceFaq(r, past);
+  const faqLd = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) };
+  const sim = similar(r);
   const withGpx = r.elevations.filter((e) => e.gpx);
   const mapTrackEl = withGpx.length ? withGpx[withGpx.length - 1] : undefined; // najdłuższy ślad na mapie
   const mapTrack = mapTrackEl ? loadTrack(mapTrackEl.gpx!) : null;
@@ -49,7 +77,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
   const lvlDot: Record<string, string> = { good: "lvl-good", ok: "lvl-ok", bad: "lvl-bad" };
   return (
     <article>
-      {ld.map((x, i) => <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(x) }} />)}
+      {[...ld, faqLd].map((x, i) => <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(x) }} />)}
       <Link href="/biegi" className="text-sm font-semibold text-[var(--moss)]">← kalendarz</Link>
       <RegionArt region={r.region} surface={r.surface} className="mt-3 w-full h-28 sm:h-36 rounded-2xl border border-[#e3e7e1]" />
       <header className="mt-4">
@@ -116,13 +144,18 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
             </ul>
           </section>
 
+          <section>
+            <h2 className="text-[1.8rem] mb-2">Najczęstsze pytania</h2>
+            <dl className="card space-y-3 text-sm">{faq.map(([q, a]) => <div key={q}><dt className="font-semibold">{q}</dt><dd className="text-[var(--muted)] mt-0.5">{a}</dd></div>)}</dl>
+          </section>
+
           {sim.length > 0 && (
             <section>
-              <h2 className="text-[1.8rem] mb-2">Podobne biegi w zbliżonym terminie</h2>
-              <ul className="card divide-y divide-[#e3e7e1] p-0">{sim.map((x) => (
+              <h2 className="text-[1.8rem] mb-2">Podobne biegi</h2>
+              <ul className="card divide-y divide-[#e3e7e1] p-0">{sim.map(({ x, why }) => (
                 <li key={x.id}><Link href={`/bieg/${x.id}`} className="flex items-center gap-4 px-4 py-3 hover:bg-[#f2f5f1]">
                   <span className="w-24 shrink-0 text-xs font-semibold text-[var(--muted)]">{fmtDate(x.dateStart, x.dateEnd)}</span>
-                  <span className="min-w-0 flex-1"><span className="block font-semibold truncate">{x.eventName}</span><span className="block text-xs text-[var(--muted)] truncate">{x.city}{x.region ? `, ${x.region}` : ""} · {x.distancesKm.length > 3 ? `${fmtKm(x.minKm)} - ${fmtKm(x.maxKm)}` : x.distancesKm.map(fmtKm).join(" / ")}</span></span>
+                  <span className="min-w-0 flex-1"><span className="block font-semibold truncate">{x.eventName}</span><span className="block text-xs text-[var(--muted)] truncate">{x.city} · {x.distancesKm.length > 3 ? `${fmtKm(x.minKm)} - ${fmtKm(x.maxKm)}` : x.distancesKm.map(fmtKm).join(" / ")} · {why.join(", ")}</span></span>
                   <span className="shrink-0"><Score s={x.beginnerScore} /></span>
                 </Link></li>
               ))}</ul>

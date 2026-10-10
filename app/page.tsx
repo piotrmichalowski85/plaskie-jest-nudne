@@ -17,8 +17,8 @@ export default function Home() {
         <div className="md:pb-3">
           <p className="text-[1.05rem] leading-relaxed text-[#3d4d34] max-w-[30rem]">Po płaskim biegasz na czas. W górach biegasz na widok. Zamiast asfaltu masz korzenie, błoto i ścieżkę, która co chwilę zmienia kierunek. Tempo przestaje mieć znaczenie, liczy się to, że jesteś wyżej niż wczoraj. Na podbiegu wolno iść, na szczycie wolno stanąć, na zbiegu wolno się bać, na punktach wolno jeść. A meta w górach smakuje inaczej niż każda inna.</p>
           <div className="mt-5 flex flex-wrap gap-3">
-            <Link href="/kreator" className="btn">Wybierz swój pierwszy bieg</Link>
-            <Link href="/biegi" className="btn btn-ghost">{up.length} biegów w kalendarzu</Link>
+            <Link href="/kreator" prefetch={false} className="btn">Wybierz swój pierwszy bieg</Link>
+            <Link href="/biegi" prefetch={false} className="btn btn-ghost">{up.length} biegów w kalendarzu</Link>
           </div>
         </div>
       </section>
@@ -26,6 +26,7 @@ export default function Home() {
       <Ticker races={up} today={t} />
 
       <section>
+        <h2 className="sr-only">Najbliższe biegi</h2>
         <div className="flex flex-wrap gap-2 mb-4">
           <Link href="/biegi" className="qchip on">Wszystkie</Link>
           <Link href="/biegi/dla-poczatkujacych" className="qchip">Dobry na start</Link>
@@ -38,13 +39,13 @@ export default function Home() {
       </section>
 
       {forStart.length > 0 && (
-        <section>
+        <section className="cv-auto">
           <div className="flex items-end justify-between mb-3"><h2 className="text-[2.2rem]">Dobre na pierwszy start</h2><Link href="/biegi/dla-poczatkujacych" className="text-sm font-bold text-[var(--moss)]">więcej →</Link></div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{forStart.map((r) => <PosterCard key={r.id} race={r} today={t} />)}</div>
         </section>
       )}
 
-      <section>
+      <section className="cv-auto">
         <div className="flex items-end justify-between mb-3"><h2 className="text-[2.2rem]">Narzędzia na pierwszy start</h2></div>
         <div className="grid gap-4 md:grid-cols-3">
           <Link href="/kreator" className="card block hover:border-[var(--moss)]"><h3 className="text-[1.7rem]">Pierwszy niepłaski bieg</h3><p className="mt-1 text-sm text-[var(--muted)]">Pięć pytań i trzy biegi na Twój staż.</p></Link>
