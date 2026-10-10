@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-export const metadata: Metadata = { title: "Polityka prywatności" };
+export const metadata: Metadata = { title: "Polityka prywatności", description: "Jakie dane zbiera plaskiejestnudne.pl (prawie żadne), jak działają statystyki i jak się z nami skontaktować.", alternates: { canonical: "/prywatnosc" } };
 export default function Prywatnosc() {
   return (
     <article className="max-w-2xl space-y-4 text-sm leading-relaxed">

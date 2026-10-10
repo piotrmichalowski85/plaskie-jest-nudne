@@ -1,6 +1,5 @@
 "use client";
-import { useMemo, useState } from "react";
-import { useSearchParams } from "next/navigation";
+import { useEffect, useMemo, useState } from "react";
 import type { Race } from "@/lib/types";
 import { PosterCard } from "./PosterCard";
 import { RacesMap, type RaceWithGeo } from "./RacesMap";
@@ -16,17 +15,26 @@ const DIST = [
 ];
 
 export function RaceList({ races, regions, today }: { races: RaceWithGeo[]; regions: string[]; today: string }) {
-  const sp = useSearchParams();
   const [q, setQ] = useState("");
   const [region, setRegion] = useState("");
   const [from, setFrom] = useState("");
   const [to, setTo] = useState("");
-  const [dist, setDist] = useState(sp.get("dist") && DIST.some((d) => d.id === sp.get("dist")) ? (sp.get("dist") as string) : "all");
+  const [dist, setDist] = useState("all");
   const [surface, setSurface] = useState("");
-  const [start, setStart] = useState(sp.get("start") === "1");
+  const [start, setStart] = useState(false);
   const [past, setPast] = useState(false);
-  const [hideClosed, setHideClosed] = useState(sp.get("open") === "1");
-  const [view, setView] = useState<"lista" | "mapa">(sp.get("view") === "mapa" ? "mapa" : "lista");
+  const [hideClosed, setHideClosed] = useState(false);
+  const [view, setView] = useState<"lista" | "mapa">("lista");
+  // filtry z adresu (?start=1&dist=s&open=1&view=mapa&pasmo=...) dopiero po zamontowaniu: serwer renderuje pełną listę z linkami (SEO), przeglądarka zawęża
+  useEffect(() => {
+    const sp = new URLSearchParams(window.location.search);
+    const d = sp.get("dist"); if (d && DIST.some((x) => x.id === d)) setDist(d);
+    if (sp.get("start") === "1") setStart(true);
+    if (sp.get("open") === "1") setHideClosed(true);
+    if (sp.get("view") === "mapa") setView("mapa");
+    const p = sp.get("pasmo"); if (p && regions.includes(p)) setRegion(p);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   const weekend = (() => { const d = new Date(today + "T12:00:00"); const dow = d.getDay(); const sat = new Date(d); sat.setDate(d.getDate() + ((6 - dow + 7) % 7)); const sun = new Date(sat); sun.setDate(sat.getDate() + 1); return [sat.toISOString().slice(0, 10), sun.toISOString().slice(0, 10)]; })();
   const monthEnd = (() => { const d = new Date(today + "T12:00:00"); return new Date(d.getFullYear(), d.getMonth() + 1, 0).toISOString().slice(0, 10); })();
   const [me, setMe] = useState<[number, number] | null>(null);
@@ -65,8 +73,8 @@ export function RaceList({ races, regions, today }: { races: RaceWithGeo[]; regi
       <div className="card grid gap-3 sm:grid-cols-3 lg:grid-cols-7 mb-6">
         <div className="sm:col-span-3 lg:col-span-2 flex flex-col gap-1"><label>Szukaj</label><input type="text" placeholder="nazwa, miasto, pasmo" value={q} onChange={(e) => setQ(e.target.value)} /></div>
         <div className="flex flex-col gap-1"><label>Pasmo</label><select value={region} onChange={(e) => setRegion(e.target.value)}><option value="">wszystkie</option>{regions.map((r) => <option key={r}>{r}</option>)}</select></div>
-        <div className="flex flex-col gap-1"><label>Od</label><input type="date" value={from} min={past ? undefined : today} onChange={(e) => setFrom(e.target.value)} /></div>
-        <div className="flex flex-col gap-1"><label>Do</label><input type="date" value={to} min={from || undefined} onChange={(e) => setTo(e.target.value)} /></div>
+        <div className="flex flex-col gap-1"><label htmlFor="f-od">Od</label><input id="f-od" type="date" value={from} min={past ? undefined : today} onChange={(e) => setFrom(e.target.value)} /></div>
+        <div className="flex flex-col gap-1"><label htmlFor="f-do">Do</label><input id="f-do" type="date" value={to} min={from || undefined} onChange={(e) => setTo(e.target.value)} /></div>
         <div className="flex flex-col gap-1"><label>Dystans</label><select value={dist} onChange={(e) => setDist(e.target.value)}>{DIST.map((d) => <option key={d.id} value={d.id}>{d.label}</option>)}</select></div>
         <div className="flex flex-col gap-1"><label>Teren</label><select value={surface} onChange={(e) => setSurface(e.target.value)}><option value="">każdy</option><option value="gorski">górski</option><option value="trail">trail</option><option value="przelaj">przełaj</option></select></div>
         <div className="sm:col-span-3 lg:col-span-7 flex flex-wrap gap-4 text-sm items-center">
@@ -76,9 +84,9 @@ export function RaceList({ races, regions, today }: { races: RaceWithGeo[]; regi
           <span className="ml-auto text-[var(--muted)]">{list.length} biegów</span>
         </div>
       </div>
-      {view === "mapa" ? <RacesMap races={list} center={me ?? undefined} /> : list.length === 0 ? <p className="text-[var(--muted)]">Nic nie pasuje. Poluzuj filtry albo zajrzyj do kreatora.</p> : (
+      <div className="min-h-[60vh]">{view === "mapa" ? <RacesMap races={list} center={me ?? undefined} /> : list.length === 0 ? <p className="text-[var(--muted)]">Nic nie pasuje. Poluzuj filtry albo zajrzyj do kreatora.</p> : (
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{list.map((r) => <PosterCard key={r.id} race={r} today={today} />)}</div>
-      )}
+      )}</div>
     </div>
   );
 }

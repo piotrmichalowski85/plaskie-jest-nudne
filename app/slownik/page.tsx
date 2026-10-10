@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { slugify } from "@/lib/normalize";
-export const metadata: Metadata = { title: "Słownik trailowy dla początkujących", description: "D+, cutoff, ITRA, UTMB Index, Running Stones, vertical, sprzęt obowiązkowy: pojęcia z biegów górskich wyjaśnione prosto." };
+export const metadata: Metadata = { title: "Słownik trailowy dla początkujących", description: "D+, cutoff, ITRA, UTMB Index, Running Stones, vertical, sprzęt obowiązkowy: pojęcia z biegów górskich wyjaśnione prosto.", alternates: { canonical: "/slownik" } };
 
 const T: [string, string][] = [
   ["Bieg górski a trail", "Bieg górski zwykle ma wyraźny podbieg i zbieg, często jest krótszy i stromy. Trail to bieg w terenie naturalnym: po ścieżkach, lasach, łąkach, pagórkach, czasem górach. Przełaj to krótki bieg terenowy po miękkiej nawierzchni, często w mieście albo parku. Granice są płynne, w kalendarzu oznaczamy je szacunkowo."],

@@ -12,6 +12,7 @@ import { ElevationProfile } from "@/components/ElevationProfile";
 import { loadTrack } from "@/lib/gpxdata";
 import { RegionArt } from "@/components/RegionArt";
 import { IconExternal, IconDoc, IconCalendar, IconPin } from "@/components/Icons";
+import { raceTitle, raceDescription, raceJsonLd, nextEditionOf, prevEditionOf, year } from "@/lib/seo";
 
 const srcLabel: Record<string, string> = { gpx: "policzone z GPX", trasa: "wg podstrony \"Trasa\" organizatora", organizator: "wg strony organizatora", regulamin: "wg regulaminu", kalendarz: "wg kalendarza" };
 
@@ -19,7 +20,7 @@ export function generateStaticParams() { return allRaces.map((r) => ({ slug: r.i
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const r = raceById((await params).slug);
   if (!r) return {};
-  return { title: `${r.eventName}, ${fmtDate(r.dateStart, r.dateEnd)}`, description: `${r.eventName} w ${r.city}${r.region ? ` (${r.region})` : ""}: dystanse ${r.distancesKm.map(fmtKm).join(", ") || "sprawdź regulamin"}. Dla początkujących: ${scoreLabel(r.beginnerScore)}.` };
+  return { title: raceTitle(r), description: raceDescription(r, today()), alternates: { canonical: `/bieg/${r.id}` }, openGraph: { type: "website", title: `${r.eventName} ${year(r)}`, description: raceDescription(r, today()) } };
 }
 
 function similar(id: string, region: string, kms: number[], date: string) {
@@ -34,7 +35,10 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
   const r = raceById((await params).slug);
   if (!r) notFound();
   const g = geoFor(r.city);
-  const ld = { "@context": "https://schema.org", "@type": "SportsEvent", name: r.eventName, startDate: r.dateStart, endDate: r.dateEnd, location: { "@type": "Place", name: r.city, address: { "@type": "PostalAddress", addressLocality: r.city, addressCountry: "PL" }, ...(g ? { geo: { "@type": "GeoCoordinates", latitude: g.lat, longitude: g.lng } } : {}) }, url: r.url, sport: "Trail running" };
+  const ld = raceJsonLd(r, g ?? undefined, today());
+  const past = r.dateEnd < today();
+  const nextEd = past ? nextEditionOf(r, allRaces) : undefined;
+  const prevEd = prevEditionOf(r, allRaces);
   const sim = similar(r.id, r.region, r.distancesKm, r.dateStart);
   const withGpx = r.elevations.filter((e) => e.gpx);
   const mapTrackEl = withGpx.length ? withGpx[withGpx.length - 1] : undefined; // najdłuższy ślad na mapie
@@ -43,16 +47,23 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
   const lvlDot: Record<string, string> = { good: "lvl-good", ok: "lvl-ok", bad: "lvl-bad" };
   return (
     <article>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
+      {ld.map((x, i) => <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(x) }} />)}
       <Link href="/biegi" className="text-sm font-semibold text-[var(--moss)]">← kalendarz</Link>
       <RegionArt region={r.region} surface={r.surface} className="mt-3 w-full h-28 sm:h-36 rounded-2xl border border-[#e3e7e1]" />
       <header className="mt-4">
         <p className="text-sm font-semibold text-[var(--muted)]">{fmtDate(r.dateStart, r.dateEnd)}{r.region ? ` · ${r.region}` : ""}</p>
-        <h1 className="text-[3rem] sm:text-[4rem]">{r.eventName}</h1>
+        <h1 className="text-[3rem] sm:text-[4rem]">{r.eventName} <span className="text-[var(--muted)]">{year(r)}</span></h1>
         {r.name !== r.eventName && <p className="mt-1 text-[var(--muted)]">{r.name}</p>}
         <p className="mt-2 flex flex-wrap gap-1.5"><span className="chip">{surfaceLabel[r.surface]}</span>{r.vertical && <span className="chip">vertical</span>}{r.provisional ? <span className="chip" style={{ background: "var(--sun)", color: "#3b2a00" }}>termin wstępny</span> : <SignupChip race={r} long />}</p>
         {r.provisional && <p className="mt-2 text-sm text-[var(--muted)]">Termin odczytany ze strony organizatora, jeszcze niepotwierdzony w kalendarzach. Dystanse i przewyższenia pochodzą z poprzedniej edycji, a zapisów pewnie jeszcze nie ma. Sprawdź u organizatora.</p>}
       </header>
+      {past && (
+        <div className="mt-4 card border-[var(--sun)] bg-[#fff8e1] text-sm">
+          <p><strong>Ta edycja już się odbyła</strong> ({fmtDate(r.dateStart, r.dateEnd)}).{" "}
+          {nextEd ? <>Kolejna edycja: <Link className="underline font-semibold text-[var(--moss)]" href={`/bieg/${nextEd.id}`}>{nextEd.eventName} {year(nextEd)}, {fmtDate(nextEd.dateStart, nextEd.dateEnd)}</Link>.</> : <>Terminu kolejnej edycji jeszcze nie ma. Sprawdzamy stronę organizatora co dwa tygodnie i dopiszemy go tutaj; tymczasem zobacz <Link className="underline font-semibold text-[var(--moss)]" href="/biegi">nadchodzące biegi</Link>{r.region ? <> albo <Link className="underline font-semibold text-[var(--moss)]" href={`/biegi?pasmo=${encodeURIComponent(r.region)}`}>inne biegi: {r.region}</Link></> : null}.</>}</p>
+        </div>
+      )}
+      {!past && prevEd && <p className="mt-3 text-sm text-[var(--muted)]">Poprzednia edycja: <Link className="underline" href={`/bieg/${prevEd.id}`}>{prevEd.eventName} {year(prevEd)}</Link>.</p>}
 
       <div className="mt-6 grid gap-6 md:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] items-start">
         {/* szeroka kolumna: czy jadę */}

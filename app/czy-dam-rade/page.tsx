@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { allRaces, today } from "@/lib/data";
 import { CzyDamRade } from "@/components/CzyDamRade";
-export const metadata: Metadata = { title: "Czy dam radę? Szacowany czas na biegu górskim", description: "Wpisz czas z płaskiego, wybierz bieg górski albo trailowy w Polsce i zobacz szacowany czas na każdym dystansie w porównaniu z limitem." };
+export const metadata: Metadata = { title: "Czy dam radę? Szacowany czas na biegu górskim", description: "Wpisz czas z płaskiego, wybierz bieg górski albo trailowy w Polsce i zobacz szacowany czas na każdym dystansie w porównaniu z limitem.", alternates: { canonical: "/czy-dam-rade" } };
 export default async function Page({ searchParams }: { searchParams: Promise<{ bieg?: string }> }) {
   const sp = await searchParams;
   return (

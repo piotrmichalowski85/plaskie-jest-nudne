@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-export const metadata: Metadata = { title: "O serwisie" };
+export const metadata: Metadata = { title: "O serwisie", description: "Kto robi kalendarz biegów górskich dla początkujących, skąd bierzemy dane i jak liczymy ocenę 'dobry na start'.", alternates: { canonical: "/o-serwisie" } };
 
 const LEVELS: [string, string, string][] = [
   ["lvl-good", "dobry na start", "możesz przyjść z ulicy bez większego ryzyka"],

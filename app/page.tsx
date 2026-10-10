@@ -2,6 +2,8 @@ import Link from "next/link";
 import { upcomingRaces, today, allRaces } from "@/lib/data";
 import { PosterCard } from "@/components/PosterCard";
 import { Ticker } from "@/components/Ticker";
+import type { Metadata } from "next";
+export const metadata: Metadata = { alternates: { canonical: "/" } };
 
 export default function Home() {
   const t = today();
@@ -11,7 +13,7 @@ export default function Home() {
   return (
     <div className="space-y-10">
       <section className="grid gap-8 md:grid-cols-[1fr_1fr] items-end pt-2">
-        <h1 className="display text-[5.2rem] sm:text-[7rem] md:text-[8.5rem] leading-[.86] text-[var(--ink)]">Płaskie<br />jest<br /><span className="text-[var(--moss)]">nudne ;)</span></h1>
+        <h1 className="display text-[5.2rem] sm:text-[7rem] md:text-[8.5rem] leading-[.86] text-[var(--ink)]" aria-label="Płaskie jest nudne: kalendarz biegów górskich i trailowych w Polsce">Płaskie<br />jest<br /><span className="text-[var(--moss)]">nudne ;)</span></h1>
         <div className="md:pb-3">
           <p className="text-[1.05rem] leading-relaxed text-[#3d4d34] max-w-[30rem]">Po płaskim biegasz na czas. W górach biegasz na widok. Zamiast asfaltu masz korzenie, błoto i ścieżkę, która co chwilę zmienia kierunek. Tempo przestaje mieć znaczenie, liczy się to, że jesteś wyżej niż wczoraj. Na podbiegu wolno iść, na szczycie wolno stanąć, na zbiegu wolno się bać, na punktach wolno jeść. A meta w górach smakuje inaczej niż każda inna.</p>
           <div className="mt-5 flex flex-wrap gap-3">

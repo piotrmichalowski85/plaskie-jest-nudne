@@ -4,6 +4,7 @@ import { Bebas_Neue, Inter } from "next/font/google";
 import "./globals.css";
 import { Logo } from "@/components/Logo";
 import { Analytics } from "@/components/Analytics";
+import { siteJsonLd } from "@/lib/seo";
 
 const display = Bebas_Neue({ weight: "400", subsets: ["latin", "latin-ext"], variable: "--font-display" });
 const body = Inter({ subsets: ["latin", "latin-ext"], variable: "--font-body" });
@@ -19,6 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="pl" className={`${display.variable} ${body.variable}`}>
       <body className="min-h-screen flex flex-col">
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }} />
         <header className="sticky top-0 z-10 bg-[var(--bg)]/90 backdrop-blur border-b border-[var(--line)]">
           <nav className="mx-auto max-w-6xl px-4 h-16 flex items-center justify-between gap-4">
             <Link href="/" aria-label="Płaskie jest nudne, strona główna"><Logo /></Link>
