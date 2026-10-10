@@ -91,3 +91,8 @@ Dostępność (wpływa pośrednio na SEO i na realnych użytkowników): kontrast
 | 15 | Kontrola GSC ok. 7.11: indeksacja >220/253, CTR zapytań z rokiem >3%, pierwsze wyświetlenia hubów, raport Ulepszenia > Wydarzenia bez błędów | mierzymy skutek 1-9 | 20 min | 🟢 |
 
 Pozycje 1-5 to zmiany wyłącznie w szablonach (bez nowych treści) i można je zrobić w jednym podejściu. Pozycje 6-9 to nowe strony generowane z danych, które już mamy. Pozycje 11-13 wymagają Piotra (maile, posty).
+
+## 6. Status wdrożenia (10.10.2026)
+
+Zrobione i wypchnięte tego samego dnia: pozycje 1-6 (lista serwerowa: 56 linków w HTML kalendarza; tytuły "Nazwa ROK: termin, dystanse, zapisy, limit czasu"; opisy z dystansami, D+, limitem i statusem zapisów; JSON-LD SportsEvent z naszym URL, organizatorem, ofertą i podwydarzeniami + BreadcrumbList + WebSite/Organization; canonical na każdej stronie; mapa witryny z lastmod i 288 adresami; baner odbytej edycji z linkiem do kolejnej; 35 hubów: 19 pasm/regionów, 11 miesięcy, 5 zestawień, linkowane z kalendarza, głównej i stron biegów). Przy okazji: nazwy pisane wielkimi literami znormalizowane, skróty rozwinięte ("Waligóra Run Cross (WRC)"), etykiety pól dat, min-height listy (CLS).
+Zostały: 7 (szersze "podobne biegi"), 8 (strony pojęć ze słownika), 9 (FAQ na stronie biegu), 10 (wydajność), 11 (strona dla organizatorów + odznaka), 12-13 (poradniki, linki: Piotr), 14-15 (po odczycie GSC ok. 7.11).
