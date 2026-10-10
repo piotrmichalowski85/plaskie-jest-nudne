@@ -13,6 +13,7 @@ import { loadTrack } from "@/lib/gpxdata";
 import { RegionArt } from "@/components/RegionArt";
 import { IconExternal, IconDoc, IconCalendar, IconPin } from "@/components/Icons";
 import { raceTitle, raceDescription, raceJsonLd, nextEditionOf, prevEditionOf, year } from "@/lib/seo";
+import { hubsForRace, hubPath } from "@/lib/hubs";
 
 const srcLabel: Record<string, string> = { gpx: "policzone z GPX", trasa: "wg podstrony \"Trasa\" organizatora", organizator: "wg strony organizatora", regulamin: "wg regulaminu", kalendarz: "wg kalendarza" };
 
@@ -39,6 +40,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
   const past = r.dateEnd < today();
   const nextEd = past ? nextEditionOf(r, allRaces) : undefined;
   const prevEd = prevEditionOf(r, allRaces);
+  const hubs = hubsForRace(r);
   const sim = similar(r.id, r.region, r.distancesKm, r.dateStart);
   const withGpx = r.elevations.filter((e) => e.gpx);
   const mapTrackEl = withGpx.length ? withGpx[withGpx.length - 1] : undefined; // najdłuższy ślad na mapie
@@ -144,7 +146,8 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
           </div>
         </aside>
       </div>
-      <p className="mt-8 text-sm">Nie wiesz, co znaczy D+, cutoff albo sprzęt obowiązkowy? Zajrzyj do <Link href="/slownik" className="underline font-semibold text-[var(--moss)]">słownika trailowego</Link>.</p>
+      {hubs.length > 0 && <p className="mt-8 flex flex-wrap items-center gap-1.5 text-sm"><span className="text-[var(--muted)] mr-1">Zobacz też:</span>{hubs.map((h) => <Link key={hubPath(h)} href={hubPath(h)} className="qchip">{h.label}</Link>)}</p>}
+      <p className="mt-4 text-sm">Nie wiesz, co znaczy D+, cutoff albo sprzęt obowiązkowy? Zajrzyj do <Link href="/slownik" className="underline font-semibold text-[var(--moss)]">słownika trailowego</Link>.</p>
       <p className="mt-2 text-sm text-[var(--muted)]">Organizujesz ten bieg i widzisz braki albo błędy? Napisz na <a className="underline" href={`mailto:kontakt@plaskiejestnudne.pl?subject=${encodeURIComponent(`Poprawka: ${r.eventName} (${r.dateStart})`)}`}>kontakt@plaskiejestnudne.pl</a>, poprawimy przy najbliższym odświeżeniu.</p>
     </article>
   );

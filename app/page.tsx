@@ -28,10 +28,10 @@ export default function Home() {
       <section>
         <div className="flex flex-wrap gap-2 mb-4">
           <Link href="/biegi" className="qchip on">Wszystkie</Link>
-          <Link href="/biegi?start=1" className="qchip">Dobry na start</Link>
-          <Link href="/biegi?dist=s" className="qchip">Do 15 km</Link>
-          <Link href="/biegi?dist=u" className="qchip">Ultra</Link>
-          <Link href="/biegi?open=1" className="qchip">Zapisy otwarte</Link>
+          <Link href="/biegi/dla-poczatkujacych" className="qchip">Dobry na start</Link>
+          <Link href="/biegi/do-15-km" className="qchip">Do 15 km</Link>
+          <Link href="/biegi/ultra" className="qchip">Ultra</Link>
+          <Link href="/biegi/zapisy-otwarte" className="qchip">Zapisy otwarte</Link>
           <Link href="/biegi?view=mapa" className="qchip">Mapa</Link>
         </div>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{next.map((r) => <PosterCard key={r.id} race={r} today={t} />)}</div>
@@ -39,7 +39,7 @@ export default function Home() {
 
       {forStart.length > 0 && (
         <section>
-          <div className="flex items-end justify-between mb-3"><h2 className="text-[2.2rem]">Dobre na pierwszy start</h2><Link href="/biegi?start=1" className="text-sm font-bold text-[var(--moss)]">więcej →</Link></div>
+          <div className="flex items-end justify-between mb-3"><h2 className="text-[2.2rem]">Dobre na pierwszy start</h2><Link href="/biegi/dla-poczatkujacych" className="text-sm font-bold text-[var(--moss)]">więcej →</Link></div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{forStart.map((r) => <PosterCard key={r.id} race={r} today={t} />)}</div>
         </section>
       )}
