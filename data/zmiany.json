@@ -1,5 +1,62 @@
 [
  {
+  "date": "2026-10-12",
+  "label": "odświeżenie kalendarza",
+  "total": 246,
+  "upcoming": 50,
+  "added": [],
+  "removed": [],
+  "dateChanged": [],
+  "signupChanged": [
+   {
+    "id": "turbacz-trail-2026-12-06",
+    "eventName": "Turbacz Trail",
+    "from": "unknown",
+    "to": "open"
+   }
+  ],
+  "gearAdded": [],
+  "dplusAdded": [],
+  "regulaminAdded": [
+   {
+    "id": "lemkowyna-ultra-trail-2026-10-16",
+    "eventName": "Łemkowyna Ultra-Trail",
+    "dateStart": "2026-10-16",
+    "city": "Krynica-Zdrój"
+   },
+   {
+    "id": "jesienny-ultra-swir-2026-11-28",
+    "eventName": "JESIENNY ULTRA ŚWIR",
+    "dateStart": "2026-11-28",
+    "city": "Gołkowice Dolne"
+   },
+   {
+    "id": "turbacz-trail-2026-12-06",
+    "eventName": "Turbacz Trail",
+    "dateStart": "2026-12-06",
+    "city": "Nowy Targ"
+   },
+   {
+    "id": "podhalanski-bieg-mikolajkowy-2026-12-06",
+    "eventName": "Podhalański Bieg Mikołajkowy",
+    "dateStart": "2026-12-06",
+    "city": "Ostrowsko"
+   },
+   {
+    "id": "turbacz-winter-trail-2027-02-13",
+    "eventName": "Turbacz Winter Trail",
+    "dateStart": "2027-02-13",
+    "city": "Nowy Targ"
+   },
+   {
+    "id": "xiii-festiwal-biegu-rzeznika-2027-05-26",
+    "eventName": "XIII Festiwal Biegu Rzeźnika",
+    "dateStart": "2027-05-26",
+    "city": "Cisna"
+   }
+  ]
+ },
+ {
   "date": "2026-10-10",
   "label": "ręczne odświeżenie 9-10.10",
   "total": 246,
