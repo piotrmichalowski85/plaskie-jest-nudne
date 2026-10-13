@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-12T12:09:07.590Z",
+ "generatedAt": "2026-10-13T05:40:55.350Z",
  "count": 246,
  "races": [
   {
@@ -1637,6 +1637,9 @@
     }
    ],
    "regulaminUrl": "http://jedlina.pro-run.pl/regulamin-zimowy-polmaraton/",
+   "gear": [
+    "Strój sportowy"
+   ],
    "id": "5-zimowy-polmaraton-gorski-jedlina-zdroj-2026-02-01",
    "surface": "gorski",
    "minKm": 10,
@@ -1914,6 +1917,11 @@
     }
    ],
    "regulaminUrl": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-Podhalanski-Bieg-Mikolajkowy-2026.pdf",
+   "gear": [
+    "Track lub mapa dystansu (bez Rodzinnych Mikołajek)",
+    "Folia NRC min. 150x180 (bez Rodzinnych Mikołajek)",
+    "Naładowany telefon z aplikacją RATUNEK"
+   ],
    "id": "turbacz-winter-trail-2026-02-14",
    "surface": "trail",
    "minKm": 6,
@@ -2345,6 +2353,13 @@
     }
    ],
    "regulaminUrl": "https://sisxyz.pl/wp-content/uploads/2026/07/REGULAMIN_ZADEK_v1.2027.pdf",
+   "gear": [
+    "Kubek, pojemnik lub butelka do napojów",
+    "Folia NRC 140 x 200 cm",
+    "Gwizdek do sygnalizacji",
+    "Naładowany telefon z numerem alarmowym",
+    "Lampa czołowa (100 km, 70 km)"
+   ],
    "id": "ultra-zadek-festiwal-biegowy-2026-03-07",
    "surface": "przelaj",
    "minKm": 30,
@@ -2410,7 +2425,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/fa4925849089-barantrailrace10.gpx",
      "gpx": "039dff8d7c81",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     },
     {
      "km": 25,
@@ -2418,7 +2433,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/4b4aaa605098-barantrailrace25.gpx",
      "gpx": "c4ef4bc38861",
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "limitH": 5
     },
     {
@@ -2427,7 +2442,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/4fe4278dd59f-barantrailrace60.gpx",
      "gpx": "e171fc730de8",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     }
    ],
    "vertical": false,
@@ -2478,6 +2493,16 @@
     0
    ],
    "regulaminUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/assets/BTR_regulamin_2027_03.pdf",
+   "gear": [
+    "Włączony telefon z roamingiem i numerami",
+    "Folia ratunkowa",
+    "Obuwie do biegów górskich",
+    "Pojemnik lub bidon min 0,5 litra (BTR 25, BTR 60)",
+    "Kubek na napoje (BTR 25, BTR 60)",
+    "Kurtka wodoodporna (BTR 60)",
+    "Buff lub czapka (BTR 60)",
+    "Czołówka lub latarka (BTR 60)"
+   ],
    "id": "baran-trail-race-winter-edition-2026-03-13",
    "surface": "trail",
    "minKm": 10,
@@ -3218,6 +3243,16 @@
     }
    ],
    "regulaminUrl": "https://3xkopa.pl/regulamin/",
+   "gear": [
+    "Telefon z aktywnym roamingiem",
+    "Dowód osobisty lub paszport",
+    "Napój minimum 250 ml",
+    "Bidon lub kubek wielokrotnego użytku",
+    "Folia NRC",
+    "Obuwie sportowe terenu górskiego",
+    "Czołówka (ultra)",
+    "Lampka czerwona z tyłu (Petrovicka Setka)"
+   ],
    "id": "festiwal-biegow-gorskich-3xkopa-2026-04-24",
    "surface": "gorski",
    "minKm": 3.7,
@@ -3584,6 +3619,9 @@
     }
    ],
    "regulaminUrl": "http://jedlina.pro-run.pl/regulamin-zimowy-polmaraton/",
+   "gear": [
+    "Strój sportowy"
+   ],
    "id": "5-festiwal-gorski-polmaraton-jedlina-zdroj-2026-05-10",
    "surface": "gorski",
    "minKm": 10,
@@ -4097,21 +4135,21 @@
      "dplus": 582,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://www.biegrzeznika.pl/rzeznicka-piatka/",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     },
     {
      "km": 16,
      "dplus": 492,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://www.biegrzeznika.pl/rzeznicka-piatka/",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     },
     {
      "km": 28,
      "dplus": 1060,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://www.biegrzeznika.pl/rzeznicka-piatka/",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     },
     {
      "km": 52
@@ -4144,6 +4182,13 @@
     }
    ],
    "regulaminUrl": "https://www.biegrzeznika.pl/wp-content/uploads/2026/10/Bieszczadzki-Rajd-Pieszy-Edycja-Zimowa-2027.pdf",
+   "gear": [
+    "Folia NRC o wymiarach min. 150x180",
+    "Naładowany i aktywny telefon",
+    "Kubek, bidon lub pojemnik na napoje",
+    "Nakrycie głowy (czapka, chusta buff)",
+    "Minimum 500 ml napoju"
+   ],
    "id": "xii-festiwal-biegu-rzeznika-2026-06-04",
    "surface": "trail",
    "minKm": 5,
@@ -4660,7 +4705,7 @@
      "dplus": 212,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_08b1fbd6849c4777bf5e9b94fdc66a21.gpx?dn=ULTRA%20TURNICKI%2010%20KM%202026.gpx",
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "dplusStale": true,
      "gpx": "2d07e4b56fd0"
     },
@@ -4669,7 +4714,7 @@
      "dplus": 450,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_8db1bd631c4b48108381e9287d00872a.gpx?dn=ULTRA%20TURNICKI%2024%20KM%202026.gpx",
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "dplusStale": true,
      "gpx": "255f38ef48ca"
     },
@@ -4732,6 +4777,14 @@
     0
    ],
    "regulaminUrl": "https://www.ultraturnicki.pl/_files/ugd/883a2a_022e1d7fd8b5466e8866635383e749f7.pdf",
+   "gear": [
+    "Aktywny telefon (cały czas biegu)",
+    "Dowód osobisty lub paszport",
+    "Folia NRC",
+    "Bidon/softflask min (0,5 l 15km, 1 l 36km)",
+    "Track GPX w zegarku lub telefonie",
+    "Kubek wielorazowy (36 km)"
+   ],
    "id": "ultra-turnicki-2026-06-20",
    "surface": "trail",
    "minKm": 10,
@@ -4857,6 +4910,19 @@
     }
    ],
    "regulaminUrl": "http://ultra-way.pl/letni-festiwal-biegowy-ultra-way/regulamin/",
+   "gear": [
+    "Kurs trasy wgrany w urządzenie nawigacyjne",
+    "Strój dopasowany do warunków atmosferycznych",
+    "Czapka lub buff (100km)",
+    "Plecak lub pas (100km, 60km, 50km, 27km)",
+    "Telefon naładowany z numerem organizatora",
+    "Kurtka wiatrówka (100km, 60km)",
+    "Lampka czołówka z białym światłem (100km, 60km)",
+    "Folia NRC (100km, 60km, 50km, 27km)",
+    "Dowód tożsamości",
+    "Kubek lub pojemnik własny (100km, 60km, 50km, 27km)",
+    "Bidony/bukłaki minimum 1 litr (100km, 60km, 50km, 27km)"
+   ],
    "surface": "gorski",
    "id": "gdynia-ultra-way-summer-race-2026-06-26",
    "minKm": 14,
@@ -5121,6 +5187,11 @@
     }
    ],
    "regulaminUrl": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-Podhalanski-Bieg-Mikolajkowy-2026.pdf",
+   "gear": [
+    "Track lub mapa dystansu (bez Rodzinnych Mikołajek)",
+    "Folia NRC min. 150x180 (bez Rodzinnych Mikołajek)",
+    "Naładowany telefon z aplikacją RATUNEK"
+   ],
    "id": "turbacz-summer-trail-2026-07-04",
    "surface": "trail",
    "minKm": 12,
@@ -6823,7 +6894,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://utm.run/wp-content/uploads/static/SZCZEBEL_CUP.gpx",
      "gpx": "4a8589f7345e",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     }
    ],
    "vertical": false,
@@ -6955,7 +7026,7 @@
      "dplus": 487,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Pyzdra-20-km.gpx",
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "dplusStale": true,
      "gpx": "7ea021f186a9"
     },
@@ -6964,7 +7035,7 @@
      "dplus": 1204,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Kwicol-40-km.gpx",
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "dplusStale": true,
      "gpx": "e82bd411475a"
     },
@@ -6973,7 +7044,7 @@
      "dplus": 3249,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2026-Legenda-75-km.gpx",
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "gpx": "ce757376282b"
     }
    ],
@@ -7090,7 +7161,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/08/XRUN_Vistula_Trail_Start.gpx",
      "gpx": "16d6fbfd531c",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     },
     {
      "km": 15,
@@ -7098,7 +7169,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/08/XRUN_Vistula_Trail_Intro.gpx",
      "gpx": "a3c57adb8f36",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     },
     {
      "km": 24,
@@ -7106,7 +7177,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/08/XRUN_Vistula_Trail_Classic.gpx",
      "gpx": "617087805737",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     },
     {
      "km": 35
@@ -7804,7 +7875,7 @@
      "dplus": 393,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j21h.gpx",
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "gpx": "cdec575b3f4f"
     },
     {
@@ -7812,7 +7883,7 @@
      "dplus": 586,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j42h.gpx",
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "gpx": "dc7a5c91fcdd"
     },
     {
@@ -7820,7 +7891,7 @@
      "dplus": 1094,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j80h.gpx",
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "gpx": "695f72b9675c"
     },
     {
@@ -7828,7 +7899,7 @@
      "dplus": 1450,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j100h.gpx",
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "gpx": "175b992a02fa"
     }
    ],
@@ -8107,7 +8178,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/Muszyna_Start_Trail_6_km.gpx",
      "gpx": "ded571484e41",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     },
     {
      "km": 23,
@@ -8115,7 +8186,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/Muszyna_Trail_Intro_Trail.gpx",
      "gpx": "caf5083473b9",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     },
     {
      "km": 31,
@@ -8123,7 +8194,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/Muszyna_Trail_Classic_Trail.gpx",
      "gpx": "cb567dad5484",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     },
     {
      "km": 43,
@@ -8131,7 +8202,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/Muszyna_Trail_Long_Trail.gpx",
      "gpx": "49371425f97e",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     }
    ],
    "vertical": false,
@@ -8440,7 +8511,7 @@
      "dplus": 487,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Pyzdra-20-km.gpx",
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "dplusStale": true,
      "gpx": "7ea021f186a9"
     },
@@ -8603,7 +8674,7 @@
    "beginnerWhy": "najkrótszy dystans 11 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Łemkowyna Trail - zapisy: Łemko Trail 30 - 18.10.2025, Łemkowyna Trail 70 - 18.10.2025, Łemkowyna Trail 150 17-19.10.2025, Łemkowyna Trail 100 - 17-19.10.2025, Łemko Maraton 48 - 18.10.2025, Łemko Trail 10 - 19.10.2025, Łemko Trail 18 - 19.10.2025",
+   "name": "Łemkowyna Trail - zapisy: Łemkowyna Trail 100 - 17-19.10.2025, Łemko Maraton 48 - 18.10.2025, Łemko Trail 30 - 18.10.2025, Łemkowyna Trail 70 - 18.10.2025, Łemkowyna Trail 150 17-19.10.2025, Łemko Trail 18 - 19.10.2025, Łemko Trail 10 - 19.10.2025",
    "eventName": "Łemkowyna Ultra-Trail",
    "dateStart": "2026-10-16",
    "dateEnd": "2026-10-18",
@@ -8625,7 +8696,7 @@
      "limitH": 2,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://ultralemkowyna.pl/trasy",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     },
     {
      "km": 18,
@@ -8633,7 +8704,7 @@
      "limitH": 3,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://ultralemkowyna.pl/trasy",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     },
     {
      "km": 30,
@@ -8641,7 +8712,7 @@
      "limitH": 5,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://ultralemkowyna.pl/trasy",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     },
     {
      "km": 48,
@@ -8649,7 +8720,7 @@
      "limitH": 8,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://ultralemkowyna.pl/trasy",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     },
     {
      "km": 70,
@@ -8657,7 +8728,7 @@
      "limitH": 13,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://ultralemkowyna.pl/trasy",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     },
     {
      "km": 102,
@@ -8665,7 +8736,7 @@
      "limitH": 22,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://ultralemkowyna.pl/trasy",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     },
     {
      "km": 150,
@@ -8673,7 +8744,7 @@
      "limitH": 35,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://ultralemkowyna.pl/trasy",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     }
    ],
    "vertical": false,
@@ -8705,16 +8776,20 @@
     }
    ],
    "regulaminUrl": "https://ultralemkowyna.pl/images/regulaminy/26-regulamin-18-PL.pdf",
+   "gear": [
+    "Telefon komórkowy naładowany z roamingiem",
+    "Folia NRC minimum 140x200 cm"
+   ],
    "signupOpen": true,
-   "participants": 1836,
+   "participants": 1837,
    "signup": {
     "status": "open",
     "until": "2026-10-07",
     "limit": 3200,
-    "registered": 1836,
+    "registered": 1837,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/LemkowynaUltraTrail/",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "id": "lemkowyna-ultra-trail-2026-10-16",
    "surface": "trail",
@@ -8751,7 +8826,7 @@
      "dplus": 600,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://pomeraniatrail.pl/trasa/put100/",
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "limitH": 4
     },
     {
@@ -8759,7 +8834,7 @@
      "dplus": 1300,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://pomeraniatrail.pl/trasa/put100/",
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "limitH": 8.5
     },
     {
@@ -8767,7 +8842,7 @@
      "dplus": 1750,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://pomeraniatrail.pl/trasa/put100/",
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "limitH": 12
     },
     {
@@ -8775,7 +8850,7 @@
      "dplus": 2450,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://pomeraniatrail.pl/trasa/put100/",
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "limitH": 16
     }
    ],
@@ -8948,15 +9023,15 @@
     "kurtka wiatro- i wodoodporna z długim rękawem"
    ],
    "signupOpen": true,
-   "participants": 421,
+   "participants": 434,
    "signup": {
     "status": "open",
     "until": "2026-10-20",
     "limit": 1200,
-    "registered": 421,
+    "registered": 434,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/sfb2026/",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "id": "sowiogorski-festiwal-biegowy-2026-10-24",
    "surface": "gorski",
@@ -8984,14 +9059,14 @@
      "dplus": 180,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://janosikraceseries.com/roztoczeultrarace/trasy-new/",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     },
     {
      "km": 21,
      "dplus": 596,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/KDR-2026-21.gpx",
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "gpx": "3286e627d6f9"
     },
     {
@@ -9058,7 +9133,7 @@
     "until": "2026-10-06",
     "source": "regulamin",
     "sourceUrl": "https://janosikraceseries.com/roztoczeultrarace/regulamin-zawodow/",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "id": "smok-ultra-race-2026-10-24",
    "surface": "trail",
@@ -9257,7 +9332,7 @@
     "limit": 270,
     "source": "organizator",
     "sourceUrl": "https://kandahar.pl/13-jesienny-bieg-potrojnej/",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "id": "13-jesienny-bieg-potrojnej-2026-11-07",
    "surface": "gorski",
@@ -9290,14 +9365,14 @@
      "dplus": 160,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://bieggorski.pl/trasa/",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     },
     {
      "km": 24,
      "dplus": 610,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://bieggorski.pl/trasa/",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     }
    ],
    "vertical": false,
@@ -9334,7 +9409,7 @@
     "limit": 24,
     "source": "regulamin",
     "sourceUrl": "https://bieggorski.pl/regulamin/",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "id": "gorlicki-bieg-gorski-2026-11-07",
    "surface": "gorski",
@@ -9448,7 +9523,7 @@
      "dplus": 1032,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-10k.gpx",
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "dplusStale": true,
      "gpx": "2965d86bd7b0"
     },
@@ -9457,7 +9532,7 @@
      "dplus": 2160,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-24k.gpx",
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "dplusStale": true,
      "gpx": "9611334ce9c5"
     },
@@ -9466,7 +9541,7 @@
      "dplus": 4020,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-47k.gpx",
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "dplusStale": true,
      "gpx": "4a49277d707c"
     },
@@ -9475,7 +9550,7 @@
      "dplus": 5908,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-71k.gpx",
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "dplusStale": true,
      "gpx": "5457d8ac05dc"
     },
@@ -9484,7 +9559,7 @@
      "dplus": 7563,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-94k.gpx",
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "dplusStale": true,
      "gpx": "78e64752cab5"
     }
@@ -9668,7 +9743,7 @@
     "until": "2026-11-18",
     "source": "regulamin",
     "sourceUrl": "https://boreckatrail.pl/regulamin/",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "id": "borecka-lekuk-trail-2026-11-21",
    "surface": "przelaj",
@@ -9714,6 +9789,14 @@
     }
    ],
    "regulaminUrl": "https://b4sportonline.pl/users-folder/1104/files/Regulamin_Wyspowy_Ultra_Swir_2027.pdf",
+   "gear": [
+    "Włączony i naładowany telefon",
+    "Plik GPX z trasą biegu na zegarku lub telefonie",
+    "Kurtka wiatrówka",
+    "Bandanka",
+    "Folia NRC",
+    "Swój kubek wielokrotnego użytku"
+   ],
    "signup": {
     "status": "open",
     "until": "2026-11-25",
@@ -9721,7 +9804,7 @@
     "registered": 26,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/ultra_swir/",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "signupOpen": true,
    "participants": 26,
@@ -9805,7 +9888,7 @@
      "dplus": 106,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://ultrarace.pl/gdansk/trasa-gdansk/",
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "limitH": 1
     },
     {
@@ -9825,7 +9908,7 @@
      "dplus": 1800,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://ultrarace.pl/gdansk/trasa-gdansk/",
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "limitH": 17
     }
    ],
@@ -9871,7 +9954,7 @@
     "limit": 300,
     "source": "regulamin",
     "sourceUrl": "https://ultrarace.pl/gdansk/regulamin-gdansk/",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "id": "garmin-ultra-race-gdansk-2026-12-04",
    "surface": "trail",
@@ -9912,13 +9995,18 @@
     }
    ],
    "regulaminUrl": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-Podhalanski-Bieg-Mikolajkowy-2026.pdf",
+   "gear": [
+    "Track lub mapa dystansu (bez Rodzinnych Mikołajek)",
+    "Folia NRC min. 150x180 (bez Rodzinnych Mikołajek)",
+    "Naładowany telefon z aplikacją RATUNEK"
+   ],
    "signup": {
     "status": "open",
     "until": "2026-11-29",
     "limit": 50,
     "source": "regulamin",
     "sourceUrl": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-Podhalanski-Bieg-Mikolajkowy-2026.pdf",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "id": "turbacz-trail-2026-12-06",
    "surface": "trail",
@@ -9987,7 +10075,7 @@
    "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Podhalański Bieg Mikołajkowy: Podhalański Bieg Mikołajkowy - Brama Świętego Mikołaja 13km, Podhalański Bieg Mikołajkowy - Ostrowskie Mikołajki 6km, Podhalański Bieg Mikołajkowy - Rodzinne Mikołajki 1km",
+   "name": "Podhalański Bieg Mikołajkowy: Podhalański Bieg Mikołajkowy - Rodzinne Mikołajki 1km, Podhalański Bieg Mikołajkowy - Brama Świętego Mikołaja 13km, Podhalański Bieg Mikołajkowy - Ostrowskie Mikołajki 6km",
    "eventName": "Podhalański Bieg Mikołajkowy",
    "dateStart": "2026-12-06",
    "dateEnd": "2026-12-06",
@@ -10025,14 +10113,19 @@
     "status": "open",
     "until": "2026-12-03",
     "limit": 50,
-    "registered": 10,
+    "registered": 11,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/turbacz_trail/",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "signupOpen": true,
-   "participants": 10,
+   "participants": 11,
    "regulaminUrl": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-Podhalanski-Bieg-Mikolajkowy-2026.pdf",
+   "gear": [
+    "Track lub mapa dystansu (bez Rodzinnych Mikołajek)",
+    "Folia NRC min. 150x180 (bez Rodzinnych Mikołajek)",
+    "Naładowany telefon z aplikacją RATUNEK"
+   ],
    "id": "podhalanski-bieg-mikolajkowy-2026-12-06",
    "surface": "przelaj",
    "minKm": 1,
@@ -10094,7 +10187,7 @@
     "limit": 200,
     "source": "regulamin",
     "sourceUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "id": "winter-trail-malopolska-2026-12-12",
    "surface": "trail",
@@ -10145,7 +10238,7 @@
     "until": "2026-12-06",
     "source": "regulamin",
     "sourceUrl": "https://perlymalopolski.pl/wp-content/uploads/2026/02/RABKA_PERE%C5%81KI-2026-REGULAMIN.docx.pdf",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "id": "perly-malopolski-2026-12-13",
    "surface": "trail",
@@ -10256,15 +10349,15 @@
     }
    ],
    "signupOpen": true,
-   "participants": 222,
+   "participants": 274,
    "signup": {
     "status": "open",
     "until": "2027-01-15",
     "limit": 900,
-    "registered": 222,
+    "registered": 274,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/swietokrzyski_poziom_gor/",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "id": "zimowy-maraton-swietokrzyski-2027-01-16",
    "surface": "trail",
@@ -10317,15 +10410,15 @@
     }
    ],
    "signupOpen": true,
-   "participants": 459,
+   "participants": 462,
    "signup": {
     "status": "open",
     "until": "2027-01-14",
     "limit": 690,
-    "registered": 459,
+    "registered": 462,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/Zimowy_Polmaraton_Gor_Stolowych/",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "id": "zimowy-polmaraton-gor-stolowych-2027-01-16",
    "surface": "trail",
@@ -10517,17 +10610,22 @@
     }
    ],
    "signup": {
-    "status": "open",
+    "status": "closed",
     "until": "2027-02-08",
     "limit": 50,
-    "registered": 49,
+    "registered": 52,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/turbacz_trail/",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "signupOpen": true,
-   "participants": 49,
+   "participants": 52,
    "regulaminUrl": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-Podhalanski-Bieg-Mikolajkowy-2026.pdf",
+   "gear": [
+    "Track lub mapa dystansu (bez Rodzinnych Mikołajek)",
+    "Folia NRC min. 150x180 (bez Rodzinnych Mikołajek)",
+    "Naładowany telefon z aplikacją RATUNEK"
+   ],
    "id": "turbacz-winter-trail-2027-02-13",
    "surface": "przelaj",
    "minKm": 6.3,
@@ -10607,12 +10705,19 @@
    ],
    "provisional": "termin ze strony organizatora, dystanse z poprzedniej edycji",
    "regulaminUrl": "https://sisxyz.pl/wp-content/uploads/2026/07/REGULAMIN_ZADEK_v1.2027.pdf",
+   "gear": [
+    "Kubek, pojemnik lub butelka do napojów",
+    "Folia NRC 140 x 200 cm",
+    "Gwizdek do sygnalizacji",
+    "Naładowany telefon z numerem alarmowym",
+    "Lampa czołowa (100 km, 70 km)"
+   ],
    "signup": {
     "status": "unknown",
     "limit": 455,
     "source": "regulamin",
     "sourceUrl": "https://sisxyz.pl/wp-content/uploads/2026/07/REGULAMIN_ZADEK_v1.2027.pdf",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "id": "ultra-zadek-festiwal-biegowy-2027-03-06",
    "minKm": 30,
@@ -10699,7 +10804,7 @@
      "dplus": 557,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/fa4925849089-barantrailrace10.gpx",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     },
     {
      "km": 25,
@@ -10708,7 +10813,7 @@
      "gpx": "c4ef4bc38861",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/4b4aaa605098-barantrailrace25.gpx",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     },
     {
      "km": 60,
@@ -10716,7 +10821,7 @@
      "dplus": 2397,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/4fe4278dd59f-barantrailrace60.gpx",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     },
     {
      "km": 100
@@ -10765,13 +10870,23 @@
     0
    ],
    "regulaminUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/assets/BTR_regulamin_2027_03.pdf",
+   "gear": [
+    "Włączony telefon z roamingiem i numerami",
+    "Folia ratunkowa",
+    "Obuwie do biegów górskich",
+    "Pojemnik lub bidon min 0,5 litra (BTR 25, BTR 60)",
+    "Kubek na napoje (BTR 25, BTR 60)",
+    "Kurtka wodoodporna (BTR 60)",
+    "Buff lub czapka (BTR 60)",
+    "Czołówka lub latarka (BTR 60)"
+   ],
    "signup": {
     "status": "open",
     "until": "2027-03-06",
     "limit": 150,
     "source": "regulamin",
     "sourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/assets/BTR_regulamin_2027_03.pdf",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "id": "baran-trail-race-winter-edition-2027-03-13",
    "surface": "trail",
@@ -10781,7 +10896,7 @@
    "beginnerWhy": "najkrótszy dystans 10 km; średnio stromo: ok. 56 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Ultra Świr: WIOSENNY ULTRA ŚWIR - 6H, MARSZ NORDIC WALKING RODZIC + DZIECKO, WIOSENNY ULTRA ŚWIR - 12 h",
+   "name": "Ultra Świr: MARSZ NORDIC WALKING RODZIC + DZIECKO, WIOSENNY ULTRA ŚWIR - 6H, WIOSENNY ULTRA ŚWIR - 12 h",
    "eventName": "WIOSENNY ULTRA ŚWIR",
    "dateStart": "2027-03-20",
    "dateEnd": "2027-03-20",
@@ -10797,7 +10912,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://malopolskabiega.com.pl/wp-content/uploads/2026/06/us_lato_15_5km.gpx",
      "gpx": "72ad52c273e3",
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "dplusStale": true
     }
    ],
@@ -10856,10 +10971,18 @@
     "registered": 6,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/ultra_swir/",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "signupOpen": true,
    "participants": 6,
+   "gear": [
+    "Włączony i naładowany telefon",
+    "Plik GPX z trasą biegu na zegarku lub telefonie",
+    "Kurtka wiatrówka",
+    "Bandanka",
+    "Folia NRC",
+    "Swój kubek wielokrotnego użytku"
+   ],
    "id": "wiosenny-ultra-swir-2027-03-20",
    "surface": "trail",
    "minKm": 15.5,
@@ -10909,7 +11032,7 @@
     "registered": 0,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/swietokrzyski_poziom_gor/",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "signupOpen": true,
    "participants": 0,
@@ -11011,7 +11134,7 @@
     "limit": 250,
     "source": "regulamin",
     "sourceUrl": "https://ultrawysoczyzna.pl/regulamin/",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "id": "meble-wojcik-ultra-wysoczyzna-2027-2027-04-16",
    "surface": "trail",
@@ -11070,6 +11193,16 @@
    ],
    "provisional": "termin ze strony organizatora, dystanse z poprzedniej edycji",
    "regulaminUrl": "https://3xkopa.pl/regulamin/",
+   "gear": [
+    "Telefon z aktywnym roamingiem",
+    "Dowód osobisty lub paszport",
+    "Napój minimum 250 ml",
+    "Bidon lub kubek wielokrotnego użytku",
+    "Folia NRC",
+    "Obuwie sportowe terenu górskiego",
+    "Czołówka (ultra)",
+    "Lampka czerwona z tyłu (Petrovicka Setka)"
+   ],
    "id": "festiwal-biegow-gorskich-3xkopa-2027-04-23",
    "minKm": 3.7,
    "maxKm": 104,
@@ -11118,12 +11251,15 @@
    ],
    "provisional": "termin ze strony organizatora, dystanse z poprzedniej edycji",
    "regulaminUrl": "http://jedlina.pro-run.pl/regulamin-zimowy-polmaraton/",
+   "gear": [
+    "Strój sportowy"
+   ],
    "signup": {
     "status": "unknown",
     "limit": 300,
     "source": "regulamin",
     "sourceUrl": "http://jedlina.pro-run.pl/regulamin-zimowy-polmaraton/",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "id": "festiwal-gorski-polmaraton-jedlina-zdroj-2027-05-09",
    "minKm": 10,
@@ -11185,7 +11321,7 @@
     "limit": 200,
     "source": "regulamin",
     "sourceUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "id": "ultra-trail-malopolska-2027-05-21",
    "surface": "trail",
@@ -11221,21 +11357,21 @@
      "dplus": 582,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://www.biegrzeznika.pl/rzeznicka-piatka/",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     },
     {
      "km": 16,
      "dplus": 492,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://www.biegrzeznika.pl/rzeznicka-piatka/",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     },
     {
      "km": 28,
      "dplus": 1060,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://www.biegrzeznika.pl/rzeznicka-piatka/",
-     "dplusCheckedAt": "2026-10-12"
+     "dplusCheckedAt": "2026-10-13"
     },
     {
      "km": 52
@@ -11275,11 +11411,18 @@
     }
    ],
    "regulaminUrl": "https://www.biegrzeznika.pl/wp-content/uploads/2026/10/Bieszczadzki-Rajd-Pieszy-Edycja-Zimowa-2027.pdf",
+   "gear": [
+    "Folia NRC o wymiarach min. 150x180",
+    "Naładowany i aktywny telefon",
+    "Kubek, bidon lub pojemnik na napoje",
+    "Nakrycie głowy (czapka, chusta buff)",
+    "Minimum 500 ml napoju"
+   ],
    "signup": {
     "status": "open",
     "source": "organizator",
     "sourceUrl": "https://www.biegrzeznika.pl/",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "id": "xiii-festiwal-biegu-rzeznika-2027-05-26",
    "surface": "trail",
@@ -11336,7 +11479,7 @@
     "note": "do wyczerpania limitu",
     "source": "regulamin",
     "sourceUrl": "https://b4sportonline.pl/suszecki_festiwal/regulamin",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "id": "suszecki-festiwal-biegowy-2027-06-12",
    "surface": "przelaj",
@@ -11366,7 +11509,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_08b1fbd6849c4777bf5e9b94fdc66a21.gpx?dn=ULTRA%20TURNICKI%2010%20KM%202026.gpx",
      "dplusStale": true,
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "gpx": "2d07e4b56fd0"
     },
     {
@@ -11375,7 +11518,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_8db1bd631c4b48108381e9287d00872a.gpx?dn=ULTRA%20TURNICKI%2024%20KM%202026.gpx",
      "dplusStale": true,
-     "dplusCheckedAt": "2026-10-12",
+     "dplusCheckedAt": "2026-10-13",
      "gpx": "255f38ef48ca"
     },
     {
@@ -11433,13 +11576,21 @@
     0
    ],
    "regulaminUrl": "https://www.ultraturnicki.pl/_files/ugd/883a2a_022e1d7fd8b5466e8866635383e749f7.pdf",
+   "gear": [
+    "Aktywny telefon (cały czas biegu)",
+    "Dowód osobisty lub paszport",
+    "Folia NRC",
+    "Bidon/softflask min (0,5 l 15km, 1 l 36km)",
+    "Track GPX w zegarku lub telefonie",
+    "Kubek wielorazowy (36 km)"
+   ],
    "signup": {
     "status": "unknown",
     "limit": 300,
     "note": "do wyczerpania limitu",
     "source": "regulamin",
     "sourceUrl": "https://www.ultraturnicki.pl/_files/ugd/883a2a_022e1d7fd8b5466e8866635383e749f7.pdf",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "id": "ultra-turnicki-2027-06-19",
    "minKm": 10,
@@ -11505,6 +11656,19 @@
    ],
    "provisional": "termin ze strony organizatora, dystanse z poprzedniej edycji",
    "regulaminUrl": "http://ultra-way.pl/letni-festiwal-biegowy-ultra-way/regulamin/",
+   "gear": [
+    "Kurs trasy wgrany w urządzenie nawigacyjne",
+    "Strój dopasowany do warunków atmosferycznych",
+    "Czapka lub buff (100km)",
+    "Plecak lub pas (100km, 60km, 50km, 27km)",
+    "Telefon naładowany z numerem organizatora",
+    "Kurtka wiatrówka (100km, 60km)",
+    "Lampka czołówka z białym światłem (100km, 60km)",
+    "Folia NRC (100km, 60km, 50km, 27km)",
+    "Dowód tożsamości",
+    "Kubek lub pojemnik własny (100km, 60km, 50km, 27km)",
+    "Bidony/bukłaki minimum 1 litr (100km, 60km, 50km, 27km)"
+   ],
    "id": "gdynia-ultra-way-summer-race-2027-06-25",
    "minKm": 14.86,
    "maxKm": 164.49,
@@ -11559,10 +11723,18 @@
     "registered": 0,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/ultra_swir/",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "signupOpen": true,
    "participants": 0,
+   "gear": [
+    "Włączony i naładowany telefon",
+    "Plik GPX z trasą biegu na zegarku lub telefonie",
+    "Kurtka wiatrówka",
+    "Bandanka",
+    "Folia NRC",
+    "Swój kubek wielokrotnego użytku"
+   ],
    "id": "wyspowy-ultra-swir-2027-06-26",
    "surface": "trail",
    "minKm": 23,
@@ -11604,7 +11776,7 @@
     "registered": 0,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/Supermaraton_Gor_Stolowych/",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-10-13"
    },
    "signupOpen": true,
    "participants": 0,
