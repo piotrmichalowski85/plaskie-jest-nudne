@@ -1,5 +1,25 @@
 [
  {
+  "date": "2026-10-15",
+  "label": "odświeżenie kalendarza",
+  "total": 247,
+  "upcoming": 51,
+  "added": [
+   {
+    "id": "xiii-zimowy-maraton-bieszczadzki-2027-01-23",
+    "eventName": "XIII Zimowy Maraton Bieszczadzki",
+    "dateStart": "2027-01-23",
+    "city": "Cisna"
+   }
+  ],
+  "removed": [],
+  "dateChanged": [],
+  "signupChanged": [],
+  "gearAdded": [],
+  "dplusAdded": [],
+  "regulaminAdded": []
+ },
+ {
   "date": "2026-10-13",
   "label": "sprzęt z regulaminów",
   "total": 246,
