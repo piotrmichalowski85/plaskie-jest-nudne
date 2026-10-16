@@ -1,5 +1,45 @@
 [
  {
+  "date": "2026-10-16",
+  "label": "sprzęt z regulaminów",
+  "total": 248,
+  "upcoming": 52,
+  "added": [
+   {
+    "id": "i-bieg-niepodleglosci-2026-11-07",
+    "eventName": "I Bieg Niepodległości",
+    "dateStart": "2026-11-07",
+    "city": "Laskowa"
+   },
+   {
+    "id": "kudowska-sztafeta-gorska-2027-04-10",
+    "eventName": "Kudowska Sztafeta Górska",
+    "dateStart": "2027-04-10",
+    "city": "Teatr pod Blachą"
+   }
+  ],
+  "removed": [
+   {
+    "id": "xiv-bieg-niepodleglosci-2026-11-11",
+    "eventName": "XIV BIEG NIEPODLEGŁOŚCI",
+    "dateStart": "2026-11-11",
+    "city": "Rytro"
+   }
+  ],
+  "dateChanged": [],
+  "signupChanged": [],
+  "gearAdded": [],
+  "dplusAdded": [],
+  "regulaminAdded": [
+   {
+    "id": "coconaut-pomerania-ultra-trail-2026-10-17",
+    "eventName": "Coconaut Pomerania ULTRA Trail",
+    "dateStart": "2026-10-17",
+    "city": "Barłomino Luzino"
+   }
+  ]
+ },
+ {
   "date": "2026-10-15",
   "label": "odświeżenie kalendarza",
   "total": 247,
