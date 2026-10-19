@@ -392,5 +392,21 @@
  "https://aktywnakorczyna.pl/": {
   "checkedAt": "2026-10-12",
   "prev": "2026-10-10"
+ },
+ "https://winter.pomeraniatrail.pl/": {
+  "checkedAt": "2026-10-19",
+  "prev": "2026-02-28"
+ },
+ "http://summer.pomeraniatrail.pl/": {
+  "checkedAt": "2026-10-19",
+  "prev": "2026-06-13"
+ },
+ "https://pomeraniatrail.pl/": {
+  "checkedAt": "2026-10-19",
+  "prev": "2026-10-17"
+ },
+ "https://ultralemkowyna.pl/": {
+  "checkedAt": "2026-10-19",
+  "prev": "2026-10-16"
  }
 }
