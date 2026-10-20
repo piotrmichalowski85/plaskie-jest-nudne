@@ -1,5 +1,18 @@
 [
  {
+  "date": "2026-10-20",
+  "label": "sprzęt z regulaminów",
+  "total": 247,
+  "upcoming": 48,
+  "added": [],
+  "removed": [],
+  "dateChanged": [],
+  "signupChanged": [],
+  "gearAdded": [],
+  "dplusAdded": [],
+  "regulaminAdded": []
+ },
+ {
   "date": "2026-10-19",
   "label": "odświeżenie kalendarza",
   "total": 247,
