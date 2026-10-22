@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-20T05:31:10.460Z",
- "count": 247,
+ "generatedAt": "2026-10-22T09:29:27.681Z",
+ "count": 251,
  "races": [
   {
    "name": "Meble Wójcik Ultra Wysoczyzna 2025",
@@ -2425,7 +2425,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/fa4925849089-barantrailrace10.gpx",
      "gpx": "039dff8d7c81",
-     "dplusCheckedAt": "2026-10-20"
+     "dplusCheckedAt": "2026-10-22"
     },
     {
      "km": 25,
@@ -2433,7 +2433,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/4b4aaa605098-barantrailrace25.gpx",
      "gpx": "c4ef4bc38861",
-     "dplusCheckedAt": "2026-10-20",
+     "dplusCheckedAt": "2026-10-22",
      "limitH": 5
     },
     {
@@ -2442,7 +2442,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/4fe4278dd59f-barantrailrace60.gpx",
      "gpx": "e171fc730de8",
-     "dplusCheckedAt": "2026-10-20"
+     "dplusCheckedAt": "2026-10-22"
     }
    ],
    "vertical": false,
@@ -4705,7 +4705,7 @@
      "dplus": 212,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_08b1fbd6849c4777bf5e9b94fdc66a21.gpx?dn=ULTRA%20TURNICKI%2010%20KM%202026.gpx",
-     "dplusCheckedAt": "2026-10-20",
+     "dplusCheckedAt": "2026-10-22",
      "dplusStale": true,
      "gpx": "2d07e4b56fd0"
     },
@@ -4714,7 +4714,7 @@
      "dplus": 450,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_8db1bd631c4b48108381e9287d00872a.gpx?dn=ULTRA%20TURNICKI%2024%20KM%202026.gpx",
-     "dplusCheckedAt": "2026-10-20",
+     "dplusCheckedAt": "2026-10-22",
      "dplusStale": true,
      "gpx": "255f38ef48ca"
     },
@@ -6894,7 +6894,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://utm.run/wp-content/uploads/static/SZCZEBEL_CUP.gpx",
      "gpx": "4a8589f7345e",
-     "dplusCheckedAt": "2026-10-20"
+     "dplusCheckedAt": "2026-10-22"
     }
    ],
    "vertical": false,
@@ -7026,7 +7026,7 @@
      "dplus": 487,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Pyzdra-20-km.gpx",
-     "dplusCheckedAt": "2026-10-20",
+     "dplusCheckedAt": "2026-10-22",
      "dplusStale": true,
      "gpx": "7ea021f186a9"
     },
@@ -7035,7 +7035,7 @@
      "dplus": 1204,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Kwicol-40-km.gpx",
-     "dplusCheckedAt": "2026-10-20",
+     "dplusCheckedAt": "2026-10-22",
      "dplusStale": true,
      "gpx": "e82bd411475a"
     },
@@ -7044,7 +7044,7 @@
      "dplus": 3249,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2026-Legenda-75-km.gpx",
-     "dplusCheckedAt": "2026-10-20",
+     "dplusCheckedAt": "2026-10-22",
      "gpx": "ce757376282b"
     }
    ],
@@ -7161,7 +7161,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/08/XRUN_Vistula_Trail_Start.gpx",
      "gpx": "16d6fbfd531c",
-     "dplusCheckedAt": "2026-10-20"
+     "dplusCheckedAt": "2026-10-22"
     },
     {
      "km": 15,
@@ -7169,7 +7169,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/08/XRUN_Vistula_Trail_Intro.gpx",
      "gpx": "a3c57adb8f36",
-     "dplusCheckedAt": "2026-10-20"
+     "dplusCheckedAt": "2026-10-22"
     },
     {
      "km": 24,
@@ -7177,7 +7177,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/08/XRUN_Vistula_Trail_Classic.gpx",
      "gpx": "617087805737",
-     "dplusCheckedAt": "2026-10-20"
+     "dplusCheckedAt": "2026-10-22"
     },
     {
      "km": 35
@@ -7875,7 +7875,7 @@
      "dplus": 393,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j21h.gpx",
-     "dplusCheckedAt": "2026-10-20",
+     "dplusCheckedAt": "2026-10-22",
      "gpx": "cdec575b3f4f"
     },
     {
@@ -7883,7 +7883,7 @@
      "dplus": 586,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j42h.gpx",
-     "dplusCheckedAt": "2026-10-20",
+     "dplusCheckedAt": "2026-10-22",
      "gpx": "dc7a5c91fcdd"
     },
     {
@@ -7891,7 +7891,7 @@
      "dplus": 1094,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j80h.gpx",
-     "dplusCheckedAt": "2026-10-20",
+     "dplusCheckedAt": "2026-10-22",
      "gpx": "695f72b9675c"
     },
     {
@@ -7899,7 +7899,7 @@
      "dplus": 1450,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j100h.gpx",
-     "dplusCheckedAt": "2026-10-20",
+     "dplusCheckedAt": "2026-10-22",
      "gpx": "175b992a02fa"
     }
    ],
@@ -8178,7 +8178,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/Muszyna_Start_Trail_6_km.gpx",
      "gpx": "ded571484e41",
-     "dplusCheckedAt": "2026-10-20"
+     "dplusCheckedAt": "2026-10-22"
     },
     {
      "km": 23,
@@ -8186,7 +8186,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/Muszyna_Trail_Intro_Trail.gpx",
      "gpx": "caf5083473b9",
-     "dplusCheckedAt": "2026-10-20"
+     "dplusCheckedAt": "2026-10-22"
     },
     {
      "km": 31,
@@ -8194,7 +8194,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/Muszyna_Trail_Classic_Trail.gpx",
      "gpx": "cb567dad5484",
-     "dplusCheckedAt": "2026-10-20"
+     "dplusCheckedAt": "2026-10-22"
     },
     {
      "km": 43,
@@ -8202,7 +8202,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/Muszyna_Trail_Long_Trail.gpx",
      "gpx": "49371425f97e",
-     "dplusCheckedAt": "2026-10-20"
+     "dplusCheckedAt": "2026-10-22"
     }
    ],
    "vertical": false,
@@ -8511,7 +8511,7 @@
      "dplus": 487,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Pyzdra-20-km.gpx",
-     "dplusCheckedAt": "2026-10-20",
+     "dplusCheckedAt": "2026-10-22",
      "dplusStale": true,
      "gpx": "7ea021f186a9"
     },
@@ -8907,7 +8907,7 @@
    "beginnerWhy": "najkrótszy dystans 9.2 km; przewyższenie nieznane, sprawdź profil trasy."
   },
   {
-   "name": "Sowiogórski Festiwal Biegowy: #SFB2026 | Mroczny Śpiewak, #SFB2026 | Stara Jodła, #SFB2026 | Don Jon, #SFB2026 | Czarny Rycerz, #SFB2026 | Ostoja Nietoperza, #SFB2025 | Czarny Rycerz",
+   "name": "Sowiogórski Festiwal Biegowy: #SFB2026 | Stara Jodła, #SFB2026 | Don Jon, #SFB2026 | Ostoja Nietoperza, #SFB2026 | Mroczny Śpiewak, #SFB2026 | Czarny Rycerz",
    "eventName": "Sowiogórski Festiwal Biegowy",
    "dateStart": "2026-10-24",
    "dateEnd": "2026-10-24",
@@ -8947,14 +8947,14 @@
     },
     {
      "name": "regulamin",
-     "url": "https://b4sportonline.pl/users-folder/1417/files/regulamin_sfb_2026.pdf"
+     "url": "https://b4sportonline.pl/users-folder/1417/files/sfb_2026_regulamin.pdf"
     },
     {
      "name": "b4sportonline.pl",
      "url": "https://b4sportonline.pl/sfb2026/"
     }
    ],
-   "regulaminUrl": "https://b4sportonline.pl/users-folder/1417/files/regulamin_sfb_2026.pdf",
+   "regulaminUrl": "https://b4sportonline.pl/users-folder/1417/files/sfb_2026_regulamin.pdf",
    "gear": [
     "dokument tożsamości",
     "aktywny telefon",
@@ -8965,15 +8965,15 @@
     "kurtka wiatro- i wodoodporna z długim rękawem"
    ],
    "signupOpen": true,
-   "participants": 516,
+   "participants": 540,
    "signup": {
     "status": "open",
-    "until": "2026-10-20",
-    "limit": 1200,
-    "registered": 516,
+    "until": "2026-10-22",
+    "limit": 1000,
+    "registered": 540,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/sfb2026/",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-22"
    },
    "id": "sowiogorski-festiwal-biegowy-2026-10-24",
    "surface": "gorski",
@@ -9008,7 +9008,7 @@
      "dplus": 596,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/KDR-2026-21.gpx",
-     "dplusCheckedAt": "2026-10-20",
+     "dplusCheckedAt": "2026-10-22",
      "gpx": "3286e627d6f9"
     },
     {
@@ -9075,7 +9075,7 @@
     "until": "2026-10-06",
     "source": "regulamin",
     "sourceUrl": "https://janosikraceseries.com/roztoczeultrarace/regulamin-zawodow/",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-22"
    },
    "id": "smok-ultra-race-2026-10-24",
    "surface": "trail",
@@ -9184,6 +9184,44 @@
    "beginnerWhy": "najkrótszy dystans 2.5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
+   "name": "Jesienny Festiwal Szakala",
+   "eventName": "Jesienny Festiwal Szakala",
+   "dateStart": "2026-10-25",
+   "dateEnd": "2026-10-25",
+   "city": "Łódź Las Łagiewnicki",
+   "region": "",
+   "distancesKm": [
+    7.8,
+    21.5,
+    51.8
+   ],
+   "elevations": [
+    {
+     "km": 7.8
+    },
+    {
+     "km": 21.5
+    },
+    {
+     "km": 51.8
+    }
+   ],
+   "vertical": false,
+   "category": "51,8-Kat.II",
+   "sources": [
+    {
+     "name": "biegigorskie.pl",
+     "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    }
+   ],
+   "id": "jesienny-festiwal-szakala-2026-10-25",
+   "surface": "przelaj",
+   "minKm": 7.8,
+   "maxKm": 51.8,
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 7.8 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+  },
+  {
    "name": "XV Grand Prix Krakowa w biegach górskich – Wielkie Otwarcie",
    "eventName": "XV Grand Prix Krakowa w biegach górskich",
    "dateStart": "2026-10-25",
@@ -9274,7 +9312,7 @@
     "limit": 270,
     "source": "organizator",
     "sourceUrl": "https://kandahar.pl/13-jesienny-bieg-potrojnej/",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-22"
    },
    "id": "13-jesienny-bieg-potrojnej-2026-11-07",
    "surface": "gorski",
@@ -9352,7 +9390,7 @@
     "limit": 24,
     "source": "regulamin",
     "sourceUrl": "https://bieggorski.pl/regulamin/",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-22"
    },
    "id": "gorlicki-bieg-gorski-2026-11-07",
    "surface": "gorski",
@@ -9447,14 +9485,46 @@
    "beginnerWhy": "najkrótszy dystans 9 km; przewyższenie nieznane, sprawdź profil trasy."
   },
   {
+   "name": "Ninja AMS KARTUZY - zajęcia terenowe dla dzieci i młodzieży",
+   "eventName": "Ninja AMS KARTUZY - zajęcia terenowe dla dzieci i młodzieży",
+   "dateStart": "2026-11-14",
+   "dateEnd": "2026-11-14",
+   "city": "Kartuzy",
+   "region": "",
+   "distancesKm": [],
+   "elevations": [],
+   "vertical": false,
+   "url": "http://www.ams-sport.pl/",
+   "sources": [
+    {
+     "name": "elektronicznezapisy.pl",
+     "url": "https://elektronicznezapisy.pl/event/16210/strona.html"
+    }
+   ],
+   "signupOpen": true,
+   "signup": {
+    "status": "open",
+    "until": "2026-11-13",
+    "source": "zapisy",
+    "sourceUrl": "https://elektronicznezapisy.pl/event/16210/strona.html",
+    "checkedAt": "2026-10-22"
+   },
+   "id": "ninja-ams-kartuzy-zajecia-terenowe-dla-dzieci-i-mlodziezy-2026-11-14",
+   "surface": "przelaj",
+   "minKm": 0,
+   "maxKm": 0,
+   "beginnerScore": 3,
+   "beginnerWhy": "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed zapisem."
+  },
+  {
    "name": "Piekło Czantorii: Bestyjka 10K, Bestyja 24K, Pieron 47K, Przepieron 71K, Lucyfer 94K",
    "eventName": "Piekło Czantorii",
    "dateStart": "2026-11-20",
    "dateEnd": "2026-11-21",
-   "city": "Ustroń Polana",
-   "region": "",
+   "city": "Ustroń",
+   "region": "Beskid Śląski",
    "distancesKm": [
-    10.2,
+    10,
     24,
     47,
     71,
@@ -9462,11 +9532,11 @@
    ],
    "elevations": [
     {
-     "km": 10.2,
+     "km": 10,
      "dplus": 1032,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-10k.gpx",
-     "dplusCheckedAt": "2026-10-20",
+     "dplusCheckedAt": "2026-10-22",
      "dplusStale": true,
      "gpx": "2965d86bd7b0"
     },
@@ -9475,7 +9545,7 @@
      "dplus": 2160,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-24k.gpx",
-     "dplusCheckedAt": "2026-10-20",
+     "dplusCheckedAt": "2026-10-22",
      "dplusStale": true,
      "gpx": "9611334ce9c5"
     },
@@ -9484,7 +9554,7 @@
      "dplus": 4020,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-47k.gpx",
-     "dplusCheckedAt": "2026-10-20",
+     "dplusCheckedAt": "2026-10-22",
      "dplusStale": true,
      "gpx": "4a49277d707c"
     },
@@ -9493,7 +9563,7 @@
      "dplus": 5908,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-71k.gpx",
-     "dplusCheckedAt": "2026-10-20",
+     "dplusCheckedAt": "2026-10-22",
      "dplusStale": true,
      "gpx": "5457d8ac05dc"
     },
@@ -9502,17 +9572,18 @@
      "dplus": 7563,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-94k.gpx",
-     "dplusCheckedAt": "2026-10-20",
+     "dplusCheckedAt": "2026-10-22",
      "dplusStale": true,
      "gpx": "78e64752cab5"
     }
    ],
    "vertical": false,
-   "url": "https://pieklo.b160.pl",
+   "category": "94km-Kat.II 71km-Kat.II 47km-Kat.II 24km-Kat.I 10km-Kat.II",
+   "url": "https://pieklo.b160.pl/",
    "sources": [
     {
-     "name": "kingrunner.com",
-     "url": "https://www.kingrunner.com/bieg/pieklo-czantorii---bestyjka-10k/4373"
+     "name": "biegigorskie.pl",
+     "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
      "name": "trasa (organizator)",
@@ -9521,6 +9592,10 @@
     {
      "name": "GPX",
      "url": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-10k.gpx"
+    },
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/pieklo-czantorii---bestyjka-10k/4373"
     }
    ],
    "spark": [
@@ -9551,10 +9626,10 @@
    ],
    "id": "pieklo-czantorii-2026-11-20",
    "surface": "gorski",
-   "minKm": 10.2,
+   "minKm": 10,
    "maxKm": 94,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 10.2 km; stromo: ok. 101 m przewyższenia na kilometr, dużo marszu pod górę; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+   "beginnerWhy": "najkrótszy dystans 10 km; stromo: ok. 103 m przewyższenia na kilometr, dużo marszu pod górę; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "2.GÓRSKA TRZYNASTKA",
@@ -9581,10 +9656,10 @@
     },
     {
      "name": "regulamin",
-     "url": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026-msyirv8m.pdf"
+     "url": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026_edit-mv6j7nqw.pdf"
     }
    ],
-   "regulaminUrl": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026-msyirv8m.pdf",
+   "regulaminUrl": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026_edit-mv6j7nqw.pdf",
    "id": "2-gorska-trzynastka-2026-11-21",
    "surface": "gorski",
    "minKm": 13,
@@ -9617,10 +9692,10 @@
     },
     {
      "name": "regulamin",
-     "url": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026-msyirv8m.pdf"
+     "url": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026_edit-mv6j7nqw.pdf"
     }
    ],
-   "regulaminUrl": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026-msyirv8m.pdf",
+   "regulaminUrl": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026_edit-mv6j7nqw.pdf",
    "id": "7-polmaraton-orzel-2026-11-21",
    "surface": "trail",
    "minKm": 22,
@@ -9686,7 +9761,7 @@
     "until": "2026-11-18",
     "source": "regulamin",
     "sourceUrl": "https://boreckatrail.pl/regulamin/",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-22"
    },
    "id": "borecka-lekuk-trail-2026-11-21",
    "surface": "przelaj",
@@ -9744,13 +9819,13 @@
     "status": "open",
     "until": "2026-11-25",
     "limit": 65,
-    "registered": 30,
+    "registered": 33,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/ultra_swir/",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-22"
    },
    "signupOpen": true,
-   "participants": 30,
+   "participants": 33,
    "id": "jesienny-ultra-swir-2026-11-28",
    "surface": "trail",
    "minKm": 15,
@@ -9759,57 +9834,54 @@
    "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
-   "name": "Szczyt Wytrzymałości Mikołajki: 12H, 8848 Everest",
-   "eventName": "Szczyt Wytrzymałości Mikołajki",
+   "name": "Szczyt Wytrzymałości Edycja Mikołajkowa: 12H - Pętla: 8 km +/-800 m, Mikołajowa Ekstremalna 16",
+   "eventName": "Szczyt Wytrzymałości Edycja Mikołajkowa",
    "dateStart": "2026-12-04",
    "dateEnd": "2026-12-05",
    "city": "Ustroń",
    "region": "Beskid Śląski",
    "distancesKm": [
-    95
+    16
    ],
    "elevations": [
     {
-     "km": 95,
-     "dplus": 8848,
-     "dplusSource": "kalendarz",
-     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
+     "km": 16
     }
    ],
    "vertical": false,
    "category": "Kat.S",
-   "url": "https://beskidzkiegronie.pl/",
+   "url": "https://dostartu.pl/szczyt-wytrzyma-osci-2026-v17345",
    "sources": [
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
-     "name": "regulamin",
-     "url": "https://web.sportcrm.pl/pliki/beskidzkiegronie/zalacznikiartykulow/60/19746/Regulamin%20V%20Beskidzkie%20Gr%C3%B3nie%20Lato%202026.pdf"
-    },
-    {
      "name": "kingrunner.com",
      "url": "https://www.kingrunner.com/bieg/szczyt-wytrzymalosci---edycja-mikolajkowa---me16/4375"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://web.sportcrm.pl/pliki/beskidzkiegronie/zalacznikiartykulow/60/19746/Regulamin%20V%20Beskidzkie%20Gr%C3%B3nie%20Lato%202026.pdf"
     }
    ],
    "regulaminUrl": "https://web.sportcrm.pl/pliki/beskidzkiegronie/zalacznikiartykulow/60/19746/Regulamin%20V%20Beskidzkie%20Gr%C3%B3nie%20Lato%202026.pdf",
    "gear": [
-    "telefon z baterią na cały rajd",
-    "folia NRC",
-    "kurtka wiatrochronna z kapturem",
-    "ubranie na warunki górskie",
+    "telefon komórkowy z działającą baterią",
+    "folia NRC do otulenia całego ciała",
+    "kurtka z kapturem wiatrochronna",
+    "ubranie dostosowane do warunków górskich",
     "gwizdek",
     "obuwie do długich marszów",
     "bandaż elastyczny",
-    "aplikacja Ratunek"
+    "aplikacja GOPR RATUNEK"
    ],
-   "id": "szczyt-wytrzymalosci-mikolajki-2026-12-04",
-   "surface": "gorski",
-   "minKm": 95,
-   "maxKm": 95,
-   "beginnerScore": 1,
-   "beginnerWhy": "najkrótszy dystans 95 km, dystans ultra; stromo: ok. 93 m przewyższenia na kilometr, dużo marszu pod górę."
+   "id": "szczyt-wytrzymalosci-edycja-mikolajkowa-2026-12-04",
+   "surface": "trail",
+   "minKm": 16,
+   "maxKm": 16,
+   "beginnerScore": 3,
+   "beginnerWhy": "najkrótszy dystans 16 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "Garmin Ultra Race Gdańsk: 6km, 12km, 27km, 53km, 101km",
@@ -9898,7 +9970,7 @@
     "limit": 300,
     "source": "regulamin",
     "sourceUrl": "https://ultrarace.pl/gdansk/regulamin-gdansk/",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-22"
    },
    "id": "garmin-ultra-race-gdansk-2026-12-04",
    "surface": "trail",
@@ -9908,7 +9980,7 @@
    "beginnerWhy": "najkrótszy dystans 6 km; łagodnie: ok. 18 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Turbacz Trail - Podhalański Bieg Mikołajkowy: Ostrowskie Mikołajki 9 km, Rodzinny Bieg Mikołajkowy 1 km",
+   "name": "Turbacz Trail - Podhalański Bieg Mikołajkowy: Brama Świętego Mikołaja 13 km, Ostrowskie Mikołajki 6 km, Rodzinny Bieg Mikołajkowy 1 km",
    "eventName": "Turbacz Trail",
    "dateStart": "2026-12-06",
    "dateEnd": "2026-12-06",
@@ -9916,18 +9988,22 @@
    "region": "Gorce",
    "distancesKm": [
     1,
-    9
+    6,
+    13
    ],
    "elevations": [
     {
      "km": 1
     },
     {
-     "km": 9
+     "km": 6
+    },
+    {
+     "km": 13
     }
    ],
    "vertical": false,
-   "category": "Kat.I",
+   "category": "13km-Kat.I 6km-Kat.I",
    "url": "https://b4sportonline.pl/turbacz_trail/",
    "sources": [
     {
@@ -9951,14 +10027,14 @@
     "limit": 50,
     "source": "regulamin",
     "sourceUrl": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-Podhalanski-Bieg-Mikolajkowy-2026.pdf",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-22"
    },
    "id": "turbacz-trail-2026-12-06",
    "surface": "trail",
    "minKm": 1,
-   "maxKm": 9,
+   "maxKm": 13,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 1 km; przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerWhy": "najkrótszy dystans 1 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "XV Grand Prix Krakowa w biegach górskich – Bieg Mikołajkowy",
@@ -10020,7 +10096,7 @@
    "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Podhalański Bieg Mikołajkowy: Podhalański Bieg Mikołajkowy - Brama Świętego Mikołaja 13km, Podhalański Bieg Mikołajkowy - Ostrowskie Mikołajki 6km, Podhalański Bieg Mikołajkowy - Rodzinne Mikołajki 1km",
+   "name": "Podhalański Bieg Mikołajkowy: Podhalański Bieg Mikołajkowy - Rodzinne Mikołajki 1km, Podhalański Bieg Mikołajkowy - Brama Świętego Mikołaja 13km, Podhalański Bieg Mikołajkowy - Ostrowskie Mikołajki 6km",
    "eventName": "Podhalański Bieg Mikołajkowy",
    "dateStart": "2026-12-06",
    "dateEnd": "2026-12-06",
@@ -10061,7 +10137,7 @@
     "registered": 12,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/turbacz_trail/",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-22"
    },
    "signupOpen": true,
    "participants": 12,
@@ -10132,7 +10208,7 @@
     "limit": 200,
     "source": "regulamin",
     "sourceUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-22"
    },
    "id": "winter-trail-malopolska-2026-12-12",
    "surface": "trail",
@@ -10183,7 +10259,7 @@
     "until": "2026-12-06",
     "source": "regulamin",
     "sourceUrl": "https://perlymalopolski.pl/wp-content/uploads/2026/02/RABKA_PERE%C5%81KI-2026-REGULAMIN.docx.pdf",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-22"
    },
    "id": "perly-malopolski-2026-12-13",
    "surface": "trail",
@@ -10252,6 +10328,76 @@
    "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
+   "name": "GDYNIA ULTRA WAY - WINTER RACE: Nocny Jeleń – 76 km+, Tropem Rysia – 50 km+, DZIKI DUET – 27 km+, Pół Dzika – 27 km+, Szybka Sarna – 10 km+, TURBO JEŻ 5 km+",
+   "eventName": "GDYNIA ULTRA WAY",
+   "dateStart": "2027-01-16",
+   "dateEnd": "2027-01-16",
+   "city": "Gdynia",
+   "region": "",
+   "distancesKm": [
+    5,
+    10,
+    27.3,
+    50,
+    76.6
+   ],
+   "elevations": [
+    {
+     "km": 5
+    },
+    {
+     "km": 10
+    },
+    {
+     "km": 27.3,
+     "dplus": 814,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://ultra-way.pl/zimowy-festiwal-biegowy-ultra-way/"
+    },
+    {
+     "km": 50,
+     "dplus": 1663,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://ultra-way.pl/festiwal/letni-festiwal-biegowy-ultra-way/",
+     "dplusCheckedAt": "2026-10-22"
+    },
+    {
+     "km": 76.6,
+     "dplus": 2309,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://ultra-way.pl/zimowy-festiwal-biegowy-ultra-way/"
+    }
+   ],
+   "vertical": false,
+   "category": "Kat.S",
+   "url": "https://ultra-way.pl/zimowy-festiwal-biegowy-ultra-way/",
+   "sources": [
+    {
+     "name": "biegigorskie.pl",
+     "url": "https://www.biegigorskie.pl/kalendarz-2027/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://ultra-way.pl/zimowy-festiwal-biegowy-ultra-way/"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://ultra-way.pl/festiwal/letni-festiwal-biegowy-ultra-way/"
+    },
+    {
+     "name": "regulamin",
+     "url": "http://ultra-way.pl/letni-festiwal-biegowy-ultra-way/regulamin/"
+    }
+   ],
+   "regulaminUrl": "http://ultra-way.pl/letni-festiwal-biegowy-ultra-way/regulamin/",
+   "id": "gdynia-ultra-way-2027-01-16",
+   "surface": "trail",
+   "minKm": 5,
+   "maxKm": 76.6,
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+  },
+  {
    "name": "Zimowy Maraton Świętokrzyski: Rycerska Szarża 26km, Królewska Batalia 48km",
    "eventName": "Zimowy Maraton Świętokrzyski",
    "dateStart": "2027-01-16",
@@ -10294,15 +10440,15 @@
     }
    ],
    "signupOpen": true,
-   "participants": 347,
+   "participants": 359,
    "signup": {
     "status": "open",
     "until": "2027-01-15",
     "limit": 900,
-    "registered": 347,
+    "registered": 359,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/swietokrzyski_poziom_gor/",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-22"
    },
    "id": "zimowy-maraton-swietokrzyski-2027-01-16",
    "surface": "trail",
@@ -10355,15 +10501,15 @@
     }
    ],
    "signupOpen": true,
-   "participants": 593,
+   "participants": 613,
    "signup": {
     "status": "open",
     "until": "2027-01-14",
     "limit": 710,
-    "registered": 593,
+    "registered": 613,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/Zimowy_Polmaraton_Gor_Stolowych/",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-22"
    },
    "id": "zimowy-polmaraton-gor-stolowych-2027-01-16",
    "surface": "trail",
@@ -10480,7 +10626,7 @@
     }
    ],
    "vertical": false,
-   "category": "Kat.S",
+   "category": "Kat.M",
    "url": "https://b4sportonline.pl/zimowy_maraton_bieszczadzki/",
    "sources": [
     {
@@ -10556,66 +10702,71 @@
   },
   {
    "name": "Turbacz Winter Trail: Turbacz Winter Trail - AK-47 (48km), Turbacz Winter Trail - TWT na 6 Łap (22km), Turbacz Winter Trail - Turbaczowe Love - bieg dla par (6km), Turbacz Winter Trail - Mizuno Nocna zaDycha (12km), Turbacz Winter Trail - Zimna Połówka (22km), Turbacz Winter Trail - Turbaczowe Love - bieg dla singli (6km)",
-   "eventName": "Turbacz Winter Trail",
+   "eventName": "TURBACZ WINTER TRAIL",
    "dateStart": "2027-02-13",
    "dateEnd": "2027-02-14",
    "city": "Nowy Targ",
-   "region": "",
+   "region": "Gorce",
    "distancesKm": [
-    6.3,
-    11.86,
-    22.25,
-    47.89
+    6,
+    12,
+    22,
+    48
    ],
    "elevations": [
     {
-     "km": 6.3
+     "km": 6
     },
     {
-     "km": 11.86
+     "km": 12
     },
     {
-     "km": 22.25
+     "km": 22
     },
     {
-     "km": 47.89
+     "km": 48
     }
    ],
    "vertical": false,
+   "category": "12km-Kat.M 22km-Kat.M 48km-Kat.M",
    "url": "https://b4sportonline.pl/turbacz_trail/",
    "sources": [
     {
-     "name": "b4sportonline.pl",
-     "url": "https://b4sportonline.pl/turbacz_trail/"
+     "name": "biegigorskie.pl",
+     "url": "https://www.biegigorskie.pl/kalendarz-2027/"
     },
     {
      "name": "regulamin",
      "url": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-Podhalanski-Bieg-Mikolajkowy-2026.pdf"
+    },
+    {
+     "name": "b4sportonline.pl",
+     "url": "https://b4sportonline.pl/turbacz_trail/"
     }
    ],
-   "signup": {
-    "status": "closed",
-    "until": "2027-02-08",
-    "limit": 50,
-    "registered": 62,
-    "source": "zapisy",
-    "sourceUrl": "https://b4sportonline.pl/turbacz_trail/",
-    "checkedAt": "2026-10-20"
-   },
-   "signupOpen": true,
-   "participants": 62,
    "regulaminUrl": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-Podhalanski-Bieg-Mikolajkowy-2026.pdf",
    "gear": [
     "Track lub mapa dystansu (bez Rodzinnych Mikołajek)",
     "Folia NRC min. 150x180 (bez Rodzinnych Mikołajek)",
     "Naładowany telefon z aplikacją RATUNEK"
    ],
+   "signup": {
+    "status": "closed",
+    "until": "2027-02-08",
+    "limit": 50,
+    "registered": 65,
+    "source": "zapisy",
+    "sourceUrl": "https://b4sportonline.pl/turbacz_trail/",
+    "checkedAt": "2026-10-22"
+   },
+   "signupOpen": true,
+   "participants": 65,
    "id": "turbacz-winter-trail-2027-02-13",
-   "surface": "przelaj",
-   "minKm": 6.3,
-   "maxKm": 47.89,
+   "surface": "trail",
+   "minKm": 6,
+   "maxKm": 48,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 6.3 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+   "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Zimowy Ultramaraton Karkonoski im. Tomka Kowalskiego",
@@ -10701,7 +10852,7 @@
     "limit": 455,
     "source": "regulamin",
     "sourceUrl": "https://sisxyz.pl/wp-content/uploads/2026/07/REGULAMIN_ZADEK_v1.2027.pdf",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-22"
    },
    "id": "ultra-zadek-festiwal-biegowy-2027-03-06",
    "minKm": 30,
@@ -10788,7 +10939,7 @@
      "dplus": 557,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/fa4925849089-barantrailrace10.gpx",
-     "dplusCheckedAt": "2026-10-20"
+     "dplusCheckedAt": "2026-10-22"
     },
     {
      "km": 25,
@@ -10797,7 +10948,7 @@
      "gpx": "c4ef4bc38861",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/4b4aaa605098-barantrailrace25.gpx",
-     "dplusCheckedAt": "2026-10-20"
+     "dplusCheckedAt": "2026-10-22"
     },
     {
      "km": 60,
@@ -10805,7 +10956,7 @@
      "dplus": 2397,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/4fe4278dd59f-barantrailrace60.gpx",
-     "dplusCheckedAt": "2026-10-20"
+     "dplusCheckedAt": "2026-10-22"
     },
     {
      "km": 100
@@ -10870,7 +11021,7 @@
     "limit": 150,
     "source": "regulamin",
     "sourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/assets/BTR_regulamin_2027_03.pdf",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-22"
    },
    "id": "baran-trail-race-winter-edition-2027-03-13",
    "surface": "trail",
@@ -10896,7 +11047,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://malopolskabiega.com.pl/wp-content/uploads/2026/06/us_lato_15_5km.gpx",
      "gpx": "72ad52c273e3",
-     "dplusCheckedAt": "2026-10-20",
+     "dplusCheckedAt": "2026-10-22",
      "dplusStale": true
     }
    ],
@@ -10955,7 +11106,7 @@
     "registered": 7,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/ultra_swir/",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-22"
    },
    "signupOpen": true,
    "participants": 7,
@@ -11038,7 +11189,7 @@
    "beginnerWhy": "najkrótszy dystans 10 km; średnio stromo: ok. 40 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Festiwal Pieszo - Biegowy PRZEDWIOŚNIE: Mini Przedwiośnie, Maraton Przedwiośnie, Ultra Przedwiośnie, Giga Przedwiośnie",
+   "name": "Festiwal Pieszo - Biegowy PRZEDWIOŚNIE: Maraton Przedwiośnie, Mini Przedwiośnie, Ultra Przedwiośnie, Giga Przedwiośnie",
    "eventName": "Festiwal Pieszo - Biegowy PRZEDWIOŚNIE",
    "dateStart": "2027-04-10",
    "dateEnd": "2027-04-10",
@@ -11079,7 +11230,7 @@
     "registered": 0,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/swietokrzyski_poziom_gor/",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-22"
    },
    "signupOpen": true,
    "participants": 0,
@@ -11181,7 +11332,7 @@
     "limit": 250,
     "source": "regulamin",
     "sourceUrl": "https://ultrawysoczyzna.pl/regulamin/",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-22"
    },
    "id": "meble-wojcik-ultra-wysoczyzna-2027-2027-04-16",
    "surface": "trail",
@@ -11306,7 +11457,7 @@
     "limit": 300,
     "source": "regulamin",
     "sourceUrl": "http://jedlina.pro-run.pl/regulamin-zimowy-polmaraton/",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-22"
    },
    "id": "festiwal-gorski-polmaraton-jedlina-zdroj-2027-05-09",
    "minKm": 10,
@@ -11368,7 +11519,7 @@
     "limit": 200,
     "source": "regulamin",
     "sourceUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-22"
    },
    "id": "ultra-trail-malopolska-2027-05-21",
    "surface": "trail",
@@ -11469,7 +11620,7 @@
     "status": "open",
     "source": "organizator",
     "sourceUrl": "https://www.biegrzeznika.pl/",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-22"
    },
    "id": "xiii-festiwal-biegu-rzeznika-2027-05-26",
    "surface": "trail",
@@ -11526,7 +11677,7 @@
     "note": "do wyczerpania limitu",
     "source": "regulamin",
     "sourceUrl": "https://b4sportonline.pl/suszecki_festiwal/regulamin",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-22"
    },
    "id": "suszecki-festiwal-biegowy-2027-06-12",
    "surface": "przelaj",
@@ -11556,7 +11707,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_08b1fbd6849c4777bf5e9b94fdc66a21.gpx?dn=ULTRA%20TURNICKI%2010%20KM%202026.gpx",
      "dplusStale": true,
-     "dplusCheckedAt": "2026-10-20",
+     "dplusCheckedAt": "2026-10-22",
      "gpx": "2d07e4b56fd0"
     },
     {
@@ -11565,7 +11716,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_8db1bd631c4b48108381e9287d00872a.gpx?dn=ULTRA%20TURNICKI%2024%20KM%202026.gpx",
      "dplusStale": true,
-     "dplusCheckedAt": "2026-10-20",
+     "dplusCheckedAt": "2026-10-22",
      "gpx": "255f38ef48ca"
     },
     {
@@ -11637,7 +11788,7 @@
     "note": "do wyczerpania limitu",
     "source": "regulamin",
     "sourceUrl": "https://www.ultraturnicki.pl/_files/ugd/883a2a_022e1d7fd8b5466e8866635383e749f7.pdf",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-22"
    },
    "id": "ultra-turnicki-2027-06-19",
    "minKm": 10,
@@ -11646,50 +11797,62 @@
    "beginnerWhy": "najkrótszy dystans 10 km; łagodnie: ok. 21 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "GDYNIA ULTRA WAY SUMMER RACE",
+   "name": "GDYNIA ULTRA WAY SUMMER RACE: W BLASKU KSIĘŻYCA 100 km+, RAZEM PO ZMROKU 60 km+, KLIFY O PORANKU 50 KM+, SŁONECZNE POPOŁUDNIE 27 KM+, NADMORSKI MENDEL 10 km, TRAIL SPRINT 5 km",
    "eventName": "GDYNIA ULTRA WAY SUMMER RACE",
    "dateStart": "2027-06-25",
    "dateEnd": "2027-06-26",
    "city": "Gdynia",
    "region": "",
-   "url": "https://ultra-way.pl/letni-festiwal-biegowy-ultra-way/",
    "distancesKm": [
-    14.86,
-    27.02,
-    50.26,
-    100.48,
-    164.49
+    5.49,
+    10.16,
+    27.7,
+    50.57,
+    60.6,
+    103.65
    ],
    "elevations": [
     {
-     "km": 14.86
+     "km": 5.49
     },
     {
-     "km": 27.02
+     "km": 10.16
     },
     {
-     "km": 50.26,
+     "km": 27.7
+    },
+    {
+     "km": 50.57,
      "dplus": 1663,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://ultra-way.pl/festiwal/letni-festiwal-biegowy-ultra-way/",
      "dplusCheckedAt": "2026-10-09"
     },
     {
-     "km": 100.48,
-     "dplus": 3064,
+     "km": 60.6,
+     "dplus": 1870,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://ultra-way.pl/festiwal/letni-festiwal-biegowy-ultra-way/",
      "dplusCheckedAt": "2026-10-09"
     },
     {
-     "km": 164.49
+     "km": 103.65,
+     "dplus": 3064,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://ultra-way.pl/festiwal/letni-festiwal-biegowy-ultra-way/",
+     "dplusCheckedAt": "2026-10-09"
     }
    ],
    "vertical": false,
-   "surface": "trail",
+   "category": "Kat.S",
+   "url": "https://ultra-way.pl/letni-festiwal-biegowy-ultra-way/",
    "sources": [
     {
-     "name": "strona organizatora (termin kolejnej edycji)",
+     "name": "biegigorskie.pl",
+     "url": "https://www.biegigorskie.pl/kalendarz-2027/"
+    },
+    {
+     "name": "strona organizatora",
      "url": "https://ultra-way.pl/letni-festiwal-biegowy-ultra-way/"
     },
     {
@@ -11701,7 +11864,6 @@
      "url": "http://ultra-way.pl/letni-festiwal-biegowy-ultra-way/regulamin/"
     }
    ],
-   "provisional": "termin ze strony organizatora, dystanse z poprzedniej edycji",
    "regulaminUrl": "http://ultra-way.pl/letni-festiwal-biegowy-ultra-way/regulamin/",
    "gear": [
     "Kurs trasy wgrany w urządzenie nawigacyjne",
@@ -11717,10 +11879,11 @@
     "Bidony/bukłaki minimum 1 litr (100km, 60km, 50km, 27km)"
    ],
    "id": "gdynia-ultra-way-summer-race-2027-06-25",
-   "minKm": 14.86,
-   "maxKm": 164.49,
-   "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 14.86 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+   "surface": "trail",
+   "minKm": 5.49,
+   "maxKm": 103.65,
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 5.49 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "WYSPOWY ULTRA ŚWIR",
@@ -11770,7 +11933,7 @@
     "registered": 0,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/ultra_swir/",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-22"
    },
    "signupOpen": true,
    "participants": 0,
@@ -11823,7 +11986,7 @@
     "registered": 0,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/Supermaraton_Gor_Stolowych/",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-22"
    },
    "signupOpen": true,
    "participants": 0,
@@ -11833,6 +11996,79 @@
    "maxKm": 55,
    "beginnerScore": 3,
    "beginnerWhy": "najkrótszy dystans 21 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
+  },
+  {
+   "name": "Izery Ultra-Trail: Izery Ultra 70, Izery Ultra 50, Izery Trail 35, Izery Trail 10, Izery Trail 25, Izery Trail 16, Izery Ultra-Trail 100",
+   "eventName": "Izery Ultra-Trail",
+   "dateStart": "2027-06-26",
+   "dateEnd": "2027-06-27",
+   "city": "Świeradów-Zdrój",
+   "region": "",
+   "distancesKm": [
+    10,
+    16,
+    25,
+    35,
+    50,
+    70,
+    100
+   ],
+   "elevations": [
+    {
+     "km": 10
+    },
+    {
+     "km": 16
+    },
+    {
+     "km": 25
+    },
+    {
+     "km": 35,
+     "limitH": 6
+    },
+    {
+     "km": 50,
+     "limitH": 10
+    },
+    {
+     "km": 70
+    },
+    {
+     "km": 100
+    }
+   ],
+   "vertical": false,
+   "url": "https://b4sportonline.pl/izery_ultratrail/",
+   "sources": [
+    {
+     "name": "b4sportonline.pl",
+     "url": "https://b4sportonline.pl/izery_ultratrail/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://izeryultratrail.pl/regulamin/"
+    }
+   ],
+   "signup": {
+    "status": "open",
+    "until": "2027-06-24",
+    "limit": 300,
+    "registered": 0,
+    "note": "do wyczerpania limitu",
+    "source": "zapisy",
+    "sourceUrl": "https://b4sportonline.pl/izery_ultratrail/",
+    "checkedAt": "2026-10-22"
+   },
+   "signupOpen": true,
+   "participants": 0,
+   "regulaminUrl": "https://izeryultratrail.pl/regulamin/",
+   "id": "izery-ultra-trail-2027-06-26",
+   "surface": "przelaj",
+   "minKm": 10,
+   "maxKm": 100,
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Śmierdzący Leń: Mały Śmierdzący Leń",
