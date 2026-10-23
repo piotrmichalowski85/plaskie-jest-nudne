@@ -1,5 +1,33 @@
 [
  {
+  "date": "2026-10-23",
+  "label": "sprzęt z regulaminów",
+  "total": 252,
+  "upcoming": 53,
+  "added": [
+   {
+    "id": "ultra-kamiensk-2027-02-07",
+    "eventName": "Ultra Kamieńsk",
+    "dateStart": "2027-02-07",
+    "city": "Góra Kamieńsk",
+    "provisional": true
+   }
+  ],
+  "removed": [],
+  "dateChanged": [],
+  "signupChanged": [],
+  "gearAdded": [
+   {
+    "id": "izery-ultra-trail-2027-06-26",
+    "eventName": "Izery Ultra-Trail",
+    "dateStart": "2027-06-26",
+    "city": "Świeradów-Zdrój"
+   }
+  ],
+  "dplusAdded": [],
+  "regulaminAdded": []
+ },
+ {
   "date": "2026-10-22",
   "label": "odświeżenie kalendarza",
   "total": 251,
