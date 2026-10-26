@@ -380,23 +380,23 @@
   "title": "Supermaratorn Gór Stołowych | Zimowy Półmaraton Gór Stołowych"
  },
  "https://www.maratonbieszczadzki.pl/": {
-  "checkedAt": "2026-10-12",
+  "checkedAt": "2026-10-26",
   "prev": "2026-10-09"
  },
  "https://ultrakotlina.pl/": {
-  "checkedAt": "2026-10-12",
+  "checkedAt": "2026-10-26",
   "prev": "2026-10-09"
  },
  "https://my.raceresult.com/392481/": {
-  "checkedAt": "2026-10-12",
+  "checkedAt": "2026-10-26",
   "prev": "2026-10-10"
  },
  "https://janosikraceseries.com/roztoczeultrarace/": {
-  "checkedAt": "2026-10-12",
+  "checkedAt": "2026-10-26",
   "prev": "2026-10-10"
  },
  "https://aktywnakorczyna.pl/": {
-  "checkedAt": "2026-10-12",
+  "checkedAt": "2026-10-26",
   "prev": "2026-10-10"
  },
  "https://winter.pomeraniatrail.pl/": {
@@ -414,5 +414,17 @@
  "https://ultralemkowyna.pl/": {
   "checkedAt": "2026-10-19",
   "prev": "2026-10-16"
+ },
+ "https://biegajwgorachsowich.pl/polmaraton-sowiogorski": {
+  "checkedAt": "2026-10-26",
+  "prev": "2026-05-02"
+ },
+ "https://janosikraceseries.com/smok/": {
+  "checkedAt": "2026-10-26",
+  "prev": "2026-10-24"
+ },
+ "http://maratonswietokrzyski.pl/": {
+  "checkedAt": "2026-10-26",
+  "prev": "2026-10-24"
  }
 }

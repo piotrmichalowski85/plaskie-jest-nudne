@@ -1,5 +1,39 @@
 [
  {
+  "date": "2026-10-26",
+  "label": "odświeżenie kalendarza",
+  "total": 253,
+  "upcoming": 48,
+  "added": [
+   {
+    "id": "zimowy-ultra-turnicki-2027-01-16",
+    "eventName": "ZIMOWY ULTRA TURNICKI",
+    "dateStart": "2027-01-16",
+    "city": "Huwniki"
+   }
+  ],
+  "removed": [],
+  "dateChanged": [],
+  "signupChanged": [],
+  "gearAdded": [],
+  "dplusAdded": [
+   {
+    "id": "xiii-zimowy-maraton-bieszczadzki-2027-01-23",
+    "eventName": "XIII Zimowy Maraton Bieszczadzki",
+    "dateStart": "2027-01-23",
+    "city": "Cisna"
+   }
+  ],
+  "regulaminAdded": [
+   {
+    "id": "xiii-zimowy-maraton-bieszczadzki-2027-01-23",
+    "eventName": "XIII Zimowy Maraton Bieszczadzki",
+    "dateStart": "2027-01-23",
+    "city": "Cisna"
+   }
+  ]
+ },
+ {
   "date": "2026-10-23",
   "label": "sprzęt z regulaminów",
   "total": 252,
