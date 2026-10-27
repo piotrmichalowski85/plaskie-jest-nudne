@@ -1,5 +1,37 @@
 [
  {
+  "date": "2026-10-27",
+  "label": "sprzęt z regulaminów",
+  "total": 253,
+  "upcoming": 48,
+  "added": [],
+  "removed": [],
+  "dateChanged": [],
+  "signupChanged": [],
+  "gearAdded": [
+   {
+    "id": "gdynia-ultra-way-2027-01-16",
+    "eventName": "GDYNIA ULTRA WAY",
+    "dateStart": "2027-01-16",
+    "city": "Gdynia"
+   },
+   {
+    "id": "zimowy-ultra-turnicki-2027-01-16",
+    "eventName": "ZIMOWY ULTRA TURNICKI",
+    "dateStart": "2027-01-16",
+    "city": "Huwniki"
+   },
+   {
+    "id": "ultra-turnicki-2027-06-19",
+    "eventName": "ULTRA TURNICKI",
+    "dateStart": "2027-06-19",
+    "city": "Huwniki"
+   }
+  ],
+  "dplusAdded": [],
+  "regulaminAdded": []
+ },
+ {
   "date": "2026-10-26",
   "label": "odświeżenie kalendarza",
   "total": 253,
