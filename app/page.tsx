@@ -2,6 +2,7 @@ import Link from "next/link";
 import { upcomingRaces, today, allRaces } from "@/lib/data";
 import { PosterCard } from "@/components/PosterCard";
 import { Ticker } from "@/components/Ticker";
+import { Polecamy } from "@/components/Polecamy";
 import type { Metadata } from "next";
 export const metadata: Metadata = { alternates: { canonical: "/" } };
 
@@ -53,6 +54,7 @@ export default function Home() {
           <Link href="/slownik" className="card block hover:border-[var(--moss)]"><h3 className="text-[1.7rem]">Słownik trailowy</h3><p className="mt-1 text-sm text-[var(--muted)]">D+, cutoff, sprzęt obowiązkowy, kije, ITRA i UTMB. Jak tłumaczy się je na podbiegu.</p></Link>
         </div>
       </section>
+      <Polecamy />
       <p className="text-xs text-[var(--muted)]">{allRaces.length} biegów w bazie, odświeżane co tydzień. Fakty pochodzą z kalendarzy, platform zapisów i stron organizatorów.</p>
     </div>
   );

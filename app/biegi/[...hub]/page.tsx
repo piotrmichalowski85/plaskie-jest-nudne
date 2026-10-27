@@ -48,7 +48,7 @@ export default async function HubPage({ params }: { params: Promise<{ hub: strin
       <section className="mt-6">
         {upcoming.length ? <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{upcoming.map((r) => <PosterCard key={r.id} race={r} today={t} />)}</div>
           : <p className="card text-[var(--muted)]">Brak nadchodzących biegów w tym zestawieniu. Zajrzyj do <Link className="underline" href="/biegi">pełnego kalendarza</Link> albo <Link className="underline" href="/kreator">kreatora pierwszego biegu</Link>.</p>}
-        <p className="mt-4 text-sm"><Link href={h.kind === "pasmo" && !h.label.includes(" i ") && !/^(Beskidy|Sudety)$/.test(h.label) ? `/biegi?pasmo=${encodeURIComponent(h.label)}` : "/biegi"} className="underline font-semibold text-[var(--moss)]">Pełny kalendarz z filtrami</Link>{h.kind === "temat" && h.path[0] === "dla-poczatkujacych" ? <> albo <Link href="/kreator" className="underline font-semibold text-[var(--moss)]">kreator: pięć pytań i trzy biegi na Twój staż</Link></> : null}.</p>
+        <p className="mt-4 text-sm"><Link href={h.kind === "wojewodztwo" ? `/biegi?woj=${encodeURIComponent(h.label)}` : h.kind === "pasmo" && !h.label.includes(" i ") && !/^(Beskidy|Sudety)$/.test(h.label) ? `/biegi?pasmo=${encodeURIComponent(h.label)}` : "/biegi"} className="underline font-semibold text-[var(--moss)]">Pełny kalendarz z filtrami</Link>{h.kind === "temat" && h.path[0] === "dla-poczatkujacych" ? <> albo <Link href="/kreator" className="underline font-semibold text-[var(--moss)]">kreator: pięć pytań i trzy biegi na Twój staż</Link></> : null}.</p>
       </section>
 
       {past.length > 0 && (
@@ -66,6 +66,7 @@ export default async function HubPage({ params }: { params: Promise<{ hub: strin
 
       <section className="mt-10 space-y-5">
         <HubNav current={h} kind="pasmo" heading="Pasma i regiony" />
+        <HubNav current={h} kind="wojewodztwo" heading="Województwa" />
         <HubNav current={h} kind="miesiac" heading="Miesiące" />
         <HubNav current={h} kind="temat" heading="Zestawienia" />
       </section>

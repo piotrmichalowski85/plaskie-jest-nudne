@@ -20,7 +20,9 @@ export function RaceList({ races, regions, today }: { races: RaceWithGeo[]; regi
   const [from, setFrom] = useState("");
   const [to, setTo] = useState("");
   const [dist, setDist] = useState("all");
-  const [surface, setSurface] = useState("");
+  const [woj, setWoj] = useState("");
+  const [kmFrom, setKmFrom] = useState("");
+  const [kmTo, setKmTo] = useState("");
   const [start, setStart] = useState(false);
   const [past, setPast] = useState(false);
   const [hideClosed, setHideClosed] = useState(false);
@@ -33,6 +35,7 @@ export function RaceList({ races, regions, today }: { races: RaceWithGeo[]; regi
     if (sp.get("open") === "1") setHideClosed(true);
     if (sp.get("view") === "mapa") setView("mapa");
     const p = sp.get("pasmo"); if (p && regions.includes(p)) setRegion(p);
+    const w = sp.get("woj"); if (w) setWoj(w);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   const weekend = (() => { const d = new Date(today + "T12:00:00"); const dow = d.getDay(); const sat = new Date(d); sat.setDate(d.getDate() + ((6 - dow + 7) % 7)); const sun = new Date(sat); sun.setDate(sat.getDate() + 1); return [sat.toISOString().slice(0, 10), sun.toISOString().slice(0, 10)]; })();
@@ -45,18 +48,25 @@ export function RaceList({ races, regions, today }: { races: RaceWithGeo[]; regi
     navigator.geolocation.getCurrentPosition((p) => { setMe([p.coords.latitude, p.coords.longitude]); setGeoErr(""); }, () => setGeoErr("Brak zgody na udostępnienie lokalizacji."), { timeout: 8000 });
   };
 
+  const wojs = useMemo(() => [...new Set(races.map((r) => r.woj).filter(Boolean) as string[])].sort((a, b) => a.localeCompare(b, "pl")), [races]);
+  // własne widełki km: liczby 0-500, "od" nie większe niż "do"; puste pole = bez ograniczenia z tej strony
+  const parseKm = (v: string) => { const t = v.trim().replace(",", "."); if (!t) return null; const n = Number(t); return Number.isFinite(n) && n >= 0 && n <= 500 ? n : NaN; };
+  const kf = parseKm(kmFrom), kt = parseKm(kmTo);
+  const kmErr = Number.isNaN(kf) || Number.isNaN(kt) ? "Podaj liczbę kilometrów od 0 do 500." : kf !== null && kt !== null && kf > kt ? "\"Od\" nie może być większe niż \"do\"." : "";
+  const customKm = !kmErr && (kf !== null || kt !== null);
+  const inKm = (r: Race) => r.distancesKm.some((k) => (kf === null || k >= kf) && (kt === null || k <= kt));
   const list = useMemo(() => races.filter((r) =>
     (past || r.dateEnd >= today) &&
     (!q || (r.name + " " + r.city + " " + r.region).toLowerCase().includes(q.toLowerCase())) &&
     (!region || r.region === region) &&
     (!from || r.dateEnd >= from) &&
     (!to || r.dateStart <= to) &&
-    DIST.find((d) => d.id === dist)!.test(r) &&
-    (!surface || r.surface === surface) &&
+    (customKm ? inKm(r) : DIST.find((d) => d.id === dist)!.test(r)) &&
+    (!woj || r.woj === woj) &&
     (!start || r.beginnerScore >= 4) &&
     (!hideClosed || r.signup?.status !== "closed") &&
     (!me || (r.lat !== undefined && r.lng !== undefined && distKm(me, [r.lat, r.lng]) <= radius))
-  ).sort((a, b) => me && a.lat !== undefined && b.lat !== undefined ? distKm(me, [a.lat, a.lng!]) - distKm(me, [b.lat, b.lng!]) : 0), [races, q, region, from, to, dist, surface, start, past, today, me, radius, hideClosed]);
+  ).sort((a, b) => me && a.lat !== undefined && b.lat !== undefined ? distKm(me, [a.lat, a.lng!]) - distKm(me, [b.lat, b.lng!]) : 0), [races, q, region, woj, from, to, dist, customKm, kf, kt, start, past, today, me, radius, hideClosed]);
 
   return (
     <div>
@@ -72,12 +82,14 @@ export function RaceList({ races, regions, today }: { races: RaceWithGeo[]; regi
       </div>
       <div className="card grid gap-3 sm:grid-cols-3 lg:grid-cols-7 mb-6">
         <div className="sm:col-span-3 lg:col-span-2 flex flex-col gap-1"><label>Szukaj</label><input type="text" placeholder="nazwa, miasto, pasmo" value={q} onChange={(e) => setQ(e.target.value)} /></div>
-        <div className="flex flex-col gap-1"><label>Pasmo</label><select value={region} onChange={(e) => setRegion(e.target.value)}><option value="">wszystkie</option>{regions.map((r) => <option key={r}>{r}</option>)}</select></div>
+        <div className="flex flex-col gap-1"><label htmlFor="f-pasmo">Pasmo</label><select id="f-pasmo" value={region} onChange={(e) => setRegion(e.target.value)}><option value="">wszystkie</option>{regions.map((r) => <option key={r}>{r}</option>)}</select></div>
+        <div className="flex flex-col gap-1"><label htmlFor="f-woj">Województwo</label><select id="f-woj" value={woj} onChange={(e) => setWoj(e.target.value)}><option value="">wszystkie</option>{wojs.map((w) => <option key={w} value={w}>{w}</option>)}</select></div>
         <div className="flex flex-col gap-1"><label htmlFor="f-od">Od</label><input id="f-od" type="date" value={from} min={past ? undefined : today} onChange={(e) => setFrom(e.target.value)} /></div>
         <div className="flex flex-col gap-1"><label htmlFor="f-do">Do</label><input id="f-do" type="date" value={to} min={from || undefined} onChange={(e) => setTo(e.target.value)} /></div>
-        <div className="flex flex-col gap-1"><label>Dystans</label><select value={dist} onChange={(e) => setDist(e.target.value)}>{DIST.map((d) => <option key={d.id} value={d.id}>{d.label}</option>)}</select></div>
-        <div className="flex flex-col gap-1"><label>Teren</label><select value={surface} onChange={(e) => setSurface(e.target.value)}><option value="">każdy</option><option value="gorski">górski</option><option value="trail">trail</option><option value="przelaj">przełaj</option></select></div>
-        <div className="sm:col-span-3 lg:col-span-7 flex flex-wrap gap-4 text-sm items-center">
+        <div className="flex flex-col gap-1"><label htmlFor="f-dist">Dystans</label><select id="f-dist" value={dist} disabled={customKm} onChange={(e) => setDist(e.target.value)} className={customKm ? "opacity-50" : ""}>{DIST.map((d) => <option key={d.id} value={d.id}>{d.label}</option>)}</select></div>
+        <div className="sm:col-span-2 lg:col-span-2 flex flex-col gap-1"><label htmlFor="f-km-od">Albo własne widełki: km od - do</label><div className="flex items-center gap-1"><input id="f-km-od" type="text" inputMode="decimal" placeholder="od" value={kmFrom} onChange={(e) => setKmFrom(e.target.value)} className="w-full min-w-0 !px-2" aria-invalid={!!kmErr} /><span className="text-[var(--muted)]">-</span><input aria-label="Dystans do (km)" type="text" inputMode="decimal" placeholder="do" value={kmTo} onChange={(e) => setKmTo(e.target.value)} className="w-full min-w-0 !px-2" aria-invalid={!!kmErr} /></div></div>
+        {kmErr && <p className="sm:col-span-3 lg:col-span-6 -mt-1 text-xs text-[#a1291c]">{kmErr}</p>}
+        <div className="sm:col-span-3 lg:col-span-3 flex flex-wrap gap-4 text-sm items-center lg:justify-end">
           <label className="flex items-center gap-2 cursor-pointer"><input type="checkbox" checked={past} onChange={(e) => setPast(e.target.checked)} /> pokaż też minione</label>
           {me && <span className="flex items-center gap-2">promień: <select value={radius} onChange={(e) => setRadius(+e.target.value)} className="!py-1">{[50, 120, 200, 400].map((k) => <option key={k} value={k}>do {k} km</option>)}</select></span>}
           {geoErr && <span className="text-[#a1291c]">{geoErr}</span>}

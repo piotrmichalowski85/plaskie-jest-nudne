@@ -14,6 +14,7 @@ WEEK="$(date '+%G-W%V')-$([ "$(date +%u)" -le 3 ] && echo a || echo b)"
   git pull -q --rebase origin main || { echo "git pull failed"; exit 1; }
   cp data/races.json /tmp/prev_races_gear.json
   npx tsx scripts/scrape.ts | tail -3          # odświeża cache regulaminów (teksty lokalnie)
+  npx tsx scripts/geocode.ts | tail -1         # współrzędne i województwo dla nowych miejscowości (Nominatim, 1 zapytanie/s)
   npx tsx scripts/gear_llm.ts 40 | tail -3     # czyta max 40 nowych regulaminów
   npx tsx scripts/scrape.ts | tail -1          # nakłada listy sprzętu na dane
   node -e 'process.exit(require("./data/races.json").count>=100?0:1)'

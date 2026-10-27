@@ -10,12 +10,12 @@ export default function Biegi() {
     <div>
       <h1 className="text-[3rem] mb-1">Kalendarz biegów</h1>
       <p className="text-[var(--muted)] mb-6">Biegi górskie, trailowe i przełajowe w całej Polsce. Zielony = dobry na start, żółty = ujdzie na start, czerwony = zły na start.</p>
-      <RaceList races={allRaces.map((r) => { const g = geoFor(r.city); return g ? { ...r, lat: g.lat, lng: g.lng } : r; })} regions={regions()} today={today()} />
+      <RaceList races={allRaces.map((r) => { const g = geoFor(r.city); return g ? { ...r, lat: g.lat, lng: g.lng, woj: g.woj } : r; })} regions={regions()} today={today()} />
       <section className="mt-12 space-y-5">
         <h2 className="text-[1.9rem]">Zestawienia</h2>
-        {(["pasmo", "miesiac", "temat"] as const).map((k) => (
+        {(["pasmo", "wojewodztwo", "miesiac", "temat"] as const).map((k) => (
           <div key={k}>
-            <p className="step mb-1.5">{k === "pasmo" ? "Pasma i regiony" : k === "miesiac" ? "Miesiące" : "Tematycznie"}</p>
+            <p className="step mb-1.5">{k === "pasmo" ? "Pasma i regiony" : k === "wojewodztwo" ? "Województwa" : k === "miesiac" ? "Miesiące" : "Tematycznie"}</p>
             <div className="flex flex-wrap gap-1.5">{allHubs().filter((h) => h.kind === k).map((h) => <Link key={hubPath(h)} href={hubPath(h)} className="qchip">{h.label}</Link>)}</div>
           </div>
         ))}

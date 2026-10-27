@@ -3,8 +3,9 @@ import type { Race } from "./types";
 import { allRaces, today } from "./data";
 import { slugify } from "./normalize";
 import { fmtKm } from "./format";
+import { wojFor } from "./geo";
 
-export type HubKind = "pasmo" | "miesiac" | "temat";
+export type HubKind = "pasmo" | "wojewodztwo" | "miesiac" | "temat";
 export type Hub = {
   path: string[]; // segmenty po /biegi/
   kind: HubKind;
@@ -71,6 +72,18 @@ function build(): Hub[] {
       title: `${region}: biegi górskie i trailowe ${season}`, h1: `Biegi górskie i trailowe: ${region}`,
       description: `${region}: kalendarz biegów górskich i trailowych ${season} z dystansami, przewyższeniem, limitami czasu, statusem zapisów i oceną dla początkujących.`,
       lead: leadFor(upcoming(f), `w paśmie ${region}`) });
+  }
+  // województwa (z geokodowania miejscowości startu), co najmniej 2 biegi w bazie
+  const wc = new Map<string, number>();
+  for (const r of allRaces) { const w = wojFor(r.city); if (w) wc.set(w, (wc.get(w) || 0) + 1); }
+  for (const [w, n] of [...wc.entries()].sort((a, b) => a[0].localeCompare(b[0], "pl"))) {
+    if (n < 2) continue;
+    const f = (r: Race) => wojFor(r.city) === w;
+    const loc = `w województwie ${w.replace(/ie$/, "im")}`;
+    hubs.push({ path: ["wojewodztwo", slugify(w)], kind: "wojewodztwo", label: w, filter: f,
+      title: `Biegi górskie i trailowe ${loc} ${season}: kalendarz`, h1: `Biegi górskie i trailowe ${loc}`,
+      description: `Kalendarz biegów górskich, trailowych i przełajowych ${loc}: terminy ${season}, dystanse, przewyższenia, limity czasu, zapisy i ocena dla początkujących.`,
+      lead: leadFor(upcoming(f), loc) });
   }
   // miesiące: od bieżącego, każdy z co najmniej jednym nadchodzącym biegiem
   const months = new Set(allRaces.filter((r) => r.dateEnd >= t).map((r) => r.dateStart.slice(0, 7)));

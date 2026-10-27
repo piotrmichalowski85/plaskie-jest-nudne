@@ -167,7 +167,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
         <aside className="space-y-4 md:sticky md:top-20">
           <div className="card text-sm flex items-start gap-2">
             <span className="text-[var(--moss)] mt-0.5"><IconPin /></span>
-            <span><span className="font-semibold">{r.city}{r.region ? `, ${r.region}` : ""}</span>{g && <><br /><a className="underline text-[var(--moss)]" href={`https://www.google.com/maps/dir/?api=1&destination=${g.lat},${g.lng}`} target="_blank" rel="noopener">Jak dojechać</a></>}</span>
+            <span><span className="font-semibold">{r.city}{r.region ? `, ${r.region}` : ""}</span>{g?.woj ? <span className="block text-xs text-[var(--muted)]">woj. {g.woj}</span> : null}{g && <><br /><a className="underline text-[var(--moss)]" href={`https://www.google.com/maps/dir/?api=1&destination=${g.lat},${g.lng}`} target="_blank" rel="noopener">Jak dojechać</a></>}</span>
           </div>
           {g || mapTrack ? <RaceMap lat={g?.lat ?? mapTrack!.coords[0][1]} lng={g?.lng ?? mapTrack!.coords[0][0]} label={`${r.eventName}, ${r.city}`} track={mapTrack?.coords} /> : <div className="card text-sm text-[var(--muted)]">Mapa: brak współrzędnych dla "{r.city}".</div>}
           {mapTrack && mapTrackEl && <p className="text-xs text-[var(--muted)]">Na mapie: ślad GPX dystansu {fmtKm(mapTrackEl.km)}{mapTrackEl.dplusStale ? " (plik z poprzedniej edycji)" : ""}.</p>}
