@@ -1,5 +1,43 @@
 [
  {
+  "date": "2026-10-29",
+  "label": "odświeżenie kalendarza",
+  "total": 257,
+  "upcoming": 52,
+  "added": [
+   {
+    "id": "podhalanski-rajd-pieszy-niepodlegla-polska-2026-11-11",
+    "eventName": "Podhalański Rajd Pieszy „Niepodległa Polska”",
+    "dateStart": "2026-11-11",
+    "city": "Klikuszowa"
+   },
+   {
+    "id": "pieniny-by-utmb-2027-04-22",
+    "eventName": "PIENINY by UTMB®",
+    "dateStart": "2027-04-22",
+    "city": "Ochotnica Dolna"
+   },
+   {
+    "id": "rudawy-wiosenny-festiwal-biegowy-2027-05-22",
+    "eventName": "Rudawy Wiosenny Festiwal Biegowy",
+    "dateStart": "2027-05-22",
+    "city": "Browar Miedzianka"
+   },
+   {
+    "id": "lemkowyna-trail-zapisy-2027-10-23",
+    "eventName": "Łemkowyna Trail - zapisy",
+    "dateStart": "2027-10-23",
+    "city": "Iwonicz-Zdrój"
+   }
+  ],
+  "removed": [],
+  "dateChanged": [],
+  "signupChanged": [],
+  "gearAdded": [],
+  "dplusAdded": [],
+  "regulaminAdded": []
+ },
+ {
   "date": "2026-10-27",
   "label": "sprzęt z regulaminów",
   "total": 253,
