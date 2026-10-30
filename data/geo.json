@@ -1253,5 +1253,26 @@
   "display": "Ciekoty, gmina Masłów, powiat kielecki",
   "at": "2026-10-27",
   "woj": "świętokrzyskie"
+ },
+ "brzesko": {
+  "lat": 49.9678396,
+  "lng": 20.6068496,
+  "display": "Brzesko, gmina Brzesko, powiat brzeski",
+  "at": "2026-10-30",
+  "woj": "małopolskie"
+ },
+ "klikuszowa": {
+  "lat": 49.518927,
+  "lng": 19.9855146,
+  "display": "Klikuszowa, gmina Nowy Targ, powiat nowotarski",
+  "at": "2026-10-30",
+  "woj": "małopolskie"
+ },
+ "browar miedzianka": {
+  "lat": 50.877862,
+  "lng": 15.939045,
+  "display": "Browar Miedzianka, Mniszków, Miedzianka",
+  "at": "2026-10-30",
+  "woj": "dolnośląskie"
  }
 }

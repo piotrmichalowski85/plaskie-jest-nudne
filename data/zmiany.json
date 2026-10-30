@@ -1,5 +1,56 @@
 [
  {
+  "date": "2026-10-30",
+  "label": "sprzęt z regulaminów",
+  "total": 259,
+  "upcoming": 56,
+  "added": [
+   {
+    "id": "iv-bieg-niepodleglosci-11-kilometrow-dla-niepodleglej-2026-11-07",
+    "eventName": "IV Bieg Niepodległości „11 kilometrów dla Niepodległej”",
+    "dateStart": "2026-11-07",
+    "city": "Brzesko"
+   },
+   {
+    "id": "gorce-ultra-trail-winter-2027-02-27",
+    "eventName": "Gorce Ultra-Trail ® WINTER",
+    "dateStart": "2027-02-27",
+    "city": "Ochotnica Górna"
+   },
+   {
+    "id": "18-bieg-weganski-2027-05-23",
+    "eventName": "18 Bieg Wegański",
+    "dateStart": "2027-05-23",
+    "city": "Warszawa"
+   },
+   {
+    "id": "gorce-ultra-trail-2027-07-30",
+    "eventName": "GORCE ULTRA-TRAIL ®",
+    "dateStart": "2027-07-30",
+    "city": "Ochotnica Dolna"
+   }
+  ],
+  "removed": [],
+  "dateChanged": [],
+  "signupChanged": [],
+  "gearAdded": [
+   {
+    "id": "podhalanski-rajd-pieszy-niepodlegla-polska-2026-11-11",
+    "eventName": "Podhalański Rajd Pieszy „Niepodległa Polska”",
+    "dateStart": "2026-11-11",
+    "city": "Klikuszowa"
+   },
+   {
+    "id": "rudawy-wiosenny-festiwal-biegowy-2027-05-22",
+    "eventName": "Rudawy Wiosenny Festiwal Biegowy",
+    "dateStart": "2027-05-22",
+    "city": "Browar Miedzianka"
+   }
+  ],
+  "dplusAdded": [],
+  "regulaminAdded": []
+ },
+ {
   "date": "2026-10-29",
   "label": "odświeżenie kalendarza",
   "total": 257,

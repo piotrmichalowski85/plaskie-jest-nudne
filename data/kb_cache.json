@@ -2583,5 +2583,148 @@
   ],
   "modified": "2026-10-07T15:10:04",
   "fetchedAt": "2026-10-08"
+ },
+ "4666": {
+  "id": 4666,
+  "name": "IV Bieg Niepodległości „11 kilometrów dla Niepodległej”",
+  "url": "https://kalendarzbiegowy.pl/biegi/iv-bieg-niepodleglosci-11-kilometrow-dla-niepodleglej/",
+  "start": "2026-11-07",
+  "end": "2026-11-07",
+  "city": "Brzesko",
+  "kinds": [
+   "trail"
+  ],
+  "distancesKm": [
+   2,
+   5.5,
+   11.8
+  ],
+  "dplus": [
+   {
+    "km": 2
+   },
+   {
+    "km": 5.5
+   },
+   {
+    "km": 11.8
+   }
+  ],
+  "modified": "2026-10-29T13:51:57",
+  "fetchedAt": "2026-10-30"
+ },
+ "4668": {
+  "id": 4668,
+  "name": "18 Bieg Wegański",
+  "url": "https://kalendarzbiegowy.pl/biegi/18-bieg-weganski/",
+  "start": "2027-05-23",
+  "end": "2027-05-23",
+  "city": "Warszawa",
+  "kinds": [
+   "przelaj",
+   "trail"
+  ],
+  "distancesKm": [
+   2.5,
+   10
+  ],
+  "dplus": [
+   {
+    "km": 2.5
+   },
+   {
+    "km": 10
+   }
+  ],
+  "modified": "2026-10-29T13:57:12",
+  "fetchedAt": "2026-10-30"
+ },
+ "4669": {
+  "id": 4669,
+  "name": "Gorce Ultra-Trail ® WINTER 2027",
+  "url": "https://kalendarzbiegowy.pl/biegi/gorce-ultra-trail-winter-2027/",
+  "start": "2027-02-27",
+  "end": "2027-02-27",
+  "city": "Ochotnica Górna",
+  "kinds": [
+   "gorski",
+   "ultra"
+  ],
+  "distancesKm": [
+   10,
+   24,
+   32,
+   42
+  ],
+  "dplus": [
+   {
+    "km": 10,
+    "dplus": 450
+   },
+   {
+    "km": 24,
+    "dplus": 1100
+   },
+   {
+    "km": 32,
+    "dplus": 1460
+   },
+   {
+    "km": 42,
+    "dplus": 2220
+   }
+  ],
+  "modified": "2026-10-29T13:57:55",
+  "fetchedAt": "2026-10-30"
+ },
+ "4670": {
+  "id": 4670,
+  "name": "GORCE ULTRA-TRAIL ® 2027",
+  "url": "https://kalendarzbiegowy.pl/biegi/gorce-ultra-trail2027/",
+  "start": "2027-07-30",
+  "end": "2027-08-01",
+  "city": "Ochotnica Dolna",
+  "kinds": [
+   "gorski",
+   "ultra"
+  ],
+  "distancesKm": [
+   5,
+   5.5,
+   11,
+   20,
+   33,
+   48,
+   67,
+   100
+  ],
+  "dplus": [
+   {
+    "km": 5
+   },
+   {
+    "km": 5.5
+   },
+   {
+    "km": 11
+   },
+   {
+    "km": 20
+   },
+   {
+    "km": 33
+   },
+   {
+    "km": 48
+   },
+   {
+    "km": 67
+   },
+   {
+    "km": 100
+   }
+  ],
+  "modified": "2026-10-29T13:39:23",
+  "fetchedAt": "2026-10-30"
  }
 }
