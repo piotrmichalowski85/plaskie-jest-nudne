@@ -400,20 +400,26 @@
   "prev": "2026-10-10"
  },
  "https://winter.pomeraniatrail.pl/": {
-  "checkedAt": "2026-10-19",
+  "checkedAt": "2026-11-02",
   "prev": "2026-02-28"
  },
  "http://summer.pomeraniatrail.pl/": {
-  "checkedAt": "2026-10-19",
+  "checkedAt": "2026-11-02",
   "prev": "2026-06-13"
  },
  "https://pomeraniatrail.pl/": {
-  "checkedAt": "2026-10-19",
+  "checkedAt": "2026-11-02",
   "prev": "2026-10-17"
  },
  "https://ultralemkowyna.pl/": {
-  "checkedAt": "2026-10-19",
-  "prev": "2026-10-16"
+  "checkedAt": "2026-11-02",
+  "prev": "2026-10-16",
+  "found": {
+   "start": "2027-10-23",
+   "end": "2027-10-24"
+  },
+  "hits": 5,
+  "title": "Łemkowyna Trail"
  },
  "https://biegajwgorachsowich.pl/polmaraton-sowiogorski": {
   "checkedAt": "2026-10-26",

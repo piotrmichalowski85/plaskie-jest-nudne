@@ -1,5 +1,71 @@
 [
  {
+  "date": "2026-11-02",
+  "label": "odświeżenie kalendarza",
+  "total": 261,
+  "upcoming": 58,
+  "added": [
+   {
+    "id": "zimowy-ultramaraton-annogorski-2027-01-16",
+    "eventName": "Zimowy Ultramaraton Annogórski",
+    "dateStart": "2027-01-16",
+    "city": "Góra Św.Anny"
+   },
+   {
+    "id": "tatra-fest-run-2027-06-12",
+    "eventName": "TATRA FEST RUN",
+    "dateStart": "2027-06-12",
+    "city": "Witów Ski"
+   },
+   {
+    "id": "festiwal-biegowy-jurarun-2027-09-24",
+    "eventName": "Festiwal Biegowy JuraRun",
+    "dateStart": "2027-09-24",
+    "city": "Podlesice"
+   }
+  ],
+  "removed": [
+   {
+    "id": "ultramaraton-annogorski-2027-01-16",
+    "eventName": "ULTRAMARATON ANNOGÓRSKI",
+    "dateStart": "2027-01-16",
+    "city": "Góra Świętej Anny"
+   }
+  ],
+  "dateChanged": [],
+  "signupChanged": [],
+  "gearAdded": [
+   {
+    "id": "lemkowyna-trail-zapisy-2027-10-23",
+    "eventName": "Łemkowyna Trail - zapisy",
+    "dateStart": "2027-10-23",
+    "city": "Iwonicz-Zdrój"
+   }
+  ],
+  "dplusAdded": [
+   {
+    "id": "borecka-lekuk-trail-2026-11-21",
+    "eventName": "Borecka Łękuk Trail",
+    "dateStart": "2026-11-21",
+    "city": "Łękuk Mały"
+   },
+   {
+    "id": "lemkowyna-trail-zapisy-2027-10-23",
+    "eventName": "Łemkowyna Trail - zapisy",
+    "dateStart": "2027-10-23",
+    "city": "Iwonicz-Zdrój"
+   }
+  ],
+  "regulaminAdded": [
+   {
+    "id": "lemkowyna-trail-zapisy-2027-10-23",
+    "eventName": "Łemkowyna Trail - zapisy",
+    "dateStart": "2027-10-23",
+    "city": "Iwonicz-Zdrój"
+   }
+  ]
+ },
+ {
   "date": "2026-10-30",
   "label": "sprzęt z regulaminów",
   "total": 259,
