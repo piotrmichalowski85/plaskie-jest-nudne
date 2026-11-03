@@ -1274,5 +1274,12 @@
   "display": "Browar Miedzianka, Mniszków, Miedzianka",
   "at": "2026-10-30",
   "woj": "dolnośląskie"
+ },
+ "witów ski": {
+  "lat": 49.3199694,
+  "lng": 19.8187107,
+  "display": "Witów Ski, 958, Witów",
+  "at": "2026-11-03",
+  "woj": "małopolskie"
  }
 }
