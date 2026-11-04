@@ -76,5 +76,12 @@ else out.push("## Ruch na stronie", "", "Brak GA4_PROPERTY_ID w konfiguracji.", 
 // baza
 try { const j = JSON.parse(readFileSync("data/races.json", "utf8")); const t = iso(today); const up = j.races.filter((r) => r.dateEnd >= t);
   out.push("## Baza", "", `${j.races.length} biegów, ${up.length} nadchodzących, zapisy otwarte ${up.filter((r) => r.signup?.status === "open").length}, z regulaminem ${up.filter((r) => r.regulaminUrl).length}, ze sprzętem ${up.filter((r) => r.gear?.length).length}, z D+ ${up.filter((r) => r.elevations.some((e) => e.dplus)).length}. Dziennik zmian: https://plaskiejestnudne.pl/zmiany`, ""); } catch {}
+// Exec summary (dwa akapity) na górze
+const num = (re) => { const m = out.join("\n").match(re); return m ? m.slice(1) : null; };
+const k = num(/\| Kliknięcia \| (\d+) \| (\d+) \| ([^|]*)\|/), w = num(/\| Wyświetlenia \| (\d+) \| (\d+) \| ([^|]*)\|/), u = num(/\| Użytkownicy \| (\d+) \| (\d+) \| ([^|]*)\|/);
+const topQ = num(/### Zapytania[\s\S]*?\n\| ([^|]+) \| (\d+) \|/); const topP = num(/### Strony[\s\S]*?\n\| ([^|]+) \| (\d+) \|/);
+const p1 = k ? `Google dał ${k[0]} kliknięć (${k[2].trim() || "bez zmiany"} wobec poprzedniego tygodnia) przy ${w ? w[0] : "?"} wyświetleniach${w && w[2].trim() ? ` (${w[2].trim()})` : ""}${u ? `; Analytics (tylko po zgodzie) policzył ${u[0]} użytkowników${u[2].trim() ? ` (${u[2].trim()})` : ""}` : ""}. Najczęstsze zapytanie: "${topQ ? topQ[0].trim() : "brak"}", najczęściej klikana strona: ${topP ? topP[0].trim() : "brak"}.` : "Brak danych z Google w tym tygodniu (szczegóły niżej).";
+const p2 = "Nic na Tobie poza lekturą: raport jest informacyjny. Jeśli jakaś liczba odstaje (spadek kliknięć o ponad 30% tydzień do tygodnia, strona z dużą liczbą wyświetleń i zerem kliknięć), napisz w czacie, a zespół sprawdzi przyczynę i zaproponuje zmianę.";
+out.splice(1, 0, "## Exec summary", "", p1, "", p2, "");
 const md = out.join("\n");
 if (OUT) writeFileSync(OUT, md); console.log(md);

@@ -12,6 +12,8 @@ OUTDIR="$MB/_side/fun_gory_utmb/statystyki"; LOG="$REPO/data/.stats.log"; STAMP=
   node scripts/stats/tydzien.mjs --out "$F" > /dev/null
   if grep -q "Brak danych" "$F"; then echo "raport z brakami (API bez dostępu?)"; fi
   REL="_side/fun_gory_utmb/statystyki/$(date '+%Y-%m-%d').md"
-  cd "$MB" && python3 .claude/scripts/zad.py add --title "Przeczytaj statystyki tygodnia plaskiejestnudne.pl (Search Console, GA4, baza) i zdecyduj, czy coś zmieniamy" --owner Piotr --due "$(date '+%d.%m')" --project Global --kind akcja --area Plaskie --card "$REL" --label "statystyki" >> "$LOG" 2>&1 || echo "zad.py add nie przeszło"
+  ID="statystyki-plaskie-$(date '+%Y%m%d')"
+  cd "$MB" && python3 .claude/scripts/zad.py add --id "$ID" --title "Przeczytaj statystyki tygodnia plaskiejestnudne.pl (Search Console, GA4, baza) i zdecyduj, czy coś zmieniamy" --owner Piotr --due "$(date '+%d.%m')" --project Global --kind akcja --area Plaskie --card "$REL" --label "statystyki" >> "$LOG" 2>&1 || echo "zad.py add nie przeszło"
+  python3 .claude/scripts/zad.py karta "$ID" --gotowe >> "$LOG" 2>&1 || echo "zad.py karta --gotowe nie przeszło"
   echo "$WEEK" > "$STAMP"; echo "done $WEEK -> $F"
 } >> "$LOG" 2>&1
