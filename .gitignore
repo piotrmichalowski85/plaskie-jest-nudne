@@ -44,3 +44,5 @@ next-env.d.ts
 data/.regulaminy_text/
 data/.weekly_gear.log
 data/.weekly_gear.done
+data/.stats.log
+data/.stats.done
