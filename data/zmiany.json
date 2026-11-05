@@ -1,5 +1,44 @@
 [
  {
+  "date": "2026-11-05",
+  "label": "odświeżenie kalendarza",
+  "total": 261,
+  "upcoming": 60,
+  "added": [
+   {
+    "id": "gorce-ultra-trail-winter-2027-zadyszka-2027-02-27",
+    "eventName": "Gorce Ultra-Trail WINTER 2027 ZaDyszka",
+    "dateStart": "2027-02-27",
+    "city": "Ochotnica Górna"
+   },
+   {
+    "id": "xrun-2027-03-07",
+    "eventName": "XRUN",
+    "dateStart": "2027-03-07",
+    "city": "Kornatka"
+   },
+   {
+    "id": "run-bike-orlich-gniazd-2027-09-10",
+    "eventName": "Run & Bike Orlich Gniazd",
+    "dateStart": "2027-09-10",
+    "city": "Częstochowa Olsztyn Bydlin Kraków Krakowsko- Częstochowska >"
+   }
+  ],
+  "removed": [
+   {
+    "id": "gorce-ultra-trail-winter-2027-02-27",
+    "eventName": "Gorce Ultra-Trail ® WINTER",
+    "dateStart": "2027-02-27",
+    "city": "Ochotnica Górna"
+   }
+  ],
+  "dateChanged": [],
+  "signupChanged": [],
+  "gearAdded": [],
+  "dplusAdded": [],
+  "regulaminAdded": []
+ },
+ {
   "date": "2026-11-03",
   "label": "sprzęt z regulaminów",
   "total": 261,
