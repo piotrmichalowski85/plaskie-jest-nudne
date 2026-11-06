@@ -1281,5 +1281,26 @@
   "display": "Witów Ski, 958, Witów",
   "at": "2026-11-03",
   "woj": "małopolskie"
+ },
+ "kornatka": {
+  "lat": 49.8486045,
+  "lng": 20.0807898,
+  "display": "Kornatka, gmina Dobczyce, powiat myślenicki",
+  "at": "2026-11-06",
+  "woj": "małopolskie"
+ },
+ "sportow": {
+  "lat": 53.4287814,
+  "lng": 18.7637025,
+  "display": "Plaża Gminnego Ośrodka Sportów Wodnych w Białym Borze, Rudnik, Grudziądz",
+  "at": "2026-11-06",
+  "woj": "kujawsko-pomorskie"
+ },
+ "częstochowa olsztyn bydlin kraków krakowsko- częstochowska >": {
+  "lat": 50.7494569,
+  "lng": 19.2686901,
+  "display": "Olsztyn, gmina Olsztyn, powiat częstochowski",
+  "at": "2026-11-06",
+  "woj": "śląskie"
  }
 }

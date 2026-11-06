@@ -1,5 +1,101 @@
 [
  {
+  "date": "2026-11-06",
+  "label": "sprzęt z regulaminów",
+  "total": 270,
+  "upcoming": 69,
+  "added": [
+   {
+    "id": "zimowy-bieg-zboja-2027-01-10",
+    "eventName": "Zimowy Bieg Zbója",
+    "dateStart": "2027-01-10",
+    "city": "Bielsko-Biała",
+    "provisional": true
+   },
+   {
+    "id": "x-run-tajemnicze-kopce-2027-03-07",
+    "eventName": "X-RUN Tajemnicze Kopce",
+    "dateStart": "2027-03-07",
+    "city": "Dobczyce",
+    "provisional": true
+   },
+   {
+    "id": "zimowy-baran-trail-race-btr-2027-03-13",
+    "eventName": "Zimowy Baran Trail Race BTR",
+    "dateStart": "2027-03-13",
+    "city": "SPORTOW"
+   },
+   {
+    "id": "x-run-wyspowy-trail-2027-05-16",
+    "eventName": "X-RUN Wyspowy Trail",
+    "dateStart": "2027-05-16",
+    "city": "Limanowa",
+    "provisional": true
+   },
+   {
+    "id": "ultramaraton-6xbabia-gora-2027-06-05",
+    "eventName": "Ultramaraton 6xBabia Góra",
+    "dateStart": "2027-06-05",
+    "city": "Lipnica Wielka",
+    "provisional": true
+   },
+   {
+    "id": "x-run-mercure-szczyrk-run-2027-06-20",
+    "eventName": "X-RUN Mercure Szczyrk Run",
+    "dateStart": "2027-06-20",
+    "city": "Szczyrk",
+    "provisional": true
+   },
+   {
+    "id": "dfbg-2027-07-15",
+    "eventName": "DFBG",
+    "dateStart": "2027-07-15",
+    "city": "Lądek-Zdrój"
+   },
+   {
+    "id": "x-run-ucieczka-sw-kingi-2027-07-25",
+    "eventName": "X-RUN Ucieczka św.Kingi",
+    "dateStart": "2027-07-25",
+    "city": "Krościenko Nad Dunajcem",
+    "provisional": true
+   },
+   {
+    "id": "x-run-vistula-trail-2027-09-12",
+    "eventName": "X-RUN Vistula Trail",
+    "dateStart": "2027-09-12",
+    "city": "Wisła",
+    "provisional": true
+   }
+  ],
+  "removed": [],
+  "dateChanged": [],
+  "signupChanged": [
+   {
+    "id": "pieniny-by-utmb-2027-04-22",
+    "eventName": "PIENINY by UTMB®",
+    "from": "unknown",
+    "to": "closed"
+   }
+  ],
+  "gearAdded": [
+   {
+    "id": "run-bike-orlich-gniazd-2027-09-10",
+    "eventName": "Run & Bike Orlich Gniazd",
+    "dateStart": "2027-09-10",
+    "city": "Częstochowa Olsztyn Bydlin Kraków Krakowsko- Częstochowska >"
+   }
+  ],
+  "dplusAdded": [],
+  "regulaminAdded": [
+   {
+    "id": "run-bike-orlich-gniazd-2027-09-10",
+    "eventName": "Run & Bike Orlich Gniazd",
+    "dateStart": "2027-09-10",
+    "city": "Częstochowa Olsztyn Bydlin Kraków Krakowsko- Częstochowska >"
+   }
+  ]
+ },
+ {
   "date": "2026-11-05",
   "label": "odświeżenie kalendarza",
   "total": 261,
@@ -603,60 +699,5 @@
     "city": "Cisna"
    }
   ]
- },
- {
-  "date": "2026-10-10",
-  "label": "ręczne odświeżenie 9-10.10",
-  "total": 246,
-  "upcoming": 56,
-  "added": [
-   {
-    "id": "ultra-zadek-festiwal-biegowy-2027-03-06",
-    "eventName": "Ultra ZADEK Festiwal Biegowy",
-    "dateStart": "2027-03-06",
-    "city": "Kędzierzyn-Koźle",
-    "provisional": true
-   },
-   {
-    "id": "baran-trail-race-winter-edition-2027-03-13",
-    "eventName": "Baran Trail Race Winter Edition",
-    "dateStart": "2027-03-13",
-    "city": "Węgierska Górka"
-   },
-   {
-    "id": "festiwal-biegow-gorskich-3xkopa-2027-04-23",
-    "eventName": "Festiwal Biegów Górskich 3xKopa",
-    "dateStart": "2027-04-23",
-    "city": "Pokrzywna",
-    "provisional": true
-   },
-   {
-    "id": "festiwal-gorski-polmaraton-jedlina-zdroj-2027-05-09",
-    "eventName": "Festiwal Górski Półmaraton Jedlina-Zdrój",
-    "dateStart": "2027-05-09",
-    "city": "Jedlina-Zdrój",
-    "provisional": true
-   },
-   {
-    "id": "ultra-turnicki-2027-06-19",
-    "eventName": "ULTRA TURNICKI",
-    "dateStart": "2027-06-19",
-    "city": "Huwniki",
-    "provisional": true
-   },
-   {
-    "id": "gdynia-ultra-way-summer-race-2027-06-25",
-    "eventName": "GDYNIA ULTRA WAY SUMMER RACE",
-    "dateStart": "2027-06-25",
-    "city": "Gdynia",
-    "provisional": true
-   }
-  ],
-  "removed": [],
-  "dateChanged": [],
-  "signupChanged": [],
-  "gearAdded": [],
-  "dplusAdded": [],
-  "regulaminAdded": []
  }
 ]

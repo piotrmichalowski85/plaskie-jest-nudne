@@ -2726,5 +2726,33 @@
   ],
   "modified": "2026-10-29T13:39:23",
   "fetchedAt": "2026-10-30"
+ },
+ "4681": {
+  "id": 4681,
+  "name": "Festiwal Biegowy JuraRun 2027",
+  "url": "https://kalendarzbiegowy.pl/biegi/festiwal-biegowy-jurarun-2027/",
+  "start": "2027-09-24",
+  "end": "2027-09-25",
+  "city": "Podlesice",
+  "kinds": [
+   "gorski",
+   "przelaj",
+   "ultra",
+   "trail"
+  ],
+  "distancesKm": [
+   12,
+   100
+  ],
+  "dplus": [
+   {
+    "km": 12
+   },
+   {
+    "km": 100
+   }
+  ],
+  "modified": "2026-11-03T09:42:58",
+  "fetchedAt": "2026-11-06"
  }
 }
