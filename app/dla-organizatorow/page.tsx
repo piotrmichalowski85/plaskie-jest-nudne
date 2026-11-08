@@ -21,7 +21,7 @@ export default function DlaOrganizatorow() {
   return (
     <article className="max-w-[52rem]">
       <h1 className="text-[3rem] sm:text-[3.6rem] leading-none">Dla organizatorów</h1>
-      <p className="mt-3 leading-relaxed text-[#3d4d34]">Płaskie jest nudne to niekomercyjny kalendarz biegów górskich, trailowych i przełajowych w Polsce, pisany z myślą o osobach, które szukają pierwszego startu w terenie. Mamy {allRaces.length} biegów w bazie, w tym {races.length} nadchodzących, a {good} z nich ma ocenę "dobry na start". Każdy link do Waszej strony ma parametry UTM (<code>utm_source=plaskiejestnudne.pl</code>), więc ruch od nas widać w Waszych statystykach.</p>
+      <p className="mt-3 leading-relaxed text-[#3d4d34]">Płaskie jest nudne to niekomercyjny kalendarz biegów górskich, trailowych i przełajowych w Polsce, pisany z myślą o osobach, które szukają pierwszego startu w terenie. Mamy {allRaces.length} biegów w bazie, w tym {races.length} nadchodzących, a {good} z nich ma ocenę &quot;dobry na start&quot;. Każdy link do Waszej strony ma parametry UTM (<code>utm_source=plaskiejestnudne.pl</code>), więc ruch od nas widać w Waszych statystykach.</p>
 
       <section className="entry">
         <h2 className="text-[1.9rem]">Co pokazujemy o Waszym biegu</h2>
@@ -29,7 +29,7 @@ export default function DlaOrganizatorow() {
           <li>termin, miejsce, dystanse i przewyższenia (z GPX, strony trasy, regulaminu albo kalendarzy, zawsze z podanym źródłem),</li>
           <li>z regulaminu: limity czasu, opłaty i progi cenowe, godziny startu, biuro zawodów, bufety, sprzęt obowiązkowy, zasady dotyczące kijów i psów,</li>
           <li>status zapisów, profil trasy i mapę (gdy jest ślad GPX), pogodę w terminie biegu,</li>
-          <li>ocenę "dobry na start" liczoną z najkrótszego dystansu i przewyższenia na kilometr (<Link className="underline" href="/o-serwisie">jak liczymy</Link>).</li>
+          <li>ocenę &quot;dobry na start&quot; liczoną z najkrótszego dystansu i przewyższenia na kilometr (<Link className="underline" href="/o-serwisie">jak liczymy</Link>).</li>
         </ul>
         <p className="mt-3 text-sm text-[var(--muted)]">Nie kopiujemy list startowych, wyników ani Waszych opisów. Zawsze odsyłamy do oryginalnego regulaminu i do Waszej strony zapisów.</p>
       </section>
@@ -42,7 +42,7 @@ export default function DlaOrganizatorow() {
 
       <section className="entry">
         <h2 className="text-[1.9rem]">Odznaka na stronę biegu</h2>
-        <p className="mt-3 leading-relaxed">Bieg z zieloną oceną dostaje odznakę "Dobry na start", pozostałe odznakę "W kalendarzu". Odznaka prowadzi do strony biegu u nas: z limitem, sprzętem, profilem trasy i kalkulatorem "Czy dam radę?". Wybierzcie bieg i skopiujcie kod do strony (HTML).</p>
+        <p className="mt-3 leading-relaxed">Bieg z zieloną oceną dostaje odznakę &quot;Dobry na start&quot;, pozostałe odznakę &quot;W kalendarzu&quot;. Odznaka prowadzi do strony biegu u nas: z limitem, sprzętem, profilem trasy i kalkulatorem &quot;Czy dam radę?&quot;. Wybierzcie bieg i skopiujcie kod do strony (HTML).</p>
         <div className="card mt-4"><BadgeSnippet races={races} /></div>
       </section>
 

@@ -37,7 +37,7 @@ let done = 0, empty = 0, fail = 0;
 for (const f of importFiles) {
   for (const [u, raw] of Object.entries(JSON.parse(readFileSync(f, "utf8")) as Record<string, Record<string, unknown>>)) {
     const x = clean(raw); info[u] = { ...x, at: new Date().toISOString() };
-    Object.keys(x).some((k) => k !== "year") ? done++ : empty++;
+    if (Object.keys(x).some((k) => k !== "year")) done++; else empty++;
   }
   writeFileSync(OUT, JSON.stringify(sortKeys(info), null, 1) + "\n");
 }
@@ -53,7 +53,7 @@ for (const u of importFiles.length ? [] : urls) {
     const x = clean(JSON.parse(m[0]));
     info[u] = { ...x, at: new Date().toISOString() };
     const n = Object.keys(x).filter((k) => k !== "year").length;
-    n ? done++ : empty++;
+    if (n) done++; else empty++;
     console.log(n ? `+ ${Object.keys(x).join(",")}` : "- pusto", u);
   } catch (err) {
     fail++;

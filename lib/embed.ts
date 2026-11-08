@@ -1,7 +1,7 @@
 /** Widget do osadzenia (iframe) na stronach organizatorów i blogów: najbliższe biegi z huba, link do kalendarza. */
 import type { Race } from "./types";
 import { allHubs, hubPath, hubRaces, type Hub } from "./hubs";
-import { upcomingRaces, today } from "./data";
+import { upcomingRaces } from "./data";
 import { SITE } from "./seo";
 import { fmtKm, level, scoreLabel } from "./format";
 
@@ -19,7 +19,6 @@ const utm = (u: string, content: string) => `${u}?utm_source=widget&utm_medium=e
 export function embedHtml(sp: URLSearchParams): string {
   const h = embedHub(sp);
   const limit = Math.min(10, Math.max(1, Number(sp.get("limit")) || 5));
-  const t = today();
   const list: Race[] = (h ? hubRaces(h).upcoming : upcomingRaces().sort((a, b) => a.dateStart.localeCompare(b.dateStart))).slice(0, limit);
   const title = h ? h.h1 : "Najbliższe biegi górskie i trailowe";
   const more = h ? `${SITE}${hubPath(h)}` : `${SITE}/biegi`;

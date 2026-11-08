@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import { Bebas_Neue, Inter } from "next/font/google";
 import "./globals.css";
@@ -14,15 +14,19 @@ export const metadata: Metadata = {
   title: { default: "Płaskie jest nudne: biegi górskie i trailowe w Polsce", template: "%s | Płaskie jest nudne" },
   description: "Kalendarz biegów górskich, trailowych i przełajowych w Polsce z filtrami po przewyższeniu, dystansie i regionie oraz kreator pierwszego niepłaskiego biegu.",
   openGraph: { type: "website", locale: "pl_PL", siteName: "Płaskie jest nudne" },
+  robots: { index: true, follow: true, "max-image-preview": "large", googleBot: { index: true, follow: true, "max-image-preview": "large" } },
 };
+
+export const viewport: Viewport = { themeColor: "#2f5d3a" };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pl" className={`${display.variable} ${body.variable}`}>
       <body className="min-h-screen flex flex-col">
+        <a href="#tresc" className="skip-link">Przejdź do treści</a>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }} />
         <header className="sticky top-0 z-10 bg-[var(--bg)]/90 backdrop-blur border-b border-[var(--line)]">
-          <nav className="mx-auto max-w-6xl px-4 h-16 flex items-center justify-between gap-4">
+          <nav aria-label="Główna nawigacja" className="mx-auto max-w-6xl px-4 h-16 flex items-center justify-between gap-4">
             <Link href="/" aria-label="Płaskie jest nudne, strona główna"><Logo /></Link>
             <div className="flex items-center gap-4 sm:gap-6 text-sm font-semibold text-[var(--moss-dark)]">
               <Link href="/biegi">Biegi</Link>
@@ -33,7 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
           </nav>
         </header>
-        <main className="mx-auto w-full min-w-0 max-w-6xl px-4 py-8 flex-1">{children}</main>
+        <main id="tresc" tabIndex={-1} className="mx-auto w-full min-w-0 max-w-6xl px-4 py-8 flex-1 outline-none">{children}</main>
         <footer className="border-t border-[var(--line)] text-sm text-[var(--muted)]">
           <div className="mx-auto max-w-6xl px-4 py-6 flex flex-col sm:flex-row gap-2 justify-between">
             <span>Płaskie jest nudne: wejdź w trail, zacznij od podbiegu. Serwis niekomercyjny.</span>
