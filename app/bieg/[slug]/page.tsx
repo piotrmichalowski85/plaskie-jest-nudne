@@ -16,6 +16,8 @@ import { IconExternal, IconDoc, IconCalendar, IconPin } from "@/components/Icons
 import { raceTitle, raceDescription, raceJsonLd, nextEditionOf, prevEditionOf, year } from "@/lib/seo";
 import { hubsForRace, hubPath } from "@/lib/hubs";
 import { feeTiers, currentFee, fmtPln } from "@/lib/fees";
+import { weatherFor, codeLabel, deg } from "@/lib/weather";
+import { dow } from "@/lib/format";
 
 const srcLabel: Record<string, string> = { gpx: "policzone z GPX", trasa: "wg podstrony \"Trasa\" organizatora", organizator: "wg strony organizatora", regulamin: "wg regulaminu", kalendarz: "wg kalendarza" };
 
@@ -100,6 +102,36 @@ function RegInfoSection({ r, past }: { r: Race; past: boolean }) {
   );
 }
 
+function WeatherSection({ r }: { r: Race }) {
+  const w = weatherFor(r.id);
+  if (!w) return null;
+  const t = today();
+  const days = (w.forecast?.days ?? []).filter((d) => d.date >= t);
+  const c = w.climate;
+  if (!days.length && !c) return null;
+  const dd = (iso: string) => `${dow(iso)} ${Number(iso.slice(8, 10))}.${iso.slice(5, 7)}`;
+  const coldest = Math.min(...days.map((d) => d.tmin ?? 99), c?.tmin ?? 99);
+  const hint = coldest <= 2 ? "Rano może być przymrozek: przyda się warstwa termiczna, czapka i rękawiczki." : (c && c.rainShare >= 40) || days.some((d) => (d.prob ?? 0) >= 60) ? "Spora szansa na deszcz: kurtka z kapturem i zapasowa warstwa w depozycie." : "";
+  return (
+    <section className="card">
+      <h2 className="text-[1.6rem]">Pogoda</h2>
+      {days.length > 0 && (
+        <div className="mt-2">
+          <p className="text-sm font-semibold text-[var(--moss-dark)]">Prognoza w miejscu startu (z {Number(w.forecast!.at.slice(8, 10))}.{w.forecast!.at.slice(5, 7)})</p>
+          <ul className="mt-1 text-sm space-y-0.5">{days.map((d) => (
+            <li key={d.date}><span className="font-semibold">{dd(d.date)}:</span> {d.tmin !== undefined && d.tmax !== undefined ? `${deg(d.tmin)} do ${deg(d.tmax)}` : ""}{codeLabel(d.code) ? `, ${codeLabel(d.code)}` : ""}{d.precip ? `, opady ${d.precip} mm` : ""}{d.prob !== undefined ? ` (szansa ${Math.round(d.prob)}%)` : ""}{d.wind !== undefined ? `, wiatr do ${Math.round(d.wind)} km/h` : ""}</li>
+          ))}</ul>
+        </div>
+      )}
+      {c && (
+        <p className={`text-sm ${days.length ? "mt-3" : "mt-2"}`}><span className="font-semibold text-[var(--moss-dark)]">Typowo w tym terminie</span> (lata {c.years}, tydzień przed i po dacie startu, w miejscu startu): w dzień średnio {deg(c.tmax)}, w nocy {deg(c.tmin)}, opady powyżej 1 mm w {c.rainShare}% dni. Rozrzut w tych latach: od {deg(c.tminLo)} do {deg(c.tmaxHi)}.</p>
+      )}
+      {hint && <p className="mt-2 text-sm">{hint}</p>}
+      <p className="mt-2 text-xs text-[var(--muted)]">Na grzbietach zwykle jest chłodniej i bardziej wietrznie niż w miejscu startu. Dane pogodowe: <a className="underline" href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo.com</a>, licencja <a className="underline" href="https://creativecommons.org/licenses/by/4.0/deed.pl" target="_blank" rel="noopener">CC BY 4.0</a>.</p>
+    </section>
+  );
+}
+
 export default async function RacePage({ params }: { params: Promise<{ slug: string }> }) {
   const r = raceById((await params).slug);
   if (!r) notFound();
@@ -174,6 +206,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
           )}
 
           <RegInfoSection r={r} past={past} />
+          {!past && <WeatherSection r={r} />}
 
           <section className="card">
             <h2 className="text-[1.6rem]">Zanim się zapiszesz</h2>

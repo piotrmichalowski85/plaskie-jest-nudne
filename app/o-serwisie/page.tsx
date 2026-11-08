@@ -25,7 +25,7 @@ export default function About() {
         <section className="entry">
           <p className="step">02 · Skąd dane</p>
           <h2 className="text-[1.9rem] mt-1">Tylko fakty, zawsze ze źródłem</h2>
-          <p className="mt-3 leading-relaxed">Zbieramy wyłącznie fakty: nazwę, datę, miejsce, dystanse i przewyższenia, zawsze z linkiem do źródła i strony organizatora. Nie kopiujemy list startowych, wyników ani opisów. Baza odświeża się automatycznie raz w tygodniu.</p>
+          <p className="mt-3 leading-relaxed">Zbieramy wyłącznie fakty: nazwę, datę, miejsce, dystanse i przewyższenia, zawsze z linkiem do źródła i strony organizatora. Z regulaminów automat wyciąga limity czasu, opłaty, godziny startu i sprzęt obowiązkowy (zawsze z linkiem do oryginału). Nie kopiujemy list startowych, wyników ani opisów. Baza odświeża się automatycznie dwa razy w tygodniu. Pogoda przy biegach pochodzi z <a className="underline" href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo.com</a> (licencja CC BY 4.0).</p>
         </section>
         <section className="entry md:col-span-2">
           <p className="step">03 · Ocena "dobry na start"</p>
