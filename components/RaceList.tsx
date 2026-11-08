@@ -85,20 +85,20 @@ export function RaceList({ races: upcoming, regions, today, pastUrl }: { races: 
   return (
     <div>
       <div className="flex flex-wrap gap-2 mb-4">
-        <button className={`qchip${from === weekend[0] && to === weekend[1] ? " on" : ""}`} onClick={() => { if (from === weekend[0] && to === weekend[1]) { setFrom(""); setTo(""); } else { setFrom(weekend[0]); setTo(weekend[1]); } }}>Ten weekend</button>
-        <button className={`qchip${from === today && to === monthEnd ? " on" : ""}`} onClick={() => { if (from === today && to === monthEnd) { setFrom(""); setTo(""); } else { setFrom(today); setTo(monthEnd); } }}>Ten miesiąc</button>
-        <button className={`qchip${start ? " on" : ""}`} onClick={() => setStart(!start)}>Dobry na start</button>
-        <button className={`qchip${dist === "s" ? " on" : ""}`} onClick={() => setDist(dist === "s" ? "all" : "s")}>Do 15 km</button>
-        <button className={`qchip${dist === "u" ? " on" : ""}`} onClick={() => setDist(dist === "u" ? "all" : "u")}>Ultra</button>
-        <button className={`qchip${hideClosed ? " on" : ""}`} onClick={() => setHideClosed(!hideClosed)} title="Ukrywa tylko biegi, o których wiemy, że zapisy są zamknięte. Biegi bez informacji zostają.">Ukryj zamknięte zapisy</button>
-        <button className={`qchip${poles ? " on" : ""}`} onClick={() => setPoles(!poles)} title="Regulamin wprost dopuszcza kije. Biegi bez tej informacji w regulaminie są ukryte.">Z kijami</button>
-        <button className={`qchip${dogs ? " on" : ""}`} onClick={() => setDogs(!dogs)} title="Regulamin dopuszcza bieg z psem (canicross albo pies na smyczy).">Z psem</button>
-        <button className={`qchip${kids ? " on" : ""}`} onClick={() => setKids(!kids)} title="W programie imprezy jest bieg dla dzieci.">Bieg dla dzieci</button>
+        <button aria-pressed={from === weekend[0] && to === weekend[1]} className={`qchip${from === weekend[0] && to === weekend[1] ? " on" : ""}`} onClick={() => { if (from === weekend[0] && to === weekend[1]) { setFrom(""); setTo(""); } else { setFrom(weekend[0]); setTo(weekend[1]); } }}>Ten weekend</button>
+        <button aria-pressed={from === today && to === monthEnd} className={`qchip${from === today && to === monthEnd ? " on" : ""}`} onClick={() => { if (from === today && to === monthEnd) { setFrom(""); setTo(""); } else { setFrom(today); setTo(monthEnd); } }}>Ten miesiąc</button>
+        <button aria-pressed={start} className={`qchip${start ? " on" : ""}`} onClick={() => setStart(!start)}>Dobry na start</button>
+        <button aria-pressed={dist === "s"} className={`qchip${dist === "s" ? " on" : ""}`} onClick={() => setDist(dist === "s" ? "all" : "s")}>Do 15 km</button>
+        <button aria-pressed={dist === "u"} className={`qchip${dist === "u" ? " on" : ""}`} onClick={() => setDist(dist === "u" ? "all" : "u")}>Ultra</button>
+        <button aria-pressed={hideClosed} className={`qchip${hideClosed ? " on" : ""}`} onClick={() => setHideClosed(!hideClosed)} title="Ukrywa tylko biegi, o których wiemy, że zapisy są zamknięte. Biegi bez informacji zostają.">Ukryj zamknięte zapisy</button>
+        <button aria-pressed={poles} className={`qchip${poles ? " on" : ""}`} onClick={() => setPoles(!poles)} title="Regulamin wprost dopuszcza kije. Biegi bez tej informacji w regulaminie są ukryte.">Z kijami</button>
+        <button aria-pressed={dogs} className={`qchip${dogs ? " on" : ""}`} onClick={() => setDogs(!dogs)} title="Regulamin dopuszcza bieg z psem (canicross albo pies na smyczy).">Z psem</button>
+        <button aria-pressed={kids} className={`qchip${kids ? " on" : ""}`} onClick={() => setKids(!kids)} title="W programie imprezy jest bieg dla dzieci.">Bieg dla dzieci</button>
         {me ? <button className="qchip on" onClick={() => setMe(null)}>Blisko mnie: do {radius} km ✕</button> : <button className="qchip" onClick={locate}>Blisko mnie</button>}
-        <span className="ml-auto inline-flex rounded-full border border-[var(--moss)] overflow-hidden text-xs font-semibold">{(["lista", "mapa"] as const).map((v) => <button key={v} onClick={() => setView(v)} className={`px-3 py-1.5 ${view === v ? "bg-[var(--moss)] text-white" : "text-[var(--moss)]"}`}>{v}</button>)}</span>
+        <span role="group" aria-label="Widok" className="ml-auto inline-flex rounded-full border border-[var(--moss)] overflow-hidden text-xs font-semibold">{(["lista", "mapa"] as const).map((v) => <button key={v} aria-pressed={view === v} onClick={() => setView(v)} className={`px-3 py-1.5 ${view === v ? "bg-[var(--moss)] text-white" : "text-[var(--moss)]"}`}>{v}</button>)}</span>
       </div>
       <div className="card grid gap-3 sm:grid-cols-3 lg:grid-cols-7 mb-6">
-        <div className="sm:col-span-3 lg:col-span-2 flex flex-col gap-1"><label>Szukaj</label><input type="text" placeholder="nazwa, miasto, pasmo" value={q} onChange={(e) => setQ(e.target.value)} /></div>
+        <div className="sm:col-span-3 lg:col-span-2 flex flex-col gap-1"><label htmlFor="f-q">Szukaj</label><input id="f-q" type="search" placeholder="nazwa, miasto, pasmo" value={q} onChange={(e) => setQ(e.target.value)} /></div>
         <div className="flex flex-col gap-1"><label htmlFor="f-pasmo">Pasmo</label><select id="f-pasmo" value={region} onChange={(e) => setRegion(e.target.value)}><option value="">wszystkie</option>{regions.map((r) => <option key={r}>{r}</option>)}</select></div>
         <div className="flex flex-col gap-1"><label htmlFor="f-woj">Województwo</label><select id="f-woj" value={woj} onChange={(e) => setWoj(e.target.value)}><option value="">wszystkie</option>{wojs.map((w) => <option key={w} value={w}>{w}</option>)}</select></div>
         <div className="flex flex-col gap-1"><label htmlFor="f-od">Od</label><input id="f-od" type="date" value={from} min={past ? undefined : today} onChange={(e) => setFrom(e.target.value)} /></div>
@@ -110,9 +110,10 @@ export function RaceList({ races: upcoming, regions, today, pastUrl }: { races: 
           <label className="flex items-center gap-2 cursor-pointer"><input type="checkbox" checked={past} onChange={(e) => setPast(e.target.checked)} /> pokaż też minione</label>
           {me && <span className="flex items-center gap-2">promień: <select value={radius} onChange={(e) => setRadius(+e.target.value)} className="!py-1">{[50, 120, 200, 400].map((k) => <option key={k} value={k}>do {k} km</option>)}</select></span>}
           {geoErr && <span className="text-[#a1291c]">{geoErr}</span>}
-          <span className="ml-auto text-[var(--muted)]">{list.length} biegów</span>
+          <span className="ml-auto text-[var(--muted)]" role="status" aria-live="polite">{list.length} biegów{past && !pastRaces ? " (wczytuję minione...)" : ""}</span>
         </div>
       </div>
+      <h2 className="sr-only">Lista biegów</h2>
       <div className="min-h-[60vh]">{view === "mapa" ? <RacesMap races={list} center={me ?? undefined} /> : list.length === 0 ? <p className="text-[var(--muted)]">Nic nie pasuje. Poluzuj filtry albo zajrzyj do kreatora.</p> : (
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{list.map((r) => <PosterCard key={r.id} race={r} today={today} />)}</div>
       )}</div>
