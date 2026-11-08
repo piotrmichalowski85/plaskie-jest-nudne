@@ -6,6 +6,7 @@ import { PosterCard } from "@/components/PosterCard";
 import { today } from "@/lib/data";
 import { fmtDate, fmtKm } from "@/lib/format";
 import { SITE, year } from "@/lib/seo";
+import { SubscribeIcs } from "@/components/SubscribeIcs";
 
 export const dynamicParams = false;
 export function generateStaticParams() { return allHubs().map((h) => ({ hub: h.path })); }
@@ -50,6 +51,8 @@ export default async function HubPage({ params }: { params: Promise<{ hub: strin
           : <p className="card text-[var(--muted)]">Brak nadchodzących biegów w tym zestawieniu. Zajrzyj do <Link className="underline" href="/biegi">pełnego kalendarza</Link> albo <Link className="underline" href="/kreator">kreatora pierwszego biegu</Link>.</p>}
         <p className="mt-4 text-sm"><Link href={h.kind === "wojewodztwo" ? `/biegi?woj=${encodeURIComponent(h.label)}` : h.kind === "pasmo" && !h.label.includes(" i ") && !/^(Beskidy|Sudety)$/.test(h.label) ? `/biegi?pasmo=${encodeURIComponent(h.label)}` : "/biegi"} className="underline font-semibold text-[var(--moss)]">Pełny kalendarz z filtrami</Link>{h.kind === "temat" && h.path[0] === "dla-poczatkujacych" ? <> albo <Link href="/kreator" className="underline font-semibold text-[var(--moss)]">kreator: pięć pytań i trzy biegi na Twój staż</Link></> : null}.</p>
       </section>
+
+      <div className="mt-6"><SubscribeIcs path={`${hubPath(h)}.ics`} what={`Biegi z zestawienia "${h.label}"`} /></div>
 
       {past.length > 0 && (
         <section className="mt-10">
