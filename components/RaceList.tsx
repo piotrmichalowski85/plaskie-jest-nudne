@@ -26,6 +26,9 @@ export function RaceList({ races, regions, today }: { races: RaceWithGeo[]; regi
   const [start, setStart] = useState(false);
   const [past, setPast] = useState(false);
   const [hideClosed, setHideClosed] = useState(false);
+  const [poles, setPoles] = useState(false);
+  const [dogs, setDogs] = useState(false);
+  const [kids, setKids] = useState(false);
   const [view, setView] = useState<"lista" | "mapa">("lista");
   // filtry z adresu (?start=1&dist=s&open=1&view=mapa&pasmo=...) dopiero po zamontowaniu: serwer renderuje pełną listę z linkami (SEO), przeglądarka zawęża
   useEffect(() => {
@@ -36,6 +39,9 @@ export function RaceList({ races, regions, today }: { races: RaceWithGeo[]; regi
     if (sp.get("view") === "mapa") setView("mapa");
     const p = sp.get("pasmo"); if (p && regions.includes(p)) setRegion(p);
     const w = sp.get("woj"); if (w) setWoj(w);
+    if (sp.get("kije") === "1") setPoles(true);
+    if (sp.get("pies") === "1") setDogs(true);
+    if (sp.get("dzieci") === "1") setKids(true);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   const weekend = (() => { const d = new Date(today + "T12:00:00"); const dow = d.getDay(); const sat = new Date(d); sat.setDate(d.getDate() + ((6 - dow + 7) % 7)); const sun = new Date(sat); sun.setDate(sat.getDate() + 1); return [sat.toISOString().slice(0, 10), sun.toISOString().slice(0, 10)]; })();
@@ -65,8 +71,11 @@ export function RaceList({ races, regions, today }: { races: RaceWithGeo[]; regi
     (!woj || r.woj === woj) &&
     (!start || r.beginnerScore >= 4) &&
     (!hideClosed || r.signup?.status !== "closed") &&
+    (!poles || r.info?.poles === "tak") &&
+    (!dogs || r.info?.dogs === "tak") &&
+    (!kids || !!r.info?.kids) &&
     (!me || (r.lat !== undefined && r.lng !== undefined && distKm(me, [r.lat, r.lng]) <= radius))
-  ).sort((a, b) => me && a.lat !== undefined && b.lat !== undefined ? distKm(me, [a.lat, a.lng!]) - distKm(me, [b.lat, b.lng!]) : 0), [races, q, region, woj, from, to, dist, customKm, kf, kt, start, past, today, me, radius, hideClosed]);
+  ).sort((a, b) => me && a.lat !== undefined && b.lat !== undefined ? distKm(me, [a.lat, a.lng!]) - distKm(me, [b.lat, b.lng!]) : 0), [races, q, region, woj, from, to, dist, customKm, kf, kt, start, past, today, me, radius, hideClosed, poles, dogs, kids]);
 
   return (
     <div>
@@ -77,6 +86,9 @@ export function RaceList({ races, regions, today }: { races: RaceWithGeo[]; regi
         <button className={`qchip${dist === "s" ? " on" : ""}`} onClick={() => setDist(dist === "s" ? "all" : "s")}>Do 15 km</button>
         <button className={`qchip${dist === "u" ? " on" : ""}`} onClick={() => setDist(dist === "u" ? "all" : "u")}>Ultra</button>
         <button className={`qchip${hideClosed ? " on" : ""}`} onClick={() => setHideClosed(!hideClosed)} title="Ukrywa tylko biegi, o których wiemy, że zapisy są zamknięte. Biegi bez informacji zostają.">Ukryj zamknięte zapisy</button>
+        <button className={`qchip${poles ? " on" : ""}`} onClick={() => setPoles(!poles)} title="Regulamin wprost dopuszcza kije. Biegi bez tej informacji w regulaminie są ukryte.">Z kijami</button>
+        <button className={`qchip${dogs ? " on" : ""}`} onClick={() => setDogs(!dogs)} title="Regulamin dopuszcza bieg z psem (canicross albo pies na smyczy).">Z psem</button>
+        <button className={`qchip${kids ? " on" : ""}`} onClick={() => setKids(!kids)} title="W programie imprezy jest bieg dla dzieci.">Bieg dla dzieci</button>
         {me ? <button className="qchip on" onClick={() => setMe(null)}>Blisko mnie: do {radius} km ✕</button> : <button className="qchip" onClick={locate}>Blisko mnie</button>}
         <span className="ml-auto inline-flex rounded-full border border-[var(--moss)] overflow-hidden text-xs font-semibold">{(["lista", "mapa"] as const).map((v) => <button key={v} onClick={() => setView(v)} className={`px-3 py-1.5 ${view === v ? "bg-[var(--moss)] text-white" : "text-[var(--moss)]"}`}>{v}</button>)}</span>
       </div>

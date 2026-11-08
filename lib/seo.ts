@@ -1,6 +1,7 @@
 import type { Race } from "./types";
 import { fmtDate, fmtKm, scoreLabel } from "./format";
 import { eventCore, slugify } from "./normalize";
+import { priceFrom } from "./fees";
 
 export const SITE = "https://plaskiejestnudne.pl";
 const SMALL = new Set(["w", "i", "na", "do", "z", "o", "po", "pod", "od", "dla", "we", "ze", "im", "przez", "u"]);
@@ -52,9 +53,10 @@ export function raceDescription(r: Race, today: string): string {
   const km = r.distancesKm.length ? (r.distancesKm.length > 4 ? `${fmtKm(r.minKm)} do ${fmtKm(r.maxKm)}` : r.distancesKm.map((k) => (k % 1 === 0 ? k : k.toFixed(1).replace(".", ","))).join("/") + " km") : "";
   const dplus = r.elevations.filter((e) => e.dplus).map((e) => e.dplus!);
   const limit = r.elevations.filter((e) => e.limitH).map((e) => e.limitH!);
+  const price = priceFrom(r, today);
   const parts = [
     `${r.eventName}, ${fmtDate(r.dateStart, r.dateEnd)}, ${r.city}${r.region ? ` (${r.region})` : ""}.`,
-    km ? `Dystanse ${km}${dplus.length ? `, przewyższenie od +${Math.min(...dplus)} m` : ""}${limit.length ? `, limit czasu ${Math.min(...limit)}-${Math.max(...limit)} h`.replace(/(\d+)-\1 h/, "$1 h") : ""}.` : "Dystanse: sprawdź u organizatora.",
+    km ? `Dystanse ${km}${dplus.length ? `, przewyższenie od +${Math.min(...dplus)} m` : ""}${limit.length ? `, limit czasu ${Math.min(...limit)}-${Math.max(...limit)} h`.replace(/(\d+(?:\.\d+)?)-\1 h/, "$1 h") : ""}${!past && price ? `, start od ${price} zł` : ""}.` : "Dystanse: sprawdź u organizatora.",
     past ? "Edycja odbyła się." : r.provisional ? "Termin wstępny ze strony organizatora." : r.signup?.status === "open" ? `Zapisy otwarte${r.signup.until ? ` do ${r.signup.until.split("-").reverse().join(".")}` : ""}.` : r.signup?.status === "closed" ? "Zapisy zamknięte." : "",
     `${r.regulaminUrl ? (r.gear ? "Regulamin i sprzęt obowiązkowy. " : "Regulamin. ") : ""}Dla początkujących: ${scoreLabel(r.beginnerScore)}.`,
   ].filter(Boolean);
@@ -67,9 +69,13 @@ export function raceDescription(r: Race, today: string): string {
 export function raceJsonLd(r: Race, geo: { lat: number; lng: number } | undefined, today: string) {
   const host = (u?: string) => { try { return u ? new URL(u).hostname.replace(/^www\./, "") : undefined; } catch { return undefined; } };
   const signupUrl = r.signup?.sourceUrl && r.signup.source === "zapisy" ? r.signup.sourceUrl : r.url;
-  const offers = signupUrl && r.signup && r.signup.status !== "unknown" && r.dateEnd >= today ? {
-    "@type": "Offer", url: signupUrl, availability: r.signup.status === "open" ? "https://schema.org/InStock" : "https://schema.org/SoldOut",
-    ...(r.signup.until ? { validThrough: r.signup.until } : {}),
+  const price = r.dateEnd >= today ? priceFrom(r, today) : undefined;
+  const known = r.signup && r.signup.status !== "unknown";
+  const offers = signupUrl && r.dateEnd >= today && (known || price !== undefined) ? {
+    "@type": "Offer", url: signupUrl,
+    ...(known ? { availability: r.signup!.status === "open" ? "https://schema.org/InStock" : "https://schema.org/SoldOut" } : {}),
+    ...(price !== undefined ? { price, priceCurrency: "PLN" } : {}),
+    ...(r.signup?.until ? { validThrough: r.signup.until } : {}),
   } : undefined;
   const event = {
     "@context": "https://schema.org", "@type": "SportsEvent",

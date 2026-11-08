@@ -34,7 +34,25 @@ export type Race = {
   signup?: Signup; // status zapisów: open / closed / unknown + termin, limit, liczba zapisanych
   signupOpen?: boolean;
   participants?: number;
+  info?: RaceInfo; // szerszy wyciąg z regulaminu (opłata, godzina startu, biuro, bufety, kije, pies, dzieci), nakładany w lib/data.ts
   provisional?: string; // rekord wstępny: termin kolejnej edycji ze strony organizatora, dystanse skopiowane z poprzedniej (do potwierdzenia przez kalendarze)
 };
 
 export type Dataset = { generatedAt: string; count: number; races: Race[] };
+
+/** Szerszy wyciąg z regulaminu (scripts/regulamin_llm.ts, LLM), klucz = adres regulaminu w data/regulamin_info.json */
+export type RegInfo = {
+  year?: number; // rok edycji, której dotyczy regulamin
+  limits?: { km: number; limitH: number }[];
+  fees?: { km?: number; pln: number; until?: string }[]; // progi cenowe: kwota do daty
+  startTimes?: { km?: number; time: string }[];
+  office?: string; // biuro zawodów
+  aid?: string; // bufety
+  poles?: "tak" | "nie"; // kije dozwolone / zakazane
+  dogs?: "tak" | "nie"; // bieg z psem dozwolony / zakazany
+  kids?: boolean; // bieg dla dzieci w ramach imprezy
+  at: string;
+};
+
+/** to, co pokazujemy z RegInfo na stronie biegu; stale = regulamin dotyczy innej edycji niż ten bieg */
+export type RaceInfo = Omit<RegInfo, "at" | "limits"> & { stale?: boolean };

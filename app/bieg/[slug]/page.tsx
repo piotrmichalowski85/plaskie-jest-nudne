@@ -15,6 +15,7 @@ import { RegionArt } from "@/components/RegionArt";
 import { IconExternal, IconDoc, IconCalendar, IconPin } from "@/components/Icons";
 import { raceTitle, raceDescription, raceJsonLd, nextEditionOf, prevEditionOf, year } from "@/lib/seo";
 import { hubsForRace, hubPath } from "@/lib/hubs";
+import { feeTiers, currentFee, fmtPln } from "@/lib/fees";
 
 const srcLabel: Record<string, string> = { gpx: "policzone z GPX", trasa: "wg podstrony \"Trasa\" organizatora", organizator: "wg strony organizatora", regulamin: "wg regulaminu", kalendarz: "wg kalendarza" };
 
@@ -55,7 +56,48 @@ function raceFaq(r: Race, past: boolean): [string, string][] {
   if (!past && r.signup && r.signup.status !== "unknown") q.push([`Czy zapisy na ${r.eventName} ${y} są otwarte?`, r.signup.status === "open" ? `Tak, zapisy są otwarte${r.signup.until ? ` do ${r.signup.until.split("-").reverse().join(".")}` : ""}${r.signup.limit ? `, limit ${r.signup.limit} miejsc` : ""}${r.signup.registered ? `, zapisanych ${r.signup.registered}` : ""}.` : "Nie, według naszych danych zapisy są zamknięte (termin minął albo limit wyczerpany)."]);
   q.push([`Czy ${r.eventName} nadaje się na pierwszy bieg górski?`, `${scoreLabel(r.beginnerScore).replace(/^./, (c) => c.toUpperCase())}. ${r.beginnerWhy}`]);
   if (r.gear?.length) q.push([`Jaki sprzęt obowiązkowy jest na ${r.eventName}?`, `Według regulaminu: ${r.gear.join(", ")}. Przed startem sprawdź aktualny regulamin.`]);
+  const i = r.info;
+  const ed = i?.stale && i.year ? ` (wg regulaminu edycji ${i.year})` : "";
+  if (i?.fees?.length) q.push([`Ile kosztuje start w ${r.eventName} ${y}?`, `${feeLines(r, past).map(([k, v]) => (k ? `${k}: ${v}` : v)).join("; ")}${ed}. Kwoty bez dopłat za pakiety dodatkowe.`]);
+  if (i?.startTimes?.length) q.push([`O której godzinie jest start ${r.eventName}?`, `${i.startTimes.map((s) => (s.km !== undefined ? `${fmtKm(s.km)}: ${s.time}` : s.time)).join(", ")}${ed}.`]);
+  if (i?.poles) q.push([`Czy na ${r.eventName} można biec z kijami?`, i.poles === "tak" ? `Tak, regulamin dopuszcza kije${ed}.` : `Nie, regulamin zabrania kijów${ed}.`]);
+  if (i?.dogs) q.push([`Czy na ${r.eventName} można biec z psem?`, i.dogs === "tak" ? `Tak, regulamin dopuszcza bieg z psem${ed}. Sprawdź w regulaminie warunki (smycz, pas, szczepienia).` : `Nie, regulamin nie dopuszcza psów na trasie${ed}.`]);
+  if (i?.kids) q.push([`Czy ${r.eventName} ma bieg dla dzieci?`, `Tak, w ramach imprezy jest bieg dla dzieci${ed}.`]);
   return q;
+}
+
+/** opłata per dystans: "180 zł do 15.01, 200 zł do 28.02, potem 240 zł" (dziś obowiązujący próg pogrubiamy w UI osobno) */
+function feeLines(r: Race, past: boolean): [string, string][] {
+  const fees = r.info?.fees ?? [];
+  const kms = [...new Set(fees.map((f) => f.km))].sort((a, b) => (a ?? 0) - (b ?? 0));
+  const d = (iso: string) => `${iso.slice(8, 10)}.${iso.slice(5, 7)}`;
+  return kms.map((k) => {
+    const tiers = feeTiers(r, k).filter((f) => f.km === k);
+    const now = past ? undefined : currentFee(tiers, today());
+    const txt = tiers.length === 1 ? fmtPln(tiers[0].pln) : tiers.map((f, j) => (f.until ? `${fmtPln(f.pln)} do ${d(f.until)}` : `${j ? "potem " : ""}${fmtPln(f.pln)}`)).join(", ");
+    return [k === undefined ? "" : fmtKm(k), now && tiers.length > 1 && !r.info?.stale ? `${txt} (dziś ${fmtPln(now.pln)})` : txt];
+  });
+}
+
+function RegInfoSection({ r, past }: { r: Race; past: boolean }) {
+  const i = r.info;
+  if (!i) return null;
+  const rows: [string, React.ReactNode][] = [];
+  if (i.startTimes?.length) rows.push(["Godzina startu", i.startTimes.map((s) => (s.km !== undefined ? `${fmtKm(s.km)}: ${s.time}` : s.time)).join(", ")]);
+  if (i.fees?.length) rows.push(["Opłata startowa", <ul key="f" className="space-y-0.5">{feeLines(r, past).map(([k, v]) => <li key={k + v}>{k ? <span className="font-semibold">{k}: </span> : null}{v}</li>)}</ul>]);
+  if (i.office) rows.push(["Biuro zawodów", i.office]);
+  if (i.aid) rows.push(["Bufety", i.aid]);
+  if (i.poles) rows.push(["Kije", i.poles === "tak" ? "dozwolone" : "zakazane"]);
+  if (i.dogs) rows.push(["Bieg z psem", i.dogs === "tak" ? "dozwolony (warunki w regulaminie)" : "niedozwolony"]);
+  if (i.kids) rows.push(["Bieg dla dzieci", "jest w programie imprezy"]);
+  if (!rows.length) return null;
+  return (
+    <section className="card">
+      <h2 className="text-[1.6rem]">Z regulaminu</h2>
+      <p className="mt-1 text-xs text-[var(--muted)]">Wyciąg automatyczny z regulaminu{i.stale && i.year ? ` edycji ${i.year}, więc kwoty i godziny mogą się zmienić` : ""}. Przed zapisem sprawdź oryginał.</p>
+      <dl className="mt-3 grid gap-x-6 gap-y-2.5 text-sm sm:grid-cols-[10rem_1fr]">{rows.map(([k, v]) => <div key={k} className="contents"><dt className="font-semibold text-[var(--moss-dark)]">{k}</dt><dd className="text-[#3d4d34]">{v}</dd></div>)}</dl>
+    </section>
+  );
 }
 
 export default async function RacePage({ params }: { params: Promise<{ slug: string }> }) {
@@ -130,6 +172,8 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
               {profiles.map(({ e, t }) => <div key={e.km}><p className="text-xs text-[var(--muted)] mb-1">{fmtKm(e.km)}{e.dplusStale ? " (plik GPX z poprzedniej edycji)" : ""}</p><ElevationProfile profile={t!.profile} km={t!.km} dplus={t!.dplus} /></div>)}
             </section>
           )}
+
+          <RegInfoSection r={r} past={past} />
 
           <section className="card">
             <h2 className="text-[1.6rem]">Zanim się zapiszesz</h2>
