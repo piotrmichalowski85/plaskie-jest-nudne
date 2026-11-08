@@ -33,22 +33,19 @@ const SHAPES: Record<ArtKind, { far: string; mid: string; near: string }> = {
   wyzyna: { far: "M0 68 Q60 50 120 62 T240 56 T300 62 L300 100 L0 100Z", mid: "M0 80 Q60 66 130 76 T260 70 T300 76 L300 100 L0 100Z", near: "M0 92 Q80 82 160 88 T300 86 L300 100 L0 100Z" },
 };
 
-export function RegionArt({ region, surface, className = "", label }: { region: string; surface?: string; className?: string; label?: string }) {
-  const k = artKind(region, surface);
+export const ART_KINDS = Object.keys(P) as ArtKind[];
+
+/** SVG jako tekst: serwowany raz jako /art/<rodzaj>.svg (cache przeglądarki), zamiast powtarzać ścieżki w HTML każdej karty */
+export function artSvg(k: ArtKind): string {
   const p = P[k], s = SHAPES[k];
-  const id = `g-${k}`;
-  return (
-    <svg aria-hidden="true" focusable="false" viewBox="0 0 300 100" preserveAspectRatio="xMidYMax slice" className={className}>
-      <defs><linearGradient id={id} x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor={p.sky[0]} /><stop offset="1" stopColor={p.sky[1]} /></linearGradient></defs>
-      <rect width="300" height="100" fill={`url(#${id})`} />
-      <circle cx="232" cy="30" r="14" fill="#fff3cf" opacity="0.95" />
-      <path d={s.far} fill={p.far} />
-      <path d={s.mid} fill={p.mid} />
-      {p.extra === "snow" && <path d="M104 26 L110 18 L116 26 Z M169 20 L175 12 L181 20 Z M234 28 L240 20 L246 28 Z" fill="#fff" opacity="0.9" />}
-      {p.extra === "meadow" && <path d="M0 76 Q70 62 150 70 T300 66 L300 72 Q230 68 150 76 Q70 68 0 82 Z" fill="#d9c56a" opacity="0.5" />}
-      {p.extra === "lake" && <ellipse cx="150" cy="93" rx="70" ry="4" fill="#9fc4d6" opacity="0.9" />}
-      {p.extra === "rock" && <path d="M78 52 L80 50 L84 54 Z M168 46 L170 44 L174 48 Z" fill="#e9e4d6" />}
-      <path d={s.near} fill={p.near} />
-    </svg>
-  );
+  const extra = p.extra === "snow" ? '<path d="M104 26 L110 18 L116 26 Z M169 20 L175 12 L181 20 Z M234 28 L240 20 L246 28 Z" fill="#fff" opacity="0.9"/>'
+    : p.extra === "meadow" ? '<path d="M0 76 Q70 62 150 70 T300 66 L300 72 Q230 68 150 76 Q70 68 0 82 Z" fill="#d9c56a" opacity="0.5"/>'
+    : p.extra === "lake" ? '<ellipse cx="150" cy="93" rx="70" ry="4" fill="#9fc4d6" opacity="0.9"/>'
+    : p.extra === "rock" ? '<path d="M78 52 L80 50 L84 54 Z M168 46 L170 44 L174 48 Z" fill="#e9e4d6"/>' : "";
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100" preserveAspectRatio="xMidYMax slice"><defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${p.sky[0]}"/><stop offset="1" stop-color="${p.sky[1]}"/></linearGradient></defs><rect width="300" height="100" fill="url(#g)"/><circle cx="232" cy="30" r="14" fill="#fff3cf" opacity="0.95"/><path d="${s.far}" fill="${p.far}"/><path d="${s.mid}" fill="${p.mid}"/>${extra}<path d="${s.near}" fill="${p.near}"/></svg>`;
+}
+
+export function RegionArt({ region, surface, className = "" }: { region: string; surface?: string; className?: string; label?: string }) {
+  // eslint-disable-next-line @next/next/no-img-element
+  return <img src={`/art/${artKind(region, surface)}.svg`} alt="" aria-hidden="true" width={300} height={100} decoding="async" className={`object-cover object-bottom ${className}`} />;
 }

@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import type { Race } from "@/lib/types";
+import type { CardRace as Race } from "@/lib/card";
 import { predictMinutes, fmtH, type FlatRef, type Experience } from "@/lib/predict";
 import { fmtDate, fmtKm, dayNum, monthShort } from "@/lib/format";
 

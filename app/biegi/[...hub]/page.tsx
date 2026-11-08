@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { allHubs, hubByPath, hubPath, hubRaces, type Hub } from "@/lib/hubs";
-import { PosterCard } from "@/components/PosterCard";
+import { CardGrid } from "@/components/CardGrid";
 import { today } from "@/lib/data";
 import { fmtDate, fmtKm } from "@/lib/format";
 import { SITE, year } from "@/lib/seo";
 import { SubscribeIcs } from "@/components/SubscribeIcs";
+import { toCard } from "@/lib/card";
 
 export const dynamicParams = false;
 export function generateStaticParams() { return allHubs().map((h) => ({ hub: h.path })); }
@@ -47,7 +48,7 @@ export default async function HubPage({ params }: { params: Promise<{ hub: strin
       </header>
 
       <section className="mt-6">
-        {upcoming.length ? <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{upcoming.map((r) => <PosterCard key={r.id} race={r} today={t} />)}</div>
+        {upcoming.length ? <CardGrid races={upcoming.map((r) => toCard(r, t))} today={t} />
           : <p className="card text-[var(--muted)]">Brak nadchodzących biegów w tym zestawieniu. Zajrzyj do <Link className="underline" href="/biegi">pełnego kalendarza</Link> albo <Link className="underline" href="/kreator">kreatora pierwszego biegu</Link>.</p>}
         <p className="mt-4 text-sm"><Link href={h.kind === "wojewodztwo" ? `/biegi?woj=${encodeURIComponent(h.label)}` : h.kind === "pasmo" && !h.label.includes(" i ") && !/^(Beskidy|Sudety)$/.test(h.label) ? `/biegi?pasmo=${encodeURIComponent(h.label)}` : "/biegi"} className="underline font-semibold text-[var(--moss)]">Pełny kalendarz z filtrami</Link>{h.kind === "temat" && h.path[0] === "dla-poczatkujacych" ? <> albo <Link href="/kreator" className="underline font-semibold text-[var(--moss)]">kreator: pięć pytań i trzy biegi na Twój staż</Link></> : null}.</p>
       </section>

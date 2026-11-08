@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
-import { allRaces, today } from "@/lib/data";
+import { upcomingRaces, today } from "@/lib/data";
+import { toCard } from "@/lib/card";
 import { CzyDamRade } from "@/components/CzyDamRade";
 export const metadata: Metadata = { title: "Czy dam radę? Szacowany czas na biegu górskim", description: "Wpisz czas z płaskiego, wybierz bieg górski albo trailowy w Polsce i zobacz szacowany czas na każdym dystansie w porównaniu z limitem.", alternates: { canonical: "/czy-dam-rade" } };
 export default async function Page({ searchParams }: { searchParams: Promise<{ bieg?: string }> }) {
@@ -9,7 +10,7 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ b
     <div>
       <h1 className="text-[3rem] mb-1">Czy dam radę?</h1>
       <p className="text-[var(--muted)] mb-6">Czas z płaskiego, wybrany bieg, szacunek na każdym dystansie i porównanie z limitem czasu.</p>
-      <Suspense><CzyDamRade races={allRaces} today={today()} initialRaceId={sp.bieg} /></Suspense>
+      <Suspense><CzyDamRade races={upcomingRaces().filter((r) => r.distancesKm.length).map((r) => toCard(r, today()))} today={today()} initialRaceId={sp.bieg} /></Suspense>
     </div>
   );
 }

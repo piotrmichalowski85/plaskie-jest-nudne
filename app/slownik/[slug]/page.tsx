@@ -3,7 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { TERMS, termBySlug } from "@/lib/slownik";
 import { allRaces, today } from "@/lib/data";
-import { PosterCard } from "@/components/PosterCard";
+import { CardGrid } from "@/components/CardGrid";
+import { toCard } from "@/lib/card";
 import { SITE } from "@/lib/seo";
 
 export const dynamicParams = false;
@@ -55,7 +56,7 @@ export default async function TermPage({ params }: { params: Promise<{ slug: str
       {racesBlock && racesBlock.list.length > 0 && (
         <section className="mt-10">
           <h2 className="text-[1.9rem] mb-3">{racesBlock.heading}</h2>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">{racesBlock.list.map((r) => <PosterCard key={r.id} race={r} today={d} />)}</div>
+          <CardGrid races={racesBlock.list.map((r) => toCard(r, d))} today={d} cols="lg:grid-cols-4" />
         </section>
       )}
       <p className="mt-10 flex justify-between text-sm font-semibold text-[var(--moss)]"><Link href={`/slownik/${prev.slug}`}>← {prev.term}</Link><Link href={`/slownik/${next.slug}`}>{next.term} →</Link></p>

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { allRaces, today } from "@/lib/data";
+import { upcomingRaces, today } from "@/lib/data";
+import { toCard } from "@/lib/card";
 import { Kreator } from "@/components/Kreator";
 export const metadata: Metadata = { title: "Wybierz swój pierwszy niepłaski bieg", description: "Pięć pytań i lista biegów górskich lub trailowych w Polsce dopasowanych do Twojego stażu, regionu i terminu.", alternates: { canonical: "/kreator" } };
 export default function KreatorPage() {
@@ -7,7 +8,7 @@ export default function KreatorPage() {
     <div>
       <h1 className="text-[3rem] mb-1">Wybierz swój pierwszy niepłaski bieg</h1>
       <p className="text-[var(--muted)] mb-6">Pięć pytań i 3-5 biegów dopasowanych do Twojego doświadczenia.</p>
-      <Kreator races={allRaces} today={today()} />
+      <Kreator races={upcomingRaces().map((r) => toCard(r, today()))} today={today()} />
     </div>
   );
 }
