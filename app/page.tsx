@@ -35,6 +35,7 @@ export default function Home() {
           <Link href="/biegi/do-15-km" className="qchip">Do 15 km</Link>
           <Link href="/biegi/ultra" className="qchip">Ultra</Link>
           <Link href="/biegi/zapisy-otwarte" className="qchip">Zapisy otwarte</Link>
+          <Link href="/biegi/ten-weekend" className="qchip">Ten weekend</Link>
           <Link href="/biegi?view=mapa" className="qchip">Mapa</Link>
         </div>
         <CardGrid races={next.map((r) => toCard(r, t))} today={t} />

@@ -16,9 +16,9 @@ export default function Biegi() {
       <div className="mt-8"><SubscribeIcs path="/kalendarz.ics" what="Wszystkie biegi z kalendarza" /></div>
       <section className="mt-12 space-y-5">
         <h2 className="text-[1.9rem]">Zestawienia</h2>
-        {(["pasmo", "wojewodztwo", "miesiac", "temat"] as const).map((k) => (
+        {(["pasmo", "wojewodztwo", "blisko", "rok", "miesiac", "temat"] as const).map((k) => (
           <div key={k}>
-            <p className="step mb-1.5">{k === "pasmo" ? "Pasma i regiony" : k === "wojewodztwo" ? "Województwa" : k === "miesiac" ? "Miesiące" : "Tematycznie"}</p>
+            <p className="step mb-1.5">{k === "pasmo" ? "Pasma i regiony" : k === "wojewodztwo" ? "Województwa" : k === "blisko" ? "Blisko miast" : k === "rok" ? "Lata" : k === "miesiac" ? "Miesiące" : "Tematycznie"}</p>
             <div className="flex flex-wrap gap-1.5">{allHubs().filter((h) => h.kind === k).map((h) => <Link key={hubPath(h)} href={hubPath(h)} className="qchip">{h.label}</Link>)}</div>
           </div>
         ))}
