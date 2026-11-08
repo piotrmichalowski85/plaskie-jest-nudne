@@ -1,0 +1,984 @@
+{
+ "generatedAt": "2026-11-08T14:20:30.514Z",
+ "races": {
+  "gorlicki-bieg-gorski-2026-11-07": {
+   "climate": {
+    "key": "49.45,21.37,11-07,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 7.9,
+    "tmin": 2.1,
+    "tmaxHi": 18.1,
+    "tminLo": -5.2,
+    "rainShare": 33,
+    "precip": 2
+   },
+   "forecast": {
+    "at": "2026-11-08",
+    "days": [
+     {
+      "date": "2026-11-08",
+      "tmax": 3.8,
+      "tmin": -3.5,
+      "precip": 0,
+      "prob": 0,
+      "wind": 9,
+      "code": 0
+     }
+    ]
+   }
+  },
+  "podhalanski-rajd-pieszy-niepodlegla-polska-2026-11-11": {
+   "climate": {
+    "key": "49.52,19.99,11-11,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 7.4,
+    "tmin": -0.1,
+    "tmaxHi": 17.5,
+    "tminLo": -10.8,
+    "rainShare": 33,
+    "precip": 1.8
+   },
+   "forecast": {
+    "at": "2026-11-08",
+    "days": [
+     {
+      "date": "2026-11-11",
+      "tmax": 2.8,
+      "tmin": -2.1,
+      "precip": 0.2,
+      "prob": 6,
+      "wind": 11.5,
+      "code": 51
+     }
+    ]
+   }
+  },
+  "borowkowa-trail-2026-11-14": {
+   "climate": {
+    "key": "50.35,16.87,11-14,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 6.8,
+    "tmin": 1.9,
+    "tmaxHi": 14.5,
+    "tminLo": -6.8,
+    "rainShare": 33,
+    "precip": 1.5
+   },
+   "forecast": {
+    "at": "2026-11-08",
+    "days": [
+     {
+      "date": "2026-11-14",
+      "tmax": 2,
+      "tmin": -1.4,
+      "precip": 0,
+      "prob": 40,
+      "wind": 9.3,
+      "code": 3
+     }
+    ]
+   }
+  },
+  "ninja-ams-kartuzy-zajecia-terenowe-dla-dzieci-i-mlodziezy-2026-11-14": {
+   "climate": {
+    "key": "54.33,18.2,11-14,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 6.2,
+    "tmin": 2.4,
+    "tmaxHi": 12.9,
+    "tminLo": -5.9,
+    "rainShare": 34,
+    "precip": 1.5
+   },
+   "forecast": {
+    "at": "2026-11-08",
+    "days": [
+     {
+      "date": "2026-11-14",
+      "tmax": 4.9,
+      "tmin": 1.1,
+      "precip": 0,
+      "prob": 4,
+      "wind": 18.4,
+      "code": 3
+     }
+    ]
+   }
+  },
+  "pieklo-czantorii-2026-11-20": {
+   "climate": {
+    "key": "49.72,18.83,11-20,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 5.5,
+    "tmin": 0.5,
+    "tmaxHi": 15.8,
+    "tminLo": -6.5,
+    "rainShare": 41,
+    "precip": 2.5
+   },
+   "forecast": {
+    "at": "2026-11-08",
+    "days": [
+     {
+      "date": "2026-11-20",
+      "tmax": 11.9,
+      "tmin": 2.9,
+      "precip": 0,
+      "prob": 24,
+      "wind": 12.7,
+      "code": 3
+     },
+     {
+      "date": "2026-11-21",
+      "tmax": 4.7,
+      "tmin": 1.6,
+      "precip": 13.8,
+      "prob": 31,
+      "wind": 13.3,
+      "code": 61
+     }
+    ]
+   }
+  },
+  "2-gorska-trzynastka-2026-11-21": {
+   "climate": {
+    "key": "50.65,16.47,11-21,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 3.8,
+    "tmin": -0.6,
+    "tmaxHi": 12.3,
+    "tminLo": -11.6,
+    "rainShare": 34,
+    "precip": 1.5
+   },
+   "forecast": {
+    "at": "2026-11-08",
+    "days": [
+     {
+      "date": "2026-11-21",
+      "tmax": 5,
+      "tmin": 3.2,
+      "precip": 2.4,
+      "prob": 33,
+      "wind": 17.8,
+      "code": 51
+     }
+    ]
+   }
+  },
+  "7-polmaraton-orzel-2026-11-21": {
+   "climate": {
+    "key": "50.65,16.47,11-21,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 3.8,
+    "tmin": -0.6,
+    "tmaxHi": 12.3,
+    "tminLo": -11.6,
+    "rainShare": 34,
+    "precip": 1.5
+   },
+   "forecast": {
+    "at": "2026-11-08",
+    "days": [
+     {
+      "date": "2026-11-21",
+      "tmax": 5,
+      "tmin": 3.2,
+      "precip": 2.4,
+      "prob": 33,
+      "wind": 17.8,
+      "code": 51
+     }
+    ]
+   }
+  },
+  "borecka-lekuk-trail-2026-11-21": {
+   "climate": {
+    "key": "54.05,22.14,11-21,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 3.9,
+    "tmin": 0.3,
+    "tmaxHi": 10.8,
+    "tminLo": -7,
+    "rainShare": 34,
+    "precip": 1.6
+   },
+   "forecast": {
+    "at": "2026-11-08",
+    "days": [
+     {
+      "date": "2026-11-21",
+      "tmax": 5.1,
+      "tmin": 3.4,
+      "precip": 0.4,
+      "prob": 22,
+      "wind": 10.5,
+      "code": 51
+     }
+    ]
+   }
+  },
+  "jesienny-ultra-swir-2026-11-28": {
+   "climate": {
+    "key": "49.55,20.58,11-28,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 4.7,
+    "tmin": -1.6,
+    "tmaxHi": 12.6,
+    "tminLo": -14.2,
+    "rainShare": 38,
+    "precip": 2
+   }
+  },
+  "szczyt-wytrzymalosci-edycja-mikolajkowa-2026-12-04": {
+   "climate": {
+    "key": "49.72,18.83,12-04,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 2.1,
+    "tmin": -2.7,
+    "tmaxHi": 10.1,
+    "tminLo": -11.8,
+    "rainShare": 50,
+    "precip": 2.6
+   }
+  },
+  "garmin-ultra-race-gdansk-2026-12-04": {
+   "climate": {
+    "key": "54.35,18.65,12-04,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 3.9,
+    "tmin": 0.5,
+    "tmaxHi": 11.5,
+    "tminLo": -7.5,
+    "rainShare": 41,
+    "precip": 1.7
+   }
+  },
+  "turbacz-trail-2026-12-06": {
+   "climate": {
+    "key": "49.49,20.03,12-06,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 1.2,
+    "tmin": -4.7,
+    "tmaxHi": 8.9,
+    "tminLo": -18.5,
+    "rainShare": 39,
+    "precip": 2
+   }
+  },
+  "xv-grand-prix-krakowa-w-biegach-gorskich-2026-12-06": {
+   "climate": {
+    "key": "50.06,19.94,12-06,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 3.4,
+    "tmin": -1.8,
+    "tmaxHi": 12.8,
+    "tminLo": -13.1,
+    "rainShare": 38,
+    "precip": 1.9
+   }
+  },
+  "podhalanski-bieg-mikolajkowy-2026-12-06": {
+   "climate": {
+    "key": "49.48,20.1,12-06,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 1.7,
+    "tmin": -4.4,
+    "tmaxHi": 9,
+    "tminLo": -16.9,
+    "rainShare": 40,
+    "precip": 1.9
+   }
+  },
+  "winter-trail-malopolska-2026-12-12": {
+   "climate": {
+    "key": "49.68,20.08,12-12,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 4.1,
+    "tmin": -1.6,
+    "tmaxHi": 14.8,
+    "tminLo": -15,
+    "rainShare": 42,
+    "precip": 1.9
+   }
+  },
+  "perly-malopolski-2026-12-13": {
+   "climate": {
+    "key": "49.61,19.96,12-13,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 3.7,
+    "tmin": -2.1,
+    "tmaxHi": 14.6,
+    "tminLo": -14.8,
+    "rainShare": 40,
+    "precip": 1.8
+   }
+  },
+  "xv-grand-prix-krakowa-w-biegach-gorskich-2027-01-10": {
+   "climate": {
+    "key": "50.06,19.94,01-10,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 2.3,
+    "tmin": -3.8,
+    "tmaxHi": 11.4,
+    "tminLo": -22.3,
+    "rainShare": 44,
+    "precip": 1.9
+   }
+  },
+  "zimowy-bieg-zboja-2027-01-10": {
+   "climate": {
+    "key": "49.82,19.04,01-10,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 1.9,
+    "tmin": -3.2,
+    "tmaxHi": 10.2,
+    "tminLo": -23.6,
+    "rainShare": 54,
+    "precip": 2.7
+   }
+  },
+  "gdynia-ultra-way-2027-01-16": {
+   "climate": {
+    "key": "54.52,18.6,01-16,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 2.4,
+    "tmin": -1.5,
+    "tmaxHi": 10.6,
+    "tminLo": -11.8,
+    "rainShare": 39,
+    "precip": 1.5
+   }
+  },
+  "zimowy-ultra-turnicki-2027-01-16": {
+   "climate": {
+    "key": "49.66,22.7,01-16,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 0.9,
+    "tmin": -4.3,
+    "tmaxHi": 10.3,
+    "tminLo": -18.8,
+    "rainShare": 36,
+    "precip": 1.7
+   }
+  },
+  "zimowy-maraton-swietokrzyski-2027-01-16": {
+   "climate": {
+    "key": "50.8,20.46,01-16,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 0.8,
+    "tmin": -4.6,
+    "tmaxHi": 8.9,
+    "tminLo": -19.9,
+    "rainShare": 35,
+    "precip": 1.4
+   }
+  },
+  "zimowy-ultramaraton-annogorski-2027-01-16": {
+   "climate": {
+    "key": "50.46,18.17,01-16,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 1,
+    "tmin": -4.5,
+    "tmaxHi": 9.2,
+    "tminLo": -18.5,
+    "rainShare": 39,
+    "precip": 1.4
+   }
+  },
+  "zimowy-polmaraton-gor-stolowych-2027-01-16": {
+   "climate": {
+    "key": "50.48,16.34,01-16,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": -1.7,
+    "tmin": -6.8,
+    "tmaxHi": 7.2,
+    "tminLo": -21.5,
+    "rainShare": 41,
+    "precip": 1.7
+   }
+  },
+  "zamiec-2027-01-22": {
+   "climate": {
+    "key": "49.7,19.01,01-22,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": -0.5,
+    "tmin": -6.3,
+    "tmaxHi": 10.4,
+    "tminLo": -21.4,
+    "rainShare": 43,
+    "precip": 2.3
+   }
+  },
+  "xiii-zimowy-maraton-bieszczadzki-2027-01-23": {
+   "climate": {
+    "key": "49.21,22.33,01-23,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": -0.4,
+    "tmin": -4.6,
+    "tmaxHi": 9.9,
+    "tminLo": -16.7,
+    "rainShare": 47,
+    "precip": 2.6
+   }
+  },
+  "xv-grand-prix-krakowa-w-biegach-gorskich-2027-02-07": {
+   "climate": {
+    "key": "50.06,19.94,02-07,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 4.4,
+    "tmin": -2.2,
+    "tmaxHi": 14.2,
+    "tminLo": -15.5,
+    "rainShare": 45,
+    "precip": 2.2
+   }
+  },
+  "ultra-kamiensk-2027-02-07": {
+   "climate": {
+    "key": "51.21,19.43,02-07,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 2.2,
+    "tmin": -3.6,
+    "tmaxHi": 11.7,
+    "tminLo": -17,
+    "rainShare": 39,
+    "precip": 1.9
+   }
+  },
+  "turbacz-winter-trail-2027-02-13": {
+   "climate": {
+    "key": "49.49,20.03,02-13,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 2.9,
+    "tmin": -5.2,
+    "tmaxHi": 11.8,
+    "tminLo": -16.8,
+    "rainShare": 45,
+    "precip": 2
+   }
+  },
+  "gorce-ultra-trail-winter-2027-zadyszka-2027-02-27": {
+   "climate": {
+    "key": "49.51,20.25,02-27,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 5.5,
+    "tmin": -3.5,
+    "tmaxHi": 18.4,
+    "tminLo": -19.4,
+    "rainShare": 35,
+    "precip": 1.5
+   }
+  },
+  "zimowy-ultramaraton-karkonoski-im-tomka-kowalskiego-2027-02-27": {
+   "climate": {
+    "key": "50.83,15.52,02-27,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 3.6,
+    "tmin": -2.8,
+    "tmaxHi": 16.1,
+    "tminLo": -20.8,
+    "rainShare": 45,
+    "precip": 2.8
+   }
+  },
+  "ultra-zadek-festiwal-biegowy-2027-03-06": {
+   "climate": {
+    "key": "50.34,18.21,03-06,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 8.3,
+    "tmin": -0.1,
+    "tmaxHi": 18.8,
+    "tminLo": -13.5,
+    "rainShare": 35,
+    "precip": 1.3
+   }
+  },
+  "xv-grand-prix-krakowa-w-biegach-gorskich-2027-03-07": {
+   "climate": {
+    "key": "50.06,19.94,03-07,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 8.7,
+    "tmin": -0.3,
+    "tmaxHi": 19.7,
+    "tminLo": -15.6,
+    "rainShare": 34,
+    "precip": 1.3
+   }
+  },
+  "xrun-2027-03-07": {
+   "climate": {
+    "key": "49.85,20.08,03-07,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 7.7,
+    "tmin": -0.9,
+    "tmaxHi": 19.8,
+    "tminLo": -23,
+    "rainShare": 39,
+    "precip": 1.5
+   }
+  },
+  "x-run-tajemnicze-kopce-2027-03-07": {
+   "climate": {
+    "key": "49.88,20.09,03-07,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 8.5,
+    "tmin": -0.2,
+    "tmaxHi": 20.7,
+    "tminLo": -20.1,
+    "rainShare": 36,
+    "precip": 1.4
+   }
+  },
+  "baran-trail-race-winter-edition-2027-03-13": {
+   "climate": {
+    "key": "49.61,19.12,03-13,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 7.8,
+    "tmin": -0.3,
+    "tmaxHi": 18.6,
+    "tminLo": -9.5,
+    "rainShare": 43,
+    "precip": 2.1
+   }
+  },
+  "zimowy-baran-trail-race-btr-2027-03-13": {
+   "climate": {
+    "key": "53.43,18.76,03-13,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 7.9,
+    "tmin": -0.4,
+    "tmaxHi": 17.5,
+    "tminLo": -7,
+    "rainShare": 32,
+    "precip": 1.3
+   }
+  },
+  "wiosenny-ultra-swir-2027-03-20": {
+   "climate": {
+    "key": "49.6,20.89,03-20,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 8.1,
+    "tmin": -0.7,
+    "tmaxHi": 19,
+    "tminLo": -10.3,
+    "rainShare": 41,
+    "precip": 1.8
+   }
+  },
+  "kudowska-sztafeta-gorska-2027-04-10": {
+   "climate": {
+    "key": "49.44,20.43,04-10,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 13.2,
+    "tmin": 2.8,
+    "tmaxHi": 25.1,
+    "tminLo": -9.4,
+    "rainShare": 49,
+    "precip": 2.2
+   }
+  },
+  "festiwal-pieszo-biegowy-przedwiosnie-2027-04-10": {
+   "climate": {
+    "key": "50.92,20.8,04-10,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 12.8,
+    "tmin": 3.3,
+    "tmaxHi": 24.7,
+    "tminLo": -5.3,
+    "rainShare": 41,
+    "precip": 1.7
+   }
+  },
+  "meble-wojcik-ultra-wysoczyzna-2027-2027-04-16": {
+   "climate": {
+    "key": "54.2,19.44,04-16,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 12.7,
+    "tmin": 3.5,
+    "tmaxHi": 26.2,
+    "tminLo": -3.2,
+    "rainShare": 36,
+    "precip": 1.3
+   }
+  },
+  "pieniny-by-utmb-2027-04-22": {
+   "climate": {
+    "key": "49.53,20.32,04-22,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 13.1,
+    "tmin": 3.7,
+    "tmaxHi": 24.5,
+    "tminLo": -5.3,
+    "rainShare": 47,
+    "precip": 2.9
+   }
+  },
+  "festiwal-biegow-gorskich-3xkopa-2027-04-23": {
+   "climate": {
+    "key": "50.29,17.48,04-23,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 13.9,
+    "tmin": 4.9,
+    "tmaxHi": 24.9,
+    "tminLo": -3.3,
+    "rainShare": 43,
+    "precip": 2.4
+   }
+  },
+  "festiwal-gorski-polmaraton-jedlina-zdroj-2027-05-09": {
+   "climate": {
+    "key": "50.72,16.34,05-09,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 15.1,
+    "tmin": 6.4,
+    "tmaxHi": 24.7,
+    "tminLo": -1,
+    "rainShare": 44,
+    "precip": 2.6
+   }
+  },
+  "x-run-wyspowy-trail-2027-05-16": {
+   "climate": {
+    "key": "49.68,20.3,05-16,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 15.2,
+    "tmin": 6.6,
+    "tmaxHi": 25.3,
+    "tminLo": -2.6,
+    "rainShare": 53,
+    "precip": 4.5
+   }
+  },
+  "ultra-trail-malopolska-2027-05-21": {
+   "climate": {
+    "key": "49.68,20.08,05-21,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 17.4,
+    "tmin": 8.8,
+    "tmaxHi": 25.1,
+    "tminLo": 2.2,
+    "rainShare": 63,
+    "precip": 5.5
+   }
+  },
+  "rudawy-wiosenny-festiwal-biegowy-2027-05-22": {
+   "climate": {
+    "key": "50.88,15.94,05-22,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 17.2,
+    "tmin": 8.4,
+    "tmaxHi": 26.7,
+    "tminLo": 1.5,
+    "rainShare": 43,
+    "precip": 3
+   }
+  },
+  "18-bieg-weganski-2027-05-23": {
+   "climate": {
+    "key": "52.23,21.01,05-23,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 20.3,
+    "tmin": 10.2,
+    "tmaxHi": 30.1,
+    "tminLo": 2.5,
+    "rainShare": 41,
+    "precip": 2.6
+   }
+  },
+  "xiii-festiwal-biegu-rzeznika-2027-05-26": {
+   "climate": {
+    "key": "49.21,22.33,05-26,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 17.8,
+    "tmin": 9.6,
+    "tmaxHi": 24.5,
+    "tminLo": 2.2,
+    "rainShare": 62,
+    "precip": 4.4
+   }
+  },
+  "ultramaraton-6xbabia-gora-2027-06-05": {
+   "climate": {
+    "key": "49.48,19.63,06-05,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 19.7,
+    "tmin": 10,
+    "tmaxHi": 27.1,
+    "tminLo": 2.3,
+    "rainShare": 50,
+    "precip": 3
+   }
+  },
+  "suszecki-festiwal-biegowy-2027-06-12": {
+   "climate": {
+    "key": "50.04,18.79,06-12,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 22.8,
+    "tmin": 13.2,
+    "tmaxHi": 31.3,
+    "tminLo": 7.7,
+    "rainShare": 37,
+    "precip": 2.3
+   }
+  },
+  "tatra-fest-run-2027-06-12": {
+   "climate": {
+    "key": "49.32,19.82,06-12,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 18.7,
+    "tmin": 11,
+    "tmaxHi": 26.8,
+    "tminLo": 4.7,
+    "rainShare": 60,
+    "precip": 5.1
+   }
+  },
+  "ultra-turnicki-2027-06-19": {
+   "climate": {
+    "key": "49.66,22.7,06-19,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 23.2,
+    "tmin": 14.2,
+    "tmaxHi": 33.1,
+    "tminLo": 7.4,
+    "rainShare": 49,
+    "precip": 3.7
+   }
+  },
+  "x-run-mercure-szczyrk-run-2027-06-20": {
+   "climate": {
+    "key": "49.7,19.01,06-20,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 21,
+    "tmin": 12,
+    "tmaxHi": 28.8,
+    "tminLo": 3.3,
+    "rainShare": 50,
+    "precip": 3.5
+   }
+  },
+  "gdynia-ultra-way-summer-race-2027-06-25": {
+   "climate": {
+    "key": "54.52,18.6,06-25,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 23.1,
+    "tmin": 14.8,
+    "tmaxHi": 34,
+    "tminLo": 10.3,
+    "rainShare": 46,
+    "precip": 2.8
+   }
+  },
+  "wyspowy-ultra-swir-2027-06-26": {
+   "climate": {
+    "key": "49.56,20.43,06-26,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 24.2,
+    "tmin": 14.5,
+    "tmaxHi": 34.7,
+    "tminLo": 7.6,
+    "rainShare": 51,
+    "precip": 3.4
+   }
+  },
+  "supermaraton-gor-stolowych-2027-06-26": {
+   "climate": {
+    "key": "50.48,16.34,06-26,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 20.6,
+    "tmin": 11.7,
+    "tmaxHi": 28.8,
+    "tminLo": 5.2,
+    "rainShare": 45,
+    "precip": 3.1
+   }
+  },
+  "izery-ultra-trail-2027-06-26": {
+   "climate": {
+    "key": "50.91,15.33,06-26,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 21.5,
+    "tmin": 13.2,
+    "tmaxHi": 30.7,
+    "tminLo": 7.2,
+    "rainShare": 51,
+    "precip": 4.9
+   }
+  },
+  "smierdzacy-len-2027-07-03": {
+   "climate": {
+    "key": "49.47,19.16,07-03,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 21.4,
+    "tmin": 12.7,
+    "tmaxHi": 29.8,
+    "tminLo": 6.8,
+    "rainShare": 55,
+    "precip": 3.2
+   }
+  },
+  "dfbg-2027-07-15": {
+   "climate": {
+    "key": "50.35,16.87,07-15,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 22.2,
+    "tmin": 13.1,
+    "tmaxHi": 32.8,
+    "tminLo": 7.3,
+    "rainShare": 53,
+    "precip": 3.5
+   }
+  },
+  "x-run-ucieczka-sw-kingi-2027-07-25": {
+   "climate": {
+    "key": "49.45,20.43,07-25,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 24.2,
+    "tmin": 14.5,
+    "tmaxHi": 32.2,
+    "tminLo": 9.1,
+    "rainShare": 54,
+    "precip": 3.9
+   }
+  },
+  "gorce-ultra-trail-2027-07-30": {
+   "climate": {
+    "key": "49.53,20.32,07-30,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 23.4,
+    "tmin": 14.7,
+    "tmaxHi": 31.5,
+    "tminLo": 9.5,
+    "rainShare": 60,
+    "precip": 4.3
+   }
+  },
+  "the-loop-run-2027-08-19": {
+   "climate": {
+    "key": "49.82,19.04,08-19,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 23.8,
+    "tmin": 15.2,
+    "tmaxHi": 31.2,
+    "tminLo": 6.6,
+    "rainShare": 38,
+    "precip": 3.4
+   }
+  },
+  "run-bike-orlich-gniazd-2027-09-10": {
+   "climate": {
+    "key": "50.75,19.27,09-10,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 21.6,
+    "tmin": 12.4,
+    "tmaxHi": 30.9,
+    "tminLo": 5.8,
+    "rainShare": 35,
+    "precip": 3.3
+   }
+  },
+  "x-run-vistula-trail-2027-09-12": {
+   "climate": {
+    "key": "49.64,18.91,09-12,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 18.5,
+    "tmin": 9.6,
+    "tmaxHi": 26.1,
+    "tminLo": 2,
+    "rainShare": 44,
+    "precip": 3.9
+   }
+  },
+  "festiwal-biegowy-jurarun-2027-09-24": {
+   "climate": {
+    "key": "50.56,19.53,09-24,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 16.8,
+    "tmin": 8.7,
+    "tmaxHi": 27.6,
+    "tminLo": 1.2,
+    "rainShare": 39,
+    "precip": 2.3
+   }
+  },
+  "lemkowyna-trail-zapisy-2027-10-23": {
+   "climate": {
+    "key": "49.57,21.79,10-23,2016",
+    "years": "2016-2025",
+    "days": 150,
+    "tmax": 12.8,
+    "tmin": 6.5,
+    "tmaxHi": 20.8,
+    "tminLo": -1.7,
+    "rainShare": 36,
+    "precip": 2.3
+   }
+  }
+ }
+}
