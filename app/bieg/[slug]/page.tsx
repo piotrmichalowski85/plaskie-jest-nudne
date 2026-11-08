@@ -258,7 +258,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
       </div>
       {hubs.length > 0 && <p className="mt-8 flex flex-wrap items-center gap-1.5 text-sm"><span className="text-[var(--muted)] mr-1">Zobacz też:</span>{hubs.map((h) => <Link key={hubPath(h)} href={hubPath(h)} className="qchip">{h.label}</Link>)}</p>}
       <p className="mt-4 text-sm">Nie wiesz, co znaczy D+, cutoff albo sprzęt obowiązkowy? Zajrzyj do <Link href="/slownik" className="underline font-semibold text-[var(--moss)]">słownika trailowego</Link>.</p>
-      <p className="mt-2 text-sm text-[var(--muted)]">Organizujesz ten bieg i widzisz braki albo błędy? Napisz na <a className="underline" href={`mailto:kontakt@plaskiejestnudne.pl?subject=${encodeURIComponent(`Poprawka: ${r.eventName} (${r.dateStart})`)}`}>kontakt@plaskiejestnudne.pl</a>, poprawimy przy najbliższym odświeżeniu.</p>
+      <p className="mt-2 text-sm text-[var(--muted)]">Organizujesz ten bieg i widzisz braki albo błędy? Napisz na <a className="underline" href={`mailto:kontakt@plaskiejestnudne.pl?subject=${encodeURIComponent(`Poprawka: ${r.eventName} (${r.dateStart})`)}`}>kontakt@plaskiejestnudne.pl</a>, poprawimy przy najbliższym odświeżeniu. Odznakę "dobry na start" i widget z kalendarzem znajdziesz na stronie <Link className="underline" href="/dla-organizatorow">dla organizatorów</Link>.</p>
     </article>
   );
 }
