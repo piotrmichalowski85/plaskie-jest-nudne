@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { allRaces, regions, today } from "@/lib/data";
+import { toCard } from "@/lib/card";
+import { pastLiteUrl } from "@/lib/lite";
 import { RaceList } from "@/components/RaceList";
-import { geoFor } from "@/lib/geo";
 import Link from "next/link";
 import { allHubs, hubPath } from "@/lib/hubs";
 import { SubscribeIcs } from "@/components/SubscribeIcs";
@@ -11,7 +12,7 @@ export default function Biegi() {
     <div>
       <h1 className="text-[3rem] mb-1">Kalendarz biegów</h1>
       <p className="text-[var(--muted)] mb-6">Biegi górskie, trailowe i przełajowe w całej Polsce. Zielony = dobry na start, żółty = ujdzie na start, czerwony = zły na start.</p>
-      <RaceList races={allRaces.map((r) => { const g = geoFor(r.city); return g ? { ...r, lat: g.lat, lng: g.lng, woj: g.woj } : r; })} regions={regions()} today={today()} />
+      <RaceList races={allRaces.filter((r) => r.dateEnd >= today()).map((r) => toCard(r, today()))} regions={regions()} today={today()} pastUrl={pastLiteUrl()} />
       <div className="mt-8"><SubscribeIcs path="/kalendarz.ics" what="Wszystkie biegi z kalendarza" /></div>
       <section className="mt-12 space-y-5">
         <h2 className="text-[1.9rem]">Zestawienia</h2>

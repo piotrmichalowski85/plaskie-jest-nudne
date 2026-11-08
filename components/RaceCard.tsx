@@ -8,7 +8,7 @@ export function Score({ s }: { s: number }) {
   return <span className={`lvl lvl-${l}`}><span className="dot" aria-hidden="true" />{scoreLabel(s)}</span>;
 }
 
-export function SignupChip({ race, long = false }: { race: Race; long?: boolean }) {
+export function SignupChip({ race, long = false }: { race: { signup?: Pick<NonNullable<Race["signup"]>, "status" | "until" | "registered"> }; long?: boolean }) {
   const s = race.signup;
   const d = (iso: string) => `${Number(iso.slice(8, 10))}.${iso.slice(5, 7)}`;
   if (!s || s.status === "unknown") return <span className="chip !bg-transparent !text-[var(--muted)] border border-dashed border-[#cfd6cd]" title="Nie znaleźliśmy informacji o zapisach. Sprawdź u organizatora.">zapisy: brak danych</span>;

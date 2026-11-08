@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useMemo, useState } from "react";
-import type { Race } from "@/lib/types";
+import type { CardRace } from "@/lib/card";
+type Race = CardRace;
 import { PosterCard } from "./PosterCard";
 import { RacesMap, type RaceWithGeo } from "./RacesMap";
 
@@ -14,7 +15,9 @@ const DIST = [
   { id: "u", label: "ultra (ponad 45 km)", test: (r: Race) => r.maxKm > 45 },
 ];
 
-export function RaceList({ races, regions, today }: { races: RaceWithGeo[]; regions: string[]; today: string }) {
+export function RaceList({ races: upcoming, regions, today, pastUrl }: { races: RaceWithGeo[]; regions: string[]; today: string; pastUrl: string }) {
+  // minione biegi nie siedzą w HTML: dociągamy je z /data/races-lite.<hash>.json dopiero po zaznaczeniu "pokaż też minione"
+  const [pastRaces, setPastRaces] = useState<RaceWithGeo[] | null>(null);
   const [q, setQ] = useState("");
   const [region, setRegion] = useState("");
   const [from, setFrom] = useState("");
@@ -25,6 +28,8 @@ export function RaceList({ races, regions, today }: { races: RaceWithGeo[]; regi
   const [kmTo, setKmTo] = useState("");
   const [start, setStart] = useState(false);
   const [past, setPast] = useState(false);
+  useEffect(() => { if (past && !pastRaces) fetch(pastUrl).then((r) => r.json()).then(setPastRaces).catch(() => setPastRaces([])); }, [past, pastRaces, pastUrl]);
+  const races = useMemo(() => (past && pastRaces ? [...pastRaces, ...upcoming] : upcoming), [past, pastRaces, upcoming]);
   const [hideClosed, setHideClosed] = useState(false);
   const [poles, setPoles] = useState(false);
   const [dogs, setDogs] = useState(false);
@@ -71,9 +76,9 @@ export function RaceList({ races, regions, today }: { races: RaceWithGeo[]; regi
     (!woj || r.woj === woj) &&
     (!start || r.beginnerScore >= 4) &&
     (!hideClosed || r.signup?.status !== "closed") &&
-    (!poles || r.info?.poles === "tak") &&
-    (!dogs || r.info?.dogs === "tak") &&
-    (!kids || !!r.info?.kids) &&
+    (!poles || !!r.poles) &&
+    (!dogs || !!r.dogs) &&
+    (!kids || !!r.kids) &&
     (!me || (r.lat !== undefined && r.lng !== undefined && distKm(me, [r.lat, r.lng]) <= radius))
   ).sort((a, b) => me && a.lat !== undefined && b.lat !== undefined ? distKm(me, [a.lat, a.lng!]) - distKm(me, [b.lat, b.lng!]) : 0), [races, q, region, woj, from, to, dist, customKm, kf, kt, start, past, today, me, radius, hideClosed, poles, dogs, kids]);
 

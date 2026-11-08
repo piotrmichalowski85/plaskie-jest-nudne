@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { upcomingRaces, today, allRaces } from "@/lib/data";
-import { PosterCard } from "@/components/PosterCard";
+import { CardGrid } from "@/components/CardGrid";
+import { toCard } from "@/lib/card";
 import { Ticker } from "@/components/Ticker";
 import { Polecamy } from "@/components/Polecamy";
 import type { Metadata } from "next";
@@ -36,13 +37,13 @@ export default function Home() {
           <Link href="/biegi/zapisy-otwarte" className="qchip">Zapisy otwarte</Link>
           <Link href="/biegi?view=mapa" className="qchip">Mapa</Link>
         </div>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{next.map((r) => <PosterCard key={r.id} race={r} today={t} />)}</div>
+        <CardGrid races={next.map((r) => toCard(r, t))} today={t} />
       </section>
 
       {forStart.length > 0 && (
         <section className="cv-auto">
           <div className="flex items-end justify-between mb-3"><h2 className="text-[2.2rem]">Dobre na pierwszy start</h2><Link href="/biegi/dla-poczatkujacych" className="text-sm font-bold text-[var(--moss)]">więcej →</Link></div>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{forStart.map((r) => <PosterCard key={r.id} race={r} today={t} />)}</div>
+          <CardGrid races={forStart.map((r) => toCard(r, t))} today={t} />
         </section>
       )}
 

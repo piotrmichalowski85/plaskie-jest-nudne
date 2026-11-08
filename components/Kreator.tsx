@@ -1,6 +1,6 @@
 "use client";
 import { useMemo, useState } from "react";
-import type { Race } from "@/lib/types";
+import type { CardRace as Race } from "@/lib/card";
 import { PosterCard } from "./PosterCard";
 
 type A = { level: string; longest: string; region: string; when: string; goal: string };

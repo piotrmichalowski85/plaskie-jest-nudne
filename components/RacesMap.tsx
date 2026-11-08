@@ -1,10 +1,10 @@
 "use client";
 import { useEffect, useRef } from "react";
 import "maplibre-gl/dist/maplibre-gl.css";
-import type { Race } from "@/lib/types";
+import type { CardRace } from "@/lib/card";
 import { fmtDate } from "@/lib/format";
 
-export type RaceWithGeo = Race & { lat?: number; lng?: number; woj?: string };
+export type RaceWithGeo = CardRace;
 const color: Record<number, string> = { 5: "#1f6b33", 4: "#1f6b33", 3: "#b8860b", 2: "#a1291c", 1: "#a1291c" };
 
 export function RacesMap({ races, center }: { races: RaceWithGeo[]; center?: [number, number] }) {
