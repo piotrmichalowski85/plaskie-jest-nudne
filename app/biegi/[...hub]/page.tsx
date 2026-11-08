@@ -17,6 +17,14 @@ export async function generateMetadata({ params }: { params: Promise<{ hub: stri
   return { title: h.title, description: h.description, alternates: { canonical: hubPath(h) } };
 }
 
+/** link do pełnego kalendarza z filtrem odpowiadającym hubowi */
+function fullLink(h: Hub): string {
+  if (h.kind === "wojewodztwo") return `/biegi?woj=${encodeURIComponent(h.label)}`;
+  if (h.kind === "pasmo" && !h.label.includes(" i ") && !/^(Beskidy|Sudety)$/.test(h.label)) return `/biegi?pasmo=${encodeURIComponent(h.label)}`;
+  const q: Record<string, string> = { "z-kijami": "kije=1", "z-psem": "pies=1", "z-biegiem-dla-dzieci": "dzieci=1", "dla-poczatkujacych": "start=1", "do-15-km": "dist=s", ultra: "dist=u" };
+  return q[h.path[0]] ? `/biegi?${q[h.path[0]]}` : "/biegi";
+}
+
 function HubNav({ current, kind, heading }: { current: Hub; kind: Hub["kind"]; heading: string }) {
   const list = allHubs().filter((h) => h.kind === kind);
   if (!list.length) return null;
@@ -50,7 +58,13 @@ export default async function HubPage({ params }: { params: Promise<{ hub: strin
       <section className="mt-6">
         {upcoming.length ? <CardGrid races={upcoming.map((r) => toCard(r, t))} today={t} />
           : <p className="card text-[var(--muted)]">Brak nadchodzących biegów w tym zestawieniu. Zajrzyj do <Link className="underline" href="/biegi">pełnego kalendarza</Link> albo <Link className="underline" href="/kreator">kreatora pierwszego biegu</Link>.</p>}
-        <p className="mt-4 text-sm"><Link href={h.kind === "wojewodztwo" ? `/biegi?woj=${encodeURIComponent(h.label)}` : h.kind === "pasmo" && !h.label.includes(" i ") && !/^(Beskidy|Sudety)$/.test(h.label) ? `/biegi?pasmo=${encodeURIComponent(h.label)}` : "/biegi"} className="underline font-semibold text-[var(--moss)]">Pełny kalendarz z filtrami</Link>{h.kind === "temat" && h.path[0] === "dla-poczatkujacych" ? <> albo <Link href="/kreator" className="underline font-semibold text-[var(--moss)]">kreator: pięć pytań i trzy biegi na Twój staż</Link></> : null}.</p>
+        {h.more && (
+          <div className="mt-6">
+            <h2 className="text-[1.9rem] mb-3">{h.more.title}</h2>
+            <CardGrid races={h.more.races.map((r) => toCard(r, t))} today={t} />
+          </div>
+        )}
+        <p className="mt-4 text-sm"><Link href={fullLink(h)} className="underline font-semibold text-[var(--moss)]">Pełny kalendarz z filtrami</Link>{h.kind === "temat" && h.path[0] === "dla-poczatkujacych" ? <> albo <Link href="/kreator" className="underline font-semibold text-[var(--moss)]">kreator: pięć pytań i trzy biegi na Twój staż</Link></> : null}.</p>
       </section>
 
       <div className="mt-6"><SubscribeIcs path={`${hubPath(h)}.ics`} what={`Biegi z zestawienia "${h.label}"`} /></div>
@@ -71,6 +85,8 @@ export default async function HubPage({ params }: { params: Promise<{ hub: strin
       <section className="mt-10 space-y-5">
         <HubNav current={h} kind="pasmo" heading="Pasma i regiony" />
         <HubNav current={h} kind="wojewodztwo" heading="Województwa" />
+        <HubNav current={h} kind="blisko" heading="Blisko miast" />
+        <HubNav current={h} kind="rok" heading="Lata" />
         <HubNav current={h} kind="miesiac" heading="Miesiące" />
         <HubNav current={h} kind="temat" heading="Zestawienia" />
       </section>
