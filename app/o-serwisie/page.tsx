@@ -40,7 +40,7 @@ export default function About() {
 
       <section className="mt-6 card p-5 flex flex-wrap items-center justify-between gap-4 max-w-[62rem]">
         <div><h2 className="text-[1.8rem]">Organizujesz bieg?</h2><p className="text-sm text-[var(--muted)]">Jeśli brakuje Twojego biegu albo dane są nieaktualne, napisz. Poprawki wchodzą przy najbliższym odświeżeniu.</p></div>
-        <div className="flex flex-wrap gap-2"><a href="mailto:kontakt@plaskiejestnudne.pl" className="btn">kontakt@plaskiejestnudne.pl</a><Link href="/biegi" className="btn btn-ghost">Kalendarz</Link></div>
+        <div className="flex flex-wrap gap-2"><a href="mailto:kontakt@plaskiejestnudne.pl" className="btn">kontakt@plaskiejestnudne.pl</a><Link href="/dla-organizatorow" className="btn btn-ghost">Odznaka i widget</Link></div>
       </section>
     </article>
   );

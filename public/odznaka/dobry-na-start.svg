@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="64" viewBox="0 0 200 64" role="img" aria-label="Dobry na start: ocena kalendarza Płaskie jest nudne">
+  <rect width="200" height="64" rx="14" fill="#2f5d3a"/>
+  <path d="M0 50 Q30 38 60 46 T120 42 T200 46 L200 50 Q200 64 186 64 L14 64 Q0 64 0 50Z" fill="#1f4128"/>
+  <circle cx="24" cy="25" r="9" fill="#e8b84a"/>
+  <path d="M19.5 25.2 L22.8 28.4 L28.6 21.8" fill="none" stroke="#1f4128" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="42" y="31" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing=".5" fill="#ffffff">DOBRY NA START</text>
+  <text x="42" y="52" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#f4efe4">plaskiejestnudne.pl</text>
+</svg>

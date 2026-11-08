@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/zmiany`, lastModified: generatedAt, changeFrequency: "weekly", priority: 0.5 },
     { url: `${base}/slownik`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${base}/o-serwisie`, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${base}/dla-organizatorow`, changeFrequency: "monthly", priority: 0.5 },
     { url: `${base}/prywatnosc`, changeFrequency: "yearly", priority: 0.1 },
     ...TERMS.map((t) => ({ url: `${base}/slownik/${t.slug}`, changeFrequency: "monthly" as const, priority: 0.6 })),
     ...allHubs().map((h) => ({ url: `${base}${hubPath(h)}`, lastModified: generatedAt, changeFrequency: "weekly" as const, priority: 0.8 })),
