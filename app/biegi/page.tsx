@@ -4,6 +4,7 @@ import { RaceList } from "@/components/RaceList";
 import { geoFor } from "@/lib/geo";
 import Link from "next/link";
 import { allHubs, hubPath } from "@/lib/hubs";
+import { SubscribeIcs } from "@/components/SubscribeIcs";
 export const metadata: Metadata = { title: "Kalendarz biegów górskich i trailowych 2026/2027", description: "Wszystkie biegi górskie, trailowe i przełajowe w Polsce: terminy, dystanse, przewyższenia, status zapisów i ocena dla początkujących. Filtry po paśmie, dacie i dystansie.", alternates: { canonical: "/biegi" } };
 export default function Biegi() {
   return (
@@ -11,6 +12,7 @@ export default function Biegi() {
       <h1 className="text-[3rem] mb-1">Kalendarz biegów</h1>
       <p className="text-[var(--muted)] mb-6">Biegi górskie, trailowe i przełajowe w całej Polsce. Zielony = dobry na start, żółty = ujdzie na start, czerwony = zły na start.</p>
       <RaceList races={allRaces.map((r) => { const g = geoFor(r.city); return g ? { ...r, lat: g.lat, lng: g.lng, woj: g.woj } : r; })} regions={regions()} today={today()} />
+      <div className="mt-8"><SubscribeIcs path="/kalendarz.ics" what="Wszystkie biegi z kalendarza" /></div>
       <section className="mt-12 space-y-5">
         <h2 className="text-[1.9rem]">Zestawienia</h2>
         {(["pasmo", "wojewodztwo", "miesiac", "temat"] as const).map((k) => (
