@@ -1,7 +1,8 @@
 # Backlog batch 2 (decyzja Piotra 04.11.2026)
 
 > Źródło: `docs/usprawnienia_2026-11.md` (research 04.11). Piotr wybrał pozycje 1, 3, 5, 6, 7, 8 oraz z pakietu higieny (#10) manifest i dostępność. Realizacja: kolejna sesja plaskie, bez udziału Piotra poza punktami oznaczonymi "Piotr".
-> Pominięte świadomie: #2 newsletter, #4 "Moje biegi", #9 feedy i API, z #10 Vercel Web Analytics i tryb ciemny.
+> Dopisane 09.11 na prośbę Piotra: #4 "Moje biegi" (ósma w kolejności).
+> Pominięte świadomie: #2 newsletter, #9 feedy i API, z #10 Vercel Web Analytics i tryb ciemny.
 
 | Kolejność | # | Zakres | Szacunek | Udział Piotra |
 |---|---|---|---|---|
@@ -12,8 +13,10 @@
 | 5 | 8 | Pogoda na stronie biegu: prognoza Open-Meteo do 16 dni + "typowa pogoda w tym terminie" z 10 lat (okno +-7 dni), liczone w odświeżaniu (GitHub Actions), nie w runtime; atrybucja CC BY 4.0 | 2-3 h | brak |
 | 6 | 6 | Strona `/dla-organizatorow` + odznaka SVG "dobry na start" z linkiem + widget `/embed?pasmo=...&limit=5` + snippet do wklejenia | 3-4 h | maile do 20-30 organizatorów (Piotr, po gotowej stronie; szkice maili pisze zespół) |
 | 7 | 10 (część) | Manifest: `app/manifest.ts`, `theme-color`, ikony na ekran startowy. Dostępność: skip-link, `prefers-reduced-motion` dla tickera, kontrasty i focus na filtrach, `robots: max-image-preview:large` | 1-1,5 h | brak |
+| 8 | 4 | "Moje biegi" w przeglądarce (localStorage, bez konta): serce na karcie i stronie biegu, strona `/moje` z listą, porównywarka 2-3 biegów w tabeli (termin, dystans, D+, limit, cena, sprzęt, ocena), eksport wszystkich do .ics, link do udostępnienia listy (parametr w URL) | 4-6 h | brak |
 
-Razem: ok. 15-20 h pracy zespołu, 0 h Piotra poza mailami do organizatorów (osobne zadanie, gdy strona będzie gotowa).
+
+Razem: ok. 19-26 h pracy zespołu, 0 h Piotra poza mailami do organizatorów (osobne zadanie, gdy strona będzie gotowa).
 
 ## Zasady realizacji
 - Każda pozycja = osobny commit i wpis w `docs/zmiany` (dziennik "Co nowego" pokazuje tylko zmiany w danych; zmiany funkcji opisujemy w commit message).
