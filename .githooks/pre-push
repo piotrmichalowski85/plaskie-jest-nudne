@@ -1,0 +1,16 @@
+#!/bin/sh
+# Blokada (09.11.2026): push na main z więcej niż 2 nowymi commitami oznacza scalenie gałęzi,
+# a scalenie do main (= produkcja na Vercelu) wymaga OK Piotra. Świadome scalenie: PLASKIE_MERGE_OK=1 git push
+zero=0000000000000000000000000000000000000000
+while read local_ref local_sha remote_ref remote_sha; do
+  [ "$remote_ref" = "refs/heads/main" ] || continue
+  [ -n "$PLASKIE_MERGE_OK" ] && continue
+  [ "$remote_sha" = "$zero" ] && continue
+  n=$(git rev-list --count "$remote_sha..$local_sha" 2>/dev/null || echo 0)
+  if [ "$n" -gt 2 ]; then
+    echo "pre-push: $n nowych commitów na main (limit 2 bez zgody). Scalenie do main = produkcja i wymaga OK Piotra." >&2
+    echo "Jeśli OK jest: PLASKIE_MERGE_OK=1 git push" >&2
+    exit 1
+  fi
+done
+exit 0
