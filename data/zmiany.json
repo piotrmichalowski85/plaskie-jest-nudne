@@ -1,5 +1,75 @@
 [
  {
+  "date": "2026-11-09",
+  "label": "odświeżenie kalendarza",
+  "total": 273,
+  "upcoming": 70,
+  "added": [
+   {
+    "id": "9-bieg-sladami-zubra-2026-12-12",
+    "eventName": "9. Bieg „Śladami Żubra”",
+    "dateStart": "2026-12-12",
+    "city": "Studzienice"
+   },
+   {
+    "id": "koliba-lomnicka-2027-01-30",
+    "eventName": "Koliba Lomnicka",
+    "dateStart": "2027-01-30",
+    "city": "Łomnica"
+   },
+   {
+    "id": "zimowa-dycha-jedlina-zdroj-2027-02-07",
+    "eventName": "Zimowa Dycha Jedlina-Zdrój",
+    "dateStart": "2027-02-07",
+    "city": "Jedlina-Zdrój"
+   },
+   {
+    "id": "6-zimowy-polmaraton-gorski-jedlina-zdroj-2027-02-07",
+    "eventName": "6. Zimowy Półmaraton Górski Jedlina-Zdrój",
+    "dateStart": "2027-02-07",
+    "city": "Jedlina-Zdrój"
+   },
+   {
+    "id": "wrc-2027-04-03",
+    "eventName": "WRC",
+    "dateStart": "2027-04-03",
+    "city": "Głuszyca"
+   },
+   {
+    "id": "dolnoslaski-festiwal-biegow-gorskich-2027-07-15",
+    "eventName": "Dolnośląski Festiwal Biegów Górskich",
+    "dateStart": "2027-07-15",
+    "city": "Kudowa-Zdrój"
+   },
+   {
+    "id": "tatra-skymarathon-2027-07-24",
+    "eventName": "Tatra SkyMarathon",
+    "dateStart": "2027-07-24",
+    "city": "Siwa Polana"
+   }
+  ],
+  "removed": [
+   {
+    "id": "festiwal-biegow-gorskich-3xkopa-2027-04-23",
+    "eventName": "Festiwal Biegów Górskich 3xKopa",
+    "dateStart": "2027-04-23",
+    "city": "Pokrzywna",
+    "provisional": true
+   },
+   {
+    "id": "dfbg-2027-07-15",
+    "eventName": "DFBG",
+    "dateStart": "2027-07-15",
+    "city": "Lądek-Zdrój"
+   }
+  ],
+  "dateChanged": [],
+  "signupChanged": [],
+  "gearAdded": [],
+  "dplusAdded": [],
+  "regulaminAdded": []
+ },
+ {
   "date": "2026-11-06",
   "label": "sprzęt z regulaminów",
   "total": 270,
@@ -642,62 +712,5 @@
   ],
   "dplusAdded": [],
   "regulaminAdded": []
- },
- {
-  "date": "2026-10-12",
-  "label": "odświeżenie kalendarza",
-  "total": 246,
-  "upcoming": 50,
-  "added": [],
-  "removed": [],
-  "dateChanged": [],
-  "signupChanged": [
-   {
-    "id": "turbacz-trail-2026-12-06",
-    "eventName": "Turbacz Trail",
-    "from": "unknown",
-    "to": "open"
-   }
-  ],
-  "gearAdded": [],
-  "dplusAdded": [],
-  "regulaminAdded": [
-   {
-    "id": "lemkowyna-ultra-trail-2026-10-16",
-    "eventName": "Łemkowyna Ultra-Trail",
-    "dateStart": "2026-10-16",
-    "city": "Krynica-Zdrój"
-   },
-   {
-    "id": "jesienny-ultra-swir-2026-11-28",
-    "eventName": "JESIENNY ULTRA ŚWIR",
-    "dateStart": "2026-11-28",
-    "city": "Gołkowice Dolne"
-   },
-   {
-    "id": "turbacz-trail-2026-12-06",
-    "eventName": "Turbacz Trail",
-    "dateStart": "2026-12-06",
-    "city": "Nowy Targ"
-   },
-   {
-    "id": "podhalanski-bieg-mikolajkowy-2026-12-06",
-    "eventName": "Podhalański Bieg Mikołajkowy",
-    "dateStart": "2026-12-06",
-    "city": "Ostrowsko"
-   },
-   {
-    "id": "turbacz-winter-trail-2027-02-13",
-    "eventName": "Turbacz Winter Trail",
-    "dateStart": "2027-02-13",
-    "city": "Nowy Targ"
-   },
-   {
-    "id": "xiii-festiwal-biegu-rzeznika-2027-05-26",
-    "eventName": "XIII Festiwal Biegu Rzeźnika",
-    "dateStart": "2027-05-26",
-    "city": "Cisna"
-   }
-  ]
  }
 ]

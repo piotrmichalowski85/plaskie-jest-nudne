@@ -32,7 +32,7 @@
   "prev": "2026-01-25"
  },
  "http://jedlina.pro-run.pl/": {
-  "checkedAt": "2026-10-09",
+  "checkedAt": "2026-11-09",
   "prev": "2026-05-10",
   "found": {
    "start": "2027-05-09",
@@ -68,7 +68,7 @@
   "prev": "2026-02-28"
  },
  "https://sisxyz.pl/nasze-biegi/ultra-zadek/": {
-  "checkedAt": "2026-10-09",
+  "checkedAt": "2026-11-09",
   "prev": "2026-03-07",
   "found": {
    "start": "2027-03-06",
@@ -118,14 +118,8 @@
   "prev": "2026-04-23"
  },
  "https://3xkopa.pl/": {
-  "checkedAt": "2026-10-09",
-  "prev": "2026-04-24",
-  "found": {
-   "start": "2027-04-23",
-   "end": "2027-04-25"
-  },
-  "hits": 1,
-  "title": "3 x KOPA – Odkryj Góry Opawskie"
+  "checkedAt": "2026-11-09",
+  "prev": "2026-04-24"
  },
  "https://zamczyskatrail.com/": {
   "checkedAt": "2026-11-06",
@@ -178,7 +172,7 @@
   "prev": "2026-05-23"
  },
  "https://www.biegrzeznika.pl/rzeznik-500-czyli-bieg-etapowy-glownym-szlakiem-beskidzkim/": {
-  "checkedAt": "2026-10-09",
+  "checkedAt": "2026-11-09",
   "prev": "2026-06-05",
   "found": {
    "start": "2027-05-26",
@@ -412,33 +406,33 @@
   "prev": "2026-10-04"
  },
  "https://www.maratongorstolowych.pl/": {
-  "checkedAt": "2026-10-09",
+  "checkedAt": "2026-11-09",
   "prev": "2026-06-27",
   "found": {
    "start": "2027-06-26",
    "end": "2027-06-26"
   },
-  "hits": 4,
+  "hits": 5,
   "title": "Supermaratorn Gór Stołowych | Zimowy Półmaraton Gór Stołowych"
  },
  "https://www.maratonbieszczadzki.pl/": {
-  "checkedAt": "2026-10-26",
+  "checkedAt": "2026-11-09",
   "prev": "2026-10-09"
  },
  "https://ultrakotlina.pl/": {
-  "checkedAt": "2026-10-26",
+  "checkedAt": "2026-11-09",
   "prev": "2026-10-09"
  },
  "https://my.raceresult.com/392481/": {
-  "checkedAt": "2026-10-26",
+  "checkedAt": "2026-11-09",
   "prev": "2026-10-10"
  },
  "https://janosikraceseries.com/roztoczeultrarace/": {
-  "checkedAt": "2026-10-26",
+  "checkedAt": "2026-11-09",
   "prev": "2026-10-10"
  },
  "https://aktywnakorczyna.pl/": {
-  "checkedAt": "2026-10-26",
+  "checkedAt": "2026-11-09",
   "prev": "2026-10-10"
  },
  "https://winter.pomeraniatrail.pl/": {
@@ -464,15 +458,23 @@
   "title": "Łemkowyna Trail"
  },
  "https://biegajwgorachsowich.pl/polmaraton-sowiogorski": {
-  "checkedAt": "2026-10-26",
+  "checkedAt": "2026-11-09",
   "prev": "2026-05-02"
  },
  "https://janosikraceseries.com/smok/": {
-  "checkedAt": "2026-10-26",
+  "checkedAt": "2026-11-09",
   "prev": "2026-10-24"
  },
  "http://maratonswietokrzyski.pl/": {
-  "checkedAt": "2026-10-26",
+  "checkedAt": "2026-11-09",
   "prev": "2026-10-24"
+ },
+ "https://kandahar.pl/13-jesienny-bieg-potrojnej/": {
+  "checkedAt": "2026-11-09",
+  "prev": "2026-11-07"
+ },
+ "https://bieggorski.pl/": {
+  "checkedAt": "2026-11-09",
+  "prev": "2026-11-07"
  }
 }
