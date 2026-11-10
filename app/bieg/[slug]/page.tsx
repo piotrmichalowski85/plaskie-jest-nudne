@@ -93,7 +93,7 @@ function BeforeSignupSection({ r, past }: { r: Race; past: boolean }) {
   if (i?.poles) rows.push(["Kije", i.poles === "tak" ? "dozwolone" : "zakazane"]);
   if (i?.dogs) rows.push(["Bieg z psem", i.dogs === "tak" ? "dozwolony (warunki w regulaminie)" : "niedozwolony"]);
   if (i?.kids) rows.push(["Bieg dla dzieci", "jest w programie imprezy"]);
-  if (r.gear?.length) rows.push(["Sprzęt obowiązkowy", <ul key="g" className="grid gap-0.5 sm:grid-cols-2 list-[square] pl-5">{r.gear.map((x) => <li key={x}>{x}</li>)}</ul>]);
+  if (r.gear?.length) rows.push(["Sprzęt obowiązkowy", <ul key="g" className="grid gap-x-6 gap-y-0.5 lg:grid-cols-2 list-[square] pl-5">{r.gear.map((x) => <li key={x}>{x}</li>)}</ul>]);
   return (
     <section className="card">
       <h2 className="text-[1.6rem]">Zanim się zapiszesz</h2>
