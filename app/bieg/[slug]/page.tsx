@@ -221,7 +221,6 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
           )}
 
           <RegInfoSection r={r} past={past} />
-          {!past && <WeatherSection r={r} />}
 
           <section className="card">
             <h2 className="text-[1.6rem]">Zanim się zapiszesz</h2>
@@ -256,7 +255,8 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
         </div>
 
         {/* wąska kolumna: fakty i akcje */}
-        <aside className="space-y-4 md:sticky md:top-20">
+        {/* bez sticky: z pogodą i podobnymi biegami kolumna bywa wyższa niż ekran; na telefonie schodzi pod treść główną */}
+        <aside className="space-y-4 min-w-0">
           <div className="card text-sm flex items-start gap-2">
             <span className="text-[var(--moss)] mt-0.5"><IconPin /></span>
             <span><span className="font-semibold">{r.city}{r.region ? `, ${r.region}` : ""}</span>{g?.woj ? <span className="block text-xs text-[var(--muted)]">woj. {g.woj}</span> : null}{g && <><br /><a className="underline text-[var(--moss)]" href={`https://www.google.com/maps/dir/?api=1&destination=${g.lat},${g.lng}`} target="_blank" rel="noopener">Jak dojechać</a></>}</span>
@@ -269,6 +269,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
             <a className="btn btn-ghost justify-center" href={`/ics/${r.id}`}><IconCalendar />Dodaj do kalendarza</a>
             <ShareButton title={r.eventName} />
           </div>
+          {!past && <WeatherSection r={r} />}
         </aside>
       </div>
       {hubs.length > 0 && <p className="mt-8 flex flex-wrap items-center gap-1.5 text-sm"><span className="text-[var(--muted)] mr-1">Zobacz też:</span>{hubs.map((h) => <Link key={hubPath(h)} href={hubPath(h)} className="qchip">{h.label}</Link>)}</p>}
