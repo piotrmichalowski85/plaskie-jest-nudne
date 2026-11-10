@@ -1302,5 +1302,75 @@
   "display": "Olsztyn, gmina Olsztyn, powiat częstochowski",
   "at": "2026-11-06",
   "woj": "śląskie"
+ },
+ "studzienice": {
+  "lat": 54.0934349,
+  "lng": 17.5755453,
+  "display": "Studzienice, gmina Studzienice, powiat bytowski",
+  "at": "2026-11-10",
+  "woj": "pomorskie"
+ },
+ "emów": {
+  "lat": 52.1598825,
+  "lng": 21.2798347,
+  "display": "Emów, gmina Wiązowna, powiat otwocki",
+  "at": "2026-11-10",
+  "woj": "mazowieckie"
+ },
+ "pensjonat szczebel": {
+  "lat": 49.679681,
+  "lng": 20.0582427,
+  "display": "Szczebel, Krakowska, Zośki",
+  "at": "2026-11-10",
+  "woj": "małopolskie"
+ },
+ "żubracze": {
+  "lat": 49.2091141,
+  "lng": 22.270645,
+  "display": "Żubracze, gmina Cisna, powiat leski",
+  "at": "2026-11-10",
+  "woj": "podkarpackie"
+ },
+ "świeradów": {
+  "lat": 50.9093388,
+  "lng": 15.3332153,
+  "display": "Świeradów-Zdrój, powiat lubański, województwo dolnośląskie",
+  "at": "2026-11-10",
+  "woj": "dolnośląskie"
+ },
+ "stacja narciarska długa polana": {
+  "lat": 49.5040897,
+  "lng": 20.0614521,
+  "display": "Stacja Narciarska Długa Polana, Osiedle Oleksówki, Oleksówki",
+  "at": "2026-11-10",
+  "woj": "małopolskie"
+ },
+ "karpacz": {
+  "lat": 50.7639983,
+  "lng": 15.7451981,
+  "display": "Karpacz, powiat karkonoski, województwo dolnośląskie",
+  "at": "2026-11-10",
+  "woj": "dolnośląskie"
+ },
+ "kudowa-zdrój": {
+  "lat": 50.4457857,
+  "lng": 16.2541473,
+  "display": "Kudowa-Zdrój, powiat kłodzki, województwo dolnośląskie",
+  "at": "2026-11-10",
+  "woj": "dolnośląskie"
+ },
+ "siwa polana": {
+  "lat": 49.2798605,
+  "lng": 19.8392765,
+  "display": "Siwa Polana, Siwa, Witów",
+  "at": "2026-11-10",
+  "woj": "małopolskie"
+ },
+ "przełęcz wierch młynne": {
+  "lat": 49.5039397,
+  "lng": 20.1879815,
+  "display": "Przełęcz Furcowa/Ochotnicka, Knurów, gmina Nowy Targ",
+  "at": "2026-11-10",
+  "woj": "małopolskie"
  }
 }

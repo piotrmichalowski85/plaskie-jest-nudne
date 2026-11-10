@@ -2754,5 +2754,62 @@
   ],
   "modified": "2026-11-03T09:42:58",
   "fetchedAt": "2026-11-06"
+ },
+ "4687": {
+  "id": 4687,
+  "name": "9. Bieg „Śladami Żubra”",
+  "url": "https://kalendarzbiegowy.pl/biegi/9-bieg-sladami-zubra/",
+  "start": "2026-12-12",
+  "end": "2026-12-12",
+  "city": "Studzienice",
+  "kinds": [
+   "przelaj",
+   "trail"
+  ],
+  "distancesKm": [
+   1.8,
+   2,
+   6,
+   12
+  ],
+  "dplus": [
+   {
+    "km": 1.8
+   },
+   {
+    "km": 2
+   },
+   {
+    "km": 6
+   },
+   {
+    "km": 12
+   }
+  ],
+  "modified": "2026-11-07T22:14:12",
+  "fetchedAt": "2026-11-10"
+ },
+ "4692": {
+  "id": 4692,
+  "name": "Tatra Skymarathon 2027",
+  "url": "https://kalendarzbiegowy.pl/biegi/tatra-skymarathon-2027/",
+  "start": "2027-07-23",
+  "end": "2027-07-24",
+  "city": "Zakopane",
+  "kinds": [
+   "gorski",
+   "ultra",
+   "trail"
+  ],
+  "distancesKm": [
+   8
+  ],
+  "dplus": [
+   {
+    "km": 8
+   }
+  ],
+  "modified": "2026-11-07T22:47:13",
+  "fetchedAt": "2026-11-10"
  }
 }

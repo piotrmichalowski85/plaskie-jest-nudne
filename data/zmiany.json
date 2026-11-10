@@ -1,5 +1,148 @@
 [
  {
+  "date": "2026-11-10",
+  "label": "sprzęt z regulaminów",
+  "total": 286,
+  "upcoming": 83,
+  "added": [
+   {
+    "id": "xii-gorski-zimowy-maraton-i-polmaraton-slezanski-2027-01-09",
+    "eventName": "XII Górski Zimowy Maraton i Połmaraton Ślężański",
+    "dateStart": "2027-01-09",
+    "city": "Sobótka Masyw Ślęży"
+   },
+   {
+    "id": "ultra-river-ultra-swider-zima-2027-11-2027-01-23",
+    "eventName": "ULTRA RIVER ULTRA ŚWIDER – ZIMA 2027 11+",
+    "dateStart": "2027-01-23",
+    "city": "Emów"
+   },
+   {
+    "id": "utm-16-ultra-trail-malopolska-2027-2027-05-21",
+    "eventName": "UTM 16 / ULTRA-TRAIL® MAŁOPOLSKA 2027",
+    "dateStart": "2027-05-21",
+    "city": "Pensjonat Szczebel"
+   },
+   {
+    "id": "xxiv-bieg-rzeznika-2027-05-27",
+    "eventName": "XXIV Bieg Rzeźnika",
+    "dateStart": "2027-05-27",
+    "city": "Cisna"
+   },
+   {
+    "id": "xiii-rzeznik-ultra-2027-05-28",
+    "eventName": "XIII Rzeźnik Ultra",
+    "dateStart": "2027-05-28",
+    "city": "Cisna"
+   },
+   {
+    "id": "xvi-rzezniczek-2027-05-29",
+    "eventName": "XVI Rzeźniczek",
+    "dateStart": "2027-05-29",
+    "city": "Żubracze"
+   },
+   {
+    "id": "supermaraton-gor-stolowych-light-2027-06-26",
+    "eventName": "Supermaraton Gór Stołowych LIGHT",
+    "dateStart": "2027-06-26",
+    "city": "Karłów"
+   },
+   {
+    "id": "izery-trail-2027-06-26",
+    "eventName": "Izery Trail",
+    "dateStart": "2027-06-26",
+    "city": "Świeradów"
+   },
+   {
+    "id": "turbacz-summer-trail-2027-07-03",
+    "eventName": "Turbacz Summer Trail",
+    "dateStart": "2027-07-03",
+    "city": "Stacja Narciarska Długa Polana"
+   },
+   {
+    "id": "3-x-sniezka-2027-07-09",
+    "eventName": "3 x Śnieżka",
+    "dateStart": "2027-07-09",
+    "city": "Karpacz"
+   },
+   {
+    "id": "dolnoslaski-festiwal-biegow-gorskich-dfbg-2027-07-15",
+    "eventName": "Dolnośląski Festiwal Biegów Górskich DFBG",
+    "dateStart": "2027-07-15",
+    "city": "Lądek-Zdrój"
+   },
+   {
+    "id": "dfbg-2027-07-15",
+    "eventName": "DFBG",
+    "dateStart": "2027-07-15",
+    "city": "Kudowa-Zdrój"
+   },
+   {
+    "id": "chudy-wawrzyniec-50-2027-08-07",
+    "eventName": "Chudy Wawrzyniec 50+",
+    "dateStart": "2027-08-07",
+    "city": "Rajcza"
+   },
+   {
+    "id": "bieg-ultra-grania-tatr-2027-08-21",
+    "eventName": "BIEG ULTRA GRANIĄ TATR",
+    "dateStart": "2027-08-21",
+    "city": "Siwa Polana"
+   },
+   {
+    "id": "bison-trail-2027-10-02",
+    "eventName": "Bison Trail",
+    "dateStart": "2027-10-02",
+    "city": "Supraśl"
+   }
+  ],
+  "removed": [
+   {
+    "id": "supermaraton-gor-stolowych-2027-06-26",
+    "eventName": "Supermaraton Gór Stołowych",
+    "dateStart": "2027-06-26",
+    "city": "Karłów"
+   },
+   {
+    "id": "izery-ultra-trail-2027-06-26",
+    "eventName": "Izery Ultra-Trail",
+    "dateStart": "2027-06-26",
+    "city": "Świeradów-Zdrój"
+   },
+   {
+    "id": "dolnoslaski-festiwal-biegow-gorskich-2027-07-15",
+    "eventName": "Dolnośląski Festiwal Biegów Górskich",
+    "dateStart": "2027-07-15",
+    "city": "Kudowa-Zdrój"
+   }
+  ],
+  "dateChanged": [
+   {
+    "id": "gorce-ultra-trail-2027-08-01",
+    "eventName": "Gorce Ultra-Trail®",
+    "from": "2027-07-30",
+    "to": "2027-08-01"
+   }
+  ],
+  "signupChanged": [],
+  "gearAdded": [],
+  "dplusAdded": [],
+  "regulaminAdded": [
+   {
+    "id": "borowkowa-trail-2026-11-14",
+    "eventName": "Borówkowa Trail",
+    "dateStart": "2026-11-14",
+    "city": "Lądek-Zdrój"
+   },
+   {
+    "id": "run-bike-orlich-gniazd-2027-09-10",
+    "eventName": "Run & Bike Orlich Gniazd",
+    "dateStart": "2027-09-10",
+    "city": "Częstochowa Olsztyn Bydlin Kraków Krakowsko- Częstochowska >"
+   }
+  ]
+ },
+ {
   "date": "2026-11-09",
   "label": "odświeżenie kalendarza",
   "total": 273,
@@ -600,116 +743,6 @@
   "dateChanged": [],
   "signupChanged": [],
   "gearAdded": [],
-  "dplusAdded": [],
-  "regulaminAdded": []
- },
- {
-  "date": "2026-10-13",
-  "label": "sprzęt z regulaminów",
-  "total": 246,
-  "upcoming": 50,
-  "added": [],
-  "removed": [],
-  "dateChanged": [],
-  "signupChanged": [
-   {
-    "id": "turbacz-winter-trail-2027-02-13",
-    "eventName": "Turbacz Winter Trail",
-    "from": "open",
-    "to": "closed"
-   }
-  ],
-  "gearAdded": [
-   {
-    "id": "lemkowyna-ultra-trail-2026-10-16",
-    "eventName": "Łemkowyna Ultra-Trail",
-    "dateStart": "2026-10-16",
-    "city": "Krynica-Zdrój"
-   },
-   {
-    "id": "jesienny-ultra-swir-2026-11-28",
-    "eventName": "JESIENNY ULTRA ŚWIR",
-    "dateStart": "2026-11-28",
-    "city": "Gołkowice Dolne"
-   },
-   {
-    "id": "turbacz-trail-2026-12-06",
-    "eventName": "Turbacz Trail",
-    "dateStart": "2026-12-06",
-    "city": "Nowy Targ"
-   },
-   {
-    "id": "podhalanski-bieg-mikolajkowy-2026-12-06",
-    "eventName": "Podhalański Bieg Mikołajkowy",
-    "dateStart": "2026-12-06",
-    "city": "Ostrowsko"
-   },
-   {
-    "id": "turbacz-winter-trail-2027-02-13",
-    "eventName": "Turbacz Winter Trail",
-    "dateStart": "2027-02-13",
-    "city": "Nowy Targ"
-   },
-   {
-    "id": "ultra-zadek-festiwal-biegowy-2027-03-06",
-    "eventName": "Ultra ZADEK Festiwal Biegowy",
-    "dateStart": "2027-03-06",
-    "city": "Kędzierzyn-Koźle",
-    "provisional": true
-   },
-   {
-    "id": "baran-trail-race-winter-edition-2027-03-13",
-    "eventName": "Baran Trail Race Winter Edition",
-    "dateStart": "2027-03-13",
-    "city": "Węgierska Górka"
-   },
-   {
-    "id": "wiosenny-ultra-swir-2027-03-20",
-    "eventName": "WIOSENNY ULTRA ŚWIR",
-    "dateStart": "2027-03-20",
-    "city": "Ptaszkowa"
-   },
-   {
-    "id": "festiwal-biegow-gorskich-3xkopa-2027-04-23",
-    "eventName": "Festiwal Biegów Górskich 3xKopa",
-    "dateStart": "2027-04-23",
-    "city": "Pokrzywna",
-    "provisional": true
-   },
-   {
-    "id": "festiwal-gorski-polmaraton-jedlina-zdroj-2027-05-09",
-    "eventName": "Festiwal Górski Półmaraton Jedlina-Zdrój",
-    "dateStart": "2027-05-09",
-    "city": "Jedlina-Zdrój",
-    "provisional": true
-   },
-   {
-    "id": "xiii-festiwal-biegu-rzeznika-2027-05-26",
-    "eventName": "XIII Festiwal Biegu Rzeźnika",
-    "dateStart": "2027-05-26",
-    "city": "Cisna"
-   },
-   {
-    "id": "ultra-turnicki-2027-06-19",
-    "eventName": "ULTRA TURNICKI",
-    "dateStart": "2027-06-19",
-    "city": "Huwniki",
-    "provisional": true
-   },
-   {
-    "id": "gdynia-ultra-way-summer-race-2027-06-25",
-    "eventName": "GDYNIA ULTRA WAY SUMMER RACE",
-    "dateStart": "2027-06-25",
-    "city": "Gdynia",
-    "provisional": true
-   },
-   {
-    "id": "wyspowy-ultra-swir-2027-06-26",
-    "eventName": "WYSPOWY ULTRA ŚWIR",
-    "dateStart": "2027-06-26",
-    "city": "Łącko"
-   }
-  ],
   "dplusAdded": [],
   "regulaminAdded": []
  }
