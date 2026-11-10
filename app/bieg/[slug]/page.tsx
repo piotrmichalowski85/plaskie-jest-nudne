@@ -237,19 +237,6 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
             <h2 className="text-[1.8rem] mb-2">Najczęstsze pytania</h2>
             <dl className="card space-y-3 text-sm">{faq.map(([q, a]) => <div key={q}><dt className="font-semibold">{q}</dt><dd className="text-[var(--muted)] mt-0.5">{a}</dd></div>)}</dl>
           </section>
-
-          {sim.length > 0 && (
-            <section>
-              <h2 className="text-[1.8rem] mb-2">Podobne biegi</h2>
-              <ul className="card divide-y divide-[#e3e7e1] p-0">{sim.map(({ x, why }) => (
-                <li key={x.id}><Link href={`/bieg/${x.id}`} className="flex items-center gap-4 px-4 py-3 hover:bg-[#f2f5f1]">
-                  <span className="w-24 shrink-0 text-xs font-semibold text-[var(--muted)]">{fmtDate(x.dateStart, x.dateEnd)}</span>
-                  <span className="min-w-0 flex-1"><span className="block font-semibold truncate">{x.eventName}</span><span className="block text-xs text-[var(--muted)] truncate">{x.city} · {x.distancesKm.length > 3 ? `${fmtKm(x.minKm)} - ${fmtKm(x.maxKm)}` : x.distancesKm.map(fmtKm).join(" / ")} · {why.join(", ")}</span></span>
-                  <span className="shrink-0"><Score s={x.beginnerScore} /></span>
-                </Link></li>
-              ))}</ul>
-            </section>
-          )}
         </div>
 
         {/* wąska kolumna: fakty i akcje */}
@@ -268,6 +255,18 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
             <ShareButton title={r.eventName} />
           </div>
           {!past && <WeatherSection r={r} />}
+          {sim.length > 0 && (
+            <section>
+              <h2 className="text-[1.6rem] mb-2">Podobne biegi</h2>
+              <ul className="card divide-y divide-[#e3e7e1] p-0 overflow-hidden">{sim.map(({ x, why }) => (
+                <li key={x.id}><Link href={`/bieg/${x.id}`} className="block px-4 py-3 hover:bg-[#f2f5f1]">
+                  <span className="flex items-baseline justify-between gap-2"><span className="text-xs font-semibold text-[var(--muted)]">{fmtDate(x.dateStart, x.dateEnd)}</span><span className="shrink-0"><Score s={x.beginnerScore} /></span></span>
+                  <span className="mt-1 block font-semibold">{x.eventName}</span>
+                  <span className="block text-xs text-[var(--muted)]">{x.city} · {x.distancesKm.length > 3 ? `${fmtKm(x.minKm)} - ${fmtKm(x.maxKm)}` : x.distancesKm.map(fmtKm).join(" / ")} · {why.join(", ")}</span>
+                </Link></li>
+              ))}</ul>
+            </section>
+          )}
         </aside>
       </div>
       {hubs.length > 0 && <p className="mt-8 flex flex-wrap items-center gap-1.5 text-sm"><span className="text-[var(--muted)] mr-1">Zobacz też:</span>{hubs.map((h) => <Link key={hubPath(h)} href={hubPath(h)} className="qchip">{h.label}</Link>)}</p>}
