@@ -82,23 +82,34 @@ function feeLines(r: Race, past: boolean): [string, string][] {
   });
 }
 
-function RegInfoSection({ r, past }: { r: Race; past: boolean }) {
+/** jedna sekcja "Zanim się zapiszesz": fakty z regulaminu (gdy są), sprzęt obowiązkowy i krótka lista do sprawdzenia */
+function BeforeSignupSection({ r, past }: { r: Race; past: boolean }) {
   const i = r.info;
-  if (!i) return null;
   const rows: [string, React.ReactNode][] = [];
-  if (i.startTimes?.length) rows.push(["Godzina startu", i.startTimes.map((s) => (s.km !== undefined ? `${fmtKm(s.km)}: ${s.time}` : s.time)).join(", ")]);
-  if (i.fees?.length) rows.push(["Opłata startowa", <ul key="f" className="space-y-0.5">{feeLines(r, past).map(([k, v]) => <li key={k + v}>{k ? <span className="font-semibold">{k}: </span> : null}{v}</li>)}</ul>]);
-  if (i.office) rows.push(["Biuro zawodów", i.office]);
-  if (i.aid) rows.push(["Bufety", i.aid]);
-  if (i.poles) rows.push(["Kije", i.poles === "tak" ? "dozwolone" : "zakazane"]);
-  if (i.dogs) rows.push(["Bieg z psem", i.dogs === "tak" ? "dozwolony (warunki w regulaminie)" : "niedozwolony"]);
-  if (i.kids) rows.push(["Bieg dla dzieci", "jest w programie imprezy"]);
-  if (!rows.length) return null;
+  if (i?.startTimes?.length) rows.push(["Godzina startu", i.startTimes.map((s) => (s.km !== undefined ? `${fmtKm(s.km)}: ${s.time}` : s.time)).join(", ")]);
+  if (i?.fees?.length) rows.push(["Opłata startowa", <ul key="f" className="space-y-0.5">{feeLines(r, past).map(([k, v]) => <li key={k + v}>{k ? <span className="font-semibold">{k}: </span> : null}{v}</li>)}</ul>]);
+  if (i?.office) rows.push(["Biuro zawodów", i.office]);
+  if (i?.aid) rows.push(["Bufety", i.aid]);
+  if (i?.poles) rows.push(["Kije", i.poles === "tak" ? "dozwolone" : "zakazane"]);
+  if (i?.dogs) rows.push(["Bieg z psem", i.dogs === "tak" ? "dozwolony (warunki w regulaminie)" : "niedozwolony"]);
+  if (i?.kids) rows.push(["Bieg dla dzieci", "jest w programie imprezy"]);
+  if (r.gear?.length) rows.push(["Sprzęt obowiązkowy", <ul key="g" className="grid gap-0.5 sm:grid-cols-2 list-[square] pl-5">{r.gear.map((x) => <li key={x}>{x}</li>)}</ul>]);
   return (
     <section className="card">
-      <h2 className="text-[1.6rem]">Z regulaminu</h2>
-      <p className="mt-1 text-xs text-[var(--muted)]">Wyciąg automatyczny z regulaminu{i.stale && i.year ? ` edycji ${i.year}, więc kwoty i godziny mogą się zmienić` : ""}. Przed zapisem sprawdź oryginał.</p>
-      <dl className="mt-3 grid gap-x-6 gap-y-2.5 text-sm sm:grid-cols-[10rem_1fr]">{rows.map(([k, v]) => <div key={k} className="contents"><dt className="font-semibold text-[var(--moss-dark)]">{k}</dt><dd className="text-[#3d4d34]">{v}</dd></div>)}</dl>
+      <h2 className="text-[1.6rem]">Zanim się zapiszesz</h2>
+      {rows.length > 0 && (
+        <>
+          <h3 className="mt-3 text-[1.2rem] text-[var(--moss-dark)]">Z regulaminu</h3>
+          <p className="mt-1 text-xs text-[var(--muted)]">Wyciąg automatyczny z regulaminu{i?.stale && i.year ? ` edycji ${i.year}, więc kwoty i godziny mogą się zmienić` : ""}. Przed zapisem sprawdź oryginał.</p>
+          <dl className="mt-3 grid gap-x-6 gap-y-2.5 text-sm sm:grid-cols-[10rem_1fr]">{rows.map(([k, v]) => <div key={k} className="contents"><dt className="font-semibold text-[var(--moss-dark)]">{k}</dt><dd className="text-[#3d4d34]">{v}</dd></div>)}</dl>
+          <h3 className="mt-4 text-[1.2rem] text-[var(--moss-dark)]">Sprawdź jeszcze</h3>
+        </>
+      )}
+      <ul className="mt-2 text-sm list-disc pl-5 space-y-1">
+        <li>Sprawdź <strong>limit czasu</strong> (cutoff) na swoim dystansie i punkty kontrolne z limitami pośrednimi.</li>
+        {!r.gear?.length && <li>Sprawdź <strong>sprzęt obowiązkowy</strong> w regulaminie: w górach zwykle potrzebne są kurtka przeciwdeszczowa z kapturem, czołówka, folia NRC, telefon, zapas wody i jedzenia.</li>}
+        <li>Zobacz profil trasy: {r.elevations.some((e) => e.dplus) ? "przewyższenie przy dystansie podpowiada, ile może być marszu." : "organizator nie podał przewyższenia, więc spójrz na mapę trasy."}</li>
+      </ul>
     </section>
   );
 }
@@ -220,20 +231,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
             </section>
           )}
 
-          <RegInfoSection r={r} past={past} />
-
-          <section className="card">
-            <h2 className="text-[1.6rem]">Zanim się zapiszesz</h2>
-            <ul className="mt-2 text-sm list-disc pl-5 space-y-1">
-              <li>Sprawdź <strong>limit czasu</strong> (cutoff) na swoim dystansie i punkty kontrolne z limitami pośrednimi.</li>
-              {r.gear ? (
-                <li><strong>Sprzęt obowiązkowy według regulaminu</strong> (wyciąg automatyczny z regulaminu, przed startem sprawdź oryginał): <ul className="mt-1 grid gap-0.5 sm:grid-cols-2 list-[square] pl-5">{r.gear.map((x) => <li key={x}>{x}</li>)}</ul></li>
-              ) : (
-                <li>Sprawdź <strong>sprzęt obowiązkowy</strong> w regulaminie: w górach zwykle potrzebne są kurtka przeciwdeszczowa z kapturem, czołówka, folia NRC, telefon, zapas wody i jedzenia.</li>
-              )}
-              <li>Zobacz profil trasy: {r.elevations.some((e) => e.dplus) ? "przewyższenie przy dystansie podpowiada, ile może być marszu." : "organizator nie podał przewyższenia, więc spójrz na mapę trasy."}</li>
-            </ul>
-          </section>
+          <BeforeSignupSection r={r} past={past} />
 
           <section>
             <h2 className="text-[1.8rem] mb-2">Najczęstsze pytania</h2>
