@@ -18,6 +18,7 @@ import { hubsForRace, hubPath } from "@/lib/hubs";
 import { feeTiers, currentFee, fmtPln } from "@/lib/fees";
 import { weatherFor, codeLabel, deg } from "@/lib/weather";
 import { dow } from "@/lib/format";
+import { WeatherIcon } from "@/components/WeatherIcon";
 
 const srcLabel: Record<string, string> = { gpx: "policzone z GPX", trasa: "wg podstrony \"Trasa\" organizatora", organizator: "wg strony organizatora", regulamin: "wg regulaminu", kalendarz: "wg kalendarza" };
 
@@ -118,9 +119,23 @@ function WeatherSection({ r }: { r: Race }) {
       {days.length > 0 && (
         <div className="mt-2">
           <p className="text-sm font-semibold text-[var(--moss-dark)]">Prognoza w miejscu startu (z {Number(w.forecast!.at.slice(8, 10))}.{w.forecast!.at.slice(5, 7)})</p>
-          <ul className="mt-1 text-sm space-y-0.5">{days.map((d) => (
-            <li key={d.date}><span className="font-semibold">{dd(d.date)}:</span> {d.tmin !== undefined && d.tmax !== undefined ? `${deg(d.tmin)} do ${deg(d.tmax)}` : ""}{codeLabel(d.code) ? `, ${codeLabel(d.code)}` : ""}{d.precip ? `, opady ${d.precip} mm` : ""}{d.prob !== undefined ? ` (szansa ${Math.round(d.prob)}%)` : ""}{d.wind !== undefined ? `, wiatr do ${Math.round(d.wind)} km/h` : ""}</li>
-          ))}</ul>
+          <ul className="mt-2 space-y-3">{days.map((d) => {
+            const label = codeLabel(d.code);
+            const details = [label, d.precip ? `opady ${d.precip} mm` : "", d.prob !== undefined ? `szansa opadów ${Math.round(d.prob)}%` : "", d.wind !== undefined ? `wiatr do ${Math.round(d.wind)} km/h` : ""].filter(Boolean).join(", ");
+            return (
+              <li key={d.date} className="flex items-center gap-3">
+                {/* ikona jak w prognozach pogody; bez kodu pogody zostaje sama temperatura */}
+                <WeatherIcon code={d.code} label={label} className="shrink-0" />
+                <div className="min-w-0">
+                  <p className="text-xs font-semibold text-[var(--muted)]">{dd(d.date)}</p>
+                  {d.tmax !== undefined && (
+                    <p className="leading-none"><span className="display text-[2.4rem] text-[var(--moss-dark)]">{deg(d.tmax)}</span>{d.tmin !== undefined && <span className="ml-2 text-sm text-[var(--muted)]">w nocy {deg(d.tmin)}</span>}</p>
+                  )}
+                  {details && <p className="mt-0.5 text-xs text-[#3d4d34]">{details}</p>}
+                </div>
+              </li>
+            );
+          })}</ul>
         </div>
       )}
       {c && (
