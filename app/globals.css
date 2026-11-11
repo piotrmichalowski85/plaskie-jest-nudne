@@ -78,6 +78,7 @@ select:focus-visible, input:focus-visible { outline: 3px solid var(--moss); outl
 .cmp thead th { border-top: 0; font-weight: 700; min-width: 11rem; }
 .cmp th[scope="row"], .cmp thead th:first-child { position: sticky; left: 0; z-index: 1; background: var(--card); min-width: 6.5rem; width: 8.5rem; color: var(--moss-dark); font-weight: 600; box-shadow: 1px 0 0 #e3e7e1; }
 .cmp td { min-width: 11rem; color: #3d4d34; }
+@media (max-width: 640px) { .cmp th, .cmp td { padding: .55rem .6rem; } .cmp th[scope="row"], .cmp thead th:first-child { min-width: 0; width: 7.4rem; } .cmp td, .cmp thead th { min-width: 9.5rem; } }
 
 /* narzędzia: czy dam radę, słownik */
 .step { font-family: var(--font-display); font-size: 1.05rem; letter-spacing: .08em; color: var(--moss-dark); }

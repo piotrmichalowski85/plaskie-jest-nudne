@@ -27,15 +27,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <a href="#tresc" className="skip-link">Przejdź do treści</a>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }} />
         <header className="sticky top-0 z-10 bg-[var(--bg)]/90 backdrop-blur border-b border-[var(--line)]">
-          <nav aria-label="Główna nawigacja" className="mx-auto max-w-6xl px-4 h-16 flex items-center justify-between gap-4">
+          <nav aria-label="Główna nawigacja" className="mx-auto max-w-6xl px-4 h-16 flex items-center justify-between gap-2 sm:gap-4">
             <Link href="/" aria-label="Płaskie jest nudne, strona główna"><Logo /></Link>
-            <div className="flex items-center gap-4 sm:gap-6 text-sm font-semibold text-[var(--moss-dark)]">
+            {/* odstępy i skrócony przycisk na telefonie: z sercem "Moje biegi" pełna nawigacja nie mieści się w 375 px */}
+            <div className="flex items-center gap-3 sm:gap-4 lg:gap-6 text-sm font-semibold text-[var(--moss-dark)]">
               <Link href="/biegi">Biegi</Link>
               <Link href="/kreator" className="hidden sm:inline">Pierwszy bieg</Link>
               <Link href="/czy-dam-rade" className="hidden sm:inline">Czy dam radę?</Link>
               <Link href="/slownik" className="hidden md:inline">Słownik trailowy</Link>
               <MojeNav />
-              <a href="mailto:kontakt@plaskiejestnudne.pl?subject=Dodaj%20bieg" className="btn !py-2 !px-4 text-sm whitespace-nowrap">Dodaj bieg</a>
+              <a href="mailto:kontakt@plaskiejestnudne.pl?subject=Dodaj%20bieg" aria-label="Dodaj bieg" className="btn !py-2 !px-3 sm:!px-4 text-sm whitespace-nowrap"><span className="sm:hidden" aria-hidden="true">+ bieg</span><span className="hidden sm:inline">Dodaj bieg</span></a>
             </div>
           </nav>
         </header>
