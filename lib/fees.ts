@@ -1,5 +1,6 @@
 /** Opłata startowa z progów cenowych regulaminu: kwota obowiązująca dziś (pierwszy próg z datą >= dziś albo próg bez daty). */
 import type { Race } from "./types";
+import { fmtKm } from "./format";
 
 type Fee = NonNullable<NonNullable<Race["info"]>["fees"]>[number];
 
@@ -24,3 +25,16 @@ export function priceFrom(r: Race, today: string): number | undefined {
 }
 
 export const fmtPln = (v: number) => (v === 0 ? "bezpłatnie" : `${v} zł`);
+
+/** opłata per dystans: "180 zł do 15.01, 200 zł do 28.02, potem 240 zł" plus kwota obowiązująca dziś; pary [dystans albo "", opis] */
+export function feeLines(r: Race, past: boolean, today: string): [string, string][] {
+  const fees = r.info?.fees ?? [];
+  const kms = [...new Set(fees.map((f) => f.km))].sort((a, b) => (a ?? 0) - (b ?? 0));
+  const d = (iso: string) => `${iso.slice(8, 10)}.${iso.slice(5, 7)}`;
+  return kms.map((k) => {
+    const tiers = feeTiers(r, k).filter((f) => f.km === k);
+    const now = past ? undefined : currentFee(tiers, today);
+    const txt = tiers.length === 1 ? fmtPln(tiers[0].pln) : tiers.map((f, j) => (f.until ? `${fmtPln(f.pln)} do ${d(f.until)}` : `${j ? "potem " : ""}${fmtPln(f.pln)}`)).join(", ");
+    return [k === undefined ? "" : fmtKm(k), now && tiers.length > 1 && !r.info?.stale ? `${txt} (dziś ${fmtPln(now.pln)})` : txt];
+  });
+}

@@ -15,7 +15,7 @@ import { RegionArt } from "@/components/RegionArt";
 import { IconExternal, IconDoc, IconCalendar, IconPin } from "@/components/Icons";
 import { raceTitle, raceDescription, raceJsonLd, nextEditionOf, prevEditionOf, year } from "@/lib/seo";
 import { hubsForRace, hubPath } from "@/lib/hubs";
-import { feeTiers, currentFee, fmtPln } from "@/lib/fees";
+import { feeLines } from "@/lib/fees";
 import { weatherFor, codeLabel, deg } from "@/lib/weather";
 import { dow } from "@/lib/format";
 import { WeatherIcon } from "@/components/WeatherIcon";
@@ -61,7 +61,7 @@ function raceFaq(r: Race, past: boolean): [string, string][] {
   if (r.gear?.length) q.push([`Jaki sprzęt obowiązkowy jest na ${r.eventName}?`, `Według regulaminu: ${r.gear.join(", ")}. Przed startem sprawdź aktualny regulamin.`]);
   const i = r.info;
   const ed = i?.stale && i.year ? ` (wg regulaminu edycji ${i.year})` : "";
-  if (i?.fees?.length) q.push([`Ile kosztuje start w ${r.eventName} ${y}?`, `${feeLines(r, past).map(([k, v]) => (k ? `${k}: ${v}` : v)).join("; ")}${ed}. Kwoty bez dopłat za pakiety dodatkowe.`]);
+  if (i?.fees?.length) q.push([`Ile kosztuje start w ${r.eventName} ${y}?`, `${feeLines(r, past, today()).map(([k, v]) => (k ? `${k}: ${v}` : v)).join("; ")}${ed}. Kwoty bez dopłat za pakiety dodatkowe.`]);
   if (i?.startTimes?.length) q.push([`O której godzinie jest start ${r.eventName}?`, `${i.startTimes.map((s) => (s.km !== undefined ? `${fmtKm(s.km)}: ${s.time}` : s.time)).join(", ")}${ed}.`]);
   if (i?.poles) q.push([`Czy na ${r.eventName} można biec z kijami?`, i.poles === "tak" ? `Tak, regulamin dopuszcza kije${ed}.` : `Nie, regulamin zabrania kijów${ed}.`]);
   if (i?.dogs) q.push([`Czy na ${r.eventName} można biec z psem?`, i.dogs === "tak" ? `Tak, regulamin dopuszcza bieg z psem${ed}. Sprawdź w regulaminie warunki (smycz, pas, szczepienia).` : `Nie, regulamin nie dopuszcza psów na trasie${ed}.`]);
@@ -69,25 +69,12 @@ function raceFaq(r: Race, past: boolean): [string, string][] {
   return q;
 }
 
-/** opłata per dystans: "180 zł do 15.01, 200 zł do 28.02, potem 240 zł" (dziś obowiązujący próg pogrubiamy w UI osobno) */
-function feeLines(r: Race, past: boolean): [string, string][] {
-  const fees = r.info?.fees ?? [];
-  const kms = [...new Set(fees.map((f) => f.km))].sort((a, b) => (a ?? 0) - (b ?? 0));
-  const d = (iso: string) => `${iso.slice(8, 10)}.${iso.slice(5, 7)}`;
-  return kms.map((k) => {
-    const tiers = feeTiers(r, k).filter((f) => f.km === k);
-    const now = past ? undefined : currentFee(tiers, today());
-    const txt = tiers.length === 1 ? fmtPln(tiers[0].pln) : tiers.map((f, j) => (f.until ? `${fmtPln(f.pln)} do ${d(f.until)}` : `${j ? "potem " : ""}${fmtPln(f.pln)}`)).join(", ");
-    return [k === undefined ? "" : fmtKm(k), now && tiers.length > 1 && !r.info?.stale ? `${txt} (dziś ${fmtPln(now.pln)})` : txt];
-  });
-}
-
 /** jedna sekcja "Zanim się zapiszesz": fakty z regulaminu (gdy są), sprzęt obowiązkowy i krótka lista do sprawdzenia */
 function BeforeSignupSection({ r, past }: { r: Race; past: boolean }) {
   const i = r.info;
   const rows: [string, React.ReactNode][] = [];
   if (i?.startTimes?.length) rows.push(["Godzina startu", i.startTimes.map((s) => (s.km !== undefined ? `${fmtKm(s.km)}: ${s.time}` : s.time)).join(", ")]);
-  if (i?.fees?.length) rows.push(["Opłata startowa", <ul key="f" className="space-y-0.5">{feeLines(r, past).map(([k, v]) => <li key={k + v}>{k ? <span className="font-semibold">{k}: </span> : null}{v}</li>)}</ul>]);
+  if (i?.fees?.length) rows.push(["Opłata startowa", <ul key="f" className="space-y-0.5">{feeLines(r, past, today()).map(([k, v]) => <li key={k + v}>{k ? <span className="font-semibold">{k}: </span> : null}{v}</li>)}</ul>]);
   if (i?.office) rows.push(["Biuro zawodów", i.office]);
   if (i?.aid) rows.push(["Bufety", i.aid]);
   if (i?.poles) rows.push(["Kije", i.poles === "tak" ? "dozwolone" : "zakazane"]);
