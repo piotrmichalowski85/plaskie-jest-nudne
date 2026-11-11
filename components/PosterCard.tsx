@@ -3,6 +3,7 @@ import type { CardRace } from "@/lib/card";
 import { fmtKm, scoreLabel, level, dayNum, monthShort, dow, untilLabel } from "@/lib/format";
 import { RegionArt } from "./RegionArt";
 import { SignupChip } from "./RaceCard";
+import { SaveHeart } from "./SaveHeart";
 
 export function PosterCard({ race, today }: { race: CardRace; today: string }) {
   const lvl = level(race.beginnerScore);
@@ -14,6 +15,8 @@ export function PosterCard({ race, today }: { race: CardRace; today: string }) {
   const limit = race.elevations.find((e) => e.limitH)?.limitH;
   const price = race.price;
   return (
+    // serce jest rodzeństwem linku, nie jego dzieckiem: przycisk w środku <a> to błędny HTML i kliknięcie otwierałoby bieg
+    <div className="poster-wrap">
     <Link href={`/bieg/${race.id}`} className={`poster${race.signup?.status === "closed" ? " closed" : ""}`}>
       <RegionArt region={race.region} surface={race.surface} className="art" label="" />
       <span className="shade" />
@@ -31,5 +34,7 @@ export function PosterCard({ race, today }: { race: CardRace; today: string }) {
         </span>
       </span>
     </Link>
+    <SaveHeart id={race.id} name={race.eventName} />
+    </div>
   );
 }

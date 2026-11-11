@@ -9,6 +9,7 @@ import { geoFor } from "@/lib/geo";
 import { Score, SignupChip } from "@/components/RaceCard";
 import { RaceMap } from "@/components/RaceMap";
 import { ShareButton } from "@/components/ShareButton";
+import { SaveHeart } from "@/components/SaveHeart";
 import { ElevationProfile } from "@/components/ElevationProfile";
 import { loadTrack } from "@/lib/gpxdata";
 import { RegionArt } from "@/components/RegionArt";
@@ -172,6 +173,7 @@ export default async function RacePage({ params }: { params: Promise<{ slug: str
         <h1 className="text-[3rem] sm:text-[4rem]">{r.eventName} <span className="text-[var(--muted)]">{year(r)}</span></h1>
         {r.name !== r.eventName && <p className="mt-1 text-[var(--muted)]">{r.name}</p>}
         <p className="mt-2 flex flex-wrap gap-1.5"><span className="chip">{surfaceLabel[r.surface]}</span>{r.vertical && <span className="chip">vertical</span>}{r.provisional ? <span className="chip" style={{ background: "var(--sun)", color: "#3b2a00" }}>termin wstępny</span> : <SignupChip race={r} long />}</p>
+        <p className="mt-3"><SaveHeart id={r.id} name={r.eventName} variant="button" /></p>
         {r.provisional && <p className="mt-2 text-sm text-[var(--muted)]">Termin odczytany ze strony organizatora, jeszcze niepotwierdzony w kalendarzach. Dystanse i przewyższenia pochodzą z poprzedniej edycji, a zapisów pewnie jeszcze nie ma. Sprawdź u organizatora.</p>}
       </header>
       {past && (

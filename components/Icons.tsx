@@ -4,3 +4,4 @@ export const IconDoc = () => <svg {...base}><path d="M14 3H7a1 1 0 0 0-1 1v16a1 
 export const IconCalendar = () => <svg {...base}><rect x="3" y="5" width="18" height="16" rx="2" /><path d="M16 3v4M8 3v4M3 11h18" /><path d="M12 14v4M10 16h4" /></svg>;
 export const IconShare = () => <svg {...base}><circle cx="18" cy="5" r="3" /><circle cx="6" cy="12" r="3" /><circle cx="18" cy="19" r="3" /><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4" /></svg>;
 export const IconPin = () => <svg {...base}><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z" /><circle cx="12" cy="10" r="2.5" /></svg>;
+export const IconHeart = ({ filled = false, size = 18 }: { filled?: boolean; size?: number }) => <svg {...base} width={size} height={size} fill={filled ? "currentColor" : "none"}><path d="M12 20.5s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.6a4.3 4.3 0 0 1 7.5 2.7c0 5.6-7.5 10.2-7.5 10.2z" /></svg>;
