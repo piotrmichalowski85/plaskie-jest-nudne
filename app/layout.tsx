@@ -4,6 +4,7 @@ import { Bebas_Neue, Inter } from "next/font/google";
 import "./globals.css";
 import { Logo } from "@/components/Logo";
 import { Analytics } from "@/components/Analytics";
+import { MojeNav } from "@/components/MojeNav";
 import { siteJsonLd } from "@/lib/seo";
 
 const display = Bebas_Neue({ weight: "400", subsets: ["latin", "latin-ext"], variable: "--font-display" });
@@ -33,6 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/kreator" className="hidden sm:inline">Pierwszy bieg</Link>
               <Link href="/czy-dam-rade" className="hidden sm:inline">Czy dam radę?</Link>
               <Link href="/slownik" className="hidden md:inline">Słownik trailowy</Link>
+              <MojeNav />
               <a href="mailto:kontakt@plaskiejestnudne.pl?subject=Dodaj%20bieg" className="btn !py-2 !px-4 text-sm whitespace-nowrap">Dodaj bieg</a>
             </div>
           </nav>
