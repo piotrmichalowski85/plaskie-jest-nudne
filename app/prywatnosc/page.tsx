@@ -12,12 +12,12 @@ export default function Prywatnosc() {
       <h2 className="text-xl font-bold">Lokalizacja</h2>
       <p>Filtr "blisko mnie" w kalendarzu pyta przeglądarkę o Twoje położenie tylko po kliknięciu i używa go wyłącznie w Twojej przeglądarce. Nie wysyłamy go na serwer i nie zapisujemy.</p>
       <h2 className="text-xl font-bold">Ustawienia zapamiętane w przeglądarce</h2>
-      <p>W pamięci przeglądarki (localStorage) trzymamy jedynie Twoją decyzję w sprawie statystyk.</p>
+      <p>W pamięci przeglądarki (localStorage) trzymamy Twoją decyzję w sprawie statystyk oraz listę biegów zapisanych sercem w <a className="underline" href="/moje">Moich biegach</a>. Lista zostaje w Twojej przeglądarce i nie trafia na serwer. Identyfikatory biegów wędrują w adresie tylko wtedy, gdy pobierasz plik do kalendarza albo sam(a) udostępniasz link do listy. Listę usuniesz, odklikując serca albo czyszcząc dane strony.</p>
       <h2 className="text-xl font-bold">Mapy</h2>
       <p>Mapy pochodzą z OpenFreeMap (dane OpenStreetMap). Przeglądarka pobiera kafelki mapy bezpośrednio z ich serwerów, co przekazuje im Twój adres IP, tak jak każdej odwiedzanej stronie.</p>
       <h2 className="text-xl font-bold">Skąd dane o biegach</h2>
       <p>Zbieramy publicznie dostępne fakty o zawodach (nazwa, termin, miejsce, dystanse, przewyższenia, regulamin) z kalendarzy, platform zapisów i stron organizatorów. Organizatorzy mogą prosić o poprawki i usunięcie pod adresem kontaktowym.</p>
-      <p className="text-[var(--muted)]">Ostatnia zmiana: 30.09.2026.</p>
+      <p className="text-[var(--muted)]">Ostatnia zmiana: 11.11.2026.</p>
     </article>
   );
 }
