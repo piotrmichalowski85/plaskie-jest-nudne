@@ -17,10 +17,11 @@ WEEK="$(date '+%G-W%V')-$([ "$(date +%u)" -le 3 ] && echo a || echo b)"
   npx tsx scripts/geocode.ts | tail -1         # współrzędne i województwo dla nowych miejscowości (Nominatim, 1 zapytanie/s)
   npx tsx scripts/gear_llm.ts 40 | tail -3     # czyta max 40 nowych regulaminów
   npx tsx scripts/regulamin_llm.ts 40 | tail -3 # szerszy wyciąg: limity, opłaty, godzina startu, biuro, bufety, kije, pies, dzieci
+  npx tsx scripts/regulamin_fit.ts 60 | tail -3  # bramka: czy regulamin dotyczy tego biegu; bez potwierdzenia strona go nie pokazuje
   npx tsx scripts/scrape.ts | tail -1          # nakłada listy sprzętu na dane
   node -e 'process.exit(require("./data/races.json").count>=100?0:1)'
   npx tsx scripts/zmiany.ts /tmp/prev_races_gear.json data/races.json "sprzęt z regulaminów" | tail -1
-  git add data/races.json data/regulaminy.json data/_konflikty.json data/next_edition.json data/zmiany.json data/gpx data/geo.json data/kb_cache.json data/regulamin_info.json 2>/dev/null || true
+  git add data/races.json data/regulaminy.json data/_konflikty.json data/next_edition.json data/zmiany.json data/gpx data/geo.json data/kb_cache.json data/regulamin_info.json data/regulamin_fit.json 2>/dev/null || true
   git diff --cached --quiet || { git -c user.name="plaskie-bot" -c user.email="bot@plaskiejestnudne.pl" commit -qm "data: sprzęt obowiązkowy z regulaminów (tygodniowo, Mac)"; git push -q origin main; echo "pushed"; }
   echo "$WEEK" > "$STAMP"; echo "done $WEEK"
 } >> "$LOG" 2>&1

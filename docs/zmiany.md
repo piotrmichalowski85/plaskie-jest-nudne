@@ -33,3 +33,11 @@ Pozycja 8 backlogu (#4 z researchu). Bez konta, lista w przeglądarce (`localSto
 - **Link do udostępnienia.** `/moje?b=<id>,<id>`: otwarcie pokazuje cudzą listę z przyciskiem "Zapisz te biegi u siebie" (dopisuje do własnej, nie nadpisuje) i nie rusza własnej listy, dopóki się nie kliknie.
 - **Prywatność.** `/prywatnosc` opisuje listę w pamięci przeglądarki.
 - **Znane ograniczenie.** Identyfikator biegu zawiera datę, więc po zmianie terminu przez organizatora zapisany bieg znika z listy (strona pokazuje wtedy komunikat i link do kalendarza).
+
+## Bramka regulaminu (12.11.2026)
+
+- **Błąd:** robot szukający regulaminu (`lib/deep.ts`) idzie ze strony biegu po linkach i potrafi trafić w regulamin innej imprezy tego samego organizatora, biegu dla dzieci, ligi albo strony z listą regulaminów. Przegląd 12.11: 40 ze 101 par bieg-regulamin było błędnych (25 przy nadchodzących biegach), np. Borówkowa Trail (9 i 21 km) pokazywała ceny, limity i sprzęt Biegu Jaskiniowego Niedźwiedzia (10, 16, 25, 51 km).
+- **Uszczelnienie (zmiana domyślnej wartości):** regulamin jest domyślnie niepotwierdzony. `data/regulamin_fit.json` (klucz: id biegu; `url`, `fit`, `why`) trzyma werdykt "czy ten dokument dotyczy tego biegu". `lib/data.ts` pokazuje link do regulaminu, wyciąg (`regulamin_info.json`), sprzęt obowiązkowy i zapisy z regulaminu wyłącznie przy `fit: true` dla tego samego adresu; brak wpisu albo `fit: false` zdejmuje je ze strony biegu, kart, porównywarki, FAQ i danych strukturalnych. `races.json` zostaje bez zmian (kandydat na regulamin dalej tam jest).
+- **Automat:** `scripts/regulamin_fit.ts` (lokalne `claude -p`, model sonnet, wpięty w `scripts/weekly_gear.sh` po `regulamin_llm.ts`) sprawdza nowe pary i pary ze zmienionym adresem regulaminu. Tryb `--import plik.json` scala werdykty zrobione ręcznie. Pierwsze 101 werdyktów powstało 12.11 z ręcznego przeglądu nagłówków regulaminów, bo sesja lokalnego CLI na Macu wygasła.
+- **Skutek uboczny, świadomy:** nowy bieg z regulaminem znalezionym w poniedziałek albo czwartek pokaże regulamin dopiero po najbliższym przebiegu automatu na Macu (do tygodnia).
+- **Nie ruszone:** sam robot dalej wybiera kandydata po linkach. Osobny ślad do sprawdzenia: rekord `i-bieg-niepodleglosci-2026-11-07` ma nazwę jednego biegu, a datę, miejsce i dystanse innego (sklejenie dwóch imprez przy scalaniu źródeł).
