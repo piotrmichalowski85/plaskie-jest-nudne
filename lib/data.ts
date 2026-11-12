@@ -40,6 +40,15 @@ function withInfo(r: Race): Race {
     const l = limits.find((y) => sameKm(y.km, e.km));
     return l && l.limitH / e.km <= 1.2 ? { ...e, limitH: l.limitH } : e;
   }) : r.elevations;
+  // wspólny regulamin festiwalu przy rekordzie jednego biegu: zostają wiersze dla dystansów tego biegu (i bez dystansu).
+  // Tniemy tylko wtedy, gdy każdy dystans biegu ma swój wiersz; inaczej organizator nazywa dystanse inaczej niż kalendarz i zostaje wszystko
+  const mine = <T extends { km?: number }>(rows?: T[]) => {
+    if (!rows?.length || !r.distancesKm.length) return rows;
+    const covered = r.distancesKm.every((d) => rows.some((x) => x.km !== undefined && sameKm(x.km, d)));
+    return covered ? rows.filter((x) => x.km === undefined || r.distancesKm.some((d) => sameKm(x.km!, d))) : rows;
+  };
+  if (rest.fees) rest.fees = mine(rest.fees);
+  if (rest.startTimes) rest.startTimes = mine(rest.startTimes);
   const hasMore = Object.keys(rest).some((k) => k !== "year");
   return { ...r, elevations, ...(hasMore ? { info: { ...rest, ...(stale ? { stale } : {}) } } : {}) };
 }

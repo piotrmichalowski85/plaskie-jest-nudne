@@ -208,24 +208,30 @@ async function regulaminy(raws: Raw[]): Promise<number> {
   const todayS = new Date().toISOString().slice(0, 10);
   mkdirSync(TEXT_DIR, { recursive: true });
   const fresh = (u: string) => cache[u] && (Date.now() - Date.parse(cache[u].fetchedAt)) / 86400000 < TTL_DAYS && (!cache[u].regulaminUrl || existsSync(textPath(cache[u].regulaminUrl!)));
-  // ręczne nadpisania (data/overrides.json): link organizatora i/lub regulamin, gdy źródło ich nie ma
-  for (const o of overrides as { match: string; url?: string; regulaminUrl?: string }[]) {
+  // ręczne nadpisania (data/overrides.json): link organizatora i/lub regulamin, gdy źródło ich nie ma albo robot trafia w regulamin innej imprezy.
+  // match = wyrażenie na nazwie, date (opcjonalnie) = początek daty startu ("2027" albo "2027-02"), żeby wskazać jedną edycję.
+  // Wskazany regulamin jest przypięty do biegu: cache ma dla niego własny klucz, bo klucz po adresie strony biegu dzielą wszystkie imprezy organizatora.
+  const pinned = new Set<Raw>();
+  for (const o of overrides as { match: string; date?: string; url?: string; regulaminUrl?: string }[]) {
     const re = new RegExp(o.match, "i");
-    for (const r of raws.filter((x) => re.test(x.name))) { if (o.url) r.url = o.url; if (o.regulaminUrl) r.regulaminUrl = o.regulaminUrl; }
+    for (const r of raws.filter((x) => re.test(x.name) && (!o.date || x.dateStart.startsWith(o.date)))) { if (o.url) r.url = o.url; if (o.regulaminUrl) { r.regulaminUrl = o.regulaminUrl; pinned.add(r); } }
   }
-  const todo = raws.filter((r) => r.url && r.dateEnd >= todayS && !fresh(r.url!));
+  const key = (r: Raw) => (pinned.has(r) ? `regulamin:${r.regulaminUrl}` : r.url);
+  const todo = raws.filter((r) => key(r) && r.dateEnd >= todayS && !fresh(key(r)!));
   let n = 0;
   const queue = [...todo];
   await Promise.all(Array.from({ length: 4 }, async () => {
     while (queue.length) {
       const r = queue.shift()!;
-      const res = r.regulaminUrl
+      const k = key(r)!;
+      if (fresh(k)) continue; // ten sam klucz pobrany chwilę wcześniej przez inny rekord
+      const res = pinned.has(r)
         ? await (async () => { const pg = await fetchAny(r.regulaminUrl!); return { regulaminUrl: pg ? r.regulaminUrl : undefined, regulaminText: pg?.text, organizerUrl: undefined, visited: [r.regulaminUrl!] } as Awaited<ReturnType<typeof findRegulamin>>; })()
         : await findRegulamin(r.url!);
       const text = res.regulaminText || "";
       if (res.regulaminUrl && text) writeFileSync(textPath(res.regulaminUrl), text.slice(0, 60000));
-      const prevGear = cache[r.url!]?.gearSource === "llm" ? { gear: cache[r.url!].gear, gearSource: "llm" as const, gearAt: cache[r.url!].gearAt } : {};
-      cache[r.url!] = {
+      const prevGear = cache[k]?.gearSource === "llm" && cache[k].regulaminUrl === res.regulaminUrl ? { gear: cache[k].gear, gearSource: "llm" as const, gearAt: cache[k].gearAt } : {};
+      cache[k] = {
         regulaminUrl: res.regulaminUrl, organizerUrl: res.organizerUrl,
         distances: text ? (extractFromText(text)?.distances ?? []) : [],
         limits: text ? extractLimits(text) : [], gear: [], ...prevGear,
@@ -237,7 +243,7 @@ async function regulaminy(raws: Raw[]): Promise<number> {
   writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 1));
   // zastosuj do biegów
   for (const r of raws) {
-    const c = r.url ? cache[r.url] : undefined;
+    const c = key(r) ? cache[key(r)!] : undefined;
     if (!c) continue;
     if (c.regulaminUrl) r.regulaminUrl = c.regulaminUrl;
     if (c.organizerUrl && /elektronicznezapisy|b4sportonline|datasport|kingrunner|zapisy/i.test(r.url!)) r.url = c.organizerUrl;
@@ -355,9 +361,10 @@ async function zapisy(raws: Raw[]): Promise<Record<string, number>> {
   for (const r of up) {
     const parts: (Signup | null)[] = [];
     const c = r.url ? cache[r.url] : undefined;
-    if (c?.regulaminUrl && existsSync(textPath(c.regulaminUrl))) {
-      const x = extractSignup(readFileSync(textPath(c.regulaminUrl), "utf8"), r.dateStart, "regulamin", todayS);
-      if (x) parts.push({ ...x, sourceUrl: c.regulaminUrl });
+    // regulamin biegu (po nadpisaniach), nie regulamin z cache strony, którą dzielą inne imprezy organizatora
+    if (r.regulaminUrl && existsSync(textPath(r.regulaminUrl))) {
+      const x = extractSignup(readFileSync(textPath(r.regulaminUrl), "utf8"), r.dateStart, "regulamin", todayS);
+      if (x) parts.push({ ...x, sourceUrl: r.regulaminUrl });
     }
     if (c?.signupPage?.text) { const x = extractSignup(c.signupPage.text, r.dateStart, "organizator", todayS); if (x) parts.push({ ...x, sourceUrl: r.url }); }
     if (r.signup?.source === "zapisy") parts.push(r.signup); // b4sportonline (dane strukturalne z kalendarza)

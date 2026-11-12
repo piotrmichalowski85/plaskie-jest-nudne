@@ -24,8 +24,9 @@ const today = new Date().toISOString().slice(0, 10);
 const save = () => writeFileSync(OUT, JSON.stringify(Object.fromEntries(Object.entries(fit).sort(([a], [b]) => a.localeCompare(b))), null, 1) + "\n");
 
 const PROMPT = `Sprawdzasz, czy dokument jest regulaminem konkretnego biegu z kalendarza. Poniżej dane biegu i początek tekstu dokumentu.
-Odpowiedz "tak" TYLKO wtedy, gdy dokument jest regulaminem tej imprezy (tej albo poprzedniej edycji tej samej imprezy) i obejmuje jej dystanse, albo jest wspólnym regulaminem cyklu lub festiwalu, którego ten bieg jest częścią.
-Odpowiedz "nie", gdy to: regulamin innej imprezy tego samego organizatora, edycja zimowa zamiast letniej (albo odwrotnie), regulamin biegu dla dzieci, regulamin jednego dystansu dużej imprezy, regulamin ligi, korony albo klasyfikacji, wyzwanie wirtualne, strona z listą regulaminów, albo gdy data, miejsce i dystanse się nie zgadzają. W razie wątpliwości odpowiedz "nie".
+Odpowiedz "tak" TYLKO wtedy, gdy dokument jest regulaminem tej imprezy i obejmuje jej dystanse, albo jest wspólnym regulaminem cyklu lub festiwalu, którego ten bieg jest częścią.
+Regulamin tej samej imprezy z innego roku (poprzednia edycja: ta sama nazwa, miejsce i pora roku, data różni się o rok, dystanse zbliżone) to też "tak": strona oznacza go jako regulamin poprzedniej edycji.
+Odpowiedz "nie", gdy to: regulamin innej imprezy tego samego organizatora, edycja zimowa zamiast letniej (albo odwrotnie), regulamin biegu dla dzieci, regulamin jednego dystansu dużej imprezy, regulamin ligi, korony albo klasyfikacji, wyzwanie wirtualne, strona z listą regulaminów, albo gdy nazwa, miejsce i dystanse wskazują na inną imprezę. W razie wątpliwości odpowiedz "nie".
 Zwróć TYLKO obiekt JSON: {"fit": "tak" albo "nie", "why": "jedno zdanie po polsku: czego dotyczy dokument"}.`;
 
 let ok = 0, no = 0, fail = 0;
@@ -46,7 +47,7 @@ for (const r of todo) {
   const race = `Bieg: ${r.name}\nImpreza: ${r.eventName}\nTermin: ${r.dateStart}${r.dateEnd !== r.dateStart ? ` do ${r.dateEnd}` : ""}\nMiejsce: ${r.city}\nDystanse (km): ${r.distancesKm.join(", ") || "brak danych"}\nAdres dokumentu: ${r.regulaminUrl}`;
   try {
     const p = spawnSync("claude", ["-p", "--model", "sonnet", "--output-format", "text", `${PROMPT}\n\n<bieg>\n${race}\n</bieg>\n\n<dokument>\n${text}\n</dokument>`], { encoding: "utf8", timeout: 180000, maxBuffer: 10_000_000, stdio: ["ignore", "pipe", "pipe"], env: { HOME: process.env.HOME || "", PATH: process.env.PATH || "", USER: process.env.USER || "", LANG: "pl_PL.UTF-8" } as unknown as NodeJS.ProcessEnv });
-    const m = (p.stdout || "").replace(/```[a-z]*/g, "").match(/\{[\s\S]*\}/);
+    const m = (p.stdout || "").replace(/```[a-z]*/g, "").match(/\{[^{}]*\}/); // pierwszy obiekt; model bywa, że dopisuje komentarz po nim
     if (!m) throw new Error(`brak obiektu JSON; status=${p.status} signal=${p.signal} ${(p.stderr || "").slice(0, 200)}`);
     const x = JSON.parse(m[0]) as { fit?: unknown; why?: unknown };
     if (x.fit !== "tak" && x.fit !== "nie") throw new Error(`zły werdykt: ${String(x.fit).slice(0, 40)}`);

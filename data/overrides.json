@@ -1,1 +1,92 @@
-[]
+[
+ {
+  "match": "Bor[oó]wkowa Trail",
+  "date": "2026-11",
+  "regulaminUrl": "https://jaskiniowy.pl/regulamin-borowkowa-trail/"
+ },
+ {
+  "match": "[ŚS]wir",
+  "date": "2026-11",
+  "regulaminUrl": "https://malopolskabiega.com.pl/regulamin-jesienny-ultra-swir/"
+ },
+ {
+  "match": "Szczyt Wytrzyma",
+  "date": "2026-12",
+  "regulaminUrl": "https://dostartu.pl/statute_files/17345_pl.pdf"
+ },
+ {
+  "match": "Winter Trail Ma[łl]opolska",
+  "date": "2026-12",
+  "regulaminUrl": "https://www.e-gepard.eu/file/regulamin/3430_regulamin.pdf"
+ },
+ {
+  "match": "Per[łl]y Ma[łl]opolski",
+  "date": "2026-12-13",
+  "regulaminUrl": "http://perlymalopolski.pl/regulamin-rabka-zdroj-2024/"
+ },
+ {
+  "match": "Zimowy Maraton.*[ŚS]l[ęe][żz]a[ńn]ski",
+  "date": "2027-01",
+  "regulaminUrl": "https://www.kbsobotka.pl/wp-content/uploads/2026/10/2027-regulamin-Zimowy-Maraton-0.pdf"
+ },
+ {
+  "match": "Gdynia Ultra Way",
+  "date": "2027-01",
+  "regulaminUrl": "https://ultra-way.pl/zimowy-festiwal-biegowy-ultra-way/regulamin/"
+ },
+ {
+  "match": "Zimowy Maraton Bieszczadzki",
+  "date": "2027-01",
+  "regulaminUrl": "https://www.maratonbieszczadzki.pl/wp-content/uploads/2026/10/Regulamin-XIII-Zimowego-Maratonu-Bieszczadzkiego-2027.pdf"
+ },
+ {
+  "match": "Turbacz Winter Trail",
+  "date": "2027-02",
+  "regulaminUrl": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-TWT-2027.pdf"
+ },
+ {
+  "match": "[ŚS]wir",
+  "date": "2027-03",
+  "regulaminUrl": "https://malopolskabiega.com.pl/regulamin-wiosenny-ultra-swir/"
+ },
+ {
+  "match": "Kudowska Sztafeta",
+  "date": "2027-04",
+  "regulaminUrl": "https://sztafetagorska.pl/wp-content/uploads/2026/10/KSG2027_Regulamin.docx.pdf"
+ },
+ {
+  "match": "Jedlina",
+  "date": "2027-05",
+  "regulaminUrl": "http://jedlina.pro-run.pl/nowyregulamin/"
+ },
+ {
+  "match": "Rze[źz]ni",
+  "date": "2027-05",
+  "regulaminUrl": "https://www.biegrzeznika.pl/wp-content/uploads/2026/07/Regulamin-XIII-Festiwalu-Biegu-Rzeznika-2027.pdf"
+ },
+ {
+  "match": "Ultra Turnicki",
+  "date": "2027-06",
+  "regulaminUrl": "https://www.ultraturnicki.pl/_files/ugd/883a2a_d7f0d82ad31941bcbd6323cc7947f3fe.pdf"
+ },
+ {
+  "match": "DFBG|Dolno[śs]l[ąa]ski Festiwal Bieg",
+  "date": "2027-07",
+  "regulaminUrl": "https://dfbg.pl/images/docs/Regulamin%2015-%20DFBG.pdf"
+ },
+ {
+  "match": "Grani[ąa] Tatr",
+  "date": "2027-08",
+  "regulaminUrl": "https://www.graniatatr.pl/regulamin.html"
+ },
+ {
+  "match": "Bison",
+  "date": "2027-10",
+  "regulaminUrl": "https://bisonultratrail.pl/regulamin/"
+ },
+ {
+  "match": "[ŁL]emkowyna|[ŁL]emko ",
+  "date": "2027-10",
+  "regulaminUrl": "https://www.ultralemkowyna.pl/regulaminy"
+ }
+]
