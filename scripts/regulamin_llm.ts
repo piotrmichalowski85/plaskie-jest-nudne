@@ -24,7 +24,7 @@ const PROMPT = `Poniżej tekst regulaminu biegu górskiego, trailowego albo prze
 Zwróć TYLKO obiekt JSON (bez komentarza) o polach:
 - "year": rok edycji, której dotyczy regulamin (liczba) albo null,
 - "limits": tablica {"km": liczba, "limitH": liczba godzin (np. 4.5)} dla dystansów z limitem czasu,
-- "fees": tablica {"km": liczba albo null gdy jedna opłata dla wszystkich, "pln": kwota w zł, "until": "YYYY-MM-DD" albo null} (progi cenowe: kwota obowiązująca do daty; pomiń opłaty za pakiety dodatkowe, koszulki, medale, posiłki),
+- "fees": tablica {"km": liczba albo null gdy jedna opłata dla wszystkich, "pln": kwota w zł, "until": "YYYY-MM-DD" albo null, "label": krótka nazwa wariantu albo null} (progi cenowe: kwota obowiązująca do daty; pomiń opłaty za pakiety dodatkowe, koszulki, medale, posiłki). "label" podaj TYLKO wtedy, gdy ten sam dystans (albo ta sama opłata bez dystansu) ma kilka osobnych cenników, np. "solo" i "sztafeta", "w parze", "z psem", "6 h" i "12 h" albo nazwa biegu; ma do 25 znaków i jest taki sam we wszystkich progach danego cennika. Gdy dystans ma jeden cennik, "label" to null,
 - "startTimes": tablica {"km": liczba albo null, "time": "HH:MM"} (godzina startu dystansu),
 - "office": biuro zawodów krótko, do 120 znaków (miejsce i godziny) albo null,
 - "aid": punkty odżywcze i bufety krótko, do 100 znaków (np. "3 bufety na 30 km, woda i izotonik") albo null,
@@ -73,8 +73,8 @@ function clean(o: Record<string, unknown>): Omit<RegInfo, "at"> {
   const year = num(o.year); if (year && year >= 2015 && year <= 2035) res.year = year;
   const limits = arr(o.limits).map((x) => ({ km: num(x.km)!, limitH: num(x.limitH)! })).filter((x) => x.km >= 1 && x.km <= 400 && x.limitH > 0.2 && x.limitH <= 150 && x.limitH / x.km <= 1.2);
   if (limits.length) res.limits = limits.slice(0, 12);
-  const fees = arr(o.fees).map((x) => ({ km: num(x.km), pln: num(x.pln)!, until: typeof x.until === "string" && /^\d{4}-\d{2}-\d{2}$/.test(x.until) ? x.until : undefined })).filter((x) => x.pln === 0 || (x.pln >= 10 && x.pln <= 3000));
-  if (fees.length) res.fees = fees.slice(0, 24).map((f) => Object.fromEntries(Object.entries(f).filter(([, v]) => v !== undefined)) as { km?: number; pln: number; until?: string });
+  const fees = arr(o.fees).map((x) => ({ km: num(x.km), pln: num(x.pln)!, until: typeof x.until === "string" && /^\d{4}-\d{2}-\d{2}$/.test(x.until) ? x.until : undefined, label: typeof x.label === "string" && x.label.trim().length >= 2 ? x.label.trim().slice(0, 25) : undefined })).filter((x) => x.pln === 0 || (x.pln >= 10 && x.pln <= 3000));
+  if (fees.length) res.fees = fees.slice(0, 40).map((f) => Object.fromEntries(Object.entries(f).filter(([, v]) => v !== undefined)) as { km?: number; pln: number; until?: string; label?: string });
   const st = arr(o.startTimes).map((x) => ({ km: num(x.km), time: typeof x.time === "string" ? x.time.trim().replace(/^(\d):/, "0$1:").replace(".", ":") : "" })).filter((x) => /^([01]\d|2[0-3]):[0-5]\d$/.test(x.time));
   if (st.length) res.startTimes = st.slice(0, 12).map((s) => (s.km === undefined ? { time: s.time } : s));
   const office = str(o.office, 140); if (office) res.office = office;

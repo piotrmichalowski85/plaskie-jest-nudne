@@ -386,9 +386,11 @@ function pickSignup(a?: Signup, b?: Signup): Signup | undefined {
 }
 
 /** Scalanie dwóch wpisów tej samej imprezy: bogatszy zestaw dystansów wygrywa, reszta uzupełnia się nawzajem. */
-function mergeRaw(a: Raw, b: Raw): Raw {
+function mergeRaw(a: Raw, b: Raw, union = false): Raw {
   const rich = a.distancesKm.length >= b.distancesKm.length ? a : b, poor = rich === a ? b : a;
   const elevations = rich.elevations.map((e) => ({ ...e }));
+  // union: dwa rekordy to różne dystanse tej samej imprezy (żadnego wspólnego), więc dystanse się sumują zamiast "bogatszy wygrywa"
+  if (union) { for (const e of poor.elevations) if (!elevations.some((y) => Math.abs(y.km - e.km) < 0.6)) elevations.push({ ...e }); elevations.sort((x, y) => x.km - y.km); }
   for (const e of poor.elevations) { const x = elevations.find((y) => Math.abs(y.km - e.km) < 0.6); if (x) { x.dplus ??= e.dplus; x.limitH ??= e.limitH; x.gpx ??= e.gpx; x.note ??= e.note; if (e.dplusSource && !x.dplusSource) { x.dplusSource = e.dplusSource; x.dplusSourceUrl = e.dplusSourceUrl; } } }
   return {
     ...a, ...rich, elevations, distancesKm: elevations.map((e) => e.km),
@@ -402,26 +404,50 @@ function mergeRaw(a: Raw, b: Raw): Raw {
 }
 
 function finalize(raws: Raw[]): Race[] {
-  const byKey = new Map<string, Raw>();
-  for (const r of raws) {
-    const k = dedupKey(r);
-    const prev = byKey.get(k);
-    byKey.set(k, prev ? mergeRaw(prev, r) : r);
-  }
   const shared = (a: Raw, b: Raw) => a.distancesKm.filter((x) => b.distancesKm.some((y) => Math.abs(x - y) < 0.6)).length;
   const daysApart = (a: Raw, b: Raw) => Math.min(Math.abs(Date.parse(a.dateStart) - Date.parse(b.dateStart)), Math.abs(Date.parse(a.dateEnd) - Date.parse(b.dateEnd))) / 86400000;
   const w1 = (r: Raw) => eventCore(r.eventName).split("-")[0] || "";
   const cityKey = (r: Raw) => slugify(r.city).split("-")[0];
+  const sameCity = (a: Raw, b: Raw) => cityKey(a) === cityKey(b) && cityKey(a).length >= 3;
   const coreWords = (r: Raw) => new Set(eventCore(r.eventName).split("-").filter(Boolean));
+  // nazwa okolicznościowa ("Bieg Niepodległości", "Bieg Mikołajkowy"): w jednym miesiącu jest takich kilka w różnych miejscowościach,
+  // więc sama nazwa niczego nie dowodzi i scalamy tylko w obrębie tej samej miejscowości (12.11.2026: pięć biegów niepodległościowych zlało się w jeden rekord)
+  const OCCASION = new Set(["niepodleglosci", "niepodlegla", "mikolajkowy", "mikolajki", "mikolajow", "noworoczny", "sylwestrowy", "wielkanocny", "walentynkowy", "andrzejkowy", "barborkowy", "swiateczny", "wigilijny", "konstytucji", "wosp", "charytatywny", "nocny", "zimowy", "wiosenny", "letni", "jesienny", "rodzinny"]);
+  const occasional = (r: Raw) => [...coreWords(r)].every((w) => OCCASION.has(w));
   const overlap = (a: Raw, b: Raw) => [...coreWords(a)].some((w) => coreWords(b).has(w));
+  const distinctOverlap = (a: Raw, b: Raw) => [...coreWords(a)].some((w) => w.length >= 4 && !OCCASION.has(w) && coreWords(b).has(w));
+  // pierwsze przejście: ten sam rdzeń nazwy i miesiąc to za mało; potrzebna jeszcze ta sama miejscowość, wspólny dystans, brak dystansów po jednej stronie
+  // albo termin w odstępie do 3 dni (festiwal podany raz od piątku, raz od soboty); cykl z kilkoma biegami w miesiącu (Puchar Kalwarii) zostaje rozdzielony
+  const compatible = (a: Raw, b: Raw) => (occasional(a) || occasional(b) ? sameCity(a, b) : sameCity(a, b) || shared(a, b) >= 1 || !a.distancesKm.length || !b.distancesKm.length || daysApart(a, b) <= 3);
+  const groups = new Map<string, Raw[]>();
+  for (const r of raws) {
+    const g = groups.get(dedupKey(r)) ?? [];
+    const i = g.findIndex((m) => compatible(m, r));
+    if (i < 0) g.push(r); else g[i] = mergeRaw(g[i], r);
+    groups.set(dedupKey(r), g);
+  }
+  const byKey = [...groups.values()].flat();
   // "Łemko Trail" vs "Łemkowyna Ultra-Trail": jedno słowo jest przedrostkiem drugiego, wspólne dystanse, ten sam weekend
   const prefixKin = (a: Raw, b: Raw) => { const x = w1(a), y = w1(b); return x.length >= 4 && y.length >= 4 && (x.startsWith(y) || y.startsWith(x)) && shared(a, b) >= 2 && daysApart(a, b) <= 3; };
   // ta sama data i miejscowość + (wspólne słowo nazwy albo >= 2 wspólne dystanse): np. "ZPGS" vs "Zimowy Półmaraton Gór Stołowych"
-  const samePlaceDay = (a: Raw, b: Raw) => a.dateStart === b.dateStart && cityKey(a) === cityKey(b) && cityKey(a).length >= 3 && (overlap(a, b) || shared(a, b) >= 1);
+  // (albo wspólne dłuższe słowo gdziekolwiek w nazwie: "6. Zimowy Półmaraton Górski Jedlina-Zdrój" i "Zimowa Dycha Jedlina-Zdrój" to dwa dystanse jednej imprezy)
+  const nameWords = (r: Raw) => new Set(slugify(r.eventName).split("-").filter((w) => w.length >= 5 && !OCCASION.has(w)));
+  const anyWord = (a: Raw, b: Raw) => [...nameWords(a)].some((w) => nameWords(b).has(w) && eventCore(w) === w);
+  const samePlaceDay = (a: Raw, b: Raw) => a.dateStart === b.dateStart && cityKey(a) === cityKey(b) && cityKey(a).length >= 3 && (overlap(a, b) || shared(a, b) >= 1 || anyWord(a, b));
+  // dystans imprezy podany osobnym wierszem ("ULTRA TURNICKI Pomocna Woda" 75 km obok "ULTRA TURNICKI" 10/24/48/75 km): ten sam dzień, to samo pierwsze słowo, dystanse zawarte w większym rekordzie
+  const subset = (a: Raw, b: Raw) => { const [s, l] = a.distancesKm.length <= b.distancesKm.length ? [a, b] : [b, a]; return s.distancesKm.length >= 1 && shared(s, l) === s.distancesKm.length; };
+  const subRace = (a: Raw, b: Raw) => a.dateStart === b.dateStart && w1(a) === w1(b) && w1(a).length >= 4 && !occasional(a) && !occasional(b) && subset(a, b);
+  // ta sama impreza w dwóch źródłach z inną miejscowością (siedziba organizatora zamiast startu): ten sam dzień, wspólne wyróżniające słowo nazwy i wspólny dystans
+  const sameDayKin = (a: Raw, b: Raw) => a.dateStart === b.dateStart && !occasional(a) && !occasional(b) && distinctOverlap(a, b) && shared(a, b) >= 1;
+  const sameName = (a: Raw, b: Raw) => w1(a) === w1(b) && a.dateStart.slice(0, 7) === b.dateStart.slice(0, 7) && (sameCity(a, b) || cityKey(a) === cityKey(b) && !occasional(a) || (!occasional(a) && !occasional(b) && eventCore(a.eventName) === eventCore(b.eventName) && shared(a, b) >= 1));
   const merged2: Raw[] = [];
-  for (const r of byKey.values()) {
-    const i = merged2.findIndex((m) => (w1(m) === w1(r) && m.dateStart.slice(0, 7) === r.dateStart.slice(0, 7) && (cityKey(m) === cityKey(r) || (eventCore(m.eventName) === eventCore(r.eventName) && shared(m, r) >= 1))) || prefixKin(m, r) || samePlaceDay(m, r));
-    if (i < 0) merged2.push(r); else merged2[i] = mergeRaw(merged2[i], r);
+  for (const r of byKey) {
+    const i = merged2.findIndex((m) => sameName(m, r) || prefixKin(m, r) || samePlaceDay(m, r) || subRace(m, r) || sameDayKin(m, r));
+    if (i < 0) { merged2.push(r); continue; }
+    const m = merged2[i];
+    // ten sam dzień i miejscowość, wspólne słowo nazwy, ale ani jednego zbliżonego dystansu: to osobne dystanse jednej imprezy
+    const apart = m.distancesKm.length > 0 && r.distancesKm.length > 0 && m.distancesKm.every((x) => r.distancesKm.every((y) => Math.abs(x - y) / Math.max(x, y) > 0.15));
+    merged2[i] = mergeRaw(m, r, samePlaceDay(m, r) && !overlap(m, r) && anyWord(m, r) && apart);
   }
   const used = new Set<string>();
   return merged2
@@ -441,6 +467,13 @@ function finalize(raws: Raw[]): Race[] {
 }
 
 async function main() {
+  // RAWS_IN=plik [RACES_OUT=plik]: samo scalanie na zapisanych surowych rekordach, bez pobierania czegokolwiek
+  if (process.env.RAWS_IN) {
+    const races = finalize(JSON.parse(readFileSync(process.env.RAWS_IN, "utf8")) as Raw[]);
+    writeFileSync(process.env.RACES_OUT || "/tmp/races_test.json", JSON.stringify({ generatedAt: new Date().toISOString(), count: races.length, races }, null, 1));
+    console.log(`finalize z pliku: ${races.length} biegów`);
+    return;
+  }
   const year = new Date().getFullYear();
   const results = await Promise.allSettled([biegigorskie(year), biegigorskie(year + 1), elektronicznezapisy(), organizerSeeds(), kingrunner(), b4sport(), kalendarzbiegowy()]);
   const raws: Raw[] = [];
@@ -459,6 +492,8 @@ async function main() {
   console.log(`regulaminy found this run: ${regs}, with regulamin total: ${raws.filter((r) => r.regulaminUrl).length}, with gear: ${raws.filter((r) => r.gear).length}`);
   const zs = await zapisy(raws);
   console.log(`zapisy (nadchodzące): open ${zs.open}, closed ${zs.closed}, unknown ${zs.unknown}, z datą ${zs.withDate}`);
+  // diagnostyka scalania: RAWS_OUT=plik zapisuje surowe rekordy sprzed scalenia (do testów finalize bez sieci, patrz RAWS_IN niżej)
+  if (process.env.RAWS_OUT) writeFileSync(process.env.RAWS_OUT, JSON.stringify(raws));
   const races = finalize(raws);
   const ds: Dataset = { generatedAt: new Date().toISOString(), count: races.length, races };
   if (races.length < 100 && !process.env.FORCE) { console.error(`STOP: tylko ${races.length} biegów, nie nadpisuję data/races.json (FORCE=1, żeby wymusić)`); process.exit(2); }

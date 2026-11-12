@@ -44,7 +44,7 @@ export type Dataset = { generatedAt: string; count: number; races: Race[] };
 export type RegInfo = {
   year?: number; // rok edycji, której dotyczy regulamin
   limits?: { km: number; limitH: number }[];
-  fees?: { km?: number; pln: number; until?: string }[]; // progi cenowe: kwota do daty
+  fees?: { km?: number; pln: number; until?: string; label?: string }[]; // progi cenowe: kwota do daty; label = wariant, gdy jeden dystans ma kilka cenników (solo, sztafeta, w parze, 6 h)
   startTimes?: { km?: number; time: string }[];
   office?: string; // biuro zawodów
   aid?: string; // bufety
