@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-10T06:33:10.311Z",
- "count": 286,
+ "generatedAt": "2026-11-12T10:07:04.029Z",
+ "count": 293,
  "races": [
   {
    "name": "Podkarpacki Festiwal Sportowy",
@@ -2167,7 +2167,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/03/XRUN_Tajemnicze_Kopce_-nm14_km.gpx",
      "gpx": "983f76f954c1",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 21,
@@ -2175,7 +2175,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/03/XRUN_Tajemnicze_Kopce_n-21_km_Classic.gpx",
      "gpx": "3883c7a21be6",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 32,
@@ -2183,7 +2183,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/03/XRUN_Tajemnicze_Kopce_Maraton_m-32_km.gpx",
      "gpx": "a185937dd984",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     }
    ],
    "vertical": false,
@@ -2256,7 +2256,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/fa4925849089-barantrailrace10.gpx",
      "gpx": "039dff8d7c81",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 25,
@@ -2264,7 +2264,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/4b4aaa605098-barantrailrace25.gpx",
      "gpx": "c4ef4bc38861",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "limitH": 5
     },
     {
@@ -2273,7 +2273,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/4fe4278dd59f-barantrailrace60.gpx",
      "gpx": "e171fc730de8",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     }
    ],
    "vertical": false,
@@ -2737,7 +2737,7 @@
      "dplus": 472,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/04/Szczyrk_Start.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "gpx": "bac215a14269"
     },
     {
@@ -2746,7 +2746,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/04/Copy_Szczyrk_145_km.gpx",
      "gpx": "671f7eb42fa1",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 25,
@@ -2754,7 +2754,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/04/Marcure_Szczyrk_25_km.gpx",
      "gpx": "0f3a241b466f",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 45,
@@ -2762,7 +2762,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/04/Copy_Szczyrk_45_km.gpx",
      "gpx": "fea6d49b61d0",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     }
    ],
    "vertical": false,
@@ -3676,7 +3676,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/05/XRUN_Wyspowy_Trail.gpx",
      "gpx": "b67f35fd5bb4",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 38,
@@ -3684,7 +3684,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/05/XRUN_Wyspowy_Trail_Classic_Trail.gpx",
      "gpx": "957b9524764f",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 50,
@@ -3692,7 +3692,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/05/XRUN_Wyspowy_Trail_Long_Trail.gpx",
      "gpx": "2171556f7fde",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     }
    ],
    "vertical": false,
@@ -4075,21 +4075,21 @@
      "dplus": 582,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://www.biegrzeznika.pl/rzeznicka-piatka/",
-     "dplusCheckedAt": "2026-10-13"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 16,
      "dplus": 492,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://www.biegrzeznika.pl/rzeznicka-piatka/",
-     "dplusCheckedAt": "2026-10-13"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 28,
      "dplus": 1060,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://www.biegrzeznika.pl/rzeznicka-piatka/",
-     "dplusCheckedAt": "2026-10-13"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 52
@@ -4645,7 +4645,7 @@
      "dplus": 212,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_08b1fbd6849c4777bf5e9b94fdc66a21.gpx?dn=ULTRA%20TURNICKI%2010%20KM%202026.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true,
      "gpx": "2d07e4b56fd0"
     },
@@ -4654,7 +4654,7 @@
      "dplus": 450,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_8db1bd631c4b48108381e9287d00872a.gpx?dn=ULTRA%20TURNICKI%2024%20KM%202026.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true,
      "gpx": "255f38ef48ca"
     },
@@ -5741,7 +5741,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/07/XRUN_Ucieczka_Sw_Kingi_14_km_Intro.gpx",
      "gpx": "7b22907f05f3",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 26,
@@ -5749,7 +5749,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/07/Ucieczka_Sw_Kingi_Classic_28_k_m.gpx",
      "gpx": "ef8127ac78f9",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 40,
@@ -5757,7 +5757,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/07/Ucieczka_Sw_Kingi_40_km_Maraton.gpx",
      "gpx": "bd76078bacd8",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     }
    ],
    "vertical": false,
@@ -6884,7 +6884,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://utm.run/wp-content/uploads/static/SZCZEBEL_CUP.gpx",
      "gpx": "4a8589f7345e",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     }
    ],
    "vertical": false,
@@ -7016,7 +7016,7 @@
      "dplus": 487,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Pyzdra-20-km.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true,
      "gpx": "7ea021f186a9"
     },
@@ -7025,7 +7025,7 @@
      "dplus": 1204,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Kwicol-40-km.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true,
      "gpx": "e82bd411475a"
     },
@@ -7034,7 +7034,7 @@
      "dplus": 3249,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2026-Legenda-75-km.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "gpx": "ce757376282b"
     }
    ],
@@ -7151,7 +7151,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/XRUN_Vistula_Trail_Start_new.gpx",
      "gpx": "05ce0e4a8b75",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 15,
@@ -7159,7 +7159,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/XRUN_Vistula_Trail_Intro_new.gpx",
      "gpx": "401b9a5f7eee",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 24,
@@ -7167,7 +7167,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/XRUN_Vistula_Trail_Classic_new.gpx",
      "gpx": "e17960118e9a",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 35
@@ -7865,7 +7865,7 @@
      "dplus": 393,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j21h.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "gpx": "cdec575b3f4f"
     },
     {
@@ -7873,7 +7873,7 @@
      "dplus": 586,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j42h.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "gpx": "dc7a5c91fcdd"
     },
     {
@@ -7881,7 +7881,7 @@
      "dplus": 1094,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j80h.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "gpx": "695f72b9675c"
     },
     {
@@ -7889,7 +7889,7 @@
      "dplus": 1450,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j100h.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "gpx": "175b992a02fa"
     }
    ],
@@ -8168,7 +8168,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/Muszyna_Start_Trail_6_km.gpx",
      "gpx": "ded571484e41",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 23,
@@ -8176,7 +8176,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/Muszyna_Trail_Intro_Trail.gpx",
      "gpx": "caf5083473b9",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 31,
@@ -8184,7 +8184,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/Muszyna_Trail_Classic_Trail.gpx",
      "gpx": "cb567dad5484",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 43,
@@ -8192,7 +8192,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/Muszyna_Trail_Long_Trail.gpx",
      "gpx": "49371425f97e",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     }
    ],
    "vertical": false,
@@ -8501,7 +8501,7 @@
      "dplus": 487,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Pyzdra-20-km.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true,
      "gpx": "7ea021f186a9"
     },
@@ -8983,7 +8983,7 @@
      "dplus": 596,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/KDR-2026-21.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "gpx": "3286e627d6f9"
     },
     {
@@ -9501,15 +9501,23 @@
     },
     {
      "name": "regulamin",
-     "url": "http://jaskiniowy.pl/regulamin-biegu-jaskiniowego-niedzwiedzia/"
+     "url": "https://jaskiniowy.pl/regulamin-borowkowa-trail/"
     }
    ],
-   "regulaminUrl": "http://jaskiniowy.pl/regulamin-biegu-jaskiniowego-niedzwiedzia/",
+   "regulaminUrl": "https://jaskiniowy.pl/regulamin-borowkowa-trail/",
    "gear": [
-    "pojemnik na wodę (kubek, bidon, softflask)",
-    "dowód osobisty (nie dotyczy 10 km)",
-    "naładowany telefon z numerem organizatora i GOPR"
+    "Pojemnik na wodę (kubek, bidon, soft flask)",
+    "Dowód osobisty",
+    "Naładowany telefon z numerem Organizatora",
+    "Odzież i obuwie adekwatne do pogody"
    ],
+   "signup": {
+    "status": "open",
+    "until": "2026-11-14",
+    "source": "regulamin",
+    "sourceUrl": "https://jaskiniowy.pl/regulamin-borowkowa-trail/",
+    "checkedAt": "2026-11-12"
+   },
    "id": "borowkowa-trail-2026-11-14",
    "surface": "gorski",
    "minKm": 9,
@@ -9540,7 +9548,7 @@
     "until": "2026-11-13",
     "source": "zapisy",
     "sourceUrl": "https://elektronicznezapisy.pl/event/16210/strona.html",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "id": "ninja-ams-kartuzy-zajecia-terenowe-dla-dzieci-i-mlodziezy-2026-11-14",
    "surface": "przelaj",
@@ -9569,7 +9577,7 @@
      "dplus": 1032,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-10k.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true,
      "gpx": "2965d86bd7b0"
     },
@@ -9578,7 +9586,7 @@
      "dplus": 2160,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-24k.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true,
      "gpx": "9611334ce9c5"
     },
@@ -9587,7 +9595,7 @@
      "dplus": 4020,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-47k.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true,
      "gpx": "4a49277d707c"
     },
@@ -9596,7 +9604,7 @@
      "dplus": 5908,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-71k.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true,
      "gpx": "5457d8ac05dc"
     },
@@ -9605,7 +9613,7 @@
      "dplus": 7563,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-94k.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true,
      "gpx": "78e64752cab5"
     }
@@ -9689,10 +9697,10 @@
     },
     {
      "name": "regulamin",
-     "url": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026-msyirv8m.pdf"
+     "url": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026_edit-mv6j7nqw.pdf"
     }
    ],
-   "regulaminUrl": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026-msyirv8m.pdf",
+   "regulaminUrl": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026_edit-mv6j7nqw.pdf",
    "id": "2-gorska-trzynastka-2026-11-21",
    "surface": "gorski",
    "minKm": 13,
@@ -9725,10 +9733,10 @@
     },
     {
      "name": "regulamin",
-     "url": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026-msyirv8m.pdf"
+     "url": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026_edit-mv6j7nqw.pdf"
     }
    ],
-   "regulaminUrl": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026-msyirv8m.pdf",
+   "regulaminUrl": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026_edit-mv6j7nqw.pdf",
    "id": "7-polmaraton-orzel-2026-11-21",
    "surface": "trail",
    "minKm": 22,
@@ -9756,7 +9764,7 @@
      "gpx": "bea7a18626f1",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://boreckatrail.pl/wp-content/uploads/2026/10/Dubinek-10km.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "limitH": 4
     },
     {
@@ -9765,7 +9773,7 @@
      "gpx": "6414e7a29e4f",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://boreckatrail.pl/wp-content/uploads/2026/10/Wolisko-21km.gpx",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 30,
@@ -9773,7 +9781,7 @@
      "gpx": "aa16a926e627",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://boreckatrail.pl/wp-content/uploads/2026/10/Szwalk-30km.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "limitH": 6
     },
     {
@@ -9782,7 +9790,7 @@
      "gpx": "970366396419",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://boreckatrail.pl/wp-content/uploads/2026/10/Litygajno-45km.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "limitH": 7
     }
    ],
@@ -9844,7 +9852,7 @@
     "until": "2026-11-18",
     "source": "regulamin",
     "sourceUrl": "https://boreckatrail.pl/regulamin/",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "id": "borecka-lekuk-trail-2026-11-21",
    "surface": "trail",
@@ -9854,7 +9862,7 @@
    "beginnerWhy": "najkrótszy dystans 10 km; łagodnie: ok. 4 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Jesienny ULTRA ŚWIR: Ultra Świr Jesienny Trail, Ultra Świr Jesienny Trail",
+   "name": "JESIENNY ULTRA ŚWIR",
    "eventName": "JESIENNY ULTRA ŚWIR",
    "dateStart": "2026-11-28",
    "dateEnd": "2026-11-28",
@@ -9866,7 +9874,8 @@
    ],
    "elevations": [
     {
-     "km": 15
+     "km": 15,
+     "limitH": 6
     },
     {
      "km": 24
@@ -9882,37 +9891,95 @@
     },
     {
      "name": "regulamin",
-     "url": "https://b4sportonline.pl/users-folder/1104/files/Regulamin_Wyspowy_Ultra_Swir_2027.pdf"
-    },
-    {
-     "name": "b4sportonline.pl",
-     "url": "https://b4sportonline.pl/ultra_swir/"
+     "url": "https://malopolskabiega.com.pl/regulamin-jesienny-ultra-swir/"
     }
    ],
-   "regulaminUrl": "https://b4sportonline.pl/users-folder/1104/files/Regulamin_Wyspowy_Ultra_Swir_2027.pdf",
+   "regulaminUrl": "https://malopolskabiega.com.pl/regulamin-jesienny-ultra-swir/",
    "gear": [
-    "Włączony i naładowany telefon",
-    "Plik GPX z trasą biegu na zegarku lub telefonie",
-    "Kurtka wiatrówka",
-    "Bandanka",
+    "Numer startowy przypięty z przodu",
+    "Włączony, naładowany telefon z numerem udostępnionym organizatorowi",
+    "Plik GPX z trasą na zegarku lub telefonie",
+    "Numer telefonu organizatora (podany na numerze startowym)",
     "Folia NRC",
-    "Swój kubek wielokrotnego użytku"
+    "Kurtka wiatrówka z kapturem",
+    "Długa koszulka lub bluza z długim rękawem",
+    "Długie leginsy zależnie od pogody",
+    "Własny kubek"
    ],
    "signup": {
     "status": "open",
-    "until": "2026-11-25",
-    "limit": 65,
-    "registered": 63,
-    "source": "zapisy",
-    "sourceUrl": "https://b4sportonline.pl/ultra_swir/",
-    "checkedAt": "2026-11-10"
+    "until": "2026-11-15",
+    "limit": 100,
+    "source": "regulamin",
+    "sourceUrl": "https://malopolskabiega.com.pl/regulamin-jesienny-ultra-swir/",
+    "checkedAt": "2026-11-12"
    },
-   "signupOpen": true,
-   "participants": 63,
    "id": "jesienny-ultra-swir-2026-11-28",
    "surface": "trail",
    "minKm": 15,
    "maxKm": 24,
+   "beginnerScore": 3,
+   "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
+  },
+  {
+   "name": "ULTRA ŚWIR: Ultra Świr Jesienny Trail, Ultra Świr Jesienny Trail",
+   "eventName": "ULTRA ŚWIR",
+   "dateStart": "2026-11-28",
+   "dateEnd": "2026-11-28",
+   "city": "Ptaszkowa",
+   "region": "",
+   "distancesKm": [
+    15,
+    25
+   ],
+   "elevations": [
+    {
+     "km": 15,
+     "limitH": 6
+    },
+    {
+     "km": 25
+    }
+   ],
+   "vertical": false,
+   "url": "https://b4sportonline.pl/ultra_swir/",
+   "sources": [
+    {
+     "name": "b4sportonline.pl",
+     "url": "https://b4sportonline.pl/ultra_swir/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://malopolskabiega.com.pl/regulamin-jesienny-ultra-swir/"
+    }
+   ],
+   "signup": {
+    "status": "open",
+    "until": "2026-11-25",
+    "limit": 100,
+    "registered": 73,
+    "source": "zapisy",
+    "sourceUrl": "https://b4sportonline.pl/ultra_swir/",
+    "checkedAt": "2026-11-12"
+   },
+   "signupOpen": true,
+   "participants": 73,
+   "regulaminUrl": "https://malopolskabiega.com.pl/regulamin-jesienny-ultra-swir/",
+   "gear": [
+    "Numer startowy przypięty z przodu",
+    "Włączony, naładowany telefon z numerem udostępnionym organizatorowi",
+    "Plik GPX z trasą na zegarku lub telefonie",
+    "Numer telefonu organizatora (podany na numerze startowym)",
+    "Folia NRC",
+    "Kurtka wiatrówka z kapturem",
+    "Długa koszulka lub bluza z długim rękawem",
+    "Długie leginsy zależnie od pogody",
+    "Własny kubek"
+   ],
+   "id": "ultra-swir-2026-11-28",
+   "surface": "przelaj",
+   "minKm": 15,
+   "maxKm": 25,
    "beginnerScore": 3,
    "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
@@ -9940,25 +10007,32 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
-     "name": "kingrunner.com",
-     "url": "https://www.kingrunner.com/bieg/szczyt-wytrzymalosci---edycja-mikolajkowa---me16/4375"
+     "name": "regulamin",
+     "url": "https://dostartu.pl/statute_files/17345_pl.pdf"
     },
     {
-     "name": "regulamin",
-     "url": "https://web.sportcrm.pl/pliki/beskidzkiegronie/zalacznikiartykulow/60/19746/Regulamin%20V%20Beskidzkie%20Gr%C3%B3nie%20Lato%202026.pdf"
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/szczyt-wytrzymalosci---edycja-mikolajkowa---me16/4375"
     }
    ],
-   "regulaminUrl": "https://web.sportcrm.pl/pliki/beskidzkiegronie/zalacznikiartykulow/60/19746/Regulamin%20V%20Beskidzkie%20Gr%C3%B3nie%20Lato%202026.pdf",
+   "regulaminUrl": "https://dostartu.pl/statute_files/17345_pl.pdf",
    "gear": [
     "telefon komórkowy z działającą baterią",
-    "folia NRC do otulenia całego ciała",
-    "kurtka z kapturem wiatrochronna",
-    "ubranie dostosowane do warunków górskich",
+    "folia NRC pozwalająca okryć całe ciało",
+    "ubranie dostosowane do warunków pogodowych",
     "gwizdek",
-    "obuwie do długich marszów",
+    "obuwie z bieżnikiem lub na warunki zimowe",
     "bandaż elastyczny",
-    "aplikacja GOPR RATUNEK"
+    "czołówka i zapasowe baterie (12H)"
    ],
+   "signup": {
+    "status": "open",
+    "until": "2026-11-22",
+    "note": "do wyczerpania limitu",
+    "source": "regulamin",
+    "sourceUrl": "https://dostartu.pl/statute_files/17345_pl.pdf",
+    "checkedAt": "2026-11-12"
+   },
    "id": "szczyt-wytrzymalosci-edycja-mikolajkowa-2026-12-04",
    "surface": "trail",
    "minKm": 16,
@@ -9986,7 +10060,7 @@
      "dplus": 106,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://ultrarace.pl/gdansk/trasa-gdansk/",
-     "dplusCheckedAt": "2026-10-13",
+     "dplusCheckedAt": "2026-11-12",
      "limitH": 1
     },
     {
@@ -10006,7 +10080,7 @@
      "dplus": 1800,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://ultrarace.pl/gdansk/trasa-gdansk/",
-     "dplusCheckedAt": "2026-10-13",
+     "dplusCheckedAt": "2026-11-12",
      "limitH": 17
     }
    ],
@@ -10053,7 +10127,7 @@
     "limit": 300,
     "source": "regulamin",
     "sourceUrl": "https://ultrarace.pl/gdansk/regulamin-gdansk/",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "id": "garmin-ultra-race-gdansk-2026-12-04",
    "surface": "trail",
@@ -10110,7 +10184,7 @@
     "limit": 50,
     "source": "regulamin",
     "sourceUrl": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-Podhalanski-Bieg-Mikolajkowy-2026.pdf",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "id": "turbacz-trail-2026-12-06",
    "surface": "trail",
@@ -10217,13 +10291,13 @@
     "status": "open",
     "until": "2026-12-03",
     "limit": 50,
-    "registered": 34,
+    "registered": 38,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/turbacz_trail/",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "signupOpen": true,
-   "participants": 34,
+   "participants": 38,
    "regulaminUrl": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-Podhalanski-Bieg-Mikolajkowy-2026.pdf",
    "gear": [
     "Track lub mapa dystansu (bez Rodzinnych Mikołajek)",
@@ -10278,20 +10352,35 @@
     },
     {
      "name": "regulamin",
-     "url": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf"
+     "url": "https://www.e-gepard.eu/file/regulamin/3430_regulamin.pdf"
     },
     {
      "name": "kingrunner.com",
      "url": "https://www.kingrunner.com/bieg/winter-trail-malopolska-2025---wtm-16/4083"
     }
    ],
-   "regulaminUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
+   "regulaminUrl": "https://www.e-gepard.eu/file/regulamin/3430_regulamin.pdf",
+   "gear": [
+    "dowód osobisty",
+    "folia NRC, co najmniej 140 x 200 cm",
+    "kubek osobisty",
+    "rękawiczki",
+    "minimum litrowy bukłak lub bidony",
+    "bandaż elastyczny, opatrunek jałowy",
+    "naładowany telefon",
+    "kurtka",
+    "czapka",
+    "plecak biegowy, pas biegowy lub kamizelka",
+    "latarka czołówka (WTM 140, 105, 64, 45)",
+    "track gpx wgrany w urządzenie (WTM 140, 105, 64)"
+   ],
    "signup": {
-    "status": "unknown",
-    "limit": 200,
+    "status": "open",
+    "until": "2026-12-07",
+    "limit": 50,
     "source": "regulamin",
-    "sourceUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
-    "checkedAt": "2026-11-10"
+    "sourceUrl": "https://www.e-gepard.eu/file/regulamin/3430_regulamin.pdf",
+    "checkedAt": "2026-11-12"
    },
    "id": "winter-trail-malopolska-2026-12-12",
    "surface": "trail",
@@ -10375,16 +10464,16 @@
     },
     {
      "name": "regulamin",
-     "url": "https://perlymalopolski.pl/wp-content/uploads/2026/02/RABKA_PERE%C5%81KI-2026-REGULAMIN.docx.pdf"
+     "url": "http://perlymalopolski.pl/regulamin-rabka-zdroj-2024/"
     }
    ],
-   "regulaminUrl": "https://perlymalopolski.pl/wp-content/uploads/2026/02/RABKA_PERE%C5%81KI-2026-REGULAMIN.docx.pdf",
+   "regulaminUrl": "http://perlymalopolski.pl/regulamin-rabka-zdroj-2024/",
    "signup": {
     "status": "open",
-    "until": "2026-12-06",
+    "until": "2026-12-07",
     "source": "regulamin",
-    "sourceUrl": "https://perlymalopolski.pl/wp-content/uploads/2026/02/RABKA_PERE%C5%81KI-2026-REGULAMIN.docx.pdf",
-    "checkedAt": "2026-11-10"
+    "sourceUrl": "http://perlymalopolski.pl/regulamin-rabka-zdroj-2024/",
+    "checkedAt": "2026-11-12"
    },
    "id": "perly-malopolski-2026-12-13",
    "surface": "trail",
@@ -10394,7 +10483,7 @@
    "beginnerWhy": "najkrótszy dystans 7.5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "XII Górski Zimowy Maraton i Połmaraton Ślężański",
+   "name": "10. Górski Zimowy Maraton Ślężański: Półmaraton, 42.6 km",
    "eventName": "XII Górski Zimowy Maraton i Połmaraton Ślężański",
    "dateStart": "2027-01-09",
    "dateEnd": "2027-01-09",
@@ -10411,7 +10500,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://mapa-turystyczna.pl/track/962c306e.gpx",
      "gpx": "24f6f7630290",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 43,
@@ -10419,7 +10508,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://mapa-turystyczna.pl/track/5d10a1f1.gpx",
      "gpx": "579db43ca142",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     }
    ],
    "vertical": false,
@@ -10436,7 +10525,11 @@
     },
     {
      "name": "regulamin",
-     "url": "https://www.polmaratonslezanski.pl/regulamin-2027/"
+     "url": "https://www.kbsobotka.pl/wp-content/uploads/2026/10/2027-regulamin-Zimowy-Maraton-0.pdf"
+    },
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/10-gorski-zimowy-maraton-slezanski---polmaraton/4536"
     }
    ],
    "spark": [
@@ -10465,7 +10558,12 @@
     0.05,
     0.08
    ],
-   "regulaminUrl": "https://www.polmaratonslezanski.pl/regulamin-2027/",
+   "regulaminUrl": "https://www.kbsobotka.pl/wp-content/uploads/2026/10/2027-regulamin-Zimowy-Maraton-0.pdf",
+   "gear": [
+    "Folia NRC",
+    "Telefon komórkowy",
+    "Własny kubek lub bidon"
+   ],
    "id": "xii-gorski-zimowy-maraton-i-polmaraton-slezanski-2027-01-09",
    "surface": "gorski",
    "minKm": 24,
@@ -10583,10 +10681,12 @@
    ],
    "elevations": [
     {
-     "km": 5
+     "km": 5,
+     "limitH": 2.5
     },
     {
-     "km": 10
+     "km": 10,
+     "limitH": 3
     },
     {
      "km": 27.3,
@@ -10626,27 +10726,27 @@
     },
     {
      "name": "regulamin",
-     "url": "http://ultra-way.pl/letni-festiwal-biegowy-ultra-way/regulamin/"
+     "url": "https://ultra-way.pl/zimowy-festiwal-biegowy-ultra-way/regulamin/"
     },
     {
      "name": "kingrunner.com",
      "url": "https://www.kingrunner.com/bieg/gdynia-ultra-way-winter-race---turbo-jez-5km/4433"
     }
    ],
-   "regulaminUrl": "http://ultra-way.pl/letni-festiwal-biegowy-ultra-way/regulamin/",
+   "regulaminUrl": "https://ultra-way.pl/zimowy-festiwal-biegowy-ultra-way/regulamin/",
    "gear": [
-    "Kurs trasy wgrany w urządzenie do nawigacji",
     "Strój dopasowany do warunków atmosferycznych",
-    "Telefon komórkowy włączony i naładowany",
-    "Czapka lub buff (100 km)",
-    "Plecak lub pas (100, 60, 50, 27 km)",
-    "Kurtka wiatrówka (100, 60 km)",
-    "Lampka czołówka z białym światłem (100, 60 km)",
-    "Folia NRC (100, 60, 50, 27 km)",
-    "Dowód tożsamości (100, 60, 50, 27 km)",
-    "Minimum 50 PLN w gotówce (100, 60, 50, 27 km)",
-    "Kubek lub pojemnik (100, 60, 50, 27 km)",
-    "Pojemnik min. 1,0 litra (100, 60, 50, 27 km)"
+    "Czapka lub buff",
+    "Włączony, naładowany telefon z numerem organizatora",
+    "Kurs trasy wgrany w zegarek, telefon lub nawigację",
+    "Plecak lub pas mieszczący całe wyposażenie (od 27 km)",
+    "Pojemnik na min. 1 litr płynów (od 27 km)",
+    "Kurtka wiatrówka (od 27 km)",
+    "Lampka czołówka z białym światłem (od 50 km; 27 km tylko Dziki Duet)",
+    "Folia NRC (od 27 km)",
+    "Dowód tożsamości (od 27 km)",
+    "Minimum 50 PLN w gotówce (od 27 km)",
+    "Własny kubek lub pojemnik (od 27 km)"
    ],
    "id": "gdynia-ultra-way-2027-01-16",
    "surface": "trail",
@@ -10672,7 +10772,7 @@
      "dplus": 343,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_f9c51c6545aa44cc809c493c248eba7f.gpx?dn=SKOK%20NA%20%C5%BBYTNE%2015%20KM.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true,
      "gpx": "ea8c8e7546e8"
     },
@@ -10746,7 +10846,7 @@
     "note": "do wyczerpania limitu",
     "source": "regulamin",
     "sourceUrl": "https://www.ultraturnicki.pl/_files/ugd/883a2a_022e1d7fd8b5466e8866635383e749f7.pdf",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "id": "zimowy-ultra-turnicki-2027-01-16",
    "surface": "trail",
@@ -10802,15 +10902,15 @@
     }
    ],
    "signupOpen": true,
-   "participants": 498,
+   "participants": 503,
    "signup": {
     "status": "open",
     "until": "2027-01-15",
     "limit": 900,
-    "registered": 498,
+    "registered": 503,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/swietokrzyski_poziom_gor/",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "id": "zimowy-maraton-swietokrzyski-2027-01-16",
    "surface": "trail",
@@ -10926,15 +11026,15 @@
     }
    ],
    "signupOpen": true,
-   "participants": 733,
+   "participants": 744,
    "signup": {
     "status": "open",
     "until": "2027-01-14",
     "limit": 750,
-    "registered": 733,
+    "registered": 744,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/Zimowy_Polmaraton_Gor_Stolowych/",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "id": "zimowy-polmaraton-gor-stolowych-2027-01-16",
    "surface": "trail",
@@ -11003,26 +11103,32 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2027/"
     },
     {
+     "name": "regulamin",
+     "url": "https://www.maratonbieszczadzki.pl/wp-content/uploads/2026/10/Regulamin-XIII-Zimowego-Maratonu-Bieszczadzkiego-2027.pdf"
+    },
+    {
      "name": "kingrunner.com",
      "url": "https://www.kingrunner.com/bieg/xiii-zimowy-maraton-bieszczadzki-10km/4403"
     },
     {
      "name": "trasa (organizator)",
      "url": "https://www.maratonbieszczadzki.pl/xiii-zimowy-maraton-bieszczadzki-10-km/"
-    },
-    {
-     "name": "regulamin",
-     "url": "https://biegpolesie.pl/wp-content/uploads/2024/10/IX-Bieg-Polesie-regulamin-2019.pdf"
     }
    ],
+   "regulaminUrl": "https://www.maratonbieszczadzki.pl/wp-content/uploads/2026/10/Regulamin-XIII-Zimowego-Maratonu-Bieszczadzkiego-2027.pdf",
+   "gear": [
+    "folia NRC o wymiarach min. 150x180",
+    "naładowany i aktywny telefon z numerem ze zgłoszenia",
+    "kubek, bidon lub inny pojemnik na napoje",
+    "nakrycie głowy: czapka lub chusta typu buff/komin",
+    "minimum 200 ml picia na starcie i punktach"
+   ],
    "signup": {
-    "status": "unknown",
-    "limit": 50,
-    "source": "regulamin",
-    "sourceUrl": "https://biegpolesie.pl/wp-content/uploads/2024/10/IX-Bieg-Polesie-regulamin-2019.pdf",
-    "checkedAt": "2026-11-10"
+    "status": "open",
+    "source": "organizator",
+    "sourceUrl": "https://www.biegrzeznika.pl/",
+    "checkedAt": "2026-11-12"
    },
-   "regulaminUrl": "https://biegpolesie.pl/wp-content/uploads/2024/10/IX-Bieg-Polesie-regulamin-2019.pdf",
    "id": "xiii-zimowy-maraton-bieszczadzki-2027-01-23",
    "surface": "trail",
    "minKm": 10,
@@ -11301,7 +11407,7 @@
     },
     {
      "name": "regulamin",
-     "url": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-Podhalanski-Bieg-Mikolajkowy-2026.pdf"
+     "url": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-TWT-2027.pdf"
     },
     {
      "name": "kingrunner.com",
@@ -11312,23 +11418,26 @@
      "url": "https://b4sportonline.pl/turbacz_trail/"
     }
    ],
-   "regulaminUrl": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-Podhalanski-Bieg-Mikolajkowy-2026.pdf",
+   "regulaminUrl": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-TWT-2027.pdf",
    "gear": [
-    "Track lub mapa dystansu (bez Rodzinnych Mikołajek)",
-    "Folia NRC min. 150x180 (bez Rodzinnych Mikołajek)",
-    "Naładowany telefon z aplikacją RATUNEK"
+    "Własny kubek, bidon lub pojemnik na napoje",
+    "Wgrany aktualny track lub mapa trasy dystansu",
+    "Folia NRC o wymiarach min. 150x180",
+    "Naładowany, aktywny telefon z aplikacją RATUNEK",
+    "Czołówka, latarka czołowa (wszystkie dystanse oprócz Turbaczowe Love)",
+    "Szelki dogtrekkingowe i smycz do 3 m (TWT na 6 Łap)"
    ],
+   "signupOpen": true,
+   "participants": 178,
    "signup": {
-    "status": "closed",
+    "status": "open",
     "until": "2027-02-08",
-    "limit": 50,
-    "registered": 158,
+    "limit": 550,
+    "registered": 178,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/turbacz_trail/",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
-   "signupOpen": true,
-   "participants": 158,
    "id": "turbacz-winter-trail-2027-02-13",
    "surface": "trail",
    "minKm": 6,
@@ -11419,7 +11528,7 @@
     "note": "do wyczerpania limitu",
     "source": "regulamin",
     "sourceUrl": "https://gorceultratrail.pl/assets/files/GUT-2026-regulamin.pdf",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "regulaminUrl": "https://gorceultratrail.pl/assets/files/GUT-2026-regulamin.pdf",
    "gear": [
@@ -11489,7 +11598,7 @@
     "limit": 455,
     "source": "regulamin",
     "sourceUrl": "https://sisxyz.pl/wp-content/uploads/2026/07/REGULAMIN_ZADEK_v1.2027.pdf",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "id": "ultra-zadek-festiwal-biegowy-2027-03-06",
    "minKm": 30,
@@ -11557,6 +11666,54 @@
    "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
+   "name": "X-RUN - Tajemnicze Kopce",
+   "eventName": "X-RUN",
+   "dateStart": "2027-03-07",
+   "dateEnd": "2027-03-07",
+   "city": "Dobczyce",
+   "region": "Beskid Wyspowy",
+   "distancesKm": [
+    6,
+    14,
+    21,
+    32
+   ],
+   "elevations": [
+    {
+     "km": 6
+    },
+    {
+     "km": 14
+    },
+    {
+     "km": 21
+    },
+    {
+     "km": 32
+    }
+   ],
+   "vertical": false,
+   "category": "Kat.S",
+   "url": "https://xrun.pl/produkt/tajemnicze-kopce/",
+   "sources": [
+    {
+     "name": "biegigorskie.pl",
+     "url": "https://www.biegigorskie.pl/kalendarz-2027/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://xrun.pl/regulamin/"
+    }
+   ],
+   "regulaminUrl": "https://xrun.pl/regulamin/",
+   "id": "x-run-2027-03-07",
+   "surface": "trail",
+   "minKm": 6,
+   "maxKm": 32,
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+  },
+  {
    "name": "XRUN: Tajemnicze Kopce Intro Trail, Tajemnicze Kopce Classic Trail, Tajemnicze Kopce Long Trail",
    "eventName": "XRUN",
    "dateStart": "2027-03-07",
@@ -11575,7 +11732,7 @@
      "gpx": "983f76f954c1",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/03/XRUN_Tajemnicze_Kopce_-nm14_km.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true
     },
     {
@@ -11584,7 +11741,7 @@
      "gpx": "3883c7a21be6",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/03/XRUN_Tajemnicze_Kopce_n-21_km_Classic.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true
     },
     {
@@ -11593,7 +11750,7 @@
      "gpx": "a185937dd984",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/03/XRUN_Tajemnicze_Kopce_Maraton_m-32_km.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true
     }
    ],
@@ -11648,98 +11805,6 @@
    "beginnerWhy": "najkrótszy dystans 14 km (jak półmaraton w terenie, zwykle wolniej); łagodnie: ok. 24 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "X-RUN Tajemnicze Kopce",
-   "eventName": "X-RUN Tajemnicze Kopce",
-   "dateStart": "2027-03-07",
-   "dateEnd": "2027-03-07",
-   "city": "Dobczyce",
-   "region": "Beskid Wyspowy",
-   "url": "https://xrun.pl/tajemnicze-kopce-2026/",
-   "distancesKm": [
-    14,
-    21,
-    32
-   ],
-   "elevations": [
-    {
-     "km": 14,
-     "dplus": 334,
-     "dplusSource": "gpx",
-     "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/03/XRUN_Tajemnicze_Kopce_-nm14_km.gpx",
-     "dplusStale": true,
-     "gpx": "983f76f954c1",
-     "dplusCheckedAt": "2026-11-10"
-    },
-    {
-     "km": 21,
-     "dplus": 706,
-     "dplusSource": "gpx",
-     "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/03/XRUN_Tajemnicze_Kopce_n-21_km_Classic.gpx",
-     "dplusStale": true,
-     "gpx": "3883c7a21be6",
-     "dplusCheckedAt": "2026-11-10"
-    },
-    {
-     "km": 32,
-     "dplus": 1010,
-     "dplusSource": "gpx",
-     "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/03/XRUN_Tajemnicze_Kopce_Maraton_m-32_km.gpx",
-     "dplusStale": true,
-     "gpx": "a185937dd984",
-     "dplusCheckedAt": "2026-11-10"
-    }
-   ],
-   "vertical": false,
-   "surface": "trail",
-   "sources": [
-    {
-     "name": "strona organizatora (termin kolejnej edycji)",
-     "url": "https://xrun.pl/tajemnicze-kopce-2026/"
-    },
-    {
-     "name": "GPX",
-     "url": "https://xrun.pl/wp-content/uploads/2026/03/XRUN_Tajemnicze_Kopce_Maraton_m-32_km.gpx"
-    },
-    {
-     "name": "regulamin",
-     "url": "https://xrun.pl/regulamin"
-    }
-   ],
-   "provisional": "termin ze strony organizatora, dystanse z poprzedniej edycji",
-   "spark": [
-    0.52,
-    0.34,
-    0.76,
-    0.95,
-    0.83,
-    0.91,
-    0.86,
-    0.87,
-    0.58,
-    0.75,
-    0.69,
-    0.68,
-    0.65,
-    0.65,
-    0.23,
-    0.17,
-    0.44,
-    0.4,
-    0.26,
-    0.24,
-    0.04,
-    0.05,
-    0.18,
-    0.38
-   ],
-   "regulaminUrl": "https://xrun.pl/regulamin",
-   "id": "x-run-tajemnicze-kopce-2027-03-07",
-   "minKm": 14,
-   "maxKm": 32,
-   "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 14 km (jak półmaraton w terenie, zwykle wolniej); łagodnie: ok. 24 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
-  },
-  {
    "name": "Baran Trail Race Winter Edition",
    "eventName": "Baran Trail Race Winter Edition",
    "dateStart": "2027-03-13",
@@ -11759,7 +11824,7 @@
      "dplus": 557,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/fa4925849089-barantrailrace10.gpx",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 25,
@@ -11768,7 +11833,7 @@
      "gpx": "c4ef4bc38861",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/4b4aaa605098-barantrailrace25.gpx",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 60,
@@ -11776,7 +11841,7 @@
      "dplus": 2397,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/4fe4278dd59f-barantrailrace60.gpx",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 100
@@ -11841,7 +11906,7 @@
     "limit": 150,
     "source": "regulamin",
     "sourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/assets/BTR_regulamin_2027_03.pdf",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "id": "baran-trail-race-winter-edition-2027-03-13",
    "surface": "trail",
@@ -11869,7 +11934,7 @@
      "gpx": "039dff8d7c81",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/fa4925849089-barantrailrace10.gpx",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 25.1,
@@ -11877,7 +11942,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/4b4aaa605098-barantrailrace25.gpx",
      "gpx": "c4ef4bc38861",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "limitH": 5
     },
     {
@@ -11940,7 +12005,7 @@
     "limit": 150,
     "source": "regulamin",
     "sourceUrl": "http://baranrace.pl/wp-content/plugins/baran-race-cms/public/assets/BTR_regulamin_2027_03.pdf",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "id": "zimowy-baran-trail-race-btr-2027-03-13",
    "surface": "trail",
@@ -11966,7 +12031,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://malopolskabiega.com.pl/wp-content/uploads/2026/06/us_lato_15_5km.gpx",
      "gpx": "72ad52c273e3",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true
     }
    ],
@@ -11984,7 +12049,7 @@
     },
     {
      "name": "regulamin",
-     "url": "https://malopolskabiega.com.pl/regulamin-ultra/"
+     "url": "https://malopolskabiega.com.pl/regulamin-wiosenny-ultra-swir/"
     },
     {
      "name": "b4sportonline.pl",
@@ -12017,26 +12082,24 @@
     0.14,
     0.03
    ],
-   "regulaminUrl": "https://malopolskabiega.com.pl/regulamin-ultra/",
+   "regulaminUrl": "https://malopolskabiega.com.pl/regulamin-wiosenny-ultra-swir/",
+   "gear": [
+    "Włączony i naładowany telefon",
+    "Plik GPX z trasą",
+    "Folia NRC",
+    "Własny kubek"
+   ],
    "signup": {
     "status": "open",
     "until": "2027-03-15",
-    "limit": 65,
+    "limit": 400,
     "registered": 11,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/ultra_swir/",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "signupOpen": true,
    "participants": 11,
-   "gear": [
-    "Włączony i naładowany telefon",
-    "Plik GPX z trasą biegu na zegarku lub telefonie",
-    "Kurtka wiatrówka",
-    "Bandanka",
-    "Folia NRC",
-    "Swój kubek wielokrotnego użytku"
-   ],
    "id": "wiosenny-ultra-swir-2027-03-20",
    "surface": "trail",
    "minKm": 15.5,
@@ -12074,7 +12137,31 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2027/"
+    },
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/waligora-run-cross---half-wrc-28km/4512"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://pliki.stowarzyszeniewalimnazadanie.pl/download.php?id=12&view=1"
     }
+   ],
+   "signup": {
+    "status": "open",
+    "until": "2026-11-22",
+    "limit": 500,
+    "source": "regulamin",
+    "sourceUrl": "https://pliki.stowarzyszeniewalimnazadanie.pl/download.php?id=12&view=1",
+    "checkedAt": "2026-11-12"
+   },
+   "regulaminUrl": "https://pliki.stowarzyszeniewalimnazadanie.pl/download.php?id=12&view=1",
+   "gear": [
+    "Źródło światła (czołówka lub latarka)",
+    "Folia NRC",
+    "Apteczka",
+    "Sprawny i naładowany telefon z numerem organizatora",
+    "Aplikacja RATUNEK"
    ],
    "id": "wrc-2027-04-03",
    "surface": "przelaj",
@@ -12102,7 +12189,8 @@
      "dplus": 400,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://sztafetagorska.pl/trasa/1x75/",
-     "dplusCheckedAt": "2026-10-16"
+     "dplusCheckedAt": "2026-10-16",
+     "limitH": 2
     },
     {
      "km": 21,
@@ -12116,7 +12204,8 @@
      "dplus": 2000,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://sztafetagorska.pl/trasa/1x75/",
-     "dplusCheckedAt": "2026-10-16"
+     "dplusCheckedAt": "2026-10-16",
+     "limitH": 8
     },
     {
      "km": 75
@@ -12135,10 +12224,28 @@
     },
     {
      "name": "regulamin",
-     "url": "https://sztafetagorska.pl/informacje/kids-trail-regulamin/"
+     "url": "https://sztafetagorska.pl/wp-content/uploads/2026/10/KSG2027_Regulamin.docx.pdf"
     }
    ],
-   "regulaminUrl": "https://sztafetagorska.pl/informacje/kids-trail-regulamin/",
+   "regulaminUrl": "https://sztafetagorska.pl/wp-content/uploads/2026/10/KSG2027_Regulamin.docx.pdf",
+   "gear": [
+    "Dowód osobisty lub paszport (bez 10 km)",
+    "Aktywny telefon z roamingiem przez cały czas",
+    "Folia NRC (bez 10 km)",
+    "Kubek na napoje",
+    "Pojemnik na płyny min. 0,5 l (bez 10 km)",
+    "Chusta lub czapka",
+    "Czołówka (75 km, sztafeta E1 i E3)",
+    "Mapa tras (może być w telefonie lub zegarku)"
+   ],
+   "signup": {
+    "status": "open",
+    "until": "2027-04-05",
+    "limit": 250,
+    "source": "regulamin",
+    "sourceUrl": "https://sztafetagorska.pl/wp-content/uploads/2026/10/KSG2027_Regulamin.docx.pdf",
+    "checkedAt": "2026-11-12"
+   },
    "id": "kudowska-sztafeta-gorska-2027-04-10",
    "surface": "gorski",
    "minKm": 10,
@@ -12188,7 +12295,7 @@
     "registered": 0,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/swietokrzyski_poziom_gor/",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "signupOpen": true,
    "participants": 0,
@@ -12198,6 +12305,108 @@
    "maxKm": 101,
    "beginnerScore": 2,
    "beginnerWhy": "najkrótszy dystans 25 km to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+  },
+  {
+   "name": "X-RUN - Muszyna Trail",
+   "eventName": "X-RUN",
+   "dateStart": "2027-04-11",
+   "dateEnd": "2027-04-11",
+   "city": "Muszyna Zdrój",
+   "region": "Beskid Sądecki",
+   "distancesKm": [
+    6,
+    23,
+    31,
+    42
+   ],
+   "elevations": [
+    {
+     "km": 6,
+     "dplus": 340,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/10/Muszyna_Start_Trail_6_km1.gpx",
+     "gpx": "204c6e1dad86",
+     "dplusCheckedAt": "2026-11-12",
+     "dplusStale": true
+    },
+    {
+     "km": 23,
+     "dplus": 713,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/10/Muszyna_Trail_Intro_Trail1.gpx",
+     "gpx": "6966bf4cec5e",
+     "dplusCheckedAt": "2026-11-12",
+     "dplusStale": true
+    },
+    {
+     "km": 31,
+     "dplus": 1107,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/10/Muszyna_Trail_Classic_Trail1.gpx",
+     "gpx": "3c0c459462d1",
+     "dplusCheckedAt": "2026-11-12",
+     "dplusStale": true
+    },
+    {
+     "km": 42,
+     "dplus": 1559,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/10/Muszyna_Trail_Long_Trail1.gpx",
+     "gpx": "637338951662",
+     "dplusCheckedAt": "2026-11-12",
+     "dplusStale": true
+    }
+   ],
+   "vertical": false,
+   "category": "Kat.S",
+   "url": "https://xrun.pl/muszyna-trail/",
+   "sources": [
+    {
+     "name": "biegigorskie.pl",
+     "url": "https://www.biegigorskie.pl/kalendarz-2027/"
+    },
+    {
+     "name": "GPX",
+     "url": "https://xrun.pl/wp-content/uploads/2026/10/Muszyna_Trail_Long_Trail1.gpx"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://xrun.pl/regulamin"
+    }
+   ],
+   "spark": [
+    0.06,
+    0.07,
+    0.2,
+    0.37,
+    0.45,
+    0.5,
+    0.55,
+    0.62,
+    0.7,
+    0.8,
+    0.85,
+    0.96,
+    0.93,
+    0.76,
+    0.62,
+    0.45,
+    0.34,
+    0.22,
+    0.16,
+    0.11,
+    0.06,
+    0.05,
+    0,
+    0.01
+   ],
+   "regulaminUrl": "https://xrun.pl/regulamin",
+   "id": "x-run-2027-04-11",
+   "surface": "trail",
+   "minKm": 6,
+   "maxKm": 42,
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 6 km; średnio stromo: ok. 57 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Meble Wójcik ULTRA WYSOCZYZNA 2027: 6km HUK SOWY, 13km PISK LISA, 22km KWIK DZIKA, 54km WYCIE WILKA, 103km RYK JELENIA",
@@ -12290,7 +12499,7 @@
     "limit": 250,
     "source": "regulamin",
     "sourceUrl": "https://ultrawysoczyzna.pl/regulamin/",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "id": "meble-wojcik-ultra-wysoczyzna-2027-2027-04-16",
    "surface": "trail",
@@ -12335,7 +12544,7 @@
      "gpx": "07554300e9a6",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pdf.utmb.world/raw/upload/v1790863062/pieniny/GPX%20FILES/2027/wielka_prehyba_66512c814b.gpx",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 65,
@@ -12343,7 +12552,7 @@
      "gpx": "89eb580facc3",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pdf.utmb.world/raw/upload/v1790862673/pieniny/GPX%20FILES/2027/dziki_gron_6168f0ebfd.gpx",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 96,
@@ -12351,7 +12560,7 @@
      "gpx": "b9c9c9edd330",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pdf.utmb.world/raw/upload/v1790861875/pieniny/GPX%20FILES/2027/niepokorny_mnich_2693190078.gpx",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 137.1,
@@ -12359,7 +12568,7 @@
      "gpx": "ec474db1eb6c",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pdf.utmb.world/raw/upload/v1790846734/pieniny/GPX%20FILES/2027/spiski_wedrowiec_2d7dceb37b.gpx",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12"
     }
    ],
    "vertical": true,
@@ -12404,7 +12613,7 @@
     "status": "closed",
     "source": "organizator",
     "sourceUrl": "https://pieniny.utmb.world/pl",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "id": "pieniny-by-utmb-2027-04-22",
    "surface": "gorski",
@@ -12429,13 +12638,15 @@
    ],
    "elevations": [
     {
-     "km": 10
+     "km": 10,
+     "limitH": 2
     },
     {
      "km": 21
     },
     {
-     "km": 23
+     "km": 23,
+     "limitH": 6
     },
     {
      "km": 52
@@ -12450,21 +12661,15 @@
     },
     {
      "name": "regulamin",
-     "url": "http://jedlina.pro-run.pl/regulamin-zimowy-polmaraton/"
+     "url": "http://jedlina.pro-run.pl/nowyregulamin/"
     }
    ],
    "provisional": "termin ze strony organizatora, dystanse z poprzedniej edycji",
-   "regulaminUrl": "http://jedlina.pro-run.pl/regulamin-zimowy-polmaraton/",
+   "regulaminUrl": "http://jedlina.pro-run.pl/nowyregulamin/",
    "gear": [
-    "Strój sportowy"
+    "Własne oświetlenie, przy trasie przez tunel (21 km i 23,5 km)",
+    "Wgrana trasa biegu w telefonie lub GPS (51 km)"
    ],
-   "signup": {
-    "status": "unknown",
-    "limit": 300,
-    "source": "regulamin",
-    "sourceUrl": "http://jedlina.pro-run.pl/regulamin-zimowy-polmaraton/",
-    "checkedAt": "2026-11-10"
-   },
    "id": "festiwal-gorski-polmaraton-jedlina-zdroj-2027-05-09",
    "minKm": 10,
    "maxKm": 52,
@@ -12472,53 +12677,57 @@
    "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "X-RUN Wyspowy Trail",
-   "eventName": "X-RUN Wyspowy Trail",
+   "name": "X-RUN - Wyspowy Trail",
+   "eventName": "X-RUN",
    "dateStart": "2027-05-16",
    "dateEnd": "2027-05-16",
    "city": "Limanowa",
    "region": "Beskid Wyspowy",
-   "url": "https://xrun.pl/wyspowy-trail-2026/",
    "distancesKm": [
+    6,
     22,
     38,
     50
    ],
    "elevations": [
     {
+     "km": 6
+    },
+    {
      "km": 22,
      "dplus": 854,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/05/XRUN_Wyspowy_Trail.gpx",
-     "dplusStale": true,
      "gpx": "b67f35fd5bb4",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12",
+     "dplusStale": true
     },
     {
      "km": 38,
      "dplus": 1595,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/05/XRUN_Wyspowy_Trail_Classic_Trail.gpx",
-     "dplusStale": true,
      "gpx": "957b9524764f",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12",
+     "dplusStale": true
     },
     {
      "km": 50,
      "dplus": 2437,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/05/XRUN_Wyspowy_Trail_Long_Trail.gpx",
-     "dplusStale": true,
      "gpx": "2171556f7fde",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12",
+     "dplusStale": true
     }
    ],
    "vertical": false,
-   "surface": "trail",
+   "category": "Kat.S",
+   "url": "https://xrun.pl/wyspowy-trail/",
    "sources": [
     {
-     "name": "strona organizatora (termin kolejnej edycji)",
-     "url": "https://xrun.pl/wyspowy-trail-2026/"
+     "name": "biegigorskie.pl",
+     "url": "https://www.biegigorskie.pl/kalendarz-2027/"
     },
     {
      "name": "GPX",
@@ -12529,7 +12738,6 @@
      "url": "https://xrun.pl/regulamin"
     }
    ],
-   "provisional": "termin ze strony organizatora, dystanse z poprzedniej edycji",
    "spark": [
     0.59,
     0.53,
@@ -12557,11 +12765,12 @@
     0.02
    ],
    "regulaminUrl": "https://xrun.pl/regulamin",
-   "id": "x-run-wyspowy-trail-2027-05-16",
-   "minKm": 22,
+   "id": "x-run-2027-05-16",
+   "surface": "trail",
+   "minKm": 6,
    "maxKm": 50,
-   "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 22 km (jak półmaraton w terenie, zwykle wolniej); średnio stromo: ok. 39 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Ultra-Trail Małopolska",
@@ -12617,7 +12826,7 @@
     "limit": 200,
     "source": "regulamin",
     "sourceUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "id": "ultra-trail-malopolska-2027-05-21",
    "surface": "trail",
@@ -12679,7 +12888,7 @@
     "limit": 200,
     "source": "regulamin",
     "sourceUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "id": "utm-16-ultra-trail-malopolska-2027-2027-05-21",
    "surface": "przelaj",
@@ -12742,7 +12951,7 @@
     "limit": 300,
     "source": "regulamin",
     "sourceUrl": "http://www.rudawy.pl/rudawy_regulamin_layout_2026_aktualizacja_26_03/",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "id": "rudawy-wiosenny-festiwal-biegowy-2027-05-22",
    "surface": "przelaj",
@@ -12812,21 +13021,21 @@
      "dplus": 582,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://www.biegrzeznika.pl/rzeznicka-piatka/",
-     "dplusCheckedAt": "2026-10-13"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 16,
      "dplus": 492,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://www.biegrzeznika.pl/rzeznicka-piatka/",
-     "dplusCheckedAt": "2026-10-13"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 28,
      "dplus": 1060,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://www.biegrzeznika.pl/rzeznicka-piatka/",
-     "dplusCheckedAt": "2026-10-13"
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 52
@@ -12835,7 +13044,8 @@
      "km": 80
     },
     {
-     "km": 102
+     "km": 102,
+     "limitH": 22
     },
     {
      "km": 106
@@ -12858,26 +13068,32 @@
     },
     {
      "name": "regulamin",
-     "url": "https://www.biegrzeznika.pl/wp-content/uploads/2026/10/Bieszczadzki-Rajd-Pieszy-Edycja-Zimowa-2027.pdf"
+     "url": "https://www.biegrzeznika.pl/wp-content/uploads/2026/07/Regulamin-XIII-Festiwalu-Biegu-Rzeznika-2027.pdf"
     },
     {
      "name": "strona organizatora",
      "url": "https://biegrzeznika.pl/"
     }
    ],
-   "regulaminUrl": "https://www.biegrzeznika.pl/wp-content/uploads/2026/10/Bieszczadzki-Rajd-Pieszy-Edycja-Zimowa-2027.pdf",
+   "regulaminUrl": "https://www.biegrzeznika.pl/wp-content/uploads/2026/07/Regulamin-XIII-Festiwalu-Biegu-Rzeznika-2027.pdf",
    "gear": [
-    "Folia NRC o wymiarach min. 150x180",
-    "Naładowany i aktywny telefon",
-    "Kubek, bidon lub pojemnik na napoje",
-    "Nakrycie głowy (czapka, chusta buff)",
-    "Minimum 500 ml napoju"
+    "folia NRC o minimalnym rozmiarze 160x200 cm",
+    "latarka czołówka (Bieg Rzeźnika, Rzeźnik Ultra)",
+    "odzież przeciwdeszczowa (bez Dychy, Piątki i Marszu)",
+    "czapka lub chusta wielofunkcyjna",
+    "naładowany telefon z aktywnym roamingiem",
+    "bidon lub pojemnik na napoje 250 ml (Dycha, Piątka)",
+    "bidon lub pojemnik na napoje 500 ml (Rzeźniczek, Marsz)",
+    "bidon min. 1000 ml (Maraton, Bieg Rzeźnika, Ultra)",
+    "kubek",
+    "zapas jedzenia"
    ],
    "signup": {
     "status": "open",
+    "limit": 500,
     "source": "organizator",
     "sourceUrl": "https://www.biegrzeznika.pl/",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "id": "xiii-festiwal-biegu-rzeznika-2027-05-26",
    "surface": "trail",
@@ -12914,15 +13130,28 @@
     },
     {
      "name": "regulamin",
-     "url": "https://www.biegrzeznika.pl/wp-content/uploads/2026/10/Rzeznik-500-wirtualny-V-edycja-2027.pdf"
+     "url": "https://www.biegrzeznika.pl/wp-content/uploads/2026/07/Regulamin-XIII-Festiwalu-Biegu-Rzeznika-2027.pdf"
     }
    ],
-   "regulaminUrl": "https://www.biegrzeznika.pl/wp-content/uploads/2026/10/Rzeznik-500-wirtualny-V-edycja-2027.pdf",
+   "regulaminUrl": "https://www.biegrzeznika.pl/wp-content/uploads/2026/07/Regulamin-XIII-Festiwalu-Biegu-Rzeznika-2027.pdf",
+   "gear": [
+    "folia NRC o minimalnym rozmiarze 160x200 cm",
+    "latarka czołówka (Bieg Rzeźnika, Rzeźnik Ultra)",
+    "odzież przeciwdeszczowa (bez Dychy, Piątki i Marszu)",
+    "czapka lub chusta wielofunkcyjna",
+    "naładowany telefon z aktywnym roamingiem",
+    "bidon lub pojemnik na napoje 250 ml (Dycha, Piątka)",
+    "bidon lub pojemnik na napoje 500 ml (Rzeźniczek, Marsz)",
+    "bidon min. 1000 ml (Maraton, Bieg Rzeźnika, Ultra)",
+    "kubek",
+    "zapas jedzenia"
+   ],
    "signup": {
     "status": "open",
-    "source": "regulamin",
-    "sourceUrl": "https://www.biegrzeznika.pl/wp-content/uploads/2026/10/Rzeznik-500-wirtualny-V-edycja-2027.pdf",
-    "checkedAt": "2026-11-10"
+    "limit": 500,
+    "source": "organizator",
+    "sourceUrl": "https://www.biegrzeznika.pl",
+    "checkedAt": "2026-11-12"
    },
    "id": "xxiv-bieg-rzeznika-2027-05-27",
    "surface": "przelaj",
@@ -12956,15 +13185,28 @@
     },
     {
      "name": "regulamin",
-     "url": "https://www.biegrzeznika.pl/wp-content/uploads/2026/10/Rzeznik-500-wirtualny-V-edycja-2027.pdf"
+     "url": "https://www.biegrzeznika.pl/wp-content/uploads/2026/07/Regulamin-XIII-Festiwalu-Biegu-Rzeznika-2027.pdf"
     }
    ],
-   "regulaminUrl": "https://www.biegrzeznika.pl/wp-content/uploads/2026/10/Rzeznik-500-wirtualny-V-edycja-2027.pdf",
+   "regulaminUrl": "https://www.biegrzeznika.pl/wp-content/uploads/2026/07/Regulamin-XIII-Festiwalu-Biegu-Rzeznika-2027.pdf",
+   "gear": [
+    "folia NRC o minimalnym rozmiarze 160x200 cm",
+    "latarka czołówka (Bieg Rzeźnika, Rzeźnik Ultra)",
+    "odzież przeciwdeszczowa (bez Dychy, Piątki i Marszu)",
+    "czapka lub chusta wielofunkcyjna",
+    "naładowany telefon z aktywnym roamingiem",
+    "bidon lub pojemnik na napoje 250 ml (Dycha, Piątka)",
+    "bidon lub pojemnik na napoje 500 ml (Rzeźniczek, Marsz)",
+    "bidon min. 1000 ml (Maraton, Bieg Rzeźnika, Ultra)",
+    "kubek",
+    "zapas jedzenia"
+   ],
    "signup": {
     "status": "open",
-    "source": "regulamin",
-    "sourceUrl": "https://www.biegrzeznika.pl/wp-content/uploads/2026/10/Rzeznik-500-wirtualny-V-edycja-2027.pdf",
-    "checkedAt": "2026-11-10"
+    "limit": 500,
+    "source": "organizator",
+    "sourceUrl": "https://www.biegrzeznika.pl",
+    "checkedAt": "2026-11-12"
    },
    "id": "xiii-rzeznik-ultra-2027-05-28",
    "surface": "trail",
@@ -13005,15 +13247,28 @@
     },
     {
      "name": "regulamin",
-     "url": "https://www.biegrzeznika.pl/wp-content/uploads/2026/10/Rzeznik-500-wirtualny-V-edycja-2027.pdf"
+     "url": "https://www.biegrzeznika.pl/wp-content/uploads/2026/07/Regulamin-XIII-Festiwalu-Biegu-Rzeznika-2027.pdf"
     }
    ],
-   "regulaminUrl": "https://www.biegrzeznika.pl/wp-content/uploads/2026/10/Rzeznik-500-wirtualny-V-edycja-2027.pdf",
+   "regulaminUrl": "https://www.biegrzeznika.pl/wp-content/uploads/2026/07/Regulamin-XIII-Festiwalu-Biegu-Rzeznika-2027.pdf",
+   "gear": [
+    "folia NRC o minimalnym rozmiarze 160x200 cm",
+    "latarka czołówka (Bieg Rzeźnika, Rzeźnik Ultra)",
+    "odzież przeciwdeszczowa (bez Dychy, Piątki i Marszu)",
+    "czapka lub chusta wielofunkcyjna",
+    "naładowany telefon z aktywnym roamingiem",
+    "bidon lub pojemnik na napoje 250 ml (Dycha, Piątka)",
+    "bidon lub pojemnik na napoje 500 ml (Rzeźniczek, Marsz)",
+    "bidon min. 1000 ml (Maraton, Bieg Rzeźnika, Ultra)",
+    "kubek",
+    "zapas jedzenia"
+   ],
    "signup": {
     "status": "open",
-    "source": "regulamin",
-    "sourceUrl": "https://www.biegrzeznika.pl/wp-content/uploads/2026/10/Rzeznik-500-wirtualny-V-edycja-2027.pdf",
-    "checkedAt": "2026-11-10"
+    "limit": 500,
+    "source": "organizator",
+    "sourceUrl": "https://www.biegrzeznika.pl",
+    "checkedAt": "2026-11-12"
    },
    "id": "xvi-rzezniczek-2027-05-29",
    "surface": "trail",
@@ -13117,7 +13372,7 @@
     "note": "do wyczerpania limitu",
     "source": "regulamin",
     "sourceUrl": "https://b4sportonline.pl/suszecki_festiwal/regulamin",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "id": "suszecki-festiwal-biegowy-2027-06-12",
    "surface": "przelaj",
@@ -13127,38 +13382,42 @@
    "beginnerWhy": "najkrótszy dystans 1.6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "TATRA FEST RUN: 22 km, 68 km",
+   "name": "TATRA FEST RUN: 11 km, 27 km, 68 km",
    "eventName": "TATRA FEST RUN",
    "dateStart": "2027-06-12",
    "dateEnd": "2027-06-13",
-   "city": "Witów Ski",
+   "city": "Kaplica Św. Anny na Płazówce",
    "region": "",
    "distancesKm": [
-    22,
+    11,
+    27,
     68
    ],
    "elevations": [
     {
-     "km": 22
+     "km": 11
+    },
+    {
+     "km": 27
     },
     {
      "km": 68
     }
    ],
    "vertical": false,
-   "url": "https://tatrafest.org/program-festiwalu/tatra-fest-run-25km",
+   "url": "https://tatrafest.org",
    "sources": [
     {
      "name": "kingrunner.com",
-     "url": "https://www.kingrunner.com/bieg/tatra-fest-run-22km/4419"
+     "url": "https://www.kingrunner.com/bieg/tatra-fest-run-11km/4537"
     }
    ],
    "id": "tatra-fest-run-2027-06-12",
    "surface": "gorski",
-   "minKm": 22,
+   "minKm": 11,
    "maxKm": 68,
-   "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 22 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 11 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "ULTRA TURNICKI: Rybotyckie Sploty 10 km, Suchy Obycz 24 km, Połoniny Trail 48 km, Pomocna Woda 75 km",
@@ -13179,7 +13438,7 @@
      "dplus": 212,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_08b1fbd6849c4777bf5e9b94fdc66a21.gpx?dn=ULTRA%20TURNICKI%2010%20KM%202026.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true,
      "gpx": "2d07e4b56fd0"
     },
@@ -13188,7 +13447,7 @@
      "dplus": 450,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_8db1bd631c4b48108381e9287d00872a.gpx?dn=ULTRA%20TURNICKI%2024%20KM%202026.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true,
      "gpx": "255f38ef48ca"
     },
@@ -13217,7 +13476,11 @@
     },
     {
      "name": "regulamin",
-     "url": "https://www.ultraturnicki.pl/_files/ugd/883a2a_022e1d7fd8b5466e8866635383e749f7.pdf"
+     "url": "https://www.ultraturnicki.pl/_files/ugd/883a2a_d7f0d82ad31941bcbd6323cc7947f3fe.pdf"
+    },
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/ultra-turnicki-poloniny-trail-48km/4507"
     }
    ],
    "spark": [
@@ -13246,22 +13509,23 @@
     0.19,
     0
    ],
-   "regulaminUrl": "https://www.ultraturnicki.pl/_files/ugd/883a2a_022e1d7fd8b5466e8866635383e749f7.pdf",
+   "regulaminUrl": "https://www.ultraturnicki.pl/_files/ugd/883a2a_d7f0d82ad31941bcbd6323cc7947f3fe.pdf",
    "gear": [
-    "Aktywny telefon przez cały czas biegu",
-    "Dowód osobisty lub paszport",
+    "Aktywny telefon przez cały czas trwania zawodów",
+    "Kubek wielorazowy (24, 48, 75 km)",
+    "Bidon lub softflask min. 0,5 l (10, 24 km)",
+    "Bidon lub softflask min. 1 l (48, 75 km)",
     "Folia NRC",
-    "Bidon 0,5 l (15 km) lub 1 l (36 km)",
-    "Track GPX w zegarku lub telefonie",
-    "Kubek wielorazowy (36 km)"
+    "Dowód osobisty lub paszport",
+    "Track GPX w zegarku lub telefonie"
    ],
    "signup": {
     "status": "unknown",
-    "limit": 300,
+    "limit": 150,
     "note": "do wyczerpania limitu",
     "source": "regulamin",
-    "sourceUrl": "https://www.ultraturnicki.pl/_files/ugd/883a2a_022e1d7fd8b5466e8866635383e749f7.pdf",
-    "checkedAt": "2026-11-10"
+    "sourceUrl": "https://www.ultraturnicki.pl/_files/ugd/883a2a_d7f0d82ad31941bcbd6323cc7947f3fe.pdf",
+    "checkedAt": "2026-11-12"
    },
    "id": "ultra-turnicki-2027-06-19",
    "surface": "trail",
@@ -13271,13 +13535,248 @@
    "beginnerWhy": "najkrótszy dystans 10 km; łagodnie: ok. 21 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "X-RUN Mercure Szczyrk Run",
-   "eventName": "X-RUN Mercure Szczyrk Run",
+   "name": "ULTRA TURNICKI Pomocna Woda",
+   "eventName": "ULTRA TURNICKI Pomocna Woda",
+   "dateStart": "2027-06-19",
+   "dateEnd": "2027-06-19",
+   "city": "Kamienna Górka (Bircza)",
+   "region": "",
+   "distancesKm": [
+    75
+   ],
+   "elevations": [
+    {
+     "km": 75
+    }
+   ],
+   "vertical": false,
+   "url": "https://www.ultraturnicki.pl",
+   "sources": [
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/ultra-turnicki-pomocna-woda-75km/4506"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://www.ultraturnicki.pl/_files/ugd/883a2a_d7f0d82ad31941bcbd6323cc7947f3fe.pdf"
+    }
+   ],
+   "regulaminUrl": "https://www.ultraturnicki.pl/_files/ugd/883a2a_d7f0d82ad31941bcbd6323cc7947f3fe.pdf",
+   "gear": [
+    "Aktywny telefon przez cały czas trwania zawodów",
+    "Kubek wielorazowy (24, 48, 75 km)",
+    "Bidon lub softflask min. 0,5 l (10, 24 km)",
+    "Bidon lub softflask min. 1 l (48, 75 km)",
+    "Folia NRC",
+    "Dowód osobisty lub paszport",
+    "Track GPX w zegarku lub telefonie"
+   ],
+   "signup": {
+    "status": "unknown",
+    "limit": 150,
+    "note": "do wyczerpania limitu",
+    "source": "regulamin",
+    "sourceUrl": "https://www.ultraturnicki.pl/_files/ugd/883a2a_d7f0d82ad31941bcbd6323cc7947f3fe.pdf",
+    "checkedAt": "2026-11-12"
+   },
+   "id": "ultra-turnicki-pomocna-woda-2027-06-19",
+   "surface": "przelaj",
+   "minKm": 75,
+   "maxKm": 75,
+   "beginnerScore": 1,
+   "beginnerWhy": "najkrótszy dystans 75 km, dystans ultra; przewyższenie nieznane, sprawdź profil trasy."
+  },
+  {
+   "name": "ULTRA TURNICKI Suchy Obycz",
+   "eventName": "ULTRA TURNICKI Suchy Obycz",
+   "dateStart": "2027-06-19",
+   "dateEnd": "2027-06-19",
+   "city": "Przełęcz pod Suchym Obyczem",
+   "region": "",
+   "distancesKm": [
+    24
+   ],
+   "elevations": [
+    {
+     "km": 24,
+     "dplus": 450,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_8db1bd631c4b48108381e9287d00872a.gpx?dn=ULTRA%20TURNICKI%2024%20KM%202026.gpx",
+     "dplusCheckedAt": "2026-11-12",
+     "dplusStale": true,
+     "gpx": "255f38ef48ca"
+    }
+   ],
+   "vertical": false,
+   "url": "https://www.ultraturnicki.pl",
+   "sources": [
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/ultra-turnicki-suchy-obycz-24km/4508"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://www.ultraturnicki.pl/skok-na-zytne-15-km"
+    },
+    {
+     "name": "GPX",
+     "url": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_f9c51c6545aa44cc809c493c248eba7f.gpx?dn=SKOK%20NA%20%C5%BBYTNE%2015%20KM.gpx"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://www.ultraturnicki.pl/_files/ugd/883a2a_d7f0d82ad31941bcbd6323cc7947f3fe.pdf"
+    }
+   ],
+   "spark": [
+    0.85,
+    0.89,
+    0.92,
+    0.81,
+    0.62,
+    0.34,
+    0.25,
+    0.46,
+    0.69,
+    0.44,
+    0.42,
+    0.16,
+    0.06,
+    0.14,
+    0.28,
+    0.53,
+    0.54,
+    0.62,
+    0.48,
+    0.49,
+    0.39,
+    0.33,
+    0.28,
+    0
+   ],
+   "regulaminUrl": "https://www.ultraturnicki.pl/_files/ugd/883a2a_d7f0d82ad31941bcbd6323cc7947f3fe.pdf",
+   "gear": [
+    "Aktywny telefon przez cały czas trwania zawodów",
+    "Kubek wielorazowy (24, 48, 75 km)",
+    "Bidon lub softflask min. 0,5 l (10, 24 km)",
+    "Bidon lub softflask min. 1 l (48, 75 km)",
+    "Folia NRC",
+    "Dowód osobisty lub paszport",
+    "Track GPX w zegarku lub telefonie"
+   ],
+   "signup": {
+    "status": "unknown",
+    "limit": 150,
+    "note": "do wyczerpania limitu",
+    "source": "regulamin",
+    "sourceUrl": "https://www.ultraturnicki.pl/_files/ugd/883a2a_d7f0d82ad31941bcbd6323cc7947f3fe.pdf",
+    "checkedAt": "2026-11-12"
+   },
+   "id": "ultra-turnicki-suchy-obycz-2027-06-19",
+   "surface": "trail",
+   "minKm": 24,
+   "maxKm": 24,
+   "beginnerScore": 3,
+   "beginnerWhy": "najkrótszy dystans 24 km to już długo w terenie; łagodnie: ok. 19 m przewyższenia na kilometr."
+  },
+  {
+   "name": "ULTRA TURNICKI Rybotyckie Sploty",
+   "eventName": "ULTRA TURNICKI Rybotyckie Sploty",
+   "dateStart": "2027-06-19",
+   "dateEnd": "2027-06-19",
+   "city": "Posada Rybotycka",
+   "region": "",
+   "distancesKm": [
+    10
+   ],
+   "elevations": [
+    {
+     "km": 10,
+     "dplus": 212,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_08b1fbd6849c4777bf5e9b94fdc66a21.gpx?dn=ULTRA%20TURNICKI%2010%20KM%202026.gpx",
+     "dplusCheckedAt": "2026-11-12",
+     "dplusStale": true,
+     "gpx": "2d07e4b56fd0"
+    }
+   ],
+   "vertical": false,
+   "url": "https://www.ultraturnicki.pl",
+   "sources": [
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/ultra-turnicki-rybotyckie-sploty-10km/4509"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://www.ultraturnicki.pl/skok-na-zytne-15-km"
+    },
+    {
+     "name": "GPX",
+     "url": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_f9c51c6545aa44cc809c493c248eba7f.gpx?dn=SKOK%20NA%20%C5%BBYTNE%2015%20KM.gpx"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://www.ultraturnicki.pl/_files/ugd/883a2a_d7f0d82ad31941bcbd6323cc7947f3fe.pdf"
+    }
+   ],
+   "spark": [
+    0.08,
+    0.08,
+    0.23,
+    0.34,
+    0.42,
+    0.6,
+    0.76,
+    0.8,
+    0.82,
+    0.82,
+    1,
+    0.76,
+    0.73,
+    0.68,
+    0.67,
+    0.67,
+    0.6,
+    0.56,
+    0.57,
+    0.49,
+    0.43,
+    0.41,
+    0.19,
+    0
+   ],
+   "regulaminUrl": "https://www.ultraturnicki.pl/_files/ugd/883a2a_d7f0d82ad31941bcbd6323cc7947f3fe.pdf",
+   "gear": [
+    "Aktywny telefon przez cały czas trwania zawodów",
+    "Kubek wielorazowy (24, 48, 75 km)",
+    "Bidon lub softflask min. 0,5 l (10, 24 km)",
+    "Bidon lub softflask min. 1 l (48, 75 km)",
+    "Folia NRC",
+    "Dowód osobisty lub paszport",
+    "Track GPX w zegarku lub telefonie"
+   ],
+   "signup": {
+    "status": "unknown",
+    "limit": 150,
+    "note": "do wyczerpania limitu",
+    "source": "regulamin",
+    "sourceUrl": "https://www.ultraturnicki.pl/_files/ugd/883a2a_d7f0d82ad31941bcbd6323cc7947f3fe.pdf",
+    "checkedAt": "2026-11-12"
+   },
+   "id": "ultra-turnicki-rybotyckie-sploty-2027-06-19",
+   "surface": "trail",
+   "minKm": 10,
+   "maxKm": 10,
+   "beginnerScore": 5,
+   "beginnerWhy": "najkrótszy dystans 10 km; łagodnie: ok. 21 m przewyższenia na kilometr."
+  },
+  {
+   "name": "X-RUN - Mercure Szczyrk Trail",
+   "eventName": "X-RUN",
    "dateStart": "2027-06-20",
    "dateEnd": "2027-06-20",
    "city": "Szczyrk",
    "region": "Beskid Śląski",
-   "url": "https://xrun.pl/mercure-szczyrk-run-2026/",
    "distancesKm": [
     6,
     15,
@@ -13290,8 +13789,8 @@
      "dplus": 472,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/04/Szczyrk_Start.gpx",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true,
-     "dplusCheckedAt": "2026-11-10",
      "gpx": "bac215a14269"
     },
     {
@@ -13299,35 +13798,36 @@
      "dplus": 974,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/04/Copy_Szczyrk_145_km.gpx",
-     "dplusStale": true,
      "gpx": "671f7eb42fa1",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12",
+     "dplusStale": true
     },
     {
      "km": 25,
      "dplus": 1645,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/04/Marcure_Szczyrk_25_km.gpx",
-     "dplusStale": true,
      "gpx": "0f3a241b466f",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12",
+     "dplusStale": true
     },
     {
      "km": 45,
      "dplus": 2498,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/04/Copy_Szczyrk_45_km.gpx",
-     "dplusStale": true,
      "gpx": "fea6d49b61d0",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12",
+     "dplusStale": true
     }
    ],
    "vertical": false,
-   "surface": "gorski",
+   "category": "Kat.S",
+   "url": "https://xrun.pl/mercure-szczyrk-run/",
    "sources": [
     {
-     "name": "strona organizatora (termin kolejnej edycji)",
-     "url": "https://xrun.pl/mercure-szczyrk-run-2026/"
+     "name": "biegigorskie.pl",
+     "url": "https://www.biegigorskie.pl/kalendarz-2027/"
     },
     {
      "name": "trasa (organizator)",
@@ -13342,7 +13842,6 @@
      "url": "https://xrun.pl/regulamin"
     }
    ],
-   "provisional": "termin ze strony organizatora, dystanse z poprzedniej edycji",
    "spark": [
     0,
     0.04,
@@ -13370,7 +13869,8 @@
     0
    ],
    "regulaminUrl": "https://xrun.pl/regulamin",
-   "id": "x-run-mercure-szczyrk-run-2027-06-20",
+   "id": "x-run-2027-06-20",
+   "surface": "gorski",
    "minKm": 6,
    "maxKm": 45,
    "beginnerScore": 3,
@@ -13442,6 +13942,10 @@
     {
      "name": "regulamin",
      "url": "http://ultra-way.pl/letni-festiwal-biegowy-ultra-way/regulamin/"
+    },
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/gdynia-ultra-way---nadmorski-mendel-10-km/4533"
     }
    ],
    "regulaminUrl": "http://ultra-way.pl/letni-festiwal-biegowy-ultra-way/regulamin/",
@@ -13513,7 +14017,7 @@
     "registered": 0,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/ultra_swir/",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "signupOpen": true,
    "participants": 0,
@@ -13549,7 +14053,7 @@
      "dplus": 973,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://www.maratongorstolowych.pl/wp-content/uploads/2018/12/2026_SGS21KM.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true,
      "gpx": "6ceef22ead12"
     },
@@ -13608,15 +14112,15 @@
     0.98
    ],
    "signupOpen": true,
-   "participants": 81,
+   "participants": 91,
    "signup": {
     "status": "open",
     "until": "2027-06-24",
     "limit": 760,
-    "registered": 81,
+    "registered": 91,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/Supermaraton_Gor_Stolowych/",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "id": "supermaraton-gor-stolowych-light-2027-06-26",
    "surface": "trail",
@@ -13683,6 +14187,20 @@
     }
    ],
    "regulaminUrl": "https://izeryultratrail.pl/regulamin/",
+   "gear": [
+    "Aktywny telefon przez cały czas biegu",
+    "Kubek na wodę",
+    "Pojemnik na wodę, min. 1 litr (100, 70, 50 km)",
+    "Pojemnik na wodę, min. 0,5 litra (35, 25, 16 km)",
+    "Folia NRC (100, 70, 50, 35 km)",
+    "Czapka lub chusta wielofunkcyjna (100, 70, 50 km)",
+    "Gwizdek (100, 70 km)",
+    "Kurtka przeciwdeszczowa lub wiatrówka (100, 70, 50 km)",
+    "Plecak lub nerka biegowa (100, 70, 50 km)",
+    "Latarka czołowa (100 km)",
+    "Bandaż elastyczny i opatrunek jałowy (100, 70, 50, 35, 25 km)",
+    "Dowód osobisty lub paszport (100, 70, 50, 35, 25 km)"
+   ],
    "signup": {
     "status": "open",
     "until": "2027-06-24",
@@ -13691,23 +14209,10 @@
     "note": "do wyczerpania limitu",
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/izery_ultratrail/",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "signupOpen": true,
    "participants": 0,
-   "gear": [
-    "Aktywny telefon",
-    "Kubek na wodę",
-    "Folia NRC (100, 70, 50, 35 km)",
-    "Czapka lub chusta wielofunkcyjna (100, 70, 50 km)",
-    "Gwizdek (100, 70 km)",
-    "Kurtka przeciwdeszczowa lub wiatrówka (100, 70, 50 km)",
-    "Plecak lub nerka biegowa (100, 70, 50 km)",
-    "Pojemnik na wodę minimum 1 litra (100, 70, 50 km)",
-    "Pojemnik na wodę minimum 0,5 litra (35, 25, 16 km)",
-    "Bandaż elastyczny i opatrunek jałowy (100, 70, 50, 35, 25 km)",
-    "Latarka czołowa (100 km)"
-   ],
    "id": "izery-trail-2027-06-26",
    "surface": "przelaj",
    "minKm": 10,
@@ -13846,6 +14351,15 @@
     }
    ],
    "regulaminUrl": "https://3razysniezka.pl/regulamin/",
+   "gear": [
+    "Naładowany telefon",
+    "Dokument tożsamości",
+    "Pojemnik na wodę min. 500 ml",
+    "Kubek wielorazowy",
+    "Mapa trasy",
+    "Nakrycie głowy",
+    "Obuwie trailowe"
+   ],
    "id": "3-x-sniezka-2027-07-09",
    "surface": "gorski",
    "minKm": 18,
@@ -13854,118 +14368,11 @@
    "beginnerWhy": "najkrótszy dystans 18 km (jak półmaraton w terenie, zwykle wolniej); stromo: ok. 61 m przewyższenia na kilometr, dużo marszu pod górę; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Dolnośląski Festiwal Biegów Górskich DFBG: TROJAK TRAIL, NOCNY TRAIL, ZŁOTY PÓŁMARATON, Golden Mountains Trail, ZŁOTY MARATON, Ultra Trail 70, KBL, Super Trail, Sto Mil Trail, Bieg 7 Szczytów",
+   "name": "Dolnośląski Festiwal Biegów Górskich: Bieg K-B-L – 110 km, Bieg Sto Mil Trail - 170 km, Bieg Ultra Trail - 68 km, Golden Mountains Trail GTS, Bieg Trojak Trail - 10 km, Złoty Maraton – 45 km, Złoty Półmaraton - 21 km, Nocny Trail - 15 km, Bieg 7 szczytów - 240 km, Bieg Super Trail - 130 km, Kids Trail",
    "eventName": "Dolnośląski Festiwal Biegów Górskich DFBG",
    "dateStart": "2027-07-15",
    "dateEnd": "2027-07-18",
    "city": "Lądek-Zdrój",
-   "region": "",
-   "distancesKm": [
-    10,
-    15,
-    21,
-    33,
-    44.6,
-    70,
-    110,
-    130,
-    170,
-    240
-   ],
-   "elevations": [
-    {
-     "km": 10,
-     "dplus": 410,
-     "gpx": "49faa42b9945",
-     "dplusSource": "gpx",
-     "dplusSourceUrl": "http://dfbg.pl/images/trasy/pliki/10KM-DFBG2026.gpx",
-     "dplusCheckedAt": "2026-11-10",
-     "dplusStale": true
-    },
-    {
-     "km": 15
-    },
-    {
-     "km": 21
-    },
-    {
-     "km": 33
-    },
-    {
-     "km": 44.6
-    },
-    {
-     "km": 70
-    },
-    {
-     "km": 110
-    },
-    {
-     "km": 130
-    },
-    {
-     "km": 170
-    },
-    {
-     "km": 240
-    }
-   ],
-   "vertical": false,
-   "url": "http://dfbg.pl/trasy-biegow/trojak-trail-10",
-   "sources": [
-    {
-     "name": "kingrunner.com",
-     "url": "https://www.kingrunner.com/bieg/dolnoslaski-festiwal-biegow-gorskich-dfbg---trojak-trail/4485"
-    },
-    {
-     "name": "GPX",
-     "url": "http://dfbg.pl/images/trasy/pliki/10KM-DFBG2026.gpx"
-    },
-    {
-     "name": "regulamin",
-     "url": "https://sztafetagorska.pl/informacje/kids-trail-regulamin/"
-    }
-   ],
-   "spark": [
-    0.01,
-    0.15,
-    0.14,
-    0.26,
-    0.4,
-    0.57,
-    0.68,
-    0.75,
-    0.77,
-    0.87,
-    0.99,
-    0.94,
-    0.8,
-    0.8,
-    0.78,
-    0.76,
-    0.86,
-    0.91,
-    0.77,
-    0.65,
-    0.51,
-    0.29,
-    0.08,
-    0
-   ],
-   "regulaminUrl": "https://sztafetagorska.pl/informacje/kids-trail-regulamin/",
-   "id": "dolnoslaski-festiwal-biegow-gorskich-dfbg-2027-07-15",
-   "surface": "gorski",
-   "minKm": 10,
-   "maxKm": 240,
-   "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 10 km; średnio stromo: ok. 41 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
-  },
-  {
-   "name": "DFBG: Bieg K-B-L – 110 km, Bieg Sto Mil Trail - 170 km, Bieg Ultra Trail - 68 km, Golden Mountains Trail GTS, Bieg Trojak Trail - 10 km, Złoty Maraton – 45 km, Złoty Półmaraton - 21 km, Nocny Trail - 15 km, Bieg 7 szczytów - 240 km, Bieg Super Trail - 130 km, Kids Trail",
-   "eventName": "DFBG",
-   "dateStart": "2027-07-15",
-   "dateEnd": "2027-07-18",
-   "city": "Kudowa-Zdrój",
    "region": "",
    "distancesKm": [
     10,
@@ -13982,7 +14389,11 @@
    ],
    "elevations": [
     {
-     "km": 10
+     "km": 10,
+     "dplus": 410,
+     "gpx": "49faa42b9945",
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "http://dfbg.pl/images/trasy/pliki/10KM-DFBG2026.gpx"
     },
     {
      "km": 15
@@ -14016,30 +14427,81 @@
     }
    ],
    "vertical": false,
-   "url": "https://b4sportonline.pl/dolnoslaski_festiwal_biegow_gorskich/",
+   "url": "http://dfbg.pl/trasy-biegow/trojak-trail-10",
    "sources": [
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/dolnoslaski-festiwal-biegow-gorskich-dfbg---trojak-trail/4485"
+    },
+    {
+     "name": "GPX",
+     "url": "http://dfbg.pl/images/trasy/pliki/10KM-DFBG2026.gpx"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://dfbg.pl/images/docs/Regulamin%2015-%20DFBG.pdf"
+    },
     {
      "name": "b4sportonline.pl",
      "url": "https://b4sportonline.pl/dolnoslaski_festiwal_biegow_gorskich/"
     }
    ],
+   "spark": [
+    0.01,
+    0.15,
+    0.14,
+    0.26,
+    0.4,
+    0.57,
+    0.68,
+    0.75,
+    0.77,
+    0.87,
+    0.99,
+    0.94,
+    0.8,
+    0.8,
+    0.78,
+    0.76,
+    0.86,
+    0.91,
+    0.77,
+    0.65,
+    0.51,
+    0.29,
+    0.08,
+    0
+   ],
+   "regulaminUrl": "https://dfbg.pl/images/docs/Regulamin%2015-%20DFBG.pdf",
+   "gear": [
+    "Dowód osobisty lub paszport (15-240 km)",
+    "Aktywny, naładowany telefon przez cały bieg",
+    "Folia NRC (15-240 km)",
+    "Kubek na napoje lub bidon, nie jednorazowy",
+    "Pojemnik na wodę minimum 1 litr (70-240 km)",
+    "Kurtka wiatro- i wodoodporna z długim rękawem (70-240 km)",
+    "Czapka lub chusta wielofunkcyjna (70-240 km)",
+    "Latarka (110-240 km, 15 km, 33 km po zmroku)",
+    "Zestaw medyczny: bandaż, plaster, gaza (70-240 km)",
+    "Mapa tras, może być w telefonie (70-240 km)"
+   ],
    "signup": {
-    "status": "open",
+    "status": "closed",
     "until": "2027-07-13",
-    "limit": 6100,
-    "registered": 0,
+    "limit": 350,
+    "registered": 800,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/dolnoslaski_festiwal_biegow_gorskich/",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "signupOpen": true,
-   "participants": 0,
-   "id": "dfbg-2027-07-15",
-   "surface": "przelaj",
+   "participants": 800,
+   "id": "dolnoslaski-festiwal-biegow-gorskich-dfbg-2027-07-15",
+   "surface": "gorski",
    "minKm": 10,
    "maxKm": 500,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+   "beginnerWhy": "najkrótszy dystans 10 km; średnio stromo: ok. 41 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Tatra SkyMarathon: Tatra Trail, Tatra Half, 45 km",
@@ -14066,7 +14528,7 @@
      "gpx": "082f497f0bb4",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://tatraskymarathon.pl/wp-content/uploads/2026/05/Tatra_SkyMarathon_2025.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true
     }
    ],
@@ -14117,13 +14579,32 @@
     0
    ],
    "regulaminUrl": "https://tatraskymarathon.pl/regulamin/",
+   "gear": [
+    "Plecak lub nerka biegowa na cały sprzęt (22, 40, 45, 80, 120 km)",
+    "Płyny na starcie min. 0,25 l (22 km)",
+    "Płyny na starcie min. 0,5 l (45 km)",
+    "Płyny na starcie min. 1 l (40, 80, 120 km)",
+    "Folia NRC min. 140 x 200 cm (22, 40, 45, 80, 120 km)",
+    "Naładowany telefon z roamingiem i aplikacjami (22, 40, 45, 80, 120 km)",
+    "Kurtka przeciwwiatrowa (22 km)",
+    "Kurtka przeciwdeszczowa z kapturem (40, 45, 80, 120 km)",
+    "Gotówka min. 50 zł i 20 euro (22, 40, 45, 80, 120 km)",
+    "Gwizdek (22, 40, 45, 80, 120 km)",
+    "Bandaż elastyczny min. 100 x 6 cm (22, 40, 45, 80, 120 km)",
+    "Kubek lub flask (22, 40, 45, 80, 120 km)",
+    "Ważny dowód osobisty lub paszport (22, 40, 45, 80, 120 km)",
+    "Potwierdzenie opłaconej polisy NNW (5, 10, 22, 40, 45, 80, 120 km)",
+    "Spodnie wodoodporne zakrywające całe nogi (80, 120 km)",
+    "Bielizna termoaktywna z długim rękawem (80, 120 km)",
+    "Dwie działające lampy czołówki z zapasem baterii (120 km)"
+   ],
    "signup": {
     "status": "open",
     "until": "2027-07-22",
     "limit": 350,
     "source": "regulamin",
     "sourceUrl": "https://tatraskymarathon.pl/regulamin/",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "id": "tatra-skymarathon-2027-07-24",
    "surface": "gorski",
@@ -14133,53 +14614,57 @@
    "beginnerWhy": "najkrótszy dystans 9.5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "X-RUN Ucieczka św.Kingi",
-   "eventName": "X-RUN Ucieczka św.Kingi",
+   "name": "X-RUN - Ucieczka św.Kingi",
+   "eventName": "X-RUN",
    "dateStart": "2027-07-25",
    "dateEnd": "2027-07-25",
    "city": "Krościenko Nad Dunajcem",
    "region": "Beskid Wyspowy",
-   "url": "https://xrun.pl/ucieczka-sw-kingi-2026/",
    "distancesKm": [
+    7,
     14,
-    26,
+    21,
     40
    ],
    "elevations": [
+    {
+     "km": 7,
+     "dplus": 316,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/06/Ucieczka_Sw_Kingi_7km_Start_ver_2.gpx",
+     "gpx": "55b3d698574a",
+     "dplusCheckedAt": "2026-11-12",
+     "dplusStale": true
+    },
     {
      "km": 14,
      "dplus": 576,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/07/XRUN_Ucieczka_Sw_Kingi_14_km_Intro.gpx",
-     "dplusStale": true,
      "gpx": "7b22907f05f3",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12",
+     "dplusStale": true
     },
     {
-     "km": 26,
-     "dplus": 1511,
-     "dplusSource": "gpx",
-     "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/07/Ucieczka_Sw_Kingi_Classic_28_k_m.gpx",
-     "dplusStale": true,
-     "gpx": "ef8127ac78f9",
-     "dplusCheckedAt": "2026-11-10"
+     "km": 21
     },
     {
      "km": 40,
      "dplus": 1801,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/07/Ucieczka_Sw_Kingi_40_km_Maraton.gpx",
-     "dplusStale": true,
      "gpx": "bd76078bacd8",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12",
+     "dplusStale": true
     }
    ],
    "vertical": false,
-   "surface": "trail",
+   "category": "Kat.S",
+   "url": "https://xrun.pl/ucieczka-sw-kingi/",
    "sources": [
     {
-     "name": "strona organizatora (termin kolejnej edycji)",
-     "url": "https://xrun.pl/ucieczka-sw-kingi-2026/"
+     "name": "biegigorskie.pl",
+     "url": "https://www.biegigorskie.pl/kalendarz-2027/"
     },
     {
      "name": "GPX",
@@ -14190,39 +14675,39 @@
      "url": "https://xrun.pl/regulamin"
     }
    ],
-   "provisional": "termin ze strony organizatora, dystanse z poprzedniej edycji",
    "spark": [
-    0.02,
-    0.02,
-    0.01,
-    0.03,
-    0.36,
-    0.54,
-    0.64,
-    0.71,
-    0.74,
-    0.83,
-    0.98,
-    0.89,
-    0.82,
-    0.62,
-    0.59,
-    0.5,
-    0.45,
-    0.36,
-    0.25,
-    0.17,
-    0.05,
-    0.05,
     0.04,
-    0.05
+    0.03,
+    0.02,
+    0.02,
+    0.03,
+    0.02,
+    0.07,
+    0.05,
+    0.2,
+    0.48,
+    0.63,
+    0.8,
+    0.85,
+    0.99,
+    0.86,
+    0.59,
+    0.52,
+    0.44,
+    0.22,
+    0.15,
+    0.07,
+    0.03,
+    0.05,
+    0.07
    ],
    "regulaminUrl": "https://xrun.pl/regulamin",
-   "id": "x-run-ucieczka-sw-kingi-2027-07-25",
-   "minKm": 14,
+   "id": "x-run-2027-07-25",
+   "surface": "trail",
+   "minKm": 7,
    "maxKm": 40,
-   "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 14 km (jak półmaraton w terenie, zwykle wolniej); średnio stromo: ok. 41 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 7 km; średnio stromo: ok. 45 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Gorce Ultra-Trail®: GUT5, GUT37, GUT52, GUT66, GUT102",
@@ -14288,21 +14773,21 @@
     }
    ],
    "regulaminUrl": "https://gorceultratrail.pl/assets/files/GUT-2026-regulamin.pdf",
+   "gear": [
+    "Własny kubek wielokrotnego użytku",
+    "Bukłak lub butelka na płyny",
+    "Włączony, naładowany telefon komórkowy z numerem alarmowym",
+    "Ślad GPX na zegarku lub telefonie (GUT 102, GUT 66)"
+   ],
    "signup": {
     "status": "unknown",
     "limit": 102,
     "note": "do wyczerpania limitu",
     "source": "regulamin",
     "sourceUrl": "https://gorceultratrail.pl/assets/files/GUT-2026-regulamin.pdf",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "surface": "gorski",
-   "gear": [
-    "Telefon komórkowy włączony, sprawny i naładowany",
-    "Kubek wielokrotnego użytku",
-    "Butelka (bukłak) do uzupełniania zapasu",
-    "Ślad GPX (GUT 102, GUT 66)"
-   ],
    "id": "gorce-ultra-trail-2027-07-30",
    "minKm": 5,
    "maxKm": 100,
@@ -14341,13 +14826,19 @@
     }
    ],
    "regulaminUrl": "https://gorceultratrail.pl/assets/files/GUT-2026-regulamin.pdf",
+   "gear": [
+    "Własny kubek wielokrotnego użytku",
+    "Bukłak lub butelka na płyny",
+    "Włączony, naładowany telefon komórkowy z numerem alarmowym",
+    "Ślad GPX na zegarku lub telefonie (GUT 102, GUT 66)"
+   ],
    "signup": {
     "status": "unknown",
     "limit": 102,
     "note": "do wyczerpania limitu",
     "source": "regulamin",
     "sourceUrl": "https://gorceultratrail.pl/assets/files/GUT-2026-regulamin.pdf",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "id": "gorce-ultra-trail-2027-08-01",
    "surface": "przelaj",
@@ -14357,7 +14848,7 @@
    "beginnerWhy": "najkrótszy dystans 12.54 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
   {
-   "name": "Chudy Wawrzyniec 50+: 2.9 km, 2.9 km, 2.9 km, 20.7 km, 51.21 km, 59.1 km, 82.5 km",
+   "name": "Chudy Wawrzyniec 50+: 2.9 km, 20.7 km, 51.21 km, 59.1 km, 82.5 km",
    "eventName": "Chudy Wawrzyniec 50+",
    "dateStart": "2027-08-07",
    "dateEnd": "2027-08-08",
@@ -14388,7 +14879,7 @@
      "dplus": 2666,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://krokdonatury.org/Chudy_Wawrzyniec_50km_2024.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true,
      "gpx": "cadaed53af93"
     },
@@ -14401,7 +14892,7 @@
      "gpx": "8d0eb26ef86b",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://krokdonatury.org/Chudy_Wawrzyniec_80km_2024.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true
     }
    ],
@@ -14452,6 +14943,17 @@
     0.09
    ],
    "regulaminUrl": "https://chudywawrzyniec.pl/regulamin-biegow-gorskich-chudy-wawrzyniec-2026/",
+   "gear": [
+    "pojemnik min. 1 l (dystanse 52-102 km)",
+    "pojemnik min. 0,5 l (dystans 20 km)",
+    "kubek wielorazowy, jeśli brak bidonów",
+    "działający telefon z naładowaną baterią",
+    "dowód osobisty lub paszport",
+    "folia NRC",
+    "mapa trasy lub track GPS w zegarku/telefonie",
+    "kurtka przeciwdeszczowa (przy trudnej pogodzie)",
+    "jasne pełne nakrycie głowy (trudna pogoda)"
+   ],
    "id": "chudy-wawrzyniec-50-2027-08-07",
    "surface": "trail",
    "minKm": 2.9,
@@ -14511,7 +15013,7 @@
    "beginnerWhy": "najkrótszy dystans 4.4 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "BIEG ULTRA GRANIĄ TATR: 71 km, 71 km, 71 km",
+   "name": "BIEG ULTRA GRANIĄ TATR",
    "eventName": "BIEG ULTRA GRANIĄ TATR",
    "dateStart": "2027-08-21",
    "dateEnd": "2027-08-21",
@@ -14526,7 +15028,7 @@
      "dplus": 4746,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://www.graniatatr.pl/images/BUGT2024-pop.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true,
      "gpx": "d235edb2f521"
     }
@@ -14548,7 +15050,7 @@
     },
     {
      "name": "regulamin",
-     "url": "http://www.graniatatr.pl/images/biegi_dla_dzieci_regulamin_2025.pdf"
+     "url": "https://www.graniatatr.pl/regulamin.html"
     }
    ],
    "spark": [
@@ -14577,13 +15079,28 @@
     0.25,
     0.08
    ],
-   "regulaminUrl": "http://www.graniatatr.pl/images/biegi_dla_dzieci_regulamin_2025.pdf",
+   "regulaminUrl": "https://www.graniatatr.pl/regulamin.html",
+   "gear": [
+    "Plecak lub nerka biegowa mieszcząca cały sprzęt obowiązkowy",
+    "Pojemnik na wodę o pojemności min. 1 litra",
+    "Latarka czołowa z dobrymi bateriami",
+    "Włączony i naładowany telefon komórkowy z roamingiem",
+    "Dowód osobisty lub ważny paszport",
+    "Folia NRC o wymiarach min. 140 x 200 cm",
+    "Czapka lub chusta wielofunkcyjna",
+    "Rękawiczki z zakrytymi palcami",
+    "Kurtka wiatroodporna z długim rękawem",
+    "Gotówka w wysokości 30 zł",
+    "Bandaż elastyczny i opatrunek jałowy",
+    "Mapa trasy: telefon, PDF, wydruk lub track GPX",
+    "Aplikacja GPS dostarczona przez organizatora"
+   ],
    "signup": {
     "status": "unknown",
-    "limit": 100,
+    "limit": 350,
     "source": "regulamin",
-    "sourceUrl": "http://www.graniatatr.pl/images/biegi_dla_dzieci_regulamin_2025.pdf",
-    "checkedAt": "2026-11-10"
+    "sourceUrl": "https://www.graniatatr.pl/regulamin.html",
+    "checkedAt": "2026-11-12"
    },
    "id": "bieg-ultra-grania-tatr-2027-08-21",
    "surface": "gorski",
@@ -14591,6 +15108,133 @@
    "maxKm": 71,
    "beginnerScore": 1,
    "beginnerWhy": "najkrótszy dystans 71 km, dystans ultra; stromo: ok. 67 m przewyższenia na kilometr, dużo marszu pod górę."
+  },
+  {
+   "name": "Chojnik Karkonoski Festiwal Biegowy: CZTERNASTKA NA ZAMEK, PÓŁMARATON Z GÓRKĄ, CHOJNIK MARATON, SIEDEMDZIESIĄT Z HAKIEM, ULTRA CHOJNIK",
+   "eventName": "Chojnik Karkonoski Festiwal Biegowy",
+   "dateStart": "2027-09-04",
+   "dateEnd": "2027-09-04",
+   "city": "Bronisława Czecha",
+   "region": "",
+   "distancesKm": [
+    14,
+    29,
+    42,
+    71.5,
+    101.5
+   ],
+   "elevations": [
+    {
+     "km": 14
+    },
+    {
+     "km": 29,
+     "dplus": 1480,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://chojnikmaraton.pl/wp-content/uploads/2026/08/PO%CC%81%C5%81MARATON_Z_GO%CC%81RKA%CC%A8_2026.gpx",
+     "dplusCheckedAt": "2026-11-12",
+     "dplusStale": true,
+     "gpx": "a66ef4175b3e"
+    },
+    {
+     "km": 42,
+     "dplus": 2263,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://chojnikmaraton.pl/wp-content/uploads/2026/08/CHOJNIK_MARATON_2026.gpx",
+     "dplusCheckedAt": "2026-11-12",
+     "dplusStale": true,
+     "gpx": "c5f21ccf8217"
+    },
+    {
+     "km": 71.5,
+     "dplus": 3489,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://chojnikmaraton.pl/wp-content/uploads/2026/08/70_Z_HAKIEM_2026.gpx",
+     "dplusCheckedAt": "2026-11-12",
+     "dplusStale": true,
+     "gpx": "9f6d5b2184e7"
+    },
+    {
+     "km": 101.5,
+     "dplus": 4928,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://chojnikmaraton.pl/wp-content/uploads/2026/08/ULTRA_CHOJNIK_2026.gpx",
+     "dplusCheckedAt": "2026-11-12",
+     "dplusStale": true,
+     "gpx": "f7fd0ce98d41"
+    }
+   ],
+   "vertical": false,
+   "url": "http://chojnikmaraton.pl",
+   "sources": [
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/chojnik-karkonoski-festiwal-biegowy---czternastka-na-zamek/4517"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://chojnikmaraton.pl/ultra-chojnik/"
+    },
+    {
+     "name": "GPX",
+     "url": "https://chojnikmaraton.pl/wp-content/uploads/2026/08/ULTRA_CHOJNIK_2026.gpx"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://chojnikmaraton.pl/wp-content/uploads/2026/04/CHOJNIK_regulamin_layout_2026_v2-1.pdf"
+    }
+   ],
+   "spark": [
+    0,
+    0.1,
+    0.2,
+    0.19,
+    0.22,
+    0.22,
+    0.28,
+    0.25,
+    0.37,
+    0.53,
+    0.88,
+    0.97,
+    0.89,
+    0.68,
+    0.54,
+    0.37,
+    0.27,
+    0.25,
+    0.27,
+    0.22,
+    0.19,
+    0.21,
+    0.23,
+    0
+   ],
+   "regulaminUrl": "https://chojnikmaraton.pl/wp-content/uploads/2026/04/CHOJNIK_regulamin_layout_2026_v2-1.pdf",
+   "gear": [
+    "Dowód osobisty lub ważny paszport",
+    "Naładowany telefon komórkowy z numerami alarmowymi i organizatora",
+    "Telefon z aktywnym roamingiem (72 km, 102 km)",
+    "Naczynie umożliwiające picie (kubek, bidon, camelbak)",
+    "Folia NRC",
+    "Minimum 0,5 l wody lub izotonika (8 km, 42 km, 72 km, 102 km)",
+    "Latarka czołowa (72 km, 102 km)",
+    "Przeciwdeszczowa odzież z długim rękawem (72 km, 102 km)",
+    "Mapa trasy dostarczona przez organizatora (8 km, 72 km, 102 km)"
+   ],
+   "signup": {
+    "status": "unknown",
+    "limit": 250,
+    "source": "regulamin",
+    "sourceUrl": "https://chojnikmaraton.pl/wp-content/uploads/2026/04/CHOJNIK_regulamin_layout_2026_v2-1.pdf",
+    "checkedAt": "2026-11-12"
+   },
+   "id": "chojnik-karkonoski-festiwal-biegowy-2027-09-04",
+   "surface": "trail",
+   "minKm": 14,
+   "maxKm": 101.5,
+   "beginnerScore": 3,
+   "beginnerWhy": "najkrótszy dystans 14 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Run & Bike Orlich Gniazd",
@@ -14667,7 +15311,7 @@
     "limit": 160,
     "source": "regulamin",
     "sourceUrl": "https://orlegniazda.com/regulamin/",
-    "checkedAt": "2026-11-10"
+    "checkedAt": "2026-11-12"
    },
    "id": "run-bike-orlich-gniazd-2027-09-10",
    "surface": "trail",
@@ -14677,18 +15321,81 @@
    "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "X-RUN Vistula Trail",
-   "eventName": "X-RUN Vistula Trail",
+   "name": "Maraton Trzech Jezior: Czupel Vertical 600, Szlakiem Wołoskich Pasterzy, Rollercoaster 21, 43 km",
+   "eventName": "Maraton Trzech Jezior",
+   "dateStart": "2027-09-10",
+   "dateEnd": "2027-09-12",
+   "city": "Międzybrodzie Bialskie",
+   "region": "",
+   "distancesKm": [
+    3.5,
+    17,
+    25,
+    43
+   ],
+   "elevations": [
+    {
+     "km": 3.5,
+     "dplus": 600,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://www.maraton3jezior.com"
+    },
+    {
+     "km": 17
+    },
+    {
+     "km": 25
+    },
+    {
+     "km": 43,
+     "dplus": 2492,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://www.maraton3jezior.com/trasa-maratonu-trzech-jezior/",
+     "dplusCheckedAt": "2026-11-12",
+     "dplusStale": true,
+     "limitH": 10
+    }
+   ],
+   "vertical": true,
+   "url": "https://www.maraton3jezior.com",
+   "sources": [
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/maraton-trzech-jezior---czupel-vertical-600/4518"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://www.maraton3jezior.com"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://www.maraton3jezior.com/trasa-maratonu-trzech-jezior/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://www.maraton3jezior.com/regulamin/"
+    }
+   ],
+   "regulaminUrl": "https://www.maraton3jezior.com/regulamin/",
+   "id": "maraton-trzech-jezior-2027-09-10",
+   "surface": "gorski",
+   "minKm": 3.5,
+   "maxKm": 43,
+   "beginnerScore": 3,
+   "beginnerWhy": "pomijamy vertical 3.5 km (sam podbieg), liczymy od 17 km; najkrótszy dystans 17 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+  },
+  {
+   "name": "X-RUN - Vistula Trail",
+   "eventName": "X-RUN",
    "dateStart": "2027-09-12",
    "dateEnd": "2027-09-12",
    "city": "Wisła",
    "region": "Beskid Śląski",
-   "url": "https://xrun.pl/vistula-trail-2026/",
    "distancesKm": [
     6,
-    15,
-    24,
-    35
+    16,
+    26,
+    40
    ],
    "elevations": [
     {
@@ -14696,38 +15403,45 @@
      "dplus": 264,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/XRUN_Vistula_Trail_Start_new.gpx",
-     "dplusStale": true,
      "gpx": "05ce0e4a8b75",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12",
+     "dplusStale": true
     },
     {
-     "km": 15,
+     "km": 16,
      "dplus": 1037,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/XRUN_Vistula_Trail_Intro_new.gpx",
-     "dplusStale": true,
      "gpx": "401b9a5f7eee",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12",
+     "dplusStale": true
     },
     {
-     "km": 24,
+     "km": 26,
      "dplus": 1401,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/XRUN_Vistula_Trail_Classic_new.gpx",
-     "dplusStale": true,
      "gpx": "e17960118e9a",
-     "dplusCheckedAt": "2026-11-10"
+     "dplusCheckedAt": "2026-11-12",
+     "dplusStale": true
     },
     {
-     "km": 35
+     "km": 40,
+     "dplus": 1736,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/XRUN_Vistula_Trail_Long_Trail_new.gpx",
+     "gpx": "b7edae8e3579",
+     "dplusCheckedAt": "2026-11-12",
+     "dplusStale": true
     }
    ],
    "vertical": false,
-   "surface": "gorski",
+   "category": "Kat.S",
+   "url": "https://xrun.pl/vistula-trail/",
    "sources": [
     {
-     "name": "strona organizatora (termin kolejnej edycji)",
-     "url": "https://xrun.pl/vistula-trail-2026/"
+     "name": "biegigorskie.pl",
+     "url": "https://www.biegigorskie.pl/kalendarz-2027/"
     },
     {
      "name": "GPX",
@@ -14738,7 +15452,6 @@
      "url": "https://xrun.pl/regulamin"
     }
    ],
-   "provisional": "termin ze strony organizatora, dystanse z poprzedniej edycji",
    "spark": [
     0.1,
     0.04,
@@ -14766,9 +15479,10 @@
     0.1
    ],
    "regulaminUrl": "https://xrun.pl/regulamin",
-   "id": "x-run-vistula-trail-2027-09-12",
+   "id": "x-run-2027-09-12",
+   "surface": "gorski",
    "minKm": 6,
-   "maxKm": 35,
+   "maxKm": 40,
    "beginnerScore": 4,
    "beginnerWhy": "najkrótszy dystans 6 km; średnio stromo: ok. 44 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
@@ -14803,7 +15517,7 @@
      "dplus": 393,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j21h.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true,
      "gpx": "cdec575b3f4f"
     },
@@ -14812,7 +15526,7 @@
      "dplus": 586,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j42h.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true,
      "gpx": "dc7a5c91fcdd"
     },
@@ -14821,7 +15535,7 @@
      "dplus": 1094,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j80h.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true,
      "gpx": "695f72b9675c"
     },
@@ -14830,7 +15544,7 @@
      "dplus": 1450,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j100h.gpx",
-     "dplusCheckedAt": "2026-11-10",
+     "dplusCheckedAt": "2026-11-12",
      "dplusStale": true,
      "gpx": "175b992a02fa"
     }
@@ -14890,7 +15604,7 @@
    "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Bison Trail: 10 km, 10 km, 10 km, 18 km, 18 km, 18 km, 32 km, 32 km, 32 km, 52 km, 52 km, 52 km, 72 km, 72 km, 72 km, 106 km, 106 km, 106 km",
+   "name": "Bison Trail: 10 km, 18 km, 32 km, 52 km, 72 km, 106 km",
    "eventName": "Bison Trail",
    "dateStart": "2027-10-02",
    "dateEnd": "2027-10-02",
@@ -14918,10 +15632,12 @@
      "km": 52
     },
     {
-     "km": 72
+     "km": 72,
+     "limitH": 11
     },
     {
-     "km": 106
+     "km": 106,
+     "limitH": 16
     }
    ],
    "vertical": false,
@@ -14933,15 +15649,31 @@
     },
     {
      "name": "regulamin",
-     "url": "https://www.kingrunner.com/artykul/regulamin---korona-polskich-ultramaratonow-30/1109"
+     "url": "https://bisonultratrail.pl/regulamin/"
     }
    ],
-   "regulaminUrl": "https://www.kingrunner.com/artykul/regulamin---korona-polskich-ultramaratonow-30/1109",
+   "regulaminUrl": "https://bisonultratrail.pl/regulamin/",
+   "gear": [
+    "Aktywny telefon przez cały czas biegu (30-100 km)",
+    "Kubek na wodę wielorazowy (100, 70, 50 km)",
+    "Bidon lub softflask, min 1 litr (100, 70, 50 km)",
+    "Kubek na wodę lub bidon min 0,5 litra (30 km)",
+    "Folia NRC (30-100 km)",
+    "Czapka lub chusta wielofunkcyjna (100, 70, 50 km)",
+    "Gwizdek (100, 70 km)",
+    "Kurtka przeciwdeszczowa lub wiatrówka (30-100 km)",
+    "Plecak lub nerka biegowa (100, 70, 50 km)",
+    "Bandaż elastyczny i opatrunek jałowy (30-100 km)",
+    "Latarka czołowa (100 km)",
+    "Dowód osobisty lub paszport (30-100 km)"
+   ],
    "signup": {
-    "status": "closed",
+    "status": "unknown",
+    "limit": 480,
+    "note": "do wyczerpania limitu",
     "source": "regulamin",
-    "sourceUrl": "https://www.kingrunner.com/artykul/regulamin---korona-polskich-ultramaratonow-30/1109",
-    "checkedAt": "2026-11-10"
+    "sourceUrl": "https://bisonultratrail.pl/regulamin/",
+    "checkedAt": "2026-11-12"
    },
    "id": "bison-trail-2027-10-02",
    "surface": "przelaj",
@@ -14952,11 +15684,11 @@
   },
   {
    "name": "Łemkowyna Trail - zapisy: Łemko Maraton 48 - 23.10.2027, Łemko Trail 30 - 23.10.2027, Łemko Trail 18 - 24.10.2027, Łemko Trail 10 - 24.10.2027, Łemkowyna Trail 70 - 23.10.2027, Łemkowyna Trail 100 - 23-24.10.2027, Łemkowyna Trail 150 23-24.10.2026",
-   "eventName": "Łemkowyna Trail - zapisy",
+   "eventName": "Łemkowyna Trail",
    "dateStart": "2027-10-23",
    "dateEnd": "2027-10-24",
-   "city": "Iwonicz-Zdrój",
-   "region": "Beskid Niski",
+   "city": "Chyrowa",
+   "region": "",
    "distancesKm": [
     10,
     18,
@@ -14968,88 +15700,140 @@
    ],
    "elevations": [
     {
+     "km": 10
+    },
+    {
+     "km": 18
+    },
+    {
+     "km": 30
+    },
+    {
+     "km": 48
+    },
+    {
+     "km": 70
+    },
+    {
+     "km": 102
+    },
+    {
+     "km": 150
+    }
+   ],
+   "vertical": false,
+   "url": "http://www.ultralemkowyna.pl/trasy/lemkowyna-ultra-trail-70",
+   "sources": [
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/lemkowyna-trail-70/4524"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://www.ultralemkowyna.pl/regulaminy"
+    },
+    {
+     "name": "b4sportonline.pl",
+     "url": "https://b4sportonline.pl/LemkowynaUltraTrail/"
+    }
+   ],
+   "regulaminUrl": "https://www.ultralemkowyna.pl/regulaminy",
+   "signup": {
+    "status": "open",
+    "until": "2027-10-01",
+    "limit": 3200,
+    "registered": 321,
+    "source": "zapisy",
+    "sourceUrl": "https://b4sportonline.pl/LemkowynaUltraTrail/",
+    "checkedAt": "2026-11-12"
+   },
+   "signupOpen": true,
+   "participants": 321,
+   "id": "lemkowyna-trail-2027-10-23",
+   "surface": "przelaj",
+   "minKm": 10,
+   "maxKm": 150,
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+  },
+  {
+   "name": "Łemko Trail: 10 km, 18 km, 30 km, 48 km",
+   "eventName": "Łemko Trail",
+   "dateStart": "2027-10-23",
+   "dateEnd": "2027-10-24",
+   "city": "Komańcza",
+   "region": "",
+   "distancesKm": [
+    10,
+    18,
+    30,
+    48
+   ],
+   "elevations": [
+    {
      "km": 10,
      "dplus": 200,
      "dplusSource": "trasa",
-     "dplusSourceUrl": "https://ultralemkowyna.pl/trasy"
+     "dplusSourceUrl": "http://www.ultralemkowyna.pl/trasy",
+     "limitH": 2,
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 18,
      "dplus": 520,
      "dplusSource": "trasa",
-     "dplusSourceUrl": "https://ultralemkowyna.pl/trasy"
+     "dplusSourceUrl": "http://www.ultralemkowyna.pl/trasy",
+     "limitH": 3,
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 30,
      "dplus": 740,
      "dplusSource": "trasa",
-     "dplusSourceUrl": "https://ultralemkowyna.pl/trasy"
+     "dplusSourceUrl": "http://www.ultralemkowyna.pl/trasy",
+     "limitH": 5,
+     "dplusCheckedAt": "2026-11-12"
     },
     {
      "km": 48,
      "dplus": 1400,
      "dplusSource": "trasa",
-     "dplusSourceUrl": "https://ultralemkowyna.pl/trasy"
-    },
-    {
-     "km": 70,
-     "dplus": 2520,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "https://ultralemkowyna.pl/trasy"
-    },
-    {
-     "km": 102,
-     "dplus": 3300,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "https://ultralemkowyna.pl/trasy"
-    },
-    {
-     "km": 150,
-     "dplus": 5860,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "https://ultralemkowyna.pl/trasy"
+     "dplusSourceUrl": "http://www.ultralemkowyna.pl/trasy",
+     "limitH": 8,
+     "dplusCheckedAt": "2026-11-12"
     }
    ],
    "vertical": false,
-   "url": "https://www.ultralemkowyna.pl/",
+   "url": "http://www.ultralemkowyna.pl",
    "sources": [
     {
-     "name": "b4sportonline.pl",
-     "url": "https://b4sportonline.pl/LemkowynaUltraTrail/"
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/lemko-trail-10/4528"
     },
     {
-     "name": "strona organizatora (termin kolejnej edycji)",
-     "url": "https://ultralemkowyna.pl/"
+     "name": "strona organizatora",
+     "url": "http://www.ultralemkowyna.pl"
     },
     {
      "name": "trasa (organizator)",
-     "url": "https://ultralemkowyna.pl/trasy"
+     "url": "http://www.ultralemkowyna.pl/trasy"
     },
     {
      "name": "regulamin",
-     "url": "https://ultralemkowyna.pl/images/regulaminy/26-regulamin-18-PL.pdf"
+     "url": "https://www.ultralemkowyna.pl/regulaminy"
     }
    ],
+   "regulaminUrl": "https://www.ultralemkowyna.pl/regulaminy",
    "signup": {
     "status": "open",
-    "until": "2027-10-01",
-    "limit": 3200,
-    "registered": 302,
-    "source": "zapisy",
-    "sourceUrl": "https://b4sportonline.pl/LemkowynaUltraTrail/",
-    "checkedAt": "2026-11-10"
+    "source": "organizator",
+    "sourceUrl": "http://www.ultralemkowyna.pl",
+    "checkedAt": "2026-11-12"
    },
-   "signupOpen": true,
-   "participants": 302,
-   "regulaminUrl": "https://ultralemkowyna.pl/images/regulaminy/26-regulamin-18-PL.pdf",
-   "gear": [
-    "Telefon komórkowy naładowany z roamingiem",
-    "Folia NRC minimum 140x200 cm"
-   ],
-   "id": "lemkowyna-trail-zapisy-2027-10-23",
+   "id": "lemko-trail-2027-10-23",
    "surface": "trail",
    "minKm": 10,
-   "maxKm": 150,
+   "maxKm": 48,
    "beginnerScore": 5,
    "beginnerWhy": "najkrótszy dystans 10 km; łagodnie: ok. 20 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   }

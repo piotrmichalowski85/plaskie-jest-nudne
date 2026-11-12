@@ -1,5 +1,304 @@
 [
  {
+  "date": "2026-11-12",
+  "label": "poprawione regulaminy",
+  "total": 293,
+  "upcoming": 89,
+  "added": [
+   {
+    "id": "ultra-swir-2026-11-28",
+    "eventName": "ULTRA ŚWIR",
+    "dateStart": "2026-11-28",
+    "city": "Ptaszkowa"
+   },
+   {
+    "id": "x-run-2027-03-07",
+    "eventName": "X-RUN",
+    "dateStart": "2027-03-07",
+    "city": "Dobczyce"
+   },
+   {
+    "id": "x-run-2027-04-11",
+    "eventName": "X-RUN",
+    "dateStart": "2027-04-11",
+    "city": "Muszyna Zdrój"
+   },
+   {
+    "id": "x-run-2027-05-16",
+    "eventName": "X-RUN",
+    "dateStart": "2027-05-16",
+    "city": "Limanowa"
+   },
+   {
+    "id": "ultra-turnicki-pomocna-woda-2027-06-19",
+    "eventName": "ULTRA TURNICKI Pomocna Woda",
+    "dateStart": "2027-06-19",
+    "city": "Kamienna Górka (Bircza)"
+   },
+   {
+    "id": "ultra-turnicki-suchy-obycz-2027-06-19",
+    "eventName": "ULTRA TURNICKI Suchy Obycz",
+    "dateStart": "2027-06-19",
+    "city": "Przełęcz pod Suchym Obyczem"
+   },
+   {
+    "id": "ultra-turnicki-rybotyckie-sploty-2027-06-19",
+    "eventName": "ULTRA TURNICKI Rybotyckie Sploty",
+    "dateStart": "2027-06-19",
+    "city": "Posada Rybotycka"
+   },
+   {
+    "id": "x-run-2027-06-20",
+    "eventName": "X-RUN",
+    "dateStart": "2027-06-20",
+    "city": "Szczyrk"
+   },
+   {
+    "id": "x-run-2027-07-25",
+    "eventName": "X-RUN",
+    "dateStart": "2027-07-25",
+    "city": "Krościenko Nad Dunajcem"
+   },
+   {
+    "id": "chojnik-karkonoski-festiwal-biegowy-2027-09-04",
+    "eventName": "Chojnik Karkonoski Festiwal Biegowy",
+    "dateStart": "2027-09-04",
+    "city": "Bronisława Czecha"
+   },
+   {
+    "id": "maraton-trzech-jezior-2027-09-10",
+    "eventName": "Maraton Trzech Jezior",
+    "dateStart": "2027-09-10",
+    "city": "Międzybrodzie Bialskie"
+   },
+   {
+    "id": "x-run-2027-09-12",
+    "eventName": "X-RUN",
+    "dateStart": "2027-09-12",
+    "city": "Wisła"
+   },
+   {
+    "id": "lemkowyna-trail-2027-10-23",
+    "eventName": "Łemkowyna Trail",
+    "dateStart": "2027-10-23",
+    "city": "Chyrowa"
+   },
+   {
+    "id": "lemko-trail-2027-10-23",
+    "eventName": "Łemko Trail",
+    "dateStart": "2027-10-23",
+    "city": "Komańcza"
+   }
+  ],
+  "removed": [
+   {
+    "id": "x-run-tajemnicze-kopce-2027-03-07",
+    "eventName": "X-RUN Tajemnicze Kopce",
+    "dateStart": "2027-03-07",
+    "city": "Dobczyce",
+    "provisional": true
+   },
+   {
+    "id": "x-run-wyspowy-trail-2027-05-16",
+    "eventName": "X-RUN Wyspowy Trail",
+    "dateStart": "2027-05-16",
+    "city": "Limanowa",
+    "provisional": true
+   },
+   {
+    "id": "x-run-mercure-szczyrk-run-2027-06-20",
+    "eventName": "X-RUN Mercure Szczyrk Run",
+    "dateStart": "2027-06-20",
+    "city": "Szczyrk",
+    "provisional": true
+   },
+   {
+    "id": "dfbg-2027-07-15",
+    "eventName": "DFBG",
+    "dateStart": "2027-07-15",
+    "city": "Kudowa-Zdrój"
+   },
+   {
+    "id": "x-run-ucieczka-sw-kingi-2027-07-25",
+    "eventName": "X-RUN Ucieczka św.Kingi",
+    "dateStart": "2027-07-25",
+    "city": "Krościenko Nad Dunajcem",
+    "provisional": true
+   },
+   {
+    "id": "x-run-vistula-trail-2027-09-12",
+    "eventName": "X-RUN Vistula Trail",
+    "dateStart": "2027-09-12",
+    "city": "Wisła",
+    "provisional": true
+   },
+   {
+    "id": "lemkowyna-trail-zapisy-2027-10-23",
+    "eventName": "Łemkowyna Trail - zapisy",
+    "dateStart": "2027-10-23",
+    "city": "Iwonicz-Zdrój"
+   }
+  ],
+  "dateChanged": [],
+  "signupChanged": [
+   {
+    "id": "borowkowa-trail-2026-11-14",
+    "eventName": "Borówkowa Trail",
+    "from": "unknown",
+    "to": "open"
+   },
+   {
+    "id": "szczyt-wytrzymalosci-edycja-mikolajkowa-2026-12-04",
+    "eventName": "Szczyt Wytrzymałości Edycja Mikołajkowa",
+    "from": "unknown",
+    "to": "open"
+   },
+   {
+    "id": "winter-trail-malopolska-2026-12-12",
+    "eventName": "Winter Trail Małopolska",
+    "from": "unknown",
+    "to": "open"
+   },
+   {
+    "id": "xiii-zimowy-maraton-bieszczadzki-2027-01-23",
+    "eventName": "XIII Zimowy Maraton Bieszczadzki",
+    "from": "unknown",
+    "to": "open"
+   },
+   {
+    "id": "turbacz-winter-trail-2027-02-13",
+    "eventName": "TURBACZ WINTER TRAIL",
+    "from": "closed",
+    "to": "open"
+   },
+   {
+    "id": "wrc-2027-04-03",
+    "eventName": "WRC",
+    "from": "unknown",
+    "to": "open"
+   },
+   {
+    "id": "kudowska-sztafeta-gorska-2027-04-10",
+    "eventName": "Kudowska Sztafeta Górska",
+    "from": "unknown",
+    "to": "open"
+   },
+   {
+    "id": "dolnoslaski-festiwal-biegow-gorskich-dfbg-2027-07-15",
+    "eventName": "Dolnośląski Festiwal Biegów Górskich DFBG",
+    "from": "unknown",
+    "to": "closed"
+   },
+   {
+    "id": "bison-trail-2027-10-02",
+    "eventName": "Bison Trail",
+    "from": "closed",
+    "to": "unknown"
+   }
+  ],
+  "gearAdded": [
+   {
+    "id": "winter-trail-malopolska-2026-12-12",
+    "eventName": "Winter Trail Małopolska",
+    "dateStart": "2026-12-12",
+    "city": "Mszana Dolna"
+   },
+   {
+    "id": "xii-gorski-zimowy-maraton-i-polmaraton-slezanski-2027-01-09",
+    "eventName": "XII Górski Zimowy Maraton i Połmaraton Ślężański",
+    "dateStart": "2027-01-09",
+    "city": "Sobótka Masyw Ślęży"
+   },
+   {
+    "id": "xiii-zimowy-maraton-bieszczadzki-2027-01-23",
+    "eventName": "XIII Zimowy Maraton Bieszczadzki",
+    "dateStart": "2027-01-23",
+    "city": "Cisna"
+   },
+   {
+    "id": "wrc-2027-04-03",
+    "eventName": "WRC",
+    "dateStart": "2027-04-03",
+    "city": "Głuszyca"
+   },
+   {
+    "id": "kudowska-sztafeta-gorska-2027-04-10",
+    "eventName": "Kudowska Sztafeta Górska",
+    "dateStart": "2027-04-10",
+    "city": "Teatr pod Blachą"
+   },
+   {
+    "id": "xxiv-bieg-rzeznika-2027-05-27",
+    "eventName": "XXIV Bieg Rzeźnika",
+    "dateStart": "2027-05-27",
+    "city": "Cisna"
+   },
+   {
+    "id": "xiii-rzeznik-ultra-2027-05-28",
+    "eventName": "XIII Rzeźnik Ultra",
+    "dateStart": "2027-05-28",
+    "city": "Cisna"
+   },
+   {
+    "id": "xvi-rzezniczek-2027-05-29",
+    "eventName": "XVI Rzeźniczek",
+    "dateStart": "2027-05-29",
+    "city": "Żubracze"
+   },
+   {
+    "id": "3-x-sniezka-2027-07-09",
+    "eventName": "3 x Śnieżka",
+    "dateStart": "2027-07-09",
+    "city": "Karpacz"
+   },
+   {
+    "id": "dolnoslaski-festiwal-biegow-gorskich-dfbg-2027-07-15",
+    "eventName": "Dolnośląski Festiwal Biegów Górskich DFBG",
+    "dateStart": "2027-07-15",
+    "city": "Lądek-Zdrój"
+   },
+   {
+    "id": "tatra-skymarathon-2027-07-24",
+    "eventName": "Tatra SkyMarathon",
+    "dateStart": "2027-07-24",
+    "city": "Siwa Polana"
+   },
+   {
+    "id": "gorce-ultra-trail-2027-08-01",
+    "eventName": "Gorce Ultra-Trail®",
+    "dateStart": "2027-08-01",
+    "city": "Przełęcz Wierch Młynne"
+   },
+   {
+    "id": "chudy-wawrzyniec-50-2027-08-07",
+    "eventName": "Chudy Wawrzyniec 50+",
+    "dateStart": "2027-08-07",
+    "city": "Rajcza"
+   },
+   {
+    "id": "bieg-ultra-grania-tatr-2027-08-21",
+    "eventName": "BIEG ULTRA GRANIĄ TATR",
+    "dateStart": "2027-08-21",
+    "city": "Siwa Polana"
+   },
+   {
+    "id": "bison-trail-2027-10-02",
+    "eventName": "Bison Trail",
+    "dateStart": "2027-10-02",
+    "city": "Supraśl"
+   }
+  ],
+  "dplusAdded": [],
+  "regulaminAdded": [
+   {
+    "id": "wrc-2027-04-03",
+    "eventName": "WRC",
+    "dateStart": "2027-04-03",
+    "city": "Głuszyca"
+   }
+  ]
+ },
+ {
   "date": "2026-11-10",
   "label": "sprzęt z regulaminów",
   "total": 286,
@@ -725,25 +1024,5 @@
     "city": "Barłomino Luzino"
    }
   ]
- },
- {
-  "date": "2026-10-15",
-  "label": "odświeżenie kalendarza",
-  "total": 247,
-  "upcoming": 51,
-  "added": [
-   {
-    "id": "xiii-zimowy-maraton-bieszczadzki-2027-01-23",
-    "eventName": "XIII Zimowy Maraton Bieszczadzki",
-    "dateStart": "2027-01-23",
-    "city": "Cisna"
-   }
-  ],
-  "removed": [],
-  "dateChanged": [],
-  "signupChanged": [],
-  "gearAdded": [],
-  "dplusAdded": [],
-  "regulaminAdded": []
  }
 ]

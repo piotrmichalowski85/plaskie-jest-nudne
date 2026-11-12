@@ -1372,5 +1372,54 @@
   "display": "Przełęcz Furcowa/Ochotnicka, Knurów, gmina Nowy Targ",
   "at": "2026-11-10",
   "woj": "małopolskie"
+ },
+ "kaplica św. anny na płazówce": {
+  "lat": 49.3038422,
+  "lng": 19.85168,
+  "display": "Kaplica pw. Świętej Anny na Płazówce, Witów, gmina Kościelisko",
+  "at": "2026-11-12",
+  "woj": "małopolskie"
+ },
+ "kamienna górka (bircza)": {
+  "lat": 49.6777797,
+  "lng": 22.4799614,
+  "display": "Kamienna Górka, Mielnicze, Bircza",
+  "at": "2026-11-12",
+  "woj": "podkarpackie"
+ },
+ "przełęcz pod suchym obyczem": {
+  "lat": 49.591786,
+  "lng": 22.6455384,
+  "display": "Przełęcz pod Suchym Obyczem, Makowa, gmina Fredropol",
+  "at": "2026-11-12",
+  "woj": "podkarpackie"
+ },
+ "posada rybotycka": {
+  "lat": 49.6555934,
+  "lng": 22.6083653,
+  "display": "Posada Rybotycka, gmina Fredropol, powiat przemyski",
+  "at": "2026-11-12",
+  "woj": "podkarpackie"
+ },
+ "bronisława czecha": {
+  "lat": 52.2249112,
+  "lng": 21.1909354,
+  "display": "Bronisława Czecha, Marysin Wawerski, Wawer",
+  "at": "2026-11-12",
+  "woj": "mazowieckie"
+ },
+ "międzybrodzie bialskie": {
+  "lat": 49.7874542,
+  "lng": 19.1942895,
+  "display": "Międzybrodzie Bialskie, gmina Czernichów, powiat żywiecki",
+  "at": "2026-11-12",
+  "woj": "śląskie"
+ },
+ "chyrowa": {
+  "lat": 49.5206091,
+  "lng": 21.6175805,
+  "display": "Chyrowa, gmina Dukla, powiat krośnieński",
+  "at": "2026-11-12",
+  "woj": "podkarpackie"
  }
 }
