@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-12T10:07:04.029Z",
- "count": 293,
+ "generatedAt": "2026-11-12T10:23:16.994Z",
+ "count": 290,
  "races": [
   {
    "name": "Podkarpacki Festiwal Sportowy",
@@ -2340,6 +2340,40 @@
    "maxKm": 60,
    "beginnerScore": 4,
    "beginnerWhy": "najkrótszy dystans 10 km; średnio stromo: ok. 56 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+  },
+  {
+   "name": "2. Puchar KALWARII 2026: Laskówka, FINAŁ",
+   "eventName": "2. Puchar KALWARII 2026",
+   "dateStart": "2026-03-15",
+   "dateEnd": "2026-03-15",
+   "city": "Laskówka",
+   "region": "Sudety",
+   "distancesKm": [
+    4.68
+   ],
+   "elevations": [
+    {
+     "km": 4.68,
+     "dplus": 240,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
+    }
+   ],
+   "vertical": false,
+   "category": "Kat.II",
+   "url": "https://www.facebook.com/events/1274207241303976",
+   "sources": [
+    {
+     "name": "biegigorskie.pl",
+     "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    }
+   ],
+   "id": "2-puchar-kalwarii-2026-2026-03-15",
+   "surface": "trail",
+   "minKm": 4.68,
+   "maxKm": 4.68,
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 4.68 km; średnio stromo: ok. 51 m przewyższenia na kilometr."
   },
   {
    "name": "WIOSENNY ULTRA ŚWIR",
@@ -9346,7 +9380,7 @@
    "beginnerWhy": "pomijamy vertical 2.4 km (sam podbieg), liczymy od 7 km; najkrótszy dystans 7 km; łagodnie: ok. 23 m przewyższenia na kilometr."
   },
   {
-   "name": "14. GÓRSKI BIEG NIEPODLEGŁOŚCI",
+   "name": "I Bieg Niepodległości",
    "eventName": "I Bieg Niepodległości",
    "dateStart": "2026-11-07",
    "dateEnd": "2026-11-07",
@@ -9371,15 +9405,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
-    },
-    {
-     "name": "regulamin",
-     "url": "https://biegajwgorachsowich.pl/lib/vv3wnq/14-GBN-regulamin-msyk9hiv.pdf"
     }
    ],
-   "regulaminUrl": "https://biegajwgorachsowich.pl/lib/vv3wnq/14-GBN-regulamin-msyk9hiv.pdf",
    "id": "i-bieg-niepodleglosci-2026-11-07",
-   "surface": "gorski",
+   "surface": "trail",
    "minKm": 4,
    "maxKm": 21,
    "beginnerScore": 4,
@@ -9422,6 +9451,114 @@
    "maxKm": 11.8,
    "beginnerScore": 4,
    "beginnerWhy": "najkrótszy dystans 2 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+  },
+  {
+   "name": "XIV BIEG NIEPODLEGŁOŚCI",
+   "eventName": "XIV BIEG NIEPODLEGŁOŚCI",
+   "dateStart": "2026-11-11",
+   "dateEnd": "2026-11-11",
+   "city": "Rytro",
+   "region": "Beskid Sądecki",
+   "distancesKm": [
+    5,
+    10
+   ],
+   "elevations": [
+    {
+     "km": 5
+    },
+    {
+     "km": 10
+    }
+   ],
+   "vertical": false,
+   "category": "x",
+   "sources": [
+    {
+     "name": "biegigorskie.pl",
+     "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    }
+   ],
+   "id": "xiv-bieg-niepodleglosci-2026-11-11",
+   "surface": "trail",
+   "minKm": 5,
+   "maxKm": 10,
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy."
+  },
+  {
+   "name": "14. GÓRSKI BIEG NIEPODLEGŁOŚCI",
+   "eventName": "14. GÓRSKI BIEG NIEPODLEGŁOŚCI",
+   "dateStart": "2026-11-11",
+   "dateEnd": "2026-11-11",
+   "city": "Świerki",
+   "region": "Góry Sowie",
+   "distancesKm": [
+    11
+   ],
+   "elevations": [
+    {
+     "km": 11,
+     "dplus": 300,
+     "dplusSource": "kalendarz",
+     "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
+    }
+   ],
+   "vertical": false,
+   "category": "Kat.S",
+   "url": "https://biegajwgorachsowich.pl/Gorski_Bieg_Niepodleglosci",
+   "sources": [
+    {
+     "name": "biegigorskie.pl",
+     "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://biegajwgorachsowich.pl/lib/vv3wnq/14-GBN-regulamin-msyk9hiv.pdf"
+    }
+   ],
+   "regulaminUrl": "https://biegajwgorachsowich.pl/lib/vv3wnq/14-GBN-regulamin-msyk9hiv.pdf",
+   "id": "14-gorski-bieg-niepodleglosci-2026-11-11",
+   "surface": "gorski",
+   "minKm": 11,
+   "maxKm": 11,
+   "beginnerScore": 5,
+   "beginnerWhy": "najkrótszy dystans 11 km; łagodnie: ok. 27 m przewyższenia na kilometr."
+  },
+  {
+   "name": "Górski Bieg Niepodległości",
+   "eventName": "Górski Bieg Niepodległości",
+   "dateStart": "2026-11-11",
+   "dateEnd": "2026-11-11",
+   "city": "Jaworze",
+   "region": "Beskidy",
+   "distancesKm": [
+    11,
+    21
+   ],
+   "elevations": [
+    {
+     "km": 11
+    },
+    {
+     "km": 21
+    }
+   ],
+   "vertical": false,
+   "category": "11km-Kat.S 21km-Kat.I",
+   "url": "https://www.biegzboja.pl/",
+   "sources": [
+    {
+     "name": "biegigorskie.pl",
+     "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    }
+   ],
+   "id": "gorski-bieg-niepodleglosci-2026-11-11",
+   "surface": "gorski",
+   "minKm": 11,
+   "maxKm": 21,
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 11 km; przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "Podhalański Rajd Pieszy „Niepodległa Polska”: Kroki Wolności 12km, Wolni w Górach 25km",
@@ -9862,7 +9999,7 @@
    "beginnerWhy": "najkrótszy dystans 10 km; łagodnie: ok. 4 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "JESIENNY ULTRA ŚWIR",
+   "name": "ULTRA ŚWIR: Ultra Świr Jesienny Trail, Ultra Świr Jesienny Trail",
    "eventName": "JESIENNY ULTRA ŚWIR",
    "dateStart": "2026-11-28",
    "dateEnd": "2026-11-28",
@@ -9892,6 +10029,10 @@
     {
      "name": "regulamin",
      "url": "https://malopolskabiega.com.pl/regulamin-jesienny-ultra-swir/"
+    },
+    {
+     "name": "b4sportonline.pl",
+     "url": "https://b4sportonline.pl/ultra_swir/"
     }
    ],
    "regulaminUrl": "https://malopolskabiega.com.pl/regulamin-jesienny-ultra-swir/",
@@ -9905,53 +10046,6 @@
     "Długa koszulka lub bluza z długim rękawem",
     "Długie leginsy zależnie od pogody",
     "Własny kubek"
-   ],
-   "signup": {
-    "status": "open",
-    "until": "2026-11-15",
-    "limit": 100,
-    "source": "regulamin",
-    "sourceUrl": "https://malopolskabiega.com.pl/regulamin-jesienny-ultra-swir/",
-    "checkedAt": "2026-11-12"
-   },
-   "id": "jesienny-ultra-swir-2026-11-28",
-   "surface": "trail",
-   "minKm": 15,
-   "maxKm": 24,
-   "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
-  },
-  {
-   "name": "ULTRA ŚWIR: Ultra Świr Jesienny Trail, Ultra Świr Jesienny Trail",
-   "eventName": "ULTRA ŚWIR",
-   "dateStart": "2026-11-28",
-   "dateEnd": "2026-11-28",
-   "city": "Ptaszkowa",
-   "region": "",
-   "distancesKm": [
-    15,
-    25
-   ],
-   "elevations": [
-    {
-     "km": 15,
-     "limitH": 6
-    },
-    {
-     "km": 25
-    }
-   ],
-   "vertical": false,
-   "url": "https://b4sportonline.pl/ultra_swir/",
-   "sources": [
-    {
-     "name": "b4sportonline.pl",
-     "url": "https://b4sportonline.pl/ultra_swir/"
-    },
-    {
-     "name": "regulamin",
-     "url": "https://malopolskabiega.com.pl/regulamin-jesienny-ultra-swir/"
-    }
    ],
    "signup": {
     "status": "open",
@@ -9964,22 +10058,10 @@
    },
    "signupOpen": true,
    "participants": 73,
-   "regulaminUrl": "https://malopolskabiega.com.pl/regulamin-jesienny-ultra-swir/",
-   "gear": [
-    "Numer startowy przypięty z przodu",
-    "Włączony, naładowany telefon z numerem udostępnionym organizatorowi",
-    "Plik GPX z trasą na zegarku lub telefonie",
-    "Numer telefonu organizatora (podany na numerze startowym)",
-    "Folia NRC",
-    "Kurtka wiatrówka z kapturem",
-    "Długa koszulka lub bluza z długim rękawem",
-    "Długie leginsy zależnie od pogody",
-    "Własny kubek"
-   ],
-   "id": "ultra-swir-2026-11-28",
-   "surface": "przelaj",
+   "id": "jesienny-ultra-swir-2026-11-28",
+   "surface": "trail",
    "minKm": 15,
-   "maxKm": 25,
+   "maxKm": 24,
    "beginnerScore": 3,
    "beginnerWhy": "najkrótszy dystans 15 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
   },
@@ -11276,9 +11358,13 @@
    "city": "Jedlina-Zdrój",
    "region": "",
    "distancesKm": [
+    10.5,
     23.3
    ],
    "elevations": [
+    {
+     "km": 10.5
+    },
     {
      "km": 23.3
     }
@@ -11292,37 +11378,8 @@
    ],
    "id": "6-zimowy-polmaraton-gorski-jedlina-zdroj-2027-02-07",
    "surface": "gorski",
-   "minKm": 23.3,
-   "maxKm": 23.3,
-   "beginnerScore": 2,
-   "beginnerWhy": "najkrótszy dystans 23.3 km to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy."
-  },
-  {
-   "name": "Zimowa Dycha Jedlina-Zdrój",
-   "eventName": "Zimowa Dycha Jedlina-Zdrój",
-   "dateStart": "2027-02-07",
-   "dateEnd": "2027-02-07",
-   "city": "Jedlina-Zdrój",
-   "region": "",
-   "distancesKm": [
-    10.5
-   ],
-   "elevations": [
-    {
-     "km": 10.5
-    }
-   ],
-   "vertical": false,
-   "sources": [
-    {
-     "name": "kingrunner.com",
-     "url": "https://www.kingrunner.com/bieg/zimowa-dycha-jedlina-zdroj/4440"
-    }
-   ],
-   "id": "zimowa-dycha-jedlina-zdroj-2027-02-07",
-   "surface": "przelaj",
    "minKm": 10.5,
-   "maxKm": 10.5,
+   "maxKm": 23.3,
    "beginnerScore": 4,
    "beginnerWhy": "najkrótszy dystans 10.5 km; przewyższenie nieznane, sprawdź profil trasy."
   },
@@ -11805,7 +11862,7 @@
    "beginnerWhy": "najkrótszy dystans 14 km (jak półmaraton w terenie, zwykle wolniej); łagodnie: ok. 24 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Baran Trail Race Winter Edition",
+   "name": "Zimowy Baran Trail Race BTR: 10 km, 25.1 km, 59 km",
    "eventName": "Baran Trail Race Winter Edition",
    "dateStart": "2027-03-13",
    "dateEnd": "2027-03-13",
@@ -11861,6 +11918,10 @@
     {
      "name": "regulamin",
      "url": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/assets/BTR_regulamin_2027_03.pdf"
+    },
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/zimowy-baran-trail-race-btr-10/4438"
     }
    ],
    "spark": [
@@ -11912,105 +11973,6 @@
    "surface": "trail",
    "minKm": 10,
    "maxKm": 100,
-   "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 10 km; średnio stromo: ok. 56 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
-  },
-  {
-   "name": "Zimowy Baran Trail Race BTR: 10 km, 25.1 km, 59 km",
-   "eventName": "Zimowy Baran Trail Race BTR",
-   "dateStart": "2027-03-13",
-   "dateEnd": "2027-03-13",
-   "city": "SPORTOW",
-   "region": "",
-   "distancesKm": [
-    10,
-    25.1,
-    59
-   ],
-   "elevations": [
-    {
-     "km": 10,
-     "dplus": 557,
-     "gpx": "039dff8d7c81",
-     "dplusSource": "gpx",
-     "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/fa4925849089-barantrailrace10.gpx",
-     "dplusCheckedAt": "2026-11-12"
-    },
-    {
-     "km": 25.1,
-     "dplus": 1235,
-     "dplusSource": "gpx",
-     "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/4b4aaa605098-barantrailrace25.gpx",
-     "gpx": "c4ef4bc38861",
-     "dplusCheckedAt": "2026-11-12",
-     "limitH": 5
-    },
-    {
-     "km": 59,
-     "dplus": 2600,
-     "dplusSource": "organizator",
-     "dplusSourceUrl": "http://www.baranrace.pl"
-    }
-   ],
-   "vertical": false,
-   "url": "http://www.baranrace.pl",
-   "sources": [
-    {
-     "name": "kingrunner.com",
-     "url": "https://www.kingrunner.com/bieg/zimowy-baran-trail-race-btr-10/4438"
-    },
-    {
-     "name": "strona organizatora",
-     "url": "http://www.baranrace.pl"
-    },
-    {
-     "name": "GPX",
-     "url": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/fa4925849089-barantrailrace10.gpx"
-    },
-    {
-     "name": "regulamin",
-     "url": "http://baranrace.pl/wp-content/plugins/baran-race-cms/public/assets/BTR_regulamin_2027_03.pdf"
-    }
-   ],
-   "spark": [
-    0,
-    0.01,
-    0.12,
-    0.18,
-    0.25,
-    0.33,
-    0.42,
-    0.52,
-    0.72,
-    0.86,
-    0.97,
-    0.93,
-    0.81,
-    0.78,
-    0.7,
-    0.43,
-    0.39,
-    0.31,
-    0.17,
-    0.15,
-    0.17,
-    0.09,
-    0.01,
-    0
-   ],
-   "regulaminUrl": "http://baranrace.pl/wp-content/plugins/baran-race-cms/public/assets/BTR_regulamin_2027_03.pdf",
-   "signup": {
-    "status": "open",
-    "until": "2027-03-06",
-    "limit": 150,
-    "source": "regulamin",
-    "sourceUrl": "http://baranrace.pl/wp-content/plugins/baran-race-cms/public/assets/BTR_regulamin_2027_03.pdf",
-    "checkedAt": "2026-11-12"
-   },
-   "id": "zimowy-baran-trail-race-btr-2027-03-13",
-   "surface": "trail",
-   "minKm": 10,
-   "maxKm": 59,
    "beginnerScore": 4,
    "beginnerWhy": "najkrótszy dystans 10 km; średnio stromo: ok. 56 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
@@ -12773,7 +12735,7 @@
    "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Ultra-Trail Małopolska",
+   "name": "UTM 16 / ULTRA-TRAIL® MAŁOPOLSKA 2027: 16 km, 49 km, 65 km, 107 km, 172 km, 240 km",
    "eventName": "Ultra-Trail Małopolska",
    "dateStart": "2027-05-21",
    "dateEnd": "2027-05-23",
@@ -12818,6 +12780,10 @@
     {
      "name": "regulamin",
      "url": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf"
+    },
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/utm-16--ultra-trail%C2%AE-malopolska-2027/4505"
     }
    ],
    "regulaminUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
@@ -12830,68 +12796,6 @@
    },
    "id": "ultra-trail-malopolska-2027-05-21",
    "surface": "trail",
-   "minKm": 16,
-   "maxKm": 240,
-   "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 16 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
-  },
-  {
-   "name": "UTM 16 / ULTRA-TRAIL® MAŁOPOLSKA 2027: 16 km, 49 km, 65 km, 107 km, 172 km, 240 km",
-   "eventName": "UTM 16 / ULTRA-TRAIL® MAŁOPOLSKA 2027",
-   "dateStart": "2027-05-21",
-   "dateEnd": "2027-05-22",
-   "city": "Pensjonat Szczebel",
-   "region": "",
-   "distancesKm": [
-    16,
-    49,
-    65,
-    107,
-    172,
-    240
-   ],
-   "elevations": [
-    {
-     "km": 16
-    },
-    {
-     "km": 49
-    },
-    {
-     "km": 65
-    },
-    {
-     "km": 107
-    },
-    {
-     "km": 172
-    },
-    {
-     "km": 240
-    }
-   ],
-   "vertical": false,
-   "url": "https://utm.run",
-   "sources": [
-    {
-     "name": "kingrunner.com",
-     "url": "https://www.kingrunner.com/bieg/utm-16--ultra-trail%C2%AE-malopolska-2027/4505"
-    },
-    {
-     "name": "regulamin",
-     "url": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf"
-    }
-   ],
-   "regulaminUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
-   "signup": {
-    "status": "unknown",
-    "limit": 200,
-    "source": "regulamin",
-    "sourceUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
-    "checkedAt": "2026-11-12"
-   },
-   "id": "utm-16-ultra-trail-malopolska-2027-2027-05-21",
-   "surface": "przelaj",
    "minKm": 16,
    "maxKm": 240,
    "beginnerScore": 3,
@@ -13480,7 +13384,7 @@
     },
     {
      "name": "kingrunner.com",
-     "url": "https://www.kingrunner.com/bieg/ultra-turnicki-poloniny-trail-48km/4507"
+     "url": "https://www.kingrunner.com/bieg/ultra-turnicki-pomocna-woda-75km/4506"
     }
    ],
    "spark": [
@@ -13533,242 +13437,6 @@
    "maxKm": 75,
    "beginnerScore": 5,
    "beginnerWhy": "najkrótszy dystans 10 km; łagodnie: ok. 21 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
-  },
-  {
-   "name": "ULTRA TURNICKI Pomocna Woda",
-   "eventName": "ULTRA TURNICKI Pomocna Woda",
-   "dateStart": "2027-06-19",
-   "dateEnd": "2027-06-19",
-   "city": "Kamienna Górka (Bircza)",
-   "region": "",
-   "distancesKm": [
-    75
-   ],
-   "elevations": [
-    {
-     "km": 75
-    }
-   ],
-   "vertical": false,
-   "url": "https://www.ultraturnicki.pl",
-   "sources": [
-    {
-     "name": "kingrunner.com",
-     "url": "https://www.kingrunner.com/bieg/ultra-turnicki-pomocna-woda-75km/4506"
-    },
-    {
-     "name": "regulamin",
-     "url": "https://www.ultraturnicki.pl/_files/ugd/883a2a_d7f0d82ad31941bcbd6323cc7947f3fe.pdf"
-    }
-   ],
-   "regulaminUrl": "https://www.ultraturnicki.pl/_files/ugd/883a2a_d7f0d82ad31941bcbd6323cc7947f3fe.pdf",
-   "gear": [
-    "Aktywny telefon przez cały czas trwania zawodów",
-    "Kubek wielorazowy (24, 48, 75 km)",
-    "Bidon lub softflask min. 0,5 l (10, 24 km)",
-    "Bidon lub softflask min. 1 l (48, 75 km)",
-    "Folia NRC",
-    "Dowód osobisty lub paszport",
-    "Track GPX w zegarku lub telefonie"
-   ],
-   "signup": {
-    "status": "unknown",
-    "limit": 150,
-    "note": "do wyczerpania limitu",
-    "source": "regulamin",
-    "sourceUrl": "https://www.ultraturnicki.pl/_files/ugd/883a2a_d7f0d82ad31941bcbd6323cc7947f3fe.pdf",
-    "checkedAt": "2026-11-12"
-   },
-   "id": "ultra-turnicki-pomocna-woda-2027-06-19",
-   "surface": "przelaj",
-   "minKm": 75,
-   "maxKm": 75,
-   "beginnerScore": 1,
-   "beginnerWhy": "najkrótszy dystans 75 km, dystans ultra; przewyższenie nieznane, sprawdź profil trasy."
-  },
-  {
-   "name": "ULTRA TURNICKI Suchy Obycz",
-   "eventName": "ULTRA TURNICKI Suchy Obycz",
-   "dateStart": "2027-06-19",
-   "dateEnd": "2027-06-19",
-   "city": "Przełęcz pod Suchym Obyczem",
-   "region": "",
-   "distancesKm": [
-    24
-   ],
-   "elevations": [
-    {
-     "km": 24,
-     "dplus": 450,
-     "dplusSource": "gpx",
-     "dplusSourceUrl": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_8db1bd631c4b48108381e9287d00872a.gpx?dn=ULTRA%20TURNICKI%2024%20KM%202026.gpx",
-     "dplusCheckedAt": "2026-11-12",
-     "dplusStale": true,
-     "gpx": "255f38ef48ca"
-    }
-   ],
-   "vertical": false,
-   "url": "https://www.ultraturnicki.pl",
-   "sources": [
-    {
-     "name": "kingrunner.com",
-     "url": "https://www.kingrunner.com/bieg/ultra-turnicki-suchy-obycz-24km/4508"
-    },
-    {
-     "name": "trasa (organizator)",
-     "url": "https://www.ultraturnicki.pl/skok-na-zytne-15-km"
-    },
-    {
-     "name": "GPX",
-     "url": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_f9c51c6545aa44cc809c493c248eba7f.gpx?dn=SKOK%20NA%20%C5%BBYTNE%2015%20KM.gpx"
-    },
-    {
-     "name": "regulamin",
-     "url": "https://www.ultraturnicki.pl/_files/ugd/883a2a_d7f0d82ad31941bcbd6323cc7947f3fe.pdf"
-    }
-   ],
-   "spark": [
-    0.85,
-    0.89,
-    0.92,
-    0.81,
-    0.62,
-    0.34,
-    0.25,
-    0.46,
-    0.69,
-    0.44,
-    0.42,
-    0.16,
-    0.06,
-    0.14,
-    0.28,
-    0.53,
-    0.54,
-    0.62,
-    0.48,
-    0.49,
-    0.39,
-    0.33,
-    0.28,
-    0
-   ],
-   "regulaminUrl": "https://www.ultraturnicki.pl/_files/ugd/883a2a_d7f0d82ad31941bcbd6323cc7947f3fe.pdf",
-   "gear": [
-    "Aktywny telefon przez cały czas trwania zawodów",
-    "Kubek wielorazowy (24, 48, 75 km)",
-    "Bidon lub softflask min. 0,5 l (10, 24 km)",
-    "Bidon lub softflask min. 1 l (48, 75 km)",
-    "Folia NRC",
-    "Dowód osobisty lub paszport",
-    "Track GPX w zegarku lub telefonie"
-   ],
-   "signup": {
-    "status": "unknown",
-    "limit": 150,
-    "note": "do wyczerpania limitu",
-    "source": "regulamin",
-    "sourceUrl": "https://www.ultraturnicki.pl/_files/ugd/883a2a_d7f0d82ad31941bcbd6323cc7947f3fe.pdf",
-    "checkedAt": "2026-11-12"
-   },
-   "id": "ultra-turnicki-suchy-obycz-2027-06-19",
-   "surface": "trail",
-   "minKm": 24,
-   "maxKm": 24,
-   "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 24 km to już długo w terenie; łagodnie: ok. 19 m przewyższenia na kilometr."
-  },
-  {
-   "name": "ULTRA TURNICKI Rybotyckie Sploty",
-   "eventName": "ULTRA TURNICKI Rybotyckie Sploty",
-   "dateStart": "2027-06-19",
-   "dateEnd": "2027-06-19",
-   "city": "Posada Rybotycka",
-   "region": "",
-   "distancesKm": [
-    10
-   ],
-   "elevations": [
-    {
-     "km": 10,
-     "dplus": 212,
-     "dplusSource": "gpx",
-     "dplusSourceUrl": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_08b1fbd6849c4777bf5e9b94fdc66a21.gpx?dn=ULTRA%20TURNICKI%2010%20KM%202026.gpx",
-     "dplusCheckedAt": "2026-11-12",
-     "dplusStale": true,
-     "gpx": "2d07e4b56fd0"
-    }
-   ],
-   "vertical": false,
-   "url": "https://www.ultraturnicki.pl",
-   "sources": [
-    {
-     "name": "kingrunner.com",
-     "url": "https://www.kingrunner.com/bieg/ultra-turnicki-rybotyckie-sploty-10km/4509"
-    },
-    {
-     "name": "trasa (organizator)",
-     "url": "https://www.ultraturnicki.pl/skok-na-zytne-15-km"
-    },
-    {
-     "name": "GPX",
-     "url": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_f9c51c6545aa44cc809c493c248eba7f.gpx?dn=SKOK%20NA%20%C5%BBYTNE%2015%20KM.gpx"
-    },
-    {
-     "name": "regulamin",
-     "url": "https://www.ultraturnicki.pl/_files/ugd/883a2a_d7f0d82ad31941bcbd6323cc7947f3fe.pdf"
-    }
-   ],
-   "spark": [
-    0.08,
-    0.08,
-    0.23,
-    0.34,
-    0.42,
-    0.6,
-    0.76,
-    0.8,
-    0.82,
-    0.82,
-    1,
-    0.76,
-    0.73,
-    0.68,
-    0.67,
-    0.67,
-    0.6,
-    0.56,
-    0.57,
-    0.49,
-    0.43,
-    0.41,
-    0.19,
-    0
-   ],
-   "regulaminUrl": "https://www.ultraturnicki.pl/_files/ugd/883a2a_d7f0d82ad31941bcbd6323cc7947f3fe.pdf",
-   "gear": [
-    "Aktywny telefon przez cały czas trwania zawodów",
-    "Kubek wielorazowy (24, 48, 75 km)",
-    "Bidon lub softflask min. 0,5 l (10, 24 km)",
-    "Bidon lub softflask min. 1 l (48, 75 km)",
-    "Folia NRC",
-    "Dowód osobisty lub paszport",
-    "Track GPX w zegarku lub telefonie"
-   ],
-   "signup": {
-    "status": "unknown",
-    "limit": 150,
-    "note": "do wyczerpania limitu",
-    "source": "regulamin",
-    "sourceUrl": "https://www.ultraturnicki.pl/_files/ugd/883a2a_d7f0d82ad31941bcbd6323cc7947f3fe.pdf",
-    "checkedAt": "2026-11-12"
-   },
-   "id": "ultra-turnicki-rybotyckie-sploty-2027-06-19",
-   "surface": "trail",
-   "minKm": 10,
-   "maxKm": 10,
-   "beginnerScore": 5,
-   "beginnerWhy": "najkrótszy dystans 10 km; łagodnie: ok. 21 m przewyższenia na kilometr."
   },
   {
    "name": "X-RUN - Mercure Szczyrk Trail",

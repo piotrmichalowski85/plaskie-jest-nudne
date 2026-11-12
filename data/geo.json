@@ -1421,5 +1421,19 @@
   "display": "Chyrowa, gmina Dukla, powiat krośnieński",
   "at": "2026-11-12",
   "woj": "podkarpackie"
+ },
+ "laskówka": {
+  "lat": 50.4796333,
+  "lng": 16.7787357,
+  "display": "Laskówka, gmina Bardo, powiat ząbkowicki",
+  "at": "2026-11-12",
+  "woj": "dolnośląskie"
+ },
+ "świerki": {
+  "lat": 50.6328513,
+  "lng": 16.4318802,
+  "display": "Świerki, gmina Nowa Ruda, powiat kłodzki",
+  "at": "2026-11-12",
+  "woj": "dolnośląskie"
  }
 }

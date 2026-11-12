@@ -209,77 +209,18 @@
     "until": "2026-10-31"
    },
    {
-    "km": 21,
-    "pln": 160,
-    "until": "2026-10-31"
-   },
-   {
-    "km": 23.5,
-    "pln": 160,
-    "until": "2026-10-31"
-   },
-   {
-    "km": 51,
-    "pln": 200,
-    "until": "2026-10-31"
-   },
-   {
     "km": 10,
     "pln": 140,
     "until": "2027-01-31"
    },
    {
-    "km": 21,
-    "pln": 180,
-    "until": "2027-01-31"
-   },
-   {
-    "km": 23.5,
-    "pln": 180,
-    "until": "2027-01-31"
-   },
-   {
-    "km": 51,
-    "pln": 230
-   },
-   {
     "km": 10,
     "pln": 160,
     "until": "2027-03-31"
    },
    {
-    "km": 21,
-    "pln": 200,
-    "until": "2027-03-31"
-   },
-   {
-    "km": 23.5,
-    "pln": 200,
-    "until": "2027-03-31"
-   },
-   {
-    "km": 51,
-    "pln": 250,
-    "until": "2027-03-31"
-   },
-   {
     "km": 10,
     "pln": 180,
-    "until": "2027-05-07"
-   },
-   {
-    "km": 21,
-    "pln": 220,
-    "until": "2027-05-07"
-   },
-   {
-    "km": 23.5,
-    "pln": 220,
-    "until": "2027-05-07"
-   },
-   {
-    "km": 51,
-    "pln": 280,
     "until": "2027-05-07"
    },
    {
@@ -288,7 +229,47 @@
    },
    {
     "km": 21,
+    "pln": 160,
+    "until": "2026-10-31"
+   },
+   {
+    "km": 21,
+    "pln": 180,
+    "until": "2027-01-31"
+   },
+   {
+    "km": 21,
+    "pln": 200,
+    "until": "2027-03-31"
+   },
+   {
+    "km": 21,
+    "pln": 220,
+    "until": "2027-05-07"
+   },
+   {
+    "km": 21,
     "pln": 250
+   },
+   {
+    "km": 23.5,
+    "pln": 160,
+    "until": "2026-10-31"
+   },
+   {
+    "km": 23.5,
+    "pln": 180,
+    "until": "2027-01-31"
+   },
+   {
+    "km": 23.5,
+    "pln": 200,
+    "until": "2027-03-31"
+   },
+   {
+    "km": 23.5,
+    "pln": 220,
+    "until": "2027-05-07"
    },
    {
     "km": 23.5,
@@ -296,11 +277,31 @@
    },
    {
     "km": 51,
+    "pln": 200,
+    "until": "2026-10-31"
+   },
+   {
+    "km": 51,
+    "pln": 230
+   },
+   {
+    "km": 51,
+    "pln": 250,
+    "until": "2027-03-31"
+   },
+   {
+    "km": 51,
+    "pln": 280,
+    "until": "2027-05-07"
+   },
+   {
+    "km": 51,
     "pln": 300
    },
    {
     "pln": 70,
-    "until": "2027-05-07"
+    "until": "2027-05-07",
+    "label": "mieszkańcy gminy"
    }
   ],
   "startTimes": [
@@ -309,8 +310,8 @@
     "time": "08:00"
    }
   ],
-  "aid": "punkty odświeżania i odżywiania na trasie (bez liczby i rodzaju)",
-  "at": "2026-11-12T09:58:28.410Z"
+  "aid": "punkty odświeżania i odżywiania na trasie; posiłek regeneracyjny po biegu",
+  "at": "2026-11-12T10:22:03.934Z"
  },
  "http://jedlina.pro-run.pl/regulamin-zimowy-polmaraton/": {
   "year": 2027,
@@ -3734,53 +3735,89 @@
    {
     "km": 15.5,
     "pln": 90,
-    "until": "2026-07-31"
+    "until": "2026-07-31",
+    "label": "bieg 1 pętla"
    },
    {
     "km": 15.5,
     "pln": 110,
-    "until": "2026-12-31"
+    "until": "2026-12-31",
+    "label": "bieg 1 pętla"
    },
    {
     "km": 15.5,
     "pln": 130,
-    "until": "2027-02-28"
+    "until": "2027-02-28",
+    "label": "bieg 1 pętla"
    },
    {
     "km": 15.5,
     "pln": 150,
-    "until": "2027-03-15"
+    "until": "2027-03-15",
+    "label": "bieg 1 pętla"
    },
    {
-    "pln": 140
+    "pln": 140,
+    "label": "6 h"
    },
    {
     "pln": 160,
-    "until": "2026-12-31"
+    "until": "2026-12-31",
+    "label": "6 h"
    },
    {
     "pln": 180,
-    "until": "2027-02-28"
+    "until": "2027-02-28",
+    "label": "6 h"
    },
    {
     "pln": 200,
-    "until": "2027-03-15"
+    "until": "2027-03-15",
+    "label": "6 h"
    },
    {
     "pln": 220,
-    "until": "2026-07-31"
+    "until": "2026-07-31",
+    "label": "12 h"
    },
    {
     "pln": 240,
-    "until": "2026-12-31"
+    "until": "2026-12-31",
+    "label": "12 h"
    },
    {
     "pln": 260,
-    "until": "2027-02-28"
+    "until": "2027-02-28",
+    "label": "12 h"
    },
    {
     "pln": 280,
-    "until": "2027-03-15"
+    "until": "2027-03-15",
+    "label": "12 h"
+   },
+   {
+    "km": 15.5,
+    "pln": 90,
+    "until": "2026-07-31",
+    "label": "NW rodzic + dziecko"
+   },
+   {
+    "km": 15.5,
+    "pln": 110,
+    "until": "2026-12-31",
+    "label": "NW rodzic + dziecko"
+   },
+   {
+    "km": 15.5,
+    "pln": 130,
+    "until": "2027-02-28",
+    "label": "NW rodzic + dziecko"
+   },
+   {
+    "km": 15.5,
+    "pln": 150,
+    "until": "2027-03-15",
+    "label": "NW rodzic + dziecko"
    }
   ],
   "startTimes": [
@@ -3789,12 +3826,16 @@
     "time": "10:00"
    },
    {
+    "km": 15.5,
+    "time": "09:30"
+   },
+   {
     "time": "08:00"
    }
   ],
-  "office": "Centrum Sportów Zimowych w Ptaszkowej. 19.03.2027 16:00-19:00, 20.03.2027 7:00-9:30",
-  "aid": "bufet i punkt żywieniowy",
-  "at": "2026-11-12T09:57:28.135Z"
+  "office": "Centrum Sportów Zimowych w Ptaszkowej; 19.03.2027 16:00-19:00, 20.03.2027 7:00-9:30",
+  "aid": "bufet, punkt żywieniowy",
+  "at": "2026-11-12T10:21:13.819Z"
  },
  "https://orlegniazda.com/regulamin/": {
   "year": 2027,
@@ -4351,30 +4392,36 @@
    {
     "km": 75,
     "pln": 540,
-    "until": "2026-11-03"
+    "until": "2026-11-03",
+    "label": "Sztafeta 3x25 km"
    },
    {
     "km": 75,
     "pln": 595,
-    "until": "2027-03-01"
+    "until": "2027-03-01",
+    "label": "Sztafeta 3x25 km"
    },
    {
     "km": 75,
-    "pln": 660
+    "pln": 660,
+    "label": "Sztafeta 3x25 km"
    },
    {
     "km": 75,
     "pln": 280,
-    "until": "2026-11-03"
+    "until": "2026-11-03",
+    "label": "SOLO"
    },
    {
     "km": 75,
     "pln": 310,
-    "until": "2027-03-01"
+    "until": "2027-03-01",
+    "label": "SOLO"
    },
    {
     "km": 75,
-    "pln": 335
+    "pln": 335,
+    "label": "SOLO"
    },
    {
     "km": 42,
@@ -4443,11 +4490,11 @@
     "time": "12:00"
    }
   ],
-  "office": "Pijalnia Wód Mineralnych, ul. Zdrojowa 43A, Kudowa-Zdrój; pt 16:00-21:30, sob 04:30-05:30 (przepaki i depozyty)",
-  "aid": "bufety z napojami na trasach: 6 na 75 km, 3 na 42 km, 2 na 21 km, 1 na 10 km",
+  "office": "Pijalnia Wód Mineralnych, ul. Zdrojowa 43A, Kudowa-Zdrój; przepaki: pt 09.04 16:00-21:30, sob 10.04 04:30-05:30",
+  "aid": "bufety co ok. 10-16 km, napoje i wyżywienie na trasie, posiłek po biegu",
   "dogs": "nie",
   "kids": true,
-  "at": "2026-11-12T09:58:06.552Z"
+  "at": "2026-11-12T10:21:38.124Z"
  },
  "https://tamizpowrotem.eu/wp-content/uploads/2026/06/Regulamin_TIZP_2026.pdf": {
   "year": 2026,
@@ -4847,6 +4894,10 @@
   "year": 2027,
   "limits": [
    {
+    "km": 6.3,
+    "limitH": 1.5
+   },
+   {
     "km": 11.86,
     "limitH": 2.75
    },
@@ -4857,53 +4908,9 @@
    {
     "km": 47.89,
     "limitH": 10
-   },
-   {
-    "km": 6.3,
-    "limitH": 1.5
    }
   ],
   "fees": [
-   {
-    "km": 11.86,
-    "pln": 159,
-    "until": "2026-10-28"
-   },
-   {
-    "km": 11.86,
-    "pln": 179,
-    "until": "2026-11-30"
-   },
-   {
-    "km": 11.86,
-    "pln": 189,
-    "until": "2027-01-07"
-   },
-   {
-    "km": 11.86,
-    "pln": 199,
-    "until": "2027-02-08"
-   },
-   {
-    "km": 22.25,
-    "pln": 199,
-    "until": "2026-10-28"
-   },
-   {
-    "km": 22.25,
-    "pln": 219,
-    "until": "2026-11-30"
-   },
-   {
-    "km": 22.25,
-    "pln": 239,
-    "until": "2027-01-07"
-   },
-   {
-    "km": 22.25,
-    "pln": 259,
-    "until": "2027-02-08"
-   },
    {
     "km": 47.89,
     "pln": 269,
@@ -4926,63 +4933,119 @@
    },
    {
     "km": 22.25,
+    "pln": 199,
+    "until": "2026-10-28",
+    "label": "Zimna Połówka"
+   },
+   {
+    "km": 22.25,
     "pln": 219,
-    "until": "2026-10-28"
+    "until": "2026-11-30",
+    "label": "Zimna Połówka"
    },
    {
     "km": 22.25,
     "pln": 239,
-    "until": "2026-11-30"
+    "until": "2027-01-07",
+    "label": "Zimna Połówka"
    },
    {
     "km": 22.25,
     "pln": 259,
-    "until": "2027-01-07"
+    "until": "2027-02-08",
+    "label": "Zimna Połówka"
+   },
+   {
+    "km": 22.25,
+    "pln": 219,
+    "until": "2026-10-28",
+    "label": "TWT na 6 Łap"
+   },
+   {
+    "km": 22.25,
+    "pln": 239,
+    "until": "2026-11-30",
+    "label": "TWT na 6 Łap"
+   },
+   {
+    "km": 22.25,
+    "pln": 259,
+    "until": "2027-01-07",
+    "label": "TWT na 6 Łap"
    },
    {
     "km": 22.25,
     "pln": 279,
+    "until": "2027-02-08",
+    "label": "TWT na 6 Łap"
+   },
+   {
+    "km": 11.86,
+    "pln": 159,
+    "until": "2026-10-28"
+   },
+   {
+    "km": 11.86,
+    "pln": 179,
+    "until": "2026-11-30"
+   },
+   {
+    "km": 11.86,
+    "pln": 189,
+    "until": "2027-01-07"
+   },
+   {
+    "km": 11.86,
+    "pln": 199,
     "until": "2027-02-08"
    },
    {
     "km": 6.3,
     "pln": 199,
-    "until": "2026-10-28"
+    "until": "2026-10-28",
+    "label": "bieg dla par"
    },
    {
     "km": 6.3,
     "pln": 219,
-    "until": "2026-11-30"
+    "until": "2026-11-30",
+    "label": "bieg dla par"
    },
    {
     "km": 6.3,
     "pln": 239,
-    "until": "2027-01-07"
+    "until": "2027-01-07",
+    "label": "bieg dla par"
    },
    {
     "km": 6.3,
     "pln": 259,
-    "until": "2027-02-08"
+    "until": "2027-02-08",
+    "label": "bieg dla par"
    },
    {
     "km": 6.3,
     "pln": 119,
-    "until": "2026-10-28"
+    "until": "2026-10-28",
+    "label": "bieg dla singli"
    },
    {
     "km": 6.3,
     "pln": 139,
-    "until": "2026-11-30"
+    "until": "2026-11-30",
+    "label": "bieg dla singli"
    },
    {
     "km": 6.3,
     "pln": 159,
-    "until": "2027-01-07"
+    "until": "2027-01-07",
+    "label": "bieg dla singli"
    },
    {
     "km": 6.3,
     "pln": 179,
-    "until": "2027-02-08"
+    "until": "2027-02-08",
+    "label": "bieg dla singli"
    }
   ],
   "startTimes": [
@@ -5011,11 +5074,11 @@
     "time": "11:30"
    }
   ],
-  "office": "Mała Hala Sportowa, Hotel Gorce, Nowy Targ: pt 15:00-20:00; sob 08:00-18:00 wg dystansu; nd 09:00-10:00 (Love)",
-  "aid": "Woda, napoje, przekąski. 22 km: Turbacz; AK-47: Obidowa, Turbacz, Ostrowsko",
+  "office": "Mała Hala Sportowa, Hotel Gorce (Aleja Tysiąclecia 74, Nowy Targ): pt 15:00-20:00, sob 08:00-18:00, nd 09:00-10:00",
+  "aid": "woda, napoje, przekąski: AK-47 na 11,9, 31,6 i 43,1 km; 22 km na 14,3 km",
   "poles": "tak",
   "dogs": "tak",
-  "at": "2026-11-12T09:57:01.831Z"
+  "at": "2026-11-12T10:19:54.659Z"
  },
  "https://turystyka.glucholazy.pl/download/attachment/24767/regulamin.pdf?v=1775550054": {
   "year": 2026,
@@ -5139,50 +5202,60 @@
    {
     "km": 27.3,
     "pln": 300,
-    "until": "2026-07-05"
+    "until": "2026-07-05",
+    "label": "w parze"
    },
    {
     "km": 27.3,
     "pln": 380,
-    "until": "2026-08-31"
+    "until": "2026-08-31",
+    "label": "w parze"
    },
    {
     "km": 27.3,
     "pln": 460,
-    "until": "2026-10-31"
+    "until": "2026-10-31",
+    "label": "w parze"
    },
    {
     "km": 27.3,
     "pln": 480,
-    "until": "2027-01-04"
+    "until": "2027-01-04",
+    "label": "w parze"
    },
    {
     "km": 27.3,
-    "pln": 540
+    "pln": 540,
+    "label": "w parze"
    },
    {
     "km": 27.3,
     "pln": 150,
-    "until": "2026-07-05"
+    "until": "2026-07-05",
+    "label": "indywidualny"
    },
    {
     "km": 27.3,
     "pln": 190,
-    "until": "2026-08-31"
+    "until": "2026-08-31",
+    "label": "indywidualny"
    },
    {
     "km": 27.3,
     "pln": 230,
-    "until": "2026-10-31"
+    "until": "2026-10-31",
+    "label": "indywidualny"
    },
    {
     "km": 27.3,
     "pln": 270,
-    "until": "2027-01-04"
+    "until": "2027-01-04",
+    "label": "indywidualny"
    },
    {
     "km": 27.3,
-    "pln": 310
+    "pln": 310,
+    "label": "indywidualny"
    },
    {
     "km": 10,
@@ -5203,6 +5276,34 @@
     "km": 10,
     "pln": 190,
     "until": "2027-01-04"
+   },
+   {
+    "km": 10,
+    "pln": 210
+   },
+   {
+    "km": 5,
+    "pln": 60,
+    "until": "2026-07-05"
+   },
+   {
+    "km": 5,
+    "pln": 80,
+    "until": "2026-08-31"
+   },
+   {
+    "km": 5,
+    "pln": 100,
+    "until": "2026-10-31"
+   },
+   {
+    "km": 5,
+    "pln": 120,
+    "until": "2027-01-04"
+   },
+   {
+    "km": 5,
+    "pln": 140
    }
   ],
   "startTimes": [
@@ -5231,10 +5332,10 @@
     "time": "13:30"
    }
   ],
-  "office": "Gdyńskie Centrum Sportu, hala lekkoatletyczna, ul. Olimpijska 5/9; 15-16.01.2027, godziny w osobnym komunikacie",
-  "aid": "Napoje, przekąski, owoce; ciepłe posiłki na Szmelta, Marszewo, Wiczlino i Kack Park",
+  "office": "Hala lekkoatletyczna GCS, ul. Olimpijska 5/9, Gdynia; 15-16.01.2027, godziny w osobnym komunikacie",
+  "aid": "Napoje, owoce, przekąski, słodycze; ciepłe posiłki: Szmelta, Marszewo, Wiczlino, Kack Park",
   "poles": "tak",
-  "at": "2026-11-12T09:56:12.205Z"
+  "at": "2026-11-12T10:19:30.320Z"
  },
  "https://ultrakamiensk.pl/regulamin/": {
   "at": "2026-11-08T14:10:24.237Z"
@@ -7174,5 +7275,303 @@
   "year": 2027,
   "kids": true,
   "at": "2026-11-08T14:10:24.240Z"
+ },
+ "https://xrun.pl/regulamin/": {
+  "year": 2027,
+  "limits": [
+   {
+    "km": 32,
+    "limitH": 6
+   },
+   {
+    "km": 21,
+    "limitH": 4
+   },
+   {
+    "km": 14,
+    "limitH": 4
+   },
+   {
+    "km": 43,
+    "limitH": 10
+   },
+   {
+    "km": 31,
+    "limitH": 7
+   },
+   {
+    "km": 23,
+    "limitH": 4
+   },
+   {
+    "km": 50,
+    "limitH": 10
+   },
+   {
+    "km": 38,
+    "limitH": 8
+   },
+   {
+    "km": 22,
+    "limitH": 6
+   },
+   {
+    "km": 45,
+    "limitH": 9
+   },
+   {
+    "km": 25,
+    "limitH": 7
+   },
+   {
+    "km": 15,
+    "limitH": 5
+   }
+  ],
+  "fees": [
+   {
+    "km": 32,
+    "pln": 190,
+    "until": "2026-12-31",
+    "label": "Tajemnicze Kopce"
+   },
+   {
+    "km": 32,
+    "pln": 230,
+    "until": "2027-01-30",
+    "label": "Tajemnicze Kopce"
+   },
+   {
+    "km": 32,
+    "pln": 270,
+    "until": "2027-02-14",
+    "label": "Tajemnicze Kopce"
+   },
+   {
+    "km": 32,
+    "pln": 310,
+    "until": "2027-03-07",
+    "label": "Tajemnicze Kopce"
+   },
+   {
+    "km": 21,
+    "pln": 160,
+    "until": "2026-12-31",
+    "label": "Tajemnicze Kopce"
+   },
+   {
+    "km": 21,
+    "pln": 190,
+    "until": "2027-01-30",
+    "label": "Tajemnicze Kopce"
+   },
+   {
+    "km": 21,
+    "pln": 230,
+    "until": "2027-02-14",
+    "label": "Tajemnicze Kopce"
+   },
+   {
+    "km": 21,
+    "pln": 260,
+    "until": "2027-03-07",
+    "label": "Tajemnicze Kopce"
+   },
+   {
+    "km": 14,
+    "pln": 150,
+    "until": "2026-12-31",
+    "label": "Tajemnicze Kopce"
+   },
+   {
+    "km": 14,
+    "pln": 170,
+    "until": "2027-01-30",
+    "label": "Tajemnicze Kopce"
+   },
+   {
+    "km": 14,
+    "pln": 180,
+    "until": "2027-02-14",
+    "label": "Tajemnicze Kopce"
+   },
+   {
+    "km": 14,
+    "pln": 210,
+    "until": "2027-03-07",
+    "label": "Tajemnicze Kopce"
+   },
+   {
+    "km": 6,
+    "pln": 60,
+    "until": "2026-12-31",
+    "label": "Tajemnicze Kopce"
+   },
+   {
+    "km": 6,
+    "pln": 70,
+    "until": "2027-01-31",
+    "label": "Tajemnicze Kopce"
+   },
+   {
+    "km": 6,
+    "pln": 80,
+    "until": "2027-02-14",
+    "label": "Tajemnicze Kopce"
+   },
+   {
+    "km": 6,
+    "pln": 100,
+    "until": "2027-03-07",
+    "label": "Tajemnicze Kopce"
+   },
+   {
+    "km": 42,
+    "pln": 190,
+    "until": "2026-12-31",
+    "label": "Muszyna Trail"
+   },
+   {
+    "km": 42,
+    "pln": 230,
+    "until": "2027-01-30",
+    "label": "Muszyna Trail"
+   },
+   {
+    "km": 42,
+    "pln": 270,
+    "until": "2027-02-28",
+    "label": "Muszyna Trail"
+   },
+   {
+    "km": 42,
+    "pln": 310,
+    "until": "2027-04-11",
+    "label": "Muszyna Trail"
+   },
+   {
+    "km": 31,
+    "pln": 160,
+    "until": "2026-12-31",
+    "label": "Muszyna Trail"
+   },
+   {
+    "km": 31,
+    "pln": 190,
+    "until": "2027-01-30",
+    "label": "Muszyna Trail"
+   },
+   {
+    "km": 31,
+    "pln": 230,
+    "until": "2027-02-28",
+    "label": "Muszyna Trail"
+   },
+   {
+    "km": 31,
+    "pln": 260,
+    "until": "2027-04-11",
+    "label": "Muszyna Trail"
+   },
+   {
+    "km": 23,
+    "pln": 150,
+    "until": "2026-12-31",
+    "label": "Muszyna Trail"
+   },
+   {
+    "km": 23,
+    "pln": 170,
+    "until": "2027-01-30",
+    "label": "Muszyna Trail"
+   },
+   {
+    "km": 23,
+    "pln": 180,
+    "until": "2027-02-28",
+    "label": "Muszyna Trail"
+   },
+   {
+    "km": 23,
+    "pln": 210,
+    "until": "2027-04-11",
+    "label": "Muszyna Trail"
+   },
+   {
+    "km": 6,
+    "pln": 60,
+    "until": "2026-12-31",
+    "label": "Muszyna Trail"
+   },
+   {
+    "km": 6,
+    "pln": 70,
+    "until": "2027-01-30",
+    "label": "Muszyna Trail"
+   },
+   {
+    "km": 6,
+    "pln": 80,
+    "until": "2027-02-28",
+    "label": "Muszyna Trail"
+   },
+   {
+    "km": 6,
+    "pln": 100,
+    "until": "2027-04-11",
+    "label": "Muszyna Trail"
+   },
+   {
+    "km": 6,
+    "pln": 60,
+    "until": "2026-12-31",
+    "label": "Muszyna Trail"
+   },
+   {
+    "km": 6,
+    "pln": 70,
+    "until": "2027-01-31",
+    "label": "Muszyna Trail"
+   },
+   {
+    "km": 6,
+    "pln": 80,
+    "until": "2027-02-28",
+    "label": "Muszyna Trail"
+   },
+   {
+    "km": 6,
+    "pln": 100,
+    "until": "2027-04-11",
+    "label": "Muszyna Trail"
+   },
+   {
+    "km": 50,
+    "pln": 190,
+    "until": "2026-12-31",
+    "label": "Wyspowy Trail"
+   },
+   {
+    "km": 50,
+    "pln": 230,
+    "until": "2027-01-30",
+    "label": "Wyspowy Trail"
+   },
+   {
+    "km": 50,
+    "pln": 270,
+    "until": "2027-03-31",
+    "label": "Wyspowy Trail"
+   },
+   {
+    "km": 50,
+    "pln": 310,
+    "until": "2027-05-16",
+    "label": "Wyspowy Trail"
+   }
+  ],
+  "aid": "napoje i wyżywienie na punktach kontrolnych, ciepły posiłek regeneracyjny na mecie",
+  "kids": true,
+  "at": "2026-11-12T10:20:39.820Z"
  }
 }
