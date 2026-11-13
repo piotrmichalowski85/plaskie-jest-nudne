@@ -14,7 +14,7 @@ const months = (days: number) => (days / 30.4).toFixed(1).replace(".", ",");
 const cen = (n: number) => `${n} ${n === 1 ? "cennik" : n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? "cenniki" : "cenników"}`;
 const kmRatio = (b12.perKmFirst.median / bUltra.perKmFirst.median).toFixed(1).replace(".", ",");
 
-const TITLE = `Ile kosztuje bieg górski w Polsce? Opłaty startowe ${report.season.join("/")}`;
+const TITLE = `Ile kosztuje bieg górski i trailowy w Polsce? Opłaty startowe ${report.season.join("/")}`;
 const DESC = `Mediana opłaty startowej w pierwszym progu zapisów: ${zl(b12.first.median)} do 12 km, ${zl(b25.first.median)} na 13-25 km, ${zl(b45.first.median)} na 26-45 km, ${zl(bUltra.first.median)} w ultra. Ostatni próg jest droższy o ${pct(s.rise.median)}. Dane z ${s.regulaminy} regulaminów, do pobrania.`;
 export const metadata: Metadata = { title: TITLE, description: DESC, alternates: { canonical: PATH }, openGraph: { title: TITLE, description: DESC, url: PATH, type: "article" } };
 

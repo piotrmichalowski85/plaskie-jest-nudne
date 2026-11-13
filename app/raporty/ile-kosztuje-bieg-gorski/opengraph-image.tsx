@@ -14,7 +14,7 @@ export default function OG() {
         </div>
         <div style={{ display: "flex", flexDirection: "column", padding: "52px 72px" }}>
           <div style={{ fontSize: 30, fontWeight: 800, color: "#1f4128", display: "flex" }}><span>płaskie</span><span style={{ color: "#e8b84a" }}>jest</span><span>nudne</span><span style={{ marginLeft: 18, fontWeight: 400, color: "#5f665b" }}>{`raport z regulaminów, edycje ${report.season.join(" i ")}`}</span></div>
-          <div style={{ marginTop: 26, fontSize: 54, fontWeight: 800, color: "#17201a", lineHeight: 1.05 }}>Ile kosztuje bieg górski w Polsce</div>
+          <div style={{ marginTop: 26, fontSize: 54, fontWeight: 800, color: "#17201a", lineHeight: 1.05 }}>Ile kosztuje bieg górski i trailowy w Polsce</div>
           <div style={{ display: "flex", alignItems: "flex-end", marginTop: 18 }}>
             <div style={{ fontSize: 150, fontWeight: 800, color: "#1f4128", lineHeight: 1 }}>{`+${pct(s.rise.median)}`}</div>
             <div style={{ display: "flex", marginLeft: 28, marginBottom: 20, fontSize: 34, color: "#3d4d34", maxWidth: 560, lineHeight: 1.2 }}>o tyle drożej jest zapisać się w ostatnim progu niż w pierwszym</div>
