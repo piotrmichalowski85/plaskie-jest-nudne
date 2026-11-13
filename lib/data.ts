@@ -53,7 +53,13 @@ function withInfo(r: Race): Race {
   return { ...r, elevations, ...(hasMore ? { info: { ...rest, ...(stale ? { stale } : {}) } } : {}) };
 }
 
-export const allRaces: Race[] = ds.races.map((r) => withInfo({ ...r, eventName: expandAbbrev(niceName(r.eventName), r.name), name: niceName(r.name) }));
+/** nazwa imprezy do wyświetlenia; gdy źródło podaje sam skrót cyklu ("X-RUN" przy sześciu biegach roku), bierzemy pierwszy człon pełnej nazwy ("X-RUN - Tajemnicze Kopce") */
+function displayEvent(r: Race): string {
+  const ev = expandAbbrev(niceName(r.eventName), r.name);
+  const full = niceName(r.name).split(": ")[0].trim();
+  return ev.length <= 6 && full.length > ev.length && full.length <= 60 ? full : ev;
+}
+export const allRaces: Race[] = ds.races.map((r) => withInfo({ ...r, eventName: displayEvent(r), name: niceName(r.name) }));
 export const today = () => new Date().toISOString().slice(0, 10);
 export const upcomingRaces = () => allRaces.filter((r) => r.dateEnd >= today());
 export const raceById = (id: string) => allRaces.find((r) => r.id === id);

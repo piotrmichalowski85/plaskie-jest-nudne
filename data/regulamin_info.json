@@ -3572,6 +3572,254 @@
   "poles": "tak",
   "at": "2026-11-12T09:54:08.912Z"
  },
+ "https://krakowbiega.pl/wp-content/uploads/2026/08/Regulamin-XV-edycja-GPK.pdf": {
+  "year": 2026,
+  "limits": [
+   {
+    "km": 3.7,
+    "limitH": 2
+   },
+   {
+    "km": 5.7,
+    "limitH": 2
+   },
+   {
+    "km": 11.6,
+    "limitH": 2
+   },
+   {
+    "km": 23.2,
+    "limitH": 3.5
+   }
+  ],
+  "fees": [
+   {
+    "km": 3.7,
+    "pln": 210,
+    "until": "2026-09-10",
+    "label": "normalny"
+   },
+   {
+    "km": 3.7,
+    "pln": 130,
+    "until": "2026-09-10",
+    "label": "ulgowy (do 18 lat, 65+)"
+   },
+   {
+    "km": 3.7,
+    "pln": 230,
+    "until": "2026-09-30",
+    "label": "normalny"
+   },
+   {
+    "km": 3.7,
+    "pln": 140,
+    "until": "2026-09-30",
+    "label": "ulgowy (do 18 lat, 65+)"
+   },
+   {
+    "km": 3.7,
+    "pln": 250,
+    "until": "2026-10-18",
+    "label": "normalny"
+   },
+   {
+    "km": 3.7,
+    "pln": 150,
+    "until": "2026-10-18",
+    "label": "ulgowy (do 18 lat, 65+)"
+   },
+   {
+    "km": 3.7,
+    "pln": 270,
+    "label": "normalny"
+   },
+   {
+    "km": 3.7,
+    "pln": 160,
+    "label": "ulgowy (do 18 lat, 65+)"
+   },
+   {
+    "km": 5.7,
+    "pln": 240,
+    "until": "2026-09-10",
+    "label": "normalny"
+   },
+   {
+    "km": 5.7,
+    "pln": 150,
+    "until": "2026-09-10",
+    "label": "ulgowy (do 18 lat, 65+)"
+   },
+   {
+    "km": 5.7,
+    "pln": 260,
+    "until": "2026-09-30",
+    "label": "normalny"
+   },
+   {
+    "km": 5.7,
+    "pln": 160,
+    "until": "2026-09-30",
+    "label": "ulgowy (do 18 lat, 65+)"
+   },
+   {
+    "km": 5.7,
+    "pln": 270,
+    "until": "2026-10-18",
+    "label": "normalny"
+   },
+   {
+    "km": 5.7,
+    "pln": 170,
+    "until": "2026-10-18",
+    "label": "ulgowy (do 18 lat, 65+)"
+   },
+   {
+    "km": 5.7,
+    "pln": 290,
+    "label": "normalny"
+   },
+   {
+    "km": 5.7,
+    "pln": 180,
+    "label": "ulgowy (do 18 lat, 65+)"
+   },
+   {
+    "km": 11.6,
+    "pln": 260,
+    "until": "2026-09-10",
+    "label": "normalny"
+   },
+   {
+    "km": 11.6,
+    "pln": 170,
+    "until": "2026-09-10",
+    "label": "ulgowy (do 18 lat, 65+)"
+   },
+   {
+    "km": 11.6,
+    "pln": 280,
+    "until": "2026-09-30",
+    "label": "normalny"
+   },
+   {
+    "km": 11.6,
+    "pln": 180,
+    "until": "2026-09-30",
+    "label": "ulgowy (do 18 lat, 65+)"
+   },
+   {
+    "km": 11.6,
+    "pln": 290,
+    "until": "2026-10-18",
+    "label": "normalny"
+   },
+   {
+    "km": 11.6,
+    "pln": 190,
+    "until": "2026-10-18",
+    "label": "ulgowy (do 18 lat, 65+)"
+   },
+   {
+    "km": 11.6,
+    "pln": 310,
+    "label": "normalny"
+   },
+   {
+    "km": 11.6,
+    "pln": 200,
+    "label": "ulgowy (do 18 lat, 65+)"
+   },
+   {
+    "km": 23.2,
+    "pln": 280,
+    "until": "2026-09-10",
+    "label": "normalny"
+   },
+   {
+    "km": 23.2,
+    "pln": 180,
+    "until": "2026-09-10",
+    "label": "ulgowy (do 18 lat, 65+)"
+   },
+   {
+    "km": 23.2,
+    "pln": 300,
+    "until": "2026-09-30",
+    "label": "normalny"
+   },
+   {
+    "km": 23.2,
+    "pln": 190,
+    "until": "2026-09-30",
+    "label": "ulgowy (do 18 lat, 65+)"
+   },
+   {
+    "km": 23.2,
+    "pln": 310,
+    "until": "2026-10-18",
+    "label": "normalny"
+   },
+   {
+    "km": 23.2,
+    "pln": 200,
+    "until": "2026-10-18",
+    "label": "ulgowy (do 18 lat, 65+)"
+   },
+   {
+    "km": 23.2,
+    "pln": 330,
+    "label": "normalny"
+   },
+   {
+    "km": 23.2,
+    "pln": 210,
+    "label": "ulgowy (do 18 lat, 65+)"
+   },
+   {
+    "pln": 150,
+    "until": "2026-09-10",
+    "label": "normalny"
+   },
+   {
+    "pln": 100,
+    "until": "2026-09-10",
+    "label": "ulgowy (do 18 lat, 65+)"
+   },
+   {
+    "pln": 180,
+    "until": "2026-09-30",
+    "label": "normalny"
+   },
+   {
+    "pln": 110,
+    "until": "2026-09-30",
+    "label": "ulgowy (do 18 lat, 65+)"
+   },
+   {
+    "pln": 210,
+    "until": "2026-10-18",
+    "label": "normalny"
+   },
+   {
+    "pln": 120,
+    "until": "2026-10-18",
+    "label": "ulgowy (do 18 lat, 65+)"
+   },
+   {
+    "pln": 220,
+    "label": "normalny"
+   },
+   {
+    "pln": 130,
+    "label": "ulgowy (do 18 lat, 65+)"
+   }
+  ],
+  "dogs": "nie",
+  "kids": true,
+  "at": "2026-11-13T10:52:03.441Z"
+ },
  "https://malopolskabiega.com.pl/regulamin-jesienny-ultra-swir/": {
   "year": 2026,
   "limits": [
@@ -6488,6 +6736,9 @@
   "dogs": "nie",
   "at": "2026-11-08T14:10:24.228Z"
  },
+ "https://www.biegzboja.pl/regulaminb": {
+  "at": "2026-11-13T10:52:10.202Z"
+ },
  "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf": {
   "year": 2023,
   "limits": [
@@ -7002,6 +7253,59 @@
   "poles": "tak",
   "dogs": "nie",
   "at": "2026-11-12T09:56:36.152Z"
+ },
+ "https://www.maratongorstolowych.pl/wp-content/uploads/2026/09/ZPGS27_regulamin.docx.pdf": {
+  "year": 2027,
+  "limits": [
+   {
+    "km": 21,
+    "limitH": 5
+   },
+   {
+    "km": 31,
+    "limitH": 7
+   }
+  ],
+  "fees": [
+   {
+    "km": 21,
+    "pln": 230
+   },
+   {
+    "km": 21,
+    "pln": 255
+   },
+   {
+    "km": 21,
+    "pln": 280
+   },
+   {
+    "km": 31,
+    "pln": 250
+   },
+   {
+    "km": 31,
+    "pln": 275
+   },
+   {
+    "km": 31,
+    "pln": 300
+   }
+  ],
+  "startTimes": [
+   {
+    "km": 21,
+    "time": "09:00"
+   },
+   {
+    "km": 31,
+    "time": "07:00"
+   }
+  ],
+  "office": "Centrum Szkoleniowo Edukacyjne PNGS, Karłów 10, 57-350 Kudowa-Zdrój",
+  "aid": "21 km: 2 bufety (6,7 i 13,6 km); 31 km: 3 bufety (6,7, 13,6, 19,7 km); napoje i wyżywienie",
+  "dogs": "nie",
+  "at": "2026-11-13T10:52:25.596Z"
  },
  "https://www.ultralemkowyna.pl/regulaminy": {
   "year": 2027,

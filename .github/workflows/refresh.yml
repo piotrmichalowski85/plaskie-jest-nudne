@@ -18,7 +18,9 @@ jobs:
       - name: sanity check (min. 100 biegów, inaczej nie nadpisuj)
         run: node -e 'const d=require("./data/races.json"); if (d.count < 100) { console.error("za mało rekordów:", d.count); process.exit(1);} console.log("ok", d.count)'
       - name: pogoda (Open-Meteo, prognoza 16 dni + typowa pogoda w terminie)
-        run: npx tsx scripts/weather.ts || echo "pogoda: błąd, zostają poprzednie dane"
+        # blok "|", bo dwukropek ze spacją w jednolinijkowym "run:" unieważnia cały plik (tak było od 08.11 do 13.11.2026)
+        run: |
+          npx tsx scripts/weather.ts || echo "pogoda - błąd, zostają poprzednie dane"
       - name: raport zmian
         run: npx tsx scripts/zmiany.ts /tmp/prev_races.json data/races.json "odświeżenie kalendarza"
       - name: commit

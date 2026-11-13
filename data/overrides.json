@@ -88,5 +88,80 @@
   "match": "[ŁL]emkowyna|[ŁL]emko ",
   "date": "2027-10",
   "regulaminUrl": "https://www.ultralemkowyna.pl/regulaminy"
+ },
+ {
+  "match": "Garmin Ultra Race Gda",
+  "date": "2026-12",
+  "dplus": {
+   "12": 250,
+   "27": 600,
+   "53": 1200
+  },
+  "dplusUrl": "https://ultrarace.pl/gdansk/trasa-gdansk/",
+  "checked": "2026-11-13"
+ },
+ {
+  "match": "Turbacz Winter Trail",
+  "date": "2027-02",
+  "url": "https://turbacztrail.pl/wydarzenie/turbaczwintertrail_2027/",
+  "dplus": {
+   "6.3": 320,
+   "11.86": 529,
+   "22.25": 1025,
+   "47.89": 1975
+  },
+  "dplusUrl": "https://turbacztrail.pl/wydarzenie/turbaczwintertrail_2027/",
+  "checked": "2026-11-13"
+ },
+ {
+  "match": "Miko[łl]ajkowy",
+  "date": "2026-12-06",
+  "url": "https://turbacztrail.pl/wydarzenie/podhalanski-bieg-mikolajkowy-2026/",
+  "dplus": {
+   "6.03": 257,
+   "13.79": 453
+  },
+  "dplusUrl": "https://turbacztrail.pl/wydarzenie/podhalanski-bieg-mikolajkowy-2026/",
+  "checked": "2026-11-13",
+  "regulaminUrl": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-Podhalanski-Bieg-Mikolajkowy-2026.pdf"
+ },
+ {
+  "match": "Gdynia Ultra Way",
+  "date": "2027-01",
+  "dplus": {
+   "10": 365
+  },
+  "dplusUrl": "https://ultra-way.pl/zimowy-festiwal-biegowy-ultra-way/",
+  "checked": "2026-11-13"
+ },
+ {
+  "match": "Szczyt Wytrzyma",
+  "date": "2026-12",
+  "dplus": {
+   "16": 1608
+  },
+  "dplusUrl": "https://dostartu.pl/statute_files/17345_pl.pdf",
+  "checked": "2026-11-13"
+ },
+ {
+  "match": "Grand Prix Krakowa",
+  "regulaminUrl": "https://krakowbiega.pl/wp-content/uploads/2026/08/Regulamin-XV-edycja-GPK.pdf",
+  "date": "2026-1"
+ },
+ {
+  "match": "Zimowy P[oó][łl]maraton G[oó]r Sto[łl]owych|ZPGS",
+  "date": "2027-01",
+  "regulaminUrl": "https://www.maratongorstolowych.pl/wp-content/uploads/2026/09/ZPGS27_regulamin.docx.pdf"
+ },
+ {
+  "match": "Zimowy P[oó][łl]maraton G[oó]rski Jedlina|Zimowa Dycha Jedlina",
+  "date": "2027-02",
+  "url": "http://jedlina.pro-run.pl/",
+  "regulaminUrl": "http://jedlina.pro-run.pl/regulamin-zimowy-polmaraton/"
+ },
+ {
+  "match": "Grand Prix Krakowa",
+  "date": "2027",
+  "regulaminUrl": "https://krakowbiega.pl/wp-content/uploads/2026/08/Regulamin-XV-edycja-GPK.pdf"
  }
 ]
