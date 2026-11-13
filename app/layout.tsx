@@ -48,13 +48,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main id="tresc" tabIndex={-1} className="mx-auto w-full min-w-0 max-w-6xl px-4 py-8 flex-1 outline-none">{children}</main>
         <footer className="border-t border-[var(--line)] text-sm text-[var(--muted)]">
           <div className="mx-auto max-w-6xl px-4 py-6 flex flex-col sm:flex-row gap-2 justify-between">
-<<<<<<< HEAD
-            <span>Płaskie jest nudne: wejdź w trail, zacznij od podbiegu. Serwis niekomercyjny.</span>
-            <span className="flex flex-wrap gap-x-3 gap-y-1"><Link href="/zmiany" className="underline">Co nowego</Link><Link href="/newsletter" className="underline">Newsletter</Link><Link href="/dla-organizatorow" className="underline">Dla organizatorów</Link><Link href="/o-serwisie" className="underline">O serwisie</Link><Link href="/prywatnosc" className="underline">Prywatność</Link><Link href="/slownik" className="underline md:hidden">Słownik</Link></span>
-=======
             <span>Płaskie jest nudne: wejdź w trail, zacznij od podbiegu. Serwis niekomercyjny. Stan danych: {generatedAt.slice(0, 10).split("-").reverse().join(".")}.</span>
-            <span className="flex flex-wrap gap-x-3 gap-y-1"><Link href="/zmiany" className="underline">Co nowego</Link><Link href="/dla-organizatorow" className="underline">Dla organizatorów</Link><Link href="/o-serwisie" className="underline">O serwisie</Link><Link href="/prywatnosc" className="underline">Prywatność</Link><Link href="/slownik" className="underline md:hidden">Słownik</Link></span>
->>>>>>> origin/main
+            <span className="flex flex-wrap gap-x-3 gap-y-1"><Link href="/zmiany" className="underline">Co nowego</Link><Link href="/newsletter" className="underline">Newsletter</Link><Link href="/dla-organizatorow" className="underline">Dla organizatorów</Link><Link href="/o-serwisie" className="underline">O serwisie</Link><Link href="/prywatnosc" className="underline">Prywatność</Link><Link href="/slownik" className="underline md:hidden">Słownik</Link></span>
           </div>
         </footer>
         <Analytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
