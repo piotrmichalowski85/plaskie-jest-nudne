@@ -72,12 +72,12 @@ export function utmbFull(all: Race[], today: string): Full {
     { h: "Jak powstaje UTMB Index, krok po kroku" },
     { ol: [
       "Organizator zgłasza bieg do UTMB Index (dla organizatora jest to bezpłatne) i po zawodach przesyła komplet wyników. Wyniku nie da się dodać samodzielnie.",
-      "Za każdy ukończony bieg dostajesz wynik punktowy (score). Zależy od czasu na tej trasie w tej edycji, a nie od zajętego miejsca: model statystyczny porównuje czasy z wynikami tych samych osób na podobnych trasach, więc w trudnych warunkach wszyscy biegną wolniej, a punktacja pozostaje porównywalna.",
+      "Za każdy ukończony bieg dostajesz wynik punktowy (score). Ten wynik zależy od czasu na tej trasie w tej edycji, a nie od zajętego miejsca: model statystyczny porównuje czasy z wynikami tych samych osób na podobnych trasach, więc gdy w trudnych warunkach wszyscy biegną wolniej, punktacja pozostaje porównywalna.",
       "Indeks to średnia ważona maksymalnie pięciu najlepszych wyników z ostatnich 36 miesięcy. Najlepszy wynik waży najwięcej, a wyniki starsze niż 12 miesięcy liczą się słabiej.",
       "Indeks jest ważny, jeśli masz ukończony co najmniej jeden bieg z ostatnich 24 miesięcy. To samo dotyczy każdej kategorii osobno: żeby mieć ważny indeks 50K, potrzebujesz biegu kategorii 50K z ostatnich 24 miesięcy.",
-      "Indeks przelicza się raz na dobę. Słaby bieg albo DNF go nie obniża, bo do średniej wchodzą tylko najlepsze wyniki; indeks spada sam z siebie, gdy wyniki się starzeją.",
+      "Indeks przelicza się raz na dobę. Słaby bieg albo DNF (bieg nieukończony) go nie obniża, bo do średniej wchodzą tylko najlepsze wyniki; indeks spada sam z siebie, gdy wyniki się starzeją.",
     ] },
-    { p: "Indeks pojawia się już po jednym ukończonym biegu, ale z lekko obniżoną wagą w porównaniu z osobą, która ma pięć wyników. Wynik biegu i indeks są na tej samej skali punktowej. Dla orientacji: w zasadach cyklu UTMB World Series wynik dający elicie bezpośrednią kwalifikację do finałów to 615-690 punktów u kobiet i 780-840 u mężczyzn, zależnie od kategorii. Na profilu w utmb.world jest wykres, który pokazuje indeks na tle innych osób tej samej płci, wieku i kraju." },
+    { p: "Indeks pojawia się już po jednym ukończonym biegu, ale z lekko obniżoną wagą w porównaniu z indeksem osoby, która ma pięć wyników. Wynik biegu i indeks są na tej samej skali punktowej. Dla orientacji: w zasadach cyklu UTMB World Series wynik dający elicie bezpośrednią kwalifikację do finałów to 615-690 punktów u kobiet i 780-840 u mężczyzn, zależnie od kategorii. Na profilu w utmb.world jest wykres, który pokazuje indeks na tle innych osób tej samej płci, wieku i kraju." },
 
     { h: "Kategorie 20K, 50K, 100K i 100M: liczy się km-effort, nie kilometry" },
     { p: `Kategoria biegu wynika z km-effort, czyli z dystansu powiększonego o 1 km za każde 100 m podejścia. Przykład podawany przez UTMB: 50 km i 2500 m w górę to 75 km-effort.${ex50Txt} Biegi z pogranicza dwóch kategorii liczą się do indeksu w obu, o ile masz już w danej kategorii choć jeden wynik. Poniżej 20 km-effort (np. 15 km i +400 m, czyli 19) wynik nie jest liczony; nie dostają go też biegi typu Vertical Kilometer, biegi wirtualne i formuły typu backyard. Więcej o samym przewyższeniu: [co to jest D+](/slownik/przewyzszenie-d-plus).` },
@@ -118,7 +118,7 @@ export function utmbFull(all: Race[], today: string): Full {
     { ul: [
       "Przed pierwszym startem w górach indeks nie jest do niczego potrzebny. Organizatorzy krótkich biegów o niego nie pytają.",
       `Pierwszy bieg (do 15 km) ma często mniej niż 20 km-effort, więc wyniku do indeksu w ogóle nie daje. W naszym kalendarzu dotyczy to ${tooShort} z ${known.length} dystansów z podanym przewyższeniem.`,
-      "Jeśli kiedyś chcesz stanąć na starcie OCC, plan minimum to dwie rzeczy: ważny indeks w dowolnej kategorii i jeden Running Stone z imprezy cyklu. Jedno i drugie da ukończenie dystansu 20K na biegu \"by UTMB\".",
+      "Jeśli kiedyś zechcesz stanąć na starcie OCC, potrzebujesz minimum dwóch warunków: ważnego indeksu w dowolnej kategorii i jednego Running Stone z imprezy cyklu. Oba spełnisz, kończąc dystans 20K na biegu \"by UTMB\".",
       "Wynik trafia na profil sam, jeśli dane podane przy zapisie na bieg zgadzają się z kontem My UTMB. Gdy się różnią, powstaje osobny profil i wynik trzeba przypiąć do konta ręcznie.",
     ] },
 
@@ -128,7 +128,7 @@ export function utmbFull(all: Race[], today: string): Full {
       "\"Więcej kamieni to pewny start.\" Każdy kamień to kolejny los, a nie miejsce na liście startowej.",
       "\"Bieg z logo UTMB Index daje kamienie.\" Kamienie dają wyłącznie imprezy cyklu UTMB World Series. Bieg z UTMB Index aktualizuje tylko indeks.",
       "\"20K to bieg na 20 km.\" Kategoria wynika z km-effort, więc górska piętnastka z dużym przewyższeniem też może być biegiem 20K.",
-      "\"Im wyższe miejsce, tym wyższy indeks.\" Miejsce nie ma znaczenia, liczy się czas na tle statystyki trasy.",
+      "\"Im wyższe miejsce, tym wyższy indeks.\" Miejsce nie ma znaczenia, liczy się czas porównany z wynikami na tej trasie.",
       "\"UTMB Index i ranking ITRA to to samo.\" To dwa osobne systemy dwóch organizacji. Do losowania na UTMB Mont-Blanc liczy się UTMB Index; o drugim systemie piszemy w haśle [ITRA](/slownik/itra).",
     ] },
   ];
@@ -177,7 +177,7 @@ export function itraFull(all: Race[], today: string): Full {
 
   const blocks: Block[] = [
     { h: "Punkty ITRA (0-6): miara trudności biegu" },
-    { p: "Punkty ITRA, w pełnej nazwie ITRA Endurance Points, opisują bieg, a nie osobę. Podstawą jest km-effort: każdy kilometr trasy to 1, każde 100 m podejścia to kolejne 1. Bieg 20 km z +800 m ma więc 28 km-effort. Z tej liczby wynika liczba punktów od 0 do 6, taka sama dla każdej osoby, która dotrze do mety." },
+    { p: "Punkty ITRA, w pełnej nazwie ITRA Endurance Points, opisują bieg, a nie osobę. Podstawą jest km-effort: każdy kilometr trasy liczy się jako 1, każde 100 m podejścia też jako 1. Bieg 20 km z +800 m ma więc 28 km-effort. Z tej liczby wynika liczba punktów od 0 do 6, taka sama dla każdej osoby, która dotrze do mety." },
     { table: {
       head: ["Punkty ITRA", "Km-effort", "Dystanse w naszym kalendarzu", "Mediana limitu czasu w naszej bazie"],
       rows: ITRA_MIN.map((_, p) => [String(p), ITRA_RANGE[p], String(byPts[p].length), limitCell(p)]),
@@ -188,7 +188,7 @@ export function itraFull(all: Race[], today: string): Full {
       "Punkty nie uwzględniają trudności technicznej terenu, tylko dystans i przewyższenie.",
       "Gęste bufety obniżają ocenę, bo bieg wymaga wtedy mniej samodzielności. Przykład ITRA: 40 km i +1500 m to 55 km-effort, ale przy 6 punktach odżywczych odejmuje się 15, zostaje 40, czyli 1 punkt zamiast 2.",
       "Biegi etapowe dostają o jeden punkt mniej, niż wynikałoby z łącznego km-effort.",
-      "Do czego służą: część organizatorów długich biegów wymaga przy zapisach określonej liczby punktów jako dowodu doświadczenia.",
+      "Punkty przydają się przy zapisach: część organizatorów długich biegów wymaga określonej liczby punktów jako dowodu doświadczenia.",
     ] },
 
     { h: "Ile punktów dają biegi z naszego kalendarza" },
@@ -197,11 +197,11 @@ export function itraFull(all: Race[], today: string): Full {
 
     { h: "Performance Index: ranking osób, krok po kroku" },
     { ol: [
-      "Za każdy ukończony bieg z wynikami w ITRA dostajesz wynik (Race Score) w skali do 1000, gdzie szczyt skali odpowiada teoretycznie najlepszemu możliwemu wynikowi. Czas porównuje się z trasą przeliczoną na płaski odpowiednik (dystans, podejścia i zejścia, wysokość nad poziomem morza), a potem koryguje współczynnikiem warunków, jednakowym dla wszystkich na tym biegu.",
+      "Za każdy ukończony bieg, którego wyniki trafiły do ITRA, dostajesz wynik (Race Score) w skali do 1000, gdzie szczyt skali odpowiada teoretycznie najlepszemu możliwemu wynikowi. Czas porównuje się z trasą przeliczoną na płaski odpowiednik (dystans, podejścia i zejścia, wysokość nad poziomem morza), a potem koryguje współczynnikiem warunków, jednakowym dla wszystkich na tym biegu.",
       "Performance Index to średnia ważona maksymalnie pięciu najlepszych wyników z ostatnich 36 miesięcy. Biegi nieukończone nie są brane pod uwagę.",
       "Przez pierwsze 12 miesięcy wynik liczy się w pełni. Potem co pół roku jego waga lekko spada (0,995, 0,990, 0,985, 0,980), a po 36 miesiącach wynik wypada z obliczeń.",
-      "Indeks jest już po jednym biegu, ale przy mniej niż pięciu wynikach wagi są niższe (przy jednym wyniku 0,97), więc osoby z pięcioma startami mają lekką przewagę.",
-      "Jest indeks ogólny, ze wszystkich dystansów, oraz osobne indeksy w kategoriach dystansu. Przeliczenie odbywa się codziennie.",
+      "Indeks pojawia się już po jednym biegu, ale przy mniej niż pięciu wynikach wagi są niższe (przy jednym wyniku 0,97), więc osoby z pięcioma startami mają lekką przewagę.",
+      "Jest indeks ogólny, ze wszystkich dystansów, oraz osobne indeksy w kategoriach dystansu. Wszystkie przeliczają się codziennie.",
     ] },
     { p: "Z Performance Index powstaje światowy ranking ITRA, uznawany przez World Athletics. Dodanie biegu do kalendarza ITRA i przesłanie wyników jest dla organizatora bezpłatne, a ocena trasy w punktach to usługa dla organizatorów z płatnym członkostwem. Szczegóły obu systemów są na [itra.run](https://itra.run/FAQ/PerformanceIndex)." },
 
@@ -289,12 +289,12 @@ export function verticalFull(all: Race[], today: string): Full {
     { h: "Verticale w kalendarzu" },
     { p: `Na ${day} wśród ${up.length} nadchodzących biegów ${nStrict ? `${nStrict} ${plural(nStrict, "impreza ma", "imprezy mają", "imprez ma")} dystans spełniający naszą miarę verticalu` : "żadna impreza nie ma dystansu spełniającego naszą miarę verticalu"}.${nNamed ? ` W ${nNamed} ${plural(nNamed, "kolejnej imprezie", "kolejnych imprezach", "kolejnych imprezach")} nazwa "vertical" pojawia się w opisie dystansu, ale nie mamy jego przewyższenia albo wychodzi on łagodniej niż 100 m na kilometr.` : ""}` },
     ...(list.length ? [{ ul: list.map((r) => { const e = strictV(r); return `${link(r)} (${where(r)})${e ? `: ${kmD(e)}, ${num(e.dplus! / e.km)} m na kilometr` : ": nazwa \"vertical\" w opisie dystansu, bez potwierdzonego nachylenia"}`; }) } as Block] : []),
-    { p: "Verticale oznaczamy w kalendarzu osobno i nie wliczamy ich do oceny \"dobry na start\". Na liście [biegów do 15 km](/biegi/do-15-km) krótki dystans verticalu wygląda niewinnie, a to inna dyscyplina niż trail dla początkujących." },
+    { p: "Verticale oznaczamy w kalendarzu osobno i nie wliczamy ich do oceny \"dobry na start\". Na liście [biegów do 15 km](/biegi/do-15-km) krótki vertical wygląda na łatwy dystans, a to inna dyscyplina niż trail dla początkujących." },
 
     { h: "Na pierwszym starcie" },
     { ul: [
-      "Vertical to dobry sprawdzian siły na podejściu, ale słaby pierwszy kontakt z górami: nie uczy zbiegania ani gospodarowania siłami na dłuższej trasie.",
-      "Jeśli ciągnie Cię do stromego, zacznij od treningu: 20-30 minut ciągłego marszu pod górę pokaże, czym jest taki wysiłek.",
+      "Vertical to dobry sprawdzian siły na podejściu, ale słaby wybór na pierwszy start w górach: nie uczy zbiegania ani gospodarowania siłami na dłuższej trasie.",
+      "Jeśli ciągnie Cię do stromych podbiegów, zacznij od treningu: 20-30 minut ciągłego marszu pod górę pokaże, czym jest taki wysiłek.",
       "Na pierwszy bieg w terenie lepiej wybrać trasę z oceną \"dobry na start\": lista jest w zestawieniu [biegów dla początkujących](/biegi/dla-poczatkujacych).",
       "Przed zapisem sprawdź w regulaminie trzy rzeczy: czy wolno mieć kije, jak wraca się z mety i czy jest limit czasu.",
     ] },
