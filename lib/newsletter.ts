@@ -13,7 +13,7 @@ const SITE = "https://plaskiejestnudne.pl";
 type Rep = { date: string; added: { id: string }[]; dateChanged: { id: string; from: string; to: string }[]; signupChanged: { id: string; from: string; to: string }[] };
 
 export type IssueSection = { title: string; lead?: string; races: { race: Race; note?: string }[] };
-export type Issue = { date: string; subject: string; preheader: string; sections: IssueSection[]; empty: boolean; html: string };
+export type Issue = { date: string; subject: string; preheader: string; intro: string; sections: IssueSection[]; empty: boolean; html: string };
 
 const addDays = (iso: string, n: number) => new Date(Date.parse(iso) + n * 86400000).toISOString().slice(0, 10);
 const d = (iso: string) => `${iso.slice(8, 10)}.${iso.slice(5, 7)}`;
@@ -58,7 +58,17 @@ export function buildIssue(today: string): Issue {
   const subject = empty ? "Bez zmian w kalendarzu" : parts.slice(0, 2).join(" i ").replace(/^./, (c) => c.toUpperCase());
   const names = [...added, ...opened, ...closing].slice(0, 3).map(title);
   const preheader = names.length ? `${names.join(", ")}${added.length + opened.length + closing.length > 3 ? " i kolejne" : ""}. Biegi górskie i trailowe, tydzień od ${d(since)}.` : "Biegi górskie i trailowe w Polsce.";
-  const issue = { date: today, subject, preheader, sections, empty };
+  // wstęp pełnym tekstem, te same liczby co w sekcjach niżej: zdanie o minionym tygodniu, zdanie o terminach, zdanie o tym, co jest na stronach biegów
+  const list = (x: string[]) => (x.length > 1 ? `${x.slice(0, -1).join(", ")}, a ${x[x.length - 1]}` : x[0] ?? "");
+  const weekBits = [
+    added.length ? `${pl(added.length, "doszedł", "doszły", "doszło")} ${added.length} ${pl(added.length, "nowy bieg", "nowe biegi", "nowych biegów")}` : "",
+    opened.length ? `zapisy ruszyły na ${opened.length} ${pl(opened.length, "bieg", "biegi", "biegów")}` : "",
+    moved.length ? `${moved.length} ${pl(moved.length, "bieg zmienił termin", "biegi zmieniły termin", "biegów zmieniło termin")}` : "",
+  ].filter(Boolean);
+  const weekS = weekBits.length ? `W ostatnim tygodniu w kalendarzu biegów górskich i trailowych ${list(weekBits)}.` : "W ostatnim tygodniu w kalendarzu biegów górskich i trailowych nie doszło nic nowego, ale zbliżają się terminy zapisów.";
+  const closeS = closing.length ? ` W ciągu dwóch tygodni kończą się zapisy na ${closing.length} ${pl(closing.length, "bieg", "biegi", "biegów")}.` : "";
+  const intro = empty ? "" : `Dzień dobry. ${weekS}${closeS} Niżej lista z linkami: na stronie każdego biegu są dystanse, przewyższenia, limity czasu i ocena dla początkujących.`;
+  const issue = { date: today, subject, preheader, intro, sections, empty };
   return { ...issue, html: renderIssue(issue, today) };
 }
 
@@ -118,11 +128,17 @@ ${s.races.map((x) => raceRow(x.race, x.note, today, date)).join("\n")}`).join("\
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="bg" style="background:${C.bg};"><tr><td align="center" style="padding:24px 12px;">
 <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="width:100%;max-width:600px;">
 <tr><td style="padding:0 4px 14px;font-family:${F};">
+<table role="presentation" cellpadding="0" cellspacing="0"><tr>
+<td style="padding-right:12px;vertical-align:middle;"><a href="${link("/", date)}"><img src="${SITE}/icon-192.png" width="44" height="44" alt="" style="display:block;border:0;border-radius:10px;"></a></td>
+<td style="vertical-align:middle;font-family:${F};">
 <a href="${link("/", date)}" class="h1" style="color:${C.ink};font-size:22px;font-weight:900;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;">Płaskie jest nudne</a>
 <div class="meta" style="margin-top:2px;color:${C.muted};font-size:13px;">Nowe biegi w tym tygodniu · ${fmtDate(date)}</div>
+</td>
+</tr></table>
 </td></tr>
 <tr><td class="card" style="background:${C.card};border:1px solid ${C.line};border-radius:16px;padding:6px 28px 22px;">
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0">${issue.intro ? `
+<tr><td style="padding:18px 0 0;font-family:${F};"><p class="text" style="margin:0;color:${C.ink};font-size:16px;line-height:1.55;">${esc(issue.intro)}</p></td></tr>` : ""}
 ${body}
 <tr><td style="padding:22px 0 0;border-top:1px solid ${C.line};font-family:${F};" class="row">
 <p class="text" style="margin:0;color:${C.ink};font-size:15px;line-height:1.5;">Cały kalendarz z filtrami, mapą i oceną dla początkujących: <a href="${link("/biegi", date)}" class="lnk" style="color:${C.moss};font-weight:700;">plaskiejestnudne.pl/biegi</a>. Terminy i ceny pochodzą ze stron organizatorów i regulaminów, więc przed zapisem sprawdź je u źródła.</p>
@@ -147,7 +163,12 @@ export function renderOptin(): string {
 <body style="margin:0;padding:0;background:${C.bg};">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:${C.bg};"><tr><td align="center" style="padding:24px 12px;">
 <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="width:100%;max-width:600px;">
-<tr><td style="padding:0 4px 14px;font-family:${F};color:${C.ink};font-size:22px;font-weight:900;letter-spacing:.06em;text-transform:uppercase;">Płaskie jest nudne</td></tr>
+<tr><td style="padding:0 4px 14px;font-family:${F};">
+<table role="presentation" cellpadding="0" cellspacing="0"><tr>
+<td style="padding-right:12px;vertical-align:middle;"><img src="${SITE}/icon-192.png" width="44" height="44" alt="" style="display:block;border:0;border-radius:10px;"></td>
+<td style="vertical-align:middle;font-family:${F};color:${C.ink};font-size:22px;font-weight:900;letter-spacing:.06em;text-transform:uppercase;">Płaskie jest nudne</td>
+</tr></table>
+</td></tr>
 <tr><td style="background:${C.card};border:1px solid ${C.line};border-radius:16px;padding:26px 28px;font-family:${F};">
 <h1 style="margin:0;color:${C.ink};font-size:22px;line-height:1.25;">Jeszcze jedno kliknięcie</h1>
 <p style="margin:12px 0 0;color:${C.ink};font-size:16px;line-height:1.5;">Ktoś podał ten adres w zapisie na newsletter z nowymi biegami górskimi i trailowymi. Jeśli to Ty, potwierdź, a w poniedziałki będziesz dostawać krótką listę: nowe biegi w kalendarzu, ruszające zapisy i terminy, które zaraz mijają.</p>
