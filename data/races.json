@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-13T10:44:59.223Z",
- "count": 290,
+ "generatedAt": "2026-11-13T10:53:52.636Z",
+ "count": 287,
  "races": [
   {
    "name": "Podkarpacki Festiwal Sportowy",
@@ -9267,10 +9267,15 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
+     "name": "regulamin",
+     "url": "https://krakowbiega.pl/wp-content/uploads/2026/08/Regulamin-XV-edycja-GPK.pdf"
+    },
+    {
      "name": "kalendarzbiegowy.pl",
      "url": "https://kalendarzbiegowy.pl/biegi/xv-grand-prix-krakowa-w-biegach-gorskich-wielkie-otwarcie/"
     }
    ],
+   "regulaminUrl": "https://krakowbiega.pl/wp-content/uploads/2026/08/Regulamin-XV-edycja-GPK.pdf",
    "id": "xv-grand-prix-krakowa-w-biegach-gorskich-2026-10-25",
    "surface": "gorski",
    "minKm": 3.7,
@@ -10077,7 +10082,11 @@
    ],
    "elevations": [
     {
-     "km": 16
+     "km": 16,
+     "dplus": 1608,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://dostartu.pl/statute_files/17345_pl.pdf",
+     "dplusCheckedAt": "2026-11-13"
     }
    ],
    "vertical": false,
@@ -10087,6 +10096,10 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://dostartu.pl/statute_files/17345_pl.pdf"
     },
     {
      "name": "regulamin",
@@ -10116,11 +10129,11 @@
     "checkedAt": "2026-11-13"
    },
    "id": "szczyt-wytrzymalosci-edycja-mikolajkowa-2026-12-04",
-   "surface": "trail",
+   "surface": "gorski",
    "minKm": 16,
    "maxKm": 16,
-   "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 16 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerScore": 2,
+   "beginnerWhy": "najkrótszy dystans 16 km (jak półmaraton w terenie, zwykle wolniej); stromo: ok. 101 m przewyższenia na kilometr, dużo marszu pod górę."
   },
   {
    "name": "Garmin Ultra Race Gdańsk: 6km, 12km, 27km, 53km, 101km",
@@ -10147,14 +10160,26 @@
     },
     {
      "km": 12,
+     "dplus": 250,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://ultrarace.pl/gdansk/trasa-gdansk/",
+     "dplusCheckedAt": "2026-11-13",
      "limitH": 2
     },
     {
      "km": 26.9,
+     "dplus": 600,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://ultrarace.pl/gdansk/trasa-gdansk/",
+     "dplusCheckedAt": "2026-11-13",
      "limitH": 5
     },
     {
      "km": 53,
+     "dplus": 1200,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://ultrarace.pl/gdansk/trasa-gdansk/",
+     "dplusCheckedAt": "2026-11-13",
      "limitH": 10
     },
     {
@@ -10219,7 +10244,7 @@
    "beginnerWhy": "najkrótszy dystans 6 km; łagodnie: ok. 18 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Turbacz Trail - Podhalański Bieg Mikołajkowy: Brama Świętego Mikołaja 13 km, Ostrowskie Mikołajki 6 km, Rodzinny Bieg Mikołajkowy 1 km",
+   "name": "Podhalański Bieg Mikołajkowy: Podhalański Bieg Mikołajkowy - Brama Świętego Mikołaja 13km, Podhalański Bieg Mikołajkowy - Ostrowskie Mikołajki 6km, Podhalański Bieg Mikołajkowy - Rodzinne Mikołajki 1km",
    "eventName": "Turbacz Trail",
    "dateStart": "2026-12-06",
    "dateEnd": "2026-12-06",
@@ -10235,39 +10260,56 @@
      "km": 1
     },
     {
-     "km": 6
+     "km": 6,
+     "dplus": 257,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://turbacztrail.pl/wydarzenie/podhalanski-bieg-mikolajkowy-2026/",
+     "dplusCheckedAt": "2026-11-13"
     },
     {
-     "km": 13
+     "km": 13,
+     "dplus": 453,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://turbacztrail.pl/wydarzenie/podhalanski-bieg-mikolajkowy-2026/",
+     "dplusCheckedAt": "2026-11-13"
     }
    ],
    "vertical": false,
    "category": "13km-Kat.I 6km-Kat.I",
-   "url": "https://b4sportonline.pl/turbacz_trail/",
+   "url": "https://turbacztrail.pl/wydarzenie/podhalanski-bieg-mikolajkowy-2026/",
    "sources": [
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
+     "name": "trasa (organizator)",
+     "url": "https://turbacztrail.pl/wydarzenie/podhalanski-bieg-mikolajkowy-2026/"
+    },
+    {
      "name": "regulamin",
      "url": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-Podhalanski-Bieg-Mikolajkowy-2026.pdf"
+    },
+    {
+     "name": "b4sportonline.pl",
+     "url": "https://b4sportonline.pl/turbacz_trail/"
     }
    ],
    "regulaminUrl": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-Podhalanski-Bieg-Mikolajkowy-2026.pdf",
    "gear": [
-    "Track lub mapa dystansu (bez Rodzinnych Mikołajek)",
-    "Folia NRC min. 150x180 (bez Rodzinnych Mikołajek)",
-    "Naładowany telefon z aplikacją RATUNEK"
+    "Naładowany i aktywny telefon z aplikacją RATUNEK"
    ],
    "signup": {
     "status": "open",
-    "until": "2026-11-29",
+    "until": "2026-12-03",
     "limit": 50,
-    "source": "regulamin",
-    "sourceUrl": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-Podhalanski-Bieg-Mikolajkowy-2026.pdf",
+    "registered": 39,
+    "source": "zapisy",
+    "sourceUrl": "https://b4sportonline.pl/turbacz_trail/",
     "checkedAt": "2026-11-13"
    },
+   "signupOpen": true,
+   "participants": 39,
    "id": "turbacz-trail-2026-12-06",
    "surface": "trail",
    "minKm": 1,
@@ -10323,75 +10365,25 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
+     "name": "regulamin",
+     "url": "https://krakowbiega.pl/wp-content/uploads/2026/08/Regulamin-XV-edycja-GPK.pdf"
+    },
+    {
      "name": "kalendarzbiegowy.pl",
      "url": "https://kalendarzbiegowy.pl/biegi/xv-grand-prix-krakowa-w-biegach-gorskich-bieg-mikolajkowy/"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://turbacztrail.pl/wydarzenie/podhalanski-bieg-mikolajkowy-2026/"
     }
    ],
+   "regulaminUrl": "https://krakowbiega.pl/wp-content/uploads/2026/08/Regulamin-XV-edycja-GPK.pdf",
    "id": "xv-grand-prix-krakowa-w-biegach-gorskich-2026-12-06",
    "surface": "gorski",
    "minKm": 3.7,
    "maxKm": 23.2,
    "beginnerScore": 5,
    "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
-  },
-  {
-   "name": "Podhalański Bieg Mikołajkowy: Podhalański Bieg Mikołajkowy - Brama Świętego Mikołaja 13km, Podhalański Bieg Mikołajkowy - Ostrowskie Mikołajki 6km, Podhalański Bieg Mikołajkowy - Rodzinne Mikołajki 1km",
-   "eventName": "Podhalański Bieg Mikołajkowy",
-   "dateStart": "2026-12-06",
-   "dateEnd": "2026-12-06",
-   "city": "Ostrowsko",
-   "region": "",
-   "distancesKm": [
-    1,
-    6.03,
-    13
-   ],
-   "elevations": [
-    {
-     "km": 1
-    },
-    {
-     "km": 6.03
-    },
-    {
-     "km": 13
-    }
-   ],
-   "vertical": false,
-   "url": "https://b4sportonline.pl/turbacz_trail/",
-   "sources": [
-    {
-     "name": "b4sportonline.pl",
-     "url": "https://b4sportonline.pl/turbacz_trail/"
-    },
-    {
-     "name": "regulamin",
-     "url": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-Podhalanski-Bieg-Mikolajkowy-2026.pdf"
-    }
-   ],
-   "signup": {
-    "status": "open",
-    "until": "2026-12-03",
-    "limit": 50,
-    "registered": 39,
-    "source": "zapisy",
-    "sourceUrl": "https://b4sportonline.pl/turbacz_trail/",
-    "checkedAt": "2026-11-13"
-   },
-   "signupOpen": true,
-   "participants": 39,
-   "regulaminUrl": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-Podhalanski-Bieg-Mikolajkowy-2026.pdf",
-   "gear": [
-    "Track lub mapa dystansu (bez Rodzinnych Mikołajek)",
-    "Folia NRC min. 150x180 (bez Rodzinnych Mikołajek)",
-    "Naładowany telefon z aplikacją RATUNEK"
-   ],
-   "id": "podhalanski-bieg-mikolajkowy-2026-12-06",
-   "surface": "przelaj",
-   "minKm": 1,
-   "maxKm": 13,
-   "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 1 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Winter Trail Małopolska 2025: WTM 16, WTM 45, WTM 64, WTM 105, WTM 140",
@@ -10701,10 +10693,15 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2027/"
     },
     {
+     "name": "regulamin",
+     "url": "https://krakowbiega.pl/wp-content/uploads/2026/08/Regulamin-XV-edycja-GPK.pdf"
+    },
+    {
      "name": "kalendarzbiegowy.pl",
      "url": "https://kalendarzbiegowy.pl/biegi/xv-grand-prix-krakowa-w-biegach-gorskich-bieg-noworoczny/"
     }
    ],
+   "regulaminUrl": "https://krakowbiega.pl/wp-content/uploads/2026/08/Regulamin-XV-edycja-GPK.pdf",
    "id": "xv-grand-prix-krakowa-w-biegach-gorskich-2027-01-10",
    "surface": "gorski",
    "minKm": 3.7,
@@ -10738,9 +10735,14 @@
     {
      "name": "strona organizatora (termin kolejnej edycji)",
      "url": "https://www.biegzboja.pl/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://www.biegzboja.pl/regulaminb"
     }
    ],
    "provisional": "termin ze strony organizatora, dystanse z poprzedniej edycji",
+   "regulaminUrl": "https://www.biegzboja.pl/regulaminb",
    "id": "zimowy-bieg-zboja-2027-01-10",
    "minKm": 13,
    "maxKm": 18,
@@ -10768,6 +10770,10 @@
     },
     {
      "km": 10,
+     "dplus": 365,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://ultra-way.pl/zimowy-festiwal-biegowy-ultra-way/",
+     "dplusCheckedAt": "2026-11-13",
      "limitH": 3
     },
     {
@@ -11081,14 +11087,16 @@
      "dplus": 1003,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://www.maratongorstolowych.pl/trasy/",
-     "dplusCheckedAt": "2026-11-03"
+     "dplusCheckedAt": "2026-11-03",
+     "limitH": 5
     },
     {
      "km": 31,
      "dplus": 1450,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://www.maratongorstolowych.pl/trasy/",
-     "dplusCheckedAt": "2026-11-03"
+     "dplusCheckedAt": "2026-11-03",
+     "limitH": 7
     }
    ],
    "vertical": false,
@@ -11103,21 +11111,35 @@
      "url": "https://www.maratongorstolowych.pl/trasy/"
     },
     {
+     "name": "regulamin",
+     "url": "https://www.maratongorstolowych.pl/wp-content/uploads/2026/09/ZPGS27_regulamin.docx.pdf"
+    },
+    {
      "name": "b4sportonline.pl",
      "url": "https://b4sportonline.pl/Zimowy_Polmaraton_Gor_Stolowych/"
     }
    ],
-   "signupOpen": true,
-   "participants": 748,
+   "regulaminUrl": "https://www.maratongorstolowych.pl/wp-content/uploads/2026/09/ZPGS27_regulamin.docx.pdf",
+   "gear": [
+    "Kurtka przeciwwiatrowa z długim rękawem",
+    "Aktywny telefon przez cały czas zawodów (z roamingiem)",
+    "Folia NRC",
+    "Kubek lub bidon, min. 0,5 l",
+    "Czapka",
+    "Rękawiczki wiatroodporne lub wodoodporne",
+    "Mapa tras (może być wgrana w aktywny telefon lub zegarek)"
+   ],
    "signup": {
-    "status": "open",
+    "status": "closed",
     "until": "2027-01-14",
-    "limit": 750,
+    "limit": 450,
     "registered": 748,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/Zimowy_Polmaraton_Gor_Stolowych/",
     "checkedAt": "2026-11-13"
    },
+   "signupOpen": true,
+   "participants": 748,
    "id": "zimowy-polmaraton-gor-stolowych-2027-01-16",
    "surface": "trail",
    "minKm": 21,
@@ -11339,10 +11361,15 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2027/"
     },
     {
+     "name": "regulamin",
+     "url": "https://krakowbiega.pl/wp-content/uploads/2026/08/Regulamin-XV-edycja-GPK.pdf"
+    },
+    {
      "name": "kalendarzbiegowy.pl",
      "url": "https://kalendarzbiegowy.pl/biegi/xv-grand-prix-krakowa-w-biegach-gorskich-bieg-karnawalowy/"
     }
    ],
+   "regulaminUrl": "https://krakowbiega.pl/wp-content/uploads/2026/08/Regulamin-XV-edycja-GPK.pdf",
    "id": "xv-grand-prix-krakowa-w-biegach-gorskich-2027-02-07",
    "surface": "gorski",
    "minKm": 3.7,
@@ -11370,12 +11397,25 @@
     }
    ],
    "vertical": false,
+   "url": "http://jedlina.pro-run.pl/",
    "sources": [
     {
      "name": "kingrunner.com",
      "url": "https://www.kingrunner.com/bieg/6-zimowy-polmaraton-gorski-jedlina-zdroj/4439"
+    },
+    {
+     "name": "regulamin",
+     "url": "http://jedlina.pro-run.pl/regulamin-zimowy-polmaraton/"
     }
    ],
+   "regulaminUrl": "http://jedlina.pro-run.pl/regulamin-zimowy-polmaraton/",
+   "signup": {
+    "status": "unknown",
+    "limit": 300,
+    "source": "regulamin",
+    "sourceUrl": "http://jedlina.pro-run.pl/regulamin-zimowy-polmaraton/",
+    "checkedAt": "2026-11-13"
+   },
    "id": "6-zimowy-polmaraton-gorski-jedlina-zdroj-2027-02-07",
    "surface": "gorski",
    "minKm": 10.5,
@@ -11421,13 +11461,6 @@
    ],
    "provisional": "termin ze strony organizatora, dystanse z poprzedniej edycji",
    "regulaminUrl": "https://ultrakamiensk.pl/regulamin/",
-   "signup": {
-    "status": "unknown",
-    "limit": 10010,
-    "source": "regulamin",
-    "sourceUrl": "https://ultrakamiensk.pl/regulamin/",
-    "checkedAt": "2026-11-13"
-   },
    "id": "ultra-kamiensk-2027-02-07",
    "minKm": 7,
    "maxKm": 30,
@@ -11449,25 +11482,45 @@
    ],
    "elevations": [
     {
-     "km": 6
+     "km": 6,
+     "dplus": 320,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://turbacztrail.pl/wydarzenie/turbaczwintertrail_2027/",
+     "dplusCheckedAt": "2026-11-13"
     },
     {
-     "km": 12
+     "km": 12,
+     "dplus": 529,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://turbacztrail.pl/wydarzenie/turbaczwintertrail_2027/",
+     "dplusCheckedAt": "2026-11-13"
     },
     {
-     "km": 22
+     "km": 22,
+     "dplus": 1025,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://turbacztrail.pl/wydarzenie/turbaczwintertrail_2027/",
+     "dplusCheckedAt": "2026-11-13"
     },
     {
-     "km": 48
+     "km": 48,
+     "dplus": 1975,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://turbacztrail.pl/wydarzenie/turbaczwintertrail_2027/",
+     "dplusCheckedAt": "2026-11-13"
     }
    ],
    "vertical": false,
    "category": "12km-Kat.M 22km-Kat.M 48km-Kat.M",
-   "url": "https://b4sportonline.pl/turbacz_trail/",
+   "url": "https://turbacztrail.pl/wydarzenie/turbaczwintertrail_2027/",
    "sources": [
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2027/"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://turbacztrail.pl/wydarzenie/turbaczwintertrail_2027/"
     },
     {
      "name": "regulamin",
@@ -11507,7 +11560,7 @@
    "minKm": 6,
    "maxKm": 48,
    "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+   "beginnerWhy": "najkrótszy dystans 6 km; średnio stromo: ok. 53 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Zimowy Ultramaraton Karkonoski im. Tomka Kowalskiego",
@@ -11718,10 +11771,15 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2027/"
     },
     {
+     "name": "regulamin",
+     "url": "https://krakowbiega.pl/wp-content/uploads/2026/08/Regulamin-XV-edycja-GPK.pdf"
+    },
+    {
      "name": "kalendarzbiegowy.pl",
      "url": "https://kalendarzbiegowy.pl/biegi/xv-grand-prix-krakowa-w-biegach-gorskich-wielki-final/"
     }
    ],
+   "regulaminUrl": "https://krakowbiega.pl/wp-content/uploads/2026/08/Regulamin-XV-edycja-GPK.pdf",
    "id": "xv-grand-prix-krakowa-w-biegach-gorskich-2027-03-07",
    "surface": "gorski",
    "minKm": 3.7,
@@ -11730,7 +11788,7 @@
    "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "X-RUN - Tajemnicze Kopce",
+   "name": "XRUN: Tajemnicze Kopce Intro Trail, Tajemnicze Kopce Classic Trail, Tajemnicze Kopce Long Trail",
    "eventName": "X-RUN",
    "dateStart": "2027-03-07",
    "dateEnd": "2027-03-07",
@@ -11747,13 +11805,25 @@
      "km": 6
     },
     {
-     "km": 14
+     "km": 14,
+     "dplus": 334,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/03/XRUN_Tajemnicze_Kopce_-nm14_km.gpx",
+     "gpx": "983f76f954c1"
     },
     {
-     "km": 21
+     "km": 21,
+     "dplus": 706,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/03/XRUN_Tajemnicze_Kopce_n-21_km_Classic.gpx",
+     "gpx": "3883c7a21be6"
     },
     {
-     "km": 32
+     "km": 32,
+     "dplus": 1010,
+     "dplusSource": "gpx",
+     "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/03/XRUN_Tajemnicze_Kopce_Maraton_m-32_km.gpx",
+     "gpx": "a185937dd984"
     }
    ],
    "vertical": false,
@@ -11767,6 +11837,14 @@
     {
      "name": "regulamin",
      "url": "https://xrun.pl/regulamin/"
+    },
+    {
+     "name": "kingrunner.com",
+     "url": "https://www.kingrunner.com/bieg/xrun---tajemnicze-kopce--intro-trail/4426"
+    },
+    {
+     "name": "GPX",
+     "url": "https://xrun.pl/wp-content/uploads/2026/03/XRUN_Tajemnicze_Kopce_Maraton_m-32_km.gpx"
     }
    ],
    "regulaminUrl": "https://xrun.pl/regulamin/",
@@ -11776,97 +11854,6 @@
    "maxKm": 32,
    "beginnerScore": 4,
    "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
-  },
-  {
-   "name": "XRUN: Tajemnicze Kopce Intro Trail, Tajemnicze Kopce Classic Trail, Tajemnicze Kopce Long Trail",
-   "eventName": "XRUN",
-   "dateStart": "2027-03-07",
-   "dateEnd": "2027-03-07",
-   "city": "Kornatka",
-   "region": "",
-   "distancesKm": [
-    14,
-    21,
-    32
-   ],
-   "elevations": [
-    {
-     "km": 14,
-     "dplus": 334,
-     "gpx": "983f76f954c1",
-     "dplusSource": "gpx",
-     "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/03/XRUN_Tajemnicze_Kopce_-nm14_km.gpx",
-     "dplusCheckedAt": "2026-11-13",
-     "dplusStale": true
-    },
-    {
-     "km": 21,
-     "dplus": 706,
-     "gpx": "3883c7a21be6",
-     "dplusSource": "gpx",
-     "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/03/XRUN_Tajemnicze_Kopce_n-21_km_Classic.gpx",
-     "dplusCheckedAt": "2026-11-13",
-     "dplusStale": true
-    },
-    {
-     "km": 32,
-     "dplus": 1010,
-     "gpx": "a185937dd984",
-     "dplusSource": "gpx",
-     "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/03/XRUN_Tajemnicze_Kopce_Maraton_m-32_km.gpx",
-     "dplusCheckedAt": "2026-11-13",
-     "dplusStale": true
-    }
-   ],
-   "vertical": false,
-   "url": "https://xrun.pl/tajemnicze-kopce",
-   "sources": [
-    {
-     "name": "kingrunner.com",
-     "url": "https://www.kingrunner.com/bieg/xrun---tajemnicze-kopce--intro-trail/4426"
-    },
-    {
-     "name": "GPX",
-     "url": "https://xrun.pl/wp-content/uploads/2026/03/XRUN_Tajemnicze_Kopce_Maraton_m-32_km.gpx"
-    },
-    {
-     "name": "regulamin",
-     "url": "https://xrun.pl/regulamin"
-    }
-   ],
-   "spark": [
-    0.52,
-    0.34,
-    0.76,
-    0.95,
-    0.83,
-    0.91,
-    0.86,
-    0.87,
-    0.58,
-    0.75,
-    0.69,
-    0.68,
-    0.65,
-    0.65,
-    0.23,
-    0.17,
-    0.44,
-    0.4,
-    0.26,
-    0.24,
-    0.04,
-    0.05,
-    0.18,
-    0.38
-   ],
-   "regulaminUrl": "https://xrun.pl/regulamin",
-   "id": "xrun-2027-03-07",
-   "surface": "trail",
-   "minKm": 14,
-   "maxKm": 32,
-   "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 14 km (jak półmaraton w terenie, zwykle wolniej); łagodnie: ok. 24 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Zimowy Baran Trail Race BTR: 10 km, 25.1 km, 59 km",
@@ -13853,13 +13840,28 @@
      "url": "https://www.kingrunner.com/bieg/izery-trail-16/4487"
     },
     {
-     "name": "b4sportonline.pl",
-     "url": "https://b4sportonline.pl/izery_ultratrail/"
-    },
-    {
      "name": "regulamin",
      "url": "https://izeryultratrail.pl/regulamin/"
+    },
+    {
+     "name": "b4sportonline.pl",
+     "url": "https://b4sportonline.pl/izery_ultratrail/"
     }
+   ],
+   "regulaminUrl": "https://izeryultratrail.pl/regulamin/",
+   "gear": [
+    "Aktywny telefon przez cały czas biegu",
+    "Kubek na wodę",
+    "Pojemnik na wodę, min. 1 litr (100, 70, 50 km)",
+    "Pojemnik na wodę, min. 0,5 litra (35, 25, 16 km)",
+    "Folia NRC (100, 70, 50, 35 km)",
+    "Czapka lub chusta wielofunkcyjna (100, 70, 50 km)",
+    "Gwizdek (100, 70 km)",
+    "Kurtka przeciwdeszczowa lub wiatrówka (100, 70, 50 km)",
+    "Plecak lub nerka biegowa (100, 70, 50 km)",
+    "Latarka czołowa (100 km)",
+    "Bandaż elastyczny i opatrunek jałowy (100, 70, 50, 35, 25 km)",
+    "Dowód osobisty lub paszport (100, 70, 50, 35, 25 km)"
    ],
    "signup": {
     "status": "open",
@@ -13873,20 +13875,6 @@
    },
    "signupOpen": true,
    "participants": 0,
-   "regulaminUrl": "https://izeryultratrail.pl/regulamin/",
-   "gear": [
-    "Aktywny telefon",
-    "Kubek na wodę",
-    "Folia NRC (100, 70, 50, 35 km)",
-    "Czapka lub chusta wielofunkcyjna (100, 70, 50 km)",
-    "Gwizdek (100, 70 km)",
-    "Kurtka przeciwdeszczowa lub wiatrówka (100, 70, 50 km)",
-    "Plecak lub nerka biegowa (100, 70, 50 km)",
-    "Pojemnik na wodę minimum 1 litra (100, 70, 50 km)",
-    "Pojemnik na wodę minimum 0,5 litra (35, 25, 16 km)",
-    "Bandaż elastyczny i opatrunek jałowy (100, 70, 50, 35, 25 km)",
-    "Latarka czołowa (100 km)"
-   ],
    "id": "izery-trail-2027-06-26",
    "surface": "przelaj",
    "minKm": 10,
@@ -14930,16 +14918,20 @@
      "km": 5
     },
     {
-     "km": 21
+     "km": 21,
+     "limitH": 3
     },
     {
-     "km": 50
+     "km": 50,
+     "limitH": 10
     },
     {
-     "km": 100
+     "km": 100,
+     "limitH": 17
     },
     {
-     "km": 160
+     "km": 160,
+     "limitH": 32
     },
     {
      "km": 190
@@ -14952,8 +14944,37 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2027/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://orlegniazda.com/regulamin/"
     }
    ],
+   "regulaminUrl": "https://orlegniazda.com/regulamin/",
+   "gear": [
+    "Plecak lub nerka biegowa (Ultra 160, 100 km)",
+    "Pojemnik lub bidony na wodę min. 1 litr",
+    "Latarka czołówka (Ultra 160, 100 km)",
+    "Czerwone światło pulsacyjne (Ultra 160, 100 km)",
+    "Włączony i naładowany telefon",
+    "Ślad trasy wgrany w urządzeniu",
+    "Kubek na napoje",
+    "Folia NRC",
+    "Ważny dowód osobisty lub paszport",
+    "Gwizdek (Ultra 160, 100 km)",
+    "Bandaż elastyczny i opatrunek jałowy",
+    "Gotówka 50 złotych",
+    "Rower z oświetleniem przód i tył (190 km)",
+    "Kask spełniający wymogi bezpieczeństwa (190 km)",
+    "Zestaw do naprawy opon i łańcucha (190 km)"
+   ],
+   "signup": {
+    "status": "unknown",
+    "limit": 160,
+    "source": "regulamin",
+    "sourceUrl": "https://orlegniazda.com/regulamin/",
+    "checkedAt": "2026-11-13"
+   },
    "id": "run-bike-orlich-gniazd-2027-09-10",
    "surface": "trail",
    "minKm": 5,
@@ -15341,16 +15362,32 @@
    ],
    "elevations": [
     {
-     "km": 10
+     "km": 10,
+     "dplus": 200,
+     "limitH": 2,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "http://www.ultralemkowyna.pl/trasy"
     },
     {
-     "km": 18
+     "km": 18,
+     "dplus": 520,
+     "limitH": 3,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "http://www.ultralemkowyna.pl/trasy"
     },
     {
-     "km": 30
+     "km": 30,
+     "dplus": 740,
+     "limitH": 5,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "http://www.ultralemkowyna.pl/trasy"
     },
     {
-     "km": 48
+     "km": 48,
+     "dplus": 1400,
+     "limitH": 8,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "http://www.ultralemkowyna.pl/trasy"
     },
     {
      "km": 70
@@ -15376,6 +15413,14 @@
     {
      "name": "b4sportonline.pl",
      "url": "https://b4sportonline.pl/LemkowynaUltraTrail/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "http://www.ultralemkowyna.pl"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "http://www.ultralemkowyna.pl/trasy"
     }
    ],
    "regulaminUrl": "https://www.ultralemkowyna.pl/regulaminy",
@@ -15391,90 +15436,9 @@
    "signupOpen": true,
    "participants": 328,
    "id": "lemkowyna-trail-2027-10-23",
-   "surface": "przelaj",
-   "minKm": 10,
-   "maxKm": 150,
-   "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
-  },
-  {
-   "name": "Łemko Trail: 10 km, 18 km, 30 km, 48 km",
-   "eventName": "Łemko Trail",
-   "dateStart": "2027-10-23",
-   "dateEnd": "2027-10-24",
-   "city": "Komańcza",
-   "region": "",
-   "distancesKm": [
-    10,
-    18,
-    30,
-    48
-   ],
-   "elevations": [
-    {
-     "km": 10,
-     "dplus": 200,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "http://www.ultralemkowyna.pl/trasy",
-     "limitH": 2,
-     "dplusCheckedAt": "2026-11-12"
-    },
-    {
-     "km": 18,
-     "dplus": 520,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "http://www.ultralemkowyna.pl/trasy",
-     "limitH": 3,
-     "dplusCheckedAt": "2026-11-12"
-    },
-    {
-     "km": 30,
-     "dplus": 740,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "http://www.ultralemkowyna.pl/trasy",
-     "limitH": 5,
-     "dplusCheckedAt": "2026-11-12"
-    },
-    {
-     "km": 48,
-     "dplus": 1400,
-     "dplusSource": "trasa",
-     "dplusSourceUrl": "http://www.ultralemkowyna.pl/trasy",
-     "limitH": 8,
-     "dplusCheckedAt": "2026-11-12"
-    }
-   ],
-   "vertical": false,
-   "url": "http://www.ultralemkowyna.pl",
-   "sources": [
-    {
-     "name": "kingrunner.com",
-     "url": "https://www.kingrunner.com/bieg/lemko-trail-10/4528"
-    },
-    {
-     "name": "strona organizatora",
-     "url": "http://www.ultralemkowyna.pl"
-    },
-    {
-     "name": "trasa (organizator)",
-     "url": "http://www.ultralemkowyna.pl/trasy"
-    },
-    {
-     "name": "regulamin",
-     "url": "https://www.ultralemkowyna.pl/regulaminy"
-    }
-   ],
-   "regulaminUrl": "https://www.ultralemkowyna.pl/regulaminy",
-   "signup": {
-    "status": "open",
-    "source": "organizator",
-    "sourceUrl": "http://www.ultralemkowyna.pl",
-    "checkedAt": "2026-11-13"
-   },
-   "id": "lemko-trail-2027-10-23",
    "surface": "trail",
    "minKm": 10,
-   "maxKm": 48,
+   "maxKm": 150,
    "beginnerScore": 5,
    "beginnerWhy": "najkrótszy dystans 10 km; łagodnie: ok. 20 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   }

@@ -29,6 +29,12 @@
   "why": "regulamin Zimowego Półmaratonu Górskiego Jedlina-Zdrój",
   "at": "2026-11-12T09:35:19.438Z"
  },
+ "6-zimowy-polmaraton-gorski-jedlina-zdroj-2027-02-07": {
+  "url": "http://jedlina.pro-run.pl/regulamin-zimowy-polmaraton/",
+  "fit": true,
+  "why": "Dokument to regulamin 6. Zimowego Półmaratonu Górskiego Jedlina-Zdrój (z Zimową Dychą) z 07.02.2027, obejmujący dystanse 10 km oraz 21-23,5 km, zgodny z biegiem z kalendarza.",
+  "at": "2026-11-13T10:52:59.123Z"
+ },
  "7-polmaraton-orzel-2026-11-21": {
   "url": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026_edit-mv6j7nqw.pdf",
   "fit": true,
@@ -671,6 +677,36 @@
   "why": "regulamin cyklu XRUN 2027 (sześć imprez cyklu)",
   "at": "2026-11-12T09:35:19.438Z"
  },
+ "xv-grand-prix-krakowa-w-biegach-gorskich-2026-10-25": {
+  "url": "https://krakowbiega.pl/wp-content/uploads/2026/08/Regulamin-XV-edycja-GPK.pdf",
+  "fit": true,
+  "why": "Dokument to regulamin XV edycji Grand Prix Krakowa w biegach górskich (Las Wolski, pierwszy bieg 25 października 2026), obejmujący dystanse 3,7, 5,7, 11,6 i 23,2 km oraz wspólne zasady całego cyklu, k",
+  "at": "2026-11-13T10:53:09.968Z"
+ },
+ "xv-grand-prix-krakowa-w-biegach-gorskich-2026-12-06": {
+  "url": "https://krakowbiega.pl/wp-content/uploads/2026/08/Regulamin-XV-edycja-GPK.pdf",
+  "fit": true,
+  "why": "Dokument to wspólny regulamin XV edycji Grand Prix Krakowa w biegach górskich (Las Wolski), cyklu obejmującego etap z 6 grudnia 2026 i dystanse 3,7, 5,7, 11,6 oraz 23,2 km.",
+  "at": "2026-11-13T10:52:31.993Z"
+ },
+ "xv-grand-prix-krakowa-w-biegach-gorskich-2027-01-10": {
+  "url": "https://krakowbiega.pl/wp-content/uploads/2026/08/Regulamin-XV-edycja-GPK.pdf",
+  "fit": true,
+  "why": "Dokument jest regulaminem XV edycji Grand Prix Krakowa w biegach górskich, obejmującym wszystkie dystanse cyklu (3,7, 5,7, 11,6 i 23,2 km) oraz termin 10 stycznia 2027 w Lesie Wolskim, czyli wspólnym ",
+  "at": "2026-11-13T10:52:37.394Z"
+ },
+ "xv-grand-prix-krakowa-w-biegach-gorskich-2027-02-07": {
+  "url": "https://krakowbiega.pl/wp-content/uploads/2026/08/Regulamin-XV-edycja-GPK.pdf",
+  "fit": true,
+  "why": "Dokument to regulamin XV edycji Grand Prix Krakowa w biegach górskich, w której terminarz obejmuje bieg z 7 lutego 2027 w Lesie Wolskim, a dystanse 3,7, 5,7, 11,6 i 23,2 km zgadzają się z danymi biegu",
+  "at": "2026-11-13T10:52:53.435Z"
+ },
+ "xv-grand-prix-krakowa-w-biegach-gorskich-2027-03-07": {
+  "url": "https://krakowbiega.pl/wp-content/uploads/2026/08/Regulamin-XV-edycja-GPK.pdf",
+  "fit": true,
+  "why": "Dokument jest regulaminem XV edycji Grand Prix Krakowa w biegach górskich (Las Wolski, Kraków), obejmuje dystanse 3,7, 5,7, 11,6 i 23,2 km oraz piąty etap cyklu z terminem 7 marca 2027, czyli Wielki F",
+  "at": "2026-11-13T10:53:04.636Z"
+ },
  "xvi-rzezniczek-2027-05-29": {
   "url": "https://www.biegrzeznika.pl/wp-content/uploads/2026/07/Regulamin-XIII-Festiwalu-Biegu-Rzeznika-2027.pdf",
   "fit": true,
@@ -688,6 +724,18 @@
   "fit": true,
   "why": "regulamin Baran Trail Race 13.03.2027",
   "at": "2026-11-12T09:35:19.438Z"
+ },
+ "zimowy-bieg-zboja-2027-01-10": {
+  "url": "https://www.biegzboja.pl/regulaminb",
+  "fit": false,
+  "why": "Dokument to regulamin korzystania z systemu rejestracji i serwisu biegzboja.pl (konta, płatności, reklamacje), a nie regulamin Zimowego Biegu Zbója ani jego dystansów.",
+  "at": "2026-11-13T10:52:42.943Z"
+ },
+ "zimowy-polmaraton-gor-stolowych-2027-01-16": {
+  "url": "https://www.maratongorstolowych.pl/wp-content/uploads/2026/09/ZPGS27_regulamin.docx.pdf",
+  "fit": true,
+  "why": "Dokument to regulamin XIII Zimowego Półmaratonu Gór Stołowych (Karłów, 16.01.2027) obejmujący dystanse 21 km i 31 km (Biała Trzydziestka), czyli dokładnie tę imprezę.",
+  "at": "2026-11-13T10:52:47.952Z"
  },
  "zimowy-ultra-turnicki-2027-01-16": {
   "url": "https://www.ultraturnicki.pl/_files/ugd/883a2a_022e1d7fd8b5466e8866635383e749f7.pdf",
