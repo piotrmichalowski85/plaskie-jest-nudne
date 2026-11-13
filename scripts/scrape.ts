@@ -214,11 +214,17 @@ async function regulaminy(raws: Raw[]): Promise<number> {
   const pinned = new Set<Raw>();
   // dplus: przewyższenia odczytane ręcznie ze strony organizatora ({"12": 250} = dystans ok. 12 km ma +250 m), gdy robot ich nie umie wyciągnąć;
   // wpis ustępuje tylko śladowi GPX i niesie adres źródła (dplusUrl) oraz datę sprawdzenia (checked)
-  for (const o of overrides as { match: string; date?: string; url?: string; regulaminUrl?: string; dplus?: Record<string, number>; dplusUrl?: string; checked?: string }[]) {
+  // km: długość trasy z regulaminu, gdy kalendarze podają inną ({"11": 10} = dystans zapisany w źródłach jako 11 km ma według regulaminu 10 km); kmUrl = adres źródła
+  for (const o of overrides as { match: string; date?: string; url?: string; regulaminUrl?: string; dplus?: Record<string, number>; dplusUrl?: string; km?: Record<string, number>; kmUrl?: string; checked?: string }[]) {
     const re = new RegExp(o.match, "i");
     for (const r of raws.filter((x) => re.test(x.name) && (!o.date || x.dateStart.startsWith(o.date)))) {
       if (o.url) r.url = o.url;
       if (o.regulaminUrl) { r.regulaminUrl = o.regulaminUrl; pinned.add(r); }
+      for (const [k, to] of Object.entries(o.km ?? {})) {
+        const from = Number(k);
+        r.distancesKm = [...new Set(r.distancesKm.map((x) => (Math.abs(x - from) < 0.05 ? to : x)))];
+        for (const e of r.elevations) if (Math.abs(e.km - from) < 0.05) e.km = to;
+      }
       for (const [k, d] of Object.entries(o.dplus ?? {})) {
         const km = Number(k);
         const e = r.elevations.filter((x) => Math.abs(x.km - km) <= Math.max(1.5, km * 0.06) && x.dplusSource !== "gpx").sort((a, b) => Math.abs(a.km - km) - Math.abs(b.km - km))[0];
@@ -490,6 +496,7 @@ function finalize(raws: Raw[]): Race[] {
     .sort((a, b) => a.dateStart.localeCompare(b.dateStart));
 }
 
+const NOT_RACE = /(^|[\s:(-])(zaj[eę]cia|trening(i|u|ów)?|ob[oó]z|obozy|warsztat(y|ów)?|szkolenie|rekonesans)(?![a-ząćęłńóśźż])/i;
 async function main() {
   // RAWS_IN=plik [RACES_OUT=plik]: samo scalanie na zapisanych surowych rekordach, bez pobierania czegokolwiek
   if (process.env.RAWS_IN) {
@@ -518,7 +525,11 @@ async function main() {
   console.log(`zapisy (nadchodzące): open ${zs.open}, closed ${zs.closed}, unknown ${zs.unknown}, z datą ${zs.withDate}`);
   // diagnostyka scalania: RAWS_OUT=plik zapisuje surowe rekordy sprzed scalenia (do testów finalize bez sieci, patrz RAWS_IN niżej)
   if (process.env.RAWS_OUT) writeFileSync(process.env.RAWS_OUT, JSON.stringify(raws));
-  const races = finalize(raws);
+  // nie-biegi z kategorii "bieg górski" na platformach zapisów: zajęcia, treningi, obozy, warsztaty, rekonesanse trasy
+  // (13.11.2026: "Ninja AMS KARTUZY - zajęcia terenowe dla dzieci i młodzieży" z elektronicznezapisy.pl); patrzymy na nazwę imprezy, nie na listę dystansów
+  const notRace = raws.filter((r) => NOT_RACE.test(r.eventName));
+  if (notRace.length) console.log(`pominięte (zajęcia, treningi, obozy): ${[...new Set(notRace.map((r) => r.eventName))].join("; ")}`);
+  const races = finalize(raws.filter((r) => !NOT_RACE.test(r.eventName)));
   const ds: Dataset = { generatedAt: new Date().toISOString(), count: races.length, races };
   if (races.length < 100 && !process.env.FORCE) { console.error(`STOP: tylko ${races.length} biegów, nie nadpisuję data/races.json (FORCE=1, żeby wymusić)`); process.exit(2); }
   mkdirSync("data", { recursive: true });

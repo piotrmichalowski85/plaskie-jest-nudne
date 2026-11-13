@@ -209,52 +209,29 @@
     "until": "2026-10-31"
    },
    {
+    "km": 21,
+    "pln": 160,
+    "until": "2026-10-31"
+   },
+   {
+    "km": 23.5,
+    "pln": 160,
+    "until": "2026-10-31"
+   },
+   {
+    "km": 51,
+    "pln": 200,
+    "until": "2026-10-31"
+   },
+   {
     "km": 10,
     "pln": 140,
     "until": "2027-01-31"
    },
    {
-    "km": 10,
-    "pln": 160,
-    "until": "2027-03-31"
-   },
-   {
-    "km": 10,
-    "pln": 180,
-    "until": "2027-05-07"
-   },
-   {
-    "km": 10,
-    "pln": 200
-   },
-   {
-    "km": 21,
-    "pln": 160,
-    "until": "2026-10-31"
-   },
-   {
     "km": 21,
     "pln": 180,
     "until": "2027-01-31"
-   },
-   {
-    "km": 21,
-    "pln": 200,
-    "until": "2027-03-31"
-   },
-   {
-    "km": 21,
-    "pln": 220,
-    "until": "2027-05-07"
-   },
-   {
-    "km": 21,
-    "pln": 250
-   },
-   {
-    "km": 23.5,
-    "pln": 160,
-    "until": "2026-10-31"
    },
    {
     "km": 23.5,
@@ -262,27 +239,24 @@
     "until": "2027-01-31"
    },
    {
-    "km": 23.5,
+    "km": 51,
+    "pln": 230,
+    "until": "2027-01-31"
+   },
+   {
+    "km": 10,
+    "pln": 160,
+    "until": "2027-03-31"
+   },
+   {
+    "km": 21,
     "pln": 200,
     "until": "2027-03-31"
    },
    {
     "km": 23.5,
-    "pln": 220,
-    "until": "2027-05-07"
-   },
-   {
-    "km": 23.5,
-    "pln": 250
-   },
-   {
-    "km": 51,
     "pln": 200,
-    "until": "2026-10-31"
-   },
-   {
-    "km": 51,
-    "pln": 230
+    "until": "2027-03-31"
    },
    {
     "km": 51,
@@ -290,18 +264,44 @@
     "until": "2027-03-31"
    },
    {
+    "km": 10,
+    "pln": 180,
+    "until": "2027-05-07"
+   },
+   {
+    "km": 21,
+    "pln": 220,
+    "until": "2027-05-07"
+   },
+   {
+    "km": 23.5,
+    "pln": 220,
+    "until": "2027-05-07"
+   },
+   {
     "km": 51,
     "pln": 280,
     "until": "2027-05-07"
    },
    {
-    "km": 51,
-    "pln": 300
+    "km": 10,
+    "pln": 200,
+    "onsite": true
    },
    {
-    "pln": 70,
-    "until": "2027-05-07",
-    "label": "mieszkańcy gminy"
+    "km": 21,
+    "pln": 250,
+    "onsite": true
+   },
+   {
+    "km": 23.5,
+    "pln": 250,
+    "onsite": true
+   },
+   {
+    "km": 51,
+    "pln": 300,
+    "onsite": true
    }
   ],
   "startTimes": [
@@ -310,8 +310,8 @@
     "time": "08:00"
    }
   ],
-  "aid": "punkty odświeżania i odżywiania na trasie; posiłek regeneracyjny po biegu",
-  "at": "2026-11-12T10:22:03.934Z"
+  "aid": "punkty odświeżania i odżywiania na trasie, posiłek regeneracyjny po biegu",
+  "at": "2026-11-13T16:34:40.827Z"
  },
  "http://jedlina.pro-run.pl/regulamin-zimowy-polmaraton/": {
   "year": 2027,
@@ -319,32 +319,36 @@
    {
     "km": 21,
     "limitH": 5
+   },
+   {
+    "km": 23.5,
+    "limitH": 5
+   },
+   {
+    "km": 10,
+    "limitH": 5
    }
   ],
   "fees": [
    {
-    "km": 21,
     "pln": 160,
     "until": "2026-10-31"
    },
    {
-    "km": 21,
     "pln": 180,
     "until": "2026-11-30"
    },
    {
-    "km": 21,
     "pln": 200,
     "until": "2026-12-31"
    },
    {
-    "km": 21,
     "pln": 240,
     "until": "2027-02-06"
    },
    {
-    "km": 21,
-    "pln": 250
+    "pln": 250,
+    "onsite": true
    },
    {
     "km": 10,
@@ -368,22 +372,18 @@
    },
    {
     "km": 10,
-    "pln": 200
+    "pln": 200,
+    "onsite": true
    }
   ],
   "startTimes": [
    {
-    "km": 21,
-    "time": "10:00"
-   },
-   {
-    "km": 10,
     "time": "10:00"
    }
   ],
-  "office": "Start spod Pałacu Jedlinka, Jedlina-Zdrój, ul. Zamkowa 4; biuro 8:00-9:30 w dniu biegu",
-  "aid": "Punkty odświeżania i odżywiania na trasie (liczba zależna od warunków), bufet na starcie",
-  "at": "2026-11-08T14:10:24.240Z"
+  "office": "Dzień biegu: otwarcie 8:00, zamknięcie 9:30",
+  "aid": "Punkty odżywiania na trasie (liczba zależy od warunków), bufet na starcie",
+  "at": "2026-11-13T16:34:40.816Z"
  },
  "http://maratonswietokrzyski.pl/regulamin/": {
   "year": 2026,
@@ -408,28 +408,24 @@
     "until": "2026-08-29"
    },
    {
-    "km": 43,
-    "pln": 230,
-    "until": "2026-09-29"
-   },
-   {
-    "km": 43,
-    "pln": 270,
-    "until": "2026-10-17"
-   },
-   {
-    "km": 43,
-    "pln": 300
-   },
-   {
     "km": 34,
     "pln": 200,
     "until": "2026-08-29"
    },
    {
+    "km": 43,
+    "pln": 230,
+    "until": "2026-09-29"
+   },
+   {
     "km": 34,
     "pln": 230,
     "until": "2026-09-29"
+   },
+   {
+    "km": 43,
+    "pln": 270,
+    "until": "2026-10-17"
    },
    {
     "km": 34,
@@ -437,8 +433,14 @@
     "until": "2026-10-17"
    },
    {
+    "km": 43,
+    "pln": 300,
+    "until": "2026-10-21"
+   },
+   {
     "km": 34,
-    "pln": 300
+    "pln": 300,
+    "until": "2026-10-21"
    },
    {
     "km": 15,
@@ -457,7 +459,8 @@
    },
    {
     "km": 15,
-    "pln": 190
+    "pln": 190,
+    "until": "2026-10-21"
    }
   ],
   "startTimes": [
@@ -474,9 +477,9 @@
     "time": "09:30"
    }
   ],
-  "office": "Nowa Słupia, ul. Świętokrzyska 63; 24.10 numery 6:10-7:35 (43 km), 6:30-8:00 (34 km), 6:10-9:12 (15 km)",
-  "aid": "43 i 34 km: 2 bufety (Huta Szklana, Kakonin) plus woda; 15 km tylko woda",
-  "at": "2026-11-08T14:10:24.239Z"
+  "office": "Nowa Słupia, ul. Świętokrzyska 63 (obok Karczmy Mnicha); 24.10 numery: GMŚ 6:10-7:35, EMR 6:30-8:00, PŚ 6:10-9:12",
+  "aid": "Bufety: Szklana Huta, Kakonin; woda na 17 km (34 km), 26 km (43 km), 6 i 11 km (15 km)",
+  "at": "2026-11-13T16:34:40.816Z"
  },
  "http://perlymalopolski.pl/regulamin-rabka-zdroj-2024/": {
   "year": 2026,
@@ -512,7 +515,8 @@
    },
    {
     "km": 20.1,
-    "pln": 175
+    "pln": 175,
+    "until": "2026-12-07"
    },
    {
     "km": 14.1,
@@ -531,7 +535,8 @@
    },
    {
     "km": 14.1,
-    "pln": 165
+    "pln": 165,
+    "until": "2026-12-07"
    },
    {
     "km": 7.5,
@@ -550,7 +555,8 @@
    },
    {
     "km": 7.5,
-    "pln": 140
+    "pln": 140,
+    "until": "2026-12-07"
    }
   ],
   "startTimes": [
@@ -571,7 +577,7 @@
   "aid": "woda źródlana na trasie i mecie, posiłek regeneracyjny po biegu",
   "poles": "tak",
   "dogs": "tak",
-  "at": "2026-11-12T09:55:40.678Z"
+  "at": "2026-11-13T16:34:40.827Z"
  },
  "http://ultra-way.pl/letni-festiwal-biegowy-ultra-way/regulamin/": {
   "year": 2027,
@@ -629,36 +635,44 @@
    },
    {
     "km": 103.6,
-    "pln": 510
+    "pln": 510,
+    "onsite": true
    },
    {
     "km": 60.6,
     "pln": 420,
-    "until": "2026-08-31"
+    "until": "2026-08-31",
+    "kind": "para"
    },
    {
     "km": 60.6,
     "pln": 500,
-    "until": "2026-10-31"
+    "until": "2026-10-31",
+    "kind": "para"
    },
    {
     "km": 60.6,
     "pln": 580,
-    "until": "2027-01-04"
+    "until": "2027-01-04",
+    "kind": "para"
    },
    {
     "km": 60.6,
     "pln": 660,
-    "until": "2027-03-31"
+    "until": "2027-03-31",
+    "kind": "para"
    },
    {
     "km": 60.6,
     "pln": 740,
-    "until": "2027-06-14"
+    "until": "2027-06-14",
+    "kind": "para"
    },
    {
     "km": 60.6,
-    "pln": 810
+    "pln": 810,
+    "kind": "para",
+    "onsite": true
    },
    {
     "km": 50.5,
@@ -687,7 +701,8 @@
    },
    {
     "km": 50.5,
-    "pln": 410
+    "pln": 410,
+    "onsite": true
    },
    {
     "km": 27.7,
@@ -716,7 +731,68 @@
    },
    {
     "km": 27.7,
-    "pln": 340
+    "pln": 340,
+    "onsite": true
+   },
+   {
+    "km": 10.1,
+    "pln": 100,
+    "until": "2026-08-31"
+   },
+   {
+    "km": 10.1,
+    "pln": 130,
+    "until": "2026-10-31"
+   },
+   {
+    "km": 10.1,
+    "pln": 160,
+    "until": "2027-01-04"
+   },
+   {
+    "km": 10.1,
+    "pln": 190,
+    "until": "2027-03-31"
+   },
+   {
+    "km": 10.1,
+    "pln": 210,
+    "until": "2027-06-14"
+   },
+   {
+    "km": 10.1,
+    "pln": 240,
+    "onsite": true
+   },
+   {
+    "km": 5.4,
+    "pln": 60,
+    "until": "2026-08-31"
+   },
+   {
+    "km": 5.4,
+    "pln": 80,
+    "until": "2026-10-31"
+   },
+   {
+    "km": 5.4,
+    "pln": 100,
+    "until": "2027-01-04"
+   },
+   {
+    "km": 5.4,
+    "pln": 120,
+    "until": "2027-03-31"
+   },
+   {
+    "km": 5.4,
+    "pln": 140,
+    "until": "2027-06-14"
+   },
+   {
+    "km": 5.4,
+    "pln": 160,
+    "onsite": true
    }
   ],
   "startTimes": [
@@ -745,10 +821,10 @@
     "time": "14:30"
    }
   ],
-  "office": "Gdyńskie Centrum Sportu, hala lekkoatletyczna, ul. Olimpijska 5/9; pakiety pt 25.06 i sb 26.06, godziny w osobnym komunikacie",
-  "aid": "Punkty odżywcze i nawadniania (bez 10 i 5 km): 100 km 5 punktów, 60 km 3, 50 km 2, 27 km 1; ciepłe posiłki na wybranych",
+  "office": "Gdyńskie Centrum Sportu, Hala lekkoatletyczna, ul. Olimpijska 5/9. Pt 25.06 i sob 26.06.2027 (godziny w osobnym komunikacie)",
+  "aid": "Napoje chłodzące i ciepłe, przekąski, owoce, słodycze; ciepłe posiłki na wybranych punktach",
   "poles": "tak",
-  "at": "2026-11-08T14:10:24.236Z"
+  "at": "2026-11-13T16:34:40.827Z"
  },
  "http://www.rudawy.pl/rudawy_regulamin_layout_2026_aktualizacja_26_03/": {
   "year": 2026,
@@ -792,7 +868,8 @@
    },
    {
     "km": 16.8,
-    "pln": 240
+    "pln": 240,
+    "until": "2026-05-16"
    },
    {
     "km": 27.2,
@@ -811,7 +888,8 @@
    },
    {
     "km": 27.2,
-    "pln": 260
+    "pln": 260,
+    "until": "2026-05-16"
    },
    {
     "km": 44,
@@ -830,7 +908,8 @@
    },
    {
     "km": 44,
-    "pln": 280
+    "pln": 280,
+    "until": "2026-05-16"
    },
    {
     "km": 63.9,
@@ -849,11 +928,8 @@
    },
    {
     "km": 63.9,
-    "pln": 320
-   },
-   {
-    "km": 9,
-    "pln": 120
+    "pln": 320,
+    "until": "2026-05-16"
    }
   ],
   "startTimes": [
@@ -878,11 +954,11 @@
     "time": "11:30"
    }
   ],
-  "office": "Browar Miedzianka, Miedzianka 57b; pt 15.05 16:00-22:00, sb 16.05 od 4:00 do startu dystansu",
-  "aid": "Punkty żywieniowe na trasie (napoje i wyżywienie), ciepły posiłek po biegu; liczba punktów nie podana",
+  "office": "Browar Miedzianka, Miedzianka 57b; pt 15.05 16:00-22:00, sb 16.05 od 7:00 do startu biegu",
+  "aid": "Punkty żywieniowe na trasie: napoje i wyżywienie",
   "dogs": "tak",
   "kids": true,
-  "at": "2026-11-08T14:10:24.228Z"
+  "at": "2026-11-13T16:34:40.831Z"
  },
  "https://3razysniezka.pl/regulamin/": {
   "year": 2026,
@@ -900,8 +976,8 @@
     "limitH": 11
    }
   ],
-  "aid": "punkty żywieniowe na trasie zgodnie z mapą: woda, Coca-cola, izotonik, owoce",
-  "at": "2026-11-12T09:59:30.116Z"
+  "aid": "punkty na trasie zgodnie z mapą: woda, Coca-cola, izotonik, owoce",
+  "at": "2026-11-13T16:34:40.827Z"
  },
  "https://3xkopa.pl/regulamin/": {
   "year": 2026,
@@ -949,7 +1025,8 @@
    },
    {
     "km": 3.7,
-    "pln": 100
+    "pln": 100,
+    "onsite": true
    },
    {
     "km": 10,
@@ -968,7 +1045,8 @@
    },
    {
     "km": 10,
-    "pln": 200
+    "pln": 200,
+    "onsite": true
    },
    {
     "km": 20,
@@ -987,7 +1065,8 @@
    },
    {
     "km": 20,
-    "pln": 250
+    "pln": 250,
+    "onsite": true
    },
    {
     "km": 42,
@@ -1006,7 +1085,8 @@
    },
    {
     "km": 42,
-    "pln": 350
+    "pln": 350,
+    "onsite": true
    },
    {
     "km": 63,
@@ -1025,7 +1105,8 @@
    },
    {
     "km": 63,
-    "pln": 400
+    "pln": 400,
+    "onsite": true
    },
    {
     "km": 100,
@@ -1044,7 +1125,8 @@
    },
    {
     "km": 100,
-    "pln": 450
+    "pln": 450,
+    "onsite": true
    }
   ],
   "startTimes": [
@@ -1073,18 +1155,23 @@
     "time": "04:00"
    }
   ],
-  "office": "Karczma Raj w Pokrzywnej; pt 24.04 16:00-22:00, sb 25.04 3:15-3:45 i 6:30-7:55; Głucha Dyszka w ndz 8:00-9:45 w Głuchołazach",
-  "aid": "Punkty w Pokrzywnej, na Kopie Biskupiej, w Petrovych Boudach i nad Janovem; napoje, przekąski, ciepły posiłek dla ultra",
+  "office": "Karczma Raj w Pokrzywnej: pt 24.04 16:00-22:00, sob 25.04 6:30-7:55 (Dyszka: nd 26.04 Muszla Leśna 8:00-9:45)",
+  "aid": "4 punkty: Pokrzywna, Kopa Biskupia, Petrovy Boudy, Janov; ciepły posiłek dla Ultra",
   "poles": "tak",
+  "dogs": "nie",
   "kids": true,
-  "at": "2026-11-08T14:10:24.238Z"
+  "at": "2026-11-13T16:34:40.816Z"
  },
  "https://b4sportonline.pl/suszecki_festiwal/regulamin": {
   "year": 2027,
   "limits": [
    {
     "km": 5,
-    "limitH": 0.83
+    "limitH": 0.8333
+   },
+   {
+    "km": 5,
+    "limitH": 1
    },
    {
     "km": 10,
@@ -1128,7 +1215,8 @@
    },
    {
     "km": 5,
-    "pln": 80
+    "pln": 80,
+    "onsite": true
    },
    {
     "km": 10,
@@ -1162,7 +1250,8 @@
    },
    {
     "km": 10,
-    "pln": 80
+    "pln": 80,
+    "onsite": true
    },
    {
     "km": 21,
@@ -1196,12 +1285,50 @@
    },
    {
     "km": 21,
-    "pln": 100
+    "pln": 100,
+    "onsite": true
+   },
+   {
+    "km": 5,
+    "pln": 20,
+    "until": "2026-06-30",
+    "kind": "marsz"
+   },
+   {
+    "km": 5,
+    "pln": 25,
+    "until": "2026-10-31",
+    "kind": "marsz"
+   },
+   {
+    "km": 5,
+    "pln": 30,
+    "until": "2026-12-31",
+    "kind": "marsz"
+   },
+   {
+    "km": 5,
+    "pln": 35,
+    "until": "2027-03-31",
+    "kind": "marsz"
+   },
+   {
+    "km": 5,
+    "pln": 45,
+    "until": "2027-06-04",
+    "kind": "marsz"
+   },
+   {
+    "km": 5,
+    "pln": 50,
+    "kind": "marsz",
+    "onsite": true
    }
   ],
-  "office": "Ośrodek Rekreacyjny Gwaruś, Suszec; sb 12.06 12:00-14:55, ndz 13.06 8:00-10:00",
+  "office": "Ośrodek Gwaruś, Suszec; sobota 12:00-14:55, niedziela 8:00-10:00",
+  "aid": "woda mineralna; soczki i batoniki dla roczników 2017-2026; baton lub żel w pakiecie",
   "kids": true,
-  "at": "2026-11-08T14:10:24.238Z"
+  "at": "2026-11-13T16:34:40.831Z"
  },
  "https://b4sportonline.pl/users-folder/1104/files/Regulamin_Wyspowy_Ultra_Swir_2027.pdf": {
   "year": 2027,
@@ -1336,10 +1463,11 @@
     "time": "12:15"
    }
   ],
-  "office": "Zielony Punkt Kontrolny, Rzepnica koło Bytowa; 10:00-10:40",
+  "office": "Zielony Punkt Kontrolny, Rzepnica koło Bytowa. Otwarcie 10:00, zamknięcie 10:40",
+  "aid": "Poczęstunek dla zawodników (bez podanego miejsca i godzin)",
   "dogs": "tak",
   "kids": true,
-  "at": "2026-11-08T14:10:24.228Z"
+  "at": "2026-11-13T16:34:40.831Z"
  },
  "https://b4sportonline.pl/users-folder/1417/files/regulamin_sfb_2026.pdf": {
   "year": 2026,
@@ -1378,7 +1506,8 @@
    },
    {
     "km": 84,
-    "pln": 300
+    "pln": 300,
+    "until": "2026-10-20"
    },
    {
     "km": 55,
@@ -1397,7 +1526,8 @@
    },
    {
     "km": 55,
-    "pln": 320
+    "pln": 320,
+    "onsite": true
    },
    {
     "km": 30,
@@ -1416,7 +1546,8 @@
    },
    {
     "km": 30,
-    "pln": 280
+    "pln": 280,
+    "onsite": true
    },
    {
     "km": 15,
@@ -1435,7 +1566,8 @@
    },
    {
     "km": 15,
-    "pln": 240
+    "pln": 240,
+    "onsite": true
    },
    {
     "km": 7,
@@ -1454,7 +1586,8 @@
    },
    {
     "km": 7,
-    "pln": 200
+    "pln": 200,
+    "onsite": true
    }
   ],
   "startTimes": [
@@ -1479,10 +1612,10 @@
     "time": "11:11"
    }
   ],
-  "office": "pt 23.10 17:00-20:00 Stadion Pogoń Pieszyce, ul. Hermana 1; sb 24.10 6:00-10:00 Parking Turystyczny Kamionki",
-  "aid": "Bufety na trasie i na mecie; szczegóły w informatorze technicznym",
+  "office": "Pt 23.10 17:00-20:00 Stadion Pogoń Pieszyce, ul. Hermana 1; sob 24.10 6:00-10:00 Parking Turystyczny Kamionki",
+  "aid": "Bufety na trasie (szczegóły w informatorze technicznym) i bufet na mecie",
   "poles": "tak",
-  "at": "2026-11-08T14:10:24.236Z"
+  "at": "2026-11-13T16:34:40.829Z"
  },
  "https://b4sportonline.pl/users-folder/741/files/regulamin_Przehyba_Trail_2026.pdf": {
   "year": 2026,
@@ -1576,9 +1709,9 @@
     "time": "10:00"
    }
   ],
-  "office": "Boisko sportowe/orlik w Gołkowicach Górnych; 03.10 7:15-9:30",
-  "aid": "Punkty odżywcze i kontrolne na trasie, punkt na Przehybie, posiłek na mecie",
-  "at": "2026-11-08T14:10:24.239Z"
+  "office": "Boisko sportowe/orlik w Gołkowicach Górnych, 07:15-09:30 (rejestracja, sprawdzanie wyposażenia)",
+  "aid": "Jedzenie i napoje na punktach żywieniowych oraz na mecie",
+  "at": "2026-11-13T16:34:40.831Z"
  },
  "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/assets/BTR_regulamin_2027_03.pdf": {
   "year": 2027,
@@ -1594,6 +1727,10 @@
    {
     "km": 59,
     "limitH": 11
+   },
+   {
+    "km": 25,
+    "limitH": 5
    }
   ],
   "fees": [
@@ -1657,44 +1794,40 @@
     "time": "06:00"
    }
   ],
-  "office": "Hala Widowiskowo-Sportowa, Węgierska Górka (os. XX-lecia II RP 12), godziny nie podane",
-  "aid": "11 km brak, 25 km 1 punkt, 59 km 4 punkty regeneracyjne",
+  "office": "Baza zawodów: Hala Widowiskowo-Sportowa, os. XX-lecia II RP 12, Węgierska Górka (godzin brak w regulaminie)",
+  "aid": "BTR 25: 1 punkt, BTR 60: 4 punkty; woda, izotonik, cola, owoce, słodycze",
   "poles": "tak",
-  "at": "2026-11-08T14:10:24.239Z"
+  "at": "2026-11-13T16:34:40.829Z"
  },
  "https://biegajwgorachsowich.pl/lib/vv3wnq/14-GBN-regulamin-msyk9hiv.pdf": {
   "year": 2026,
   "fees": [
    {
-    "km": 10,
     "pln": 80,
     "until": "2026-09-30"
    },
    {
-    "km": 10,
     "pln": 100,
     "until": "2026-10-31"
    },
    {
-    "km": 10,
     "pln": 120,
     "until": "2026-11-09"
    },
    {
-    "km": 10,
-    "pln": 150
+    "pln": 150,
+    "onsite": true
    }
   ],
   "startTimes": [
    {
-    "km": 10,
     "time": "11:00"
    }
   ],
-  "office": "Świetlica wiejska, Świerki 61; 11.11 8:00-10:30",
-  "aid": "Bufet końcowy na mecie",
+  "office": "Świetlica wiejska w Świerkach 61, w dniu imprezy 8.00-10.30 (weryfikacja, numery startowe, kod QR z e-maila)",
+  "aid": "Bufet końcowy po biegu: gorący posiłek, kawa, herbata, ciasta domowego wypieku",
   "dogs": "tak",
-  "at": "2026-11-08T14:10:24.241Z"
+  "at": "2026-11-13T16:34:40.829Z"
  },
  "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026_edit-mv6j7nqw.pdf": {
   "year": 2026,
@@ -1737,7 +1870,7 @@
    },
    {
     "pln": 160,
-    "until": "2026-11-21"
+    "onsite": true
    }
   ],
   "startTimes": [
@@ -1745,10 +1878,10 @@
     "time": "10:00"
    }
   ],
-  "office": "Karczma Sowia Grapa, Przełęcz Sokola, Rzeczka 38, 58-320 Walim; 20.11 16:00-20:00, 21.11 07:30-9:30",
-  "aid": "bufety na 6, 13, 17 i 22 km oraz przy mecie; posiłek w Schronisku Orzeł od 11:30",
+  "office": "Karczma Sowia Grapa, Przełęcz Sokola, Rzeczka 38, Walim: 20.11 16:00-20:00, 21.11 07:30-09:30",
+  "aid": "Bufety na 6, 13, 17 i 22 km oraz przy mecie; ciepły posiłek w schronisku od 11:30",
   "dogs": "tak",
-  "at": "2026-11-12T09:54:29.033Z"
+  "at": "2026-11-13T16:34:40.827Z"
  },
  "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026-msyirv8m.pdf": {
   "year": 2026,
@@ -1834,7 +1967,8 @@
    },
    {
     "km": 7.6,
-    "pln": 100
+    "pln": 100,
+    "onsite": true
    },
    {
     "km": 23.9,
@@ -1848,7 +1982,8 @@
    },
    {
     "km": 23.9,
-    "pln": 150
+    "pln": 150,
+    "onsite": true
    }
   ],
   "startTimes": [
@@ -1861,9 +1996,9 @@
     "time": "10:40"
    }
   ],
-  "office": "Ośrodek Lasów Państwowych Radocyna, Czarne 1, Sękowa; 7:45-10:00 w dniu biegu",
-  "aid": "1 bufet na trasie, posiłek na mecie",
-  "at": "2026-11-08T14:10:24.228Z"
+  "office": "Ośrodek Radocyna, Czarne 1, 38-307 Sękowa; 07.11.2026, 7:45-10:00",
+  "aid": "1 bufet na trasie, żel izotoniczny SIS w pakiecie, posiłek na mecie",
+  "at": "2026-11-13T16:34:40.827Z"
  },
  "https://biegnakasprowy.pl/biegnakasprowy/regulamin": {
   "year": 2026,
@@ -1880,7 +2015,19 @@
    },
    {
     "km": 8.7,
-    "pln": 350
+    "pln": 260,
+    "until": "2026-06-30",
+    "kind": "marsz"
+   },
+   {
+    "km": 8.7,
+    "pln": 290,
+    "until": "2026-09-15",
+    "kind": "marsz"
+   },
+   {
+    "pln": 350,
+    "onsite": true
    }
   ],
   "startTimes": [
@@ -1889,17 +2036,17 @@
     "time": "10:00"
    }
   ],
-  "office": "COS Zakopane, ul. Czecha 1; pt 18.09 17:00-21:00 (pakiety)",
-  "aid": "Ciepły napój na szczycie Kasprowego Wierchu (meta), obiad po biegu",
+  "office": "Pt 18.09 17-21 COS Zakopane, ul. Bronisława Czecha 1; sob. pod sklepem AlpinSport, Rondo JPII, depozyty 8-9",
+  "aid": "Na mecie ciepły napój (górna stacja kolejki), obiad 12-16:30 w Barze Tatrzańskim",
   "poles": "nie",
-  "at": "2026-11-08T14:10:24.237Z"
+  "at": "2026-11-13T16:34:40.831Z"
  },
  "https://biegpolesie.pl/wp-content/uploads/2024/10/IX-Bieg-Polesie-regulamin-2019.pdf": {
   "year": 2019,
   "fees": [
    {
-    "km": 47,
-    "pln": 100
+    "pln": 100,
+    "until": "2019-08-09"
    }
   ],
   "startTimes": [
@@ -1908,9 +2055,9 @@
     "time": "10:00"
    }
   ],
-  "office": "Zbereże, w okolicy tymczasowego przejścia granicznego; zbiórka 8:30",
-  "aid": "Bufet w pojeździe towarzyszącym (woda, izotonik)",
-  "at": "2026-11-08T14:10:24.240Z"
+  "office": "Zbereże, okolice tymczasowego przejścia granicznego, sobota 10.08.2019, zbiórka 8:30 (czas polski)",
+  "aid": "bufet w pojeździe eskorty, woda i izotonik z pojazdu, posiłek po biegu",
+  "at": "2026-11-13T16:34:40.829Z"
  },
  "https://bisonultratrail.pl/regulamin/": {
   "year": 2026,
@@ -1930,6 +2077,10 @@
    {
     "km": 31,
     "limitH": 5
+   },
+   {
+    "km": 18,
+    "limitH": 3
    },
    {
     "km": 10,
@@ -1964,7 +2115,8 @@
    },
    {
     "km": 106,
-    "pln": 380
+    "pln": 380,
+    "until": "2026-10-01"
    },
    {
     "km": 72,
@@ -1993,7 +2145,8 @@
    },
    {
     "km": 72,
-    "pln": 330
+    "pln": 330,
+    "until": "2026-10-01"
    },
    {
     "km": 53,
@@ -2022,7 +2175,8 @@
    },
    {
     "km": 53,
-    "pln": 300
+    "pln": 300,
+    "until": "2026-10-01"
    },
    {
     "km": 31,
@@ -2051,7 +2205,68 @@
    },
    {
     "km": 31,
-    "pln": 260
+    "pln": 260,
+    "until": "2026-10-01"
+   },
+   {
+    "km": 18,
+    "pln": 119,
+    "until": "2026-01-31"
+   },
+   {
+    "km": 18,
+    "pln": 139,
+    "until": "2026-04-30"
+   },
+   {
+    "km": 18,
+    "pln": 149,
+    "until": "2026-06-30"
+   },
+   {
+    "km": 18,
+    "pln": 169,
+    "until": "2026-08-31"
+   },
+   {
+    "km": 18,
+    "pln": 189,
+    "until": "2026-09-30"
+   },
+   {
+    "km": 18,
+    "pln": 200,
+    "until": "2026-10-01"
+   },
+   {
+    "km": 10,
+    "pln": 79,
+    "until": "2026-01-31"
+   },
+   {
+    "km": 10,
+    "pln": 89,
+    "until": "2026-04-30"
+   },
+   {
+    "km": 10,
+    "pln": 99,
+    "until": "2026-06-30"
+   },
+   {
+    "km": 10,
+    "pln": 109,
+    "until": "2026-08-31"
+   },
+   {
+    "km": 10,
+    "pln": 119,
+    "until": "2026-09-30"
+   },
+   {
+    "km": 10,
+    "pln": 130,
+    "until": "2026-10-01"
    }
   ],
   "startTimes": [
@@ -2072,6 +2287,7 @@
     "time": "09:00"
    },
    {
+    "km": 18,
     "time": "09:30"
    },
    {
@@ -2079,9 +2295,9 @@
     "time": "10:00"
    }
   ],
-  "office": "Ogród Saski w Supraślu. Pt 2.10: 15:00-22:00 (100 km), 17:00-22:00 (pozostałe). Sob 3.10: 6:30-9:30.",
-  "aid": "Punkty odżywcze: 6 na 100 km, 4 na 70, 3 na 50, 2 na 30, 1 na 18, brak na 10 km",
-  "at": "2026-11-12T10:01:40.039Z"
+  "office": "Ogród Saski, Supraśl: pt 2.10 15:00-22:00 (100 km), 17:00-22:00 (inne), sob 3.10 6:30-9:30",
+  "aid": "100 km: 6 punktów, 70 km: 4, 50 km: 3, 30 km: 2, 18 km: 1, 10 km: brak; napoje i wyżywienie",
+  "at": "2026-11-13T16:34:40.827Z"
  },
  "https://boreckatrail.pl/regulamin/": {
   "year": 2026,
@@ -2117,7 +2333,32 @@
    },
    {
     "km": 10,
-    "pln": 150
+    "pln": 150,
+    "onsite": true
+   },
+   {
+    "km": 10,
+    "pln": 60,
+    "until": "2026-08-30",
+    "kind": "marsz"
+   },
+   {
+    "km": 10,
+    "pln": 80,
+    "until": "2026-10-30",
+    "kind": "marsz"
+   },
+   {
+    "km": 10,
+    "pln": 100,
+    "until": "2026-11-18",
+    "kind": "marsz"
+   },
+   {
+    "km": 10,
+    "pln": 130,
+    "kind": "marsz",
+    "onsite": true
    },
    {
     "km": 21,
@@ -2136,7 +2377,8 @@
    },
    {
     "km": 21,
-    "pln": 200
+    "pln": 200,
+    "onsite": true
    },
    {
     "km": 30,
@@ -2155,7 +2397,8 @@
    },
    {
     "km": 30,
-    "pln": 220
+    "pln": 220,
+    "onsite": true
    },
    {
     "km": 45,
@@ -2174,7 +2417,8 @@
    },
    {
     "km": 45,
-    "pln": 250
+    "pln": 250,
+    "onsite": true
    }
   ],
   "startTimes": [
@@ -2195,10 +2439,10 @@
     "time": "09:30"
    }
   ],
-  "office": "Folwark Łękuk, Łękuk Mały 8, Wydminy; pt 20.11 16:00-21:30, sb 21.11 6:30-9:00",
+  "office": "Folwark Łękuk, Łękuk Mały 8, Wydminy: 20.11 16:00-21:30, 21.11 06:30-09:00",
   "dogs": "nie",
   "kids": true,
-  "at": "2026-11-08T14:10:24.241Z"
+  "at": "2026-11-13T16:34:40.829Z"
  },
  "https://chojnikmaraton.pl/wp-content/uploads/2026/04/CHOJNIK_regulamin_layout_2026_v2-1.pdf": {
   "year": 2026,
@@ -2328,10 +2572,6 @@
     "km": 102,
     "pln": 410,
     "until": "2026-09-05"
-   },
-   {
-    "km": 8,
-    "pln": 120
    }
   ],
   "startTimes": [
@@ -2360,10 +2600,10 @@
     "time": "11:00"
    }
   ],
-  "office": "TCTA Sobieszów, ul. Czecha 14; pt 4.09 16:00-22:00, sob 5.09 od 6:30 (Ultra 1:00-2:00, Siedemdziesiąt z Hakiem 5:00-6:00)",
-  "aid": "Od 1 bufetu (14 km) do 6 (102 km): woda, izotonik, cola, owoce, słone i słodkie przekąski",
+  "office": "Transgraniczne Centrum Turystyki Aktywnej w Sobieszowie, Jelenia Góra. Pt 16:00-22:00, sob. od 6:30 (zależnie od dystansu)",
+  "aid": "Bufety: woda, izotonik, cola, owoce, przekąski; ciepły posiłek w Karpaczu (72 i 102 km)",
   "kids": true,
-  "at": "2026-11-12T10:01:14.798Z"
+  "at": "2026-11-13T16:34:40.829Z"
  },
  "https://chudywawrzyniec.pl/regulamin-biegow-gorskich-chudy-wawrzyniec-2026/": {
   "year": 2026,
@@ -2395,61 +2635,20 @@
   ],
   "fees": [
    {
-    "km": 52,
     "pln": 249.99,
     "until": "2025-12-14"
    },
    {
-    "km": 52,
     "pln": 279.99,
     "until": "2026-03-31"
    },
    {
-    "km": 52,
     "pln": 309.99,
     "until": "2026-07-26"
    },
    {
-    "km": 52,
-    "pln": 339.99
-   },
-   {
-    "km": 82.5,
-    "pln": 249.99,
-    "until": "2025-12-14"
-   },
-   {
-    "km": 82.5,
-    "pln": 279.99,
-    "until": "2026-03-31"
-   },
-   {
-    "km": 82.5,
-    "pln": 309.99,
-    "until": "2026-07-26"
-   },
-   {
-    "km": 82.5,
-    "pln": 339.99
-   },
-   {
-    "km": 102,
-    "pln": 249.99,
-    "until": "2025-12-14"
-   },
-   {
-    "km": 102,
-    "pln": 279.99,
-    "until": "2026-03-31"
-   },
-   {
-    "km": 102,
-    "pln": 309.99,
-    "until": "2026-07-26"
-   },
-   {
-    "km": 102,
-    "pln": 339.99
+    "pln": 339.99,
+    "until": "2026-08-08"
    },
    {
     "km": 63,
@@ -2468,7 +2667,8 @@
    },
    {
     "km": 63,
-    "pln": 339.99
+    "pln": 339.99,
+    "until": "2026-08-08"
    },
    {
     "km": 20.5,
@@ -2487,7 +2687,8 @@
    },
    {
     "km": 20.5,
-    "pln": 209.99
+    "pln": 209.99,
+    "until": "2026-08-09"
    },
    {
     "km": 2.9,
@@ -2496,20 +2697,12 @@
    },
    {
     "km": 2.9,
-    "pln": 89.99
+    "pln": 89.99,
+    "until": "2026-08-09"
    }
   ],
   "startTimes": [
    {
-    "km": 52,
-    "time": "04:00"
-   },
-   {
-    "km": 82.5,
-    "time": "04:00"
-   },
-   {
-    "km": 102,
     "time": "04:00"
    },
    {
@@ -2525,26 +2718,21 @@
     "time": "10:15"
    }
   ],
-  "office": "Rajcza (pt 14:00-21:30); Ujsoły (sob 12:00-19:00, niedz. 07:00-09:00)",
-  "aid": "Chudy 50: 1, Chudy 80/Bendoszka/Rycerzowa: 2, Chudy 100: 3; woda, napój, owoce, słodycze",
-  "poles": "tak",
-  "kids": true,
-  "at": "2026-11-12T10:00:43.450Z"
+  "office": "Pt 07.08 Rajcza, amfiteatr 14:00-21:30; sb 08.08 Ujsoły 12:00-19:00; nd 09.08 Ujsoły 7:00-9:00",
+  "aid": "1 punkt na 50 km, 2 na 80 km, 63 km i 20 km, 3 na 100 km; woda, napój, owoce, słone, zupa",
+  "at": "2026-11-13T16:34:40.816Z"
  },
  "https://citytrail.pl/strony/stat/id/8/regulamin-bieg-glowny": {
   "year": 2026,
   "fees": [
    {
-    "pln": 52.99,
-    "label": "jednorazowa"
+    "km": 5,
+    "pln": 52.99
    },
    {
+    "km": 5,
     "pln": 60,
-    "label": "jednorazowa"
-   },
-   {
-    "pln": 154.99,
-    "label": "karnet na cały cykl"
+    "onsite": true
    }
   ],
   "startTimes": [
@@ -2553,11 +2741,11 @@
     "time": "11:00"
    }
   ],
-  "office": "Przy starcie/mecie w każdym mieście, czynne 08:30-10:30 (np. Bydgoszcz: polana Różopole)",
-  "aid": "Po biegu napój (izotonik, herbata lub woda) i baton; regulamin nie podaje punktów na trasie",
+  "office": "Przy starcie/mecie w każdym mieście, 08:30-10:30 (numer startowy z chipem tylko osobiście)",
+  "aid": "Napój po biegu (izotonik, herbata lub woda), baton Zmiany po mecie",
   "poles": "tak",
   "dogs": "tak",
-  "at": "2026-11-13T12:10:22.821Z"
+  "at": "2026-11-13T16:34:40.829Z"
  },
  "https://competitions.timekeeper.pl/download/1081": {
   "year": 2026,
@@ -2656,7 +2844,8 @@
    },
    {
     "km": 240,
-    "pln": 750
+    "pln": 750,
+    "until": "2027-07-13"
    },
    {
     "km": 170,
@@ -2675,7 +2864,8 @@
    },
    {
     "km": 170,
-    "pln": 560
+    "pln": 560,
+    "until": "2027-07-13"
    },
    {
     "km": 130,
@@ -2694,7 +2884,8 @@
    },
    {
     "km": 130,
-    "pln": 470
+    "pln": 470,
+    "until": "2027-07-13"
    },
    {
     "km": 110,
@@ -2713,7 +2904,8 @@
    },
    {
     "km": 110,
-    "pln": 465
+    "pln": 465,
+    "until": "2027-07-13"
    },
    {
     "km": 70,
@@ -2732,7 +2924,8 @@
    },
    {
     "km": 70,
-    "pln": 375
+    "pln": 375,
+    "until": "2027-07-13"
    },
    {
     "km": 45,
@@ -2751,7 +2944,88 @@
    },
    {
     "km": 45,
-    "pln": 315
+    "pln": 315,
+    "until": "2027-07-13"
+   },
+   {
+    "km": 33,
+    "pln": 225,
+    "until": "2027-01-31"
+   },
+   {
+    "km": 33,
+    "pln": 245,
+    "until": "2027-03-31"
+   },
+   {
+    "km": 33,
+    "pln": 275,
+    "until": "2027-06-15"
+   },
+   {
+    "km": 33,
+    "pln": 300,
+    "until": "2027-07-13"
+   },
+   {
+    "km": 21,
+    "pln": 200,
+    "until": "2027-01-31"
+   },
+   {
+    "km": 21,
+    "pln": 225,
+    "until": "2027-03-31"
+   },
+   {
+    "km": 21,
+    "pln": 250,
+    "until": "2027-06-15"
+   },
+   {
+    "km": 21,
+    "pln": 275,
+    "until": "2027-07-13"
+   },
+   {
+    "km": 15,
+    "pln": 165,
+    "until": "2027-01-31"
+   },
+   {
+    "km": 15,
+    "pln": 190,
+    "until": "2027-03-31"
+   },
+   {
+    "km": 15,
+    "pln": 215,
+    "until": "2027-06-15"
+   },
+   {
+    "km": 15,
+    "pln": 240,
+    "until": "2027-07-13"
+   },
+   {
+    "km": 10,
+    "pln": 105,
+    "until": "2027-01-31"
+   },
+   {
+    "km": 10,
+    "pln": 115,
+    "until": "2027-03-31"
+   },
+   {
+    "km": 10,
+    "pln": 125,
+    "until": "2027-06-15"
+   },
+   {
+    "km": 10,
+    "pln": 135,
+    "until": "2027-07-13"
    }
   ],
   "startTimes": [
@@ -2796,12 +3070,12 @@
     "time": "10:00"
    }
   ],
-  "office": "Biuro Zawodów w Lądku-Zdroju; godziny pracy nie podane w regulaminie",
-  "aid": "Punkty: B7S 14, SMT 10, ST 7, KBL 6, UT 5, ZM 3, GMT 2, ZP 1, NT 1, TT 2",
+  "office": "Biuro Zawodów w Lądku-Zdroju; regulamin nie podaje godzin pracy",
+  "aid": "Punkty: B7S 14, SMT 10, ST 7, KBL 6, UT 5, ZM 3, GMT 2, ZP 1, NT 1, TT 2; woda, izotonik, ciastka",
   "poles": "tak",
   "dogs": "nie",
   "kids": true,
-  "at": "2026-11-12T09:59:50.804Z"
+  "at": "2026-11-13T16:34:40.829Z"
  },
  "https://dostartu.pl/statute_files/15653_pl.pdf": {
   "year": 2026,
@@ -2826,19 +3100,20 @@
     "until": "2026-04-30"
    },
    {
-    "km": 5,
-    "pln": 80,
-    "until": "2026-05-20"
-   },
-   {
-    "km": 5,
-    "pln": 85,
-    "until": "2026-05-24"
-   },
-   {
     "km": 10,
     "pln": 75,
     "until": "2026-04-30"
+   },
+   {
+    "km": 2.5,
+    "pln": 35,
+    "until": "2026-04-30",
+    "kind": "marsz"
+   },
+   {
+    "km": 5,
+    "pln": 80,
+    "until": "2026-05-20"
    },
    {
     "km": 10,
@@ -2846,24 +3121,26 @@
     "until": "2026-05-20"
    },
    {
-    "km": 10,
-    "pln": 105,
-    "until": "2026-05-24"
-   },
-   {
-    "km": 2.5,
-    "pln": 35,
-    "until": "2026-04-30"
-   },
-   {
     "km": 2.5,
     "pln": 45,
-    "until": "2026-05-20"
+    "until": "2026-05-20",
+    "kind": "marsz"
+   },
+   {
+    "km": 5,
+    "pln": 85,
+    "onsite": true
+   },
+   {
+    "km": 10,
+    "pln": 105,
+    "onsite": true
    },
    {
     "km": 2.5,
     "pln": 55,
-    "until": "2026-05-24"
+    "kind": "marsz",
+    "onsite": true
    }
   ],
   "startTimes": [
@@ -2880,10 +3157,11 @@
     "time": "10:10"
    }
   ],
-  "office": "Wybrzeże Gdyńskie 2, Żoliborz, Warszawa; 24 maja 2026, 8:00-9:30",
-  "aid": "woda na półmetku i mecie, wegański posiłek regeneracyjny",
+  "office": "Wybrzeze Gdynskie 2, 01-531 Warszawa. 24 maja, 8:00-9:30 (wydawanie pakietow do 30 min przed startem)",
+  "aid": "woda na polmetku i mecie, weganski posilek regeneracyjny",
   "dogs": "tak",
-  "at": "2026-11-13T12:10:40.099Z"
+  "kids": true,
+  "at": "2026-11-13T16:34:40.816Z"
  },
  "https://dostartu.pl/statute_files/15940_pl.pdf": {
   "year": 2026,
@@ -2895,18 +3173,16 @@
   ],
   "fees": [
    {
-    "km": 10.6,
     "pln": 70,
     "until": "2026-08-01"
    },
    {
-    "km": 10.6,
     "pln": 90,
     "until": "2026-09-14"
    },
    {
-    "km": 10.6,
-    "pln": 110
+    "pln": 110,
+    "onsite": true
    }
   ],
   "startTimes": [
@@ -2915,9 +3191,9 @@
     "time": "11:00"
    }
   ],
-  "office": "Ośrodek Ostoja w Jodłowie; 20.09 8:30-10:30",
-  "aid": "2 punkty nawadniania (3,5 km i 7,2 km)",
-  "at": "2026-11-08T14:10:24.238Z"
+  "office": "Ośrodek Ostoja w Jodłowie, 20.09 godz. 8:30-10:30 (weryfikacja, numery startowe)",
+  "aid": "2 punkty nawadniania na 3,5 km i 7,2 km, woda po biegu, posiłek po biegu",
+  "at": "2026-11-13T16:34:40.827Z"
  },
  "https://dostartu.pl/statute_files/16818_pl.pdf": {
   "year": 2026,
@@ -2962,7 +3238,8 @@
     "until": "2026-11-22"
    },
    {
-    "pln": 300
+    "pln": 300,
+    "onsite": true
    },
    {
     "km": 16,
@@ -2981,7 +3258,8 @@
    },
    {
     "km": 16,
-    "pln": 230
+    "pln": 230,
+    "onsite": true
    }
   ],
   "startTimes": [
@@ -2993,10 +3271,9 @@
     "time": "09:00"
    }
   ],
-  "office": "05.12.2026 godz. 5:30-6:40 i 7:30-8:30 (miejsce nie podane wprost; start i meta: Gościniec Równica)",
-  "aid": "Pkt żywieniowy w Bazie Zawodów co 8,2 km, przez cały czas trwania biegu",
-  "poles": "tak",
-  "at": "2026-11-12T09:55:06.661Z"
+  "office": "Gościniec Równica (start i meta): 05.12.2026 godz. 5:30-6:40 i 7:30-8:30",
+  "aid": "Punkt żywieniowy w Bazie Zawodów co 8,2 km, przez cały czas trwania biegu",
+  "at": "2026-11-13T16:34:40.816Z"
  },
  "https://gorceultratrail.pl/assets/files/GUT-2026-regulamin.pdf": {
   "year": 2026,
@@ -3018,26 +3295,28 @@
    },
    {
     "km": 102,
-    "pln": 370
+    "pln": 370,
+    "until": "2026-08-03"
    },
    {
-    "km": 66,
+    "km": 67,
     "pln": 240,
     "until": "2026-01-31"
    },
    {
-    "km": 66,
+    "km": 67,
     "pln": 265,
     "until": "2026-05-10"
    },
    {
-    "km": 66,
+    "km": 67,
     "pln": 295,
     "until": "2026-07-15"
    },
    {
-    "km": 66,
-    "pln": 330
+    "km": 67,
+    "pln": 330,
+    "until": "2026-08-03"
    },
    {
     "km": 52,
@@ -3056,7 +3335,8 @@
    },
    {
     "km": 52,
-    "pln": 280
+    "pln": 280,
+    "until": "2026-08-03"
    },
    {
     "km": 37,
@@ -3075,7 +3355,8 @@
    },
    {
     "km": 37,
-    "pln": 230
+    "pln": 230,
+    "until": "2026-08-03"
    },
    {
     "km": 20,
@@ -3094,39 +3375,57 @@
    },
    {
     "km": 20,
-    "pln": 200
+    "pln": 200,
+    "until": "2026-08-03"
    },
    {
-    "km": 12,
+    "km": 11,
     "pln": 90,
     "until": "2026-01-31"
    },
    {
-    "km": 12,
+    "km": 11,
     "pln": 115,
     "until": "2026-05-10"
    },
    {
-    "km": 12,
+    "km": 11,
     "pln": 140,
     "until": "2026-07-15"
    },
    {
-    "km": 12,
-    "pln": 150
+    "km": 11,
+    "pln": 150,
+    "until": "2026-08-03"
+   },
+   {
+    "km": 5.5,
+    "pln": 70,
+    "until": "2026-01-31"
+   },
+   {
+    "km": 5.5,
+    "pln": 85,
+    "until": "2026-05-10"
+   },
+   {
+    "km": 5.5,
+    "pln": 100,
+    "until": "2026-07-15"
+   },
+   {
+    "km": 5.5,
+    "pln": 120,
+    "until": "2026-08-03"
    }
   ],
   "startTimes": [
-   {
-    "km": 5,
-    "time": "17:00"
-   },
    {
     "km": 102,
     "time": "04:00"
    },
    {
-    "km": 66,
+    "km": 67,
     "time": "07:00"
    },
    {
@@ -3142,15 +3441,20 @@
     "time": "09:00"
    },
    {
-    "km": 12,
+    "km": 11,
     "time": "10:00"
+   },
+   {
+    "km": 5.5,
+    "time": "17:00"
    }
   ],
-  "office": "WOK Ochotnica Dolna, Dłubacze 173b; pt 31.07 15:00-23:00, sb 6:00-9:30, nd 7:00-9:00",
+  "office": "WOK Ochotnica Dolna, Dłubacze 173b. Pt 31.07 15:00-23:00, sob 1.08 06:00-09:30, nd 2.08 07:00-09:00",
+  "aid": "Punkty żywieniowe na trasie, posiłek regeneracyjny na mecie",
   "poles": "tak",
   "dogs": "tak",
   "kids": true,
-  "at": "2026-11-08T14:10:24.241Z"
+  "at": "2026-11-13T16:34:40.831Z"
  },
  "https://itmbw.pl/itmbwieczorem-regulamin/": {
   "year": 2026,
@@ -3175,7 +3479,7 @@
    }
   ],
   "dogs": "nie",
-  "at": "2026-11-08T14:10:24.241Z"
+  "at": "2026-11-13T16:34:40.827Z"
  },
  "https://izeryultratrail.pl/regulamin/": {
   "year": 2026,
@@ -3233,7 +3537,8 @@
    },
    {
     "km": 104,
-    "pln": 450
+    "pln": 450,
+    "onsite": true
    },
    {
     "km": 68,
@@ -3262,7 +3567,8 @@
    },
    {
     "km": 68,
-    "pln": 380
+    "pln": 380,
+    "onsite": true
    },
    {
     "km": 50,
@@ -3291,7 +3597,8 @@
    },
    {
     "km": 50,
-    "pln": 310
+    "pln": 310,
+    "onsite": true
    },
    {
     "km": 34.8,
@@ -3320,7 +3627,68 @@
    },
    {
     "km": 34.8,
-    "pln": 290
+    "pln": 290,
+    "onsite": true
+   },
+   {
+    "km": 25,
+    "pln": 159,
+    "until": "2025-11-30"
+   },
+   {
+    "km": 25,
+    "pln": 175,
+    "until": "2026-01-31"
+   },
+   {
+    "km": 25,
+    "pln": 189,
+    "until": "2026-03-31"
+   },
+   {
+    "km": 25,
+    "pln": 209,
+    "until": "2026-05-31"
+   },
+   {
+    "km": 25,
+    "pln": 229,
+    "until": "2026-06-25"
+   },
+   {
+    "km": 25,
+    "pln": 250,
+    "onsite": true
+   },
+   {
+    "km": 16,
+    "pln": 139,
+    "until": "2025-11-30"
+   },
+   {
+    "km": 16,
+    "pln": 149,
+    "until": "2026-01-31"
+   },
+   {
+    "km": 16,
+    "pln": 159,
+    "until": "2026-03-31"
+   },
+   {
+    "km": 16,
+    "pln": 175,
+    "until": "2026-05-31"
+   },
+   {
+    "km": 16,
+    "pln": 189,
+    "until": "2026-06-25"
+   },
+   {
+    "km": 16,
+    "pln": 220,
+    "onsite": true
    }
   ],
   "startTimes": [
@@ -3349,8 +3717,9 @@
     "time": "09:00"
    }
   ],
-  "aid": "104 km: 6 punktów, 68 km: 4, 50 km: 4, 34,8 km: 3, 25 km: 2, 16 km: 1; przepak 104 km na 59. km",
-  "at": "2026-11-08T14:10:24.236Z"
+  "office": "Piątek 26.06.2026, 14:00-22:00 (przepak); pozostałe godziny podane później",
+  "aid": "Punkty odżywcze: 6 (100 km), 4 (70 i 50 km), 3 (35 km), 2 (25 km), 1 (16 km)",
+  "at": "2026-11-13T16:34:40.832Z"
  },
  "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/": {
   "year": 2026,
@@ -3369,7 +3738,7 @@
    },
    {
     "km": 75,
-    "limitH": 17.83
+    "limitH": 17.8333
    }
   ],
   "fees": [
@@ -3390,7 +3759,8 @@
    },
    {
     "km": 10,
-    "pln": 200
+    "pln": 200,
+    "onsite": true
    },
    {
     "km": 20,
@@ -3409,7 +3779,8 @@
    },
    {
     "km": 20,
-    "pln": 275
+    "pln": 275,
+    "onsite": true
    },
    {
     "km": 40,
@@ -3428,7 +3799,8 @@
    },
    {
     "km": 40,
-    "pln": 375
+    "pln": 375,
+    "onsite": true
    },
    {
     "km": 75,
@@ -3447,7 +3819,8 @@
    },
    {
     "km": 75,
-    "pln": 775
+    "pln": 775,
+    "onsite": true
    }
   ],
   "startTimes": [
@@ -3466,12 +3839,15 @@
    {
     "km": 10,
     "time": "12:00"
+   },
+   {
+    "time": "15:00"
    }
   ],
-  "office": "Łapsze Niżne, hale pod Czarną Górą; pt 11.09 17:00-22:00, sb od 7:00 (Legenda 75 km tylko w piątek)",
-  "aid": "PK z wodą, izo, colą, owocami i przekąskami: 10 km 1, 20 km 2, 40 km 3, 75 km 7",
+  "office": "Pod Czarną Górą: pt 11.09 17:00-22:00 (pakiety Legenda tylko w piątek), sb 12.09 od 07:00",
+  "aid": "PK z wodą, izotonikiem, owocami i przekąskami; ciepły posiłek po biegu (nie dla Kids)",
   "kids": true,
-  "at": "2026-11-08T14:10:24.228Z"
+  "at": "2026-11-13T16:34:40.816Z"
  },
  "https://janosikraceseries.com/roztoczeultrarace/regulamin-zawodow/": {
   "year": 2026,
@@ -3489,6 +3865,10 @@
     "limitH": 8
    },
    {
+    "km": 25,
+    "limitH": 10
+   },
+   {
     "km": 24,
     "limitH": 6
    },
@@ -3498,10 +3878,20 @@
    },
    {
     "km": 3,
-    "limitH": 1.5
+    "limitH": 1
    }
   ],
   "fees": [
+   {
+    "km": 3,
+    "pln": 50,
+    "until": "2026-10-06"
+   },
+   {
+    "km": 3,
+    "pln": 50,
+    "onsite": true
+   },
    {
     "km": 10,
     "pln": 125,
@@ -3519,7 +3909,8 @@
    },
    {
     "km": 10,
-    "pln": 200
+    "pln": 200,
+    "onsite": true
    },
    {
     "km": 24,
@@ -3538,7 +3929,32 @@
    },
    {
     "km": 24,
-    "pln": 275
+    "pln": 275,
+    "onsite": true
+   },
+   {
+    "km": 30,
+    "pln": 250,
+    "until": "2025-11-16",
+    "kind": "marsz"
+   },
+   {
+    "km": 30,
+    "pln": 275,
+    "until": "2026-02-28",
+    "kind": "marsz"
+   },
+   {
+    "km": 30,
+    "pln": 300,
+    "until": "2026-10-06",
+    "kind": "marsz"
+   },
+   {
+    "km": 30,
+    "pln": 325,
+    "kind": "marsz",
+    "onsite": true
    },
    {
     "km": 33,
@@ -3557,7 +3973,8 @@
    },
    {
     "km": 33,
-    "pln": 325
+    "pln": 325,
+    "onsite": true
    },
    {
     "km": 65,
@@ -3576,7 +3993,8 @@
    },
    {
     "km": 65,
-    "pln": 425
+    "pln": 425,
+    "onsite": true
    },
    {
     "km": 102,
@@ -3595,14 +4013,15 @@
    },
    {
     "km": 102,
-    "pln": 475
-   },
-   {
-    "km": 3,
-    "pln": 50
+    "pln": 475,
+    "onsite": true
    }
   ],
   "startTimes": [
+   {
+    "km": 3,
+    "time": "22:00"
+   },
    {
     "km": 102,
     "time": "02:00"
@@ -3610,6 +4029,10 @@
    {
     "km": 65,
     "time": "08:00"
+   },
+   {
+    "km": 25,
+    "time": "10:00"
    },
    {
     "km": 33,
@@ -3620,18 +4043,21 @@
     "time": "14:00"
    },
    {
+    "km": 24,
+    "time": "14:10"
+   },
+   {
     "km": 10,
     "time": "15:00"
    },
    {
-    "km": 3,
-    "time": "22:00"
+    "time": "16:00"
    }
   ],
-  "office": "Miejski Ośrodek Kultury, Rynek w Józefowie; pt 9.10 od 17:00 do 23:00, sb 10.10 od 7:00 do 14:00",
-  "aid": "Punkty: Pardysówka, Czartowe Pole, Oseredek, Gargamel, Piekiełko (przepak 102 km); woda, cola, izo, owoce, przekąski",
+  "office": "Józefów, MOK w Rynku: pt 09.10 17:00-23:00, sob 10.10 07:00-14:00",
+  "aid": "Woda, izotonik, cola, przekąski i ciepły posiłek na punktach; setka: przepak w PK Piekiełko",
   "kids": true,
-  "at": "2026-11-08T14:10:24.236Z"
+  "at": "2026-11-13T16:34:40.832Z"
  },
  "https://jaskiniowy.pl/regulamin-borowkowa-trail/": {
   "year": 2026,
@@ -3677,10 +4103,10 @@
     "time": "12:00"
    }
   ],
-  "office": "Lądek-Zdrój, Przełęcz Lądecka (start, meta, biuro); 14.11: 21 km 8:00-10:45, 9 km 9:00-11:45",
-  "aid": "9 km: Wrzosówka (6 km); 21 km: Orłowiec (11 km), Wrzosówka (18 km)",
+  "office": "Lądek-Zdrój, Przełęcz Lądecka; pakiety 14.11: 21 km 8:00-10:45, 9 km 9:00-11:45",
+  "aid": "Punkty odżywcze: 9 km - Wrzosówka (6 km); 21 km - Orłowiec (11 km), Wrzosówka (18 km)",
   "poles": "tak",
-  "at": "2026-11-12T09:54:08.912Z"
+  "at": "2026-11-13T16:34:40.816Z"
  },
  "https://krakowbiega.pl/wp-content/uploads/2026/08/Regulamin-XV-edycja-GPK.pdf": {
   "year": 2026,
@@ -3702,233 +4128,10 @@
     "limitH": 3.5
    }
   ],
-  "fees": [
-   {
-    "km": 3.7,
-    "pln": 210,
-    "until": "2026-09-10",
-    "label": "normalny"
-   },
-   {
-    "km": 3.7,
-    "pln": 130,
-    "until": "2026-09-10",
-    "label": "ulgowy (do 18 lat, 65+)"
-   },
-   {
-    "km": 3.7,
-    "pln": 230,
-    "until": "2026-09-30",
-    "label": "normalny"
-   },
-   {
-    "km": 3.7,
-    "pln": 140,
-    "until": "2026-09-30",
-    "label": "ulgowy (do 18 lat, 65+)"
-   },
-   {
-    "km": 3.7,
-    "pln": 250,
-    "until": "2026-10-18",
-    "label": "normalny"
-   },
-   {
-    "km": 3.7,
-    "pln": 150,
-    "until": "2026-10-18",
-    "label": "ulgowy (do 18 lat, 65+)"
-   },
-   {
-    "km": 3.7,
-    "pln": 270,
-    "label": "normalny"
-   },
-   {
-    "km": 3.7,
-    "pln": 160,
-    "label": "ulgowy (do 18 lat, 65+)"
-   },
-   {
-    "km": 5.7,
-    "pln": 240,
-    "until": "2026-09-10",
-    "label": "normalny"
-   },
-   {
-    "km": 5.7,
-    "pln": 150,
-    "until": "2026-09-10",
-    "label": "ulgowy (do 18 lat, 65+)"
-   },
-   {
-    "km": 5.7,
-    "pln": 260,
-    "until": "2026-09-30",
-    "label": "normalny"
-   },
-   {
-    "km": 5.7,
-    "pln": 160,
-    "until": "2026-09-30",
-    "label": "ulgowy (do 18 lat, 65+)"
-   },
-   {
-    "km": 5.7,
-    "pln": 270,
-    "until": "2026-10-18",
-    "label": "normalny"
-   },
-   {
-    "km": 5.7,
-    "pln": 170,
-    "until": "2026-10-18",
-    "label": "ulgowy (do 18 lat, 65+)"
-   },
-   {
-    "km": 5.7,
-    "pln": 290,
-    "label": "normalny"
-   },
-   {
-    "km": 5.7,
-    "pln": 180,
-    "label": "ulgowy (do 18 lat, 65+)"
-   },
-   {
-    "km": 11.6,
-    "pln": 260,
-    "until": "2026-09-10",
-    "label": "normalny"
-   },
-   {
-    "km": 11.6,
-    "pln": 170,
-    "until": "2026-09-10",
-    "label": "ulgowy (do 18 lat, 65+)"
-   },
-   {
-    "km": 11.6,
-    "pln": 280,
-    "until": "2026-09-30",
-    "label": "normalny"
-   },
-   {
-    "km": 11.6,
-    "pln": 180,
-    "until": "2026-09-30",
-    "label": "ulgowy (do 18 lat, 65+)"
-   },
-   {
-    "km": 11.6,
-    "pln": 290,
-    "until": "2026-10-18",
-    "label": "normalny"
-   },
-   {
-    "km": 11.6,
-    "pln": 190,
-    "until": "2026-10-18",
-    "label": "ulgowy (do 18 lat, 65+)"
-   },
-   {
-    "km": 11.6,
-    "pln": 310,
-    "label": "normalny"
-   },
-   {
-    "km": 11.6,
-    "pln": 200,
-    "label": "ulgowy (do 18 lat, 65+)"
-   },
-   {
-    "km": 23.2,
-    "pln": 280,
-    "until": "2026-09-10",
-    "label": "normalny"
-   },
-   {
-    "km": 23.2,
-    "pln": 180,
-    "until": "2026-09-10",
-    "label": "ulgowy (do 18 lat, 65+)"
-   },
-   {
-    "km": 23.2,
-    "pln": 300,
-    "until": "2026-09-30",
-    "label": "normalny"
-   },
-   {
-    "km": 23.2,
-    "pln": 190,
-    "until": "2026-09-30",
-    "label": "ulgowy (do 18 lat, 65+)"
-   },
-   {
-    "km": 23.2,
-    "pln": 310,
-    "until": "2026-10-18",
-    "label": "normalny"
-   },
-   {
-    "km": 23.2,
-    "pln": 200,
-    "until": "2026-10-18",
-    "label": "ulgowy (do 18 lat, 65+)"
-   },
-   {
-    "km": 23.2,
-    "pln": 330,
-    "label": "normalny"
-   },
-   {
-    "km": 23.2,
-    "pln": 210,
-    "label": "ulgowy (do 18 lat, 65+)"
-   },
-   {
-    "pln": 150,
-    "until": "2026-09-10",
-    "label": "normalny"
-   },
-   {
-    "pln": 100,
-    "until": "2026-09-10",
-    "label": "ulgowy (do 18 lat, 65+)"
-   },
-   {
-    "pln": 180,
-    "until": "2026-09-30",
-    "label": "normalny"
-   },
-   {
-    "pln": 110,
-    "until": "2026-09-30",
-    "label": "ulgowy (do 18 lat, 65+)"
-   },
-   {
-    "pln": 210,
-    "until": "2026-10-18",
-    "label": "normalny"
-   },
-   {
-    "pln": 120,
-    "until": "2026-10-18",
-    "label": "ulgowy (do 18 lat, 65+)"
-   },
-   {
-    "pln": 220,
-    "label": "normalny"
-   },
-   {
-    "pln": 130,
-    "label": "ulgowy (do 18 lat, 65+)"
-   }
-  ],
+  "office": "Centrum zawodów: Szkoła Podstawowa nr 72 przy Alei Modrzewiowej 23 (Las Wolski)",
   "dogs": "nie",
   "kids": true,
-  "at": "2026-11-13T10:52:03.441Z"
+  "at": "2026-11-13T16:34:40.832Z"
  },
  "https://malopolskabiega.com.pl/regulamin-jesienny-ultra-swir/": {
   "year": 2026,
@@ -3939,6 +4142,10 @@
    },
    {
     "km": 25,
+    "limitH": 6
+   },
+   {
+    "km": 15,
     "limitH": 6
    }
   ],
@@ -3982,11 +4189,15 @@
    {
     "km": 25,
     "time": "09:00"
+   },
+   {
+    "km": 15,
+    "time": "09:15"
    }
   ],
-  "office": "Centrum Sportów Zimowych w Ptaszkowej; 28.11 7:15-9:00; 27.11 15-18 (warunkowo)",
-  "aid": "Punkt żywieniowy na mecie (herbata, woda, banany, ciastka) i ciepły posiłek; 1-2 punkty kontrolne",
-  "at": "2026-11-12T09:54:46.600Z"
+  "office": "Centrum Sportów Zimowych w Ptaszkowej; 27.11 od 15:00 do 18:00, 28.11 od 7:15 do 9:00",
+  "aid": "Punkt żywieniowy: herbata, woda, banany, ciastka; ciepły posiłek na mecie",
+  "at": "2026-11-13T16:34:40.832Z"
  },
  "https://malopolskabiega.com.pl/regulamin-ultra/": {
   "year": 2027,
@@ -4002,6 +4213,10 @@
    {
     "km": 23,
     "limitH": 5
+   },
+   {
+    "km": 23,
+    "limitH": 7
    }
   ],
   "fees": [
@@ -4022,7 +4237,8 @@
    },
    {
     "km": 65,
-    "pln": 300
+    "pln": 300,
+    "until": "2027-06-15"
    },
    {
     "km": 43,
@@ -4041,7 +4257,8 @@
    },
    {
     "km": 43,
-    "pln": 250
+    "pln": 250,
+    "until": "2027-06-15"
    },
    {
     "km": 23,
@@ -4060,7 +4277,32 @@
    },
    {
     "km": 23,
-    "pln": 160
+    "pln": 160,
+    "until": "2027-06-15"
+   },
+   {
+    "km": 23,
+    "pln": 90,
+    "until": "2026-10-31",
+    "kind": "marsz"
+   },
+   {
+    "km": 23,
+    "pln": 120,
+    "until": "2026-12-31",
+    "kind": "marsz"
+   },
+   {
+    "km": 23,
+    "pln": 140,
+    "until": "2027-04-30",
+    "kind": "marsz"
+   },
+   {
+    "km": 23,
+    "pln": 160,
+    "until": "2027-06-15",
+    "kind": "marsz"
    }
   ],
   "startTimes": [
@@ -4075,11 +4317,15 @@
    {
     "km": 23,
     "time": "10:00"
+   },
+   {
+    "km": 23,
+    "time": "09:30"
    }
   ],
-  "office": "Amfiteatr w Łącku; pt 25.06 17:00-20:00, sb 26.06 5:15-9:45",
-  "aid": "65 km: 4 punkty, 43 km: 3, 23 km: 2 (jedzenie i napoje), ciepły posiłek na mecie",
-  "at": "2026-11-08T14:10:24.236Z"
+  "office": "Amfiteatr w Łącku, 26.06.2027 godz. 5:15-9:45 (weryfikacja, sprawdzanie wyposażenia)",
+  "aid": "Punkty odżywcze co ok. 10-25 km, ciepły posiłek na mecie",
+  "at": "2026-11-13T16:34:40.829Z"
  },
  "https://malopolskabiega.com.pl/regulamin-wiosenny-ultra-swir/": {
   "year": 2027,
@@ -4087,6 +4333,14 @@
    {
     "km": 15.5,
     "limitH": 4
+   },
+   {
+    "km": 15.5,
+    "limitH": 6
+   },
+   {
+    "km": 15.5,
+    "limitH": 12
    }
   ],
   "fees": [
@@ -4094,106 +4348,92 @@
     "km": 15.5,
     "pln": 90,
     "until": "2026-07-31",
-    "label": "bieg 1 pętla"
+    "label": "1 pętla"
    },
    {
     "km": 15.5,
     "pln": 110,
     "until": "2026-12-31",
-    "label": "bieg 1 pętla"
+    "label": "1 pętla"
    },
    {
     "km": 15.5,
     "pln": 130,
     "until": "2027-02-28",
-    "label": "bieg 1 pętla"
+    "label": "1 pętla"
    },
    {
     "km": 15.5,
     "pln": 150,
     "until": "2027-03-15",
-    "label": "bieg 1 pętla"
+    "label": "1 pętla"
    },
    {
+    "km": 15.5,
     "pln": 140,
     "label": "6 h"
    },
    {
+    "km": 15.5,
     "pln": 160,
     "until": "2026-12-31",
     "label": "6 h"
    },
    {
+    "km": 15.5,
     "pln": 180,
     "until": "2027-02-28",
     "label": "6 h"
    },
    {
+    "km": 15.5,
     "pln": 200,
     "until": "2027-03-15",
     "label": "6 h"
    },
    {
+    "km": 15.5,
     "pln": 220,
     "until": "2026-07-31",
     "label": "12 h"
    },
    {
+    "km": 15.5,
     "pln": 240,
     "until": "2026-12-31",
     "label": "12 h"
    },
    {
+    "km": 15.5,
     "pln": 260,
     "until": "2027-02-28",
     "label": "12 h"
    },
    {
+    "km": 15.5,
     "pln": 280,
     "until": "2027-03-15",
     "label": "12 h"
-   },
-   {
-    "km": 15.5,
-    "pln": 90,
-    "until": "2026-07-31",
-    "label": "NW rodzic + dziecko"
-   },
-   {
-    "km": 15.5,
-    "pln": 110,
-    "until": "2026-12-31",
-    "label": "NW rodzic + dziecko"
-   },
-   {
-    "km": 15.5,
-    "pln": 130,
-    "until": "2027-02-28",
-    "label": "NW rodzic + dziecko"
-   },
-   {
-    "km": 15.5,
-    "pln": 150,
-    "until": "2027-03-15",
-    "label": "NW rodzic + dziecko"
    }
   ],
   "startTimes": [
+   {
+    "km": 15.5,
+    "time": "09:30"
+   },
    {
     "km": 15.5,
     "time": "10:00"
    },
    {
     "km": 15.5,
-    "time": "09:30"
-   },
-   {
     "time": "08:00"
    }
   ],
-  "office": "Centrum Sportów Zimowych w Ptaszkowej; 19.03.2027 16:00-19:00, 20.03.2027 7:00-9:30",
-  "aid": "bufet, punkt żywieniowy",
-  "at": "2026-11-12T10:21:13.819Z"
+  "office": "Centrum Sportów Zimowych w Ptaszkowej, 19.03.2027 16:00-19:00 i 20.03.2027 7:00-9:30",
+  "aid": "bufet i punkt żywieniowy",
+  "kids": true,
+  "at": "2026-11-13T16:34:40.832Z"
  },
  "https://orlegniazda.com/regulamin/": {
   "year": 2027,
@@ -4207,8 +4447,16 @@
     "limitH": 17
    },
    {
+    "km": 190,
+    "limitH": 18
+   },
+   {
     "km": 50,
     "limitH": 10
+   },
+   {
+    "km": 50,
+    "limitH": 12
    },
    {
     "km": 21,
@@ -4232,7 +4480,8 @@
    },
    {
     "km": 160,
-    "pln": 400
+    "pln": 400,
+    "until": "2027-09-06"
    },
    {
     "km": 100,
@@ -4246,7 +4495,8 @@
    },
    {
     "km": 100,
-    "pln": 300
+    "pln": 300,
+    "until": "2027-09-06"
    },
    {
     "km": 50,
@@ -4260,7 +4510,26 @@
    },
    {
     "km": 50,
-    "pln": 250
+    "pln": 250,
+    "until": "2027-09-06"
+   },
+   {
+    "km": 50,
+    "pln": 150,
+    "until": "2027-03-01",
+    "kind": "marsz"
+   },
+   {
+    "km": 50,
+    "pln": 200,
+    "until": "2027-07-01",
+    "kind": "marsz"
+   },
+   {
+    "km": 50,
+    "pln": 250,
+    "until": "2027-09-06",
+    "kind": "marsz"
    },
    {
     "km": 21,
@@ -4274,7 +4543,8 @@
    },
    {
     "km": 21,
-    "pln": 120
+    "pln": 120,
+    "until": "2027-09-06"
    },
    {
     "km": 5,
@@ -4288,7 +4558,8 @@
    },
    {
     "km": 5,
-    "pln": 80
+    "pln": 80,
+    "until": "2027-09-06"
    }
   ],
   "startTimes": [
@@ -4299,6 +4570,10 @@
    {
     "km": 100,
     "time": "07:00"
+   },
+   {
+    "km": 190,
+    "time": "08:00"
    },
    {
     "km": 50,
@@ -4313,10 +4588,10 @@
     "time": "12:00"
    }
   ],
-  "office": "Biura w Krakowie, Częstochowie, Kroczycach, Rabsztynie i Skale (lokalizacje do 1.08.2027); Skała 12.09 8:00-12:00 dla 21 i 5 km",
-  "aid": "160 km: 7 punktów, 100 km: 5, 50 km: 3, 21 km: 1 (15 km); lokalizacje miesiąc przed",
+  "office": "Kraków 8.09 15-19; Częstochowa 9.09 16-20, 10.09 14-19; Kroczyce 11.09 5:30-6:25; Rabsztyn 11.09 8-9; Skała 12.09 8-12",
+  "aid": "160 km: 7 pkt, 100 km: 5, 190 km i 50 km: 3, NW 50 km i 21 km: 1; przepak w połowie 160 i 100 km",
   "kids": true,
-  "at": "2026-11-08T14:10:24.238Z"
+  "at": "2026-11-13T16:34:40.833Z"
  },
  "https://panel.maratonczykpomiarczasu.pl/sites/default/files/u22/regulamin%20goraj%20morena%20trail%205%20edycja%20-%208.01.2026%20zm%209.07.2026.pdf": {
   "year": 2026,
@@ -4422,7 +4697,8 @@
     "until": "2026-11-22"
    },
    {
-    "pln": 180
+    "pln": 180,
+    "onsite": true
    }
   ],
   "startTimes": [
@@ -4435,9 +4711,9 @@
     "time": "07:00"
    }
   ],
-  "office": "Centrum Sportu i Rekreacji w Walimiu, ul. Boczna 8a; 04.12 17:00-19:30, 05.12 05:30-06:50",
-  "aid": "2 punkty żywieniowe (ok. 11 km i 21 km), woda, cola, izotonik",
-  "at": "2026-11-12T09:57:43.130Z"
+  "office": "Centrum Sportu i Rekreacji, ul. Boczna 8a, Walim. 04.12 od 17:00 do 19:30, 05.12 od 05:30 do 06:50",
+  "aid": "Punkty żywieniowe na ok. 11 km i 21 km (do 10:00 i 14:00): woda, cola, izotonik",
+  "at": "2026-11-13T16:34:40.816Z"
  },
  "https://pomeraniatrail.pl/wp-content/uploads/2025/11/REGULAMIN-COCONAUT-POMERANIA-ULTRA-TRAIL-2026.pdf": {
   "year": 2026,
@@ -4459,8 +4735,16 @@
     "limitH": 4
    },
    {
+    "km": 21,
+    "limitH": 5.5
+   },
+   {
     "km": 11,
     "limitH": 2.25
+   },
+   {
+    "km": 11,
+    "limitH": 3.25
    }
   ],
   "fees": [
@@ -4481,7 +4765,8 @@
    },
    {
     "km": 100,
-    "pln": 350
+    "pln": 350,
+    "onsite": true
    },
    {
     "km": 65,
@@ -4500,7 +4785,8 @@
    },
    {
     "km": 65,
-    "pln": 300
+    "pln": 300,
+    "onsite": true
    },
    {
     "km": 42,
@@ -4519,7 +4805,8 @@
    },
    {
     "km": 42,
-    "pln": 250
+    "pln": 250,
+    "onsite": true
    },
    {
     "km": 21,
@@ -4538,7 +4825,8 @@
    },
    {
     "km": 21,
-    "pln": 200
+    "pln": 200,
+    "onsite": true
    },
    {
     "km": 11,
@@ -4557,7 +4845,8 @@
    },
    {
     "km": 11,
-    "pln": 150
+    "pln": 150,
+    "onsite": true
    }
   ],
   "startTimes": [
@@ -4578,42 +4867,63 @@
     "time": "11:00"
    },
    {
+    "km": 21,
+    "time": "10:15"
+   },
+   {
     "km": 11,
     "time": "11:30"
+   },
+   {
+    "km": 11,
+    "time": "11:00"
+   },
+   {
+    "km": 0.15,
+    "time": "10:20"
+   },
+   {
+    "km": 0.5,
+    "time": "10:25"
+   },
+   {
+    "km": 1,
+    "time": "10:35"
    }
   ],
-  "office": "Klub Jeździecki Barłomino, ul. Słoneczna 12; pt 16.10 18:00-20:30, sb 17.10 od 3:00 zależnie od dystansu",
-  "aid": "100 km: 5 punktów, 65 km: 3, 42 km: 3, 21 km: 2, 11 km: 1",
+  "office": "Klub Jeździecki Barłomino, ul. Słoneczna 12. Pt 18:00-20:30, sob. 03:00-11:30 (zapisy i pakiety wg dystansu)",
+  "aid": "5 punktów na 100 km, 3 na 65 km, 3 na 42 km, 2 na 21 km, 1 na 11 km; napoje i wyżywienie",
   "dogs": "tak",
   "kids": true,
-  "at": "2026-11-08T14:10:24.237Z"
+  "at": "2026-11-13T16:34:40.827Z"
  },
  "https://sisxyz.pl/wp-content/uploads/2026/07/REGULAMIN_ZADEK_v1.2027.pdf": {
   "year": 2027,
   "fees": [
    {
-    "km": 100,
+    "km": 101,
     "pln": 149,
     "until": "2026-09-07"
    },
    {
-    "km": 100,
+    "km": 101,
     "pln": 169,
     "until": "2026-11-07"
    },
    {
-    "km": 100,
+    "km": 101,
     "pln": 189,
     "until": "2026-12-30"
    },
    {
-    "km": 100,
+    "km": 101,
     "pln": 209,
     "until": "2027-02-10"
    },
    {
-    "km": 100,
-    "pln": 259
+    "km": 101,
+    "pln": 259,
+    "onsite": true
    },
    {
     "km": 70,
@@ -4637,7 +4947,8 @@
    },
    {
     "km": 70,
-    "pln": 249
+    "pln": 249,
+    "onsite": true
    },
    {
     "km": 50,
@@ -4661,7 +4972,8 @@
    },
    {
     "km": 50,
-    "pln": 239
+    "pln": 239,
+    "onsite": true
    },
    {
     "km": 30,
@@ -4685,12 +4997,13 @@
    },
    {
     "km": 30,
-    "pln": 229
+    "pln": 229,
+    "onsite": true
    }
   ],
   "startTimes": [
    {
-    "km": 100,
+    "km": 101,
     "time": "05:05"
    },
    {
@@ -4698,17 +5011,38 @@
     "time": "05:05"
    },
    {
+    "km": 70,
+    "time": "05:07"
+   },
+   {
+    "km": 50,
+    "time": "07:55"
+   },
+   {
     "km": 50,
     "time": "08:05"
    },
    {
+    "km": 50,
+    "time": "08:07"
+   },
+   {
+    "km": 30,
+    "time": "09:55"
+   },
+   {
     "km": 30,
     "time": "10:05"
+   },
+   {
+    "km": 30,
+    "time": "10:07"
    }
   ],
-  "aid": "1 do 4 punktów kontrolnych zależnie od dystansu, przy nich paśniki (słodkie i słone przekąski, owoce, woda, herbata)",
+  "office": "Biuro zawodów na terenie szkoły; godziny w harmonogramie ok. 10 dni przed startem",
+  "aid": "Paśniki przy punktach kontrolnych: przekąski, owoce, woda, herbata; w minimum jednym ciepła strawa",
   "dogs": "tak",
-  "at": "2026-11-08T14:10:24.241Z"
+  "at": "2026-11-13T16:34:40.816Z"
  },
  "https://summer.pomeraniatrail.pl/wp-content/uploads/2026/11/REGULAMIN-COCONAUT-POMERANIA-SUMMER-TRAIL-2027.pdf": {
   "year": 2027,
@@ -4730,8 +5064,8 @@
     "limitH": 2
    }
   ],
-  "aid": "55 km: 3 punkty, 42 km: 3, 25 km: 2, 10 km: 1; napoje i wyżywienie na punktach",
-  "at": "2026-11-13T12:10:51.026Z"
+  "aid": "3 punkty na 55 km, 3 na 42 km, 2 na 25 km, 1 na 10 km; szczegóły na stronie zawodów",
+  "at": "2026-11-13T16:34:40.829Z"
  },
  "https://sztafetagorska.pl/informacje/kids-trail-regulamin/": {
   "year": 2027,
@@ -4774,35 +5108,34 @@
     "km": 75,
     "pln": 540,
     "until": "2026-11-03",
-    "label": "Sztafeta 3x25 km"
+    "kind": "sztafeta"
    },
    {
     "km": 75,
     "pln": 595,
     "until": "2027-03-01",
-    "label": "Sztafeta 3x25 km"
+    "kind": "sztafeta"
    },
    {
     "km": 75,
     "pln": 660,
-    "label": "Sztafeta 3x25 km"
+    "until": "2027-04-09",
+    "kind": "sztafeta"
    },
    {
     "km": 75,
     "pln": 280,
-    "until": "2026-11-03",
-    "label": "SOLO"
+    "until": "2026-11-03"
    },
    {
     "km": 75,
     "pln": 310,
-    "until": "2027-03-01",
-    "label": "SOLO"
+    "until": "2027-03-01"
    },
    {
     "km": 75,
     "pln": 335,
-    "label": "SOLO"
+    "until": "2027-04-09"
    },
    {
     "km": 42,
@@ -4816,7 +5149,8 @@
    },
    {
     "km": 42,
-    "pln": 295
+    "pln": 295,
+    "until": "2027-04-09"
    },
    {
     "km": 21,
@@ -4830,7 +5164,8 @@
    },
    {
     "km": 21,
-    "pln": 255
+    "pln": 255,
+    "until": "2027-04-09"
    },
    {
     "km": 10,
@@ -4844,10 +5179,8 @@
    },
    {
     "km": 10,
-    "pln": 120
-   },
-   {
-    "pln": 30
+    "pln": 120,
+    "until": "2027-04-09"
    }
   ],
   "startTimes": [
@@ -4871,11 +5204,11 @@
     "time": "12:00"
    }
   ],
-  "office": "Pijalnia Wód Mineralnych, ul. Zdrojowa 43A, Kudowa-Zdrój; przepaki: pt 09.04 16:00-21:30, sob 10.04 04:30-05:30",
-  "aid": "bufety co ok. 10-16 km, napoje i wyżywienie na trasie, posiłek po biegu",
+  "office": "Pijalnia Wód, ul. Zdrojowa 43A, Kudowa-Zdrój; pt 09.04 16:00-21:30, sob 10.04 04:30-05:30",
+  "aid": "Solo 75 km: 6 bufetów, Maraton 42 km: 3, Półmaraton 21 km: 2, Dziesiątka 10 km: 1, Sztafeta: 4",
   "dogs": "nie",
   "kids": true,
-  "at": "2026-11-12T10:21:38.124Z"
+  "at": "2026-11-13T16:34:40.827Z"
  },
  "https://tamizpowrotem.eu/wp-content/uploads/2026/06/Regulamin_TIZP_2026.pdf": {
   "year": 2026,
@@ -4905,47 +5238,62 @@
    {
     "km": 77,
     "pln": 250,
-    "until": "2026-08-19"
+    "until": "2026-08-19",
+    "kind": "marsz"
    },
    {
     "km": 77,
-    "pln": 270
+    "pln": 270,
+    "until": "2026-09-03",
+    "kind": "marsz"
    },
    {
     "km": 46,
     "pln": 250,
-    "until": "2026-08-19"
+    "until": "2026-08-19",
+    "kind": "marsz"
    },
    {
     "km": 46,
-    "pln": 270
+    "pln": 270,
+    "until": "2026-09-03",
+    "kind": "marsz"
    },
    {
     "km": 32,
     "pln": 230,
-    "until": "2026-08-19"
+    "until": "2026-08-19",
+    "kind": "marsz"
    },
    {
     "km": 32,
-    "pln": 250
+    "pln": 250,
+    "until": "2026-09-03",
+    "kind": "marsz"
    },
    {
     "km": 13,
     "pln": 180,
-    "until": "2026-08-19"
+    "until": "2026-08-19",
+    "kind": "marsz"
    },
    {
     "km": 13,
-    "pln": 200
+    "pln": 200,
+    "until": "2026-09-03",
+    "kind": "marsz"
    },
    {
     "km": 5,
     "pln": 130,
-    "until": "2026-08-19"
+    "until": "2026-08-19",
+    "kind": "marsz"
    },
    {
     "km": 5,
-    "pln": 150
+    "pln": 150,
+    "until": "2026-09-03",
+    "kind": "marsz"
    }
   ],
   "startTimes": [
@@ -4970,10 +5318,11 @@
     "time": "11:00"
    }
   ],
-  "office": "Leśny Park Przygody Skalisko, Złoty Stok, ul. Staszica; pt 18.09 18:00-22:00, sb 19.09 od 6:30",
-  "aid": "Punkty żywieniowe: 77 km 5, 46 km 4, 32 km 2, 13 km 1, 5 km 1",
+  "office": "Leśny Park Przygody SKALISKO, ul. Staszica, Złoty Stok; pt 18.09 18:00-22:00, sob 19.09 od 06:30",
+  "aid": "PŻ: 5 na 77 km, 4 na 46 km, 2 na 32 km, 1 na 13 km i 5 km; napoje i wyżywienie na trasie",
   "dogs": "tak",
-  "at": "2026-11-08T14:10:24.240Z"
+  "kids": true,
+  "at": "2026-11-13T16:34:40.835Z"
  },
  "https://tatraskymarathon.pl/regulamin/": {
   "year": 2027,
@@ -5025,6 +5374,42 @@
    {
     "km": 68,
     "limitH": 12
+   },
+   {
+    "km": 80,
+    "limitH": 14
+   },
+   {
+    "km": 7,
+    "limitH": 1.5
+   },
+   {
+    "km": 27,
+    "limitH": 5.75
+   },
+   {
+    "km": 40,
+    "limitH": 8
+   },
+   {
+    "km": 57,
+    "limitH": 12.5
+   },
+   {
+    "km": 79,
+    "limitH": 16.75
+   },
+   {
+    "km": 108,
+    "limitH": 23.5
+   },
+   {
+    "km": 120,
+    "limitH": 27
+   },
+   {
+    "km": 5,
+    "limitH": 1.5
    }
   ],
   "fees": [
@@ -5035,7 +5420,8 @@
    },
    {
     "km": 45.4,
-    "pln": 699
+    "pln": 699,
+    "until": "2027-07-22"
    },
    {
     "km": 10,
@@ -5049,7 +5435,8 @@
    },
    {
     "km": 10,
-    "pln": 189
+    "pln": 189,
+    "until": "2027-07-22"
    },
    {
     "km": 22,
@@ -5063,7 +5450,8 @@
    },
    {
     "km": 22,
-    "pln": 279
+    "pln": 279,
+    "until": "2027-07-22"
    },
    {
     "km": 40,
@@ -5077,7 +5465,8 @@
    },
    {
     "km": 40,
-    "pln": 389
+    "pln": 389,
+    "until": "2027-07-22"
    },
    {
     "km": 80,
@@ -5091,7 +5480,8 @@
    },
    {
     "km": 80,
-    "pln": 449
+    "pln": 449,
+    "until": "2027-07-22"
    },
    {
     "km": 120,
@@ -5105,33 +5495,17 @@
    },
    {
     "km": 120,
-    "pln": 499
-   },
-   {
-    "km": 5,
-    "pln": 49,
-    "until": "2027-01-31"
-   },
-   {
-    "km": 5,
-    "pln": 89
+    "pln": 499,
+    "until": "2027-07-22"
    }
   ],
   "startTimes": [
-   {
-    "km": 120,
-    "time": "17:00"
-   },
-   {
-    "km": 80,
-    "time": "06:00"
-   },
    {
     "km": 45.4,
     "time": "07:00"
    },
    {
-    "km": 40,
+    "km": 10,
     "time": "09:00"
    },
    {
@@ -5139,20 +5513,30 @@
     "time": "08:30"
    },
    {
-    "km": 10,
+    "km": 40,
     "time": "09:00"
+   },
+   {
+    "km": 80,
+    "time": "06:00"
+   },
+   {
+    "km": 120,
+    "time": "17:00"
    },
    {
     "km": 5,
     "time": "09:15"
    }
   ],
-  "office": "Siwa Polana, Witów 34-512; godziny pracy biura niepodane w regulaminie",
-  "aid": "SkyMarathon 3, Half 1, Orava Marathon 3, Orava 80 5, Orava 120 8 punktów; Trail i Mini bez",
-  "at": "2026-11-12T10:00:17.209Z"
+  "office": "Siwa Polana, 34-512 Witów; godziny pracy biura, odbiór pakietów 23.07 15:00-21:00",
+  "aid": "Tatra SkyMarathon 3, Half 1, Orava Marathon 3, Orava 80 5, Orava 120 8; Trail i Mini bez",
+  "kids": true,
+  "at": "2026-11-13T16:34:40.832Z"
  },
  "https://turbacztrail.pl/regulaminy/": {
-  "at": "2026-11-12T09:59:21.909Z"
+  "kids": true,
+  "at": "2026-11-13T16:34:40.816Z"
  },
  "https://turbacztrail.pl/wp-content/uploads/2026/08/Regulamin-Rajd-Pieszy-Niepodlegla-Polska-2026.pdf": {
   "year": 2026,
@@ -5170,20 +5554,26 @@
    {
     "km": 12,
     "pln": 99,
-    "until": "2026-09-20"
+    "until": "2026-09-20",
+    "kind": "marsz"
    },
    {
     "km": 12,
-    "pln": 119
+    "pln": 119,
+    "until": "2026-11-08",
+    "kind": "marsz"
    },
    {
     "km": 25,
     "pln": 159,
-    "until": "2026-09-20"
+    "until": "2026-09-20",
+    "kind": "marsz"
    },
    {
     "km": 25,
-    "pln": 179
+    "pln": 179,
+    "until": "2026-11-08",
+    "kind": "marsz"
    }
   ],
   "startTimes": [
@@ -5196,26 +5586,26 @@
     "time": "11:11"
    }
   ],
-  "office": "Centrum Narciarstwa Biegowego Gorce Klikuszowa 246; 11.11 7:00-8:00 (25 km), 9:45-11:00 (12 km)",
-  "aid": "Punkt regeneracyjny na trasie: woda, izotonik, przekąski; własny kubek obowiązkowy",
+  "office": "Klikuszowa 246 (Centrum Narciarstwa Biegowego Gorce); 11.11: 07:00-08:00 dla 25 km, 09:45-11:00 dla 12 km",
+  "aid": "Turbacz (25 km, ~14,3 km), Obidowa (12 km, ~6 km): woda, napoje, przekąski",
   "poles": "tak",
   "dogs": "tak",
-  "at": "2026-11-08T14:10:24.238Z"
+  "at": "2026-11-13T16:34:40.834Z"
  },
  "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-Podhalanski-Bieg-Mikolajkowy-2026.pdf": {
   "year": 2026,
   "limits": [
    {
-    "km": 1,
-    "limitH": 1
+    "km": 13.79,
+    "limitH": 3
    },
    {
     "km": 6.03,
     "limitH": 1.5
    },
    {
-    "km": 13.79,
-    "limitH": 3
+    "km": 1,
+    "limitH": 1
    }
   ],
   "fees": [
@@ -5264,20 +5654,16 @@
     "time": "12:00"
    }
   ],
-  "office": "Boisko Sportowe Ostrowsko Dunajec, Plac Św. Floriana 3; 06.12 8:00-10:20 i 11:00-11:50",
-  "aid": "Brak bufetów na trasie, własny zapas; napój i zupa na mecie",
+  "office": "Boisko Sportowe Ostrowsko Dunajec, Plac Świętego Floriana 3, 34-431 Ostrowsko; 06.12.2026: 08:00-10:20, 11:00-11:50",
+  "aid": "Zabierz jedzenie i wodę na trasę; napój i posiłek na mecie",
   "poles": "tak",
   "dogs": "tak",
   "kids": true,
-  "at": "2026-11-08T14:10:24.239Z"
+  "at": "2026-11-13T16:34:40.829Z"
  },
  "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-TWT-2027.pdf": {
   "year": 2027,
   "limits": [
-   {
-    "km": 6.3,
-    "limitH": 1.5
-   },
    {
     "km": 11.86,
     "limitH": 2.75
@@ -5289,77 +5675,13 @@
    {
     "km": 47.89,
     "limitH": 10
+   },
+   {
+    "km": 6.3,
+    "limitH": 1.5
    }
   ],
   "fees": [
-   {
-    "km": 47.89,
-    "pln": 269,
-    "until": "2026-10-28"
-   },
-   {
-    "km": 47.89,
-    "pln": 289,
-    "until": "2026-11-30"
-   },
-   {
-    "km": 47.89,
-    "pln": 309,
-    "until": "2027-01-07"
-   },
-   {
-    "km": 47.89,
-    "pln": 329,
-    "until": "2027-02-08"
-   },
-   {
-    "km": 22.25,
-    "pln": 199,
-    "until": "2026-10-28",
-    "label": "Zimna Połówka"
-   },
-   {
-    "km": 22.25,
-    "pln": 219,
-    "until": "2026-11-30",
-    "label": "Zimna Połówka"
-   },
-   {
-    "km": 22.25,
-    "pln": 239,
-    "until": "2027-01-07",
-    "label": "Zimna Połówka"
-   },
-   {
-    "km": 22.25,
-    "pln": 259,
-    "until": "2027-02-08",
-    "label": "Zimna Połówka"
-   },
-   {
-    "km": 22.25,
-    "pln": 219,
-    "until": "2026-10-28",
-    "label": "TWT na 6 Łap"
-   },
-   {
-    "km": 22.25,
-    "pln": 239,
-    "until": "2026-11-30",
-    "label": "TWT na 6 Łap"
-   },
-   {
-    "km": 22.25,
-    "pln": 259,
-    "until": "2027-01-07",
-    "label": "TWT na 6 Łap"
-   },
-   {
-    "km": 22.25,
-    "pln": 279,
-    "until": "2027-02-08",
-    "label": "TWT na 6 Łap"
-   },
    {
     "km": 11.86,
     "pln": 159,
@@ -5381,52 +5703,88 @@
     "until": "2027-02-08"
    },
    {
+    "km": 22.25,
+    "pln": 199,
+    "until": "2026-10-28"
+   },
+   {
+    "km": 22.25,
+    "pln": 219,
+    "until": "2026-11-30"
+   },
+   {
+    "km": 22.25,
+    "pln": 239,
+    "until": "2027-01-07"
+   },
+   {
+    "km": 22.25,
+    "pln": 259,
+    "until": "2027-02-08"
+   },
+   {
+    "km": 47.89,
+    "pln": 269,
+    "until": "2026-10-28"
+   },
+   {
+    "km": 47.89,
+    "pln": 289,
+    "until": "2026-11-30"
+   },
+   {
+    "km": 47.89,
+    "pln": 309,
+    "until": "2027-01-07"
+   },
+   {
+    "km": 47.89,
+    "pln": 329,
+    "until": "2027-02-08"
+   },
+   {
     "km": 6.3,
     "pln": 199,
     "until": "2026-10-28",
-    "label": "bieg dla par"
+    "kind": "para"
    },
    {
     "km": 6.3,
     "pln": 219,
     "until": "2026-11-30",
-    "label": "bieg dla par"
+    "kind": "para"
    },
    {
     "km": 6.3,
     "pln": 239,
     "until": "2027-01-07",
-    "label": "bieg dla par"
+    "kind": "para"
    },
    {
     "km": 6.3,
     "pln": 259,
     "until": "2027-02-08",
-    "label": "bieg dla par"
+    "kind": "para"
    },
    {
     "km": 6.3,
     "pln": 119,
-    "until": "2026-10-28",
-    "label": "bieg dla singli"
+    "until": "2026-10-28"
    },
    {
     "km": 6.3,
     "pln": 139,
-    "until": "2026-11-30",
-    "label": "bieg dla singli"
+    "until": "2026-11-30"
    },
    {
     "km": 6.3,
     "pln": 159,
-    "until": "2027-01-07",
-    "label": "bieg dla singli"
+    "until": "2027-01-07"
    },
    {
     "km": 6.3,
     "pln": 179,
-    "until": "2027-02-08",
-    "label": "bieg dla singli"
+    "until": "2027-02-08"
    }
   ],
   "startTimes": [
@@ -5455,11 +5813,11 @@
     "time": "11:30"
    }
   ],
-  "office": "Mała Hala Sportowa, Hotel Gorce (Aleja Tysiąclecia 74, Nowy Targ): pt 15:00-20:00, sob 08:00-18:00, nd 09:00-10:00",
-  "aid": "woda, napoje, przekąski: AK-47 na 11,9, 31,6 i 43,1 km; 22 km na 14,3 km",
+  "office": "Mała Hala Sportowa, Hotel Gorce (Aleja Tysiąclecia 74, Nowy Targ): pt 15-20, sob 8-18, niedz 9-10 (Love)",
+  "aid": "woda, napoje, przekąski: 22 km Turbacz 14,3 km; AK-47 Obidowa 11,9, Turbacz 31,6, Ostrowsko 43,1",
   "poles": "tak",
   "dogs": "tak",
-  "at": "2026-11-12T10:19:54.659Z"
+  "at": "2026-11-13T16:34:40.830Z"
  },
  "https://turystyka.glucholazy.pl/download/attachment/24767/regulamin.pdf?v=1775550054": {
   "year": 2026,
@@ -5479,7 +5837,8 @@
   ],
   "fees": [
    {
-    "pln": 60
+    "pln": 60,
+    "until": "2026-09-06"
    }
   ],
   "startTimes": [
@@ -5494,14 +5853,17 @@
    {
     "km": 5,
     "time": "12:00"
+   },
+   {
+    "time": "10:00"
    }
   ],
-  "office": "Muszla Leśna, Głuchołazy, ul. Parkowa 4a; od 8:00, pakiety 8:00-11:30",
-  "aid": "Punkt nawadniania (woda) na 10 i 15 km, na 5 km brak",
+  "office": "Czynne od 8:00, pakiety i numery startowe wydawane 8:00-11:30",
+  "aid": "Punkt nawadniania z wodą w kubkach na trasie; nie dotyczy 5 km",
   "poles": "tak",
   "dogs": "nie",
   "kids": true,
-  "at": "2026-11-08T14:10:24.239Z"
+  "at": "2026-11-13T16:34:40.816Z"
  },
  "https://ultra-way.pl/zimowy-festiwal-biegowy-ultra-way/regulamin/": {
   "year": 2027,
@@ -5554,7 +5916,8 @@
    },
    {
     "km": 76.6,
-    "pln": 460
+    "pln": 460,
+    "onsite": true
    },
    {
     "km": 51.4,
@@ -5578,65 +5941,63 @@
    },
    {
     "km": 51.4,
-    "pln": 410
+    "pln": 410,
+    "onsite": true
    },
    {
     "km": 27.3,
     "pln": 300,
     "until": "2026-07-05",
-    "label": "w parze"
+    "kind": "para"
    },
    {
     "km": 27.3,
     "pln": 380,
     "until": "2026-08-31",
-    "label": "w parze"
+    "kind": "para"
    },
    {
     "km": 27.3,
     "pln": 460,
     "until": "2026-10-31",
-    "label": "w parze"
+    "kind": "para"
    },
    {
     "km": 27.3,
     "pln": 480,
     "until": "2027-01-04",
-    "label": "w parze"
+    "kind": "para"
    },
    {
     "km": 27.3,
     "pln": 540,
-    "label": "w parze"
+    "kind": "para",
+    "onsite": true
    },
    {
     "km": 27.3,
     "pln": 150,
-    "until": "2026-07-05",
-    "label": "indywidualny"
+    "until": "2026-07-05"
    },
    {
     "km": 27.3,
     "pln": 190,
-    "until": "2026-08-31",
-    "label": "indywidualny"
+    "until": "2026-08-31"
    },
    {
     "km": 27.3,
     "pln": 230,
-    "until": "2026-10-31",
-    "label": "indywidualny"
+    "until": "2026-10-31"
    },
    {
     "km": 27.3,
     "pln": 270,
-    "until": "2027-01-04",
-    "label": "indywidualny"
+    "until": "2027-01-04"
    },
    {
     "km": 27.3,
     "pln": 310,
-    "label": "indywidualny"
+    "onsite": true
    },
    {
     "km": 10,
@@ -5660,7 +6021,8 @@
    },
    {
     "km": 10,
-    "pln": 210
+    "pln": 210,
+    "onsite": true
    },
    {
     "km": 5,
@@ -5684,7 +6046,8 @@
    },
    {
     "km": 5,
-    "pln": 140
+    "pln": 140,
+    "onsite": true
    }
   ],
   "startTimes": [
@@ -5713,112 +6076,71 @@
     "time": "13:30"
    }
   ],
-  "office": "Hala lekkoatletyczna GCS, ul. Olimpijska 5/9, Gdynia; 15-16.01.2027, godziny w osobnym komunikacie",
-  "aid": "Napoje, owoce, przekąski, słodycze; ciepłe posiłki: Szmelta, Marszewo, Wiczlino, Kack Park",
+  "office": "Gdyńskie Centrum Sportu, hala lekkoatletyczna, ul. Olimpijska 5/9; pt 15.01 i sb 16.01.2027 (godziny w osobnym komunikacie)",
+  "aid": "napoje zimne i ciepłe, przekąski, owoce; ciepłe posiłki na wybranych punktach",
   "poles": "tak",
-  "at": "2026-11-12T10:19:30.320Z"
+  "at": "2026-11-13T16:34:40.832Z"
  },
  "https://ultrakamiensk.pl/regulamin/": {
-  "at": "2026-11-08T14:10:24.237Z"
+  "at": "2026-11-13T16:34:40.827Z"
  },
  "https://ultrakotlina.pl/regulamin/": {
   "year": 2026,
   "limits": [
    {
-    "km": 140,
+    "km": 144,
     "limitH": 30
    },
    {
-    "km": 100,
+    "km": 108,
     "limitH": 22
    },
    {
-    "km": 80,
+    "km": 82,
     "limitH": 15
    },
    {
-    "km": 50,
+    "km": 58,
     "limitH": 10
    },
    {
-    "km": 30,
+    "km": 35,
     "limitH": 6
    },
    {
     "km": 15,
     "limitH": 3
+   },
+   {
+    "km": 144,
+    "limitH": 23
    }
   ],
   "fees": [
    {
-    "km": 140,
+    "km": 144,
     "pln": 360,
     "until": "2026-05-31"
    },
    {
-    "km": 140,
-    "pln": 400,
-    "until": "2026-09-30"
-   },
-   {
-    "km": 140,
-    "pln": 420
-   },
-   {
-    "km": 100,
+    "km": 108,
     "pln": 320,
     "until": "2026-05-31"
    },
    {
-    "km": 100,
-    "pln": 360,
-    "until": "2026-09-30"
-   },
-   {
-    "km": 100,
-    "pln": 390
-   },
-   {
-    "km": 80,
+    "km": 82,
     "pln": 270,
     "until": "2026-05-31"
    },
    {
-    "km": 80,
-    "pln": 300,
-    "until": "2026-09-30"
-   },
-   {
-    "km": 80,
-    "pln": 340
-   },
-   {
-    "km": 50,
+    "km": 58,
     "pln": 230,
     "until": "2026-05-31"
    },
    {
-    "km": 50,
-    "pln": 260,
-    "until": "2026-09-30"
-   },
-   {
-    "km": 50,
-    "pln": 280
-   },
-   {
-    "km": 30,
+    "km": 35,
     "pln": 180,
     "until": "2026-05-31"
-   },
-   {
-    "km": 30,
-    "pln": 210,
-    "until": "2026-09-30"
-   },
-   {
-    "km": 30,
-    "pln": 240
    },
    {
     "km": 15,
@@ -5826,46 +6148,119 @@
     "until": "2026-05-31"
    },
    {
+    "km": 144,
+    "pln": 450,
+    "until": "2026-05-31",
+    "kind": "sztafeta"
+   },
+   {
+    "km": 144,
+    "pln": 400,
+    "until": "2026-09-30"
+   },
+   {
+    "km": 108,
+    "pln": 360,
+    "until": "2026-09-30"
+   },
+   {
+    "km": 82,
+    "pln": 300,
+    "until": "2026-09-30"
+   },
+   {
+    "km": 58,
+    "pln": 260,
+    "until": "2026-09-30"
+   },
+   {
+    "km": 35,
+    "pln": 210,
+    "until": "2026-09-30"
+   },
+   {
     "km": 15,
     "pln": 170,
     "until": "2026-09-30"
    },
    {
+    "km": 144,
+    "pln": 500,
+    "until": "2026-09-30",
+    "kind": "sztafeta"
+   },
+   {
+    "km": 144,
+    "pln": 420,
+    "onsite": true
+   },
+   {
+    "km": 108,
+    "pln": 390,
+    "onsite": true
+   },
+   {
+    "km": 82,
+    "pln": 340,
+    "onsite": true
+   },
+   {
+    "km": 58,
+    "pln": 280,
+    "onsite": true
+   },
+   {
+    "km": 35,
+    "pln": 240,
+    "onsite": true
+   },
+   {
     "km": 15,
-    "pln": 190
+    "pln": 190,
+    "onsite": true
+   },
+   {
+    "km": 144,
+    "pln": 580,
+    "kind": "sztafeta",
+    "onsite": true
    }
   ],
   "startTimes": [
    {
-    "km": 140,
-    "time": "07:00"
-   },
-   {
-    "km": 100,
+    "km": 108,
     "time": "05:00"
    },
    {
-    "km": 80,
+    "km": 144,
     "time": "07:00"
    },
    {
-    "km": 50,
-    "time": "09:00"
+    "km": 82,
+    "time": "07:00"
    },
    {
-    "km": 30,
-    "time": "10:00"
+    "km": 58,
+    "time": "09:00"
    },
    {
     "km": 15,
     "time": "11:00"
+   },
+   {
+    "km": 35,
+    "time": "10:00"
+   },
+   {
+    "km": 144,
+    "time": "07:00"
    }
   ],
-  "office": "Szklarska Poręba, SP nr 1, ul. 1 Maja 32: 09.10 17:00-20:00; w dniu biegu biura przy startach poszczególnych dystansów",
-  "aid": "Punkty z pomiarem i jedzeniem co ok. 12-20 km: UK140 9, UK100 7, UK80 5, UK50 3, UK30 2, UK15 1",
+  "office": "Szklarska Poręba (9.10 17-20, 10.10 6-6:45), Kowary, Piechowice, Jelenia Góra - wg dystansu",
+  "aid": "Co ok. 20 km (UK140/100/80), 15 km (UK50), 12 km (UK30): napoje, izotonik, przekąski",
   "poles": "tak",
   "dogs": "nie",
-  "at": "2026-11-08T14:10:24.240Z"
+  "at": "2026-11-13T16:34:40.832Z"
  },
  "https://ultralemkowyna.pl/images/regulaminy/26-regulamin-18-PL.pdf": {
   "year": 2026,
@@ -5877,13 +6272,13 @@
   ],
   "fees": [
    {
-    "km": 18,
     "pln": 199
    }
   ],
-  "aid": "Brak punktów odżywczych na trasie",
+  "office": "Miejsce do końca września 2026 (adres na stronie zawodów), godziny nie podane",
+  "aid": "Brak stałych punktów na trasie (możliwe dodatkowe); posiłek regeneracyjny na mecie",
   "dogs": "tak",
-  "at": "2026-11-08T14:10:24.241Z"
+  "at": "2026-11-13T16:34:40.816Z"
  },
  "https://ultrarace.pl/gdansk/regulamin-gdansk/": {
   "year": 2026,
@@ -5932,7 +6327,8 @@
    },
    {
     "km": 101,
-    "pln": 420
+    "pln": 420,
+    "until": "2026-12-05"
    },
    {
     "km": 53,
@@ -5956,12 +6352,8 @@
    },
    {
     "km": 53,
-    "pln": 290
-   },
-   {
-    "km": 27,
-    "pln": 150,
-    "until": "2026-03-27"
+    "pln": 290,
+    "until": "2026-12-05"
    },
    {
     "km": 27,
@@ -5980,7 +6372,8 @@
    },
    {
     "km": 27,
-    "pln": 240
+    "pln": 240,
+    "until": "2026-12-05"
    },
    {
     "km": 12,
@@ -6004,7 +6397,8 @@
    },
    {
     "km": 12,
-    "pln": 160
+    "pln": 160,
+    "until": "2026-12-05"
    },
    {
     "km": 6,
@@ -6025,9 +6419,18 @@
     "km": 6,
     "pln": 130,
     "until": "2026-11-24"
+   },
+   {
+    "km": 6,
+    "pln": 140,
+    "until": "2026-12-04"
    }
   ],
   "startTimes": [
+   {
+    "km": 6,
+    "time": "19:00"
+   },
    {
     "km": 101,
     "time": "05:00"
@@ -6045,14 +6448,36 @@
     "time": "13:30"
    },
    {
-    "km": 6,
-    "time": "19:00"
+    "km": 0.2,
+    "time": "10:35"
+   },
+   {
+    "km": 0.2,
+    "time": "10:40"
+   },
+   {
+    "km": 0.2,
+    "time": "10:45"
+   },
+   {
+    "km": 0.5,
+    "time": "10:50"
+   },
+   {
+    "km": 0.5,
+    "time": "10:55"
+   },
+   {
+    "km": 1,
+    "time": "11:00"
    }
   ],
-  "office": "Gdańsk, ul. Kościerska 7; pt 4.12 od 16:00 do 20:00, sb 5.12 od 4:15 zależnie od dystansu",
-  "aid": "101 km: 6 punktów, 53 km: 4, 27 km: 2, 12 km: 1, 6 km: tylko za metą",
+  "office": "ul. Kościerska 7, Gdańsk (IBW PAN); pt 04.12 16:00-20:00, sob 05.12 04:15-13:00",
+  "aid": "na trasie: 101 km 6 pkt, 53 km 4, 27 km 2, 12 km 1, 6 km brak; za metą na każdym dystansie",
+  "poles": "tak",
+  "dogs": "nie",
   "kids": true,
-  "at": "2026-11-08T14:10:24.228Z"
+  "at": "2026-11-13T16:34:40.827Z"
  },
  "https://ultrarace.pl/radkow/regulamin-radkow/": {
   "year": 2026,
@@ -6097,7 +6522,8 @@
    },
    {
     "km": 78,
-    "pln": 370
+    "pln": 370,
+    "until": "2026-09-11"
    },
    {
     "km": 57,
@@ -6121,7 +6547,8 @@
    },
    {
     "km": 57,
-    "pln": 290
+    "pln": 290,
+    "until": "2026-09-12"
    },
    {
     "km": 24,
@@ -6145,7 +6572,8 @@
    },
    {
     "km": 24,
-    "pln": 240
+    "pln": 240,
+    "until": "2026-09-13"
    },
    {
     "km": 11,
@@ -6169,7 +6597,8 @@
    },
    {
     "km": 11,
-    "pln": 160
+    "pln": 160,
+    "until": "2026-09-13"
    }
   ],
   "startTimes": [
@@ -6188,12 +6617,38 @@
    {
     "km": 11,
     "time": "10:30"
+   },
+   {
+    "km": 0.2,
+    "time": "09:15"
+   },
+   {
+    "km": 0.2,
+    "time": "09:20"
+   },
+   {
+    "km": 0.2,
+    "time": "09:25"
+   },
+   {
+    "km": 0.5,
+    "time": "09:30"
+   },
+   {
+    "km": 0.5,
+    "time": "09:35"
+   },
+   {
+    "km": 1,
+    "time": "09:40"
    }
   ],
-  "office": "Radków, ul. Kolonia Leśna 27 (Botanica Active Park); czw 10.09 17-20, piątek od 4:15, sobota od 6:30, niedziela od 7:00",
-  "aid": "78 km: 5 punktów, 57 km: 4, 24 km: 2, 11 km: 1 plus punkt za metą",
+  "office": "ul. Kolonia Leśna 27 (Botanica Active Park); EXPO: czw. 17-20, pt. 4:15-20, sob. 6:30-18, nd. 7-15",
+  "aid": "11 km: 1, 24 km: 2, 57 km: 4, 78 km: 5 punktów na trasie, plus 1 za metą",
+  "poles": "tak",
+  "dogs": "nie",
   "kids": true,
-  "at": "2026-11-08T14:10:24.237Z"
+  "at": "2026-11-13T16:34:40.830Z"
  },
  "https://ultrawysoczyzna.pl/regulamin/": {
   "year": 2027,
@@ -6242,7 +6697,8 @@
    },
    {
     "km": 103,
-    "pln": 390
+    "pln": 390,
+    "until": "2027-04-17"
    },
    {
     "km": 54,
@@ -6266,7 +6722,8 @@
    },
    {
     "km": 54,
-    "pln": 300
+    "pln": 300,
+    "until": "2027-04-17"
    },
    {
     "km": 22,
@@ -6290,7 +6747,8 @@
    },
    {
     "km": 22,
-    "pln": 230
+    "pln": 230,
+    "until": "2027-04-18"
    },
    {
     "km": 13,
@@ -6314,7 +6772,8 @@
    },
    {
     "km": 13,
-    "pln": 140
+    "pln": 140,
+    "until": "2027-04-18"
    },
    {
     "km": 6,
@@ -6335,6 +6794,11 @@
     "km": 6,
     "pln": 85,
     "until": "2027-04-06"
+   },
+   {
+    "km": 6,
+    "pln": 95,
+    "until": "2027-04-16"
    }
   ],
   "startTimes": [
@@ -6357,12 +6821,37 @@
    {
     "km": 6,
     "time": "18:00"
+   },
+   {
+    "km": 0.2,
+    "time": "09:10"
+   },
+   {
+    "km": 0.2,
+    "time": "09:15"
+   },
+   {
+    "km": 0.2,
+    "time": "09:20"
+   },
+   {
+    "km": 0.5,
+    "time": "09:25"
+   },
+   {
+    "km": 0.5,
+    "time": "09:30"
+   },
+   {
+    "km": 1,
+    "time": "09:35"
    }
   ],
-  "office": "Elbląg, ul. Marymoncka 6 (Park Bażantarnia, Restauracja Myśliwska); pakiety pt 16.04 15:00-19:00, sb od 3:15, nd 7:00-11:30",
-  "aid": "103 km 6 punktów, 54 km 4, 22 km 2, 13 km 1 oraz punkt za metą; 6 km brak",
+  "office": "Elbląg, ul. Marymonckiej 6: pt 15-19; sob 3:15-3:45, 6:30-7:30, 12-19; nd 7-11:30",
+  "aid": "103 km: 6 punktów + meta; 54 km: 4 + meta; 22 km: 2 + meta; 13 km: 1 + meta; 6 km: meta",
+  "poles": "tak",
   "kids": true,
-  "at": "2026-11-08T14:10:24.241Z"
+  "at": "2026-11-13T16:34:40.816Z"
  },
  "https://web.sportcrm.pl/pliki/beskidzkiegronie/zalacznikiartykulow/60/19746/Regulamin%20V%20Beskidzkie%20Gr%C3%B3nie%20Lato%202026.pdf": {
   "year": 2026,
@@ -6389,7 +6878,8 @@
    },
    {
     "km": 16,
-    "pln": 160
+    "pln": 160,
+    "onsite": true
    },
    {
     "km": 39,
@@ -6403,7 +6893,8 @@
    },
    {
     "km": 39,
-    "pln": 210
+    "pln": 210,
+    "onsite": true
    }
   ],
   "startTimes": [
@@ -6416,10 +6907,11 @@
     "time": "10:00"
    }
   ],
-  "office": "Kozy, budynek klubu LKS Orzeł Kozy; pt 24.07 20:00-22:00, sb 25.07 od 5:00",
-  "aid": "Punkty żywieniowe na trasie, posiłek regeneracyjny na mecie (liczba nie podana)",
+  "office": "Biuro rajdu: 24.07.2026 20:00-22:00; 25.07.2026 5:00-6:40 oraz 7:30-9:40",
+  "aid": "punkty żywieniowe na trasie, posiłek regeneracyjny na mecie",
   "poles": "tak",
-  "at": "2026-11-08T14:10:24.236Z"
+  "kids": true,
+  "at": "2026-11-13T16:34:40.832Z"
  },
  "https://www.biegigorskiesanok.pl/regulamin/": {
   "year": 2026,
@@ -6427,6 +6919,10 @@
    {
     "km": 5,
     "limitH": 1
+   },
+   {
+    "km": 5,
+    "limitH": 1.5
    },
    {
     "km": 10,
@@ -6457,6 +6953,30 @@
    {
     "km": 5,
     "pln": 39,
+    "until": "2026-05-01",
+    "kind": "marsz"
+   },
+   {
+    "km": 5,
+    "pln": 49,
+    "until": "2026-06-30",
+    "kind": "marsz"
+   },
+   {
+    "km": 5,
+    "pln": 59,
+    "until": "2026-09-16",
+    "kind": "marsz"
+   },
+   {
+    "km": 5,
+    "pln": 69,
+    "kind": "marsz",
+    "onsite": true
+   },
+   {
+    "km": 5,
+    "pln": 39,
     "until": "2026-05-01"
    },
    {
@@ -6471,7 +6991,8 @@
    },
    {
     "km": 5,
-    "pln": 69
+    "pln": 69,
+    "onsite": true
    },
    {
     "km": 10,
@@ -6490,7 +7011,8 @@
    },
    {
     "km": 10,
-    "pln": 149
+    "pln": 149,
+    "onsite": true
    },
    {
     "km": 26,
@@ -6509,7 +7031,8 @@
    },
    {
     "km": 26,
-    "pln": 189
+    "pln": 189,
+    "onsite": true
    },
    {
     "km": 50,
@@ -6528,7 +7051,8 @@
    },
    {
     "km": 50,
-    "pln": 229
+    "pln": 229,
+    "onsite": true
    },
    {
     "km": 100,
@@ -6547,7 +7071,8 @@
    },
    {
     "km": 100,
-    "pln": 359
+    "pln": 359,
+    "onsite": true
    },
    {
     "km": 170,
@@ -6566,10 +7091,35 @@
    },
    {
     "km": 170,
-    "pln": 599
+    "pln": 599,
+    "onsite": true
+   },
+   {
+    "km": 270,
+    "pln": 599,
+    "until": "2026-05-01"
+   },
+   {
+    "km": 270,
+    "pln": 649,
+    "until": "2026-06-30"
+   },
+   {
+    "km": 270,
+    "pln": 699,
+    "until": "2026-09-16"
+   },
+   {
+    "km": 270,
+    "pln": 749,
+    "onsite": true
    }
   ],
   "startTimes": [
+   {
+    "km": 5,
+    "time": "11:20"
+   },
    {
     "km": 5,
     "time": "11:20"
@@ -6597,13 +7147,16 @@
    {
     "km": 270,
     "time": "09:00"
+   },
+   {
+    "time": "12:30"
    }
   ],
-  "office": "Muzeum Budownictwa Ludowego, Sanok: 17.09 od 7:00, 18.09 3:30-5:25 i 15:00-17:40, 19.09 od 5:00",
-  "aid": "5 km brak, 10 km 1 punkt, 26 km 2, 50 km 4, 100 km 4 (w tym przepak); 170 i 270 km wg komunikatu",
+  "office": "Muzeum Budownictwa Ludowego, ul. Rybickiego 3, Sanok: 17.09 od 07:00, 18.09 03:30-05:25 i 15:00-17:40, 19.09 od 05:00",
+  "aid": "50 km: 4 punkty, ciepły posiłek na 30 km; 100 km: 4 punkty, przepak i posiłek na 60 km",
   "poles": "tak",
   "kids": true,
-  "at": "2026-11-08T14:10:24.239Z"
+  "at": "2026-11-13T16:34:40.827Z"
  },
  "https://www.biegrzeznika.pl/wp-content/uploads/2026/07/Regulamin-XIII-Festiwalu-Biegu-Rzeznika-2027.pdf": {
   "year": 2027,
@@ -6664,21 +7217,25 @@
    {
     "km": 16,
     "pln": 200,
-    "until": "2026-10-31"
+    "until": "2026-10-31",
+    "kind": "marsz"
    },
    {
     "km": 16,
     "pln": 220,
-    "until": "2027-02-28"
+    "until": "2027-02-28",
+    "kind": "marsz"
    },
    {
     "km": 16,
     "pln": 230,
-    "until": "2027-05-09"
+    "until": "2027-05-09",
+    "kind": "marsz"
    },
    {
     "km": 16,
-    "pln": 250
+    "pln": 250,
+    "kind": "marsz"
    },
    {
     "km": 102,
@@ -6702,21 +7259,29 @@
    {
     "km": 80,
     "pln": 990,
-    "until": "2026-10-31"
+    "until": "2026-10-31",
+    "kind": "para",
+    "perPerson": 495
    },
    {
     "km": 80,
     "pln": 1040,
-    "until": "2027-02-28"
+    "until": "2027-02-28",
+    "kind": "para",
+    "perPerson": 520
    },
    {
     "km": 80,
     "pln": 1120,
-    "until": "2027-05-09"
+    "until": "2027-05-09",
+    "kind": "para",
+    "perPerson": 560
    },
    {
     "km": 80,
-    "pln": 1200
+    "pln": 1200,
+    "kind": "para",
+    "perPerson": 600
    },
    {
     "km": 28,
@@ -6755,6 +7320,25 @@
    {
     "km": 12,
     "pln": 150
+   },
+   {
+    "km": 7,
+    "pln": 70,
+    "until": "2026-10-31"
+   },
+   {
+    "km": 7,
+    "pln": 80,
+    "until": "2027-02-28"
+   },
+   {
+    "km": 7,
+    "pln": 90,
+    "until": "2027-05-09"
+   },
+   {
+    "km": 7,
+    "pln": 100
    }
   ],
   "startTimes": [
@@ -6794,26 +7378,36 @@
     "time": "09:00"
    }
   ],
-  "office": "Orlik w Cisnej: śr 26.05 17-22; czw 27.05 5:30-6:30 i 16-22; pt 28.05 17-20; sob 29.05 5:30-6:30 i 8:30-9:30; dzieci 8-9",
-  "aid": "Woda na wszystkich trasach, na ultra też przekąski; punkty żywieniowe na trasie",
+  "office": "Orlik w Cisnej: 26.05 17-22; 27.05 5:30-6:30 i 16-22; 28.05 17-20; 29.05 5:30-6:30 i 8:30-9:30",
+  "aid": "woda na wszystkich trasach, przekąski na ultra; Maraton: punkty 15, 28, 41 km",
   "poles": "tak",
   "dogs": "tak",
   "kids": true,
-  "at": "2026-11-12T09:58:55.952Z"
+  "at": "2026-11-13T16:34:40.827Z"
  },
  "https://www.biegrzeznika.pl/wp-content/uploads/2026/10/Bieszczadzki-Rajd-Pieszy-Edycja-Zimowa-2027.pdf": {
   "year": 2027,
-  "limits": [
+  "fees": [
    {
-    "km": 28,
-    "limitH": 7.5
+    "km": 26,
+    "pln": 210,
+    "until": "2026-11-30"
    },
    {
-    "km": 17,
-    "limitH": 5.83
-   }
-  ],
-  "fees": [
+    "km": 26,
+    "pln": 220,
+    "until": "2026-12-31"
+   },
+   {
+    "km": 26,
+    "pln": 230,
+    "until": "2027-01-21"
+   },
+   {
+    "km": 26,
+    "pln": 250,
+    "onsite": true
+   },
    {
     "km": 28,
     "pln": 210,
@@ -6831,7 +7425,28 @@
    },
    {
     "km": 28,
-    "pln": 250
+    "pln": 250,
+    "onsite": true
+   },
+   {
+    "km": 15,
+    "pln": 140,
+    "until": "2026-11-30"
+   },
+   {
+    "km": 15,
+    "pln": 150,
+    "until": "2026-12-31"
+   },
+   {
+    "km": 15,
+    "pln": 160,
+    "until": "2027-01-21"
+   },
+   {
+    "km": 15,
+    "pln": 180,
+    "onsite": true
    },
    {
     "km": 17,
@@ -6850,24 +7465,33 @@
    },
    {
     "km": 17,
-    "pln": 180
+    "pln": 180,
+    "onsite": true
    }
   ],
   "startTimes": [
    {
+    "km": 26,
+    "time": "08:00"
+   },
+   {
     "km": 28,
     "time": "08:00"
+   },
+   {
+    "km": 15,
+    "time": "09:40"
    },
    {
     "km": 17,
     "time": "09:40"
    }
   ],
-  "office": "Sala gimnastyczna szkoły w Cisnej (Cisna 58); pt 22.01 17:00-22:00, sb 23.01 6:00-8:30",
-  "aid": "26/28 km: 2 punkty (Hotel Carpatia ok. 11 km, krzyżówka przed Cisną), 15/17 km: 1 punkt; woda, herbata, przekąski, ciepł",
+  "office": "Biuro zawodów: sala gimnastyczna szkoły w Cisnej (Cisna 58), 22.01 17:00-22:00, 23.01 6:00-8:30",
+  "aid": "Woda, herbata, przekąski; 26/28 km: 2 punkty, 15/17 km: 1 punkt",
   "poles": "tak",
   "dogs": "nie",
-  "at": "2026-11-08T14:10:24.228Z"
+  "at": "2026-11-13T16:34:40.827Z"
  },
  "https://www.biegzboja.pl/regulaminb": {
   "at": "2026-11-13T10:52:10.202Z"
@@ -6882,8 +7506,12 @@
   ],
   "fees": [
    {
-    "km": 21,
-    "pln": 80
+    "pln": 80,
+    "until": "2023-08-25"
+   },
+   {
+    "pln": 100,
+    "until": "2023-08-25"
    }
   ],
   "startTimes": [
@@ -6892,9 +7520,9 @@
     "time": "17:00"
    }
   ],
-  "office": "Centrum Rekreacji i Wypoczynku Przylasek Rusiecki, Kraków; 15:30-16:30 w dniu biegu",
-  "aid": "4 punkty nawadniania, wegetariański posiłek na mecie",
-  "at": "2026-11-08T14:10:24.228Z"
+  "office": "Centrum Rekreacji i Wypoczynku Przylasek Rusiecki, Kraków; otwarte 15:30-16:30",
+  "aid": "4 punkty nawadniania, wegetariański posiłek regeneracyjny na mecie",
+  "at": "2026-11-13T16:34:40.830Z"
  },
  "https://www.e-gepard.eu/file/regulamin/3430_regulamin.pdf": {
   "year": 2026,
@@ -7020,9 +7648,9 @@
    }
   ],
   "office": "Miejski Ośrodek Kultury, ul. Spadochroniarzy 10, Mszana Dolna; otwarte godzinę przed startem danego dystansu",
-  "aid": "Punkty wegetariańskie (VEGEREGE): 7 na WTM 140, 6 na WTM 105, 3 na WTM 64, 2 na WTM 45 i WTM 16",
+  "aid": "punkty odżywcze VEGEREGE: WTM 140 - 7, WTM 105 - 6, WTM 64 - 3, WTM 45 - 2, WTM 16 - 2",
   "poles": "tak",
-  "at": "2026-11-12T09:55:23.586Z"
+  "at": "2026-11-13T16:34:40.816Z"
  },
  "https://www.graniatatr.pl/regulamin.html": {
   "year": 2025,
@@ -7034,7 +7662,9 @@
   ],
   "fees": [
    {
-    "pln": 570
+    "km": 71,
+    "pln": 570,
+    "until": "2025-02-19"
    }
   ],
   "startTimes": [
@@ -7043,10 +7673,10 @@
     "time": "04:30"
    }
   ],
-  "office": "Hotel Hyrny, ul. Piłsudskiego 20, Zakopane; pt 22.08 w godz. 11.00-20.00 rejestracja",
-  "aid": "2 punkty odżywcze (Hala Ornak, Murowaniec) + punkt z napojami (Wodogrzmoty Mickiewicza)",
+  "office": "Hotel Hyrny, ul. Piłsudskiego 20, Zakopane; pt 22.08 godz. 11.00-20.00 (pakiety, numery startowe)",
+  "aid": "Hala Ornak, Murowaniec i Wodogrzmoty (napoje); woda, izotonik, cola, owoce, ciastka",
   "poles": "tak",
-  "at": "2026-11-12T10:00:56.654Z"
+  "at": "2026-11-13T16:34:40.827Z"
  },
  "https://www.kbsobotka.pl/slezanski-festiwal-biegowy/regulamin/": {
   "year": 2026,
@@ -7070,13 +7700,14 @@
   ],
   "fees": [
    {
-    "km": 10.5,
-    "pln": 160,
+    "km": 43,
+    "pln": 220,
     "until": "2026-08-01"
    },
    {
-    "km": 10.5,
-    "pln": 180
+    "km": 43,
+    "pln": 240,
+    "until": "2026-09-26"
    },
    {
     "km": 23,
@@ -7085,25 +7716,30 @@
    },
    {
     "km": 23,
-    "pln": 200
+    "pln": 200,
+    "until": "2026-09-26"
    },
    {
-    "km": 43,
-    "pln": 220,
+    "km": 10.5,
+    "pln": 160,
     "until": "2026-08-01"
    },
    {
-    "km": 43,
-    "pln": 240
+    "km": 10.5,
+    "pln": 180,
+    "until": "2026-09-26"
    },
    {
     "km": 66,
     "pln": 480,
-    "until": "2026-08-01"
+    "until": "2026-08-01",
+    "kind": "sztafeta"
    },
    {
     "km": 66,
-    "pln": 600
+    "pln": 600,
+    "until": "2026-09-26",
+    "kind": "sztafeta"
    }
   ],
   "startTimes": [
@@ -7124,9 +7760,9 @@
     "time": "11:30"
    }
   ],
-  "office": "Dom Turysty pod Wieżycą, Sobótka, ul. Armii Krajowej 13; 25.09 17:00-20:00, 26.09 7:00-11:30",
-  "aid": "43 km: 4 punkty, 23 km: 3, 10,5 km: 1; woda, cola, izotonik, owoce, ciastka",
-  "at": "2026-11-08T14:10:24.228Z"
+  "office": "Dom Turysty pod Wieżycą, ul. Armii Krajowej 13: 25.09 17:00-20:00, 26.09 7:00-11:30 (sztafeta: do 9:00)",
+  "aid": "Woda, cola, izotonik, owoce, ciastka. Maraton: 4 punkty, półmaraton: 3, dycha: 1",
+  "at": "2026-11-13T16:34:40.830Z"
  },
  "https://www.kbsobotka.pl/wp-content/uploads/2026/10/2027-regulamin-Zimowy-Maraton-0.pdf": {
   "year": 2027,
@@ -7147,19 +7783,19 @@
     "until": "2026-12-09"
    },
    {
+    "km": 43,
+    "pln": 240,
+    "onsite": true
+   },
+   {
     "km": 24,
     "pln": 180,
     "until": "2026-12-09"
    },
    {
-    "km": 43,
-    "pln": 240,
-    "until": "2027-01-09"
-   },
-   {
     "km": 24,
     "pln": 200,
-    "until": "2027-01-09"
+    "onsite": true
    }
   ],
   "startTimes": [
@@ -7172,12 +7808,12 @@
     "time": "10:00"
    }
   ],
-  "office": "Dom Turysty pod Wieżycą, ul. Armii Krajowej 13: 08.01.2027 17:00-20:00, 09.01.2027 7:00-9:00",
-  "aid": "Przełęcz Tąpadła (2 razy) i Przełęcz pod Wieżycą: woda, izo, herbata, zupa, ciastka, owoce",
-  "at": "2026-11-12T09:55:51.819Z"
+  "office": "Dom Turysty pod Wieżycą, ul. Armii Krajowej 13. 08.01.2027 17:00-20:00, 09.01.2027 7:00-9:00",
+  "aid": "Przełęcz Tąpadła (2 razy) i pod Wieżycą: woda, izo, gorąca herbata, zupa, ciastka, owoce",
+  "at": "2026-11-13T16:34:40.830Z"
  },
  "https://www.kingrunner.com/artykul/regulamin---korona-polskich-ultramaratonow-30/1109": {
-  "at": "2026-11-08T14:10:24.239Z"
+  "at": "2026-11-13T16:34:40.816Z"
  },
  "https://www.maraton3jezior.com/regulamin/": {
   "year": 2026,
@@ -7299,26 +7935,30 @@
     "time": "09:30"
    }
   ],
-  "office": "Lokalizacja podana do 1.09; 18.09 14:30-21:30, 19.09 6:00-9:30, 20.09 8:00-9:00",
-  "aid": "Punkty regeneracyjne na trasie (bez kubków jednorazowych, własny pojemnik 0,5 l), posiłek na mecie",
-  "at": "2026-11-08T14:10:24.240Z"
+  "office": "18.09 14:30-21:30 (wszystkie dystanse); 19.09 6:00-7:30 (43 i 21 km), 8:00-9:30 (21 km); 20.09 8:00-9:00 (17 km)",
+  "aid": "Punkty regeneracyjne: napoje i artykuły spożywcze; posiłek regeneracyjny po biegu",
+  "at": "2026-11-13T16:34:40.816Z"
  },
  "https://www.maratonbieszczadzki.pl/wp-content/uploads/2026/10/Regulamin-XIII-Zimowego-Maratonu-Bieszczadzkiego-2027.pdf": {
   "year": 2027,
+  "limits": [
+   {
+    "km": 42,
+    "limitH": 8.5
+   },
+   {
+    "km": 26,
+    "limitH": 8.5
+   },
+   {
+    "km": 10,
+    "limitH": 6.83
+   }
+  ],
   "fees": [
    {
     "km": 42,
     "pln": 260,
-    "until": "2026-11-30"
-   },
-   {
-    "km": 26,
-    "pln": 220,
-    "until": "2026-11-30"
-   },
-   {
-    "km": 10,
-    "pln": 150,
     "until": "2026-11-30"
    },
    {
@@ -7327,9 +7967,39 @@
     "until": "2027-01-10"
    },
    {
+    "km": 42,
+    "pln": 290,
+    "until": "2027-01-21"
+   },
+   {
+    "km": 42,
+    "pln": 350,
+    "onsite": true
+   },
+   {
+    "km": 26,
+    "pln": 220,
+    "until": "2026-11-30"
+   },
+   {
     "km": 26,
     "pln": 240,
     "until": "2027-01-10"
+   },
+   {
+    "km": 26,
+    "pln": 250,
+    "until": "2027-01-21"
+   },
+   {
+    "km": 26,
+    "pln": 300,
+    "onsite": true
+   },
+   {
+    "km": 10,
+    "pln": 150,
+    "until": "2026-11-30"
    },
    {
     "km": 10,
@@ -7337,34 +8007,14 @@
     "until": "2027-01-10"
    },
    {
-    "km": 42,
-    "pln": 290,
-    "until": "2027-01-21"
-   },
-   {
-    "km": 26,
-    "pln": 250,
-    "until": "2027-01-21"
-   },
-   {
     "km": 10,
     "pln": 180,
     "until": "2027-01-21"
    },
    {
-    "km": 42,
-    "pln": 350,
-    "until": "2027-01-23"
-   },
-   {
-    "km": 26,
-    "pln": 300,
-    "until": "2027-01-23"
-   },
-   {
     "km": 10,
     "pln": 250,
-    "until": "2027-01-23"
+    "onsite": true
    }
   ],
   "startTimes": [
@@ -7381,11 +8031,11 @@
     "time": "08:40"
    }
   ],
-  "office": "Szkoła w Cisnej (sala gimnastyczna), Cisna 58; pt 22.01 17:00-22:00, sob 23.01 6:00-9:30",
-  "aid": "15 km: woda, herbata; 24 km: jedzenie i picie; 40 km: woda, cola, herbata, przekąski",
+  "office": "Szkoła w Cisnej (sala gimnastyczna), Cisna 58: pt 22.01 17:00-22:00, sob 23.01 6:00-9:30",
+  "aid": "15 km Roztoki Górne: woda, herbata; 24 km Krzyżówka: jedzenie, picie; 40 km (42/44): cola, przekąski",
   "poles": "tak",
   "dogs": "nie",
-  "at": "2026-11-12T09:56:36.152Z"
+  "at": "2026-11-13T16:34:40.832Z"
  },
  "https://www.maratongorstolowych.pl/wp-content/uploads/2026/09/ZPGS27_regulamin.docx.pdf": {
   "year": 2027,
@@ -7410,7 +8060,8 @@
    },
    {
     "km": 21,
-    "pln": 280
+    "pln": 280,
+    "until": "2027-01-14"
    },
    {
     "km": 31,
@@ -7422,7 +8073,8 @@
    },
    {
     "km": 31,
-    "pln": 300
+    "pln": 300,
+    "until": "2027-01-14"
    }
   ],
   "startTimes": [
@@ -7435,14 +8087,14 @@
     "time": "07:00"
    }
   ],
-  "office": "Centrum Szkoleniowo Edukacyjne PNGS, Karłów 10, 57-350 Kudowa-Zdrój",
-  "aid": "21 km: 2 bufety (6,7 i 13,6 km); 31 km: 3 bufety (6,7, 13,6, 19,7 km); napoje i wyżywienie",
+  "office": "Centrum Szkoleniowo Edukacyjne PNGS, Karłów 10, 57-350 Kudowa-Zdrój (godzin nie podano)",
+  "aid": "21 km: 2 bufety (6,7 i 13,6 km); 31 km: 3 bufety (6,7; 13,6; 19,7 km); napoje i wyżywienie na trasie",
   "dogs": "nie",
-  "at": "2026-11-13T10:52:25.596Z"
+  "at": "2026-11-13T16:34:40.830Z"
  },
  "https://www.ultralemkowyna.pl/regulaminy": {
   "year": 2027,
-  "at": "2026-11-12T10:01:47.573Z"
+  "at": "2026-11-13T16:34:40.830Z"
  },
  "https://www.ultraturnicki.pl/_files/ugd/883a2a_022e1d7fd8b5466e8866635383e749f7.pdf": {
   "year": 2027,
@@ -7474,7 +8126,8 @@
    },
    {
     "km": 15,
-    "pln": 180
+    "pln": 180,
+    "onsite": true
    },
    {
     "km": 36,
@@ -7493,7 +8146,8 @@
    },
    {
     "km": 36,
-    "pln": 280
+    "pln": 280,
+    "onsite": true
    }
   ],
   "startTimes": [
@@ -7506,11 +8160,11 @@
     "time": "10:00"
    }
   ],
-  "office": "Świetlica Wiejska, Huwniki 82; pt 15.01 17:00-21:00, sb 16.01 6:00-10:00",
-  "aid": "15 km: tylko meta; 36 km: 2 punkty (13 i 22 km) plus meta",
+  "office": "Świetlica Wiejska, Huwniki 82, 37-743 Huwniki: 15.01.2027 17:00-21:00, 16.01.2027 6:00-10:00",
+  "aid": "15 km: punkt na mecie. 36 km: punkty na 13 i 22 km, napoje i wyżywienie na trasie",
   "poles": "tak",
   "dogs": "nie",
-  "at": "2026-11-08T14:10:24.228Z"
+  "at": "2026-11-13T16:34:40.817Z"
  },
  "https://www.ultraturnicki.pl/_files/ugd/883a2a_d7f0d82ad31941bcbd6323cc7947f3fe.pdf": {
   "year": 2027,
@@ -7555,7 +8209,8 @@
    },
    {
     "km": 10,
-    "pln": 150
+    "pln": 150,
+    "onsite": true
    },
    {
     "km": 24,
@@ -7579,7 +8234,8 @@
    },
    {
     "km": 24,
-    "pln": 230
+    "pln": 230,
+    "onsite": true
    },
    {
     "km": 48,
@@ -7603,7 +8259,8 @@
    },
    {
     "km": 48,
-    "pln": 300
+    "pln": 300,
+    "onsite": true
    },
    {
     "km": 75,
@@ -7627,7 +8284,8 @@
    },
    {
     "km": 75,
-    "pln": 390
+    "pln": 390,
+    "onsite": true
    }
   ],
   "startTimes": [
@@ -7648,29 +8306,29 @@
     "time": "04:00"
    }
   ],
-  "office": "Świetlica Wiejska, Huwniki 82; 18.06 17:00-21:00, 19.06 od 5:00 do 9:30 (godziny zależne od dystansu)",
-  "aid": "10 km: tylko meta; 24 km: 14 km; 48 km: 16, 24, 38 km; 75 km: 19, 33, 51, 64 km, przepak 33 km",
+  "office": "Huwniki, Świetlica Wiejska; 18.06 17-21; 19.06: 48 km 5-6:40, 24 km 7:30-8:10, 10 km 8:30-9:30",
+  "aid": "10 km: meta; 24 km: 14 km; 48 km: 16, 24, 38 km; 75 km: 19, 33 (ciepły posiłek), 51, 64 km",
   "dogs": "nie",
-  "at": "2026-11-12T09:59:10.554Z"
+  "at": "2026-11-13T16:34:40.817Z"
  },
  "https://www.zmierzymyczas.pl/images/regulaminy/regulamin_ULTRAANKA_2027-1.pdf": {
   "year": 2027,
   "limits": [
    {
-    "km": 70,
-    "limitH": 10
-   },
-   {
-    "km": 50,
-    "limitH": 8
+    "km": 21,
+    "limitH": 4
    },
    {
     "km": 30,
     "limitH": 5
    },
    {
-    "km": 21,
-    "limitH": 4
+    "km": 50,
+    "limitH": 8
+   },
+   {
+    "km": 70,
+    "limitH": 10
    }
   ],
   "fees": [
@@ -7683,7 +8341,8 @@
     "until": "2026-11-30"
    },
    {
-    "pln": 180
+    "pln": 180,
+    "until": "2026-01-14"
    }
   ],
   "startTimes": [
@@ -7704,16 +8363,11 @@
     "time": "10:00"
    }
   ],
-  "office": "Dom Pielgrzyma, Góra Świętej Anny; pt 15.01 16:00-18:00, sb 16.01 od 5:30",
-  "aid": "Bufety na trasie (liczba nie podana), ciepły posiłek po biegu",
-  "at": "2026-11-08T14:10:24.238Z"
+  "office": "16.01.2027 od 5:30; pakiety także 15.01.2027 16:00-18:00",
+  "aid": "Punkty odżywcze z bufetem (liczba niepodana); ciepły posiłek na mecie",
+  "at": "2026-11-13T16:34:40.827Z"
  },
  "https://xrun.pl/regulamin": {
-  "year": 2027,
-  "kids": true,
-  "at": "2026-11-08T14:10:24.240Z"
- },
- "https://xrun.pl/regulamin/": {
   "year": 2027,
   "limits": [
    {
@@ -7763,6 +8417,568 @@
    {
     "km": 15,
     "limitH": 5
+   },
+   {
+    "km": 40,
+    "limitH": 9
+   },
+   {
+    "km": 26,
+    "limitH": 7
+   },
+   {
+    "km": 14,
+    "limitH": 5
+   },
+   {
+    "km": 35,
+    "limitH": 8
+   },
+   {
+    "km": 24,
+    "limitH": 7
+   },
+   {
+    "km": 15,
+    "limitH": 5.5
+   }
+  ],
+  "fees": [
+   {
+    "km": 32,
+    "pln": 190,
+    "until": "2026-12-31"
+   },
+   {
+    "km": 32,
+    "pln": 230,
+    "until": "2027-01-30"
+   },
+   {
+    "km": 32,
+    "pln": 270,
+    "until": "2027-02-14"
+   },
+   {
+    "km": 32,
+    "pln": 310,
+    "until": "2027-03-07"
+   },
+   {
+    "km": 21,
+    "pln": 160,
+    "until": "2026-12-31"
+   },
+   {
+    "km": 21,
+    "pln": 190,
+    "until": "2027-01-30"
+   },
+   {
+    "km": 21,
+    "pln": 230,
+    "until": "2027-02-14"
+   },
+   {
+    "km": 21,
+    "pln": 260,
+    "until": "2027-03-07"
+   },
+   {
+    "km": 14,
+    "pln": 150,
+    "until": "2026-12-31",
+    "label": "Tajemnicze Kopce"
+   },
+   {
+    "km": 14,
+    "pln": 170,
+    "until": "2027-01-30",
+    "label": "Tajemnicze Kopce"
+   },
+   {
+    "km": 14,
+    "pln": 180,
+    "until": "2027-02-14",
+    "label": "Tajemnicze Kopce"
+   },
+   {
+    "km": 14,
+    "pln": 210,
+    "until": "2027-03-07",
+    "label": "Tajemnicze Kopce"
+   },
+   {
+    "km": 42,
+    "pln": 190,
+    "until": "2026-12-31"
+   },
+   {
+    "km": 42,
+    "pln": 230,
+    "until": "2027-01-30"
+   },
+   {
+    "km": 42,
+    "pln": 270,
+    "until": "2027-02-28"
+   },
+   {
+    "km": 42,
+    "pln": 310,
+    "until": "2027-04-11"
+   },
+   {
+    "km": 31,
+    "pln": 160,
+    "until": "2026-12-31"
+   },
+   {
+    "km": 31,
+    "pln": 190,
+    "until": "2027-01-30"
+   },
+   {
+    "km": 31,
+    "pln": 230,
+    "until": "2027-02-28"
+   },
+   {
+    "km": 31,
+    "pln": 260,
+    "until": "2027-04-11"
+   },
+   {
+    "km": 23,
+    "pln": 150,
+    "until": "2026-12-31"
+   },
+   {
+    "km": 23,
+    "pln": 170,
+    "until": "2027-01-30"
+   },
+   {
+    "km": 23,
+    "pln": 180,
+    "until": "2027-02-28"
+   },
+   {
+    "km": 23,
+    "pln": 210,
+    "until": "2027-04-11"
+   },
+   {
+    "km": 6,
+    "pln": 60,
+    "until": "2026-12-31"
+   },
+   {
+    "km": 6,
+    "pln": 70,
+    "until": "2027-01-31"
+   },
+   {
+    "km": 6,
+    "pln": 80,
+    "until": "2027-02-28"
+   },
+   {
+    "km": 6,
+    "pln": 100,
+    "until": "2027-04-11"
+   },
+   {
+    "km": 50,
+    "pln": 190,
+    "until": "2026-12-31"
+   },
+   {
+    "km": 50,
+    "pln": 230,
+    "until": "2027-01-30"
+   },
+   {
+    "km": 50,
+    "pln": 270,
+    "until": "2027-03-31"
+   },
+   {
+    "km": 50,
+    "pln": 310,
+    "until": "2027-05-16"
+   },
+   {
+    "km": 38,
+    "pln": 160,
+    "until": "2026-12-31"
+   },
+   {
+    "km": 38,
+    "pln": 190,
+    "until": "2027-01-30"
+   },
+   {
+    "km": 38,
+    "pln": 230,
+    "until": "2027-03-31"
+   },
+   {
+    "km": 38,
+    "pln": 260,
+    "until": "2027-05-16"
+   },
+   {
+    "km": 22,
+    "pln": 150,
+    "until": "2026-12-31"
+   },
+   {
+    "km": 22,
+    "pln": 170,
+    "until": "2027-01-30"
+   },
+   {
+    "km": 22,
+    "pln": 180,
+    "until": "2027-03-31"
+   },
+   {
+    "km": 22,
+    "pln": 210,
+    "until": "2027-05-16"
+   },
+   {
+    "km": 5,
+    "pln": 60,
+    "until": "2026-12-31"
+   },
+   {
+    "km": 5,
+    "pln": 70,
+    "until": "2027-01-31"
+   },
+   {
+    "km": 5,
+    "pln": 80,
+    "until": "2027-03-31"
+   },
+   {
+    "km": 5,
+    "pln": 100,
+    "until": "2027-05-16"
+   },
+   {
+    "km": 45,
+    "pln": 190,
+    "until": "2026-12-31"
+   },
+   {
+    "km": 45,
+    "pln": 230,
+    "until": "2027-01-30"
+   },
+   {
+    "km": 45,
+    "pln": 270,
+    "until": "2027-04-30"
+   },
+   {
+    "km": 45,
+    "pln": 310,
+    "until": "2027-06-20"
+   },
+   {
+    "km": 25,
+    "pln": 160,
+    "until": "2026-12-31"
+   },
+   {
+    "km": 25,
+    "pln": 190,
+    "until": "2027-01-30"
+   },
+   {
+    "km": 25,
+    "pln": 230,
+    "until": "2027-04-30"
+   },
+   {
+    "km": 25,
+    "pln": 260,
+    "until": "2027-06-20"
+   },
+   {
+    "km": 15,
+    "pln": 150,
+    "until": "2026-12-31"
+   },
+   {
+    "km": 15,
+    "pln": 170,
+    "until": "2027-01-30"
+   },
+   {
+    "km": 15,
+    "pln": 180,
+    "until": "2027-04-30"
+   },
+   {
+    "km": 15,
+    "pln": 210,
+    "until": "2027-06-20"
+   },
+   {
+    "km": 7,
+    "pln": 60,
+    "until": "2026-12-31"
+   },
+   {
+    "km": 7,
+    "pln": 70,
+    "until": "2027-01-31"
+   },
+   {
+    "km": 7,
+    "pln": 80,
+    "until": "2027-04-30"
+   },
+   {
+    "km": 7,
+    "pln": 100,
+    "until": "2027-06-20"
+   },
+   {
+    "km": 40,
+    "pln": 190,
+    "until": "2026-12-31",
+    "label": "Ucieczka św. Kingi"
+   },
+   {
+    "km": 40,
+    "pln": 230,
+    "until": "2027-01-30",
+    "label": "Ucieczka św. Kingi"
+   },
+   {
+    "km": 40,
+    "pln": 270,
+    "until": "2027-06-30",
+    "label": "Ucieczka św. Kingi"
+   },
+   {
+    "km": 40,
+    "pln": 310,
+    "until": "2027-07-25",
+    "label": "Ucieczka św. Kingi"
+   },
+   {
+    "km": 28,
+    "pln": 160,
+    "until": "2026-12-31"
+   },
+   {
+    "km": 28,
+    "pln": 190,
+    "until": "2027-01-30"
+   },
+   {
+    "km": 28,
+    "pln": 230,
+    "until": "2027-06-30"
+   },
+   {
+    "km": 28,
+    "pln": 260,
+    "until": "2027-07-25"
+   },
+   {
+    "km": 14,
+    "pln": 150,
+    "until": "2026-12-31",
+    "label": "Ucieczka św. Kingi"
+   },
+   {
+    "km": 14,
+    "pln": 170,
+    "until": "2027-01-30",
+    "label": "Ucieczka św. Kingi"
+   },
+   {
+    "km": 14,
+    "pln": 180,
+    "until": "2027-06-30",
+    "label": "Ucieczka św. Kingi"
+   },
+   {
+    "km": 14,
+    "pln": 210,
+    "until": "2027-07-25",
+    "label": "Ucieczka św. Kingi"
+   },
+   {
+    "km": 40,
+    "pln": 190,
+    "until": "2026-12-31",
+    "label": "Vistula Trail"
+   },
+   {
+    "km": 40,
+    "pln": 230,
+    "until": "2027-01-30",
+    "label": "Vistula Trail"
+   },
+   {
+    "km": 40,
+    "pln": 270,
+    "until": "2027-07-31",
+    "label": "Vistula Trail"
+   },
+   {
+    "km": 40,
+    "pln": 310,
+    "until": "2027-09-12",
+    "label": "Vistula Trail"
+   },
+   {
+    "km": 26,
+    "pln": 160,
+    "until": "2026-12-31"
+   },
+   {
+    "km": 26,
+    "pln": 190,
+    "until": "2027-01-30"
+   },
+   {
+    "km": 26,
+    "pln": 230,
+    "until": "2027-07-31"
+   },
+   {
+    "km": 26,
+    "pln": 260,
+    "until": "2027-09-12"
+   },
+   {
+    "km": 16,
+    "pln": 150,
+    "until": "2026-12-31"
+   },
+   {
+    "km": 16,
+    "pln": 170,
+    "until": "2027-01-30"
+   },
+   {
+    "km": 16,
+    "pln": 180,
+    "until": "2027-07-31"
+   },
+   {
+    "km": 16,
+    "pln": 210,
+    "until": "2027-09-12"
+   },
+   {
+    "km": 4,
+    "pln": 60,
+    "until": "2026-12-31"
+   },
+   {
+    "km": 4,
+    "pln": 70,
+    "until": "2027-01-31"
+   },
+   {
+    "km": 4,
+    "pln": 80,
+    "until": "2027-07-31"
+   },
+   {
+    "km": 4,
+    "pln": 100,
+    "until": "2027-09-12"
+   }
+  ],
+  "aid": "napoje i wyżywienie na punktach kontrolnych, napoje i ciepły posiłek regeneracyjny na mecie",
+  "kids": true,
+  "at": "2026-11-13T16:34:40.832Z"
+ },
+ "https://xrun.pl/regulamin/": {
+  "year": 2027,
+  "limits": [
+   {
+    "km": 32,
+    "limitH": 6
+   },
+   {
+    "km": 21,
+    "limitH": 4
+   },
+   {
+    "km": 14,
+    "limitH": 4
+   },
+   {
+    "km": 42,
+    "limitH": 10
+   },
+   {
+    "km": 31,
+    "limitH": 7
+   },
+   {
+    "km": 23,
+    "limitH": 4
+   },
+   {
+    "km": 50,
+    "limitH": 10
+   },
+   {
+    "km": 38,
+    "limitH": 8
+   },
+   {
+    "km": 22,
+    "limitH": 6
+   },
+   {
+    "km": 45,
+    "limitH": 9
+   },
+   {
+    "km": 25,
+    "limitH": 7
+   },
+   {
+    "km": 15,
+    "limitH": 5
+   },
+   {
+    "km": 40,
+    "limitH": 9
+   },
+   {
+    "km": 28,
+    "limitH": 7
+   },
+   {
+    "km": 14,
+    "limitH": 5
+   },
+   {
+    "km": 40,
+    "limitH": 8
+   },
+   {
+    "km": 26,
+    "limitH": 7
+   },
+   {
+    "km": 16,
+    "limitH": 5.5
    }
   ],
   "fees": [
@@ -7839,30 +9055,6 @@
     "label": "Tajemnicze Kopce"
    },
    {
-    "km": 6,
-    "pln": 60,
-    "until": "2026-12-31",
-    "label": "Tajemnicze Kopce"
-   },
-   {
-    "km": 6,
-    "pln": 70,
-    "until": "2027-01-31",
-    "label": "Tajemnicze Kopce"
-   },
-   {
-    "km": 6,
-    "pln": 80,
-    "until": "2027-02-14",
-    "label": "Tajemnicze Kopce"
-   },
-   {
-    "km": 6,
-    "pln": 100,
-    "until": "2027-03-07",
-    "label": "Tajemnicze Kopce"
-   },
-   {
     "km": 42,
     "pln": 190,
     "until": "2026-12-31",
@@ -7931,30 +9123,6 @@
    {
     "km": 23,
     "pln": 210,
-    "until": "2027-04-11",
-    "label": "Muszyna Trail"
-   },
-   {
-    "km": 6,
-    "pln": 60,
-    "until": "2026-12-31",
-    "label": "Muszyna Trail"
-   },
-   {
-    "km": 6,
-    "pln": 70,
-    "until": "2027-01-30",
-    "label": "Muszyna Trail"
-   },
-   {
-    "km": 6,
-    "pln": 80,
-    "until": "2027-02-28",
-    "label": "Muszyna Trail"
-   },
-   {
-    "km": 6,
-    "pln": 100,
     "until": "2027-04-11",
     "label": "Muszyna Trail"
    },
@@ -8005,10 +9173,346 @@
     "pln": 310,
     "until": "2027-05-16",
     "label": "Wyspowy Trail"
+   },
+   {
+    "km": 38,
+    "pln": 160,
+    "until": "2026-12-31",
+    "label": "Wyspowy Trail"
+   },
+   {
+    "km": 38,
+    "pln": 190,
+    "until": "2027-01-30",
+    "label": "Wyspowy Trail"
+   },
+   {
+    "km": 38,
+    "pln": 230,
+    "until": "2027-03-31",
+    "label": "Wyspowy Trail"
+   },
+   {
+    "km": 38,
+    "pln": 260,
+    "until": "2027-05-16",
+    "label": "Wyspowy Trail"
+   },
+   {
+    "km": 22,
+    "pln": 150,
+    "until": "2026-12-31",
+    "label": "Wyspowy Trail"
+   },
+   {
+    "km": 22,
+    "pln": 170,
+    "until": "2027-01-30",
+    "label": "Wyspowy Trail"
+   },
+   {
+    "km": 22,
+    "pln": 180,
+    "until": "2027-03-31",
+    "label": "Wyspowy Trail"
+   },
+   {
+    "km": 22,
+    "pln": 210,
+    "until": "2027-05-16",
+    "label": "Wyspowy Trail"
+   },
+   {
+    "km": 5,
+    "pln": 60,
+    "until": "2026-12-31",
+    "label": "Wyspowy Trail"
+   },
+   {
+    "km": 5,
+    "pln": 70,
+    "until": "2027-01-31",
+    "label": "Wyspowy Trail"
+   },
+   {
+    "km": 5,
+    "pln": 80,
+    "until": "2027-03-31",
+    "label": "Wyspowy Trail"
+   },
+   {
+    "km": 5,
+    "pln": 100,
+    "until": "2027-05-16",
+    "label": "Wyspowy Trail"
+   },
+   {
+    "km": 45,
+    "pln": 190,
+    "until": "2026-12-31",
+    "label": "Mercure Szczyrk Run"
+   },
+   {
+    "km": 45,
+    "pln": 230,
+    "until": "2027-01-30",
+    "label": "Mercure Szczyrk Run"
+   },
+   {
+    "km": 45,
+    "pln": 270,
+    "until": "2027-04-30",
+    "label": "Mercure Szczyrk Run"
+   },
+   {
+    "km": 45,
+    "pln": 310,
+    "until": "2027-06-20",
+    "label": "Mercure Szczyrk Run"
+   },
+   {
+    "km": 25,
+    "pln": 160,
+    "until": "2026-12-31",
+    "label": "Mercure Szczyrk Run"
+   },
+   {
+    "km": 25,
+    "pln": 190,
+    "until": "2027-01-30",
+    "label": "Mercure Szczyrk Run"
+   },
+   {
+    "km": 25,
+    "pln": 230,
+    "until": "2027-04-30",
+    "label": "Mercure Szczyrk Run"
+   },
+   {
+    "km": 25,
+    "pln": 260,
+    "until": "2027-06-20",
+    "label": "Mercure Szczyrk Run"
+   },
+   {
+    "km": 15,
+    "pln": 150,
+    "until": "2026-12-31",
+    "label": "Mercure Szczyrk Run"
+   },
+   {
+    "km": 15,
+    "pln": 170,
+    "until": "2027-01-30",
+    "label": "Mercure Szczyrk Run"
+   },
+   {
+    "km": 15,
+    "pln": 180,
+    "until": "2027-04-30",
+    "label": "Mercure Szczyrk Run"
+   },
+   {
+    "km": 15,
+    "pln": 210,
+    "until": "2027-06-20",
+    "label": "Mercure Szczyrk Run"
+   },
+   {
+    "km": 7,
+    "pln": 60,
+    "until": "2026-12-31",
+    "label": "Mercure Szczyrk Run"
+   },
+   {
+    "km": 7,
+    "pln": 70,
+    "until": "2027-01-31",
+    "label": "Mercure Szczyrk Run"
+   },
+   {
+    "km": 7,
+    "pln": 80,
+    "until": "2027-04-30",
+    "label": "Mercure Szczyrk Run"
+   },
+   {
+    "km": 7,
+    "pln": 100,
+    "until": "2027-06-20",
+    "label": "Mercure Szczyrk Run"
+   },
+   {
+    "km": 40,
+    "pln": 190,
+    "until": "2026-12-31",
+    "label": "Ucieczka św. Kingi"
+   },
+   {
+    "km": 40,
+    "pln": 230,
+    "until": "2027-01-30",
+    "label": "Ucieczka św. Kingi"
+   },
+   {
+    "km": 40,
+    "pln": 270,
+    "until": "2027-06-30",
+    "label": "Ucieczka św. Kingi"
+   },
+   {
+    "km": 40,
+    "pln": 310,
+    "until": "2027-07-25",
+    "label": "Ucieczka św. Kingi"
+   },
+   {
+    "km": 28,
+    "pln": 160,
+    "until": "2026-12-31",
+    "label": "Ucieczka św. Kingi"
+   },
+   {
+    "km": 28,
+    "pln": 190,
+    "until": "2027-01-30",
+    "label": "Ucieczka św. Kingi"
+   },
+   {
+    "km": 28,
+    "pln": 230,
+    "until": "2027-06-30",
+    "label": "Ucieczka św. Kingi"
+   },
+   {
+    "km": 28,
+    "pln": 260,
+    "until": "2027-07-25",
+    "label": "Ucieczka św. Kingi"
+   },
+   {
+    "km": 14,
+    "pln": 150,
+    "until": "2026-12-31",
+    "label": "Ucieczka św. Kingi"
+   },
+   {
+    "km": 14,
+    "pln": 170,
+    "until": "2027-01-30",
+    "label": "Ucieczka św. Kingi"
+   },
+   {
+    "km": 14,
+    "pln": 180,
+    "until": "2027-06-30",
+    "label": "Ucieczka św. Kingi"
+   },
+   {
+    "km": 14,
+    "pln": 210,
+    "until": "2027-07-25",
+    "label": "Ucieczka św. Kingi"
+   },
+   {
+    "km": 40,
+    "pln": 190,
+    "until": "2026-12-31",
+    "label": "Vistula Trail"
+   },
+   {
+    "km": 40,
+    "pln": 230,
+    "until": "2027-01-30",
+    "label": "Vistula Trail"
+   },
+   {
+    "km": 40,
+    "pln": 270,
+    "until": "2027-07-31",
+    "label": "Vistula Trail"
+   },
+   {
+    "km": 40,
+    "pln": 310,
+    "until": "2027-09-12",
+    "label": "Vistula Trail"
+   },
+   {
+    "km": 26,
+    "pln": 160,
+    "until": "2026-12-31",
+    "label": "Vistula Trail"
+   },
+   {
+    "km": 26,
+    "pln": 190,
+    "until": "2027-01-30",
+    "label": "Vistula Trail"
+   },
+   {
+    "km": 26,
+    "pln": 230,
+    "until": "2027-07-31",
+    "label": "Vistula Trail"
+   },
+   {
+    "km": 26,
+    "pln": 260,
+    "until": "2027-09-12",
+    "label": "Vistula Trail"
+   },
+   {
+    "km": 16,
+    "pln": 150,
+    "until": "2026-12-31",
+    "label": "Vistula Trail"
+   },
+   {
+    "km": 16,
+    "pln": 170,
+    "until": "2027-01-30",
+    "label": "Vistula Trail"
+   },
+   {
+    "km": 16,
+    "pln": 180,
+    "until": "2027-07-31",
+    "label": "Vistula Trail"
+   },
+   {
+    "km": 16,
+    "pln": 210,
+    "until": "2027-09-12",
+    "label": "Vistula Trail"
+   },
+   {
+    "km": 4,
+    "pln": 60,
+    "until": "2026-12-31",
+    "label": "Vistula Trail"
+   },
+   {
+    "km": 4,
+    "pln": 70,
+    "until": "2027-01-31",
+    "label": "Vistula Trail"
+   },
+   {
+    "km": 4,
+    "pln": 80,
+    "until": "2027-07-31",
+    "label": "Vistula Trail"
+   },
+   {
+    "km": 4,
+    "pln": 100,
+    "until": "2027-09-12",
+    "label": "Vistula Trail"
    }
   ],
-  "aid": "napoje i wyżywienie na punktach kontrolnych, ciepły posiłek regeneracyjny na mecie",
+  "aid": "napoje i wyżywienie na punktach kontrolnych, napoje i ciepły posiłek regeneracyjny na mecie",
   "kids": true,
-  "at": "2026-11-12T10:20:39.820Z"
+  "at": "2026-11-13T16:34:40.828Z"
  }
 }
