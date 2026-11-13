@@ -154,7 +154,9 @@ export function cleanCity(place: string): string {
   const t = (town || parts[parts.length - 1] || place).replace(/\s+/g, " ").replace(/\s+\d+[a-z]?$/i, "").replace(/\s+k\/.*$/i, "").trim();
   // "Miasto Pasmo/Powiat/Gmina ..." z biegigorskie: zostaw pierwszy człon, jeśli reszta to region/powiat
   const m = t.match(/^(.+?)\s+(Gmina|Powiat|Kotlina|Góry|Beskid|Pogórze|Podlasie|Gorce|Roztocz\w*|Pojezierze|Dolinki|Jura|Lasek|Tatry|Pieniny|Karkonosze|Bieszczady|Sudety|Beskidy|Kaszuby|Mazury)\b/i);
-  return m ? m[1] : t;
+  const out = m ? m[1] : t;
+  // nadpisanie także po wyniku czyszczenia: źródła podają czasem sam obiekt albo ulicę ("Teatr pod Blachą", "Bronisława Czecha") i surowy zapis bywa różny
+  return (cityOverrides as Record<string, string>)[out] ?? out;
 }
 
 /** Poziom trudności pojedynczego dystansu (do kropki przy każdym dystansie). */

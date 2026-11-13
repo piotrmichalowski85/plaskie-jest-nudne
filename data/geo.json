@@ -777,11 +777,12 @@
   "woj": "lubelskie"
  },
  "korczyna": {
-  "lat": 49.7170858,
-  "lng": 21.2493985,
-  "display": "Korczyna, gmina Biecz, powiat gorlicki",
-  "at": "2026-09-10",
-  "woj": "małopolskie"
+  "lat": 49.7164,
+  "lng": 21.8086,
+  "display": "Korczyna, powiat krośnieński, województwo podkarpackie",
+  "at": "2026-11-13",
+  "woj": "podkarpackie",
+  "manual": "poprawka ręczna: geokodowanie trafiło w Korczynę koło Biecza (małopolskie), bieg jest koło Krosna"
  },
  "plac sołecki w jazgarzewie": {
   "lat": 53.1266429,
@@ -1442,5 +1443,12 @@
   "display": "Gniewino, gmina Gniewino, powiat wejherowski",
   "at": "2026-11-13",
   "woj": "pomorskie"
+ },
+ "jelenia góra": {
+  "lat": 50.9044,
+  "lng": 15.7194,
+  "display": "Jelenia Góra, województwo dolnośląskie, Polska",
+  "at": "2026-11-13",
+  "woj": "dolnośląskie"
  }
 }

@@ -7521,11 +7521,11 @@
    "city": "Zakopane",
    "region": "Tatry",
    "distancesKm": [
-    8.5
+    8.7
    ],
    "elevations": [
     {
-     "km": 8.5,
+     "km": 8.7,
      "dplus": 1072,
      "dplusSource": "trasa",
      "dplusSourceUrl": "https://biegnakasprowy.pl/biegnakasprowy/trasa",
@@ -7552,10 +7552,10 @@
    "regulaminUrl": "https://biegnakasprowy.pl/biegnakasprowy/regulamin",
    "id": "xix-alpin-sport-tatrzanski-bieg-pod-gore-2026-09-19",
    "surface": "gorski",
-   "minKm": 8.5,
-   "maxKm": 8.5,
+   "minKm": 8.7,
+   "maxKm": 8.7,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 8.5 km; stromo: ok. 126 m przewyższenia na kilometr, dużo marszu pod górę."
+   "beginnerWhy": "najkrótszy dystans 8.7 km; stromo: ok. 123 m przewyższenia na kilometr, dużo marszu pod górę."
   },
   {
    "name": "Festiwal Górski Maraton Trzech Jezior: Czupel Vertical 3.5km +600m, Szlakiem Wołoskich Pasterzy 17km, Rollercoaster 21km, (finałem Pucharu Świata WMRA w biegach górskich), Maraton 3 Jezior 46kmm",
@@ -9545,11 +9545,11 @@
    "city": "Świerki",
    "region": "Góry Sowie",
    "distancesKm": [
-    11
+    10
    ],
    "elevations": [
     {
-     "km": 11,
+     "km": 10,
      "dplus": 300,
      "dplusSource": "kalendarz",
      "dplusSourceUrl": "https://www.biegigorskie.pl/kalendarz-2026/"
@@ -9571,10 +9571,10 @@
    "regulaminUrl": "https://biegajwgorachsowich.pl/lib/vv3wnq/14-GBN-regulamin-msyk9hiv.pdf",
    "id": "14-gorski-bieg-niepodleglosci-2026-11-11",
    "surface": "gorski",
-   "minKm": 11,
-   "maxKm": 11,
+   "minKm": 10,
+   "maxKm": 10,
    "beginnerScore": 5,
-   "beginnerWhy": "najkrótszy dystans 11 km; łagodnie: ok. 27 m przewyższenia na kilometr."
+   "beginnerWhy": "najkrótszy dystans 10 km; łagodnie: ok. 30 m przewyższenia na kilometr."
   },
   {
    "name": "Górski Bieg Niepodległości",
@@ -12189,7 +12189,7 @@
    "eventName": "Kudowska Sztafeta Górska",
    "dateStart": "2027-04-10",
    "dateEnd": "2027-04-11",
-   "city": "Teatr pod Blachą",
+   "city": "Kudowa-Zdrój",
    "region": "",
    "distancesKm": [
     10,
@@ -14999,7 +14999,7 @@
    "eventName": "Chojnik Karkonoski Festiwal Biegowy",
    "dateStart": "2027-09-04",
    "dateEnd": "2027-09-04",
-   "city": "Bronisława Czecha",
+   "city": "Jelenia Góra",
    "region": "",
    "distancesKm": [
     14,
