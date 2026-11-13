@@ -3,7 +3,7 @@ import Link from "next/link";
 import reports from "@/data/zmiany.json";
 import type { Report } from "@/scripts/zmiany";
 import { fmtDate } from "@/lib/format";
-import { NewsletterForm } from "@/components/NewsletterForm";
+import { NewsletterSignup } from "@/components/NewsletterSignup";
 
 export const metadata: Metadata = { title: "Co nowego w kalendarzu: nowe biegi, zmiany terminów i zapisów", description: "Dziennik odświeżeń kalendarza biegów górskich i trailowych: nowe biegi, zmienione terminy, otwarte i zamknięte zapisy, dodane regulaminy, przewyższenia i listy sprzętu.", alternates: { canonical: "/zmiany" } };
 
@@ -18,7 +18,7 @@ export default function Zmiany() {
         <h1 className="text-[3rem] sm:text-[3.6rem]">Co nowego w kalendarzu</h1>
         <p className="mt-2 text-[var(--muted)]">Kalendarz odświeża się automatycznie w poniedziałki i czwartki rano (źródła: kalendarze, platformy zapisów, strony organizatorów), a we wtorki dochodzą listy sprzętu z nowych regulaminów. Tu jest dziennik tych zmian.</p>
       </header>
-      <div className="max-w-[52rem]"><NewsletterForm compact where="zmiany" /></div>
+      <div className="max-w-[52rem]"><NewsletterSignup compact where="zmiany" /></div>
       {list.length === 0 && <p className="mt-6 card text-[var(--muted)]">Pierwszy raport pojawi się po najbliższym odświeżeniu.</p>}
       <div className="mt-6 space-y-6 max-w-[52rem]">
         {list.map((r) => {

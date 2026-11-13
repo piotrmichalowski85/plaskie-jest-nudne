@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { NewsletterForm } from "@/components/NewsletterForm";
+import { newsletterLive } from "@/components/NewsletterSignup";
 import { buildIssue } from "@/lib/newsletter";
 import { today } from "@/lib/data";
 
@@ -20,7 +21,7 @@ export default function Newsletter() {
         <p className="mt-3 text-[1.1rem] leading-relaxed text-[#3d4d34]">Kalendarz odświeża się sam dwa razy w tygodniu. Żeby nie trzeba było tu zaglądać i zgadywać, co doszło, w poniedziałek rano wysyłamy krótką listę zmian z ostatnich siedmiu dni.</p>
       </header>
 
-      <div className="mt-6 max-w-[46rem]"><NewsletterForm where="newsletter" /></div>
+      <div className="mt-6 max-w-[46rem]">{newsletterLive() ? <NewsletterForm where="newsletter" /> : <p className="card text-sm">Zapis ruszy w najbliższych dniach. Do tego czasu te same zmiany są na stronie <Link href="/zmiany" className="underline font-semibold text-[var(--moss)]">Co nowego</Link>.</p>}</div>
 
       <div className="mt-8 grid gap-x-10 md:grid-cols-2 max-w-[62rem]">
         <section className="entry">

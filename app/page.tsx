@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { upcomingRaces, today, allRaces } from "@/lib/data";
 import { CardGrid } from "@/components/CardGrid";
-import { NewsletterForm } from "@/components/NewsletterForm";
+import { NewsletterSignup } from "@/components/NewsletterSignup";
 import { toCard } from "@/lib/card";
 import { Ticker } from "@/components/Ticker";
 import { Polecamy } from "@/components/Polecamy";
@@ -49,7 +49,7 @@ export default function Home() {
         </section>
       )}
 
-      <NewsletterForm where="glowna" />
+      <NewsletterSignup where="glowna" />
 
       <section className="cv-auto">
         <div className="flex items-end justify-between mb-3"><h2 className="text-[2.2rem]">Narzędzia na pierwszy start</h2></div>
