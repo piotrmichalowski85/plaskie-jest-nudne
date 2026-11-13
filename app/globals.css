@@ -28,7 +28,7 @@ h1, h2, h3 { font-family: var(--font-display); letter-spacing: .02em; line-heigh
 .poster .lvl-good { background: #1f6b33; color: #fff; }
 .poster .lvl-ok { background: #8a6300; color: #fff; }
 .poster .lvl-bad { background: #a1291c; color: #fff; }
-select, input[type="text"], input[type="search"], input[type="date"] { background: #fff; border: 1px solid var(--line); border-radius: .6rem; padding: .5rem .7rem; font-size: .95rem; }
+select, input[type="text"], input[type="search"], input[type="date"], input.nl-input { background: #fff; border: 1px solid var(--line); border-radius: .6rem; padding: .5rem .7rem; font-size: .95rem; }
 label { font-size: .8rem; color: var(--muted); font-weight: 600; }
 .ticker { width: 0; min-width: 100%; border-top: 2px solid var(--ink); border-bottom: 2px solid var(--ink); overflow: hidden; white-space: nowrap; font-family: var(--font-display); font-size: 1.25rem; letter-spacing: .06em; color: #3d4d34; }
 .ticker-track { display: inline-block; padding: .55rem 0; animation: ticker 60s linear infinite; }

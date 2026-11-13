@@ -8,6 +8,7 @@ import { fmtDate, fmtKm } from "@/lib/format";
 import { SITE, year } from "@/lib/seo";
 import { SubscribeIcs } from "@/components/SubscribeIcs";
 import { toCard } from "@/lib/card";
+import { NewsletterSignup } from "@/components/NewsletterSignup";
 
 export const dynamicParams = false;
 export function generateStaticParams() { return allHubs().map((h) => ({ hub: h.path })); }
@@ -81,6 +82,8 @@ export default async function HubPage({ params }: { params: Promise<{ hub: strin
           ))}</ul>
         </section>
       )}
+
+      <NewsletterSignup compact where="hub" />
 
       <section className="mt-10 space-y-5">
         <HubNav current={h} kind="pasmo" heading="Pasma i regiony" />
