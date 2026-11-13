@@ -33,14 +33,22 @@ async function setup() {
       cur.listId = made.json.id as number;
     }
     console.log("lista:", cur.listId);
+    writeFileSync(IDS, JSON.stringify(cur, null, 1) + "\n"); // zapis od razu: błąd w kolejnym kroku nie gubi numeru listy
   }
   // szablon potwierdzenia: tag "optin" i link {{ doubleoptin }} są wymagane przez Brevo dla zapisu z potwierdzeniem
   if (!cur.optinTemplateId) {
-    const tpls = await brevo("/smtp/templates?limit=100&offset=0", key);
-    const found = ((tpls.json.templates as { id: number; name: string }[] | undefined) ?? []).find((t) => t.name === OPTIN_TEMPLATE_NAME);
+    // lista szablonów wraca z pełną treścią HTML, więc po 20 na stronę i z długim limitem czasu (13.11: 100 naraz kończyło się timeoutem)
+    let found: { id: number; name: string } | undefined;
+    for (let offset = 0; offset < 400 && !found; offset += 20) {
+      const tpls = await brevo(`/smtp/templates?limit=20&offset=${offset}&sort=desc`, key, { timeoutMs: 60000 });
+      if (!tpls.ok) { fail("lista szablonów", tpls); return; }
+      const page = (tpls.json.templates as { id: number; name: string }[] | undefined) ?? [];
+      found = page.find((t) => t.name === OPTIN_TEMPLATE_NAME);
+      if (page.length < 20) break;
+    }
     if (found) cur.optinTemplateId = found.id;
     else {
-      const made = await brevo("/smtp/templates", key, { body: { templateName: OPTIN_TEMPLATE_NAME, subject: "Potwierdź zapis na newsletter Płaskie jest nudne", sender: SENDER, htmlContent: renderOptin(), tag: "optin", isActive: true } });
+      const made = await brevo("/smtp/templates", key, { timeoutMs: 60000, body: { templateName: OPTIN_TEMPLATE_NAME, subject: "Potwierdź zapis na newsletter Płaskie jest nudne", sender: SENDER, htmlContent: renderOptin(), tag: "optin", isActive: true } });
       if (!made.ok) return fail("szablon potwierdzenia (czy nadawca kontakt@plaskiejestnudne.pl jest dodany i potwierdzony w Brevo?)", made);
       cur.optinTemplateId = made.json.id as number;
     }
@@ -73,4 +81,4 @@ async function draft() {
     console.log(`${issue.empty ? "PUSTE (wydania by nie było)" : "wydanie"} ${today}: "${issue.subject}" | ${issue.preheader}\n${issue.sections.map((s) => `  ${s.title}: ${s.races.length}`).join("\n")}\nplik: ${out}`);
   } else if (args[0] === "setup") await setup();
   else await draft();
-})().catch((e) => { console.error("newsletter: błąd", (e as Error).message); process.exit(0); });
+})().catch((e) => { console.error("newsletter: błąd", (e as Error).message); process.exit(args[0] === "setup" ? 1 : 0); }); // setup ma być czerwony przy błędzie; szkic nie może psuć poniedziałkowego automatu

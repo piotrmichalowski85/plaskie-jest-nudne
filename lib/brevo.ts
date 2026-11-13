@@ -9,12 +9,12 @@ export const OPTIN_TEMPLATE_NAME = "Plaskie: potwierdzenie zapisu na newsletter"
 /** identyfikatory zakłada `npx tsx scripts/newsletter.ts setup` (workflow newsletter.yml, tryb setup) i zapisuje w data/newsletter.json */
 export const newsletterIds = (): { listId?: number; optinTemplateId?: number } => ids as { listId?: number; optinTemplateId?: number };
 
-export async function brevo(path: string, key: string, init: { method?: string; body?: unknown } = {}): Promise<{ ok: boolean; status: number; json: Record<string, unknown> }> {
+export async function brevo(path: string, key: string, init: { method?: string; body?: unknown; timeoutMs?: number } = {}): Promise<{ ok: boolean; status: number; json: Record<string, unknown> }> {
   const r = await fetch(`${BREVO_API}${path}`, {
     method: init.method ?? (init.body ? "POST" : "GET"),
     headers: { "api-key": key, accept: "application/json", ...(init.body ? { "content-type": "application/json" } : {}) },
     body: init.body ? JSON.stringify(init.body) : undefined,
-    signal: AbortSignal.timeout(15000),
+    signal: AbortSignal.timeout(init.timeoutMs ?? 15000),
   });
   const text = await r.text();
   let json: Record<string, unknown> = {};
