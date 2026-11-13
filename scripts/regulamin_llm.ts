@@ -101,7 +101,12 @@ function clean(o: Record<string, unknown>): Omit<RegInfo, "at"> {
       onsite: onsite || undefined, perPerson: KEEP.has(kind) && kind !== "marsz" && pp !== undefined && pp >= 10 && pp <= 3000 ? pp : undefined,
     };
   }).filter((x) => !x.drop && (x.pln === 0 || (x.pln >= 10 && x.pln <= 3000)));
-  if (fees.length) res.fees = fees.slice(0, MAX_FEES).map(({ drop: _d, ...f }) => { void _d; return Object.fromEntries(Object.entries(f).filter(([, v]) => v !== undefined)) as NonNullable<RegInfo["fees"]>[number]; });
+  // literówka w kwocie w samym regulaminie (np. "1150,00 PLN" między progami 170 i 240 zł): kwota ponad 2,5 raza wyższa od mediany swojego cennika odpada, zostają pewne progi
+  const med = (xs: number[]) => { const v = [...xs].sort((p, q) => p - q); return v[Math.floor((v.length - 1) / 2)]; };
+  const groups = new Map<string, number[]>();
+  for (const f of fees) { const k = `${f.km ?? ""}|${f.kind ?? ""}|${f.label ?? ""}`; groups.set(k, [...(groups.get(k) ?? []), f.pln]); }
+  const sane = fees.filter((f) => { const g = groups.get(`${f.km ?? ""}|${f.kind ?? ""}|${f.label ?? ""}`)!; return f.km === undefined || g.length < 3 || f.pln <= 2.5 * med(g); });
+  if (sane.length) res.fees = sane.slice(0, MAX_FEES).map(({ drop: _d, ...f }) => { void _d; return Object.fromEntries(Object.entries(f).filter(([, v]) => v !== undefined)) as NonNullable<RegInfo["fees"]>[number]; });
   const st = arr(o.startTimes).map((x) => ({ km: num(x.km), time: typeof x.time === "string" ? x.time.trim().replace(/^(\d):/, "0$1:").replace(".", ":") : "" })).filter((x) => /^([01]\d|2[0-3]):[0-5]\d$/.test(x.time));
   if (st.length) res.startTimes = st.slice(0, 40).map((s) => (s.km === undefined ? { time: s.time } : s));
   const office = str(o.office, 140); if (office) res.office = office;

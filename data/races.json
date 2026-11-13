@@ -1,6 +1,6 @@
 {
  "generatedAt": "2026-11-13T12:12:48.992Z",
- "count": 291,
+ "count": 290,
  "races": [
   {
    "name": "Podkarpacki Festiwal Sportowy",
@@ -9712,38 +9712,6 @@
    "maxKm": 21,
    "beginnerScore": 4,
    "beginnerWhy": "najkrótszy dystans 9 km; przewyższenie nieznane, sprawdź profil trasy."
-  },
-  {
-   "name": "Ninja AMS KARTUZY - zajęcia terenowe dla dzieci i młodzieży",
-   "eventName": "Ninja AMS KARTUZY - zajęcia terenowe dla dzieci i młodzieży",
-   "dateStart": "2026-11-14",
-   "dateEnd": "2026-11-14",
-   "city": "Kartuzy",
-   "region": "",
-   "distancesKm": [],
-   "elevations": [],
-   "vertical": false,
-   "url": "http://www.ams-sport.pl/",
-   "sources": [
-    {
-     "name": "elektronicznezapisy.pl",
-     "url": "https://elektronicznezapisy.pl/event/16210/strona.html"
-    }
-   ],
-   "signupOpen": true,
-   "signup": {
-    "status": "open",
-    "until": "2026-11-13",
-    "source": "zapisy",
-    "sourceUrl": "https://elektronicznezapisy.pl/event/16210/strona.html",
-    "checkedAt": "2026-11-13"
-   },
-   "id": "ninja-ams-kartuzy-zajecia-terenowe-dla-dzieci-i-mlodziezy-2026-11-14",
-   "surface": "przelaj",
-   "minKm": 0,
-   "maxKm": 0,
-   "beginnerScore": 3,
-   "beginnerWhy": "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed zapisem."
   },
   {
    "name": "Piekło Czantorii: Bestyjka 10K, Bestyja 24K, Pieron 47K, Przepieron 71K, Lucyfer 94K",

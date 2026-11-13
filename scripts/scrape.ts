@@ -496,6 +496,7 @@ function finalize(raws: Raw[]): Race[] {
     .sort((a, b) => a.dateStart.localeCompare(b.dateStart));
 }
 
+const NOT_RACE = /(^|[\s:(-])(zaj[eę]cia|trening(i|u|ów)?|ob[oó]z|obozy|warsztat(y|ów)?|szkolenie|rekonesans)(?![a-ząćęłńóśźż])/i;
 async function main() {
   // RAWS_IN=plik [RACES_OUT=plik]: samo scalanie na zapisanych surowych rekordach, bez pobierania czegokolwiek
   if (process.env.RAWS_IN) {
@@ -524,7 +525,11 @@ async function main() {
   console.log(`zapisy (nadchodzące): open ${zs.open}, closed ${zs.closed}, unknown ${zs.unknown}, z datą ${zs.withDate}`);
   // diagnostyka scalania: RAWS_OUT=plik zapisuje surowe rekordy sprzed scalenia (do testów finalize bez sieci, patrz RAWS_IN niżej)
   if (process.env.RAWS_OUT) writeFileSync(process.env.RAWS_OUT, JSON.stringify(raws));
-  const races = finalize(raws);
+  // nie-biegi z kategorii "bieg górski" na platformach zapisów: zajęcia, treningi, obozy, warsztaty, rekonesanse trasy
+  // (13.11.2026: "Ninja AMS KARTUZY - zajęcia terenowe dla dzieci i młodzieży" z elektronicznezapisy.pl); patrzymy na nazwę imprezy, nie na listę dystansów
+  const notRace = raws.filter((r) => NOT_RACE.test(r.eventName));
+  if (notRace.length) console.log(`pominięte (zajęcia, treningi, obozy): ${[...new Set(notRace.map((r) => r.eventName))].join("; ")}`);
+  const races = finalize(raws.filter((r) => !NOT_RACE.test(r.eventName)));
   const ds: Dataset = { generatedAt: new Date().toISOString(), count: races.length, races };
   if (races.length < 100 && !process.env.FORCE) { console.error(`STOP: tylko ${races.length} biegów, nie nadpisuję data/races.json (FORCE=1, żeby wymusić)`); process.exit(2); }
   mkdirSync("data", { recursive: true });
