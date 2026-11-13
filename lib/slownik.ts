@@ -1,14 +1,22 @@
 import type { Race } from "./types";
-import { isVertical } from "./normalize";
+import { utmbFull, utmbRaces, itraFull, itraRaces, verticalFull, verticalRaces } from "./slownik-pelne";
+
+/** blok treści pełnego hasła; w tekstach linki jako [etykieta](/adres) albo [etykieta](https://...) */
+export type Block = { h: string } | { p: string } | { ul: string[] } | { ol: string[] } | { table: { head: string[]; rows: string[][]; note?: string } };
+/** pełna treść hasła składana z bazy przy buildzie (lib/slownik-pelne.ts): sekcje po akapicie otwierającym i pytania z odpowiedziami */
+export type Full = { blocks: Block[]; faq: [string, string][] };
 
 export type Term = {
   slug: string; term: string; title: string; // <title>
+  h1?: string; // nagłówek strony, gdy ma być szerszy niż samo hasło
+  description?: string; // meta description, gdy ma być inne niż short
   short: string; // 1 zdanie (indeks, meta description)
-  body: string[]; // akapity
+  body: string[]; // akapity; przy haśle z "full" pierwszy akapit jest odpowiedzią pod nagłówkiem
   tips: string[]; // "na pierwszym starcie" (lista)
   faq?: [string, string][];
   related?: { label: string; href: string }[];
-  races?: (all: Race[], today: string) => { heading: string; list: Race[] } | undefined; // lista biegów powiązana z pojęciem
+  races?: (all: Race[], today: string) => { heading: string; note?: string; list: Race[] } | undefined; // lista biegów powiązana z pojęciem
+  full?: (all: Race[], today: string) => Full; // sekcje i FAQ z liczbami z bazy; zastępuje tips i faq
 };
 
 const up = (all: Race[], today: string) => all.filter((r) => r.dateEnd >= today).sort((a, b) => a.dateStart.localeCompare(b.dateStart));
@@ -40,27 +48,29 @@ export const TERMS: Term[] = [
     faq: [["Czy na biegu 10 km też jest sprzęt obowiązkowy?", "Często tylko telefon i kubek, ale bywają wyjątki (folia NRC, czołówka przy starcie o zmierzchu). Lista jest w regulaminie konkretnego biegu."], ["Co grozi za brak sprzętu?", "Zależnie od regulaminu: kara czasowa (zwykle 15-60 minut), niedopuszczenie do startu albo dyskwalifikacja."]],
     related: [{ label: "Jak czytać regulamin", href: "/slownik/jak-czytac-regulamin" }],
     races: (all, t) => ({ heading: "Nadchodzące biegi, dla których mamy listę sprzętu z regulaminu", list: up(all, t).filter((r) => r.gear && r.gear.length).slice(0, 8) }) },
-  { slug: "vertical", term: "Vertical (VK)", title: "Vertical (VK): bieg tylko pod górę",
-    short: "Vertical to bieg prawie wyłącznie pod górę, zwykle około 1 000 m przewyższenia na maksymalnie 5 km.",
-    body: ["Bieg prawie wyłącznie pod górę, zwykle z około 1 000 m przewyższenia na maksymalnie 5 km. Krótki, ale bardzo intensywny. Dobry jako sprawdzian, słaby jako pierwszy kontakt z górami, bo nie uczy zbiegania.", "W kalendarzu oznaczamy verticale osobno i nie liczymy ich do oceny \"dobry na start\", bo 1 000 m w górę na 4 km to zupełnie inna dyscyplina niż trail dla początkujących, choć dystans wygląda niewinnie."],
-    tips: ["Kije są na verticalu zwykle dozwolone i bardzo pomagają.", "Nie ma zbiegu: na dół zjeżdżasz kolejką albo schodzisz poza rywalizacją.", "Czas wyniku to często 40-90 minut, ale tętno jak na dysze na maksa."],
-    related: [{ label: "Biegi do 15 km (bez verticali)", href: "/biegi/do-15-km" }],
-    races: (all, t) => ({ heading: "Nadchodzące verticale", list: up(all, t).filter((r) => r.vertical || r.elevations.some((e) => isVertical(e))).slice(0, 8) }) },
+  { slug: "vertical", term: "Vertical (VK)", h1: "Vertical (VK): bieg tylko pod górę", title: "Vertical (VK): co to za bieg, ile ma przewyższenia i dla kogo",
+    description: "Vertical to bieg wyłącznie pod górę; klasyczny Vertical Kilometer ma 1000 m w pionie na trasie do 5 km. Definicje, liczby z polskich biegów i starty.",
+    short: "Vertical to bieg wyłącznie pod górę; klasyczny Vertical Kilometer (VK) ma 1000 m przewyższenia na trasie nie dłuższej niż 5 km.",
+    body: ["Vertical to bieg wyłącznie pod górę: start jest na dole, meta na górze, a zejście nie wchodzi do wyniku. Klasyczna odmiana, Vertical Kilometer (VK), to 1000 m w pionie na trasie nie dłuższej niż 5 km. W Polsce verticalami nazywa się też krótsze i niższe podbiegi; liczby z naszej bazy biegów są niżej."],
+    tips: [], full: verticalFull, races: verticalRaces,
+    related: [{ label: "Przewyższenie (D+)", href: "/slownik/przewyzszenie-d-plus" }, { label: "Skyrunning", href: "/slownik/skyrunning" }, { label: "Kije", href: "/slownik/kije" }, { label: "Biegi do 15 km", href: "/biegi/do-15-km" }, { label: "Biegi dla początkujących", href: "/biegi/dla-poczatkujacych" }] },
   { slug: "skyrunning", term: "Skyrunning", title: "Skyrunning: biegi wysokogórskie",
     short: "Skyrunning to biegi wysokogórskie po graniach i stromych, technicznych trasach; w Polsce głównie Tatry.",
     body: ["Biegi wysokogórskie po graniach i stromych, technicznych trasach. W Polsce głównie Tatry. Dla początkujących: najpierw beskidzkie łąki.", "Skyrunning wymaga pewności na ekspozycji, umiejętności poruszania się po skale i piargu oraz sprzętu jak na wyjście w góry. To cel na drugi lub trzeci sezon, nie na pierwszy start."],
     tips: ["Zacznij od marszobiegów po tatrzańskich szlakach poza zawodami, żeby poznać ekspozycję.", "Sprawdź limity pośrednie: na technicznych trasach są ciasne."],
     related: [{ label: "Biegi: Tatry, Pieniny i Gorce", href: "/biegi/pasmo/tatry-pieniny-gorce" }] },
-  { slug: "itra", term: "ITRA", title: "ITRA: punkty, Performance Index i po co to biegaczowi",
-    short: "ITRA to międzynarodowa federacja trailu; ocenia trudność biegów w punktach 0-6 i prowadzi ranking zawodników.",
-    body: ["International Trail Running Association, międzynarodowa federacja trailu. Ocenia trudność biegów w punktach 0-6 na podstawie dystansu i przewyższenia (tzw. km-effort) oraz prowadzi ranking osób startujących (Performance Index). Punkty ITRA bywają wymagane przy zapisach na długie biegi jako dowód doświadczenia.", "Km-effort to dystans plus przewyższenie podzielone przez 100: 20 km z +800 m to 28 km-effort. Od tej liczby zależy, ile punktów (0-6) dostaje dystans. Nasz kalkulator \"Czy dam radę?\" używa tej samej logiki do szacowania czasu."],
-    tips: ["Na pierwszy start punkty ITRA nie są potrzebne; przydają się dopiero przy zapisach na duże ultra.", "Performance Index rośnie z wyników na biegach z oceną ITRA, więc warto, żeby pierwsze starty były na imprezach ocenianych."],
-    related: [{ label: "UTMB Index i Running Stones", href: "/slownik/utmb-index-running-stones" }, { label: "Czy dam radę?", href: "/czy-dam-rade" }] },
-  { slug: "utmb-index-running-stones", term: "UTMB Index i Running Stones", title: "UTMB Index i Running Stones: jak dostać się do Chamonix",
-    short: "UTMB Index to wskaźnik wyników w kategoriach 20K, 50K, 100K i 100M; Running Stones to kamienie z biegów UTMB World Series, bilet do loterii finałów.",
-    body: ["UTMB Index to wskaźnik wyników w czterech kategoriach (20K, 50K, 100K, 100M), liczony z biegów UTMB World Series i biegów partnerskich (UTMB Index races). Running Stones to kamienie zdobywane na biegach UTMB World Series i Majors; są biletem do loterii finałów w Chamonix. Do loterii trzeba mieć co najmniej jeden kamień z ostatnich 24 miesięcy i ważny indeks w wymaganej kategorii: na OCC wystarczy 20K, na CCC 50K, na UTMB 100K lub 100M. Więcej kamieni to więcej losów, ale nie gwarancja startu.", "W Polsce kamienie zdobywa się na biegach z serii UTMB World Series; indeks naliczają też biegi partnerskie. Dla początkujących to odległy horyzont, ale dobrze wiedzieć, że droga z pierwszej dychy w terenie do Chamonix jest policzalna."],
-    tips: ["Zacznij od indeksu 20K: wystarczy ukończyć bieg partnerski na dystansie ok. 20 km.", "Kamienie przedawniają się po 24 miesiącach, planuj starty w parach lat."],
-    related: [{ label: "ITRA", href: "/slownik/itra" }, { label: "Biegi ultra", href: "/biegi/ultra" }] },
+  { slug: "itra", term: "ITRA", h1: "ITRA: punkty ITRA i Performance Index", title: "ITRA: co to jest, punkty ITRA i Performance Index (ranking)",
+    description: "ITRA to międzynarodowe stowarzyszenie biegów trailowych. Punkty ITRA (0-6) opisują trudność biegu, Performance Index (do 1000) to ranking. Tabela progów.",
+    short: "ITRA to międzynarodowe stowarzyszenie biegów trailowych; punkty ITRA (0-6) opisują trudność biegu, a Performance Index (do 1000) to ranking osób biegających.",
+    body: ["ITRA (International Trail Running Association) to międzynarodowe stowarzyszenie biegów trailowych, które prowadzi kalendarz biegów, bazę wyników i światowy ranking. Pod hasłem \"punkty ITRA\" kryją się dwie różne rzeczy. Pierwsza to punkty biegu w skali 0-6: mówią, jak długi i stromy jest bieg, i dostaje je każda osoba na mecie. Druga to Performance Index, czyli indywidualna ocena poziomu w skali do 1000, z której powstaje ranking."],
+    tips: [], full: itraFull, races: itraRaces,
+    related: [{ label: "UTMB Index i Running Stones", href: "/slownik/utmb-index-running-stones" }, { label: "Przewyższenie (D+)", href: "/slownik/przewyzszenie-d-plus" }, { label: "Limit czasu (cutoff)", href: "/slownik/limit-czasu-cutoff" }, { label: "Czy dam radę?", href: "/czy-dam-rade" }, { label: "Biegi ultra", href: "/biegi/ultra" }] },
+  { slug: "utmb-index-running-stones", term: "UTMB Index i Running Stones", title: "UTMB Index: co to jest, jak działa i po co są Running Stones",
+    description: "UTMB Index to ocena poziomu w biegach trailowych: średnia z maks. 5 najlepszych wyników z 36 miesięcy. Running Stones to losy na UTMB, CCC i OCC.",
+    short: "UTMB Index (indeks UTMB) to liczba opisująca poziom w biegach trailowych, liczona z wyników biegów; Running Stones to losy w losowaniu miejsc na UTMB, CCC i OCC w Chamonix.",
+    body: ["UTMB Index (indeks UTMB) to liczba opisująca poziom sportowy w biegach trailowych: średnia ważona maksymalnie pięciu najlepszych wyników z ostatnich 36 miesięcy, liczona osobno w kategoriach 20K, 50K, 100K i 100M oraz jako indeks ogólny. Running Stones to coś innego: losy w losowaniu miejsc na biegi OCC, CCC i UTMB w Chamonix, zdobywane wyłącznie za ukończenie biegów cyklu UTMB World Series. Do losowania potrzeba jednego i drugiego: ważnego indeksu i co najmniej jednego kamienia."],
+    tips: [], full: utmbFull, races: utmbRaces,
+    related: [{ label: "ITRA: punkty i Performance Index", href: "/slownik/itra" }, { label: "Przewyższenie (D+)", href: "/slownik/przewyzszenie-d-plus" }, { label: "Biegi ultra", href: "/biegi/ultra" }, { label: "Czy dam radę?", href: "/czy-dam-rade" }] },
   { slug: "kije", term: "Kije", title: "Kije na biegu górskim: kiedy pomagają i kiedy są zabronione",
     short: "Kije są dozwolone na większości ultra i biegów górskich, na niektórych krótkich trasach zabronione; zawsze sprawdź regulamin.",
     body: ["Dozwolone na większości ultra i biegów górskich, na niektórych krótkich trasach zabronione. Zawsze sprawdź regulamin. Na pierwszym biegu do 20 km nie są potrzebne; powyżej i przy stromych podbiegach oszczędzają nogi. Trzeba umieć ich używać, zanim wystartujesz.", "Regulaminy różnią się też w szczegółach: czasem kije wolno mieć od startu do mety albo wcale, czasem wolno je wziąć dopiero z depozytu na punkcie. Na startach masowych i w wąskich miejscach kije bywają zakazane ze względów bezpieczeństwa."],
