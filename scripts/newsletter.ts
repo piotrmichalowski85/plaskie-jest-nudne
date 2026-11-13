@@ -69,6 +69,8 @@ async function draft() {
   const existing = await brevo("/emailCampaigns?type=classic&limit=50&offset=0&sort=desc&excludeHtmlContent=true", key);
   if (((existing.json.campaigns as { name: string }[] | undefined) ?? []).some((c) => c.name === name)) return console.log("szkic już istnieje:", name);
   const made = await brevo("/emailCampaigns", key, { body: { name, subject: issue.subject, previewText: issue.preheader.slice(0, 140), sender: SENDER, replyTo: SENDER.email, htmlContent: issue.html, recipients: { listIds: [listId] }, inlineImageActivation: false } });
+  // Brevo nie pozwala założyć kampanii na pustą listę: pierwszy szkic powstanie po pierwszym potwierdzonym zapisie
+  if (!made.ok && /no contacts associated/i.test(String(made.json.message ?? ""))) return console.log("lista newslettera jest pusta (nikt jeszcze nie potwierdził zapisu), szkic nie powstał");
   if (!made.ok) return fail("szkic kampanii (czy nadawca i domena są potwierdzone w Brevo?)", made);
   console.log(`szkic kampanii ${made.json.id}: "${issue.subject}" (${issue.sections.map((s) => `${s.title}: ${s.races.length}`).join(", ")}). Czeka w Brevo na przeczytanie i wysyłkę.`);
 }
