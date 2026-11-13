@@ -1,18 +1,19 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import Link from "next/link";
 import { upcomingRaces, allRaces } from "@/lib/data";
 import { allHubs } from "@/lib/hubs";
 import { year } from "@/lib/seo";
-import { BadgeSnippet, WidgetSnippet } from "@/components/Snippets";
+import { BadgeSnippet, WeatherBadgeSnippet, WidgetSnippet } from "@/components/Snippets";
 
 export const metadata: Metadata = {
-  title: "Dla organizatorów biegów: odznaka, widget, poprawki danych",
-  description: "Organizujesz bieg górski, trailowy albo przełajowy? Sprawdź, co pokazujemy o Twoim biegu, jak zgłosić poprawkę, i wstaw na stronę odznakę \"dobry na start\" albo widget z kalendarzem regionu.",
+  title: "Dla organizatorów biegów: odznaka, plakietka z pogodą, widget, poprawki danych",
+  description: "Organizujesz bieg górski, trailowy albo przełajowy? Sprawdź, co pokazujemy o Twoim biegu, jak zgłosić poprawkę, i wstaw na stronę odznakę \"dobry na start\", plakietkę z pogodą na dzień biegu albo widget z kalendarzem regionu.",
   alternates: { canonical: "/dla-organizatorow" },
 };
 
 export default function DlaOrganizatorow() {
-  const races = upcomingRaces().sort((a, b) => a.dateStart.localeCompare(b.dateStart)).map((r) => ({ id: r.id, label: `${r.eventName} ${year(r)}, ${r.city}`, good: r.beginnerScore >= 4 }));
+  const races = upcomingRaces().sort((a, b) => a.dateStart.localeCompare(b.dateStart)).map((r) => ({ id: r.id, label: `${r.eventName} ${year(r)}, ${r.city}`, good: r.beginnerScore >= 4, name: r.eventName }));
   const hubs = allHubs().filter((h) => ["pasmo", "wojewodztwo", "blisko"].includes(h.kind) || (h.kind === "temat" && h.path[0] === "dla-poczatkujacych")).map((h) => ({
     q: `${h.kind === "pasmo" ? "pasmo" : h.kind === "wojewodztwo" ? "woj" : h.kind === "blisko" ? "miasto" : "zestawienie"}=${h.path[h.path.length - 1]}`,
     label: h.kind === "wojewodztwo" ? `woj. ${h.label}` : h.label,
@@ -44,6 +45,14 @@ export default function DlaOrganizatorow() {
         <h2 className="text-[1.9rem]">Odznaka na stronę biegu</h2>
         <p className="mt-3 leading-relaxed">Bieg z zieloną oceną dostaje odznakę &quot;Dobry na start&quot;, pozostałe odznakę &quot;W kalendarzu&quot;. Odznaka prowadzi do strony biegu u nas: z limitem, sprzętem, profilem trasy i kalkulatorem &quot;Czy dam radę?&quot;. Wybierzcie bieg i skopiujcie kod do strony (HTML).</p>
         <div className="card mt-4"><BadgeSnippet races={races} /></div>
+      </section>
+
+      <section className="entry" id="plakietka-pogoda">
+        <h2 className="text-[1.9rem]">Plakietka z pogodą na dzień biegu</h2>
+        <p className="mt-3 leading-relaxed">Przed startem biegacze pytają o pogodę i o to, jak się ubrać. Plakietka pokazuje na Waszej stronie prognozę w miejscu startu na dzień biegu: temperaturę w dzień i w nocy, szansę opadów i wiatr. Prognoza pojawia się na 16 dni przed startem; wcześniej plakietka pokazuje typową pogodę w tym terminie z ostatnich 10 lat, a po biegu informację, że bieg się odbył.</p>
+        <p className="mt-2 leading-relaxed">Plakietka aktualizuje się sama: to obrazek pobierany z naszego serwera, a prognozę odświeżamy co kilka godzin (data prognozy jest na plakietce). Prowadzi do strony biegu u nas, bez skryptów i bez ramki. Wybierzcie bieg i skopiujcie kod do strony (HTML).</p>
+        <div className="card mt-4"><Suspense fallback={<p className="text-sm text-[var(--muted)]">Wczytuję generator plakietki.</p>}><WeatherBadgeSnippet races={races} /></Suspense></div>
+        <p className="mt-2 text-xs text-[var(--muted)]">Na grzbietach zwykle jest chłodniej i bardziej wietrznie niż w miejscu startu. Dane pogodowe: <a className="underline" href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo.com</a>, licencja <a className="underline" href="https://creativecommons.org/licenses/by/4.0/deed.pl" target="_blank" rel="noopener">CC BY 4.0</a>; podpis źródła jest na plakietce.</p>
       </section>
 
       <section className="entry">
