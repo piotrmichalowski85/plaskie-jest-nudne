@@ -30,3 +30,7 @@ jobs:
           git add data/races.json data/next_edition.json data/zmiany.json data/weather.json
           git diff --cached --quiet || git commit -m "data: odświeżenie kalendarza $(date -u +%F)"
           git push
+      - name: IndexNow (zgłoszenie zmienionych adresów wyszukiwarkom)
+        run: |
+          sleep 240
+          npx tsx scripts/indexnow.ts || true
