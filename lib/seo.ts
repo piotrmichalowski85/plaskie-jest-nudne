@@ -43,9 +43,14 @@ export function prevEditionOf(r: Race, all: Race[]): Race | undefined {
     .sort((a, b) => b.dateStart.localeCompare(a.dateStart))[0];
 }
 
+/** tytuł strony biegu: nazwa, rok i data startu (odpowiedź na zapytanie "nazwa biegu 2027" widoczna już w wynikach), dalej to, co jest na stronie, o ile mieści się w ok. 62 znakach */
 export function raceTitle(r: Race): string {
   const hasLimit = r.elevations.some((e) => e.limitH);
-  return `${r.eventName} ${year(r)}: termin, dystanse, zapisy${hasLimit ? ", limit czasu" : ""}`;
+  const day = fmtDate(r.dateStart, r.dateEnd).replace(/ \d{4}$/, "").replace(/ \d{4} - /, " - ");
+  const name = r.eventName.includes(year(r)) ? r.eventName : `${r.eventName} ${year(r)}`; // nazwa bywa już z rokiem ("ULTRA WYSOCZYZNA 2027")
+  const base = `${name}, ${day}`;
+  for (const tail of [`: dystanse, zapisy${hasLimit ? ", limit czasu" : ""}`, ": dystanse, zapisy", ": zapisy"]) if ((base + tail).length <= 62) return base + tail;
+  return base;
 }
 
 export function raceDescription(r: Race, today: string): string {

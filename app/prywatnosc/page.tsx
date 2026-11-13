@@ -6,7 +6,9 @@ export default function Prywatnosc() {
       <h1 className="text-[3rem]">Polityka prywatności</h1>
       <p>Serwis plaskiejestnudne.pl prowadzi Piotr Michałowski (kontakt: <a className="underline" href="mailto:kontakt@plaskiejestnudne.pl">kontakt@plaskiejestnudne.pl</a>). Serwis jest niekomercyjny i nie wymaga zakładania konta.</p>
       <h2 className="text-xl font-bold">Jakie dane zbieramy</h2>
-      <p>Nie zbieramy danych osobowych. Nie ma formularzy rejestracji, list startowych ani wyników. Jeśli napiszesz do nas maila, przetwarzamy Twój adres wyłącznie po to, żeby odpowiedzieć.</p>
+      <p>Nie ma formularzy rejestracji, list startowych ani wyników. Jedyne dane osobowe, które zbieramy, to adres e-mail, jeśli zapiszesz się na newsletter (niżej). Jeśli napiszesz do nas maila, przetwarzamy Twój adres wyłącznie po to, żeby odpowiedzieć.</p>
+      <h2 id="newsletter" className="text-xl font-bold">Newsletter</h2>
+      <p>Jeśli zapiszesz się na newsletter "nowe biegi w tym tygodniu", przetwarzamy Twój adres e-mail wyłącznie po to, żeby go wysyłać. Podstawą jest Twoja zgoda (art. 6 ust. 1 lit. a RODO), wyrażona zapisem i potwierdzona kliknięciem w mailu; bez potwierdzenia adres nie trafia na listę. Administratorem danych jest prowadzący serwis. Wysyłkę obsługuje Brevo (Sendinblue SAS, Francja), które przechowuje listę w naszym imieniu. Nie przekazujemy adresów nikomu innemu i nie używamy ich do niczego poza tym newsletterem. Wypisać się można w każdej chwili linkiem w stopce maila albo pisząc na adres kontaktowy. Po wypisie nie wysyłamy już niczego, a adres usuwamy z bazy na Twoją prośbę. Masz prawo dostępu do swoich danych, ich poprawienia i usunięcia oraz skargi do Prezesa UODO. Brevo liczy otwarcia maila i kliknięcia w linki; korzystamy z tych liczb zbiorczo, żeby wiedzieć, czy newsletter jest czytany. Linki mają dopisek źródła (utm), żeby w statystykach serwisu było widać wejścia z maila.</p>
       <h2 className="text-xl font-bold">Statystyki (Google Analytics)</h2>
       <p>Za Twoją zgodą korzystamy z Google Analytics 4, żeby wiedzieć, które strony i narzędzia są używane. Adresy IP są anonimizowane, nie łączymy statystyk z tożsamością. Bez zgody nie powstaje żadne ciasteczko analityczne, a serwis działa normalnie. Zgodę można zmienić, usuwając dane strony w przeglądarce. Administratorem danych w Google Analytics jest Google Ireland Ltd.</p>
       <h2 className="text-xl font-bold">Lokalizacja</h2>
@@ -17,7 +19,7 @@ export default function Prywatnosc() {
       <p>Mapy pochodzą z OpenFreeMap (dane OpenStreetMap). Przeglądarka pobiera kafelki mapy bezpośrednio z ich serwerów, co przekazuje im Twój adres IP, tak jak każdej odwiedzanej stronie.</p>
       <h2 className="text-xl font-bold">Skąd dane o biegach</h2>
       <p>Zbieramy publicznie dostępne fakty o zawodach (nazwa, termin, miejsce, dystanse, przewyższenia, regulamin) z kalendarzy, platform zapisów i stron organizatorów. Organizatorzy mogą prosić o poprawki i usunięcie pod adresem kontaktowym.</p>
-      <p className="text-[var(--muted)]">Ostatnia zmiana: 11.11.2026.</p>
+      <p className="text-[var(--muted)]">Ostatnia zmiana: 13.11.2026.</p>
     </article>
   );
 }
