@@ -34,7 +34,11 @@ function withInfo(r: Race): Race {
   if (!x) return r;
   const { limits, at: _at, ...rest } = x;
   void _at;
-  const stale = x.year !== undefined && String(x.year) !== r.dateStart.slice(0, 4);
+  // regulamin innej edycji: rok z wyciągu różni się od roku biegu albo (gdy wyciąg nie ma roku) ostatni termin opłaty kończy się ponad 240 dni przed startem.
+  // Wtedy opłaty i godziny są pokazywane jako dane tamtej edycji (strona biegu), cena "od" znika (lib/fees.ts), a termin zapisów wzięty z regulaminu nie jest pokazywany
+  const lastUntil = (x.fees ?? []).map((f) => f.until ?? "").sort().pop() || "";
+  const byDates = x.year === undefined && !!lastUntil && (Date.parse(r.dateStart) - Date.parse(lastUntil)) / 86400000 > 240;
+  const stale = (x.year !== undefined && String(x.year) !== r.dateStart.slice(0, 4)) || byDates;
   const elevations = limits?.length ? r.elevations.map((e) => {
     if (e.limitH) return e;
     const l = limits.find((y) => sameKm(y.km, e.km));
@@ -50,7 +54,8 @@ function withInfo(r: Race): Race {
   if (rest.fees) rest.fees = mine(rest.fees);
   if (rest.startTimes) rest.startTimes = mine(rest.startTimes);
   const hasMore = Object.keys(rest).some((k) => k !== "year");
-  return { ...r, elevations, ...(hasMore ? { info: { ...rest, ...(stale ? { stale } : {}) } } : {}) };
+  const oldSignup = stale && r.signup && (r.signup.source === "regulamin" || r.signup.sourceUrl === r.regulaminUrl);
+  return { ...r, elevations, ...(oldSignup ? { signup: undefined } : {}), ...(hasMore ? { info: { ...rest, ...(stale ? { stale, year: rest.year ?? Number(lastUntil.slice(0, 4)) } : {}) } } : {}) };
 }
 
 /** nazwa imprezy do wyświetlenia; gdy źródło podaje sam skrót cyklu ("X-RUN" przy sześciu biegach roku), bierzemy pierwszy człon pełnej nazwy ("X-RUN - Tajemnicze Kopce") */

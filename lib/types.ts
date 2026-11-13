@@ -44,7 +44,9 @@ export type Dataset = { generatedAt: string; count: number; races: Race[] };
 export type RegInfo = {
   year?: number; // rok edycji, której dotyczy regulamin
   limits?: { km: number; limitH: number }[];
-  fees?: { km?: number; pln: number; until?: string; label?: string }[]; // progi cenowe: kwota do daty; label = wariant, gdy jeden dystans ma kilka cenników (solo, sztafeta, w parze, 6 h)
+  /** progi cenowe: kwota do daty. Bez pola kind = start indywidualny; kind = wariant pokazywany osobno (cena za parę, za zespół sztafety, marsz albo nordic walking).
+   *  label = wariant, gdy jeden dystans ma kilka cenników (6 h i 12 h, nazwa imprezy cyklu); onsite = kwota płatna dopiero w biurze zawodów; perPerson = kwota od osoby, gdy regulamin podaje ją wprost */
+  fees?: { km?: number; pln: number; until?: string; label?: string; kind?: "para" | "sztafeta" | "marsz"; onsite?: boolean; perPerson?: number }[];
   startTimes?: { km?: number; time: string }[];
   office?: string; // biuro zawodów
   aid?: string; // bufety
