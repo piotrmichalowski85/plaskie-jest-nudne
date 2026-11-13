@@ -23,7 +23,8 @@ export const BUCKETS = [
   { id: "do-12", label: "do 12 km", from: 0, to: 13 },
   { id: "13-25", label: "13-25 km", from: 13, to: 26 },
   { id: "26-45", label: "26-45 km", from: 26, to: 46 },
-  { id: "ultra", label: "46 km i więcej", from: 46, to: Infinity },
+  { id: "46-80", label: "46-80 km", from: 46, to: 81 },
+  { id: "ponad-80", label: "ponad 80 km", from: 81, to: Infinity },
 ] as const;
 export type BucketId = (typeof BUCKETS)[number]["id"];
 export const bucketOf = (km: number) => BUCKETS.find((b) => km >= b.from && km < b.to)!;

@@ -7,7 +7,7 @@ const PATH = "/raporty/ile-kosztuje-bieg-gorski";
 const URL = `https://plaskiejestnudne.pl${PATH}`;
 const CSV = `${PATH}/dane.csv`;
 const s = computeStats();
-const [b12, b25, b45, bUltra] = s.buckets;
+const [b12, b25, b45, b80, bUltra] = s.buckets;
 const d = (iso: string) => iso.split("-").reverse().join(".");
 const season = report.season.join(" i ");
 const months = (days: number) => (days / 30.4).toFixed(1).replace(".", ",");
@@ -15,7 +15,7 @@ const cen = (n: number) => `${n} ${n === 1 ? "cennik" : n % 10 >= 2 && n % 10 <=
 const kmRatio = (b12.perKmFirst.median / bUltra.perKmFirst.median).toFixed(1).replace(".", ",");
 
 const TITLE = `Ile kosztuje bieg górski i trailowy w Polsce? Opłaty startowe ${report.season.join("/")}`;
-const DESC = `Mediana opłaty startowej w pierwszym progu zapisów: ${zl(b12.first.median)} do 12 km, ${zl(b25.first.median)} na 13-25 km, ${zl(b45.first.median)} na 26-45 km, ${zl(bUltra.first.median)} w ultra. Ostatni próg jest droższy o ${pct(s.rise.median)}. Dane z ${s.regulaminy} regulaminów, do pobrania.`;
+const DESC = `Mediana opłaty startowej w pierwszym progu zapisów: ${zl(b12.first.median)} do 12 km, ${zl(b25.first.median)} na 13-25 km, ${zl(b45.first.median)} na 26-45 km, ${zl(b80.first.median)} na 46-80 km, ${zl(bUltra.first.median)} ponad 80 km. Ostatni próg jest droższy o ${pct(s.rise.median)}. Dane z ${s.regulaminy} regulaminów, do pobrania.`;
 export const metadata: Metadata = { title: TITLE, description: DESC, alternates: { canonical: PATH }, openGraph: { title: TITLE, description: DESC, url: PATH, type: "article" } };
 
 const A = "underline font-semibold text-[var(--moss)]";
@@ -34,7 +34,7 @@ export default function RaportCen() {
     [zl(b25.first.median), `Tyle wynosi mediana opłaty za start na 13-25 km w pierwszym progu zapisów (n=${b25.first.n}); w ostatnim progu to ${zl(b25.last.median)}.`],
     [`+${pct(s.rise.median)}`, `O tyle drożej płaci osoba, która zapisuje się w ostatnim progu zamiast w pierwszym (mediana, n=${s.rise.n}); w złotówkach to ${zl(s.riseZl.median)}.`],
     [`${Math.round(s.days.median)} dni`, `Na tyle dni przed startem kończy się najtańszy próg (mediana, n=${s.days.n}), czyli około ${months(s.days.median)} miesiąca przed biegiem.`],
-    [`${zlKm(b12.perKmFirst.median)} za km`, `Tyle w pierwszym progu kosztuje kilometr trasy do 12 km (mediana, n=${b12.perKmFirst.n}); w ultra ${zlKm(bUltra.perKmFirst.median)} (n=${bUltra.perKmFirst.n}), czyli ${kmRatio} raza mniej.`],
+    [`${zlKm(b12.perKmFirst.median)} za km`, `Tyle w pierwszym progu kosztuje kilometr trasy do 12 km (mediana, n=${b12.perKmFirst.n}); ponad 80 km ${zlKm(bUltra.perKmFirst.median)} (n=${bUltra.perKmFirst.n}), czyli ${kmRatio} raza mniej.`],
     [`+${pct(s.onsiteRise.median)}`, `O tyle droższa od pierwszego progu jest opłata w biurze zawodów tam, gdzie regulamin ją przewiduje (mediana, n=${s.onsiteRise.n}).`],
   ];
   const ld = [
@@ -46,7 +46,7 @@ export default function RaportCen() {
       <header className="max-w-[46rem]">
         <p className="step"><Link href="/raporty" className="underline">Raporty</Link> · dane z regulaminów · edycje {season}</p>
         <h1 className="text-[2.6rem] sm:text-[3.6rem] mt-1">Ile kosztuje bieg górski i trailowy w Polsce</h1>
-        <p className="mt-3 text-[1.1rem] leading-relaxed text-[#3d4d34]">Przeczytaliśmy {s.regulaminy} regulaminów biegów górskich i trailowych z edycji {season} i spisaliśmy z nich {s.n} cenników: opłatę za start indywidualny na każdej trasie, próg po progu. Próg to okres zapisów, w którym obowiązuje jedna cena; kolejne progi są zwykle droższe. Poniżej mediany dla czterech przedziałów dystansu, cena za kilometr i to, o ile drożej płaci się za późny zapis.</p>
+        <p className="mt-3 text-[1.1rem] leading-relaxed text-[#3d4d34]">Przeczytaliśmy {s.regulaminy} regulaminów biegów górskich i trailowych z edycji {season} i spisaliśmy z nich {s.n} cenników: opłatę za start indywidualny na każdej trasie, próg po progu. Próg to okres zapisów, w którym obowiązuje jedna cena; kolejne progi są zwykle droższe. Poniżej mediany dla pięciu przedziałów dystansu, cena za kilometr i to, o ile drożej płaci się za późny zapis.</p>
         <p className="mt-2 text-sm text-[var(--muted)]">Stan na {d(report.generatedAt)}. Kwoty brutto, tak jak w regulaminach. Przy każdej liczbie podajemy n, czyli liczbę cenników, z których jest policzona.</p>
       </header>
 
@@ -86,7 +86,7 @@ export default function RaportCen() {
         </section>
         <section className="entry">
           <p className="step">03 · Cena za kilometr</p>
-          <h2 className="text-[1.9rem] mt-1">Krótka trasa: {zlKm(b12.perKmFirst.median)} za km, ultra: {zlKm(bUltra.perKmFirst.median)}</h2>
+          <h2 className="text-[1.9rem] mt-1">Krótka trasa: {zlKm(b12.perKmFirst.median)} za km, ponad 80 km: {zlKm(bUltra.perKmFirst.median)}</h2>
           <p className="mt-3 leading-relaxed">Opłata rośnie wolniej niż dystans. W pierwszym progu kilometr kosztuje (mediana): {s.buckets.map((b) => `${zlKm(b.perKmFirst.median)} na trasach ${b.label} (n=${b.perKmFirst.n})`).join(", ")}. W ostatnim progu odpowiednio: {s.buckets.map((b) => zlKm(b.perKmLast.median)).join(", ")}.</p>
           <p className="mt-3 leading-relaxed">Stałe koszty organizacji (pomiar czasu, zabezpieczenie medyczne, biuro zawodów, pakiet) rozkładają się na mniej kilometrów, dlatego start na dychę wychodzi drożej w przeliczeniu na kilometr niż start na setkę. To nasza interpretacja, regulaminy nie podają struktury kosztów.</p>
         </section>
