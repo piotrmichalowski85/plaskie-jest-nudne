@@ -2,6 +2,12 @@
 
 > Dziennik "Co nowego" na stronie (`/zmiany`) pokazuje tylko zmiany w danych. Tu zapisujemy zmiany funkcji serwisu, po jednym wpisie na pozycję backlogu.
 
+## Raport cen (13.11.2026, gałąź `raport-cen`)
+
+- **Raport "Ile kosztuje bieg górski i trailowy w Polsce".** Strona `/raporty/ile-kosztuje-bieg-gorski` (plus lista `/raporty`): 5 liczb na górze, tabela czterech przedziałów dystansu (mediana i rozstęp pierwszego progu, mediana ostatniego progu, cena za km), rozwinięcia (koszt zwlekania, termin końca najtańszego progu, cena za km, województwa od 8 biegów, najtańsze i najdroższe starty z linkiem do regulaminu), sekcja "Jak liczyliśmy", zdanie o cytowaniu, CSV (`/raporty/ile-kosztuje-bieg-gorski/dane.csv`, jeden wiersz na cennik), dane strukturalne Article i Dataset, obrazek Open Graph z główną liczbą, link w stopce i w sitemapie.
+- **Zamrożony zbiór zamiast wyciągów automatu.** Raport nie czyta `data/regulamin_info.json`. Liczy się z `data/raport_ceny.json`: 220 cenników (bieg i dystans) z 55 regulaminów, każdy porównany z tekstem regulaminu, z adresem regulaminu, datą odczytu i dosłownym cytatem. `data/raport_ceny_weryfikacja.json` trzyma werdykty per regulamin (61 regulaminów, 908 wierszy automatu: 749 zgodnych, 20 błędnych, 139 poza zakresem), błędy automatu z "było -> jest" i cenniki odrzucone z powodem. Metoda i powtórka za rok: `scripts/raport_ceny/README.md`.
+- **Jedno źródło liczb.** `lib/raport-ceny.ts` liczy stronę, CSV, obrazek OG i wydruk `npx tsx scripts/raport_ceny.ts` (wzory w nagłówku skryptu). Województwo pokazujemy od 8 biegów; pasm nie liczymy (za mała próba); porównań rok do roku nie ma, bo nie ma zbioru z poprzedniego sezonu.
+
 ## Poprawki cenników i kalendarza (13.11.2026, gałąź `poprawki-cennikow`)
 
 Źródło: weryfikacja 61 regulaminów do raportu cen (gałąź `raport-cen`, `data/raport_ceny_weryfikacja.json`). Kolejność: najpierw zmiana, po której klasa błędu nie wraca, potem dane.

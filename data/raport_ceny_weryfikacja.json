@@ -1,0 +1,3190 @@
+{
+ "generatedAt": "2026-11-13",
+ "regulaminy": [
+  {
+   "sha": "cd6a3366865fe55f601f31f5e978298a3e5e1f10",
+   "url": "https://janosikraceseries.com/janosikultrarace/regulamin-zawodow/",
+   "event": "X edycja zawodów Ultrajanosik (Janosik Ultra Race) 2026",
+   "editionYear": 2026,
+   "races": [
+    "janosik-ultra-race-2026-09-12"
+   ],
+   "autoRows": 16,
+   "zgodne": 16,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 4,
+   "included": 4,
+   "notes": "Tabela opłat spłaszczona, ale jednoznaczna (4 kolumny terminów, 4 kwoty na trasę). Wiersze automatu bez daty (idx 3, 7, 11, 15) to opłata w biurze zawodów 11-12.09.2026: kwota zgodna, w cenniku oznaczona onsite=true. Między 7.09 a 10.09.2026 tabela nie podaje stawki. W opłatę wliczona opłata charytatywna 15 zł. Tekst zawiera menu całej serii Janosik Race Series (inne imprezy), ale regulamin i cennik dotyczą wyłącznie Janosik Ultra Race 12.09.2026."
+  },
+  {
+   "sha": "6c2f2680988b2fcd31e08c0907384b3988fe2f65",
+   "url": "https://tatraskymarathon.pl/regulamin/",
+   "event": "Tatrzański Festiwal Biegowy Tatra SkyMarathon",
+   "editionYear": 2027,
+   "races": [
+    "tatra-skymarathon-2027-07-24"
+   ],
+   "autoRows": 19,
+   "zgodne": 19,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 7,
+   "included": 3,
+   "notes": "Automat nie odnotował, że pierwszy próg (do 31.01.2027) dla wszystkich tras poza Tatra SkyMarathon jest dodatkowo ograniczony limitem 150 osób ('lub limitu 150 osób'); w cennikach ustawiono until i limitPlaces jednocześnie. Najwyższa kwota każdej trasy obowiązuje online od podanej daty oraz w biurze zawodów (onsite false). Tatra SkyMarathon wymaga kwalifikacji. Mini Tatra Sky (5 km, od 14 lat) ujęty z confidence srednia. Pole races w bazie podaje dystanse 9.5 / 22.2 / 45 km, regulamin: ok. 10 / ok. 22 / ok. 45,4 km oraz dodatkowo Orava Marathon 40 km, Orava 80, Orava 120 i Mini Tatra Sky 5 km. Opłaty dodatkowe (transport, posiłek) pominięte."
+  },
+  {
+   "sha": "f52c35c86b4cc731f4bec62c485a32b91b622bf6",
+   "url": "https://dfbg.pl/images/docs/Regulamin%2015-%20DFBG.pdf",
+   "event": "15. Dolnośląski Festiwal Biegów Górskich (DFBG)",
+   "editionYear": 2027,
+   "races": [
+    "dolnoslaski-festiwal-biegow-gorskich-dfbg-2027-07-15"
+   ],
+   "autoRows": 24,
+   "zgodne": 24,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [
+    "Golden Mountains Trail 33 km: brak całego cennika: 225 zł do 31.01.2027, 245 zł do 31.03.2027, 275 zł do 15.06.2027, 300 zł po 15.06.2027",
+    "Złoty Półmaraton 21 km: brak całego cennika: 200 zł do 31.01.2027, 225 zł do 31.03.2027, 250 zł do 15.06.2027, 275 zł po 15.06.2027",
+    "Nocny Trail 15 km: brak całego cennika: 165 zł do 31.01.2027, 190 zł do 31.03.2027, 215 zł do 15.06.2027, 240 zł po 15.06.2027",
+    "Trojak Trail 10 km: brak całego cennika: 105 zł do 31.01.2027, 115 zł do 31.03.2027, 125 zł do 15.06.2027, 135 zł po 15.06.2027"
+   ],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 10,
+   "included": 10,
+   "notes": "Regulamin edycji 2027 (15-18.07.2027), zgodny z biegiem z pola races. Automat wyciągnął poprawnie 6 najdłuższych tras (24 wiersze), ale urwał tabelę: brak 4 krótszych tras (33, 21, 15, 10 km), czyli 16 progów. Ostatni próg 'po 15.06.2027' bez daty końcowej; zapisy online trwają do 13.07.2027 godz. 12:00. Długości tras 240, 170, 130, 110 i 10 km podane w regulaminie jako 'ok.'. Dni startu poszczególnych tras wzięte z § 2 (15, 16, 17 i 18 lipca 2027). Kwoty w PLN, regulamin nie precyzuje netto/brutto."
+  },
+  {
+   "sha": "1b320d0f95da8cf5c295d2b5d0b53feea90c46d7",
+   "url": "https://ultrarace.pl/gdansk/regulamin-gdansk/",
+   "event": "Garmin Ultra Race Gdańsk 2026",
+   "editionYear": 2026,
+   "races": [
+    "garmin-ultra-race-gdansk-2026-12-04"
+   ],
+   "autoRows": 24,
+   "zgodne": 24,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [
+    "6 km: brak progu 5: 140 zł do 04.12.2026",
+    "101/53/27/12 km: ostatni próg ma w tekście datę końcową 05.12.2026 (automat zostawił bez daty)"
+   ],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 5,
+   "included": 4,
+   "notes": "Tekst dotyczy edycji 2026 (start 04-05.12.2026); nagłówek strony z 'Dystans: 78 km 48 km 27 km 13 km 03/05/2025' i stopka z datami 2025 to elementy nawigacji serwisu, nie regulaminu. Wszystkie progi liczone wg daty zaksięgowania opłaty. Przy płatności online przez Przelewy24 organizator dolicza prowizję 2,5% (przelew tradycyjny bez prowizji); kwoty w cenniku bez tej prowizji. W cenniku 27 km literówka w źródle: '1150,00 PLN' zamiast 150 zł (pierwszy próg), przyjęto 150 zł z confidence srednia. Automat pominął ostatni (piąty) próg dla 6 km: 140 zł do 04.12.2026. Limity uczestników per dystans (300 osób na 101 km, 500 na 53 km itd.) nie wpływają na ceny."
+  },
+  {
+   "sha": "36440c7e74647131a904b3c6bc8ae265d77af81d",
+   "url": "https://ultrarace.pl/radkow/regulamin-radkow/",
+   "event": "Garmin Ultra Race Radków 2026",
+   "editionYear": 2026,
+   "races": [
+    "garmin-ultra-race-radkow-2026-09-11"
+   ],
+   "autoRows": 20,
+   "zgodne": 16,
+   "bledne": 4,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [
+    {
+     "idx": 4,
+     "row": {
+      "idx": 4,
+      "km": 78,
+      "pln": 370
+     },
+     "problem": "kwota i dystans dobre, błąd tylko w terminie ostatniego progu: było 78 km 370 zł bez terminu -> jest 370 zł do 2026-09-11",
+     "quote": "340,00 PLN płatne do 01.09.2026370,00 PLN płatne do 11.09.2026"
+    },
+    {
+     "idx": 9,
+     "row": {
+      "idx": 9,
+      "km": 57,
+      "pln": 290
+     },
+     "problem": "kwota i dystans dobre, błąd tylko w terminie ostatniego progu: było 57 km 290 zł bez terminu -> jest 290 zł do 2026-09-12",
+     "quote": "260,00 PLN płatne do 01.09.2026290,00 PLN płatne do 12.09.2026"
+    },
+    {
+     "idx": 14,
+     "row": {
+      "idx": 14,
+      "km": 24,
+      "pln": 240
+     },
+     "problem": "kwota i dystans dobre, błąd tylko w terminie ostatniego progu: było 24 km 240 zł bez terminu -> jest 240 zł do 2026-09-13",
+     "quote": "210,00 PLN płatne do 01.09.2026240,00 PLN płatne do 13.09.2026"
+    },
+    {
+     "idx": 19,
+     "row": {
+      "idx": 19,
+      "km": 11,
+      "pln": 160
+     },
+     "problem": "kwota i dystans dobre, błąd tylko w terminie ostatniego progu: było 11 km 160 zł bez terminu -> jest 160 zł do 2026-09-13",
+     "quote": "150,00 PLN płatne do 01.09.2026160,00 PLN płatne do 13.09.2026"
+    }
+   ],
+   "outOfScope": [],
+   "pricelists": 4,
+   "included": 4,
+   "notes": "Tekst dotyczy edycji 2026 (11-13.09.2026), zgodnie z polem races. Regulamin podaje dystanse 78, 57, 24 i 11 km (kalendarz ma 79, 59, 25, 11 i 163 km; dla 163 km, czyli prawdopodobnie Challenge 158K z osobnym regulaminem, w tym tekście nie ma żadnej opłaty). W nagłówku i stopce strony są resztki szablonu z innymi dystansami i datami ('Dystans: 78 km 48 km 27 km 13 km 03/05/2025', 'radków Start: 12-14/09/2025 Dystans: 80 km 56 km 24 km 11 km'), nie należą do regulaminu. Przy płatności online przez Przelewy24 doliczana jest prowizja 2,5% wartości transakcji (przelew tradycyjny bez prowizji); kwoty w cenniku są bez tej prowizji. O wysokości opłaty decyduje data zaksięgowania. 4 wiersze automatu oznaczone jako bledne różnią się wyłącznie brakiem daty końcowej ostatniego progu (kwoty i dystanse są dobre)."
+  },
+  {
+   "sha": "4ad547306ddd536467b24affdac8fc04f2b3a063",
+   "url": "https://ultrawysoczyzna.pl/regulamin/",
+   "event": "Meble Wójcik ULTRA WYSOCZYZNA 2027",
+   "editionYear": 2027,
+   "races": [
+    "meble-wojcik-ultra-wysoczyzna-2027-2027-04-16"
+   ],
+   "autoRows": 24,
+   "zgodne": 24,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [
+    "6 km (Huk sowy): brak progu 5: 95 zł płatne do 16.04.2027"
+   ],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 5,
+   "included": 5,
+   "notes": "Regulamin edycji 2027 (16-18.04.2027), pięć dystansów, każdy z pięcioma progami datowanymi (decyduje data zaksięgowania). Ostatnie progi mają w tekście datę końcową równą dniowi startu danego dystansu; automat zapisał je bez daty (uznane za zgodne, bo to próg końcowy). Automat zgubił ostatni próg dla 6 km (95 zł). Przy płatności online przez Przelewy24 doliczana jest prowizja 2,5% wartości transakcji (przy przelewie tradycyjnym brak); kwoty w cenniku bez prowizji. Tekst nie wspomina o płatności w biurze zawodów."
+  },
+  {
+   "sha": "ae05e3ab6614fb94e76d310efb8e310f4b2e1372",
+   "url": "https://sztafetagorska.pl/wp-content/uploads/2026/10/KSG2027_Regulamin.docx.pdf",
+   "event": "10. Kudowska Sztafeta Górska",
+   "editionYear": 2027,
+   "races": [
+    "kudowska-sztafeta-gorska-2027-04-10"
+   ],
+   "autoRows": 16,
+   "zgodne": 12,
+   "bledne": 0,
+   "poza_zakresem": 4,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [
+    {
+     "idx": 0,
+     "row": {
+      "idx": 0,
+      "km": 75,
+      "pln": 540,
+      "until": "2026-11-03",
+      "label": "Sztafeta 3x25 km"
+     },
+     "category": "sztafeta_druzyna",
+     "problem": "540 zł to opłata za Zespół w sztafecie 3x25 km, nie start indywidualny"
+    },
+    {
+     "idx": 1,
+     "row": {
+      "idx": 1,
+      "km": 75,
+      "pln": 595,
+      "until": "2027-03-01",
+      "label": "Sztafeta 3x25 km"
+     },
+     "category": "sztafeta_druzyna",
+     "problem": "595 zł to opłata za Zespół w sztafecie 3x25 km, nie start indywidualny"
+    },
+    {
+     "idx": 2,
+     "row": {
+      "idx": 2,
+      "km": 75,
+      "pln": 660,
+      "label": "Sztafeta 3x25 km"
+     },
+     "category": "sztafeta_druzyna",
+     "problem": "660 zł to opłata za Zespół w sztafecie 3x25 km, nie start indywidualny"
+    },
+    {
+     "idx": 15,
+     "row": {
+      "idx": 15,
+      "pln": 30
+     },
+     "category": "dzieci",
+     "problem": "30 zł bez dystansu to opłata za Kids Trail (biegi dzieci 100-400 m); ta sama kwota pada też jako opłata za wysyłkę koszulki"
+    }
+   ],
+   "pricelists": 4,
+   "included": 4,
+   "notes": "Regulamin 10. edycji, 10-11.04.2027. Jedna spłaszczona linia nagłówka z trzema terminami (do 3.11.2026 / 4.11.2026-1.03.2027 / po 1.03.2027) i wiersze z trzema kwotami na bieg, przypisanie jednoznaczne. Uwaga dla liczącego raport: automat wpisał sztafetę 3x25 km (540/595/660 zł za zespół) jako dystans 75 km, obok właściwego biegu SOLO 75 km; wiersze sztafety trzeba wyłączyć. Zapis w Biurze Zawodów możliwy przy wolnych miejscach, bez osobnej kwoty w tekście."
+  },
+  {
+   "sha": "975423eb51ef9adf53f079b69165e839d5c94792",
+   "url": "http://perlymalopolski.pl/regulamin-rabka-zdroj-2024/",
+   "event": "Perły Małopolski 2026, sezon XIV, Rabka-Zdrój, Gorce",
+   "editionYear": 2026,
+   "races": [
+    "perly-malopolski-2026-12-13"
+   ],
+   "autoRows": 12,
+   "zgodne": 12,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 3,
+   "included": 0,
+   "notes": "Adres URL ma w nazwie 'rabka-zdroj-2024', ale treść to regulamin edycji 2026 (zawody 13 grudnia 2026), zgodny z polem races. Wszystkie 12 wierszy automatu zgadza się z cennikiem. Uwaga na sprzeczność w samym regulaminie: cennik podaje od 7 grudnia 175/165/140 zł, a akapit o rabatach mówi, że po 7 grudnia opłata wynosi 'odpowiednio od dystansu: 159 zł, 149 zł, 139 zł'. Z tego powodu confidence srednia (dotyczy tylko ostatniego progu; trzy wcześniejsze progi są jednoznaczne). Zawodów dla dzieci (wymienionych w nazwie w kalendarzu) ten tekst nie opisuje i nie podaje dla nich opłat. Zapisy w dniu zawodów możliwe tylko przy wolnych miejscach, opłata gotówką; tekst nie podaje osobnej kwoty dla biura."
+  },
+  {
+   "sha": "8b5a2b92d41b28f90c965665db256eecbf39334b",
+   "url": "https://gorceultratrail.pl/assets/files/GUT-2026-regulamin.pdf",
+   "event": "XI Festiwal Biegów Górskich Gorce Ultra-Trail",
+   "editionYear": 2026,
+   "races": [
+    "gorce-ultra-trail-2027-07-30",
+    "gorce-ultra-trail-2027-08-01"
+   ],
+   "autoRows": 24,
+   "zgodne": 24,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [
+    "GUT 5 (ok. 5,5 km): brak całego cennika: 70 zł do 31.01.2026, 85 zł do 10.05.2026, 100 zł do 15.07.2026, 120 zł w okresie 16.07-3.08.2026 (w biurze zawodów)",
+    "Wszystkie dystanse: ostatni próg (IV stawka) ma w tekście okres 16.07-3.08.2026 i dotyczy rejestracji w biurze zawodów (automat bez daty i bez oznaczenia)"
+   ],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 7,
+   "included": 7,
+   "notes": "INNA EDYCJA: tekst to regulamin XI edycji 2026 (31.07-2.08.2026), a biegi w polu races mają daty 2027-07-30 i 2027-08-01. Kwoty i terminy poniżej dotyczą edycji 2026 (zakończonej), nie 2027. Automat (autoYear 2026) wyciągnął kwoty zgodnie z tekstem, ale pominął cały cennik GUT 5. Tabela opłat w PDF jest spłaszczona, lecz jednoznaczna: 4 kolumny stawek i 7 wierszy dystansów, po 4 kwoty na wiersz. Pierwsza stawka w nagłówku tabeli zaczyna się 4.12.2025, a nagłówek dokumentu podaje start zapisów 18.12.2025 (rozbieżność w źródle, bez wpływu na progi). Wg pkt 9.3 zapisy on-line działają do 15 lipca 2026, potem rejestracja w biurze zawodów w miarę miejsc, dlatego IV stawkę oznaczono onsite: true (data końcowa 3.08.2026 wzięta z nagłówka tabeli). Długości tras wg pkt 5.1: GUT 66 to ok. 67 km, GUT 12 to ok. 11 km, GUT 5 to ok. 5,5 km. Regulamin mówi o 'ośmiu dystansach', a wymienia siedem."
+  },
+  {
+   "sha": "eaebaacf6c4e1c99e70de2d62f680ba8a725337e",
+   "url": "https://chudywawrzyniec.pl/regulamin-biegow-gorskich-chudy-wawrzyniec-2026/",
+   "event": "Chudy Wawrzyniec 2026 (Chudy Wawrzyniec 50/80/100 km, Parszywa Bendoszka, Mała Rycerzowa, Muńcuł Vertical)",
+   "editionYear": 2026,
+   "races": [
+    "chudy-wawrzyniec-50-2027-08-07"
+   ],
+   "autoRows": 22,
+   "zgodne": 22,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 6,
+   "included": 5,
+   "notes": "INNA EDYCJA: tekst dotyczy edycji 2026 (7-9 sierpnia 2026), a bieg z pola races to edycja 2027 (dateStart 2027-08-07). Cennik jest więc cennikiem roku 2026 (progi od grudnia 2025 do sierpnia 2026); nie wolno go przypisać do edycji 2027. Wiersze automatu oceniono względem tekstu: wszystkie 22 zgadzają się z regulaminem 2026 (automat sam oznaczył rok 2026). Chudy Wawrzyniec 50/80/100 km ma jedną wspólną opłatę i wspólny limit 1000 osób, dystans wybiera się w trakcie biegu; w wyniku rozpisano ją na trzy cenniki z tymi samymi progami, przy liczeniu średnich to jedna opłata, nie trzy. Ostatnie progi obowiązują od podanej daty online i także w biurze zawodów (onsite: false). Kwoty z groszami (x,99 zł). Regulamin wspomina o fakturze VAT na życzenie i o VAT 8% przy pakiecie charytatywnym; kwoty są cenami dla uczestnika."
+  },
+  {
+   "sha": "e031cc3851c4da7ab2978c441d6f5795546a41fd",
+   "url": "https://www.maratongorstolowych.pl/wp-content/uploads/2026/09/ZPGS27_regulamin.docx.pdf",
+   "event": "XIII Zimowy Półmaraton Gór Stołowych (ZPGS)",
+   "editionYear": 2027,
+   "races": [
+    "zimowy-polmaraton-gor-stolowych-2027-01-16"
+   ],
+   "autoRows": 6,
+   "zgodne": 6,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 2,
+   "included": 2,
+   "notes": "Kwoty i dystanse automatu zgodne z tekstem. Automat nie zapisał jednak, że progi są ilościowe, a nie terminowe: 21 km po 150 pakietów na próg, 31 km po 80 pakietów na próg (w cennikach limitPlaces). Brak dat progów w tekście; regulamin podaje tylko termin wpłaty 14.01.2027 jako graniczny dla gwarancji udziału. Tytuł dokumentu ma literówkę 'XIIII', w treści 'XIII'. Uczestnik musi być pełnoletni."
+  },
+  {
+   "sha": "fc776a2de69b423c26bb985aa4d1c83b8d43c70d",
+   "url": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-TWT-2027.pdf",
+   "event": "Turbacz Winter Trail 2027",
+   "editionYear": 2027,
+   "races": [
+    "turbacz-winter-trail-2027-02-13"
+   ],
+   "autoRows": 24,
+   "zgodne": 16,
+   "bledne": 0,
+   "poza_zakresem": 8,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [
+    {
+     "idx": 8,
+     "row": {
+      "idx": 8,
+      "km": 22.25,
+      "pln": 219,
+      "until": "2026-10-28",
+      "label": "TWT na 6 Łap"
+     },
+     "category": "pies",
+     "problem": "TWT na 6 Łap to bieg z psem (formuła 'dla miłośników biegania z psami')."
+    },
+    {
+     "idx": 9,
+     "row": {
+      "idx": 9,
+      "km": 22.25,
+      "pln": 239,
+      "until": "2026-11-30",
+      "label": "TWT na 6 Łap"
+     },
+     "category": "pies",
+     "problem": "TWT na 6 Łap to bieg z psem."
+    },
+    {
+     "idx": 10,
+     "row": {
+      "idx": 10,
+      "km": 22.25,
+      "pln": 259,
+      "until": "2027-01-07",
+      "label": "TWT na 6 Łap"
+     },
+     "category": "pies",
+     "problem": "TWT na 6 Łap to bieg z psem."
+    },
+    {
+     "idx": 11,
+     "row": {
+      "idx": 11,
+      "km": 22.25,
+      "pln": 279,
+      "until": "2027-02-08",
+      "label": "TWT na 6 Łap"
+     },
+     "category": "pies",
+     "problem": "TWT na 6 Łap to bieg z psem."
+    },
+    {
+     "idx": 16,
+     "row": {
+      "idx": 16,
+      "km": 6.3,
+      "pln": 199,
+      "until": "2026-10-28",
+      "label": "bieg dla par"
+     },
+     "category": "para",
+     "problem": "Turbaczowe Love - bieg dla par: kwota 199 zł jest ceną za parę."
+    },
+    {
+     "idx": 17,
+     "row": {
+      "idx": 17,
+      "km": 6.3,
+      "pln": 219,
+      "until": "2026-11-30",
+      "label": "bieg dla par"
+     },
+     "category": "para",
+     "problem": "Bieg dla par: 219 zł za parę."
+    },
+    {
+     "idx": 18,
+     "row": {
+      "idx": 18,
+      "km": 6.3,
+      "pln": 239,
+      "until": "2027-01-07",
+      "label": "bieg dla par"
+     },
+     "category": "para",
+     "problem": "Bieg dla par: 239 zł za parę."
+    },
+    {
+     "idx": 19,
+     "row": {
+      "idx": 19,
+      "km": 6.3,
+      "pln": 259,
+      "until": "2027-02-08",
+      "label": "bieg dla par"
+     },
+     "category": "para",
+     "problem": "Bieg dla par: 259 zł za parę."
+    }
+   ],
+   "pricelists": 4,
+   "included": 4,
+   "notes": "Tabela opłat jednoznaczna: 4 okresy wpłat (16.09-28.10.2026, 29.10-30.11.2026, 01.12.2026-07.01.2027, 08.01-08.02.2027), pełne daty z rokiem w tekście. Zapisy wyłącznie online do 08.02.2027, brak opłaty w biurze zawodów. Kwoty automatu zgodne co do złotówki; 8 wierszy dotyczy wariantów poza raportem (bieg z psem, bieg dla par z ceną za parę). Formuła 'Zimna Połówka Bez Barier' nie ma osobnej stawki w tabeli (obowiązuje zniżka 40%). Turbaczowe Love startuje 14.02.2027, pozostałe dystanse 13.02.2027."
+  },
+  {
+   "sha": "5a4b4fe707ceed557e7cf51cbd0d528653c402f6",
+   "url": "https://3xkopa.pl/regulamin/",
+   "event": "Festiwal 3xKopa (Stowarzyszenie Bieg Opolski)",
+   "editionYear": 2026,
+   "races": [
+    "festiwal-biegow-gorskich-3xkopa-2026-04-24"
+   ],
+   "autoRows": 24,
+   "zgodne": 24,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 6,
+   "included": 6,
+   "notes": "Edycja 2026 (24-26 kwietnia 2026), zgodna z polem races. Tabela opłat spłaszczona, ale jednoznaczna: 4 kolumny (do 14.02.2026; 15.02-31.03.2026; 01.04-24.04.2026; w biurze zawodów) i 6 wierszy tras po 4 kwoty. W tekście kwoty zapisane z literami 'oo' zamiast zer (np. '40,oo zł'). Długości tras wg regulaminu: Maraton Opawski 42 km, Petrovicka Setka 100 km (nazwa imprezy w kalendarzu podaje 44 km i 104 km, ale regulamin mówi 42 i 100). Zgłoszenia w biurze zawodów możliwe tylko przy niewyczerpanym limicie 1000 osób łącznie. Z każdej opłaty 3 zł idzie na los charytatywny; zakup losu jest dobrowolny i uczestnik może pomniejszyć opłatę o 3 zł (nie uwzględniono w kwotach). Przy płatności przez system szybkich płatności prowizja 3,5% dotyczy tylko rozliczeń zwrotów, nie jest dopłatą do opłaty startowej."
+  },
+  {
+   "sha": "b84ea3d8fd24a2d538ca1e0d8fb1ae9fdb4d4215",
+   "url": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-Podhalanski-Bieg-Mikolajkowy-2026.pdf",
+   "event": "Podhalański Bieg Mikołajkowy 2026",
+   "editionYear": 2026,
+   "races": [
+    "turbacz-trail-2026-12-06"
+   ],
+   "autoRows": 6,
+   "zgodne": 6,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 3,
+   "included": 2,
+   "notes": "Tekst dotyczy edycji 2026 (06.12.2026), zgodnie z polem races. Cennik to spłaszczona tabela z dwoma terminami wpłaty: 30.08-05.11.2026 oraz 06.11-02.12.2026; rok 2026 stoi w tekście przy obu przedziałach. Wiersze automatu 4 i 5 (1 km, 59 i 69 zł) zgadzają się z ceną dla dorosłych w biegu rodzinnym 'Rodzinne Mikołajki'; to bieg rekreacyjny bez pomiaru czasu i bez limitu wieku, więc do decyzji osoby liczącej raport, czy go wliczać (rekomendacja: nie wliczać do ceny za km). W cenie pakietu jest bilet do Centrum Przyrodniczo-Edukacyjnego Brama w Gorce 'o wartości 70zł'. Zapisy online do 02.12.2026; zakup pakietu w biurze zawodów możliwy przy wolnych miejscach, bez podanej kwoty."
+  },
+  {
+   "sha": "4593676369a71cd6d08c050f664ee91a53efa7fe",
+   "url": "https://sisxyz.pl/wp-content/uploads/2026/07/REGULAMIN_ZADEK_v1.2027.pdf",
+   "event": "Ultra ZADEK Festiwal Biegowy (UZFB 2027)",
+   "editionYear": 2027,
+   "races": [
+    "ultra-zadek-festiwal-biegowy-2026-03-07",
+    "ultra-zadek-festiwal-biegowy-2027-03-06"
+   ],
+   "autoRows": 20,
+   "zgodne": 20,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 4,
+   "included": 4,
+   "notes": "Tekst dotyczy edycji 2027 (termin 06.03.2027); pole races zawiera też bieg z 2026-03-07, którego ten regulamin NIE dotyczy (cennik przypisywać tylko do edycji 2027). Cztery dystanse, po pięć progów: cztery online z datami i piąty płatny wyłącznie w dniu biegu w biurze zawodów (onsite), o ile zostaną miejsca. Między 10.02.2027 a dniem biegu nie ma płatności online. Opłata jest per dystans, bez rozróżnienia bieg / Nordic Walking / canicross. Trasa 100 km w paragrafie o trasach ma 'około 101 km'."
+  },
+  {
+   "sha": "a3cfa6d30a0c9b7c9dc93bb245425062cf47ac1a",
+   "url": "http://ultra-way.pl/letni-festiwal-biegowy-ultra-way/regulamin/",
+   "event": "GDYNIA ULTRA WAY SUMMER RACE 2027",
+   "editionYear": 2027,
+   "races": [
+    "gdynia-ultra-way-summer-race-2026-06-26",
+    "gdynia-ultra-way-summer-race-2027-06-25"
+   ],
+   "autoRows": 24,
+   "zgodne": 18,
+   "bledne": 0,
+   "poza_zakresem": 6,
+   "brak_w_tekscie": 0,
+   "missing": [
+    "NADMORSKI MENDEL 10 km+ (10,1 km): brak całego cennika: 100 zł do 31.08.2026, 130 zł do 31.10.2026, 160 zł do 04.01.2027, 190 zł do 31.03.2027, 210 zł do 14.06.2027, 240 zł w biurze zawodów",
+    "TRAIL SPRINT 5 km+ (5,4 km): brak całego cennika: 60 zł do 31.08.2026, 80 zł do 31.10.2026, 100 zł do 04.01.2027, 120 zł do 31.03.2027, 140 zł do 14.06.2027, 160 zł w biurze zawodów"
+   ],
+   "errors": [],
+   "outOfScope": [
+    {
+     "idx": 6,
+     "row": {
+      "idx": 6,
+      "km": 60.6,
+      "pln": 420,
+      "until": "2026-08-31"
+     },
+     "category": "para",
+     "problem": "RAZEM PO ZMROKU 60 km+ to bieg w parach, kwota 420 PLN jest za parę"
+    },
+    {
+     "idx": 7,
+     "row": {
+      "idx": 7,
+      "km": 60.6,
+      "pln": 500,
+      "until": "2026-10-31"
+     },
+     "category": "para",
+     "problem": "RAZEM PO ZMROKU 60 km+ to bieg w parach, kwota 500 PLN jest za parę"
+    },
+    {
+     "idx": 8,
+     "row": {
+      "idx": 8,
+      "km": 60.6,
+      "pln": 580,
+      "until": "2027-01-04"
+     },
+     "category": "para",
+     "problem": "RAZEM PO ZMROKU 60 km+ to bieg w parach, kwota 580 PLN jest za parę"
+    },
+    {
+     "idx": 9,
+     "row": {
+      "idx": 9,
+      "km": 60.6,
+      "pln": 660,
+      "until": "2027-03-31"
+     },
+     "category": "para",
+     "problem": "RAZEM PO ZMROKU 60 km+ to bieg w parach, kwota 660 PLN jest za parę"
+    },
+    {
+     "idx": 10,
+     "row": {
+      "idx": 10,
+      "km": 60.6,
+      "pln": 740,
+      "until": "2027-06-14"
+     },
+     "category": "para",
+     "problem": "RAZEM PO ZMROKU 60 km+ to bieg w parach, kwota 740 PLN jest za parę"
+    },
+    {
+     "idx": 11,
+     "row": {
+      "idx": 11,
+      "km": 60.6,
+      "pln": 810
+     },
+     "category": "para",
+     "problem": "RAZEM PO ZMROKU 60 km+ to bieg w parach, kwota 810 PLN jest za parę (rejestracja w biurze zawodów)"
+    }
+   ],
+   "pricelists": 5,
+   "included": 5,
+   "notes": "Tekst to regulamin edycji 2027 (25-26.06.2027). W polu races są dwa biegi: edycja 2026 (26.06.2026, inne trasy: 160/100/50/27/14 km) i edycja 2027; cennik dotyczy WYŁĄCZNIE edycji 2027 i nie wolno go przypisać do edycji 2026. Automat potraktował bieg w parach RAZEM PO ZMROKU 60 km+ jako start indywidualny (6 wierszy z ceną za parę, 420-810 PLN) i pominął dwa najkrótsze biegi (10 i 5 km, 12 progów). Ostatni próg każdego cennika to 'Rejestracja w BIURZE ZAWODÓW' (onsite: true); formularz online zamykany 14.06.2027, w biurze bez gwarancji pełnego pakietu i medalu. O wysokości wpisowego decyduje data zaksięgowania opłaty. Kwoty w PLN."
+  },
+  {
+   "sha": "ee0fed644671c3a639074b01fc1de4a9d5e79c5f",
+   "url": "https://pomeraniatrail.pl/wp-content/uploads/2025/11/REGULAMIN-COCONAUT-POMERANIA-ULTRA-TRAIL-2026.pdf",
+   "event": "Pomerania Ultra Trail powered by Coconaut",
+   "editionYear": 2026,
+   "races": [
+    "coconaut-pomerania-ultra-trail-2026-10-17"
+   ],
+   "autoRows": 20,
+   "zgodne": 20,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 5,
+   "included": 5,
+   "notes": "Wszystkie wiersze automatu zgodne z tekstem. Ostatni próg każdego dystansu (350 / 300 / 250 / 200 / 150 zł) to opłata 'Płatne w dniu startu - tylko w razie dostępności miejsc', czyli onsite true; automat zapisał ją bez tej informacji. Do każdej opłaty PayU pobiera dodatkowo 2% wpłacanej kwoty (kwoty w cenniku bez tej prowizji). W pkt 5.4 regulamin podaje 'Zgłoszenia internetowe są możliwe do 03.10.2025 godz. 12:00', co jest pozostałością po poprzedniej edycji i kłóci się z progiem 'Do 13 października 2026'; przyjęto daty z cennika. Pole races podaje też dystans 1 km: to bieg dzieci Pomerania Junior (1000 m), bez kwoty w tekście. Warianty Nordic Walking na 11 i 21 km nie mają osobnej ceny."
+  },
+  {
+   "sha": "90fe051e8bef53b821708d8e57ea0b96995744c8",
+   "url": "https://xrun.pl/regulamin/",
+   "event": "XRUN 2027 (cykl sześciu imprez; bieg z pola races: Tajemnicze Kopce, Dobczyce)",
+   "editionYear": 2027,
+   "races": [
+    "x-run-2027-03-07"
+   ],
+   "autoRows": 40,
+   "zgodne": 32,
+   "bledne": 0,
+   "poza_zakresem": 8,
+   "brak_w_tekscie": 0,
+   "missing": [
+    "Wyspowy Trail 16.05.2027: Classic 38 km 160/190/230/260 zł, Intro 22 km 150/170/180/210 zł, Start 60/70/80/100 zł (automat urwał się po Long 50 km)",
+    "Mercure Szczyrk Run 20.06.2027: Long 45 km 190/230/270/310 zł, Classic 25 km 160/190/230/260 zł, Intro 15 km 150/170/180/210 zł, Start 7 km 60/70/80/100 zł (progi do 31/12/2026, 30/01, 30/04, 20/06/2027)",
+    "Ucieczka św. Kingi 25.07.2027: Long 40 km 190/230/270/310 zł, Classic 28 km 160/190/230/260 zł, Intro 14 km 150/170/180/210 zł (progi do 31/12/2026, 30/01, 30/06, 25/07/2027)",
+    "Vistula Trail 12.09.2027: Long 40 km 190/230/270/310 zł, Classic 26 km 160/190/230/260 zł, Intro 16 km 150/170/180/210 zł, Start 4 km 60/70/80/100 zł (progi do 31/12/2026, 30/01, 31/07, 12/09/2027)"
+   ],
+   "errors": [],
+   "outOfScope": [
+    {
+     "idx": 12,
+     "row": {
+      "idx": 12,
+      "km": 6,
+      "pln": 60,
+      "until": "2026-12-31",
+      "label": "Tajemnicze Kopce"
+     },
+     "category": "dzieci",
+     "problem": "W tabeli Tajemniczych Kopców te kwoty stoją w wierszu 'Kids 6 km' (biegi dzieci); wiersz 'Start' dla tej imprezy jest pusty. Etykieta budzi wątpliwość (Kids mają 150-1000 m), ale tekst nie daje podstaw, żeby przypisać kwoty do biegu dorosłych."
+    },
+    {
+     "idx": 13,
+     "row": {
+      "idx": 13,
+      "km": 6,
+      "pln": 70,
+      "until": "2027-01-31",
+      "label": "Tajemnicze Kopce"
+     },
+     "category": "dzieci",
+     "problem": "Wiersz 'Kids 6 km' Tajemniczych Kopców (jak idx 12)."
+    },
+    {
+     "idx": 14,
+     "row": {
+      "idx": 14,
+      "km": 6,
+      "pln": 80,
+      "until": "2027-02-14",
+      "label": "Tajemnicze Kopce"
+     },
+     "category": "dzieci",
+     "problem": "Wiersz 'Kids 6 km' Tajemniczych Kopców (jak idx 12)."
+    },
+    {
+     "idx": 15,
+     "row": {
+      "idx": 15,
+      "km": 6,
+      "pln": 100,
+      "until": "2027-03-07",
+      "label": "Tajemnicze Kopce"
+     },
+     "category": "dzieci",
+     "problem": "Wiersz 'Kids 6 km' Tajemniczych Kopców (jak idx 12)."
+    },
+    {
+     "idx": 28,
+     "row": {
+      "idx": 28,
+      "km": 6,
+      "pln": 60,
+      "until": "2026-12-31",
+      "label": "Muszyna Trail"
+     },
+     "category": "dzieci",
+     "problem": "Wiersz 'Kids 6 km' Muszyna Trail (próg 70 zł do 30/01/2027); biegi dzieci."
+    },
+    {
+     "idx": 29,
+     "row": {
+      "idx": 29,
+      "km": 6,
+      "pln": 70,
+      "until": "2027-01-30",
+      "label": "Muszyna Trail"
+     },
+     "category": "dzieci",
+     "problem": "Wiersz 'Kids 6 km' Muszyna Trail; biegi dzieci."
+    },
+    {
+     "idx": 30,
+     "row": {
+      "idx": 30,
+      "km": 6,
+      "pln": 80,
+      "until": "2027-02-28",
+      "label": "Muszyna Trail"
+     },
+     "category": "dzieci",
+     "problem": "Wiersz 'Kids 6 km' Muszyna Trail; biegi dzieci."
+    },
+    {
+     "idx": 31,
+     "row": {
+      "idx": 31,
+      "km": 6,
+      "pln": 100,
+      "until": "2027-04-11",
+      "label": "Muszyna Trail"
+     },
+     "category": "dzieci",
+     "problem": "Wiersz 'Kids 6 km' Muszyna Trail; biegi dzieci."
+    }
+   ],
+   "pricelists": 22,
+   "included": 20,
+   "notes": "JEDEN REGULAMIN DLA SZEŚCIU IMPREZ cyklu XRUN 2027. Pole races wskazuje tylko Tajemnicze Kopce (07.03.2027): jego cenniki to pierwsze trzy pozycje (Long 32 km, Classic 21 km, Intro 14 km). Pozostałe cenniki dotyczą innych imprez cyklu (Muszyna Trail, Wyspowy Trail, Mercure Szczyrk Run, Ucieczka św. Kingi, Vistula Trail) i są oznaczone w note; nie wolno ich przypisywać do Tajemniczych Kopców. Wiersze automatu 16-39 mają kwoty zgodne z tekstem, ale dotyczą Muszyna Trail i Wyspowy Trail. Tabela opłat jest niespójna z harmonogramem: (1) Tajemnicze Kopce: harmonogram wymienia Start Trail 5 km, a w tabeli wiersz 'Start' jest pusty, za to jest wiersz 'Kids 6 km' z kwotami 60/70/80/100 zł; biegi Kids mają 150-1000 m, więc możliwe, że to pomyłka w etykiecie, ale tekst tego nie rozstrzyga, dlatego cennika Start dla Tajemniczych Kopców nie spisano (dystans 6 km z pola races nie ma potwierdzenia jako bieg dorosłych). To samo przy Ucieczce św. Kingi (wiersz 'Kids 7 km', wiersz 'Start' pusty, harmonogram: Start Trail 7 km). (2) Rozbieżne długości tras między tabelą opłat a harmonogramem: Muszyna Long 42 vs 43 km, Szczyrk Start 7 vs 5 km, Kinga Classic 28 vs 26 km, Vistula Long 40 vs 35, Classic 26 vs 24, Intro 16 vs 15, Start 4 vs 6 km; w cennikach przyjęto km z tabeli opłat, confidence srednia. Regulamin zaznacza: 'Podane długości tras mają charakter orientacyjny'. (3) Imprezy dwudniowe (Muszyna 10-11/04, Szczyrk 19-20/06, Vistula 11-12/09): raceDate wzięte z tabeli opłat, regulamin nie przesądza dnia startu dystansu. Ostatni próg każdego cennika kończy się w dniu biegu; tekst nie mówi, czy to płatność w biurze. Kwoty zapisane jako '190,00 zł'."
+  },
+  {
+   "sha": "b075da901b166e892b04dd908bfffd22738d7b39",
+   "url": "https://ultra-way.pl/zimowy-festiwal-biegowy-ultra-way/regulamin/",
+   "event": "GDYNIA ULTRA WAY - WINTER RACE 2027",
+   "editionYear": 2027,
+   "races": [
+    "gdynia-ultra-way-2027-01-16"
+   ],
+   "autoRows": 30,
+   "zgodne": 25,
+   "bledne": 0,
+   "poza_zakresem": 5,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [
+    {
+     "idx": 10,
+     "row": {
+      "idx": 10,
+      "km": 27.3,
+      "pln": 300,
+      "until": "2026-07-05",
+      "label": "w parze"
+     },
+     "category": "para",
+     "problem": "DZIKI DUET to start w parach, kwota 300 PLN jest za parę"
+    },
+    {
+     "idx": 11,
+     "row": {
+      "idx": 11,
+      "km": 27.3,
+      "pln": 380,
+      "until": "2026-08-31",
+      "label": "w parze"
+     },
+     "category": "para",
+     "problem": "DZIKI DUET to start w parach, kwota 380 PLN jest za parę"
+    },
+    {
+     "idx": 12,
+     "row": {
+      "idx": 12,
+      "km": 27.3,
+      "pln": 460,
+      "until": "2026-10-31",
+      "label": "w parze"
+     },
+     "category": "para",
+     "problem": "DZIKI DUET to start w parach, kwota 460 PLN jest za parę"
+    },
+    {
+     "idx": 13,
+     "row": {
+      "idx": 13,
+      "km": 27.3,
+      "pln": 480,
+      "until": "2027-01-04",
+      "label": "w parze"
+     },
+     "category": "para",
+     "problem": "DZIKI DUET to start w parach, kwota 480 PLN jest za parę"
+    },
+    {
+     "idx": 14,
+     "row": {
+      "idx": 14,
+      "km": 27.3,
+      "pln": 540,
+      "label": "w parze"
+     },
+     "category": "para",
+     "problem": "DZIKI DUET to start w parach, kwota 540 PLN jest za parę (rejestracja w biurze zawodów)"
+    }
+   ],
+   "pricelists": 5,
+   "included": 5,
+   "notes": "Tekst dotyczy edycji zimowej 2027 (16.01.2027), zgodnie z polem races. Wszystkie kwoty automatu są w tekście; 5 wierszy (idx 10-14) to DZIKI DUET, czyli start w parach z ceną za parę, poza zakresem raportu. Ostatni próg każdego dystansu to 'Rejestracja w Biurze Zawodów' (onsite, bez daty; formularz internetowy zamykany 04.01.2027, zapis w biurze bez gwarancji pełnego pakietu i medalu). O wysokości opłaty decyduje data zaksięgowania. Nazwy tras zaokrąglają długość (76 km+ to 76,6 km, 50 km+ to 51,4 km, 27 km+ to 27,3 km); w cennikach podano długość z opisu tras."
+  },
+  {
+   "sha": "17d839195c89a5d5a0d9d1c9b266d4229a634c25",
+   "url": "https://turbacztrail.pl/wp-content/uploads/2026/08/Regulamin-Rajd-Pieszy-Niepodlegla-Polska-2026.pdf",
+   "event": "II Podhalański Rajd Pieszy 'Niepodległa Polska' by Turbacz Trail",
+   "editionYear": 2026,
+   "races": [
+    "podhalanski-rajd-pieszy-niepodlegla-polska-2026-11-11"
+   ],
+   "autoRows": 4,
+   "zgodne": 0,
+   "bledne": 0,
+   "poza_zakresem": 4,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [
+    {
+     "idx": 0,
+     "row": {
+      "idx": 0,
+      "km": 12,
+      "pln": 99,
+      "until": "2026-09-20"
+     },
+     "category": "nw_marsz",
+     "problem": "kwota i termin zgodne z tekstem (99 zł przy wpłacie 19.08-20.09.2026), ale to rajd pieszy bez klasyfikacji, nie bieg"
+    },
+    {
+     "idx": 1,
+     "row": {
+      "idx": 1,
+      "km": 12,
+      "pln": 119
+     },
+     "category": "nw_marsz",
+     "problem": "kwota zgodna z tekstem (119 zł przy wpłacie 21.09-08.11.2026), ale to rajd pieszy, nie bieg"
+    },
+    {
+     "idx": 2,
+     "row": {
+      "idx": 2,
+      "km": 25,
+      "pln": 159,
+      "until": "2026-09-20"
+     },
+     "category": "nw_marsz",
+     "problem": "kwota i termin zgodne z tekstem (159 zł przy wpłacie 19.08-20.09.2026), ale to rajd pieszy, nie bieg"
+    },
+    {
+     "idx": 3,
+     "row": {
+      "idx": 3,
+      "km": 25,
+      "pln": 179
+     },
+     "category": "nw_marsz",
+     "problem": "kwota zgodna z tekstem (179 zł przy wpłacie 21.09-08.11.2026), ale to rajd pieszy, nie bieg"
+    }
+   ],
+   "pricelists": 0,
+   "included": 0,
+   "notes": "POZA RAPORTEM W CAŁOŚCI: to regulamin rajdu pieszego (turystyka piesza, limity 5 h na ~12 km i 8 h na ~25 km, brak jakiejkolwiek klasyfikacji, 'Uczestnicy pokonują trasę pieszo'), a nie biegu. Zgodnie z zasadami briefu marsze i rajdy piesze nie wchodzą do raportu, więc pricelists jest puste, a wszystkie 4 wiersze automatu mają werdykt poza_zakresem. Same kwoty automat odczytał poprawnie: tabela 'DATA DOKONANIA WPŁATY 19.08 – 20.09.2026 | 21.09 – 08.11.2026', Kroki Wolności 99/119 zł, Wolni w Górach 159/179 zł (rok 2026 stoi w tekście). Edycja 2026 (11.11.2026) zgodna z polem races. Pakiet startowy wyłącznie online do 8 listopada 2026, bez opłat na miejscu."
+  },
+  {
+   "sha": "5d11d6d54f50d35165398905c166086e00e702c3",
+   "url": "https://www.ultraturnicki.pl/_files/ugd/883a2a_d7f0d82ad31941bcbd6323cc7947f3fe.pdf",
+   "event": "Ultra Turnicki",
+   "editionYear": 2027,
+   "races": [
+    "ultra-turnicki-2027-06-19"
+   ],
+   "autoRows": 20,
+   "zgodne": 20,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 4,
+   "included": 4,
+   "notes": "Wszystkie 20 wierszy automatu zgadza sie z tekstem. Ostatnie progi (150/230/300/390 zl) to oplata w biurze zawodow (automat nie oznaczyl onsite, ale kwoty i daty sie zgadzaja)."
+  },
+  {
+   "sha": "95ab6205ffe82be932a96f1fe58b448dba8acfc2",
+   "url": "https://www.biegigorskiesanok.pl/regulamin/",
+   "event": "IX Biegi Górskie Sanok 2026",
+   "editionYear": 2026,
+   "races": [
+    "ix-biegi-gorskie-sanok-2026-09-17"
+   ],
+   "autoRows": 24,
+   "zgodne": 24,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [
+    "270 km (Ultra Wyrypa): brak całego cennika: 599 zł do 01.05.2026, 649 zł do 30.06.2026, 699 zł do 16.09.2026, 749 zł w biurze zawodów"
+   ],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 7,
+   "included": 7,
+   "notes": "Regulamin edycji 2026 (17-19.09.2026). Tabela spłaszczona, ale jednoznaczna: 4 kolumny (do 01.05.2026 / 02.05-30.06.2026 / 01.07-16.09.2026 / Biuro zawodów) i 8 wierszy po 4 kwoty. Czwarta kwota to opłata w biurze zawodów (onsite), zapisy w biurze tylko przy wolnych miejscach. Niespójność w tekście: trzeci próg ma zakres do 16.09.2026, ale rejestracja elektroniczna trwa do 14.09.2026, a osoby zapisane po 06.09.2026 mają opłacić start najpóźniej do 10.09.2026. Wiersze automatu dla 5 km pasują zarówno do biegu Piątka Gajowego, jak i do Nordic Walking 5 km (identyczne kwoty); w cenniku ujęto tylko bieg. Automat pominął cały dystans 270 km, najdroższy w imprezie."
+  },
+  {
+   "sha": "db7236250e8678cba53992de9d28db5e5722491d",
+   "url": "https://www.ultraturnicki.pl/_files/ugd/883a2a_022e1d7fd8b5466e8866635383e749f7.pdf",
+   "event": "Zimowy Ultra Turnicki",
+   "editionYear": 2027,
+   "races": [
+    "zimowy-ultra-turnicki-2027-01-16"
+   ],
+   "autoRows": 8,
+   "zgodne": 8,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 2,
+   "included": 2,
+   "notes": "Cennik kompletny, 2 trasy po 4 progi. Ostatnie progi (180 i 280 zl) dotycza wylacznie biura zawodow (onsite)."
+  },
+  {
+   "sha": "10aa6def858106f841d685bfe86d0933f1c47c47",
+   "url": "https://www.maraton3jezior.com/regulamin/",
+   "event": "Festiwal Górski Maraton Trzech Jezior 2026",
+   "editionYear": 2026,
+   "races": [
+    "festiwal-gorski-maraton-trzech-jezior-2026-09-19",
+    "maraton-trzech-jezior-2027-09-10"
+   ],
+   "autoRows": 16,
+   "zgodne": 16,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 4,
+   "included": 4,
+   "notes": "INNA EDYCJA dla biegu maraton-trzech-jezior-2027-09-10: tekst jest regulaminem edycji 2026 (18-20 września 2026) i nie zawiera cen na 2027; pasuje wyłącznie do biegu festiwal-gorski-maraton-trzech-jezior-2026-09-19. Wszystkie wiersze automatu zgodne z tekstem. W par. 1 regulamin omyłkowo nazywa imprezę 'Maraton Trzech Jezior 2025' (pozostałość po poprzedniej edycji), ale tytuł i wszystkie daty dotyczą 2026. Tabela opłat w euro ma inne, wewnętrznie niespójne przedziały dat (m.in. '20.04.2026-15.08.2026' i '16.07.2026-13.09.2026' oraz 'Before 06.01.12.2025'); przyjęto daty progów z cennika w złotych. Do decyzji osoby liczącej raport: 'Grand Prix / Wieloetapówka' (420/490/550/600 zł za trzy biegi dzień po dniu, ok. 63 km) potraktowano jako pakiet na kilka biegów i wyłączono; regulamin wymaga zapisu na każdy bieg osobno i jednej łącznej opłaty, więc nie jest to osobny bieg etapowy. Pole races dla 2026 podaje 46 km, regulamin: ok. 42,8 km."
+  },
+  {
+   "sha": "2b6f48784e3a00b2c085c4d6f1ef4e60d98f8f03",
+   "url": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/assets/BTR_regulamin_2027_03.pdf",
+   "event": "Baran Trail Race (13 marca 2027)",
+   "editionYear": 2027,
+   "races": [
+    "baran-trail-race-winter-edition-2026-03-13",
+    "baran-trail-race-winter-edition-2027-03-13"
+   ],
+   "autoRows": 9,
+   "zgodne": 9,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 3,
+   "included": 3,
+   "notes": "Tekst dotyczy edycji z 13.03.2027 (PDF dwujęzyczny, wersja polska i angielska z tym samym cennikiem); pole races zawiera też bieg z 2026-03-13, którego ten regulamin NIE dotyczy. Tabela spłaszczona, ale jednoznaczna: 3 kolumny (BTR 10 / BTR 25 / BTR 60) i 3 wiersze terminów wpłaty. Regulamin nie zawiera dystansu 100 km, który figuruje w polu races dla edycji 2027 (distancesKm), więc ceny dla 100 km w tym tekście nie ma. Rejestracja i płatności tylko do 06.03.2027, brak zapisów w biurze zawodów."
+  },
+  {
+   "sha": "271f2fb56b8d3f49e8991354e3d26ff60a7e5de7",
+   "url": "https://orlegniazda.com/regulamin/",
+   "event": "Run and Bike Orlich Gniazd 2027",
+   "editionYear": 2027,
+   "races": [
+    "run-bike-orlich-gniazd-2027-09-10"
+   ],
+   "autoRows": 15,
+   "zgodne": 15,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 5,
+   "included": 5,
+   "notes": "Regulamin edycji 2027 (start I terminu 01.11.2026). Automat dal ostatniemu progowi until null, a tekst podaje koniec zapisow 06.09.2027; kwoty zgodne."
+  },
+  {
+   "sha": "a5fbc1d9ddb9b67ff13c6bcac994d4c242cf8b83",
+   "url": "http://maratonswietokrzyski.pl/regulamin/",
+   "event": "8. Górski Maraton Świętokrzyski im. Trenera Kazimierza Jarosa (z Emeryk Mountain Run i Piętnastką Świętokrzyską)",
+   "editionYear": 2026,
+   "races": [
+    "8-gorski-maraton-swietokrzyski-2026-10-24"
+   ],
+   "autoRows": 12,
+   "zgodne": 12,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [
+    "Możliwy brakujący próg w samym źródle (nie wina automatu): fragment 'do 11 października 2026 r.' bez kwoty między progiem 230 zł (165 zł na 15 km) a progiem 270 zł (180 zł)"
+   ],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 3,
+   "included": 3,
+   "notes": "Edycja 2026 (24.10.2026) zgodna z polem races. W programie literówka źródła: 'Sobota, 24 października 2024 roku' (nagłówek i reszta tekstu mówią o 2026). WAŻNE: w obu cennikach drugi próg ma w tekście dwie daty z rzędu ('230 zł do 29 września 2026 r. do 11 października 2026 r.'), prawdopodobnie wypadła kwota jednego progu albo została stara data; nie da się tego rozstrzygnąć z tekstu, dlatego confidence srednia i until drugiego progu = 29.09.2026. Ceny w dniach 30.09-11.10.2026 nie należy cytować bez potwierdzenia. Ostatni próg (300 zł / 190 zł) obowiązuje od 18.10.2026 i w biurze zawodów, ale zapisy i wpłaty kończą się o północy 21 października 2026 (wymóg Świętokrzyskiego Parku Narodowego). Wpisowe zawiera opłatę 31 zł dla ŚPN. Oznaczenia dystansu maratonu w tekście są niespójne (GMS44K, GMŚ43 K), opis trasy mówi 'ok 43 km'. Koszulka nie wchodzi w cenę (dodatkowo 100/130 zł)."
+  },
+  {
+   "sha": "dafa9b3978e9e6c876649188a2455a2867bab0cf",
+   "url": "https://bisonultratrail.pl/regulamin/",
+   "event": "Bison Ultra-Trail",
+   "editionYear": 2026,
+   "races": [
+    "bison-trail-2027-10-02"
+   ],
+   "autoRows": 24,
+   "zgodne": 24,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [
+    "Bison Trail 18: brak całego cennika: 119 zł do 31.01.2026, 139 zł do 30.04.2026, 149 zł do 30.06.2026, 169 zł do 31.08.2026, 189 zł do 30.09.2026, 200 zł od 1.10.2026 i w Biurze Zawodów",
+    "Bison Trail 10 (10 km): brak całego cennika: 79 zł do 31.01.2026, 89 zł do 30.04.2026, 99 zł do 30.06.2026, 109 zł do 31.08.2026, 119 zł do 30.09.2026, 130 zł od 1.10.2026 i w Biurze Zawodów"
+   ],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 6,
+   "included": 6,
+   "notes": "INNA EDYCJA: tekst dotyczy edycji 2026 (start 3.10.2026, 'Ostatnia aktualizacja: 28 września 2026 r.'), a bieg w polu races to edycja 2027 (2027-10-02). Regulamin nie zawiera cen na 2027. Wiersze automatu oceniono względem tekstu: są zgodne z cennikiem 2026 (automat sam oznaczył rok 2026), ale nie wolno ich przypisywać edycji 2027. Automat pominął w całości dwa najkrótsze dystanse (Bison Trail 18 i Bison Trail 10). W części progów regulamin podaje dzień i miesiąc bez roku ('od 1.02 do 30.04. 2026', 'od 1.05 do 30.06.2026'); rok 2026 wynika z końca każdego przedziału. Ostatni próg każdego dystansu obowiązuje 'od 1.10.2026 oraz Biurze Zawodów' (zapisy internetowe do 1.10.2026 włącznie), więc ustawiono onsite false. Dla Bison Trail 18 regulamin nie podaje długości w km."
+  },
+  {
+   "sha": "c582f729d6bc72fbe96290390ab5ee054348ec37",
+   "url": "https://www.maratonbieszczadzki.pl/wp-content/uploads/2026/10/Regulamin-XIII-Zimowego-Maratonu-Bieszczadzkiego-2027.pdf",
+   "event": "XIII Zimowy Maraton Bieszczadzki",
+   "editionYear": 2027,
+   "races": [
+    "xiii-zimowy-maraton-bieszczadzki-2027-01-23"
+   ],
+   "autoRows": 12,
+   "zgodne": 12,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 3,
+   "included": 3,
+   "notes": "Cennik jednoznaczny, 3 dystanse x 4 progi; automat wyciągnął wszystko poprawnie. Czwarty próg (pakiety kupione w dniu 22-23.01.2027) dotyczy biura zawodów, więc onsite=true, until 2027-01-23 (informacja o liczbie wolnych pakietów podawana do 19.01.2027). Opłata Autopay: prowizja ok. 2,5% dopłacana przez zawodnika (nie wliczona)."
+  },
+  {
+   "sha": "ea09e3a0beb8dd8b813ea7967dc90c6f5c7babda",
+   "url": "https://www.biegrzeznika.pl/wp-content/uploads/2026/07/Regulamin-XIII-Festiwalu-Biegu-Rzeznika-2027.pdf",
+   "event": "XIII Festiwal Biegu Rzeźnika",
+   "editionYear": 2027,
+   "races": [
+    "xiii-festiwal-biegu-rzeznika-2027-05-26",
+    "xxiv-bieg-rzeznika-2027-05-27",
+    "xiii-rzeznik-ultra-2027-05-28",
+    "xvi-rzezniczek-2027-05-29"
+   ],
+   "autoRows": 24,
+   "zgodne": 16,
+   "bledne": 0,
+   "poza_zakresem": 8,
+   "brak_w_tekscie": 0,
+   "missing": [
+    "IV Rzeźnicka Piątka 7 km: 70 zł do 2026-10-31, 80 zł do 2027-02-28, 90 zł do 2027-05-09, 100 zł po 10.05.2027"
+   ],
+   "errors": [],
+   "outOfScope": [
+    {
+     "idx": 4,
+     "row": {
+      "idx": 4,
+      "km": 16,
+      "pln": 200,
+      "until": "2026-10-31"
+     },
+     "category": "nw_marsz",
+     "problem": "16 km to VI Rzeźnicki Marsz z Walking Lovers (marsz), nie bieg"
+    },
+    {
+     "idx": 5,
+     "row": {
+      "idx": 5,
+      "km": 16,
+      "pln": 220,
+      "until": "2027-02-28"
+     },
+     "category": "nw_marsz",
+     "problem": "16 km to VI Rzeźnicki Marsz z Walking Lovers (marsz), nie bieg"
+    },
+    {
+     "idx": 6,
+     "row": {
+      "idx": 6,
+      "km": 16,
+      "pln": 230,
+      "until": "2027-05-09"
+     },
+     "category": "nw_marsz",
+     "problem": "16 km to VI Rzeźnicki Marsz z Walking Lovers (marsz), nie bieg"
+    },
+    {
+     "idx": 7,
+     "row": {
+      "idx": 7,
+      "km": 16,
+      "pln": 250
+     },
+     "category": "nw_marsz",
+     "problem": "16 km to VI Rzeźnicki Marsz z Walking Lovers (marsz), nie bieg"
+    },
+    {
+     "idx": 12,
+     "row": {
+      "idx": 12,
+      "km": 80,
+      "pln": 990,
+      "until": "2026-10-31"
+     },
+     "category": "para",
+     "problem": "kwota jest ceną za parę w Biegu Rzeźnika (od osoby 495/520/560/600 zł)"
+    },
+    {
+     "idx": 13,
+     "row": {
+      "idx": 13,
+      "km": 80,
+      "pln": 1040,
+      "until": "2027-02-28"
+     },
+     "category": "para",
+     "problem": "kwota jest ceną za parę w Biegu Rzeźnika (od osoby 495/520/560/600 zł)"
+    },
+    {
+     "idx": 14,
+     "row": {
+      "idx": 14,
+      "km": 80,
+      "pln": 1120,
+      "until": "2027-05-09"
+     },
+     "category": "para",
+     "problem": "kwota jest ceną za parę w Biegu Rzeźnika (od osoby 495/520/560/600 zł)"
+    },
+    {
+     "idx": 15,
+     "row": {
+      "idx": 15,
+      "km": 80,
+      "pln": 1200
+     },
+     "category": "para",
+     "problem": "kwota jest ceną za parę w Biegu Rzeźnika (od osoby 495/520/560/600 zł)"
+    }
+   ],
+   "pricelists": 5,
+   "included": 5,
+   "notes": "Regulamin Festiwalu z kilkoma biegami w dniach 26-29.05.2027; spisano 5 solowych cenników. Automat poprawnie wyciągnął kwoty dla 52, 102, 28 i 12 km. Wiersze 80 km (990/1040/1120/1200 zł) to ceny za PARĘ w Biegu Rzeźnika (495/520/560/600 zł od osoby, start tylko w parach), więc poza zakresem; wiersze 16 km to Rzeźnicki Marsz (marsz). Rzeźnik Ultra zawiera 60 zł biletu do BdPN. Po 10.05.2027 płatność tylko Autopay (z prowizją). Pierwszy próg od 7.07.2026."
+  },
+  {
+   "sha": "7bf596ef58ff6563a75db2968c3625d10ee7152b",
+   "url": "https://izeryultratrail.pl/regulamin/",
+   "event": "Izery Ultra-Trail",
+   "editionYear": 2026,
+   "races": [
+    "izery-trail-2027-06-26"
+   ],
+   "autoRows": 24,
+   "zgodne": 24,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [
+    "Izery Trail 25: brak cennika (159/175/189/209/229 zl, 250 zl w biurze)",
+    "Izery Trail 16: brak cennika (139/149/159/175/189 zl, 220 zl w biurze)"
+   ],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 6,
+   "included": 6,
+   "notes": "INNA EDYCJA: tekst dotyczy edycji 2026 (27-28.06.2026, ostatnia aktualizacja 25.06.2026), a pole races wskazuje 2027-06-26. Ceny sa z edycji 2026 i nie wchodza do cennika 2027. Automat (autoYear 2026) wyciagnal kwoty poprawnie. km dla 100/70/35 z regulaminu to ok 104/68/34,8; ostatni prog kazdego dystansu jest w biurze zawodow (onsite)."
+  },
+  {
+   "sha": "8ec4726fae684f227872ae882086f5847c121074",
+   "url": "https://www.e-gepard.eu/file/regulamin/3430_regulamin.pdf",
+   "event": "Winter Trail Małopolska 2026",
+   "editionYear": 2026,
+   "races": [
+    "winter-trail-malopolska-2026-12-12"
+   ],
+   "autoRows": 15,
+   "zgodne": 15,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 5,
+   "included": 5,
+   "notes": "Wszystkie wiersze automatu zgodne z tekstem. Regulamin edycji 2026 (12-13.12.2026, wersja z 29.06.2026); pole races nazywa bieg 'Winter Trail Małopolska 2025', ale z datą 2026-12-12, więc edycja się zgadza. Nazwy tras różnią się od realnych dystansów: WTM 140 = ok. 145 km, WTM 105 = ok. 109 km, WTM 64 = ok. 67 km, WTM 45 = ok. 51,5 km, WTM 16 = ok. 13 km (pole races podaje wartości z nazw: 16/45/64/105/140). Tabela opłat jest spłaszczona; cyfra '4' przed pierwszą kolumną to numer strony PDF, pierwsza kolumna to '- 30.06.2026' (do 30.06.2026). Zapisy tylko online do 07.12.2026 ('Nie prowadzimy zapisów w biurze zawodów'). Wszystkie starty 12.12.2026."
+  },
+  {
+   "sha": "4e1669779f2bf751aaef0081fad55f4bfe999ff4",
+   "url": "https://dostartu.pl/statute_files/17345_pl.pdf",
+   "event": "Szczyt Wytrzymałości - Ekstremalny Bieg Górski (edycja mikołajkowa)",
+   "editionYear": 2026,
+   "races": [
+    "szczyt-wytrzymalosci-edycja-mikolajkowa-2026-12-04"
+   ],
+   "autoRows": 8,
+   "zgodne": 8,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 2,
+   "included": 1,
+   "notes": "Data imprezy: regulamin podaje start 05.12.2026 (biuro zawodów 04.12.2026 wieczorem), a pole races ma dateStart 2026-12-04, czyli dzien wczesniej niz start. Wiersze 0-3 (bez km) to kategoria 12H (czasowa), wiersze 4-7 to ME16. Ostatni prog w obu kategoriach (300 i 230 zl) to cena w biurze zawodow."
+  },
+  {
+   "sha": "9c5ca5f755c6412e1efd08c64f8b760942c31a9f",
+   "url": "https://panel.maratonczykpomiarczasu.pl/sites/default/files/u22/regulamin%20goraj%20morena%20trail%205%20edycja%20-%208.01.2026%20zm%209.07.2026.pdf",
+   "event": "Goraj Morena Trail (5. edycja)",
+   "editionYear": 2026,
+   "races": [
+    "goraj-morena-trail-2026-10-04"
+   ],
+   "autoRows": 9,
+   "zgodne": 9,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 3,
+   "included": 3,
+   "notes": "Wszystkie wiersze zgodne. Ostatni prog w kazdym dystansie to oplata w dniu zawodow w biurze (zapisy w biurze 7.30-9.00, ograniczona pula miejsc), automat nie oznaczyl onsite. Regulamin to wersja zmieniona 9.07.2026."
+  },
+  {
+   "sha": "f484ba8ce7893d50c50f2ba4ecdaf505daf0d6ba",
+   "url": "https://krakowbiega.pl/wp-content/uploads/2026/08/Regulamin-XV-edycja-GPK.pdf",
+   "event": "XV Grand Prix Krakowa w biegach górskich",
+   "editionYear": 2026,
+   "races": [
+    "xv-grand-prix-krakowa-w-biegach-gorskich-2026-10-25",
+    "xv-grand-prix-krakowa-w-biegach-gorskich-2026-12-06",
+    "xv-grand-prix-krakowa-w-biegach-gorskich-2027-01-10",
+    "xv-grand-prix-krakowa-w-biegach-gorskich-2027-02-07",
+    "xv-grand-prix-krakowa-w-biegach-gorskich-2027-03-07"
+   ],
+   "autoRows": 40,
+   "zgodne": 0,
+   "bledne": 0,
+   "poza_zakresem": 40,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [
+    {
+     "idx": 0,
+     "row": {
+      "idx": 0,
+      "km": 3.7,
+      "pln": 210,
+      "until": "2026-09-10",
+      "label": "normalny"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 1,
+     "row": {
+      "idx": 1,
+      "km": 3.7,
+      "pln": 130,
+      "until": "2026-09-10",
+      "label": "ulgowy (do 18 lat, 65+)"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 2,
+     "row": {
+      "idx": 2,
+      "km": 3.7,
+      "pln": 230,
+      "until": "2026-09-30",
+      "label": "normalny"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 3,
+     "row": {
+      "idx": 3,
+      "km": 3.7,
+      "pln": 140,
+      "until": "2026-09-30",
+      "label": "ulgowy (do 18 lat, 65+)"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 4,
+     "row": {
+      "idx": 4,
+      "km": 3.7,
+      "pln": 250,
+      "until": "2026-10-18",
+      "label": "normalny"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 5,
+     "row": {
+      "idx": 5,
+      "km": 3.7,
+      "pln": 150,
+      "until": "2026-10-18",
+      "label": "ulgowy (do 18 lat, 65+)"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 6,
+     "row": {
+      "idx": 6,
+      "km": 3.7,
+      "pln": 270,
+      "label": "normalny"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 7,
+     "row": {
+      "idx": 7,
+      "km": 3.7,
+      "pln": 160,
+      "label": "ulgowy (do 18 lat, 65+)"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 8,
+     "row": {
+      "idx": 8,
+      "km": 5.7,
+      "pln": 240,
+      "until": "2026-09-10",
+      "label": "normalny"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 9,
+     "row": {
+      "idx": 9,
+      "km": 5.7,
+      "pln": 150,
+      "until": "2026-09-10",
+      "label": "ulgowy (do 18 lat, 65+)"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 10,
+     "row": {
+      "idx": 10,
+      "km": 5.7,
+      "pln": 260,
+      "until": "2026-09-30",
+      "label": "normalny"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 11,
+     "row": {
+      "idx": 11,
+      "km": 5.7,
+      "pln": 160,
+      "until": "2026-09-30",
+      "label": "ulgowy (do 18 lat, 65+)"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 12,
+     "row": {
+      "idx": 12,
+      "km": 5.7,
+      "pln": 270,
+      "until": "2026-10-18",
+      "label": "normalny"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 13,
+     "row": {
+      "idx": 13,
+      "km": 5.7,
+      "pln": 170,
+      "until": "2026-10-18",
+      "label": "ulgowy (do 18 lat, 65+)"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 14,
+     "row": {
+      "idx": 14,
+      "km": 5.7,
+      "pln": 290,
+      "label": "normalny"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 15,
+     "row": {
+      "idx": 15,
+      "km": 5.7,
+      "pln": 180,
+      "label": "ulgowy (do 18 lat, 65+)"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 16,
+     "row": {
+      "idx": 16,
+      "km": 11.6,
+      "pln": 260,
+      "until": "2026-09-10",
+      "label": "normalny"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 17,
+     "row": {
+      "idx": 17,
+      "km": 11.6,
+      "pln": 170,
+      "until": "2026-09-10",
+      "label": "ulgowy (do 18 lat, 65+)"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 18,
+     "row": {
+      "idx": 18,
+      "km": 11.6,
+      "pln": 280,
+      "until": "2026-09-30",
+      "label": "normalny"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 19,
+     "row": {
+      "idx": 19,
+      "km": 11.6,
+      "pln": 180,
+      "until": "2026-09-30",
+      "label": "ulgowy (do 18 lat, 65+)"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 20,
+     "row": {
+      "idx": 20,
+      "km": 11.6,
+      "pln": 290,
+      "until": "2026-10-18",
+      "label": "normalny"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 21,
+     "row": {
+      "idx": 21,
+      "km": 11.6,
+      "pln": 190,
+      "until": "2026-10-18",
+      "label": "ulgowy (do 18 lat, 65+)"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 22,
+     "row": {
+      "idx": 22,
+      "km": 11.6,
+      "pln": 310,
+      "label": "normalny"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 23,
+     "row": {
+      "idx": 23,
+      "km": 11.6,
+      "pln": 200,
+      "label": "ulgowy (do 18 lat, 65+)"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 24,
+     "row": {
+      "idx": 24,
+      "km": 23.2,
+      "pln": 280,
+      "until": "2026-09-10",
+      "label": "normalny"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 25,
+     "row": {
+      "idx": 25,
+      "km": 23.2,
+      "pln": 180,
+      "until": "2026-09-10",
+      "label": "ulgowy (do 18 lat, 65+)"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 26,
+     "row": {
+      "idx": 26,
+      "km": 23.2,
+      "pln": 300,
+      "until": "2026-09-30",
+      "label": "normalny"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 27,
+     "row": {
+      "idx": 27,
+      "km": 23.2,
+      "pln": 190,
+      "until": "2026-09-30",
+      "label": "ulgowy (do 18 lat, 65+)"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 28,
+     "row": {
+      "idx": 28,
+      "km": 23.2,
+      "pln": 310,
+      "until": "2026-10-18",
+      "label": "normalny"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 29,
+     "row": {
+      "idx": 29,
+      "km": 23.2,
+      "pln": 200,
+      "until": "2026-10-18",
+      "label": "ulgowy (do 18 lat, 65+)"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 30,
+     "row": {
+      "idx": 30,
+      "km": 23.2,
+      "pln": 330,
+      "label": "normalny"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 31,
+     "row": {
+      "idx": 31,
+      "km": 23.2,
+      "pln": 210,
+      "label": "ulgowy (do 18 lat, 65+)"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 32,
+     "row": {
+      "idx": 32,
+      "pln": 150,
+      "until": "2026-09-10",
+      "label": "normalny"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 33,
+     "row": {
+      "idx": 33,
+      "pln": 100,
+      "until": "2026-09-10",
+      "label": "ulgowy (do 18 lat, 65+)"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 34,
+     "row": {
+      "idx": 34,
+      "pln": 180,
+      "until": "2026-09-30",
+      "label": "normalny"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 35,
+     "row": {
+      "idx": 35,
+      "pln": 110,
+      "until": "2026-09-30",
+      "label": "ulgowy (do 18 lat, 65+)"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 36,
+     "row": {
+      "idx": 36,
+      "pln": 210,
+      "until": "2026-10-18",
+      "label": "normalny"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 37,
+     "row": {
+      "idx": 37,
+      "pln": 120,
+      "until": "2026-10-18",
+      "label": "ulgowy (do 18 lat, 65+)"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 38,
+     "row": {
+      "idx": 38,
+      "pln": 220,
+      "label": "normalny"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    },
+    {
+     "idx": 39,
+     "row": {
+      "idx": 39,
+      "pln": 130,
+      "label": "ulgowy (do 18 lat, 65+)"
+     },
+     "category": "cykl",
+     "problem": "cena karnetu na 5 biegów cyklu GPK (ulgowa wersja to dodatkowo zniżka), nie opłata za pojedynczy start"
+    }
+   ],
+   "pricelists": 0,
+   "included": 0,
+   "notes": "Regulamin zawiera wyłącznie ceny KARNETÓW na 5 biegów cyklu; cena za pojedynczy bieg nie została podana (tekst: 'Informacje na temat możliwości zgłoszeń na pojedynczy bieg pojawią się w kolejnych tygodniach.'). Dlatego brak cennika pojedynczego startu i pricelists puste (feeSectionFound true, bo sekcja opłat istnieje, ale dotyczy tylko cyklu). Ceny karnetu nie wolno dzielić przez 5 jako ceny startu. Wiersze automatu 32-39 (bez km) to karnet Vertical. Terminy w tabeli: I do 10.09 (2026), II do 30.09 (2026), III do 18.10 (2026), potem biuro zawodów; trasy: Przyjazna Trójka 3,7 km, Tradycyjna Piątka 5,7 km, Ambitna Jedenastka 11,6 km, Harda Dwudziestka Trójka 23,2 km, Vertical."
+  },
+  {
+   "sha": "7477753dc8d684aa3f2ca045daff78c8b77e5e72",
+   "url": "https://tamizpowrotem.eu/wp-content/uploads/2026/06/Regulamin_TIZP_2026.pdf",
+   "event": "Rajd Pieszy Tam i z Powrotem",
+   "editionYear": 2026,
+   "races": [
+    "rajd-pieszy-2026-09-18"
+   ],
+   "autoRows": 10,
+   "zgodne": 0,
+   "bledne": 0,
+   "poza_zakresem": 10,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [
+    {
+     "idx": 0,
+     "row": {
+      "idx": 0,
+      "km": 77,
+      "pln": 250,
+      "until": "2026-08-19"
+     },
+     "category": "nw_marsz",
+     "problem": "Rajd pieszy (marsz, tempo 3,5-5,5 km/h), nie bieg; kwota jest w tekscie"
+    },
+    {
+     "idx": 1,
+     "row": {
+      "idx": 1,
+      "km": 77,
+      "pln": 270
+     },
+     "category": "nw_marsz",
+     "problem": "Rajd pieszy (marsz, tempo 3,5-5,5 km/h), nie bieg; kwota jest w tekscie"
+    },
+    {
+     "idx": 2,
+     "row": {
+      "idx": 2,
+      "km": 46,
+      "pln": 250,
+      "until": "2026-08-19"
+     },
+     "category": "nw_marsz",
+     "problem": "Rajd pieszy (marsz, tempo 3,5-5,5 km/h), nie bieg; kwota jest w tekscie"
+    },
+    {
+     "idx": 3,
+     "row": {
+      "idx": 3,
+      "km": 46,
+      "pln": 270
+     },
+     "category": "nw_marsz",
+     "problem": "Rajd pieszy (marsz, tempo 3,5-5,5 km/h), nie bieg; kwota jest w tekscie"
+    },
+    {
+     "idx": 4,
+     "row": {
+      "idx": 4,
+      "km": 32,
+      "pln": 230,
+      "until": "2026-08-19"
+     },
+     "category": "nw_marsz",
+     "problem": "Rajd pieszy (marsz, tempo 3,5-5,5 km/h), nie bieg; kwota jest w tekscie"
+    },
+    {
+     "idx": 5,
+     "row": {
+      "idx": 5,
+      "km": 32,
+      "pln": 250
+     },
+     "category": "nw_marsz",
+     "problem": "Rajd pieszy (marsz, tempo 3,5-5,5 km/h), nie bieg; kwota jest w tekscie"
+    },
+    {
+     "idx": 6,
+     "row": {
+      "idx": 6,
+      "km": 13,
+      "pln": 180,
+      "until": "2026-08-19"
+     },
+     "category": "nw_marsz",
+     "problem": "Rajd pieszy (marsz, tempo 3,5-5,5 km/h), nie bieg; kwota jest w tekscie"
+    },
+    {
+     "idx": 7,
+     "row": {
+      "idx": 7,
+      "km": 13,
+      "pln": 200
+     },
+     "category": "nw_marsz",
+     "problem": "Rajd pieszy (marsz, tempo 3,5-5,5 km/h), nie bieg; kwota jest w tekscie"
+    },
+    {
+     "idx": 8,
+     "row": {
+      "idx": 8,
+      "km": 5,
+      "pln": 130,
+      "until": "2026-08-19"
+     },
+     "category": "nw_marsz",
+     "problem": "Rajd pieszy (marsz, tempo 3,5-5,5 km/h), nie bieg; kwota jest w tekscie"
+    },
+    {
+     "idx": 9,
+     "row": {
+      "idx": 9,
+      "km": 5,
+      "pln": 150
+     },
+     "category": "nw_marsz",
+     "problem": "Rajd pieszy (marsz, tempo 3,5-5,5 km/h), nie bieg; kwota jest w tekscie"
+    }
+   ],
+   "pricelists": 0,
+   "included": 0,
+   "notes": "To rajd pieszy/marsz (organizator mowi o 'dlugodystansowych marszach gorskich', punkty zywieniowe liczone na tempo max 5,5 km/h), nie bieg, wiec cennik poza raportem. Kwoty z automatu zgadzaja sie z tabela Cena (np. 77 km 250 zl do 19.08.2026, 270 zl od 20.08.2026), ale wiersze nie dotycza biegu. Rok 2026 poprawny. 46 km w tekscie (auto mialo 46, nie 45); 32 km vs auto 32."
+  },
+  {
+   "sha": "ff80b50a8a54950951f53c5868bc5da0d705c501",
+   "url": "https://b4sportonline.pl/users-folder/1417/files/regulamin_sfb_2026.pdf",
+   "event": "Sowiogórski Festiwal Biegowy",
+   "editionYear": 2026,
+   "races": [
+    "sowiogorski-festiwal-biegowy-2026-10-24"
+   ],
+   "autoRows": 19,
+   "zgodne": 18,
+   "bledne": 1,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [
+    {
+     "idx": 2,
+     "row": {
+      "idx": 2,
+      "km": 84,
+      "pln": 300
+     },
+     "problem": "Don Jon 300 zł: było until null -> jest until 2026-10-20 (w dniu zawodów rejestracja niemożliwa, brak progu onsite)",
+     "quote": "Don Jon 220 zł (od dnia startu zapisów do 31.08.2026) 01.09 – 30.09 260zł | 01.10 – 20.10 300zł w dzień zawodów – brak możliwości"
+    }
+   ],
+   "outOfScope": [],
+   "pricelists": 5,
+   "included": 5,
+   "notes": "Cennik kompletny. Don Jon ma 3 progi (ostatni do 20.10, bez opcji w dniu zawodów), pozostałe 4 dystanse mają 4 progi (ostatni w dniu zawodów, bez pełnego pakietu). Festiwal opisany jako dwudniowy, ale wszystkie starty 24.10.2026. Opłata w tekście jest bez rozróżnienia 'z koszulką'."
+  },
+  {
+   "sha": "05c406b2f197ef03afe4b23e4fbcf714ad273015",
+   "url": "https://www.kbsobotka.pl/slezanski-festiwal-biegowy/regulamin/",
+   "event": "Slezanski Festiwal Biegowy 2026",
+   "editionYear": 2026,
+   "races": [
+    "slezanski-festiwal-biegowy-2026-09-26"
+   ],
+   "autoRows": 8,
+   "zgodne": 6,
+   "bledne": 0,
+   "poza_zakresem": 2,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [
+    {
+     "idx": 6,
+     "row": {
+      "idx": 6,
+      "km": 66,
+      "pln": 480,
+      "until": "2026-08-01"
+     },
+     "category": "sztafeta_druzyna",
+     "problem": "480 zl to oplata za sztafete 3-osobowa (66 km laczny dystans), nie start indywidualny"
+    },
+    {
+     "idx": 7,
+     "row": {
+      "idx": 7,
+      "km": 66,
+      "pln": 600
+     },
+     "category": "sztafeta_druzyna",
+     "problem": "600 zl to oplata za sztafete 3-osobowa (66 km laczny dystans), nie start indywidualny"
+    }
+   ],
+   "pricelists": 3,
+   "included": 3,
+   "notes": "Automat przypisal sztafete (3 osoby, 480/600 zl) do dystansu 66 km jako start indywidualny - blad kategorii. Drugi prog indywidualny ma w tekscie koniec 26.09.2026 (dzien imprezy); automat zostawil until null, wiec jest to roznica tylko formalna. Po zamknieciu zapisow tydzien przed zawodami mozliwe zapisy w biurze zawodow, cena nie podana."
+  },
+  {
+   "sha": "1c0b9135f1aa0385635cc33911869936e27eeb19",
+   "url": "https://www.graniatatr.pl/regulamin.html",
+   "event": "VIII Bieg Granią Tatr",
+   "editionYear": 2025,
+   "races": [
+    "bieg-ultra-grania-tatr-2027-08-21"
+   ],
+   "autoRows": 1,
+   "zgodne": 0,
+   "bledne": 0,
+   "poza_zakresem": 1,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [
+    {
+     "idx": 0,
+     "row": {
+      "idx": 0,
+      "pln": 570
+     },
+     "category": "inna_edycja",
+     "problem": "570 zł (470 zł + 100 zł opłaty do TPN) to opłata z regulaminu VIII edycji 2025 (bieg 23.08.2025), nie z edycji 2027 z pola races"
+    }
+   ],
+   "pricelists": 0,
+   "included": 0,
+   "notes": "INNA EDYCJA: tekst dotyczy VIII Biegu Granią Tatr 2025 (23.08.2025), a pole races wskazuje edycję 2027 (21.08.2027). Cena 2025: opłata startowa 470 zł + 100 zł opłaty do TPN, w sumie 570 zł (pojedynczy próg, dystans 71 km, losowanie 300 osób, zapisy 14-19.02.2025). Nie ma sensu traktować jej jako cennika 2027; pricelists celowo puste. Opłata 570 zł zawiera 100 zł opłaty za udostępnienie terenu TPN. Zwolnieni z wpisowego: członkowie TKN Tatra Team i ratownicy TOPR."
+  },
+  {
+   "sha": "01a002f8adc9e68d568f74b8c1049959b2440405",
+   "url": "https://ultrakotlina.pl/regulamin/",
+   "event": "UltraKotlina 2026",
+   "editionYear": 2026,
+   "races": [
+    "ultrakotlina-2026-10-09"
+   ],
+   "autoRows": 18,
+   "zgodne": 9,
+   "bledne": 9,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [
+    {
+     "idx": 3,
+     "row": {
+      "idx": 3,
+      "km": 100,
+      "pln": 320,
+      "until": "2026-05-31"
+     },
+     "problem": "dystans: bylo 100 km -> jest 108 km (regulamin: UK100 - dystans 108 km); kwota i termin OK",
+     "quote": "UK100 - dystans 108 km"
+    },
+    {
+     "idx": 4,
+     "row": {
+      "idx": 4,
+      "km": 100,
+      "pln": 360,
+      "until": "2026-09-30"
+     },
+     "problem": "dystans: bylo 100 km -> jest 108 km (regulamin: UK100 - dystans 108 km); kwota i termin OK",
+     "quote": "UK100 - dystans 108 km"
+    },
+    {
+     "idx": 5,
+     "row": {
+      "idx": 5,
+      "km": 100,
+      "pln": 390
+     },
+     "problem": "dystans: bylo 100 km -> jest 108 km (regulamin: UK100 - dystans 108 km); kwota i termin OK",
+     "quote": "UK100 - dystans 108 km"
+    },
+    {
+     "idx": 9,
+     "row": {
+      "idx": 9,
+      "km": 50,
+      "pln": 230,
+      "until": "2026-05-31"
+     },
+     "problem": "dystans: bylo 50 km -> jest 58 km (regulamin: UK50 - dystans 58 km); kwota i termin OK",
+     "quote": "UK50 - dystans 58 km"
+    },
+    {
+     "idx": 10,
+     "row": {
+      "idx": 10,
+      "km": 50,
+      "pln": 260,
+      "until": "2026-09-30"
+     },
+     "problem": "dystans: bylo 50 km -> jest 58 km (regulamin: UK50 - dystans 58 km); kwota i termin OK",
+     "quote": "UK50 - dystans 58 km"
+    },
+    {
+     "idx": 11,
+     "row": {
+      "idx": 11,
+      "km": 50,
+      "pln": 280
+     },
+     "problem": "dystans: bylo 50 km -> jest 58 km (regulamin: UK50 - dystans 58 km); kwota i termin OK",
+     "quote": "UK50 - dystans 58 km"
+    },
+    {
+     "idx": 12,
+     "row": {
+      "idx": 12,
+      "km": 30,
+      "pln": 180,
+      "until": "2026-05-31"
+     },
+     "problem": "dystans: bylo 30 km -> jest 35 km (regulamin: UK30 - dystans 35 km); kwota i termin OK",
+     "quote": "UK30 - dystans 35 km"
+    },
+    {
+     "idx": 13,
+     "row": {
+      "idx": 13,
+      "km": 30,
+      "pln": 210,
+      "until": "2026-09-30"
+     },
+     "problem": "dystans: bylo 30 km -> jest 35 km (regulamin: UK30 - dystans 35 km); kwota i termin OK",
+     "quote": "UK30 - dystans 35 km"
+    },
+    {
+     "idx": 14,
+     "row": {
+      "idx": 14,
+      "km": 30,
+      "pln": 240
+     },
+     "problem": "dystans: bylo 30 km -> jest 35 km (regulamin: UK30 - dystans 35 km); kwota i termin OK",
+     "quote": "UK30 - dystans 35 km"
+    }
+   ],
+   "outOfScope": [],
+   "pricelists": 6,
+   "included": 6,
+   "notes": "Regulamin 2026, poprawna edycja. Rzeczywiste dystanse wg regulaminu: UK140=144 km, UK100=108, UK80=82, UK50=58, UK30=35, UK15=15; automat uzyl liczb z nazw. UK140 (144) i UK80 (82) uznane za zgodne (zaokraglenie nazwy), UK100/UK50/UK30 oznaczone jako bledne dystansem. UK30 startuje 11.10.2026, reszta 10.10.2026. Trzeci prog: oplata wniesiona pozniej lub w przeddzien zawodow."
+  },
+  {
+   "sha": "2276f879c1c80196fc06506f707a6681eb73e397",
+   "url": "http://www.rudawy.pl/rudawy_regulamin_layout_2026_aktualizacja_26_03/",
+   "event": "Rudawy Wiosenny Festiwal Biegowy",
+   "editionYear": 2026,
+   "races": [
+    "rudawy-wiosenny-festiwal-biegowy-2027-05-22"
+   ],
+   "autoRows": 17,
+   "zgodne": 0,
+   "bledne": 0,
+   "poza_zakresem": 17,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [
+    {
+     "idx": 0,
+     "row": {
+      "idx": 0,
+      "km": 16.8,
+      "pln": 180,
+      "until": "2026-01-15"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwoty zgadzają się z tekstem, ale tekst to regulamin edycji 2026 (start 16.05.2026), a bieg w indeksie to edycja 2027-05-22."
+    },
+    {
+     "idx": 1,
+     "row": {
+      "idx": 1,
+      "km": 16.8,
+      "pln": 200,
+      "until": "2026-02-28"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwoty zgodne z tekstem, ale to edycja 2026, nie 2027."
+    },
+    {
+     "idx": 2,
+     "row": {
+      "idx": 2,
+      "km": 16.8,
+      "pln": 220,
+      "until": "2026-04-15"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwoty zgodne z tekstem, ale to edycja 2026, nie 2027."
+    },
+    {
+     "idx": 3,
+     "row": {
+      "idx": 3,
+      "km": 16.8,
+      "pln": 240
+     },
+     "category": "inna_edycja",
+     "problem": "Edycja 2026; dodatkowo ostatni próg 240 zł ma w tekście datę do 2026-05-16, a nie brak daty."
+    },
+    {
+     "idx": 4,
+     "row": {
+      "idx": 4,
+      "km": 27.2,
+      "pln": 200,
+      "until": "2026-01-15"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwoty zgodne z tekstem, ale edycja 2026."
+    },
+    {
+     "idx": 5,
+     "row": {
+      "idx": 5,
+      "km": 27.2,
+      "pln": 220,
+      "until": "2026-02-28"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwoty zgodne z tekstem, ale edycja 2026."
+    },
+    {
+     "idx": 6,
+     "row": {
+      "idx": 6,
+      "km": 27.2,
+      "pln": 240,
+      "until": "2026-04-15"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwoty zgodne z tekstem, ale edycja 2026."
+    },
+    {
+     "idx": 7,
+     "row": {
+      "idx": 7,
+      "km": 27.2,
+      "pln": 260
+     },
+     "category": "inna_edycja",
+     "problem": "Edycja 2026; ostatni próg 260 zł ma w tekście datę do 2026-05-16."
+    },
+    {
+     "idx": 8,
+     "row": {
+      "idx": 8,
+      "km": 44,
+      "pln": 220,
+      "until": "2026-01-15"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwoty zgodne z tekstem, ale edycja 2026."
+    },
+    {
+     "idx": 9,
+     "row": {
+      "idx": 9,
+      "km": 44,
+      "pln": 240,
+      "until": "2026-02-28"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwoty zgodne z tekstem, ale edycja 2026."
+    },
+    {
+     "idx": 10,
+     "row": {
+      "idx": 10,
+      "km": 44,
+      "pln": 260,
+      "until": "2026-04-15"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwoty zgodne z tekstem, ale edycja 2026."
+    },
+    {
+     "idx": 11,
+     "row": {
+      "idx": 11,
+      "km": 44,
+      "pln": 280
+     },
+     "category": "inna_edycja",
+     "problem": "Edycja 2026; ostatni próg 280 zł ma w tekście datę do 2026-05-16."
+    },
+    {
+     "idx": 12,
+     "row": {
+      "idx": 12,
+      "km": 63.9,
+      "pln": 260,
+      "until": "2026-01-15"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwoty zgodne z tekstem (km 63,9), ale edycja 2026."
+    },
+    {
+     "idx": 13,
+     "row": {
+      "idx": 13,
+      "km": 63.9,
+      "pln": 280,
+      "until": "2026-02-28"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwoty zgodne z tekstem, ale edycja 2026."
+    },
+    {
+     "idx": 14,
+     "row": {
+      "idx": 14,
+      "km": 63.9,
+      "pln": 300,
+      "until": "2026-04-15"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwoty zgodne z tekstem, ale edycja 2026."
+    },
+    {
+     "idx": 15,
+     "row": {
+      "idx": 15,
+      "km": 63.9,
+      "pln": 320
+     },
+     "category": "inna_edycja",
+     "problem": "Edycja 2026; ostatni próg 320 zł ma w tekście datę do 2026-05-16."
+    },
+    {
+     "idx": 16,
+     "row": {
+      "idx": 16,
+      "km": 9,
+      "pln": 120
+     },
+     "category": "inne",
+     "problem": "Rodzinna Dziewiątka 9 km, 120 zł od osoby: bieg rodzinny/zespołowy (zespół min. 1 dorosły + dzieci), nie start indywidualny dorosłych; dodatkowo edycja 2026."
+    }
+   ],
+   "pricelists": 4,
+   "included": 4,
+   "notes": "INNA EDYCJA: tekst to regulamin Rudawy Wiosenny Festiwal Biegowy 2026 (start 16.05.2026, aktualizacja 26.03.2026), a bieg w indeksie ma datę 2027-05-22. Kwoty z automatu zgadzają się z tekstem co do złotówki, więc po zmianie przypisania edycji (2026) wszystkie wiersze 0-15 byłyby zgodne, z wyjątkiem braku daty 'do 2026-05-16' przy ostatnich progach (idx 3, 7, 11, 15). Pricelists spisane jako edycja 2026. Tabela spłaszczona, ale jednoznaczna."
+  },
+  {
+   "sha": "f62519aac9cbe6fe4dca1ddaba81bcc4516baa8e",
+   "url": "https://biegnakasprowy.pl/biegnakasprowy/regulamin",
+   "event": "XIX Alpin Sport Tatrzanski Bieg Pod Gore (Mistrzostwa Polski Skyrunning Vertical KM)",
+   "editionYear": 2026,
+   "races": [
+    "xix-alpin-sport-tatrzanski-bieg-pod-gore-2026-09-19"
+   ],
+   "autoRows": 3,
+   "zgodne": 3,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 1,
+   "included": 1,
+   "notes": "Zgodne. Dystans w regulaminie ~8,7 km (pole races ma 8,5). Trzeci prog (350 zl) to oplata w biurze zawodow po 15.09.2026, automat nie oznaczyl onsite. Oplaty dla operatora platnosci online sa doliczane do progow 1-2."
+  },
+  {
+   "sha": "2cb5952824c79ce76b5bf0a2f961c412a70bb684",
+   "url": "https://www.zmierzymyczas.pl/images/regulaminy/regulamin_ULTRAANKA_2027-1.pdf",
+   "event": "Zimowy Ultramaraton Annogórski",
+   "editionYear": 2027,
+   "races": [
+    "zimowy-ultramaraton-annogorski-2027-01-16"
+   ],
+   "autoRows": 3,
+   "zgodne": 2,
+   "bledne": 1,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [
+    {
+     "idx": 2,
+     "row": {
+      "idx": 2,
+      "pln": 180
+     },
+     "problem": "było 180 zł bez terminu końca (until null) -> jest 180 zł do 14.01 (w tekście: 14.01.2026r., literówka, rzecz o edycji 2027, więc 2027-01-14)",
+     "quote": "180,00zł do 14.01.2026r."
+    }
+   ],
+   "outOfScope": [],
+   "pricelists": 4,
+   "included": 4,
+   "notes": "Jedna stawka dla wszystkich czterech dystansów (70, 50, 30, 21 km; w linii z wpisowym 20km). Ostatni próg ma w tekście datę 14.01.2026r., prawdopodobnie literówka za 14.01.2027 (rejestracja kończy się 14.01.2026r. również w sekcji zapisów). Limit 100 osób na dystans. Wpłata przez tpay.com. Opłata administracyjna za przekazanie wpisowego 20 zł (pominięta). W sekcji Świadczenia jest też 'po dniu 30.11.2025r.' (kolejna literówka roku)."
+  },
+  {
+   "sha": "43f48ec66e90d6701b75b69cb9d2a78b0812e4cd",
+   "url": "https://bieggorski.pl/regulamin/",
+   "event": "Gorlicki Bieg Górski 7K & 24K",
+   "editionYear": 2026,
+   "races": [
+    "gorlicki-bieg-gorski-2026-11-07"
+   ],
+   "autoRows": 6,
+   "zgodne": 6,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 2,
+   "included": 2,
+   "notes": "Regulamin 7K i 24K edycji 2026. Bieg Vertical 2,4 km (z pola races) ma osobny regulamin, ktorego tu nie ma: cennik Vertical nie jest w tym tekscie. Kwoty brutto."
+  },
+  {
+   "sha": "13afbda8409e55c78a2716cd1741eac5039b42e7",
+   "url": "https://chojnikmaraton.pl/wp-content/uploads/2026/04/CHOJNIK_regulamin_layout_2026_v2-1.pdf",
+   "event": "Chojnik Karkonoski Festiwal Biegowy",
+   "editionYear": 2026,
+   "races": [
+    "chojnik-karkonoski-festiwal-biegowy-2027-09-04"
+   ],
+   "autoRows": 21,
+   "zgodne": 0,
+   "bledne": 0,
+   "poza_zakresem": 21,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [
+    {
+     "idx": 0,
+     "row": {
+      "idx": 0,
+      "km": 14,
+      "pln": 150,
+      "until": "2026-04-30"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwota i dystans zgodne z tekstem, ale tekst to regulamin edycji 2026 (start 5.09.2026), a bieg w indeksie to edycja 2027-09-04."
+    },
+    {
+     "idx": 1,
+     "row": {
+      "idx": 1,
+      "km": 14,
+      "pln": 180,
+      "until": "2026-05-31"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwota i dystans zgodne z tekstem, ale tekst to regulamin edycji 2026 (start 5.09.2026), a bieg w indeksie to edycja 2027-09-04."
+    },
+    {
+     "idx": 2,
+     "row": {
+      "idx": 2,
+      "km": 14,
+      "pln": 210,
+      "until": "2026-07-31"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwota i dystans zgodne z tekstem, ale tekst to regulamin edycji 2026 (start 5.09.2026), a bieg w indeksie to edycja 2027-09-04."
+    },
+    {
+     "idx": 3,
+     "row": {
+      "idx": 3,
+      "km": 14,
+      "pln": 240,
+      "until": "2026-09-05"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwota i dystans zgodne z tekstem, ale tekst to regulamin edycji 2026 (start 5.09.2026), a bieg w indeksie to edycja 2027-09-04. Ostatni próg w tekście ma datę do 2026-09-05 (zgodne z auto)."
+    },
+    {
+     "idx": 4,
+     "row": {
+      "idx": 4,
+      "km": 29,
+      "pln": 180,
+      "until": "2026-04-30"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwota i dystans zgodne z tekstem, ale tekst to regulamin edycji 2026 (start 5.09.2026), a bieg w indeksie to edycja 2027-09-04."
+    },
+    {
+     "idx": 5,
+     "row": {
+      "idx": 5,
+      "km": 29,
+      "pln": 210,
+      "until": "2026-05-31"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwota i dystans zgodne z tekstem, ale tekst to regulamin edycji 2026 (start 5.09.2026), a bieg w indeksie to edycja 2027-09-04."
+    },
+    {
+     "idx": 6,
+     "row": {
+      "idx": 6,
+      "km": 29,
+      "pln": 240,
+      "until": "2026-07-31"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwota i dystans zgodne z tekstem, ale tekst to regulamin edycji 2026 (start 5.09.2026), a bieg w indeksie to edycja 2027-09-04."
+    },
+    {
+     "idx": 7,
+     "row": {
+      "idx": 7,
+      "km": 29,
+      "pln": 270,
+      "until": "2026-09-05"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwota i dystans zgodne z tekstem, ale tekst to regulamin edycji 2026 (start 5.09.2026), a bieg w indeksie to edycja 2027-09-04. Ostatni próg w tekście ma datę do 2026-09-05 (zgodne z auto)."
+    },
+    {
+     "idx": 8,
+     "row": {
+      "idx": 8,
+      "km": 42,
+      "pln": 210,
+      "until": "2026-04-30"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwota i dystans zgodne z tekstem, ale tekst to regulamin edycji 2026 (start 5.09.2026), a bieg w indeksie to edycja 2027-09-04."
+    },
+    {
+     "idx": 9,
+     "row": {
+      "idx": 9,
+      "km": 42,
+      "pln": 240,
+      "until": "2026-05-31"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwota i dystans zgodne z tekstem, ale tekst to regulamin edycji 2026 (start 5.09.2026), a bieg w indeksie to edycja 2027-09-04."
+    },
+    {
+     "idx": 10,
+     "row": {
+      "idx": 10,
+      "km": 42,
+      "pln": 270,
+      "until": "2026-07-31"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwota i dystans zgodne z tekstem, ale tekst to regulamin edycji 2026 (start 5.09.2026), a bieg w indeksie to edycja 2027-09-04."
+    },
+    {
+     "idx": 11,
+     "row": {
+      "idx": 11,
+      "km": 42,
+      "pln": 300,
+      "until": "2026-09-05"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwota i dystans zgodne z tekstem, ale tekst to regulamin edycji 2026 (start 5.09.2026), a bieg w indeksie to edycja 2027-09-04. Ostatni próg w tekście ma datę do 2026-09-05 (zgodne z auto)."
+    },
+    {
+     "idx": 12,
+     "row": {
+      "idx": 12,
+      "km": 72,
+      "pln": 260,
+      "until": "2026-04-30"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwota i dystans zgodne z tekstem, ale tekst to regulamin edycji 2026 (start 5.09.2026), a bieg w indeksie to edycja 2027-09-04."
+    },
+    {
+     "idx": 13,
+     "row": {
+      "idx": 13,
+      "km": 72,
+      "pln": 290,
+      "until": "2026-05-31"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwota i dystans zgodne z tekstem, ale tekst to regulamin edycji 2026 (start 5.09.2026), a bieg w indeksie to edycja 2027-09-04."
+    },
+    {
+     "idx": 14,
+     "row": {
+      "idx": 14,
+      "km": 72,
+      "pln": 320,
+      "until": "2026-07-31"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwota i dystans zgodne z tekstem, ale tekst to regulamin edycji 2026 (start 5.09.2026), a bieg w indeksie to edycja 2027-09-04."
+    },
+    {
+     "idx": 15,
+     "row": {
+      "idx": 15,
+      "km": 72,
+      "pln": 350,
+      "until": "2026-09-05"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwota i dystans zgodne z tekstem, ale tekst to regulamin edycji 2026 (start 5.09.2026), a bieg w indeksie to edycja 2027-09-04. Ostatni próg w tekście ma datę do 2026-09-05 (zgodne z auto)."
+    },
+    {
+     "idx": 16,
+     "row": {
+      "idx": 16,
+      "km": 102,
+      "pln": 320,
+      "until": "2026-04-30"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwota i dystans zgodne z tekstem, ale tekst to regulamin edycji 2026 (start 5.09.2026), a bieg w indeksie to edycja 2027-09-04."
+    },
+    {
+     "idx": 17,
+     "row": {
+      "idx": 17,
+      "km": 102,
+      "pln": 350,
+      "until": "2026-05-31"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwota i dystans zgodne z tekstem, ale tekst to regulamin edycji 2026 (start 5.09.2026), a bieg w indeksie to edycja 2027-09-04."
+    },
+    {
+     "idx": 18,
+     "row": {
+      "idx": 18,
+      "km": 102,
+      "pln": 380,
+      "until": "2026-07-31"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwota i dystans zgodne z tekstem, ale tekst to regulamin edycji 2026 (start 5.09.2026), a bieg w indeksie to edycja 2027-09-04."
+    },
+    {
+     "idx": 19,
+     "row": {
+      "idx": 19,
+      "km": 102,
+      "pln": 410,
+      "until": "2026-09-05"
+     },
+     "category": "inna_edycja",
+     "problem": "Kwota i dystans zgodne z tekstem, ale tekst to regulamin edycji 2026 (start 5.09.2026), a bieg w indeksie to edycja 2027-09-04. Ostatni próg w tekście ma datę do 2026-09-05 (zgodne z auto)."
+    },
+    {
+     "idx": 20,
+     "row": {
+      "idx": 20,
+      "km": 8,
+      "pln": 120
+     },
+     "category": "inne",
+     "problem": "Edukacyjny Bieg Rodzinny 8 km, 120 zł od osoby: bieg rodzinny (bez limitu wieku, dzieci pod opieką), nie start indywidualny dorosłych; dodatkowo edycja 2026."
+    }
+   ],
+   "pricelists": 5,
+   "included": 5,
+   "notes": "INNA EDYCJA: tekst to regulamin Chojnik Karkonoski Festiwal Biegowy 2026 (start 5.09.2026, aktualizacja 22.03.2026), a bieg w indeksie ma datę 2027-09-04. Kwoty z automatu zgadzają się z tekstem (km 72 i 102 zaokrąglone z nazw tras, zgodnie z tekstem). Po przypisaniu do edycji 2026 wszystkie wiersze 0-19 byłyby zgodne. Tabela spłaszczona, ale jednoznaczna (4 kolumny terminów). W tekście wspomniana jest też Kamienna trzydziestka (tylko w rozdziale nagród), bez cennika."
+  },
+  {
+   "sha": "9f4d14a96e9bc42ffa19978e886d486880e1798d",
+   "url": "https://dostartu.pl/statute_files/15940_pl.pdf",
+   "event": "IV Wilczy Ped na Trojmorski Wierch",
+   "editionYear": 2026,
+   "races": [
+    "iv-wilczy-ped-na-trojmorski-wierch-2026-09-20"
+   ],
+   "autoRows": 3,
+   "zgodne": 3,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 1,
+   "included": 1,
+   "notes": "Wszystkie wiersze zgodne. Trzeci prog to oplata w dniu zawodow (onsite), automat nie oznaczyl onsite."
+  },
+  {
+   "sha": "30908a967cbb560f8852401e3cd065e618120ced",
+   "url": "http://jedlina.pro-run.pl/regulamin-zimowy-polmaraton/",
+   "event": "6. Zimowy Półmaraton Górski Jedlina-Zdrój i Zimowa Dycha Jedlina-Zdrój",
+   "editionYear": 2027,
+   "races": [
+    "5-zimowy-polmaraton-gorski-jedlina-zdroj-2026-02-01",
+    "6-zimowy-polmaraton-gorski-jedlina-zdroj-2027-02-07"
+   ],
+   "autoRows": 10,
+   "zgodne": 10,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 2,
+   "included": 2,
+   "notes": "Dwa biegi: półmaraton (ok. 21 lub 23,5 km) i dycha (ok. 10 km), edycja 7.02.2027. Pole races zawiera też wpis 5. edycji (1.02.2026) - nie dotyczy tego tekstu. Zapisy 01.09.2026 do 06.02.2027, limit 300 osób na oba biegi. Automat: wiersze idx 4 (250 zł bez until = biuro zawodów) i idx 9 (200 zł bez until = biuro) poprawne; idx 8 (200 zł do 2027-02-06) tez. Zwolnienie z opłaty: powyżej 70 lat i dawni zwycięzcy (pominięte)."
+  },
+  {
+   "sha": "d6dc1f5484b9e94ab7d57bc866547e31af244a46",
+   "url": "https://boreckatrail.pl/regulamin/",
+   "event": "Borecka Łękuk Trail 2026",
+   "editionYear": 2026,
+   "races": [
+    "borecka-lekuk-trail-2026-11-21"
+   ],
+   "autoRows": 16,
+   "zgodne": 16,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 4,
+   "included": 4,
+   "notes": "Edycja 2026, wszystkie 16 wierszy zgodne z tabela. Ostatni prog (150/200/220/250) dotyczy Biura Zawodow (onsite), auto zapisal go bez until i bez onsite. Organizator nie zapewnia platnosci online, tylko przelew tradycyjny."
+  },
+  {
+   "sha": "7e20a708f61e4934f0d6528a12d74e6e904f63e3",
+   "url": "http://jedlina.pro-run.pl/nowyregulamin/",
+   "event": "Festiwal Gorski Polmaraton Jedlina-Zdroj",
+   "editionYear": 2027,
+   "races": [
+    "festiwal-gorski-polmaraton-jedlina-zdroj-2027-05-09"
+   ],
+   "autoRows": 21,
+   "zgodne": 19,
+   "bledne": 1,
+   "poza_zakresem": 1,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [
+    {
+     "idx": 16,
+     "row": {
+      "idx": 16,
+      "km": 51,
+      "pln": 230
+     },
+     "problem": "było 51 km 230 zl bez daty -> jest 230 zl do 2027-01-31 (w tekscie literowka '31.0.2027', termin wynika z pozycji w tabeli)",
+     "quote": "230 zł – do 31.0.2027"
+    }
+   ],
+   "outOfScope": [
+    {
+     "idx": 20,
+     "row": {
+      "idx": 20,
+      "pln": 70,
+      "until": "2027-05-07",
+      "label": "mieszkańcy gminy"
+     },
+     "category": "znizka",
+     "problem": "70 zl to oplata dla mieszkancow gminy Jedlina-Zdroj, nie cena podstawowa"
+    }
+   ],
+   "pricelists": 4,
+   "included": 3,
+   "notes": "Tabela cen spłaszczona do jednego ciagu, przypisanie kwot do kolumn zgodne z auto (kolejnosc 10 / 21 i 23,5 / 51 w kazdym wierszu). Jedyny problem automatu: brak daty 2027-01-31 przy 51 km 230 zl (literowka w tekscie). Ostatnie progi (200/250/300 zl) to oplata w biurze zawodow (onsite), automat nie oznaczyl. 21 km i 23,5 km to ten sam cennik (21 km tylko jesli bedzie tunel)."
+  },
+  {
+   "sha": "428cb104f747fcc1a5186d75074115b3eea7153f",
+   "url": "https://malopolskabiega.com.pl/regulamin-ultra/",
+   "event": "Wyspowy Ultra Świr",
+   "editionYear": 2027,
+   "races": [
+    "wyspowy-ultra-swir-2027-06-26"
+   ],
+   "autoRows": 12,
+   "zgodne": 9,
+   "bledne": 3,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [
+    {
+     "idx": 3,
+     "row": {
+      "idx": 3,
+      "km": 65,
+      "pln": 300
+     },
+     "problem": "było 300 zł bez daty końcowej (until null) -> jest 300 zł do 2027-06-15",
+     "quote": "01.05.2027 – 15.06.2027 – 300 pln"
+    },
+    {
+     "idx": 7,
+     "row": {
+      "idx": 7,
+      "km": 43,
+      "pln": 250
+     },
+     "problem": "było 250 zł bez daty końcowej (until null) -> jest 250 zł do 2027-06-15",
+     "quote": "01.05.2027 – 15.06.2027 – 250 pln"
+    },
+    {
+     "idx": 11,
+     "row": {
+      "idx": 11,
+      "km": 23,
+      "pln": 160
+     },
+     "problem": "było 160 zł bez daty końcowej (until null) -> jest 160 zł do 2027-06-15",
+     "quote": "01.05.2027 – 15.06.2027 – 160 pln"
+    }
+   ],
+   "outOfScope": [],
+   "pricelists": 3,
+   "included": 3,
+   "notes": "Tekst z drobnymi literówkami w datach (26.06.2026 w kilku miejscach), ale edycja to 2027 (nagłówek 'Regulamin WYSPOWY ULTRA ŚWIR 2027' i termin 26.06.2027). Strona zawiera też menu innych biegów organizatora (Wiosenny, Letni, Jesienny, Przehyba), ale cennik dotyczy tylko Wyspowego Ultra Świr. Kwoty zgodne, błąd automatu to brak daty końcowej ostatniego progu (do 15.06.2027) w każdym z 3 dystansów."
+  },
+  {
+   "sha": "9846267170f41b112d7ecb2f0a504782db0ec2bd",
+   "url": "https://b4sportonline.pl/users-folder/741/files/regulamin_Przehyba_Trail_2026.pdf",
+   "event": "Przehyba Trail 2026",
+   "editionYear": 2026,
+   "races": [
+    "przehyba-trail-2026-10-03"
+   ],
+   "autoRows": 12,
+   "zgodne": 12,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 3,
+   "included": 3,
+   "notes": "Edycja 2026 (bieg 03.10.2026, czyli już odbyty w dniu weryfikacji); cennik 12 progów (3 dystanse x 4) w pełni zgodny z automatem. Daty początku progów od 01.02.2026, 01.06.2026, 16.09.2026; do 31.01.2026 jest pierwszym progiem bez daty początku. Biegi 33 i 43 km odbędą się tylko przy min. 30 opłaconych do 31.08.2026. Limit 100 osób na dystans."
+  },
+  {
+   "sha": "dbae56f63e951295f04fbbe6c86968054d5adde5",
+   "url": "https://malopolskabiega.com.pl/regulamin-jesienny-ultra-swir/",
+   "event": "Jesienny Ultra Świr",
+   "editionYear": 2026,
+   "races": [
+    "jesienny-ultra-swir-2026-11-28"
+   ],
+   "autoRows": 6,
+   "zgodne": 6,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 2,
+   "included": 2,
+   "notes": "Edycja 2026, wszystkie wiersze zgodne. Ostatni prog do 25.11.2026, wyraznie 'Brak mozliwosci oplaty w biurze zawodow'."
+  },
+  {
+   "sha": "bdcd471432f65459057704d1181aa9828e850d2c",
+   "url": "https://b4sportonline.pl/suszecki_festiwal/regulamin",
+   "event": "Suszecki Festiwal Biegowy",
+   "editionYear": 2027,
+   "races": [
+    "suszecki-festiwal-biegowy-2027-06-12"
+   ],
+   "autoRows": 21,
+   "zgodne": 21,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 3,
+   "included": 3,
+   "notes": "Wszystkie 21 wierszy zgodne z tekstem. UWAGA co do zakresu: to festiwal biegowy w Suszcu (Osrodek Gwarus), z regulaminu nie wynika charakter gorski; do oceny, czy wchodzi do raportu o biegach gorskich. Ostatnie progi (80/80/100 zl) to gotowka w biurze zawodow w dniu startu (onsite), automat nie oznaczyl."
+  },
+  {
+   "sha": "03d80f53e1f270f584bf520612ce7a41168d147d",
+   "url": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026_edit-mv6j7nqw.pdf",
+   "event": "7. Półmaraton Górski Orzeł i 2. Górska Trzynastka",
+   "editionYear": 2026,
+   "races": [
+    "2-gorska-trzynastka-2026-11-21",
+    "7-polmaraton-orzel-2026-11-21"
+   ],
+   "autoRows": 7,
+   "zgodne": 7,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 2,
+   "included": 2,
+   "notes": "Dwa biegi (13 i 22 km) w jednym regulaminie, ten sam dzień 21.11.2026. Wiersz 6 (bez km, 160 zł do 2026-11-21) to opłata w biurze zawodów dla obu dystansów, zgodna z tekstem. Literówka w tekście: 19.11.2025 zamiast 2026."
+  },
+  {
+   "sha": "74ecf721194eaa45cd8924d2c119f4948943dae8",
+   "url": "https://malopolskabiega.com.pl/regulamin-wiosenny-ultra-swir/",
+   "event": "Wiosenny Ultra Świr",
+   "editionYear": 2027,
+   "races": [
+    "wiosenny-ultra-swir-2027-03-20"
+   ],
+   "autoRows": 16,
+   "zgodne": 11,
+   "bledne": 1,
+   "poza_zakresem": 4,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [
+    {
+     "idx": 4,
+     "row": {
+      "idx": 4,
+      "pln": 140,
+      "label": "6 h"
+     },
+     "problem": "bylo 6 h 140 zl bez terminu -> jest 140 zl do 2026-07-31 (tekst: 'do 31.06.2026', literowka)",
+     "quote": "Bieg 6 h:– do 31.06.2026 – 140 zł"
+    }
+   ],
+   "outOfScope": [
+    {
+     "idx": 12,
+     "row": {
+      "idx": 12,
+      "km": 15.5,
+      "pln": 90,
+      "until": "2026-07-31",
+      "label": "NW rodzic + dziecko"
+     },
+     "category": "nw_marsz",
+     "problem": "Marsz Nordic Walking rodzic + dziecko"
+    },
+    {
+     "idx": 13,
+     "row": {
+      "idx": 13,
+      "km": 15.5,
+      "pln": 110,
+      "until": "2026-12-31",
+      "label": "NW rodzic + dziecko"
+     },
+     "category": "nw_marsz",
+     "problem": "Marsz Nordic Walking rodzic + dziecko"
+    },
+    {
+     "idx": 14,
+     "row": {
+      "idx": 14,
+      "km": 15.5,
+      "pln": 130,
+      "until": "2027-02-28",
+      "label": "NW rodzic + dziecko"
+     },
+     "category": "nw_marsz",
+     "problem": "Marsz Nordic Walking rodzic + dziecko"
+    },
+    {
+     "idx": 15,
+     "row": {
+      "idx": 15,
+      "km": 15.5,
+      "pln": 150,
+      "until": "2027-03-15",
+      "label": "NW rodzic + dziecko"
+     },
+     "category": "nw_marsz",
+     "problem": "Marsz Nordic Walking rodzic + dziecko"
+    }
+   ],
+   "pricelists": 3,
+   "included": 1,
+   "notes": "Edycja 2027 (20.03.2027). Pierwszy prog 6 h w tekscie ma date 31.06.2026 (nieistniejaca), przyjeto 31.07.2026. Biegi 6 h i 12 h to formuly na czas bez stalego km (automat tez nie podal km). Auto: wiersz 4 bez until."
+  },
+  {
+   "sha": "37497f792235d7d61a4a039893a6f9719a335dac",
+   "url": "https://turystyka.glucholazy.pl/download/attachment/24767/regulamin.pdf?v=1775550054",
+   "event": "Głuchołaski Bieg Górski",
+   "editionYear": 2026,
+   "races": [
+    "glucholaski-bieg-gorski-2026-09-19"
+   ],
+   "autoRows": 1,
+   "zgodne": 1,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 3,
+   "included": 3,
+   "notes": "Jedna opłata 60 zł dla trzech dystansów (5, 10, 15 km). Automat wyciągnął jeden wiersz bez km i bez daty; poprawnie co do kwoty, ale należałoby ją przypisać do wszystkich trzech dystansów. Edycja 19.09.2026 (już odbyta w dniu weryfikacji). W tekście limity oznaczono też jako Dystans A/B/C."
+  },
+  {
+   "sha": "91e8e422bf324fed4ab6654c9dc4c6fa35fed491",
+   "url": "https://www.kbsobotka.pl/wp-content/uploads/2026/10/2027-regulamin-Zimowy-Maraton-0.pdf",
+   "event": "X Gorski Zimowy Maraton Slezanski 2027",
+   "editionYear": 2027,
+   "races": [
+    "xii-gorski-zimowy-maraton-i-polmaraton-slezanski-2027-01-09"
+   ],
+   "autoRows": 4,
+   "zgodne": 4,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 2,
+   "included": 2,
+   "notes": "Wszystkie 4 wiersze zgodne. Nazwa wydarzenia w regulaminie: X Gorski Zimowy Maraton Slezanski (pole races ma XII/10., nieistotne). Rok edycji 2027, impreza 09.01.2027."
+  },
+  {
+   "sha": "0caa20b46f749a01d6d2ec6c8c3fa0b9e730fea1",
+   "url": "https://biegajwgorachsowich.pl/lib/vv3wnq/14-GBN-regulamin-msyk9hiv.pdf",
+   "event": "14. Górski Bieg Niepodległości",
+   "editionYear": 2026,
+   "races": [
+    "14-gorski-bieg-niepodleglosci-2026-11-11"
+   ],
+   "autoRows": 4,
+   "zgodne": 4,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 1,
+   "included": 1,
+   "notes": "Dystans w regulaminie 10 km, w polu races 11 km (rozbieżność źródeł, regulamin jest wiarygodniejszy). Cennik kompletny, jedna trasa, cztery progi."
+  },
+  {
+   "sha": "b880cf078c8cb0d5d3000585e27222e21267dd51",
+   "url": "https://jaskiniowy.pl/regulamin-borowkowa-trail/",
+   "event": "Borówkowa Trail - Górska Kuracja",
+   "editionYear": 2026,
+   "races": [
+    "borowkowa-trail-2026-11-14"
+   ],
+   "autoRows": 4,
+   "zgodne": 4,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 2,
+   "included": 2,
+   "notes": "Pełny, jednoznaczny cennik dwóch dystansów, 2 progi; automat zgodny. Zapisy od 2.02.2026. Wpłaty najpóźniej do 08.11.2026. Wiek min. 16 lat (niepełnoletni z oświadczeniem). Pola menu strony wspominają też Grudniowy Marsz i Wiosenny Marsz (marsze, poza zakresem tego regulaminu)."
+  },
+  {
+   "sha": "74b35c56aabf266e80be34975a3414b082eba05c",
+   "url": "https://competitions.timekeeper.pl/download/1081",
+   "event": "II Korczyński Półmaraton Górski i XI Korczyński Bieg i NW do Prządek",
+   "editionYear": 2026,
+   "races": [
+    "ii-korczynski-polmaraton-gorski-2026-10-10"
+   ],
+   "autoRows": 3,
+   "zgodne": 3,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 2,
+   "included": 2,
+   "notes": "Edycja 2026. Auto wyciagnal 3 progi bez km i bez onsite (130 zl jest tylko w biurze zawodow w dniu imprezy, wiec onsite true). Oplata jest jedna dla polmaratonu 21 km, biegu 6 km i marszu NW; regulamin nie rozdziela kwot per dystans. Zgloszenia online zamykane 20.09.2026."
+  },
+  {
+   "sha": "9d1c834df298619542dd96d6862d9c7b7238354d",
+   "url": "https://dostartu.pl/statute_files/16818_pl.pdf",
+   "event": "Jeziorka Ultra River 2026",
+   "editionYear": 2026,
+   "races": [
+    "jeziorka-ultra-river-jur-2026-10-10"
+   ],
+   "autoRows": 3,
+   "zgodne": 3,
+   "bledne": 0,
+   "poza_zakresem": 0,
+   "brak_w_tekscie": 0,
+   "missing": [],
+   "errors": [],
+   "outOfScope": [],
+   "pricelists": 3,
+   "included": 0,
+   "notes": "Wszystkie 3 wiersze zgodne. Wydarzenie to nieklasyfikowana impreza przygodowa (bez pomiaru czasu, trasa nad rzeka Jeziorka, przewyzszenia symboliczne), wiec jej charakter nie jest gorski; do oceny, czy wchodzi do raportu. Oplata jednolita, do konca zapisow 02.10.2026."
+  }
+ ],
+ "dropped": [
+  {
+   "sha": "6c2f2680",
+   "event": "Tatrzański Festiwal Biegowy Tatra SkyMarathon",
+   "route": "Orava Marathon",
+   "km": 40,
+   "why": "dystansu nie ma przy tym biegu w naszym kalendarzu"
+  },
+  {
+   "sha": "6c2f2680",
+   "event": "Tatrzański Festiwal Biegowy Tatra SkyMarathon",
+   "route": "Orava 80",
+   "km": 80,
+   "why": "dystansu nie ma przy tym biegu w naszym kalendarzu"
+  },
+  {
+   "sha": "6c2f2680",
+   "event": "Tatrzański Festiwal Biegowy Tatra SkyMarathon",
+   "route": "Orava 120",
+   "km": 120,
+   "why": "dystansu nie ma przy tym biegu w naszym kalendarzu"
+  },
+  {
+   "sha": "6c2f2680",
+   "event": "Tatrzański Festiwal Biegowy Tatra SkyMarathon",
+   "route": "Mini Tatra Sky",
+   "km": 5,
+   "why": "dystansu nie ma przy tym biegu w naszym kalendarzu"
+  },
+  {
+   "sha": "1b320d0f",
+   "event": "Garmin Ultra Race Gdańsk 2026",
+   "route": "dystans 27 km",
+   "km": 27,
+   "why": "literówka w kwocie pierwszego progu w regulaminie (\"1150,00 PLN\"), kwota niepewna"
+  },
+  {
+   "sha": "975423eb",
+   "event": "Perły Małopolski 2026, sezon XIV, Rabka-Zdrój, Gorce",
+   "route": "bieg - dystans długi (+20 km)",
+   "km": 20.1,
+   "why": "regulamin podaje dwie różne kwoty ostatniego progu (cennik i część o rabatach)"
+  },
+  {
+   "sha": "975423eb",
+   "event": "Perły Małopolski 2026, sezon XIV, Rabka-Zdrój, Gorce",
+   "route": "bieg - dystans średni (+10 km)",
+   "km": 14.1,
+   "why": "regulamin podaje dwie różne kwoty ostatniego progu (cennik i część o rabatach)"
+  },
+  {
+   "sha": "975423eb",
+   "event": "Perły Małopolski 2026, sezon XIV, Rabka-Zdrój, Gorce",
+   "route": "bieg - dystans krótki (+5 km)",
+   "km": 7.5,
+   "why": "regulamin podaje dwie różne kwoty ostatniego progu (cennik i część o rabatach)"
+  },
+  {
+   "sha": "eaebaacf",
+   "event": "Chudy Wawrzyniec 2026 (Chudy Wawrzyniec 50/80/100 km, Parszywa Bendoszka, Mała Rycerzowa, Muńcuł Vertical)",
+   "route": "Chudy Wawrzyniec 100km",
+   "km": 102,
+   "why": "dystansu nie ma przy tym biegu w naszym kalendarzu"
+  },
+  {
+   "sha": "b84ea3d8",
+   "event": "Podhalański Bieg Mikołajkowy 2026",
+   "route": "Rodzinne Mikołajki (cena dla osób powyżej 18 r.ż.)",
+   "km": 1.0,
+   "why": "bieg rodzinny na 1 km bez pomiaru czasu"
+  },
+  {
+   "sha": "90fe051e",
+   "event": "XRUN 2027 (cykl sześciu imprez; bieg z pola races: Tajemnicze Kopce, Dobczyce)",
+   "route": "Ucieczka św. Kingi - Classic Trail",
+   "km": 28,
+   "why": "dystansu nie ma przy tym biegu w naszym kalendarzu"
+  },
+  {
+   "sha": "90fe051e",
+   "event": "XRUN 2027 (cykl sześciu imprez; bieg z pola races: Tajemnicze Kopce, Dobczyce)",
+   "route": "Vistula Trail - Start Trail",
+   "km": 4,
+   "why": "dystansu nie ma przy tym biegu w naszym kalendarzu"
+  },
+  {
+   "sha": "4e166977",
+   "event": "Szczyt Wytrzymałości - Ekstremalny Bieg Górski (edycja mikołajkowa)",
+   "route": "12 H (jak najwięcej pętli ok. 8,2 km w 12 godzin)",
+   "km": null,
+   "why": "bieg na czas albo trasa bez podanej długości"
+  },
+  {
+   "sha": "7e20a708",
+   "event": "Festiwal Gorski Polmaraton Jedlina-Zdroj",
+   "route": "Polmaraton 21 km (wariant z tunelem)",
+   "km": 21,
+   "why": "wariant trasy półmaratonu z tym samym cennikiem co 23,5 km (liczony raz)"
+  },
+  {
+   "sha": "74ecf721",
+   "event": "Wiosenny Ultra Świr",
+   "route": "Wiosenny Ultra Świr 6 h",
+   "km": null,
+   "why": "bieg na czas albo trasa bez podanej długości"
+  },
+  {
+   "sha": "74ecf721",
+   "event": "Wiosenny Ultra Świr",
+   "route": "Wiosenny Ultra Świr 12 h",
+   "km": null,
+   "why": "bieg na czas albo trasa bez podanej długości"
+  },
+  {
+   "sha": "9d1c834d",
+   "event": "Jeziorka Ultra River 2026",
+   "route": "Cwiartka na dziko ok. 11 km",
+   "km": 11,
+   "why": "impreza bez pomiaru czasu i klasyfikacji"
+  },
+  {
+   "sha": "9d1c834d",
+   "event": "Jeziorka Ultra River 2026",
+   "route": "Polowka na dziko ok. 21 km",
+   "km": 21,
+   "why": "impreza bez pomiaru czasu i klasyfikacji"
+  },
+  {
+   "sha": "9d1c834d",
+   "event": "Jeziorka Ultra River 2026",
+   "route": "Heavy Ultra Jeziorka 53+ km",
+   "km": 53,
+   "why": "impreza bez pomiaru czasu i klasyfikacji"
+  }
+ ]
+}

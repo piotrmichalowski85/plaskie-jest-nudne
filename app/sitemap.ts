@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { allRaces, generatedAt, today } from "@/lib/data";
 import { allHubs, hubPath } from "@/lib/hubs";
 import { TERMS } from "@/lib/slownik";
+import { report as raportCen } from "@/lib/raport-ceny";
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://plaskiejestnudne.pl";
   return [
@@ -12,6 +13,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/zmiany`, lastModified: generatedAt, changeFrequency: "weekly", priority: 0.5 },
     { url: `${base}/newsletter`, changeFrequency: "monthly", priority: 0.5 },
     { url: `${base}/slownik`, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${base}/raporty`, lastModified: raportCen.generatedAt, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${base}/raporty/ile-kosztuje-bieg-gorski`, lastModified: raportCen.generatedAt, changeFrequency: "yearly", priority: 0.8 },
     { url: `${base}/o-serwisie`, changeFrequency: "yearly", priority: 0.3 },
     { url: `${base}/dla-organizatorow`, changeFrequency: "monthly", priority: 0.5 },
     { url: `${base}/prywatnosc`, changeFrequency: "yearly", priority: 0.1 },
