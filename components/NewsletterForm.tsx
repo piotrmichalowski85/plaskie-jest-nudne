@@ -34,7 +34,7 @@ export function NewsletterForm({ compact = false, where = "strona" }: { compact?
   const done = state === "ok";
   return (
     <section className={compact ? "mt-10 card" : "card"} aria-labelledby={`${id}-h`}>
-      <h2 id={`${id}-h`} className={compact ? "text-[1.6rem]" : "text-[2rem]"}>Nowe biegi w poniedziałek rano</h2>
+      <h2 id={`${id}-h`} className={compact ? "text-[1.6rem]" : "text-[2rem]"}>Nowe biegi w poniedziałek rano w Twojej skrzynce</h2>
       <p className="mt-1 text-sm text-[var(--muted)] max-w-[40rem]">Raz w tygodniu krótka lista: biegi, które doszły do kalendarza, zapisy, które właśnie ruszyły, i terminy, które zaraz mijają. Gdy nie ma nic nowego ani żadnego terminu do pilnowania, nie piszemy.</p>
       {!done && (
         <form onSubmit={submit} className="mt-3 flex flex-col sm:flex-row gap-2 max-w-[34rem]" noValidate>
