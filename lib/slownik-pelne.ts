@@ -77,7 +77,7 @@ export function utmbFull(all: Race[], today: string): Full {
       "Indeks jest ważny, jeśli masz ukończony co najmniej jeden bieg z ostatnich 24 miesięcy. To samo dotyczy każdej kategorii osobno: żeby mieć ważny indeks 50K, potrzebujesz biegu kategorii 50K z ostatnich 24 miesięcy.",
       "Indeks przelicza się raz na dobę. Słaby bieg albo DNF (bieg nieukończony) go nie obniża, bo do średniej wchodzą tylko najlepsze wyniki; indeks spada sam z siebie, gdy wyniki się starzeją.",
     ] },
-    { p: "Indeks pojawia się już po jednym ukończonym biegu, ale z lekko obniżoną wagą w porównaniu z indeksem osoby, która ma pięć wyników. Wynik biegu i indeks są na tej samej skali punktowej. Dla orientacji: w zasadach cyklu UTMB World Series wynik dający elicie bezpośrednią kwalifikację do finałów to 615-690 punktów u kobiet i 780-840 u mężczyzn, zależnie od kategorii. Na profilu w utmb.world jest wykres, który pokazuje indeks na tle innych osób tej samej płci, wieku i kraju." },
+    { p: "Indeks pojawia się już po jednym ukończonym biegu, ale z lekko obniżoną wagą w porównaniu z indeksem osoby, która ma pięć wyników. Dla orientacji: w zasadach cyklu UTMB World Series wynik dający elicie bezpośrednią kwalifikację do finałów to 615-690 punktów u kobiet i 780-840 u mężczyzn, zależnie od kategorii. Na profilu w utmb.world jest wykres, który pokazuje indeks na tle innych osób tej samej płci, wieku i kraju." },
 
     { h: "Kategorie 20K, 50K, 100K i 100M: liczy się km-effort, nie kilometry" },
     { p: `Kategoria biegu wynika z km-effort, czyli z dystansu powiększonego o 1 km za każde 100 m podejścia. Przykład podawany przez UTMB: 50 km i 2500 m w górę to 75 km-effort.${ex50Txt} Biegi z pogranicza dwóch kategorii liczą się do indeksu w obu, o ile masz już w danej kategorii choć jeden wynik. Poniżej 20 km-effort (np. 15 km i +400 m, czyli 19) wynik nie jest liczony; nie dostają go też biegi typu Vertical Kilometer, biegi wirtualne i formuły typu backyard. Więcej o samym przewyższeniu: [co to jest D+](/slownik/przewyzszenie-d-plus).` },
@@ -109,17 +109,17 @@ export function utmbFull(all: Race[], today: string): Full {
     ...(byUtmb.length ? byUtmb.flatMap((r): Block[] => {
       const ds = r.elevations.filter((e) => e.dplus && effort(e) >= 20);
       return [
-        { p: `W kalendarzu jest ${link(r)} (${where(r)}). Dopisek "by UTMB" w nazwie oznacza imprezę cyklu, czyli taką, na której zdobywa się Running Stones. Liczbę kamieni za każdy dystans organizator podaje na swojej stronie.${ds.length ? " Dystanse, dla których mamy przewyższenie:" : ""}` },
+        { p: `W kalendarzu jest ${link(r)} (${where(r)}). Imprezy cyklu UTMB World Series mają zwykle w nazwie dopisek "by UTMB" i to na nich zdobywa się Running Stones. Liczbę kamieni za każdy dystans organizator podaje na swojej stronie.${ds.length ? " Dystanse, dla których mamy przewyższenie:" : ""}` },
         ...(ds.length ? [{ ul: ds.map((e) => `${kmD(e)}: ${num(effort(e))} km-effort, kategoria ${utmbCat(effort(e))}`) }] : []),
       ];
     }) : [{ p: `Na ${day} nie mamy w kalendarzu nadchodzącej imprezy z dopiskiem "by UTMB" w nazwie. Listę imprez cyklu w Europie znajdziesz na utmb.world.` } as Block]),
 
     { h: "Na pierwszym starcie" },
     { ul: [
-      "Przed pierwszym startem w górach indeks nie jest do niczego potrzebny. Organizatorzy krótkich biegów o niego nie pytają.",
+      "Przed pierwszym startem w górach indeksem nie trzeba się zajmować. W zasadach cyklu UTMB World Series organizator może wymagać ważnego indeksu dopiero od biegów kategorii 50K; czy wymaga go konkretny bieg, mówi jego regulamin.",
       `Pierwszy bieg (do 15 km) ma często mniej niż 20 km-effort, więc wyniku do indeksu w ogóle nie daje. W naszym kalendarzu dotyczy to ${tooShort} z ${known.length} dystansów z podanym przewyższeniem.`,
-      "Jeśli kiedyś zechcesz stanąć na starcie OCC, potrzebujesz minimum dwóch warunków: ważnego indeksu w dowolnej kategorii i jednego Running Stone z imprezy cyklu. Oba spełnisz, kończąc dystans 20K na biegu \"by UTMB\".",
-      "Wynik trafia na profil sam, jeśli dane podane przy zapisie na bieg zgadzają się z kontem My UTMB. Gdy się różnią, powstaje osobny profil i wynik trzeba przypiąć do konta ręcznie.",
+      "Jeśli kiedyś zechcesz stanąć na starcie OCC, potrzebujesz minimum dwóch warunków: ważnego indeksu w dowolnej kategorii i jednego Running Stone z imprezy cyklu. Oba spełnisz, kończąc bieg kategorii 20K na imprezie cyklu UTMB World Series.",
+      "Wynik trafia na profil sam, jeśli dane podane przy zapisie na bieg są takie same jak na koncie My UTMB (tak nazywa się konto w serwisie UTMB). Gdy się różnią, powstaje osobny profil i o przypięcie wyniku do konta trzeba poprosić.",
     ] },
 
     { h: "Najczęstsze nieporozumienia" },
@@ -185,10 +185,10 @@ export function itraFull(all: Race[], today: string): Full {
     } },
     { ul: [
       "Punkty dostają osoby kończące biegi, których organizator jest członkiem ITRA i przesłał ślad GPX trasy. Minimalna długość biegu w ITRA to 5 km-effort.",
-      "Punkty nie uwzględniają trudności technicznej terenu, tylko dystans i przewyższenie.",
-      "Gęste bufety obniżają ocenę, bo bieg wymaga wtedy mniej samodzielności. Przykład ITRA: 40 km i +1500 m to 55 km-effort, ale przy 6 punktach odżywczych odejmuje się 15, zostaje 40, czyli 1 punkt zamiast 2.",
+      "Punkty nie uwzględniają trudności technicznej terenu. Podstawą jest dystans i przewyższenie, a korekty zależą od liczby bufetów i pętli.",
+      "Gęste bufety obniżają ocenę: ITRA uznaje, że bieg z dużą liczbą punktów odżywczych w stosunku do dystansu nie wymaga samowystarczalności. Przykład ITRA: 40 km i +1500 m to 55 km-effort, ale przy 6 punktach odżywczych odejmuje się 15, zostaje 40, czyli 1 punkt zamiast 2.",
       "Biegi etapowe dostają o jeden punkt mniej, niż wynikałoby z łącznego km-effort.",
-      "Punkty przydają się przy zapisach: część organizatorów długich biegów wymaga określonej liczby punktów jako dowodu doświadczenia.",
+      "Punkty przydają się przy zapisach: część organizatorów wymaga określonej liczby punktów jako dowodu doświadczenia.",
     ] },
 
     { h: "Ile punktów dają biegi z naszego kalendarza" },
@@ -207,8 +207,8 @@ export function itraFull(all: Race[], today: string): Full {
 
     { h: "Na pierwszym starcie" },
     { ul: [
-      `Na pierwszy start punkty ITRA nie są potrzebne: ${zero} z ${known.length} dystansów w kalendarzu z podanym przewyższeniem to trasy na 0 punktów.`,
-      "Wymóg punktów pojawia się przy długich biegach. Szukaj go w regulaminie w części o warunkach uczestnictwa.",
+      `Na pierwszy start punkty ITRA zwykle nie są potrzebne: ${zero} z ${known.length} dystansów w kalendarzu z podanym przewyższeniem to trasy na 0 punktów.`,
+      "Część organizatorów wymaga przy zapisach określonej liczby punktów jako dowodu doświadczenia; według ITRA dotyczy to zwłaszcza dłuższych i trudniejszych biegów. Czy dotyczy Twojego biegu, sprawdzisz w jego regulaminie.",
       "Sam km-effort przydaje się od razu: pozwala porównać bieg górski z płaskim. Tej samej logiki używa nasz kalkulator [Czy dam radę?](/czy-dam-rade).",
       "Wyniki z biegów zgłoszonych do ITRA trafiają na konto automatycznie, więc ranking buduje się przy okazji startów.",
     ] },
@@ -216,7 +216,7 @@ export function itraFull(all: Race[], today: string): Full {
     { h: "Najczęstsze nieporozumienia" },
     { ul: [
       "\"Punkty ITRA to moje miejsce w rankingu.\" Punkty (0-6) opisują bieg. Ranking osób to Performance Index w skali do 1000.",
-      "\"Więcej punktów to trudniejsza technicznie trasa.\" Punkty mierzą wytrzymałość: dystans i przewyższenie. Skał, błota i ekspozycji nie uwzględniają.",
+      "\"Więcej punktów to trudniejsza technicznie trasa.\" Punkty mierzą wytrzymałość: liczą się z dystansu i przewyższenia, z korektą za bufety i pętle. Skał, błota i ekspozycji nie uwzględniają.",
       "\"Każdy bieg górski daje punkty ITRA.\" Tylko taki, którego organizator jest członkiem ITRA i zgłosił trasę do oceny.",
       "\"Punkty ITRA są potrzebne na UTMB.\" Do losowania na UTMB Mont-Blanc potrzebne są Running Stones i ważny [UTMB Index](/slownik/utmb-index-running-stones), a nie punkty ITRA.",
     ] },
@@ -225,9 +225,9 @@ export function itraFull(all: Race[], today: string): Full {
   const faq: [string, string][] = [
     ["ITRA: co to jest?", "ITRA (International Trail Running Association) to międzynarodowe stowarzyszenie biegów trailowych. Prowadzi kalendarz biegów, bazę wyników i światowy ranking uznawany przez World Athletics."],
     ["Punkty ITRA: co to jest i ile ich daje bieg?", "To ocena trudności biegu w skali 0-6, liczona z km-effort (kilometry plus 1 za każde 100 m podejścia): 0-24 to 0 punktów, 25-44 to 1, 45-74 to 2, 75-114 to 3, 115-154 to 4, 155-209 to 5, od 210 to 6. Punkty dostaje każda osoba, która ukończy bieg oceniony przez ITRA."],
-    ["Jak sprawdzić swój ranking ITRA?", "Ranking to Performance Index. Pojawia się po pierwszym ukończonym biegu, którego wyniki organizator przesłał do ITRA, i jest widoczny w wyszukiwarce biegaczy na itra.run."],
-    ["Czym różni się ITRA Performance Index od UTMB Index?", "To dwa osobne systemy. Oba liczą średnią ważoną maksymalnie pięciu najlepszych wyników z 36 miesięcy, ale każdy ma własną bazę biegów i własny model. Ranking ITRA jest uznawany przez World Athletics, a UTMB Index decyduje o dopuszczeniu do losowania na biegi UTMB Mont-Blanc."],
-    ["Czy punkty ITRA są potrzebne na pierwszy bieg górski?", "Nie. Krótkie biegi nie wymagają żadnych punktów. Wymóg pojawia się dopiero przy zapisach na niektóre długie biegi i zawsze jest opisany w regulaminie."],
+    ["Jak sprawdzić swój ranking ITRA?", "Ranking to Performance Index. Pojawia się po pierwszym ukończonym biegu, którego wyniki organizator przesłał do ITRA. Ranking jest dostępny na itra.run bez logowania, z filtrami kategorii dystansu, kraju, płci i wieku; własne wyniki trafiają na konto biegacza."],
+    ["Czym różni się ITRA Performance Index od UTMB Index?", "To dwa osobne systemy. Oba liczą średnią ważoną maksymalnie pięciu najlepszych wyników z 36 miesięcy, ale każda organizacja liczy wyniki własnym modelem na własnej bazie wyników. Ranking ITRA jest uznawany przez World Athletics, a ważny UTMB Index jest, obok Running Stones, jednym z dwóch warunków udziału w losowaniu na biegi UTMB Mont-Blanc."],
+    ["Czy punkty ITRA są potrzebne na pierwszy bieg górski?", "Zwykle nie. Według ITRA część organizatorów wymaga punktów jako dowodu doświadczenia, zwłaszcza na dłuższych i trudniejszych biegach. Czy dotyczy to Twojego biegu, sprawdzisz w jego regulaminie."],
   ];
   return { blocks, faq };
 }
