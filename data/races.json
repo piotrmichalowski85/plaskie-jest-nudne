@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-13T10:53:52.636Z",
- "count": 287,
+ "generatedAt": "2026-11-13T11:32:43.996Z",
+ "count": 291,
  "races": [
   {
    "name": "Podkarpacki Festiwal Sportowy",
@@ -27,7 +27,7 @@
    ],
    "vertical": false,
    "surface": "gorski",
-   "url": "https://kalendarzbiegowy.pl/biegi/podkarpacki-festiwal-sportowy/",
+   "url": "https://www.competitions.timekeeper.pl/podkarpacki-festiwal-sportowy",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -57,7 +57,7 @@
    ],
    "vertical": false,
    "surface": "trail",
-   "url": "https://kalendarzbiegowy.pl/biegi/biegiem-na-bagry-7/",
+   "url": "https://dostartu.pl/biegiem-na-bagry-7-v13894",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -95,7 +95,7 @@
    ],
    "vertical": false,
    "surface": "gorski",
-   "url": "https://kalendarzbiegowy.pl/biegi/potrojna-korona-walbrzyska/",
+   "url": "https://potrojnakorona.pl/site/impreza?e=walbrzyska#program",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -129,7 +129,7 @@
    ],
    "vertical": false,
    "surface": "gorski",
-   "url": "https://kalendarzbiegowy.pl/biegi/xxiii-bieg-gorski-na-hrobacza-lake-vii-rajd-nordic-walking-na-hrobacza-lake/",
+   "url": "https://bnhl.pl/home/",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -171,7 +171,7 @@
    ],
    "vertical": false,
    "surface": "gorski",
-   "url": "https://kalendarzbiegowy.pl/biegi/sudecki-festiwal-biegow-gorskich/",
+   "url": "https://stowarzyszeniewalimnazadanie.pl/sudecki-festiwal-biegow-gorskich-2/",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -201,7 +201,7 @@
    ],
    "vertical": false,
    "surface": "trail",
-   "url": "https://kalendarzbiegowy.pl/biegi/zwiewna-piatka/",
+   "url": "https://foxter-sport.pl/zwiewna-piatka-2025",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -231,13 +231,18 @@
    ],
    "vertical": false,
    "surface": "gorski",
-   "url": "https://kalendarzbiegowy.pl/biegi/zyrowski-wierch/",
+   "url": "https://www.zmierzymyczas.pl/2283/xiv-zyrowski-wierch.html",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
      "url": "https://kalendarzbiegowy.pl/biegi/zyrowski-wierch/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://citytrail.pl/strony/stat/id/8/regulamin-bieg-glowny"
     }
    ],
+   "regulaminUrl": "https://citytrail.pl/strony/stat/id/8/regulamin-bieg-glowny",
    "id": "zyrowski-wierch-2025-06-19",
    "minKm": 7,
    "maxKm": 7,
@@ -251,22 +256,60 @@
    "dateEnd": "2025-07-26",
    "city": "Zawoja",
    "region": "",
-   "distancesKm": [],
-   "elevations": [],
+   "distancesKm": [
+    6,
+    6.2,
+    16.5,
+    42.9,
+    63,
+    97,
+    100,
+    106
+   ],
+   "elevations": [
+    {
+     "km": 6
+    },
+    {
+     "km": 6.2
+    },
+    {
+     "km": 16.5
+    },
+    {
+     "km": 42.9
+    },
+    {
+     "km": 63
+    },
+    {
+     "km": 97
+    },
+    {
+     "km": 100
+    },
+    {
+     "km": 106
+    }
+   ],
    "vertical": false,
    "surface": "gorski",
-   "url": "https://kalendarzbiegowy.pl/biegi/zawojski-festiwal-biegowy/",
+   "url": "https://www.zawojabieg.pl/",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
      "url": "https://kalendarzbiegowy.pl/biegi/zawojski-festiwal-biegowy/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://www.zawojabieg.pl/"
     }
    ],
    "id": "zawojski-festiwal-biegowy-2025-07-26",
-   "minKm": 0,
-   "maxKm": 0,
-   "beginnerScore": 3,
-   "beginnerWhy": "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed zapisem."
+   "minKm": 6,
+   "maxKm": 106,
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 6 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "11. Ultra Kamieńsk",
@@ -293,7 +336,7 @@
    ],
    "vertical": false,
    "surface": "gorski",
-   "url": "https://kalendarzbiegowy.pl/biegi/11-ultra-kamiensk/",
+   "url": "https://zapisy.inessport.pl/#gr248",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -335,7 +378,7 @@
    ],
    "vertical": false,
    "surface": "trail",
-   "url": "https://kalendarzbiegowy.pl/biegi/ultra-mazury/",
+   "url": "https://ultramazury.pl/index.php/dla-uczestnikow/rejestracje",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -377,7 +420,7 @@
    ],
    "vertical": false,
    "surface": "gorski",
-   "url": "https://kalendarzbiegowy.pl/biegi/niedamirun-ultramaraton-sudecki-v4-0/",
+   "url": "https://www.niedamirun.pl/",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -411,7 +454,7 @@
    ],
    "vertical": false,
    "surface": "gorski",
-   "url": "https://kalendarzbiegowy.pl/biegi/ix-charytatywny-bieg-na-grzybowa-gore/",
+   "url": "https://online.datasport.pl/zapisy/portal/zawody.php...",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -461,7 +504,7 @@
    ],
    "vertical": false,
    "surface": "gorski",
-   "url": "https://kalendarzbiegowy.pl/biegi/viii-biegi-gorskie-sanok/",
+   "url": "https://competitions.timekeeper.pl/viii-biegi-gorskie-sanok-2025",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -499,7 +542,7 @@
    ],
    "vertical": false,
    "surface": "trail",
-   "url": "https://kalendarzbiegowy.pl/biegi/augustowski-festiwal-biegowy-2025/",
+   "url": "https://www.polmaratonaugustowski.pl/",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -533,7 +576,7 @@
    ],
    "vertical": false,
    "surface": "trail",
-   "url": "https://kalendarzbiegowy.pl/biegi/ultras-oliwski-2025-wokol-radosci-v-edycja/",
+   "url": "https://elektronicznezapisy.pl/event/12157/strona.html",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -563,7 +606,7 @@
    ],
    "vertical": false,
    "surface": "gorski",
-   "url": "https://kalendarzbiegowy.pl/biegi/ekstremalny-polmaraton-gorski-o-puchar-starosty-zywieckiego/",
+   "url": "https://www.bgtimesport.pl/zawody/biegi/id/800",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -593,7 +636,7 @@
    ],
    "vertical": false,
    "surface": "trail",
-   "url": "https://kalendarzbiegowy.pl/biegi/cross-wesola/",
+   "url": "https://www.protimer.pl/bio/1349/cross-wesola-2025/page",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -627,7 +670,7 @@
    ],
    "vertical": false,
    "surface": "trail",
-   "url": "https://kalendarzbiegowy.pl/biegi/x-bieg-w-czerniawce/",
+   "url": "https://dostartu.pl/x-bieg-w-czerniawce-v14916",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -678,20 +721,19 @@
    "city": "Zakopane",
    "region": "",
    "distancesKm": [
-    5,
-    10
+    5
    ],
    "elevations": [
     {
-     "km": 5
-    },
-    {
-     "km": 10
+     "km": 5,
+     "dplus": 400,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://biegowe360.pl/"
     }
    ],
    "vertical": false,
    "surface": "gorski",
-   "url": "https://kalendarzbiegowy.pl/biegi/konferencja-biegowe-360-w-zakopanem/",
+   "url": "https://biegowe360.pl/",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -699,14 +741,14 @@
     },
     {
      "name": "strona organizatora",
-     "url": "https://kalendarzbiegowy.pl/biegi/konferencja-biegowe-360-w-zakopanem/"
+     "url": "https://biegowe360.pl/"
     }
    ],
    "id": "konferencja-biegowe-360-w-zakopanem-2025-10-17",
    "minKm": 5,
-   "maxKm": 10,
-   "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 5 km; przewyższenie nieznane, sprawdź profil trasy."
+   "maxKm": 5,
+   "beginnerScore": 3,
+   "beginnerWhy": "najkrótszy dystans 5 km; stromo: ok. 80 m przewyższenia na kilometr, dużo marszu pod górę."
   },
   {
    "name": "Cross Śrem Grand Prix",
@@ -725,7 +767,7 @@
    ],
    "vertical": false,
    "surface": "trail",
-   "url": "https://kalendarzbiegowy.pl/biegi/cross-srem-grand-prix/",
+   "url": "https://sremskisport.pl/2025/09/03/4-cross-srem-grand-prix-biegnij-z-duchem/",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -745,32 +787,22 @@
    "dateEnd": "2025-10-25",
    "city": "Nowa Słupia ul. Świętokrzyska 63 A",
    "region": "",
-   "distancesKm": [
-    34
-   ],
-   "elevations": [
-    {
-     "km": 34
-    }
-   ],
+   "distancesKm": [],
+   "elevations": [],
    "vertical": false,
    "surface": "gorski",
-   "url": "https://kalendarzbiegowy.pl/biegi/7-gorski-maraton-swietokrzyski/",
+   "url": "https://zapisy.personalbest.pl/7-gorski-maraton-swietokrzyski-im-trenera-kazimierza-jarosa-v14779",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
      "url": "https://kalendarzbiegowy.pl/biegi/7-gorski-maraton-swietokrzyski/"
-    },
-    {
-     "name": "strona organizatora",
-     "url": "https://kalendarzbiegowy.pl/biegi/7-gorski-maraton-swietokrzyski/"
     }
    ],
    "id": "7-gorski-maraton-swietokrzyski-2025-10-25",
-   "minKm": 34,
-   "maxKm": 34,
-   "beginnerScore": 2,
-   "beginnerWhy": "najkrótszy dystans 34 km to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy."
+   "minKm": 0,
+   "maxKm": 0,
+   "beginnerScore": 3,
+   "beginnerWhy": "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed zapisem."
   },
   {
    "name": "Gorlicki Bieg Górski",
@@ -785,15 +817,21 @@
    ],
    "elevations": [
     {
-     "km": 7
+     "km": 7,
+     "dplus": 160,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://bieggorski.pl/zapisy/"
     },
     {
-     "km": 24
+     "km": 24,
+     "dplus": 610,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://bieggorski.pl/zapisy/"
     }
    ],
    "vertical": false,
    "surface": "gorski",
-   "url": "https://kalendarzbiegowy.pl/biegi/gorlicki-bieg-gorski/",
+   "url": "https://bieggorski.pl/zapisy/",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -801,14 +839,14 @@
     },
     {
      "name": "strona organizatora",
-     "url": "https://kalendarzbiegowy.pl/biegi/gorlicki-bieg-gorski/"
+     "url": "https://bieggorski.pl/zapisy/"
     }
    ],
    "id": "gorlicki-bieg-gorski-2025-11-09",
    "minKm": 7,
    "maxKm": 24,
-   "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 7 km; przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerScore": 5,
+   "beginnerWhy": "najkrótszy dystans 7 km; łagodnie: ok. 23 m przewyższenia na kilometr."
   },
   {
    "name": "XIII Bieg Niepodległości",
@@ -831,7 +869,7 @@
    ],
    "vertical": false,
    "surface": "gorski",
-   "url": "https://kalendarzbiegowy.pl/biegi/xiii-bieg-niepodleglosci-2/",
+   "url": "https://dostartu.pl/xiii-bieg-niepodleg-osci-w-rytrze-v15102",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -861,7 +899,7 @@
    ],
    "vertical": false,
    "surface": "trail",
-   "url": "https://kalendarzbiegowy.pl/biegi/bieg-herosa-4/",
+   "url": "https://dostartu.pl/bieg-herosa-22-11-2025-v14973",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -895,7 +933,7 @@
    ],
    "vertical": false,
    "surface": "gorski",
-   "url": "https://kalendarzbiegowy.pl/biegi/zimowy-ultra-turnicki/",
+   "url": "https://competitions.timekeeper.pl/zimowy-ultra-turnicki",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -945,36 +983,22 @@
    "dateEnd": "2025-12-20",
    "city": "Niegowonice",
    "region": "",
-   "distancesKm": [
-    11,
-    21
-   ],
-   "elevations": [
-    {
-     "km": 11
-    },
-    {
-     "km": 21
-    }
-   ],
+   "distancesKm": [],
+   "elevations": [],
    "vertical": false,
    "surface": "trail",
-   "url": "https://kalendarzbiegowy.pl/biegi/zimna-polowka-chlodna-cwiartka-2025/",
+   "url": "https://extremejura.com/zimna",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
      "url": "https://kalendarzbiegowy.pl/biegi/zimna-polowka-chlodna-cwiartka-2025/"
-    },
-    {
-     "name": "strona organizatora",
-     "url": "https://kalendarzbiegowy.pl/biegi/zimna-polowka-chlodna-cwiartka-2025/"
     }
    ],
    "id": "zimna-polowka-chlodna-cwiartka-2025-12-20",
-   "minKm": 11,
-   "maxKm": 21,
-   "beginnerScore": 4,
-   "beginnerWhy": "najkrótszy dystans 11 km; przewyższenie nieznane, sprawdź profil trasy."
+   "minKm": 0,
+   "maxKm": 0,
+   "beginnerScore": 3,
+   "beginnerWhy": "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed zapisem."
   },
   {
    "name": "Grand Prix Krakowa w biegach górskich",
@@ -1227,7 +1251,7 @@
     },
     {
      "name": "strona organizatora",
-     "url": "https://kalendarzbiegowy.pl/biegi/zimowy-maraton-swietokrzyski-2026/"
+     "url": "https://b4sportonline.pl/swietokrzyski_poziom_gor/"
     }
    ],
    "id": "zimowy-maraton-swietokrzyski-2026-01-17",
@@ -1790,7 +1814,7 @@
    ],
    "vertical": false,
    "surface": "trail",
-   "url": "https://kalendarzbiegowy.pl/biegi/bieg-pamieci-sybiru-we-wroclawiu/",
+   "url": "https://biegpamiecisybiru.pl/",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -1986,7 +2010,7 @@
    ],
    "vertical": false,
    "category": "Kat.I",
-   "url": "https://kalendarzbiegowy.pl/biegi/lemkowyna-winter-trail/",
+   "url": "https://b4sportonline.pl/lemkowyna_winter_trail/",
    "sources": [
     {
      "name": "biegigorskie.pl",
@@ -2658,6 +2682,10 @@
     {
      "name": "kalendarzbiegowy.pl",
      "url": "https://kalendarzbiegowy.pl/biegi/viii-festiwal-pieszo-biegowy-przedwiosnie/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://b4sportonline.pl/swietokrzyski_poziom_gor/"
     }
    ],
    "id": "viii-festiwal-pieszo-biegowy-przedwiosnie-2026-04-11",
@@ -2995,7 +3023,7 @@
    ],
    "vertical": false,
    "surface": "trail",
-   "url": "https://kalendarzbiegowy.pl/biegi/siedlecki-maraton-na-raty-2/",
+   "url": "https://maraton.siedlce.pl/zapisy/",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -3160,10 +3188,6 @@
     {
      "name": "kalendarzbiegowy.pl",
      "url": "https://kalendarzbiegowy.pl/biegi/festiwal-biegow-gorskich-3xkopa-4/"
-    },
-    {
-     "name": "strona organizatora",
-     "url": "https://kalendarzbiegowy.pl/biegi/festiwal-biegow-gorskich-3xkopa-4/"
     }
    ],
    "regulaminUrl": "https://3xkopa.pl/regulamin/",
@@ -3200,19 +3224,23 @@
    ],
    "elevations": [
     {
-     "km": 6
+     "km": 6,
+     "limitH": 1.5
     },
     {
-     "km": 13
+     "km": 13,
+     "limitH": 3
     },
     {
-     "km": 22
+     "km": 22,
+     "limitH": 5
     },
     {
      "km": 52
     },
     {
-     "km": 103
+     "km": 103,
+     "limitH": 17
     }
    ],
    "vertical": false,
@@ -3228,10 +3256,11 @@
      "url": "https://kalendarzbiegowy.pl/biegi/meble-wojcik-ultra-wysoczyzna-2026/"
     },
     {
-     "name": "strona organizatora",
-     "url": "https://kalendarzbiegowy.pl/biegi/meble-wojcik-ultra-wysoczyzna-2026/"
+     "name": "regulamin",
+     "url": "https://ultrawysoczyzna.pl/regulamin/"
     }
    ],
+   "regulaminUrl": "https://ultrawysoczyzna.pl/regulamin/",
    "id": "meble-wojcik-ultra-wysoczyzna-2026-04-24",
    "surface": "przelaj",
    "minKm": 6,
@@ -4031,7 +4060,7 @@
    ],
    "vertical": false,
    "surface": "trail",
-   "url": "https://kalendarzbiegowy.pl/biegi/wielonek-trail-festival/",
+   "url": "https://foxter-sport.pl/wtf26",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -4430,22 +4459,13 @@
      "km": 0.3
     },
     {
-     "km": 11,
-     "dplus": 400,
-     "dplusSource": "organizator",
-     "dplusSourceUrl": "https://kalendarzbiegowy.pl/biegi/tatra-fest-2026/"
+     "km": 11
     },
     {
-     "km": 22,
-     "dplus": 1000,
-     "dplusSource": "organizator",
-     "dplusSourceUrl": "https://kalendarzbiegowy.pl/biegi/tatra-fest-2026/"
+     "km": 22
     },
     {
-     "km": 68,
-     "dplus": 5000,
-     "dplusSource": "organizator",
-     "dplusSourceUrl": "https://kalendarzbiegowy.pl/biegi/tatra-fest-2026/"
+     "km": 68
     }
    ],
    "vertical": false,
@@ -4458,10 +4478,6 @@
     },
     {
      "name": "kalendarzbiegowy.pl",
-     "url": "https://kalendarzbiegowy.pl/biegi/tatra-fest-2026/"
-    },
-    {
-     "name": "strona organizatora",
      "url": "https://kalendarzbiegowy.pl/biegi/tatra-fest-2026/"
     }
    ],
@@ -4580,10 +4596,18 @@
      "km": 1
     },
     {
-     "km": 10
+     "km": 10,
+     "dplus": 200,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://summer.pomeraniatrail.pl/?trasa=summertrail55",
+     "limitH": 2
     },
     {
-     "km": 25
+     "km": 25,
+     "dplus": 700,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://summer.pomeraniatrail.pl/?trasa=summertrail55",
+     "limitH": 4
     },
     {
      "km": 45
@@ -4600,10 +4624,19 @@
     {
      "name": "kalendarzbiegowy.pl",
      "url": "https://kalendarzbiegowy.pl/biegi/coconaut-pomerania-summer-trail/"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://summer.pomeraniatrail.pl/?trasa=summertrail55"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://summer.pomeraniatrail.pl/wp-content/uploads/2026/11/REGULAMIN-COCONAUT-POMERANIA-SUMMER-TRAIL-2027.pdf"
     }
    ],
+   "regulaminUrl": "https://summer.pomeraniatrail.pl/wp-content/uploads/2026/11/REGULAMIN-COCONAUT-POMERANIA-SUMMER-TRAIL-2027.pdf",
    "id": "coconaut-pomerania-summer-trail-2026-06-13",
-   "surface": "przelaj",
+   "surface": "trail",
    "minKm": 1,
    "maxKm": 45,
    "beginnerScore": 4,
@@ -5495,7 +5528,7 @@
    ],
    "vertical": false,
    "category": "Kat.I",
-   "url": "https://kalendarzbiegowy.pl/biegi/14-dolnoslaski-festiwal-biegow-gorskich/",
+   "url": "https://dfbg.pl/zgloszenia/zapisy",
    "sources": [
     {
      "name": "biegigorskie.pl",
@@ -5665,8 +5698,13 @@
     {
      "name": "kalendarzbiegowy.pl",
      "url": "https://kalendarzbiegowy.pl/biegi/tatra-skymarathon-2026/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://tatraskymarathon.pl/regulamin/"
     }
    ],
+   "regulaminUrl": "https://tatraskymarathon.pl/regulamin/",
    "id": "festiwal-tatra-skymarathon-2026-07-25",
    "surface": "gorski",
    "minKm": 5,
@@ -5893,10 +5931,15 @@
      "url": "https://www.biegigorskie.pl/kalendarz-2026/"
     },
     {
+     "name": "regulamin",
+     "url": "https://gorceultratrail.pl/assets/files/GUT-2026-regulamin.pdf"
+    },
+    {
      "name": "kalendarzbiegowy.pl",
      "url": "https://kalendarzbiegowy.pl/biegi/xi-gorce-ultra-trail/"
     }
    ],
+   "regulaminUrl": "https://gorceultratrail.pl/assets/files/GUT-2026-regulamin.pdf",
    "id": "xi-festiwal-biegow-gorskich-gorce-ultra-trail-2026-07-31",
    "surface": "gorski",
    "minKm": 5,
@@ -6323,36 +6366,22 @@
    "dateEnd": "2026-08-22",
    "city": "Stary Folwark",
    "region": "",
-   "distancesKm": [
-    13,
-    42.2
-   ],
-   "elevations": [
-    {
-     "km": 13
-    },
-    {
-     "km": 42.2
-    }
-   ],
+   "distancesKm": [],
+   "elevations": [],
    "vertical": false,
    "surface": "trail",
-   "url": "https://kalendarzbiegowy.pl/biegi/maraton-wigry-2/",
+   "url": "https://b4sportonline.pl/Maraton_Wigry/",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
      "url": "https://kalendarzbiegowy.pl/biegi/maraton-wigry-2/"
-    },
-    {
-     "name": "strona organizatora",
-     "url": "https://kalendarzbiegowy.pl/biegi/maraton-wigry-2/"
     }
    ],
    "id": "maraton-wigry-2026-08-22",
-   "minKm": 13,
-   "maxKm": 42.2,
+   "minKm": 0,
+   "maxKm": 0,
    "beginnerScore": 3,
-   "beginnerWhy": "najkrótszy dystans 13 km (jak półmaraton w terenie, zwykle wolniej); przewyższenie nieznane, sprawdź profil trasy."
+   "beginnerWhy": "Organizator nie podał dystansu ani przewyższenia w kalendarzu: sprawdź regulamin przed zapisem."
   },
   {
    "name": "14 LETNI BIEG PIASTÓW: Bieg Śniadaniowy 6km, Jakuszycki Ultramaraton, Jakuszycki Półmaraton, Jakuszycka 13, Marsz Nordic Walking",
@@ -6465,7 +6494,7 @@
    ],
    "vertical": false,
    "category": "Kat.II",
-   "url": "https://kalendarzbiegowy.pl/biegi/11-bieg-kurierow-sadeckich/",
+   "url": "http://www.visegradmaraton.info",
    "sources": [
     {
      "name": "biegigorskie.pl",
@@ -6608,7 +6637,7 @@
    ],
    "vertical": false,
    "surface": "trail",
-   "url": "https://kalendarzbiegowy.pl/biegi/ix-bieg-cross-mol/",
+   "url": "https://elektronicznezapisy.pl/event/15274.html",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -6642,7 +6671,7 @@
    ],
    "vertical": false,
    "surface": "trail",
-   "url": "https://kalendarzbiegowy.pl/biegi/szczesliwa-13-3/",
+   "url": "https://time4s.pl/szczesliwa-13ka-2026",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -6797,7 +6826,7 @@
    ],
    "vertical": false,
    "surface": "gorski",
-   "url": "https://kalendarzbiegowy.pl/biegi/festiwal-sportowy-im-kazimierza-bubuli-2026/",
+   "url": "https://www.e-gepard.eu/pl/show-contest/1653",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -7279,7 +7308,7 @@
    ],
    "vertical": false,
    "surface": "trail",
-   "url": "https://kalendarzbiegowy.pl/biegi/xviii-biegu-o-puchar-burmistrza-miasta-i-gminy-katy-wroclawskie/",
+   "url": "https://formularz.ultimasport.pl/485",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -7544,7 +7573,11 @@
     },
     {
      "name": "strona organizatora",
-     "url": "https://kalendarzbiegowy.pl/biegi/maraton-trzech-jezior-2026/"
+     "url": "https://www.maraton3jezior.com"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://www.maraton3jezior.com/trasa-maratonu-trzech-jezior/"
     }
    ],
    "regulaminUrl": "https://www.maraton3jezior.com/regulamin/",
@@ -7637,7 +7670,7 @@
    ],
    "vertical": false,
    "surface": "trail",
-   "url": "https://kalendarzbiegowy.pl/biegi/ultras-oliwski-2026-wokol-radosci-6-edycja/",
+   "url": "https://elektronicznezapisy.pl/event/13847.html",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -8294,36 +8327,23 @@
    ],
    "elevations": [
     {
-     "km": 10,
-     "limitH": 2
+     "km": 10
     },
     {
-     "km": 22,
-     "limitH": 3.5
+     "km": 22
     },
     {
-     "km": 44,
-     "limitH": 7
+     "km": 44
     }
    ],
    "vertical": false,
    "surface": "gorski",
-   "url": "https://kalendarzbiegowy.pl/biegi/goraj-morena-trail-2/",
+   "url": "https://panel.maratonczykpomiarczasu.pl/goraj-morena-trail",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
      "url": "https://kalendarzbiegowy.pl/biegi/goraj-morena-trail-2/"
-    },
-    {
-     "name": "regulamin",
-     "url": "https://panel.maratonczykpomiarczasu.pl/sites/default/files/u22/regulamin%20goraj%20morena%20trail%205%20edycja%20-%208.01.2026%20zm%209.07.2026.pdf"
     }
-   ],
-   "regulaminUrl": "https://panel.maratonczykpomiarczasu.pl/sites/default/files/u22/regulamin%20goraj%20morena%20trail%205%20edycja%20-%208.01.2026%20zm%209.07.2026.pdf",
-   "gear": [
-    "Dokument tożsamości",
-    "Telefon komórkowy z działającą baterią",
-    "Kubek lub pojemnik na płyn (22 km, 44 km)"
    ],
    "id": "goraj-morena-trail-2026-10-04",
    "minKm": 10,
@@ -8634,13 +8654,8 @@
     {
      "name": "kalendarzbiegowy.pl",
      "url": "https://kalendarzbiegowy.pl/biegi/ii-korczynski-polmaraton-gorski-xi-korczynski-bieg-i-nordic-walking-do-przadek/"
-    },
-    {
-     "name": "regulamin",
-     "url": "https://competitions.timekeeper.pl/download/1081"
     }
    ],
-   "regulaminUrl": "https://competitions.timekeeper.pl/download/1081",
    "id": "ii-korczynski-polmaraton-gorski-2026-10-10",
    "surface": "gorski",
    "minKm": 6,
@@ -8673,23 +8688,12 @@
    ],
    "vertical": false,
    "surface": "trail",
-   "url": "https://kalendarzbiegowy.pl/biegi/jeziorka-ultra-river-jur-2026/",
+   "url": "https://dostartu.pl/jeziorka-ultra-river-jur-2026-v16818",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
      "url": "https://kalendarzbiegowy.pl/biegi/jeziorka-ultra-river-jur-2026/"
-    },
-    {
-     "name": "regulamin",
-     "url": "https://dostartu.pl/statute_files/16818_pl.pdf"
     }
-   ],
-   "regulaminUrl": "https://dostartu.pl/statute_files/16818_pl.pdf",
-   "gear": [
-    "Telefon lub zegarek z nawigacją i trasą",
-    "Kubek lub softflask z zapasem płynów",
-    "Folia NRC",
-    "Strój adekwatny do warunków atmosferycznych"
    ],
    "id": "jeziorka-ultra-river-jur-2026-10-10",
    "minKm": 11,
@@ -9168,7 +9172,7 @@
    ],
    "vertical": false,
    "surface": "gorski",
-   "url": "https://kalendarzbiegowy.pl/biegi/6-dycha-pod-krokwia/",
+   "url": "https://bgtimesport.pl/zawody/info/id/869",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -9444,7 +9448,7 @@
    ],
    "vertical": false,
    "surface": "trail",
-   "url": "https://kalendarzbiegowy.pl/biegi/iv-bieg-niepodleglosci-11-kilometrow-dla-niepodleglej/",
+   "url": "https://dostartu.pl/iv-bieg-niepodleg-osci-11-kilometrow-dla-niepodleg-ej-v17426",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
@@ -10244,7 +10248,7 @@
    "beginnerWhy": "najkrótszy dystans 6 km; łagodnie: ok. 18 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Podhalański Bieg Mikołajkowy: Podhalański Bieg Mikołajkowy - Brama Świętego Mikołaja 13km, Podhalański Bieg Mikołajkowy - Ostrowskie Mikołajki 6km, Podhalański Bieg Mikołajkowy - Rodzinne Mikołajki 1km",
+   "name": "Podhalański Bieg Mikołajkowy: Podhalański Bieg Mikołajkowy - Rodzinne Mikołajki 1km, Podhalański Bieg Mikołajkowy - Brama Świętego Mikołaja 13km, Podhalański Bieg Mikołajkowy - Ostrowskie Mikołajki 6km",
    "eventName": "Turbacz Trail",
    "dateStart": "2026-12-06",
    "dateEnd": "2026-12-06",
@@ -10492,13 +10496,19 @@
    ],
    "vertical": false,
    "surface": "trail",
-   "url": "https://kalendarzbiegowy.pl/biegi/9-bieg-sladami-zubra/",
+   "url": "https://biegzubra.pl",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
      "url": "https://kalendarzbiegowy.pl/biegi/9-bieg-sladami-zubra/"
     }
    ],
+   "signup": {
+    "status": "open",
+    "source": "organizator",
+    "sourceUrl": "https://biegzubra.pl",
+    "checkedAt": "2026-11-13"
+   },
    "id": "9-bieg-sladami-zubra-2026-12-12",
    "minKm": 1.8,
    "maxKm": 12,
@@ -10735,14 +10745,9 @@
     {
      "name": "strona organizatora (termin kolejnej edycji)",
      "url": "https://www.biegzboja.pl/"
-    },
-    {
-     "name": "regulamin",
-     "url": "https://www.biegzboja.pl/regulaminb"
     }
    ],
    "provisional": "termin ze strony organizatora, dystanse z poprzedniej edycji",
-   "regulaminUrl": "https://www.biegzboja.pl/regulaminb",
    "id": "zimowy-bieg-zboja-2027-01-10",
    "minKm": 13,
    "maxKm": 18,
@@ -10987,6 +10992,10 @@
     {
      "name": "kalendarzbiegowy.pl",
      "url": "https://kalendarzbiegowy.pl/biegi/zimowy-maraton-swietokrzyski-2027/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://b4sportonline.pl/swietokrzyski_poziom_gor/"
     }
    ],
    "signupOpen": true,
@@ -11133,13 +11142,13 @@
     "status": "closed",
     "until": "2027-01-14",
     "limit": 450,
-    "registered": 748,
+    "registered": 758,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/Zimowy_Polmaraton_Gor_Stolowych/",
     "checkedAt": "2026-11-13"
    },
    "signupOpen": true,
-   "participants": 748,
+   "participants": 758,
    "id": "zimowy-polmaraton-gor-stolowych-2027-01-16",
    "surface": "trail",
    "minKm": 21,
@@ -11648,12 +11657,6 @@
     "checkedAt": "2026-11-13"
    },
    "regulaminUrl": "https://gorceultratrail.pl/assets/files/GUT-2026-regulamin.pdf",
-   "gear": [
-    "Telefon komórkowy włączony i naładowany",
-    "Kubek wielokrotnego użytku",
-    "Butelka lub bukłak do uzupełniania płynów",
-    "Ślad GPX (GUT 102, GUT 66)"
-   ],
    "surface": "gorski",
    "id": "gorce-ultra-trail-winter-2027-zadyszka-2027-02-27",
    "minKm": 10,
@@ -11780,6 +11783,13 @@
     }
    ],
    "regulaminUrl": "https://krakowbiega.pl/wp-content/uploads/2026/08/Regulamin-XV-edycja-GPK.pdf",
+   "signup": {
+    "status": "open",
+    "until": "2027-02-27",
+    "source": "organizator",
+    "sourceUrl": "https://krakowbiega.pl/zgloszenia-xv-edycja/",
+    "checkedAt": "2026-11-13"
+   },
    "id": "xv-grand-prix-krakowa-w-biegach-gorskich-2027-03-07",
    "surface": "gorski",
    "minKm": 3.7,
@@ -12261,6 +12271,42 @@
    "maxKm": 101,
    "beginnerScore": 2,
    "beginnerWhy": "najkrótszy dystans 25 km to już długo w terenie; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+  },
+  {
+   "name": "Żyrowski Wierch",
+   "eventName": "Żyrowski Wierch",
+   "dateStart": "2027-04-10",
+   "dateEnd": "2027-04-10",
+   "city": "Zdzieszowice",
+   "region": "",
+   "url": "https://www.zmierzymyczas.pl/2283/xiv-zyrowski-wierch.html",
+   "distancesKm": [
+    7
+   ],
+   "elevations": [
+    {
+     "km": 7
+    }
+   ],
+   "vertical": false,
+   "surface": "gorski",
+   "sources": [
+    {
+     "name": "strona organizatora (termin kolejnej edycji)",
+     "url": "https://www.zmierzymyczas.pl/2283/xiv-zyrowski-wierch.html"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://citytrail.pl/strony/stat/id/8/regulamin-bieg-glowny"
+    }
+   ],
+   "provisional": "termin ze strony organizatora, dystanse z poprzedniej edycji",
+   "regulaminUrl": "https://citytrail.pl/strony/stat/id/8/regulamin-bieg-glowny",
+   "id": "zyrowski-wierch-2027-04-10",
+   "minKm": 7,
+   "maxKm": 7,
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 7 km; przewyższenie nieznane, sprawdź profil trasy."
   },
   {
    "name": "X-RUN - Muszyna Trail",
@@ -12879,13 +12925,25 @@
    ],
    "vertical": false,
    "surface": "trail",
-   "url": "https://kalendarzbiegowy.pl/biegi/18-bieg-weganski/",
+   "url": "https://biegweganski.pl/",
    "sources": [
     {
      "name": "kalendarzbiegowy.pl",
      "url": "https://kalendarzbiegowy.pl/biegi/18-bieg-weganski/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://dostartu.pl/statute_files/15653_pl.pdf"
     }
    ],
+   "regulaminUrl": "https://dostartu.pl/statute_files/15653_pl.pdf",
+   "signup": {
+    "status": "unknown",
+    "limit": 250,
+    "source": "regulamin",
+    "sourceUrl": "https://dostartu.pl/statute_files/15653_pl.pdf",
+    "checkedAt": "2026-11-13"
+   },
    "id": "18-bieg-weganski-2027-05-23",
    "minKm": 2.5,
    "maxKm": 10,
@@ -13221,6 +13279,114 @@
    "maxKm": 75,
    "beginnerScore": 4,
    "beginnerWhy": "najkrótszy dystans 8 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+  },
+  {
+   "name": "Coconaut Pomerania Summer Trail",
+   "eventName": "Coconaut Pomerania Summer Trail",
+   "dateStart": "2027-06-06",
+   "dateEnd": "2027-06-06",
+   "city": "Gniewino",
+   "region": "",
+   "url": "https://summer.pomeraniatrail.pl",
+   "distancesKm": [
+    1,
+    10,
+    25,
+    45
+   ],
+   "elevations": [
+    {
+     "km": 1
+    },
+    {
+     "km": 10,
+     "dplus": 200,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://summer.pomeraniatrail.pl/?trasa=summertrail55",
+     "dplusCheckedAt": "2026-11-13",
+     "limitH": 2
+    },
+    {
+     "km": 25,
+     "dplus": 700,
+     "dplusSource": "trasa",
+     "dplusSourceUrl": "https://summer.pomeraniatrail.pl/?trasa=summertrail55",
+     "dplusCheckedAt": "2026-11-13",
+     "limitH": 4
+    },
+    {
+     "km": 45
+    }
+   ],
+   "vertical": false,
+   "surface": "trail",
+   "sources": [
+    {
+     "name": "strona organizatora (termin kolejnej edycji)",
+     "url": "https://summer.pomeraniatrail.pl"
+    },
+    {
+     "name": "trasa (organizator)",
+     "url": "https://summer.pomeraniatrail.pl/?trasa=summertrail55"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://summer.pomeraniatrail.pl/wp-content/uploads/2026/11/REGULAMIN-COCONAUT-POMERANIA-SUMMER-TRAIL-2027.pdf"
+    }
+   ],
+   "provisional": "termin ze strony organizatora, dystanse z poprzedniej edycji",
+   "regulaminUrl": "https://summer.pomeraniatrail.pl/wp-content/uploads/2026/11/REGULAMIN-COCONAUT-POMERANIA-SUMMER-TRAIL-2027.pdf",
+   "signup": {
+    "status": "unknown",
+    "note": "do wyczerpania limitu",
+    "source": "regulamin",
+    "sourceUrl": "https://summer.pomeraniatrail.pl/wp-content/uploads/2026/11/REGULAMIN-COCONAUT-POMERANIA-SUMMER-TRAIL-2027.pdf",
+    "checkedAt": "2026-11-13"
+   },
+   "id": "coconaut-pomerania-summer-trail-2027-06-06",
+   "minKm": 1,
+   "maxKm": 45,
+   "beginnerScore": 4,
+   "beginnerWhy": "najkrótszy dystans 1 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+  },
+  {
+   "name": "Potrójna Korona Wałbrzyska",
+   "eventName": "Potrójna Korona Wałbrzyska",
+   "dateStart": "2027-06-11",
+   "dateEnd": "2027-06-13",
+   "city": "Wałbrzych",
+   "region": "",
+   "url": "https://potrojnakorona.pl/site/impreza?e=walbrzyska#program",
+   "distancesKm": [
+    45,
+    70,
+    85
+   ],
+   "elevations": [
+    {
+     "km": 45
+    },
+    {
+     "km": 70
+    },
+    {
+     "km": 85
+    }
+   ],
+   "vertical": false,
+   "surface": "gorski",
+   "sources": [
+    {
+     "name": "strona organizatora (termin kolejnej edycji)",
+     "url": "https://potrojnakorona.pl/site/impreza?e=walbrzyska#program"
+    }
+   ],
+   "provisional": "termin ze strony organizatora, dystanse z poprzedniej edycji",
+   "id": "potrojna-korona-walbrzyska-2027-06-11",
+   "minKm": 45,
+   "maxKm": 85,
+   "beginnerScore": 1,
+   "beginnerWhy": "najkrótszy dystans 45 km, dystans ultra; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
    "name": "Suszecki Festiwal Biegowy",
@@ -13774,12 +13940,12 @@
     0.98
    ],
    "signupOpen": true,
-   "participants": 92,
+   "participants": 94,
    "signup": {
     "status": "open",
     "until": "2027-06-24",
     "limit": 760,
-    "registered": 92,
+    "registered": 94,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/Supermaraton_Gor_Stolowych/",
     "checkedAt": "2026-11-13"
@@ -13792,7 +13958,7 @@
    "beginnerWhy": "najkrótszy dystans 21 km (jak półmaraton w terenie, zwykle wolniej); średnio stromo: ok. 46 m przewyższenia na kilometr."
   },
   {
-   "name": "Izery Ultra-Trail: Izery Ultra 70, Izery Trail 10, Izery Trail 25, Izery Ultra-Trail 100, Izery Trail 35, Izery Trail 16, Izery Ultra 50",
+   "name": "Izery Ultra-Trail: Izery Trail 25, Izery Ultra 70, Izery Trail 10, Izery Ultra-Trail 100, Izery Trail 35, Izery Trail 16, Izery Ultra 50",
    "eventName": "Izery Trail",
    "dateStart": "2027-06-26",
    "dateEnd": "2027-06-27",
@@ -14030,7 +14196,7 @@
    "beginnerWhy": "najkrótszy dystans 18 km (jak półmaraton w terenie, zwykle wolniej); stromo: ok. 61 m przewyższenia na kilometr, dużo marszu pod górę; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Dolnośląski Festiwal Biegów Górskich: Złoty Maraton – 45 km, Złoty Półmaraton - 21 km, Nocny Trail - 15 km, Bieg 7 szczytów - 240 km, Bieg K-B-L – 110 km, Bieg Sto Mil Trail - 170 km, Bieg Ultra Trail - 68 km, Golden Mountains Trail GTS, Bieg Trojak Trail - 10 km, Bieg Super Trail - 130 km, Kids Trail",
+   "name": "Dolnośląski Festiwal Biegów Górskich: Bieg K-B-L – 110 km, Bieg Sto Mil Trail - 170 km, Bieg Ultra Trail - 68 km, Golden Mountains Trail GTS, Bieg Trojak Trail - 10 km, Złoty Maraton – 45 km, Złoty Półmaraton - 21 km, Nocny Trail - 15 km, Bieg 7 szczytów - 240 km, Bieg Super Trail - 130 km, Kids Trail",
    "eventName": "Dolnośląski Festiwal Biegów Górskich DFBG",
    "dateStart": "2027-07-15",
    "dateEnd": "2027-07-18",
@@ -14151,13 +14317,13 @@
     "status": "closed",
     "until": "2027-07-13",
     "limit": 350,
-    "registered": 844,
+    "registered": 849,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/dolnoslaski_festiwal_biegow_gorskich/",
     "checkedAt": "2026-11-13"
    },
    "signupOpen": true,
-   "participants": 844,
+   "participants": 849,
    "id": "dolnoslaski-festiwal-biegow-gorskich-dfbg-2027-07-15",
    "surface": "gorski",
    "minKm": 10,
@@ -15428,19 +15594,57 @@
     "status": "open",
     "until": "2027-10-01",
     "limit": 3200,
-    "registered": 328,
+    "registered": 329,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/LemkowynaUltraTrail/",
     "checkedAt": "2026-11-13"
    },
    "signupOpen": true,
-   "participants": 328,
+   "participants": 329,
    "id": "lemkowyna-trail-2027-10-23",
    "surface": "trail",
    "minKm": 10,
    "maxKm": 150,
    "beginnerScore": 5,
    "beginnerWhy": "najkrótszy dystans 10 km; łagodnie: ok. 20 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
+  },
+  {
+   "name": "Konferencja Biegowe 360 w Zakopanem",
+   "eventName": "Konferencja Biegowe 360 w Zakopanem",
+   "dateStart": "2027-10-24",
+   "dateEnd": "2027-10-24",
+   "city": "Zakopane",
+   "region": "",
+   "url": "https://biegowe360.pl/",
+   "distancesKm": [
+    5
+   ],
+   "elevations": [
+    {
+     "km": 5,
+     "dplus": 400,
+     "dplusSource": "organizator",
+     "dplusSourceUrl": "https://biegowe360.pl/"
+    }
+   ],
+   "vertical": false,
+   "surface": "gorski",
+   "sources": [
+    {
+     "name": "strona organizatora (termin kolejnej edycji)",
+     "url": "https://biegowe360.pl/"
+    },
+    {
+     "name": "strona organizatora",
+     "url": "https://biegowe360.pl/"
+    }
+   ],
+   "provisional": "termin ze strony organizatora, dystanse z poprzedniej edycji",
+   "id": "konferencja-biegowe-360-w-zakopanem-2027-10-24",
+   "minKm": 5,
+   "maxKm": 5,
+   "beginnerScore": 3,
+   "beginnerWhy": "najkrótszy dystans 5 km; stromo: ok. 80 m przewyższenia na kilometr, dużo marszu pod górę."
   }
  ]
 }

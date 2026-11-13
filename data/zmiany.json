@@ -1,6 +1,68 @@
 [
  {
   "date": "2026-11-13",
+  "label": "adresy organizatorów",
+  "total": 291,
+  "upcoming": 83,
+  "added": [
+   {
+    "id": "zyrowski-wierch-2027-04-10",
+    "eventName": "Żyrowski Wierch",
+    "dateStart": "2027-04-10",
+    "city": "Zdzieszowice",
+    "provisional": true
+   },
+   {
+    "id": "coconaut-pomerania-summer-trail-2027-06-06",
+    "eventName": "Coconaut Pomerania Summer Trail",
+    "dateStart": "2027-06-06",
+    "city": "Gniewino",
+    "provisional": true
+   },
+   {
+    "id": "potrojna-korona-walbrzyska-2027-06-11",
+    "eventName": "Potrójna Korona Wałbrzyska",
+    "dateStart": "2027-06-11",
+    "city": "Wałbrzych",
+    "provisional": true
+   },
+   {
+    "id": "konferencja-biegowe-360-w-zakopanem-2027-10-24",
+    "eventName": "Konferencja Biegowe 360 w Zakopanem",
+    "dateStart": "2027-10-24",
+    "city": "Zakopane",
+    "provisional": true
+   }
+  ],
+  "removed": [],
+  "dateChanged": [],
+  "signupChanged": [
+   {
+    "id": "9-bieg-sladami-zubra-2026-12-12",
+    "eventName": "9. Bieg „Śladami Żubra”",
+    "from": "unknown",
+    "to": "open"
+   },
+   {
+    "id": "xv-grand-prix-krakowa-w-biegach-gorskich-2027-03-07",
+    "eventName": "XV Grand Prix Krakowa w biegach górskich",
+    "from": "unknown",
+    "to": "open"
+   }
+  ],
+  "gearAdded": [],
+  "dplusAdded": [],
+  "regulaminAdded": [
+   {
+    "id": "18-bieg-weganski-2027-05-23",
+    "eventName": "18 Bieg Wegański",
+    "dateStart": "2027-05-23",
+    "city": "Warszawa"
+   }
+  ]
+ },
+ {
+  "date": "2026-11-13",
   "label": "odświeżenie kalendarza",
   "total": 290,
   "upcoming": 82,
@@ -979,19 +1041,6 @@
     "city": "Ustroń"
    }
   ],
-  "dateChanged": [],
-  "signupChanged": [],
-  "gearAdded": [],
-  "dplusAdded": [],
-  "regulaminAdded": []
- },
- {
-  "date": "2026-10-20",
-  "label": "sprzęt z regulaminów",
-  "total": 247,
-  "upcoming": 48,
-  "added": [],
-  "removed": [],
   "dateChanged": [],
   "signupChanged": [],
   "gearAdded": [],
