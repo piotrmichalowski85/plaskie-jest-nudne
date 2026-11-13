@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13T07:03:14.535Z",
+ "generatedAt": "2026-11-13T10:44:59.223Z",
  "count": 290,
  "races": [
   {
@@ -10051,13 +10051,13 @@
     "status": "open",
     "until": "2026-11-25",
     "limit": 100,
-    "registered": 73,
+    "registered": 74,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/ultra_swir/",
     "checkedAt": "2026-11-13"
    },
    "signupOpen": true,
-   "participants": 73,
+   "participants": 74,
    "id": "jesienny-ultra-swir-2026-11-28",
    "surface": "trail",
    "minKm": 15,
@@ -10335,7 +10335,7 @@
    "beginnerWhy": "najkrótszy dystans 3.7 km; łagodnie: ok. 30 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Podhalański Bieg Mikołajkowy: Podhalański Bieg Mikołajkowy - Rodzinne Mikołajki 1km, Podhalański Bieg Mikołajkowy - Brama Świętego Mikołaja 13km, Podhalański Bieg Mikołajkowy - Ostrowskie Mikołajki 6km",
+   "name": "Podhalański Bieg Mikołajkowy: Podhalański Bieg Mikołajkowy - Brama Świętego Mikołaja 13km, Podhalański Bieg Mikołajkowy - Ostrowskie Mikołajki 6km, Podhalański Bieg Mikołajkowy - Rodzinne Mikołajki 1km",
    "eventName": "Podhalański Bieg Mikołajkowy",
    "dateStart": "2026-12-06",
    "dateEnd": "2026-12-06",
@@ -11108,12 +11108,12 @@
     }
    ],
    "signupOpen": true,
-   "participants": 747,
+   "participants": 748,
    "signup": {
     "status": "open",
     "until": "2027-01-14",
     "limit": 750,
-    "registered": 747,
+    "registered": 748,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/Zimowy_Polmaraton_Gor_Stolowych/",
     "checkedAt": "2026-11-13"
@@ -11421,6 +11421,13 @@
    ],
    "provisional": "termin ze strony organizatora, dystanse z poprzedniej edycji",
    "regulaminUrl": "https://ultrakamiensk.pl/regulamin/",
+   "signup": {
+    "status": "unknown",
+    "limit": 10010,
+    "source": "regulamin",
+    "sourceUrl": "https://ultrakamiensk.pl/regulamin/",
+    "checkedAt": "2026-11-13"
+   },
    "id": "ultra-kamiensk-2027-02-07",
    "minKm": 7,
    "maxKm": 30,
@@ -13798,7 +13805,7 @@
    "beginnerWhy": "najkrótszy dystans 21 km (jak półmaraton w terenie, zwykle wolniej); średnio stromo: ok. 46 m przewyższenia na kilometr."
   },
   {
-   "name": "Izery Ultra-Trail: Izery Trail 25, Izery Ultra 70, Izery Trail 10, Izery Ultra-Trail 100, Izery Trail 35, Izery Trail 16, Izery Ultra 50",
+   "name": "Izery Ultra-Trail: Izery Ultra 70, Izery Trail 10, Izery Trail 25, Izery Ultra-Trail 100, Izery Trail 35, Izery Trail 16, Izery Ultra 50",
    "eventName": "Izery Trail",
    "dateStart": "2027-06-26",
    "dateEnd": "2027-06-27",
@@ -13846,28 +13853,13 @@
      "url": "https://www.kingrunner.com/bieg/izery-trail-16/4487"
     },
     {
-     "name": "regulamin",
-     "url": "https://izeryultratrail.pl/regulamin/"
-    },
-    {
      "name": "b4sportonline.pl",
      "url": "https://b4sportonline.pl/izery_ultratrail/"
+    },
+    {
+     "name": "regulamin",
+     "url": "https://izeryultratrail.pl/regulamin/"
     }
-   ],
-   "regulaminUrl": "https://izeryultratrail.pl/regulamin/",
-   "gear": [
-    "Aktywny telefon przez cały czas biegu",
-    "Kubek na wodę",
-    "Pojemnik na wodę, min. 1 litr (100, 70, 50 km)",
-    "Pojemnik na wodę, min. 0,5 litra (35, 25, 16 km)",
-    "Folia NRC (100, 70, 50, 35 km)",
-    "Czapka lub chusta wielofunkcyjna (100, 70, 50 km)",
-    "Gwizdek (100, 70 km)",
-    "Kurtka przeciwdeszczowa lub wiatrówka (100, 70, 50 km)",
-    "Plecak lub nerka biegowa (100, 70, 50 km)",
-    "Latarka czołowa (100 km)",
-    "Bandaż elastyczny i opatrunek jałowy (100, 70, 50, 35, 25 km)",
-    "Dowód osobisty lub paszport (100, 70, 50, 35, 25 km)"
    ],
    "signup": {
     "status": "open",
@@ -13881,6 +13873,20 @@
    },
    "signupOpen": true,
    "participants": 0,
+   "regulaminUrl": "https://izeryultratrail.pl/regulamin/",
+   "gear": [
+    "Aktywny telefon",
+    "Kubek na wodę",
+    "Folia NRC (100, 70, 50, 35 km)",
+    "Czapka lub chusta wielofunkcyjna (100, 70, 50 km)",
+    "Gwizdek (100, 70 km)",
+    "Kurtka przeciwdeszczowa lub wiatrówka (100, 70, 50 km)",
+    "Plecak lub nerka biegowa (100, 70, 50 km)",
+    "Pojemnik na wodę minimum 1 litra (100, 70, 50 km)",
+    "Pojemnik na wodę minimum 0,5 litra (35, 25, 16 km)",
+    "Bandaż elastyczny i opatrunek jałowy (100, 70, 50, 35, 25 km)",
+    "Latarka czołowa (100 km)"
+   ],
    "id": "izery-trail-2027-06-26",
    "surface": "przelaj",
    "minKm": 10,
@@ -14036,7 +14042,7 @@
    "beginnerWhy": "najkrótszy dystans 18 km (jak półmaraton w terenie, zwykle wolniej); stromo: ok. 61 m przewyższenia na kilometr, dużo marszu pod górę; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Dolnośląski Festiwal Biegów Górskich: Bieg K-B-L – 110 km, Bieg Sto Mil Trail - 170 km, Bieg Ultra Trail - 68 km, Golden Mountains Trail GTS, Bieg Trojak Trail - 10 km, Złoty Maraton – 45 km, Złoty Półmaraton - 21 km, Nocny Trail - 15 km, Bieg 7 szczytów - 240 km, Bieg Super Trail - 130 km, Kids Trail",
+   "name": "Dolnośląski Festiwal Biegów Górskich: Złoty Maraton – 45 km, Złoty Półmaraton - 21 km, Nocny Trail - 15 km, Bieg 7 szczytów - 240 km, Bieg K-B-L – 110 km, Bieg Sto Mil Trail - 170 km, Bieg Ultra Trail - 68 km, Golden Mountains Trail GTS, Bieg Trojak Trail - 10 km, Bieg Super Trail - 130 km, Kids Trail",
    "eventName": "Dolnośląski Festiwal Biegów Górskich DFBG",
    "dateStart": "2027-07-15",
    "dateEnd": "2027-07-18",
@@ -14157,13 +14163,13 @@
     "status": "closed",
     "until": "2027-07-13",
     "limit": 350,
-    "registered": 838,
+    "registered": 844,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/dolnoslaski_festiwal_biegow_gorskich/",
     "checkedAt": "2026-11-13"
    },
    "signupOpen": true,
-   "participants": 838,
+   "participants": 844,
    "id": "dolnoslaski-festiwal-biegow-gorskich-dfbg-2027-07-15",
    "surface": "gorski",
    "minKm": 10,
@@ -14924,20 +14930,16 @@
      "km": 5
     },
     {
-     "km": 21,
-     "limitH": 3
+     "km": 21
     },
     {
-     "km": 50,
-     "limitH": 10
+     "km": 50
     },
     {
-     "km": 100,
-     "limitH": 17
+     "km": 100
     },
     {
-     "km": 160,
-     "limitH": 32
+     "km": 160
     },
     {
      "km": 190
@@ -14950,37 +14952,8 @@
     {
      "name": "biegigorskie.pl",
      "url": "https://www.biegigorskie.pl/kalendarz-2027/"
-    },
-    {
-     "name": "regulamin",
-     "url": "https://orlegniazda.com/regulamin/"
     }
    ],
-   "regulaminUrl": "https://orlegniazda.com/regulamin/",
-   "gear": [
-    "Plecak lub nerka biegowa (Ultra 160, 100 km)",
-    "Pojemnik lub bidony na wodę min. 1 litr",
-    "Latarka czołówka (Ultra 160, 100 km)",
-    "Czerwone światło pulsacyjne (Ultra 160, 100 km)",
-    "Włączony i naładowany telefon",
-    "Ślad trasy wgrany w urządzeniu",
-    "Kubek na napoje",
-    "Folia NRC",
-    "Ważny dowód osobisty lub paszport",
-    "Gwizdek (Ultra 160, 100 km)",
-    "Bandaż elastyczny i opatrunek jałowy",
-    "Gotówka 50 złotych",
-    "Rower z oświetleniem przód i tył (190 km)",
-    "Kask spełniający wymogi bezpieczeństwa (190 km)",
-    "Zestaw do naprawy opon i łańcucha (190 km)"
-   ],
-   "signup": {
-    "status": "unknown",
-    "limit": 160,
-    "source": "regulamin",
-    "sourceUrl": "https://orlegniazda.com/regulamin/",
-    "checkedAt": "2026-11-13"
-   },
    "id": "run-bike-orlich-gniazd-2027-09-10",
    "surface": "trail",
    "minKm": 5,
