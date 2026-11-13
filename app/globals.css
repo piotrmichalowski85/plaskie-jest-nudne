@@ -107,3 +107,11 @@ input.bigtime::placeholder { color: #b9b3a3; }
 
 .cv-auto { content-visibility: auto; contain-intrinsic-size: auto 600px; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+/* tabele raportów: liczby do prawej, pierwsza kolumna opisowa, przewijanie w poziomie na wąskim ekranie */
+.rpt { border-collapse: collapse; width: 100%; font-size: .9rem; font-variant-numeric: tabular-nums; }
+.rpt th, .rpt td { padding: .55rem .7rem; border-top: 1px solid var(--line); text-align: right; white-space: nowrap; }
+.rpt thead th { border-top: 0; font-weight: 700; color: var(--moss-dark); vertical-align: bottom; white-space: normal; }
+.rpt th:first-child, .rpt td:first-child { text-align: left; }
+.rpt th[scope="row"] { font-weight: 700; color: var(--ink); }
+.rpt .n { color: var(--muted); font-size: .8rem; font-weight: 400; }
+.kpi { font-family: var(--font-display); font-size: 2.6rem; line-height: 1; color: var(--moss-dark); }
