@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T10:23:16.994Z",
+ "generatedAt": "2026-11-13T07:03:14.535Z",
  "count": 290,
  "races": [
   {
@@ -2167,7 +2167,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/03/XRUN_Tajemnicze_Kopce_-nm14_km.gpx",
      "gpx": "983f76f954c1",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     },
     {
      "km": 21,
@@ -2175,7 +2175,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/03/XRUN_Tajemnicze_Kopce_n-21_km_Classic.gpx",
      "gpx": "3883c7a21be6",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     },
     {
      "km": 32,
@@ -2183,7 +2183,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/03/XRUN_Tajemnicze_Kopce_Maraton_m-32_km.gpx",
      "gpx": "a185937dd984",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     }
    ],
    "vertical": false,
@@ -2256,7 +2256,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/fa4925849089-barantrailrace10.gpx",
      "gpx": "039dff8d7c81",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     },
     {
      "km": 25,
@@ -2264,7 +2264,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/4b4aaa605098-barantrailrace25.gpx",
      "gpx": "c4ef4bc38861",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "limitH": 5
     },
     {
@@ -2273,7 +2273,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/4fe4278dd59f-barantrailrace60.gpx",
      "gpx": "e171fc730de8",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     }
    ],
    "vertical": false,
@@ -2771,7 +2771,7 @@
      "dplus": 472,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/04/Szczyrk_Start.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "gpx": "bac215a14269"
     },
     {
@@ -2780,7 +2780,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/04/Copy_Szczyrk_145_km.gpx",
      "gpx": "671f7eb42fa1",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     },
     {
      "km": 25,
@@ -2788,7 +2788,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/04/Marcure_Szczyrk_25_km.gpx",
      "gpx": "0f3a241b466f",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     },
     {
      "km": 45,
@@ -2796,7 +2796,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/04/Copy_Szczyrk_45_km.gpx",
      "gpx": "fea6d49b61d0",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     }
    ],
    "vertical": false,
@@ -3710,7 +3710,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/05/XRUN_Wyspowy_Trail.gpx",
      "gpx": "b67f35fd5bb4",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     },
     {
      "km": 38,
@@ -3718,7 +3718,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/05/XRUN_Wyspowy_Trail_Classic_Trail.gpx",
      "gpx": "957b9524764f",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     },
     {
      "km": 50,
@@ -3726,7 +3726,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/05/XRUN_Wyspowy_Trail_Long_Trail.gpx",
      "gpx": "2171556f7fde",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     }
    ],
    "vertical": false,
@@ -4679,7 +4679,7 @@
      "dplus": 212,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_08b1fbd6849c4777bf5e9b94fdc66a21.gpx?dn=ULTRA%20TURNICKI%2010%20KM%202026.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true,
      "gpx": "2d07e4b56fd0"
     },
@@ -4688,7 +4688,7 @@
      "dplus": 450,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_8db1bd631c4b48108381e9287d00872a.gpx?dn=ULTRA%20TURNICKI%2024%20KM%202026.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true,
      "gpx": "255f38ef48ca"
     },
@@ -5775,7 +5775,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/07/XRUN_Ucieczka_Sw_Kingi_14_km_Intro.gpx",
      "gpx": "7b22907f05f3",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     },
     {
      "km": 26,
@@ -5783,7 +5783,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/07/Ucieczka_Sw_Kingi_Classic_28_k_m.gpx",
      "gpx": "ef8127ac78f9",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     },
     {
      "km": 40,
@@ -5791,7 +5791,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/07/Ucieczka_Sw_Kingi_40_km_Maraton.gpx",
      "gpx": "bd76078bacd8",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     }
    ],
    "vertical": false,
@@ -6918,7 +6918,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://utm.run/wp-content/uploads/static/SZCZEBEL_CUP.gpx",
      "gpx": "4a8589f7345e",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     }
    ],
    "vertical": false,
@@ -7050,7 +7050,7 @@
      "dplus": 487,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Pyzdra-20-km.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true,
      "gpx": "7ea021f186a9"
     },
@@ -7059,7 +7059,7 @@
      "dplus": 1204,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Kwicol-40-km.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true,
      "gpx": "e82bd411475a"
     },
@@ -7068,7 +7068,7 @@
      "dplus": 3249,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2026-Legenda-75-km.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "gpx": "ce757376282b"
     }
    ],
@@ -7185,7 +7185,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/XRUN_Vistula_Trail_Start_new.gpx",
      "gpx": "05ce0e4a8b75",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     },
     {
      "km": 15,
@@ -7193,7 +7193,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/XRUN_Vistula_Trail_Intro_new.gpx",
      "gpx": "401b9a5f7eee",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     },
     {
      "km": 24,
@@ -7201,7 +7201,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/XRUN_Vistula_Trail_Classic_new.gpx",
      "gpx": "e17960118e9a",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     },
     {
      "km": 35
@@ -7899,7 +7899,7 @@
      "dplus": 393,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j21h.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "gpx": "cdec575b3f4f"
     },
     {
@@ -7907,7 +7907,7 @@
      "dplus": 586,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j42h.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "gpx": "dc7a5c91fcdd"
     },
     {
@@ -7915,7 +7915,7 @@
      "dplus": 1094,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j80h.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "gpx": "695f72b9675c"
     },
     {
@@ -7923,7 +7923,7 @@
      "dplus": 1450,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j100h.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "gpx": "175b992a02fa"
     }
    ],
@@ -8202,7 +8202,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/Muszyna_Start_Trail_6_km.gpx",
      "gpx": "ded571484e41",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     },
     {
      "km": 23,
@@ -8210,7 +8210,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/Muszyna_Trail_Intro_Trail.gpx",
      "gpx": "caf5083473b9",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     },
     {
      "km": 31,
@@ -8218,7 +8218,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/Muszyna_Trail_Classic_Trail.gpx",
      "gpx": "cb567dad5484",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     },
     {
      "km": 43,
@@ -8226,7 +8226,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/Muszyna_Trail_Long_Trail.gpx",
      "gpx": "49371425f97e",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     }
    ],
    "vertical": false,
@@ -8535,7 +8535,7 @@
      "dplus": 487,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/UJ-2025-Pyzdra-20-km.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true,
      "gpx": "7ea021f186a9"
     },
@@ -9017,7 +9017,7 @@
      "dplus": 596,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://janosikraceseries.com/gpx/KDR-2026-21.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "gpx": "3286e627d6f9"
     },
     {
@@ -9653,7 +9653,7 @@
     "until": "2026-11-14",
     "source": "regulamin",
     "sourceUrl": "https://jaskiniowy.pl/regulamin-borowkowa-trail/",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "borowkowa-trail-2026-11-14",
    "surface": "gorski",
@@ -9685,7 +9685,7 @@
     "until": "2026-11-13",
     "source": "zapisy",
     "sourceUrl": "https://elektronicznezapisy.pl/event/16210/strona.html",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "ninja-ams-kartuzy-zajecia-terenowe-dla-dzieci-i-mlodziezy-2026-11-14",
    "surface": "przelaj",
@@ -9714,7 +9714,7 @@
      "dplus": 1032,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-10k.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true,
      "gpx": "2965d86bd7b0"
     },
@@ -9723,7 +9723,7 @@
      "dplus": 2160,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-24k.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true,
      "gpx": "9611334ce9c5"
     },
@@ -9732,7 +9732,7 @@
      "dplus": 4020,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-47k.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true,
      "gpx": "4a49277d707c"
     },
@@ -9741,7 +9741,7 @@
      "dplus": 5908,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-71k.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true,
      "gpx": "5457d8ac05dc"
     },
@@ -9750,7 +9750,7 @@
      "dplus": 7563,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pieklo.b160.pl/wp-content/uploads/gpx/pc-2025-94k.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true,
      "gpx": "78e64752cab5"
     }
@@ -9901,7 +9901,7 @@
      "gpx": "bea7a18626f1",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://boreckatrail.pl/wp-content/uploads/2026/10/Dubinek-10km.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "limitH": 4
     },
     {
@@ -9910,7 +9910,7 @@
      "gpx": "6414e7a29e4f",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://boreckatrail.pl/wp-content/uploads/2026/10/Wolisko-21km.gpx",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     },
     {
      "km": 30,
@@ -9918,7 +9918,7 @@
      "gpx": "aa16a926e627",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://boreckatrail.pl/wp-content/uploads/2026/10/Szwalk-30km.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "limitH": 6
     },
     {
@@ -9927,7 +9927,7 @@
      "gpx": "970366396419",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://boreckatrail.pl/wp-content/uploads/2026/10/Litygajno-45km.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "limitH": 7
     }
    ],
@@ -9989,7 +9989,7 @@
     "until": "2026-11-18",
     "source": "regulamin",
     "sourceUrl": "https://boreckatrail.pl/regulamin/",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "borecka-lekuk-trail-2026-11-21",
    "surface": "trail",
@@ -10054,7 +10054,7 @@
     "registered": 73,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/ultra_swir/",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "signupOpen": true,
    "participants": 73,
@@ -10113,7 +10113,7 @@
     "note": "do wyczerpania limitu",
     "source": "regulamin",
     "sourceUrl": "https://dostartu.pl/statute_files/17345_pl.pdf",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "szczyt-wytrzymalosci-edycja-mikolajkowa-2026-12-04",
    "surface": "trail",
@@ -10209,7 +10209,7 @@
     "limit": 300,
     "source": "regulamin",
     "sourceUrl": "https://ultrarace.pl/gdansk/regulamin-gdansk/",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "garmin-ultra-race-gdansk-2026-12-04",
    "surface": "trail",
@@ -10266,7 +10266,7 @@
     "limit": 50,
     "source": "regulamin",
     "sourceUrl": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-Podhalanski-Bieg-Mikolajkowy-2026.pdf",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "turbacz-trail-2026-12-06",
    "surface": "trail",
@@ -10373,13 +10373,13 @@
     "status": "open",
     "until": "2026-12-03",
     "limit": 50,
-    "registered": 38,
+    "registered": 39,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/turbacz_trail/",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "signupOpen": true,
-   "participants": 38,
+   "participants": 39,
    "regulaminUrl": "https://turbacztrail.pl/wp-content/uploads/2026/09/Regulamin-Podhalanski-Bieg-Mikolajkowy-2026.pdf",
    "gear": [
     "Track lub mapa dystansu (bez Rodzinnych Mikołajek)",
@@ -10462,7 +10462,7 @@
     "limit": 50,
     "source": "regulamin",
     "sourceUrl": "https://www.e-gepard.eu/file/regulamin/3430_regulamin.pdf",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "winter-trail-malopolska-2026-12-12",
    "surface": "trail",
@@ -10555,7 +10555,7 @@
     "until": "2026-12-07",
     "source": "regulamin",
     "sourceUrl": "http://perlymalopolski.pl/regulamin-rabka-zdroj-2024/",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "perly-malopolski-2026-12-13",
    "surface": "trail",
@@ -10582,7 +10582,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://mapa-turystyczna.pl/track/962c306e.gpx",
      "gpx": "24f6f7630290",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     },
     {
      "km": 43,
@@ -10590,7 +10590,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://mapa-turystyczna.pl/track/5d10a1f1.gpx",
      "gpx": "579db43ca142",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     }
    ],
    "vertical": false,
@@ -10854,7 +10854,7 @@
      "dplus": 343,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_f9c51c6545aa44cc809c493c248eba7f.gpx?dn=SKOK%20NA%20%C5%BBYTNE%2015%20KM.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true,
      "gpx": "ea8c8e7546e8"
     },
@@ -10928,7 +10928,7 @@
     "note": "do wyczerpania limitu",
     "source": "regulamin",
     "sourceUrl": "https://www.ultraturnicki.pl/_files/ugd/883a2a_022e1d7fd8b5466e8866635383e749f7.pdf",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "zimowy-ultra-turnicki-2027-01-16",
    "surface": "trail",
@@ -10984,15 +10984,15 @@
     }
    ],
    "signupOpen": true,
-   "participants": 503,
+   "participants": 521,
    "signup": {
     "status": "open",
     "until": "2027-01-15",
     "limit": 900,
-    "registered": 503,
+    "registered": 521,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/swietokrzyski_poziom_gor/",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "zimowy-maraton-swietokrzyski-2027-01-16",
    "surface": "trail",
@@ -11108,15 +11108,15 @@
     }
    ],
    "signupOpen": true,
-   "participants": 744,
+   "participants": 747,
    "signup": {
     "status": "open",
     "until": "2027-01-14",
     "limit": 750,
-    "registered": 744,
+    "registered": 747,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/Zimowy_Polmaraton_Gor_Stolowych/",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "zimowy-polmaraton-gor-stolowych-2027-01-16",
    "surface": "trail",
@@ -11209,7 +11209,7 @@
     "status": "open",
     "source": "organizator",
     "sourceUrl": "https://www.biegrzeznika.pl/",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "xiii-zimowy-maraton-bieszczadzki-2027-01-23",
    "surface": "trail",
@@ -11485,15 +11485,15 @@
     "Szelki dogtrekkingowe i smycz do 3 m (TWT na 6 Łap)"
    ],
    "signupOpen": true,
-   "participants": 178,
+   "participants": 182,
    "signup": {
     "status": "open",
     "until": "2027-02-08",
     "limit": 550,
-    "registered": 178,
+    "registered": 182,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/turbacz_trail/",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "turbacz-winter-trail-2027-02-13",
    "surface": "trail",
@@ -11585,7 +11585,7 @@
     "note": "do wyczerpania limitu",
     "source": "regulamin",
     "sourceUrl": "https://gorceultratrail.pl/assets/files/GUT-2026-regulamin.pdf",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "regulaminUrl": "https://gorceultratrail.pl/assets/files/GUT-2026-regulamin.pdf",
    "gear": [
@@ -11655,7 +11655,7 @@
     "limit": 455,
     "source": "regulamin",
     "sourceUrl": "https://sisxyz.pl/wp-content/uploads/2026/07/REGULAMIN_ZADEK_v1.2027.pdf",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "ultra-zadek-festiwal-biegowy-2027-03-06",
    "minKm": 30,
@@ -11789,7 +11789,7 @@
      "gpx": "983f76f954c1",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/03/XRUN_Tajemnicze_Kopce_-nm14_km.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true
     },
     {
@@ -11798,7 +11798,7 @@
      "gpx": "3883c7a21be6",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/03/XRUN_Tajemnicze_Kopce_n-21_km_Classic.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true
     },
     {
@@ -11807,7 +11807,7 @@
      "gpx": "a185937dd984",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/03/XRUN_Tajemnicze_Kopce_Maraton_m-32_km.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true
     }
    ],
@@ -11881,7 +11881,7 @@
      "dplus": 557,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/fa4925849089-barantrailrace10.gpx",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     },
     {
      "km": 25,
@@ -11890,7 +11890,7 @@
      "gpx": "c4ef4bc38861",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/4b4aaa605098-barantrailrace25.gpx",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     },
     {
      "km": 60,
@@ -11898,7 +11898,7 @@
      "dplus": 2397,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/legacy/gpx/4fe4278dd59f-barantrailrace60.gpx",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     },
     {
      "km": 100
@@ -11967,7 +11967,7 @@
     "limit": 150,
     "source": "regulamin",
     "sourceUrl": "https://baranrace.pl/wp-content/plugins/baran-race-cms/public/assets/BTR_regulamin_2027_03.pdf",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "baran-trail-race-winter-edition-2027-03-13",
    "surface": "trail",
@@ -11993,7 +11993,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://malopolskabiega.com.pl/wp-content/uploads/2026/06/us_lato_15_5km.gpx",
      "gpx": "72ad52c273e3",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true
     }
    ],
@@ -12058,7 +12058,7 @@
     "registered": 11,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/ultra_swir/",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "signupOpen": true,
    "participants": 11,
@@ -12115,7 +12115,7 @@
     "limit": 500,
     "source": "regulamin",
     "sourceUrl": "https://pliki.stowarzyszeniewalimnazadanie.pl/download.php?id=12&view=1",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "regulaminUrl": "https://pliki.stowarzyszeniewalimnazadanie.pl/download.php?id=12&view=1",
    "gear": [
@@ -12206,7 +12206,7 @@
     "limit": 250,
     "source": "regulamin",
     "sourceUrl": "https://sztafetagorska.pl/wp-content/uploads/2026/10/KSG2027_Regulamin.docx.pdf",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "kudowska-sztafeta-gorska-2027-04-10",
    "surface": "gorski",
@@ -12257,7 +12257,7 @@
     "registered": 0,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/swietokrzyski_poziom_gor/",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "signupOpen": true,
    "participants": 0,
@@ -12288,7 +12288,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/10/Muszyna_Start_Trail_6_km1.gpx",
      "gpx": "204c6e1dad86",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true
     },
     {
@@ -12297,7 +12297,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/10/Muszyna_Trail_Intro_Trail1.gpx",
      "gpx": "6966bf4cec5e",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true
     },
     {
@@ -12306,7 +12306,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/10/Muszyna_Trail_Classic_Trail1.gpx",
      "gpx": "3c0c459462d1",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true
     },
     {
@@ -12315,7 +12315,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/10/Muszyna_Trail_Long_Trail1.gpx",
      "gpx": "637338951662",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true
     }
    ],
@@ -12461,7 +12461,7 @@
     "limit": 250,
     "source": "regulamin",
     "sourceUrl": "https://ultrawysoczyzna.pl/regulamin/",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "meble-wojcik-ultra-wysoczyzna-2027-2027-04-16",
    "surface": "trail",
@@ -12506,7 +12506,7 @@
      "gpx": "07554300e9a6",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pdf.utmb.world/raw/upload/v1790863062/pieniny/GPX%20FILES/2027/wielka_prehyba_66512c814b.gpx",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     },
     {
      "km": 65,
@@ -12514,7 +12514,7 @@
      "gpx": "89eb580facc3",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pdf.utmb.world/raw/upload/v1790862673/pieniny/GPX%20FILES/2027/dziki_gron_6168f0ebfd.gpx",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     },
     {
      "km": 96,
@@ -12522,7 +12522,7 @@
      "gpx": "b9c9c9edd330",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pdf.utmb.world/raw/upload/v1790861875/pieniny/GPX%20FILES/2027/niepokorny_mnich_2693190078.gpx",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     },
     {
      "km": 137.1,
@@ -12530,7 +12530,7 @@
      "gpx": "ec474db1eb6c",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://pdf.utmb.world/raw/upload/v1790846734/pieniny/GPX%20FILES/2027/spiski_wedrowiec_2d7dceb37b.gpx",
-     "dplusCheckedAt": "2026-11-12"
+     "dplusCheckedAt": "2026-11-13"
     }
    ],
    "vertical": true,
@@ -12575,7 +12575,7 @@
     "status": "closed",
     "source": "organizator",
     "sourceUrl": "https://pieniny.utmb.world/pl",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "pieniny-by-utmb-2027-04-22",
    "surface": "gorski",
@@ -12661,7 +12661,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/05/XRUN_Wyspowy_Trail.gpx",
      "gpx": "b67f35fd5bb4",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true
     },
     {
@@ -12670,7 +12670,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/05/XRUN_Wyspowy_Trail_Classic_Trail.gpx",
      "gpx": "957b9524764f",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true
     },
     {
@@ -12679,7 +12679,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/05/XRUN_Wyspowy_Trail_Long_Trail.gpx",
      "gpx": "2171556f7fde",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true
     }
    ],
@@ -12792,7 +12792,7 @@
     "limit": 200,
     "source": "regulamin",
     "sourceUrl": "https://www.e-gepard.eu/file/regulamin/2637_regulamin.pdf",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "ultra-trail-malopolska-2027-05-21",
    "surface": "trail",
@@ -12855,7 +12855,7 @@
     "limit": 300,
     "source": "regulamin",
     "sourceUrl": "http://www.rudawy.pl/rudawy_regulamin_layout_2026_aktualizacja_26_03/",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "rudawy-wiosenny-festiwal-biegowy-2027-05-22",
    "surface": "przelaj",
@@ -12997,7 +12997,7 @@
     "limit": 500,
     "source": "organizator",
     "sourceUrl": "https://www.biegrzeznika.pl/",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "xiii-festiwal-biegu-rzeznika-2027-05-26",
    "surface": "trail",
@@ -13055,7 +13055,7 @@
     "limit": 500,
     "source": "organizator",
     "sourceUrl": "https://www.biegrzeznika.pl",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "xxiv-bieg-rzeznika-2027-05-27",
    "surface": "przelaj",
@@ -13110,7 +13110,7 @@
     "limit": 500,
     "source": "organizator",
     "sourceUrl": "https://www.biegrzeznika.pl",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "xiii-rzeznik-ultra-2027-05-28",
    "surface": "trail",
@@ -13172,7 +13172,7 @@
     "limit": 500,
     "source": "organizator",
     "sourceUrl": "https://www.biegrzeznika.pl",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "xvi-rzezniczek-2027-05-29",
    "surface": "trail",
@@ -13276,7 +13276,7 @@
     "note": "do wyczerpania limitu",
     "source": "regulamin",
     "sourceUrl": "https://b4sportonline.pl/suszecki_festiwal/regulamin",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "suszecki-festiwal-biegowy-2027-06-12",
    "surface": "przelaj",
@@ -13342,7 +13342,7 @@
      "dplus": 212,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_08b1fbd6849c4777bf5e9b94fdc66a21.gpx?dn=ULTRA%20TURNICKI%2010%20KM%202026.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true,
      "gpx": "2d07e4b56fd0"
     },
@@ -13351,7 +13351,7 @@
      "dplus": 450,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://bac69b02-736b-4d04-b6e3-affde6ab183e.filesusr.com/ugd/883a2a_8db1bd631c4b48108381e9287d00872a.gpx?dn=ULTRA%20TURNICKI%2024%20KM%202026.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true,
      "gpx": "255f38ef48ca"
     },
@@ -13429,7 +13429,7 @@
     "note": "do wyczerpania limitu",
     "source": "regulamin",
     "sourceUrl": "https://www.ultraturnicki.pl/_files/ugd/883a2a_d7f0d82ad31941bcbd6323cc7947f3fe.pdf",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "ultra-turnicki-2027-06-19",
    "surface": "trail",
@@ -13457,7 +13457,7 @@
      "dplus": 472,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/04/Szczyrk_Start.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true,
      "gpx": "bac215a14269"
     },
@@ -13467,7 +13467,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/04/Copy_Szczyrk_145_km.gpx",
      "gpx": "671f7eb42fa1",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true
     },
     {
@@ -13476,7 +13476,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/04/Marcure_Szczyrk_25_km.gpx",
      "gpx": "0f3a241b466f",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true
     },
     {
@@ -13485,7 +13485,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/04/Copy_Szczyrk_45_km.gpx",
      "gpx": "fea6d49b61d0",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true
     }
    ],
@@ -13685,7 +13685,7 @@
     "registered": 0,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/ultra_swir/",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "signupOpen": true,
    "participants": 0,
@@ -13721,7 +13721,7 @@
      "dplus": 973,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://www.maratongorstolowych.pl/wp-content/uploads/2018/12/2026_SGS21KM.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true,
      "gpx": "6ceef22ead12"
     },
@@ -13780,15 +13780,15 @@
     0.98
    ],
    "signupOpen": true,
-   "participants": 91,
+   "participants": 92,
    "signup": {
     "status": "open",
     "until": "2027-06-24",
     "limit": 760,
-    "registered": 91,
+    "registered": 92,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/Supermaraton_Gor_Stolowych/",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "supermaraton-gor-stolowych-light-2027-06-26",
    "surface": "trail",
@@ -13877,7 +13877,7 @@
     "note": "do wyczerpania limitu",
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/izery_ultratrail/",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "signupOpen": true,
    "participants": 0,
@@ -14157,13 +14157,13 @@
     "status": "closed",
     "until": "2027-07-13",
     "limit": 350,
-    "registered": 800,
+    "registered": 838,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/dolnoslaski_festiwal_biegow_gorskich/",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "signupOpen": true,
-   "participants": 800,
+   "participants": 838,
    "id": "dolnoslaski-festiwal-biegow-gorskich-dfbg-2027-07-15",
    "surface": "gorski",
    "minKm": 10,
@@ -14196,7 +14196,7 @@
      "gpx": "082f497f0bb4",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://tatraskymarathon.pl/wp-content/uploads/2026/05/Tatra_SkyMarathon_2025.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true
     }
    ],
@@ -14272,7 +14272,7 @@
     "limit": 350,
     "source": "regulamin",
     "sourceUrl": "https://tatraskymarathon.pl/regulamin/",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "tatra-skymarathon-2027-07-24",
    "surface": "gorski",
@@ -14301,7 +14301,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/06/Ucieczka_Sw_Kingi_7km_Start_ver_2.gpx",
      "gpx": "55b3d698574a",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true
     },
     {
@@ -14310,7 +14310,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/07/XRUN_Ucieczka_Sw_Kingi_14_km_Intro.gpx",
      "gpx": "7b22907f05f3",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true
     },
     {
@@ -14322,7 +14322,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/07/Ucieczka_Sw_Kingi_40_km_Maraton.gpx",
      "gpx": "bd76078bacd8",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true
     }
    ],
@@ -14453,7 +14453,7 @@
     "note": "do wyczerpania limitu",
     "source": "regulamin",
     "sourceUrl": "https://gorceultratrail.pl/assets/files/GUT-2026-regulamin.pdf",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "surface": "gorski",
    "id": "gorce-ultra-trail-2027-07-30",
@@ -14506,7 +14506,7 @@
     "note": "do wyczerpania limitu",
     "source": "regulamin",
     "sourceUrl": "https://gorceultratrail.pl/assets/files/GUT-2026-regulamin.pdf",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "gorce-ultra-trail-2027-08-01",
    "surface": "przelaj",
@@ -14547,7 +14547,7 @@
      "dplus": 2666,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://krokdonatury.org/Chudy_Wawrzyniec_50km_2024.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true,
      "gpx": "cadaed53af93"
     },
@@ -14560,7 +14560,7 @@
      "gpx": "8d0eb26ef86b",
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://krokdonatury.org/Chudy_Wawrzyniec_80km_2024.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true
     }
    ],
@@ -14696,7 +14696,7 @@
      "dplus": 4746,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://www.graniatatr.pl/images/BUGT2024-pop.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true,
      "gpx": "d235edb2f521"
     }
@@ -14768,7 +14768,7 @@
     "limit": 350,
     "source": "regulamin",
     "sourceUrl": "https://www.graniatatr.pl/regulamin.html",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "bieg-ultra-grania-tatr-2027-08-21",
    "surface": "gorski",
@@ -14800,7 +14800,7 @@
      "dplus": 1480,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://chojnikmaraton.pl/wp-content/uploads/2026/08/PO%CC%81%C5%81MARATON_Z_GO%CC%81RKA%CC%A8_2026.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true,
      "gpx": "a66ef4175b3e"
     },
@@ -14809,7 +14809,7 @@
      "dplus": 2263,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://chojnikmaraton.pl/wp-content/uploads/2026/08/CHOJNIK_MARATON_2026.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true,
      "gpx": "c5f21ccf8217"
     },
@@ -14818,7 +14818,7 @@
      "dplus": 3489,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://chojnikmaraton.pl/wp-content/uploads/2026/08/70_Z_HAKIEM_2026.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true,
      "gpx": "9f6d5b2184e7"
     },
@@ -14827,7 +14827,7 @@
      "dplus": 4928,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://chojnikmaraton.pl/wp-content/uploads/2026/08/ULTRA_CHOJNIK_2026.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true,
      "gpx": "f7fd0ce98d41"
     }
@@ -14895,7 +14895,7 @@
     "limit": 250,
     "source": "regulamin",
     "sourceUrl": "https://chojnikmaraton.pl/wp-content/uploads/2026/04/CHOJNIK_regulamin_layout_2026_v2-1.pdf",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "chojnik-karkonoski-festiwal-biegowy-2027-09-04",
    "surface": "trail",
@@ -14979,7 +14979,7 @@
     "limit": 160,
     "source": "regulamin",
     "sourceUrl": "https://orlegniazda.com/regulamin/",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "run-bike-orlich-gniazd-2027-09-10",
    "surface": "trail",
@@ -15072,7 +15072,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/XRUN_Vistula_Trail_Start_new.gpx",
      "gpx": "05ce0e4a8b75",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true
     },
     {
@@ -15081,7 +15081,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/XRUN_Vistula_Trail_Intro_new.gpx",
      "gpx": "401b9a5f7eee",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true
     },
     {
@@ -15090,7 +15090,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/XRUN_Vistula_Trail_Classic_new.gpx",
      "gpx": "e17960118e9a",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true
     },
     {
@@ -15099,7 +15099,7 @@
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://xrun.pl/wp-content/uploads/2026/09/XRUN_Vistula_Trail_Long_Trail_new.gpx",
      "gpx": "b7edae8e3579",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true
     }
    ],
@@ -15185,7 +15185,7 @@
      "dplus": 393,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j21h.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true,
      "gpx": "cdec575b3f4f"
     },
@@ -15194,7 +15194,7 @@
      "dplus": 586,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j42h.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true,
      "gpx": "dc7a5c91fcdd"
     },
@@ -15203,7 +15203,7 @@
      "dplus": 1094,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j80h.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true,
      "gpx": "695f72b9675c"
     },
@@ -15212,7 +15212,7 @@
      "dplus": 1450,
      "dplusSource": "gpx",
      "dplusSourceUrl": "https://jurarun.pl/wp-content/uploads/fit_Files/2026-07-j100h.gpx",
-     "dplusCheckedAt": "2026-11-12",
+     "dplusCheckedAt": "2026-11-13",
      "dplusStale": true,
      "gpx": "175b992a02fa"
     }
@@ -15341,7 +15341,7 @@
     "note": "do wyczerpania limitu",
     "source": "regulamin",
     "sourceUrl": "https://bisonultratrail.pl/regulamin/",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "bison-trail-2027-10-02",
    "surface": "przelaj",
@@ -15410,13 +15410,13 @@
     "status": "open",
     "until": "2027-10-01",
     "limit": 3200,
-    "registered": 321,
+    "registered": 328,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/LemkowynaUltraTrail/",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "signupOpen": true,
-   "participants": 321,
+   "participants": 328,
    "id": "lemkowyna-trail-2027-10-23",
    "surface": "przelaj",
    "minKm": 10,
@@ -15496,7 +15496,7 @@
     "status": "open",
     "source": "organizator",
     "sourceUrl": "http://www.ultralemkowyna.pl",
-    "checkedAt": "2026-11-12"
+    "checkedAt": "2026-11-13"
    },
    "id": "lemko-trail-2027-10-23",
    "surface": "trail",
