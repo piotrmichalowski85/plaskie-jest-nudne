@@ -212,9 +212,21 @@ async function regulaminy(raws: Raw[]): Promise<number> {
   // match = wyrażenie na nazwie, date (opcjonalnie) = początek daty startu ("2027" albo "2027-02"), żeby wskazać jedną edycję.
   // Wskazany regulamin jest przypięty do biegu: cache ma dla niego własny klucz, bo klucz po adresie strony biegu dzielą wszystkie imprezy organizatora.
   const pinned = new Set<Raw>();
-  for (const o of overrides as { match: string; date?: string; url?: string; regulaminUrl?: string }[]) {
+  // dplus: przewyższenia odczytane ręcznie ze strony organizatora ({"12": 250} = dystans ok. 12 km ma +250 m), gdy robot ich nie umie wyciągnąć;
+  // wpis ustępuje tylko śladowi GPX i niesie adres źródła (dplusUrl) oraz datę sprawdzenia (checked)
+  for (const o of overrides as { match: string; date?: string; url?: string; regulaminUrl?: string; dplus?: Record<string, number>; dplusUrl?: string; checked?: string }[]) {
     const re = new RegExp(o.match, "i");
-    for (const r of raws.filter((x) => re.test(x.name) && (!o.date || x.dateStart.startsWith(o.date)))) { if (o.url) r.url = o.url; if (o.regulaminUrl) { r.regulaminUrl = o.regulaminUrl; pinned.add(r); } }
+    for (const r of raws.filter((x) => re.test(x.name) && (!o.date || x.dateStart.startsWith(o.date)))) {
+      if (o.url) r.url = o.url;
+      if (o.regulaminUrl) { r.regulaminUrl = o.regulaminUrl; pinned.add(r); }
+      for (const [k, d] of Object.entries(o.dplus ?? {})) {
+        const km = Number(k);
+        const e = r.elevations.filter((x) => Math.abs(x.km - km) <= Math.max(1.5, km * 0.06) && x.dplusSource !== "gpx").sort((a, b) => Math.abs(a.km - km) - Math.abs(b.km - km))[0];
+        if (!e) continue;
+        e.dplus = d; e.dplusSource = "organizator"; e.dplusSourceUrl = o.dplusUrl; e.dplusCheckedAt = o.checked; e.dplusStale = undefined; e.approx = undefined;
+        if (o.dplusUrl && !r.sources.some((x) => x.name === "trasa (organizator)")) r.sources.push({ name: "trasa (organizator)", url: o.dplusUrl });
+      }
+    }
   }
   const key = (r: Raw) => (pinned.has(r) ? `regulamin:${r.regulaminUrl}` : r.url);
   const todo = raws.filter((r) => key(r) && r.dateEnd >= todayS && !fresh(key(r)!));
@@ -438,16 +450,28 @@ function finalize(raws: Raw[]): Race[] {
   const subset = (a: Raw, b: Raw) => { const [s, l] = a.distancesKm.length <= b.distancesKm.length ? [a, b] : [b, a]; return s.distancesKm.length >= 1 && shared(s, l) === s.distancesKm.length; };
   const subRace = (a: Raw, b: Raw) => a.dateStart === b.dateStart && w1(a) === w1(b) && w1(a).length >= 4 && !occasional(a) && !occasional(b) && subset(a, b);
   // ta sama impreza w dwóch źródłach z inną miejscowością (siedziba organizatora zamiast startu): ten sam dzień, wspólne wyróżniające słowo nazwy i wspólny dystans
-  const sameDayKin = (a: Raw, b: Raw) => a.dateStart === b.dateStart && !occasional(a) && !occasional(b) && distinctOverlap(a, b) && shared(a, b) >= 1;
+  // (albo wspólne wyróżniające słowo w pełnej nazwie i co najmniej dwa wspólne dystanse: "Turbacz Trail - Podhalański Bieg Mikołajkowy" i "Podhalański Bieg Mikołajkowy")
+  const fullWords = (r: Raw) => new Set(slugify(`${r.eventName} ${r.name}`).split("-").filter((w) => w.length >= 5 && !OCCASION.has(w) && eventCore(w) === w));
+  const fullOverlap = (a: Raw, b: Raw) => [...fullWords(a)].some((w) => fullWords(b).has(w));
+  const sameDayKin = (a: Raw, b: Raw) => a.dateStart === b.dateStart && ((!occasional(a) && !occasional(b) && distinctOverlap(a, b) && shared(a, b) >= 1) || (fullOverlap(a, b) && shared(a, b) >= 2));
   const sameName = (a: Raw, b: Raw) => w1(a) === w1(b) && a.dateStart.slice(0, 7) === b.dateStart.slice(0, 7) && (sameCity(a, b) || cityKey(a) === cityKey(b) && !occasional(a) || (!occasional(a) && !occasional(b) && eventCore(a.eventName) === eventCore(b.eventName) && shared(a, b) >= 1));
+  const kin = (m: Raw, r: Raw) => sameName(m, r) || prefixKin(m, r) || samePlaceDay(m, r) || subRace(m, r) || sameDayKin(m, r);
   const merged2: Raw[] = [];
   for (const r of byKey) {
-    const i = merged2.findIndex((m) => sameName(m, r) || prefixKin(m, r) || samePlaceDay(m, r) || subRace(m, r) || sameDayKin(m, r));
+    const i = merged2.findIndex((m) => kin(m, r));
     if (i < 0) { merged2.push(r); continue; }
     const m = merged2[i];
     // ten sam dzień i miejscowość, wspólne słowo nazwy, ale ani jednego zbliżonego dystansu: to osobne dystanse jednej imprezy
     const apart = m.distancesKm.length > 0 && r.distancesKm.length > 0 && m.distancesKm.every((x) => r.distancesKm.every((y) => Math.abs(x - y) / Math.max(x, y) > 0.15));
     merged2[i] = mergeRaw(m, r, samePlaceDay(m, r) && !overlap(m, r) && anyWord(m, r) && apart);
+  }
+  // domknięcie: rekord, który urósł po scaleniu (np. zebrał dystanse z kilku wierszy), może dopiero teraz pasować do innego rekordu
+  for (let pass = 0; pass < 3; pass++) {
+    let changed = false;
+    for (let i = 0; i < merged2.length; i++) for (let j = merged2.length - 1; j > i; j--) {
+      if (kin(merged2[i], merged2[j])) { merged2[i] = mergeRaw(merged2[i], merged2[j]); merged2.splice(j, 1); changed = true; }
+    }
+    if (!changed) break;
   }
   const used = new Set<string>();
   return merged2
