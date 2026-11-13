@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { generatedAt } from "@/lib/data";
+import { DATASET } from "@/lib/open-data";
 export const metadata: Metadata = { title: "O serwisie", description: "Kto robi kalendarz biegów górskich dla początkujących, skąd bierzemy dane i jak liczymy ocenę 'dobry na start'.", alternates: { canonical: "/o-serwisie" } };
 
 const LEVELS: [string, string, string][] = [
@@ -37,6 +39,13 @@ export default function About() {
           <p className="mt-3 text-sm text-[var(--muted)]">To podpowiedź, nie wyrocznia: zawsze sprawdź regulamin i limit czasu.</p>
         </section>
       </div>
+
+      <section id="dane" className="mt-6 card p-5 max-w-[62rem]">
+        <h2 className="text-[1.8rem]">Dane do pobrania</h2>
+        <p className="mt-1 text-sm leading-relaxed">Lista nadchodzących biegów jest dostępna jako plik: <a className="underline font-semibold text-[var(--moss)]" href="/api/races.json">JSON</a> i <a className="underline font-semibold text-[var(--moss)]" href="/api/races.csv">CSV</a> (termin, miejsce, dystanse, przewyższenia, limity czasu, zapisy, ocena dla początkujących). Nowe biegi publikujemy też w <a className="underline font-semibold text-[var(--moss)]" href="/feed.xml">kanale RSS</a>, a cały kalendarz da się zasubskrybować jako <a className="underline font-semibold text-[var(--moss)]" href="/kalendarz.ics">iCal</a>.</p>
+        <p className="mt-2 text-sm leading-relaxed text-[var(--muted)]">Stan danych: {generatedAt.slice(0, 10).split("-").reverse().join(".")}. Zestawienie udostępniamy na licencji <a className="underline" href="https://creativecommons.org/licenses/by/4.0/deed.pl" rel="license noopener" target="_blank">CC BY 4.0</a>: można je kopiować i cytować z podaniem źródła (plaskiejestnudne.pl) i linkiem. Terminy, ceny i limity pochodzą od organizatorów, więc przed zapisem trzeba je sprawdzić u źródła.</p>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Dataset", name: DATASET.name, description: DATASET.description, url: "https://plaskiejestnudne.pl/o-serwisie#dane", license: DATASET.license, dateModified: generatedAt, inLanguage: "pl", creator: { "@type": "Organization", name: "Płaskie jest nudne", url: "https://plaskiejestnudne.pl" }, distribution: [{ "@type": "DataDownload", encodingFormat: "application/json", contentUrl: "https://plaskiejestnudne.pl/api/races.json" }, { "@type": "DataDownload", encodingFormat: "text/csv", contentUrl: "https://plaskiejestnudne.pl/api/races.csv" }] }) }} />
+      </section>
 
       <section className="mt-6 card p-5 flex flex-wrap items-center justify-between gap-4 max-w-[62rem]">
         <div><h2 className="text-[1.8rem]">Organizujesz bieg?</h2><p className="text-sm text-[var(--muted)]">Jeśli brakuje Twojego biegu albo dane są nieaktualne, napisz. Poprawki wchodzą przy najbliższym odświeżeniu.</p></div>

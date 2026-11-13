@@ -173,7 +173,7 @@ async function kalendarzbiegowy(): Promise<Raw[]> {
     name: e.name, eventName: e.name.replace(/\s+20\d{2}$/, "").trim(), dateStart: e.start, dateEnd: e.end, city: cleanCity(e.city.split(",")[0]), region: "",
     distancesKm: e.distancesKm, elevations: e.dplus, vertical: /vertical/i.test(e.name),
     surface: e.kinds.includes("gorski") ? "gorski" : e.kinds.includes("trail") || e.kinds.includes("ultra") ? "trail" : undefined,
-    url: e.url, sources: [{ name: "kalendarzbiegowy.pl", url: e.url }],
+    url: e.site || e.url, sources: [{ name: "kalendarzbiegowy.pl", url: e.url }], // strona organizatora, gdy kalendarz ją podaje; kalendarz zostaje jako źródło
   } as Raw));
 }
 

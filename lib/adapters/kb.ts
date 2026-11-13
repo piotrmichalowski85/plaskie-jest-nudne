@@ -6,7 +6,7 @@ const UA = "Mozilla/5.0 (compatible; plaskiejestnudne-bot/0.1; +https://plaskiej
 const CACHE = "data/kb_cache.json";
 const TYPES: Record<number, string> = { 39: "gorski", 56: "ultra", 652: "trail", 40: "przelaj" };
 type RestEvent = { id: number; modified: string; date: string; link: string; title: { rendered: string }; event_type: number[]; event_type_2: number[]; event_type_3: number[]; content?: { rendered: string } };
-export type KBEvent = { id: number; name: string; url: string; start: string; end: string; city: string; voivodeship?: string; kinds: string[]; distancesKm: number[]; dplus: { km: number; dplus?: number }[]; modified: string };
+export type KBEvent = { id: number; name: string; url: string; site?: string | null; start: string; end: string; city: string; voivodeship?: string; kinds: string[]; distancesKm: number[]; dplus: { km: number; dplus?: number }[]; modified: string };
 type Cache = Record<string, KBEvent & { fetchedAt: string }>;
 
 const dec = (s: string) => cheerio.load(`<x>${s}</x>`)("x").text().replace(/\s+/g, " ").trim();
@@ -25,7 +25,8 @@ export async function kbEvents(): Promise<KBEvent[]> {
     list.push(...arr);
     if (arr[arr.length - 1].date < cutoff) break;
   }
-  const todo = list.filter((e) => !cache[e.id] || cache[e.id].modified !== e.modified);
+  // site === undefined: wpis z czasów sprzed wyciągania adresu organizatora, pobieramy stronę jeszcze raz
+  const todo = list.filter((e) => !cache[e.id] || cache[e.id].modified !== e.modified || cache[e.id].site === undefined);
   const queue = [...todo];
   await Promise.all(Array.from({ length: 6 }, async () => {
     while (queue.length) {
@@ -43,7 +44,17 @@ export async function kbEvents(): Promise<KBEvent[]> {
         const city = (loc?.name || "").replace(/\s+/g, " ").trim();
         const text = dec((L.description || "") + " " + $(".eventon_full_description, .evo_metarow_details, .eventon_desc_in").text());
         const { list: d } = parseDistances(text);
-        cache[e.id] = { id: e.id, name: dec(e.title.rendered), url: e.link, start, end, city, kinds: e.event_type_2.map((t) => TYPES[t]).filter(Boolean), distancesKm: d.map((x) => x.km), dplus: d, modified: e.modified, fetchedAt: new Date().toISOString().slice(0, 10) };
+        // adres organizatora: link "Strona biegu" (albo "Zapisy", "Regulamin") prowadzący poza kalendarzbiegowy.pl i serwisy społecznościowe
+        let site: string | null = null;
+        for (const label of [/strona (biegu|wydarzenia|zawod[oó]w|www)/i, /^zapisy$/i, /^regulamin$/i]) {
+          $("a[href^='http']").each((_, a) => {
+            if (site) return;
+            const href = $(a).attr("href") || "", t = $(a).text().replace(/\s+/g, " ").trim();
+            if (label.test(t) && !/kalendarzbiegowy\.pl|bieganie\.pl|planbieganie\.pl|facebook\.|instagram\.|google\.|goo\.gl|youtube\.|x\.com|twitter\./i.test(href)) site = href;
+          });
+          if (site) break;
+        }
+        cache[e.id] = { id: e.id, name: dec(e.title.rendered), url: e.link, site, start, end, city, kinds: e.event_type_2.map((t) => TYPES[t]).filter(Boolean), distancesKm: d.map((x) => x.km), dplus: d, modified: e.modified, fetchedAt: new Date().toISOString().slice(0, 10) };
       } catch { /* pomijamy */ }
     }
   }));

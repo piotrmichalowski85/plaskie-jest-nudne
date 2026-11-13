@@ -1435,5 +1435,12 @@
   "display": "Świerki, gmina Nowa Ruda, powiat kłodzki",
   "at": "2026-11-12",
   "woj": "dolnośląskie"
+ },
+ "gniewino": {
+  "lat": 54.71543,
+  "lng": 18.00638,
+  "display": "Gniewino, gmina Gniewino, powiat wejherowski",
+  "at": "2026-11-13",
+  "woj": "pomorskie"
  }
 }

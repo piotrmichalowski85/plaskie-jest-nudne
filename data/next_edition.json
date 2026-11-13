@@ -484,5 +484,145 @@
  "https://biegajwgorachsowich.pl/Gorski_Bieg_Niepodleglosci": {
   "checkedAt": "2026-11-12",
   "prev": "2026-11-11"
+ },
+ "https://dostartu.pl/biegiem-na-bagry-7-v13894": {
+  "checkedAt": "2026-11-13",
+  "prev": "2025-05-31"
+ },
+ "https://potrojnakorona.pl/site/impreza?e=walbrzyska#program": {
+  "checkedAt": "2026-11-13",
+  "prev": "2025-06-06",
+  "found": {
+   "start": "2027-06-11",
+   "end": "2027-06-13"
+  },
+  "hits": 3,
+  "title": "Potrójna Korona Wałbrzyska — 11-13/06/2027"
+ },
+ "https://bnhl.pl/home/": {
+  "checkedAt": "2026-11-13",
+  "prev": "2025-06-07"
+ },
+ "https://foxter-sport.pl/zwiewna-piatka-2025": {
+  "checkedAt": "2026-11-13",
+  "prev": "2025-06-18"
+ },
+ "https://www.zmierzymyczas.pl/2283/xiv-zyrowski-wierch.html": {
+  "checkedAt": "2026-11-13",
+  "prev": "2025-06-19",
+  "found": {
+   "start": "2027-04-10",
+   "end": "2027-04-10"
+  },
+  "hits": 1,
+  "title": "ZmierzymyCzas.pl - pomiar czasu - Zapisy"
+ },
+ "https://ultramazury.pl/index.php/dla-uczestnikow/rejestracje": {
+  "checkedAt": "2026-11-13",
+  "prev": "2025-08-23"
+ },
+ "https://www.polmaratonaugustowski.pl/": {
+  "checkedAt": "2026-11-13",
+  "prev": "2025-09-20"
+ },
+ "https://www.bgtimesport.pl/zawody/biegi/id/800": {
+  "checkedAt": "2026-11-13",
+  "prev": "2025-10-11"
+ },
+ "https://www.niedamirun.pl/": {
+  "checkedAt": "2026-11-13",
+  "prev": "2025-08-23"
+ },
+ "https://biegowe360.pl/": {
+  "checkedAt": "2026-11-13",
+  "prev": "2025-10-17",
+  "found": {
+   "start": "2027-10-24",
+   "end": "2027-10-24"
+  },
+  "hits": 1,
+  "title": "PKO Biegowe 360° – konferencja dla biegaczy i kalendarz biegów | Biegowe360"
+ },
+ "https://www.protimer.pl/bio/1349/cross-wesola-2025/page": {
+  "checkedAt": "2026-11-13",
+  "prev": "2025-10-11"
+ },
+ "https://sremskisport.pl/2025/09/03/4-cross-srem-grand-prix-biegnij-z-duchem/": {
+  "checkedAt": "2026-11-13",
+  "prev": "2025-10-19"
+ },
+ "https://dostartu.pl/x-bieg-w-czerniawce-v14916": {
+  "checkedAt": "2026-11-13",
+  "prev": "2025-10-11"
+ },
+ "https://extremejura.com/zimna": {
+  "checkedAt": "2026-11-13",
+  "prev": "2025-12-20"
+ },
+ "https://dostartu.pl/bieg-herosa-22-11-2025-v14973": {
+  "checkedAt": "2026-11-13",
+  "prev": "2025-11-22"
+ },
+ "https://dostartu.pl/xiii-bieg-niepodleg-osci-w-rytrze-v15102": {
+  "checkedAt": "2026-11-13",
+  "prev": "2025-11-11"
+ },
+ "https://biegpamiecisybiru.pl/": {
+  "checkedAt": "2026-11-13",
+  "prev": "2026-02-21"
+ },
+ "https://summer.pomeraniatrail.pl": {
+  "checkedAt": "2026-11-13",
+  "prev": "2026-06-13",
+  "found": {
+   "start": "2027-06-06",
+   "end": "2027-06-06"
+  },
+  "hits": 5,
+  "title": "Pomerania Trail"
+ },
+ "https://maraton.siedlce.pl/zapisy/": {
+  "checkedAt": "2026-11-13",
+  "prev": "2026-04-17"
+ },
+ "https://www.bgtimesport.pl/zawody/biegi/id/826": {
+  "checkedAt": "2026-11-13",
+  "prev": "2026-03-28"
+ },
+ "https://www.e-gepard.eu/pl/show-contest/1653": {
+  "checkedAt": "2026-11-13",
+  "prev": "2026-09-06"
+ },
+ "https://foxter-sport.pl/wtf26": {
+  "checkedAt": "2026-11-13",
+  "prev": "2026-05-30"
+ },
+ "https://time4s.pl/szczesliwa-13ka-2026": {
+  "checkedAt": "2026-11-13",
+  "prev": "2026-08-30"
+ },
+ "https://formularz.ultimasport.pl/485": {
+  "checkedAt": "2026-11-13",
+  "prev": "2026-09-13"
+ },
+ "https://dostartu.pl/jeziorka-ultra-river-jur-2026-v16818": {
+  "checkedAt": "2026-11-13",
+  "prev": "2026-10-10"
+ },
+ "http://www.visegradmaraton.info": {
+  "checkedAt": "2026-11-13",
+  "prev": "2026-08-29"
+ },
+ "https://panel.maratonczykpomiarczasu.pl/goraj-morena-trail": {
+  "checkedAt": "2026-11-13",
+  "prev": "2026-10-04"
+ },
+ "https://bgtimesport.pl/zawody/info/id/869": {
+  "checkedAt": "2026-11-13",
+  "prev": "2026-10-24"
+ },
+ "https://dostartu.pl/iv-bieg-niepodleg-osci-11-kilometrow-dla-niepodleg-ej-v17426": {
+  "checkedAt": "2026-11-13",
+  "prev": "2026-11-07"
  }
 }
