@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/kreator`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/czy-dam-rade`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/zmiany`, lastModified: generatedAt, changeFrequency: "weekly", priority: 0.5 },
+    { url: `${base}/newsletter`, changeFrequency: "monthly", priority: 0.5 },
     { url: `${base}/slownik`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${base}/o-serwisie`, changeFrequency: "yearly", priority: 0.3 },
     { url: `${base}/dla-organizatorow`, changeFrequency: "monthly", priority: 0.5 },
