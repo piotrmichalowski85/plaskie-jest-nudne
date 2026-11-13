@@ -163,5 +163,23 @@
   "match": "Grand Prix Krakowa",
   "date": "2027",
   "regulaminUrl": "https://krakowbiega.pl/wp-content/uploads/2026/08/Regulamin-XV-edycja-GPK.pdf"
+ },
+ {
+  "match": "14\\. G[oó]rski Bieg Niepodleg",
+  "date": "2026-11",
+  "km": {
+   "11": 10
+  },
+  "kmUrl": "https://biegajwgorachsowich.pl/lib/vv3wnq/14-GBN-regulamin-msyk9hiv.pdf",
+  "checked": "2026-11-13"
+ },
+ {
+  "match": "Tatrza[ńn]ski Bieg Pod G[oó]r",
+  "date": "2026-09",
+  "km": {
+   "8.5": 8.7
+  },
+  "kmUrl": "https://biegnakasprowy.pl/biegnakasprowy/regulamin",
+  "checked": "2026-11-13"
  }
 ]
