@@ -5,6 +5,12 @@
   "why": "Dokument to regulamin 14. Górskiego Biegu Niepodległości w Świerkach w dniu 11.11.2026 (trasa ok. 10 km), czyli tej samej imprezy co bieg z kalendarza.",
   "at": "2026-11-12T10:23:32.490Z"
  },
+ "18-bieg-weganski-2027-05-23": {
+  "url": "https://dostartu.pl/statute_files/15653_pl.pdf",
+  "fit": false,
+  "why": "Dokument to regulamin XVI Biegu Wegańskiego z 24 maja 2026 (dystanse 5, 10 i 2,5 km), czyli poprzedniej edycji o dwa lata wcześniejszej niż 18 Bieg Wegański z 2027 roku, a nie o rok.",
+  "at": "2026-11-13T12:11:02.756Z"
+ },
  "2-gorska-trzynastka-2026-11-21": {
   "url": "https://biegajwgorachsowich.pl/lib/vv3wnq/Regulamin-Orzel-i-13_2026_edit-mv6j7nqw.pdf",
   "fit": true,
@@ -101,6 +107,18 @@
   "why": "regulamin Chudy Wawrzyniec 2026 (poprzednia edycja)",
   "at": "2026-11-12T09:35:19.439Z"
  },
+ "coconaut-pomerania-summer-trail-2026-06-13": {
+  "url": "https://summer.pomeraniatrail.pl/wp-content/uploads/2026/11/REGULAMIN-COCONAUT-POMERANIA-SUMMER-TRAIL-2027.pdf",
+  "fit": true,
+  "why": "Dokument to regulamin zawodów Pomerania Summer Trail powered by COCONAUT (ta sama impreza, Kaszuby, lato) z edycji 2027, czyli regulamin innej edycji tej samej imprezy, z zbliżonymi dystansami (10, 25",
+  "at": "2026-11-13T12:11:24.843Z"
+ },
+ "coconaut-pomerania-summer-trail-2027-06-06": {
+  "url": "https://summer.pomeraniatrail.pl/wp-content/uploads/2026/11/REGULAMIN-COCONAUT-POMERANIA-SUMMER-TRAIL-2027.pdf",
+  "fit": true,
+  "why": "Dokument jest regulaminem zawodów Pomerania Summer Trail powered by COCONAUT z 06.06.2027 (Gniewino, ten sam termin), obejmującym dystanse 55/42/25/10 km, więc dotyczy tej imprezy.",
+  "at": "2026-11-13T12:11:07.947Z"
+ },
  "coconaut-pomerania-ultra-trail-2026-10-17": {
   "url": "https://pomeraniatrail.pl/wp-content/uploads/2025/11/REGULAMIN-COCONAUT-POMERANIA-ULTRA-TRAIL-2026.pdf",
   "fit": true,
@@ -130,6 +148,12 @@
   "fit": true,
   "why": "Dokument to regulamin Festiwalu Górskiego Jedlina-Zdrój z 9 maja 2027, obejmujący dystanse 10 km, 21 km i 23,5 km oraz 51 km, czyli ten sam bieg, datę i miejsce.",
   "at": "2026-11-12T10:03:47.162Z"
+ },
+ "festiwal-tatra-skymarathon-2026-07-25": {
+  "url": "https://tatraskymarathon.pl/regulamin/",
+  "fit": false,
+  "why": "Regulamin dotyczy edycji festiwalu Tatra SkyMarathon z 23-24 lipca 2027 r., a nie edycji z 25 lipca 2026 r., więc data różni się o ponad rok i dokument nie jest regulaminem tej edycji ani poprzedniej.",
+  "at": "2026-11-13T12:11:30.327Z"
  },
  "garmin-ultra-race-gdansk-2026-12-04": {
   "url": "https://ultrarace.pl/gdansk/regulamin-gdansk/",
@@ -286,6 +310,12 @@
   "fit": true,
   "why": "Dokument to regulamin Festiwalu Górskiego Maraton Trzech Jezior 2026 w Międzybrodziu Bialskim (Czupel Vertical, Maraton 43 km, Rollercoaster 21 km, Szlakiem Wołoskich Pasterzy 17 km), czyli poprzednie",
   "at": "2026-11-12T10:08:33.112Z"
+ },
+ "meble-wojcik-ultra-wysoczyzna-2026-04-24": {
+  "url": "https://ultrawysoczyzna.pl/regulamin/",
+  "fit": false,
+  "why": "Dokument to regulamin edycji 2027 (16-18.04.2027) Meble Wójcik Ultra Wysoczyzna, czyli o dwa lata późniejszej edycji niż ta z kalendarza (24-26.04.2026), a nie regulamin poprzedniej edycji.",
+  "at": "2026-11-13T12:11:18.618Z"
  },
  "meble-wojcik-ultra-wysoczyzna-2027-2027-04-16": {
   "url": "https://ultrawysoczyzna.pl/regulamin/",
@@ -629,6 +659,12 @@
   "why": "regulamin cyklu XRUN 2027 (sześć imprez cyklu)",
   "at": "2026-11-12T09:35:19.439Z"
  },
+ "xi-festiwal-biegow-gorskich-gorce-ultra-trail-2026-07-31": {
+  "url": "https://gorceultratrail.pl/assets/files/GUT-2026-regulamin.pdf",
+  "fit": true,
+  "why": "To regulamin XI Festiwalu Biegów Górskich Gorce Ultra-Trail® (31.07-2.08.2026, Ochotnica Dolna) obejmujący dystanse 5, 12, 20, 66 i 102 km oraz warianty 52 i 37 km (w kalendarzu 48 i 33 km), więc doty",
+  "at": "2026-11-13T12:11:36.891Z"
+ },
  "xii-festiwal-biegu-rzeznika-2026-06-04": {
   "url": "https://www.biegrzeznika.pl/wp-content/uploads/2026/10/Bieszczadzki-Rajd-Pieszy-Edycja-Zimowa-2027.pdf",
   "fit": false,
@@ -748,5 +784,17 @@
   "fit": true,
   "why": "regulamin Zimowego Ultramaratonu Annogórskiego 16.01.2027",
   "at": "2026-11-12T09:35:19.438Z"
+ },
+ "zyrowski-wierch-2025-06-19": {
+  "url": "https://citytrail.pl/strony/stat/id/8/regulamin-bieg-glowny",
+  "fit": false,
+  "why": "Dokument to regulamin cyklu biegów przełajowych Grand Prix CITY TRAIL 2026/2027 na dystansie 5 km w siedmiu miastach (bez Zdzieszowic), a nie regulamin biegu Żyrowski Wierch.",
+  "at": "2026-11-13T12:11:13.385Z"
+ },
+ "zyrowski-wierch-2027-04-10": {
+  "url": "https://citytrail.pl/strony/stat/id/8/regulamin-bieg-glowny",
+  "fit": false,
+  "why": "Dokument to regulamin cyklu biegów przełajowych Grand Prix CITY TRAIL (5 km, lokalizacje: Bydgoszcz, Katowice, Poznań, Szczecin, Trójmiasto, Warszawa, Wrocław), który nie obejmuje Żyrowskiego Wierchu ",
+  "at": "2026-11-13T12:10:57.168Z"
  }
 }

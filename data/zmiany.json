@@ -1,6 +1,40 @@
 [
  {
   "date": "2026-11-13",
+  "label": "regulaminy po zmianie adresów",
+  "total": 291,
+  "upcoming": 83,
+  "added": [],
+  "removed": [],
+  "dateChanged": [],
+  "signupChanged": [],
+  "gearAdded": [
+   {
+    "id": "gorce-ultra-trail-winter-2027-zadyszka-2027-02-27",
+    "eventName": "Gorce Ultra-Trail WINTER 2027 ZaDyszka",
+    "dateStart": "2027-02-27",
+    "city": "Ochotnica Górna"
+   },
+   {
+    "id": "zyrowski-wierch-2027-04-10",
+    "eventName": "Żyrowski Wierch",
+    "dateStart": "2027-04-10",
+    "city": "Zdzieszowice",
+    "provisional": true
+   },
+   {
+    "id": "coconaut-pomerania-summer-trail-2027-06-06",
+    "eventName": "Coconaut Pomerania Summer Trail",
+    "dateStart": "2027-06-06",
+    "city": "Gniewino",
+    "provisional": true
+   }
+  ],
+  "dplusAdded": [],
+  "regulaminAdded": []
+ },
+ {
+  "date": "2026-11-13",
   "label": "adresy organizatorów",
   "total": 291,
   "upcoming": 83,
@@ -993,57 +1027,6 @@
     "city": "Świeradów-Zdrój"
    }
   ],
-  "dplusAdded": [],
-  "regulaminAdded": []
- },
- {
-  "date": "2026-10-22",
-  "label": "odświeżenie kalendarza",
-  "total": 251,
-  "upcoming": 52,
-  "added": [
-   {
-    "id": "jesienny-festiwal-szakala-2026-10-25",
-    "eventName": "Jesienny Festiwal Szakala",
-    "dateStart": "2026-10-25",
-    "city": "Łódź Las Łagiewnicki"
-   },
-   {
-    "id": "ninja-ams-kartuzy-zajecia-terenowe-dla-dzieci-i-mlodziezy-2026-11-14",
-    "eventName": "Ninja AMS KARTUZY - zajęcia terenowe dla dzieci i młodzieży",
-    "dateStart": "2026-11-14",
-    "city": "Kartuzy"
-   },
-   {
-    "id": "szczyt-wytrzymalosci-edycja-mikolajkowa-2026-12-04",
-    "eventName": "Szczyt Wytrzymałości Edycja Mikołajkowa",
-    "dateStart": "2026-12-04",
-    "city": "Ustroń"
-   },
-   {
-    "id": "gdynia-ultra-way-2027-01-16",
-    "eventName": "GDYNIA ULTRA WAY",
-    "dateStart": "2027-01-16",
-    "city": "Gdynia"
-   },
-   {
-    "id": "izery-ultra-trail-2027-06-26",
-    "eventName": "Izery Ultra-Trail",
-    "dateStart": "2027-06-26",
-    "city": "Świeradów-Zdrój"
-   }
-  ],
-  "removed": [
-   {
-    "id": "szczyt-wytrzymalosci-mikolajki-2026-12-04",
-    "eventName": "Szczyt Wytrzymałości Mikołajki",
-    "dateStart": "2026-12-04",
-    "city": "Ustroń"
-   }
-  ],
-  "dateChanged": [],
-  "signupChanged": [],
-  "gearAdded": [],
   "dplusAdded": [],
   "regulaminAdded": []
  }

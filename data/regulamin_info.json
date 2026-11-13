@@ -2531,6 +2531,34 @@
   "kids": true,
   "at": "2026-11-12T10:00:43.450Z"
  },
+ "https://citytrail.pl/strony/stat/id/8/regulamin-bieg-glowny": {
+  "year": 2026,
+  "fees": [
+   {
+    "pln": 52.99,
+    "label": "jednorazowa"
+   },
+   {
+    "pln": 60,
+    "label": "jednorazowa"
+   },
+   {
+    "pln": 154.99,
+    "label": "karnet na cały cykl"
+   }
+  ],
+  "startTimes": [
+   {
+    "km": 5,
+    "time": "11:00"
+   }
+  ],
+  "office": "Przy starcie/mecie w każdym mieście, czynne 08:30-10:30 (np. Bydgoszcz: polana Różopole)",
+  "aid": "Po biegu napój (izotonik, herbata lub woda) i baton; regulamin nie podaje punktów na trasie",
+  "poles": "tak",
+  "dogs": "tak",
+  "at": "2026-11-13T12:10:22.821Z"
+ },
  "https://competitions.timekeeper.pl/download/1081": {
   "year": 2026,
   "limits": [
@@ -2774,6 +2802,88 @@
   "dogs": "nie",
   "kids": true,
   "at": "2026-11-12T09:59:50.804Z"
+ },
+ "https://dostartu.pl/statute_files/15653_pl.pdf": {
+  "year": 2026,
+  "limits": [
+   {
+    "km": 5,
+    "limitH": 1
+   },
+   {
+    "km": 10,
+    "limitH": 1.5
+   },
+   {
+    "km": 2.5,
+    "limitH": 1
+   }
+  ],
+  "fees": [
+   {
+    "km": 5,
+    "pln": 65,
+    "until": "2026-04-30"
+   },
+   {
+    "km": 5,
+    "pln": 80,
+    "until": "2026-05-20"
+   },
+   {
+    "km": 5,
+    "pln": 85,
+    "until": "2026-05-24"
+   },
+   {
+    "km": 10,
+    "pln": 75,
+    "until": "2026-04-30"
+   },
+   {
+    "km": 10,
+    "pln": 90,
+    "until": "2026-05-20"
+   },
+   {
+    "km": 10,
+    "pln": 105,
+    "until": "2026-05-24"
+   },
+   {
+    "km": 2.5,
+    "pln": 35,
+    "until": "2026-04-30"
+   },
+   {
+    "km": 2.5,
+    "pln": 45,
+    "until": "2026-05-20"
+   },
+   {
+    "km": 2.5,
+    "pln": 55,
+    "until": "2026-05-24"
+   }
+  ],
+  "startTimes": [
+   {
+    "km": 5,
+    "time": "10:00"
+   },
+   {
+    "km": 10,
+    "time": "10:00"
+   },
+   {
+    "km": 2.5,
+    "time": "10:10"
+   }
+  ],
+  "office": "Wybrzeże Gdyńskie 2, Żoliborz, Warszawa; 24 maja 2026, 8:00-9:30",
+  "aid": "woda na półmetku i mecie, wegański posiłek regeneracyjny",
+  "dogs": "tak",
+  "at": "2026-11-13T12:10:40.099Z"
  },
  "https://dostartu.pl/statute_files/15940_pl.pdf": {
   "year": 2026,
@@ -4599,6 +4709,29 @@
   "aid": "1 do 4 punktów kontrolnych zależnie od dystansu, przy nich paśniki (słodkie i słone przekąski, owoce, woda, herbata)",
   "dogs": "tak",
   "at": "2026-11-08T14:10:24.241Z"
+ },
+ "https://summer.pomeraniatrail.pl/wp-content/uploads/2026/11/REGULAMIN-COCONAUT-POMERANIA-SUMMER-TRAIL-2027.pdf": {
+  "year": 2027,
+  "limits": [
+   {
+    "km": 55,
+    "limitH": 8.5
+   },
+   {
+    "km": 42,
+    "limitH": 7
+   },
+   {
+    "km": 25,
+    "limitH": 4
+   },
+   {
+    "km": 10,
+    "limitH": 2
+   }
+  ],
+  "aid": "55 km: 3 punkty, 42 km: 3, 25 km: 2, 10 km: 1; napoje i wyżywienie na punktach",
+  "at": "2026-11-13T12:10:51.026Z"
  },
  "https://sztafetagorska.pl/informacje/kids-trail-regulamin/": {
   "year": 2027,

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13T11:32:43.996Z",
+ "generatedAt": "2026-11-13T12:12:48.992Z",
  "count": 291,
  "races": [
   {
@@ -243,6 +243,9 @@
     }
    ],
    "regulaminUrl": "https://citytrail.pl/strony/stat/id/8/regulamin-bieg-glowny",
+   "gear": [
+    "Krótka smycz dla psa (tylko przy biegu z psem)"
+   ],
    "id": "zyrowski-wierch-2025-06-19",
    "minKm": 7,
    "maxKm": 7,
@@ -3261,6 +3264,14 @@
     }
    ],
    "regulaminUrl": "https://ultrawysoczyzna.pl/regulamin/",
+   "gear": [
+    "bidon lub kubek",
+    "telefon komórkowy z naładowaną baterią",
+    "folia NRC (103 km, 54 km)",
+    "gwizdek (103 km)",
+    "czołówka lub latarka z naładowanymi bateriami (103 km)",
+    "gotówka minimum 50 zł (103 km, 54 km)"
+   ],
    "id": "meble-wojcik-ultra-wysoczyzna-2026-04-24",
    "surface": "przelaj",
    "minKm": 6,
@@ -4635,6 +4646,12 @@
     }
    ],
    "regulaminUrl": "https://summer.pomeraniatrail.pl/wp-content/uploads/2026/11/REGULAMIN-COCONAUT-POMERANIA-SUMMER-TRAIL-2027.pdf",
+   "gear": [
+    "Aktywny telefon z GPS (55, 42 i 25 km)",
+    "Bukłak, bidon lub softflask, min. 0,5 l (55, 42 i 25 km)",
+    "Kubek na wodę (55, 42 i 25 km)",
+    "Plecak, kamizelka lub pas biegowy (55 i 42 km)"
+   ],
    "id": "coconaut-pomerania-summer-trail-2026-06-13",
    "surface": "trail",
    "minKm": 1,
@@ -5705,6 +5722,25 @@
     }
    ],
    "regulaminUrl": "https://tatraskymarathon.pl/regulamin/",
+   "gear": [
+    "Plecak lub nerka biegowa na cały sprzęt (22 km i więcej)",
+    "Płyny min. 0,25 l na starcie (22 km)",
+    "Płyny min. 0,5 l na starcie (45,4 km)",
+    "Płyny min. 1 l na starcie (40 km i więcej)",
+    "Folia NRC min. 140 x 200 cm (22 km i więcej)",
+    "Naładowany telefon z roamingiem i aplikacjami (22 km i więcej)",
+    "Kurtka przeciwwiatrowa (22 km)",
+    "Kurtka przeciwdeszczowa z kapturem (40 km i więcej)",
+    "Gotówka min. 50 zł i 20 euro (22 km i więcej)",
+    "Gwizdek (22 km i więcej)",
+    "Bandaż elastyczny min. 100 x 6 cm (22 km i więcej)",
+    "Kubek lub flask (22 km i więcej)",
+    "Dowód osobisty lub paszport (22 km i więcej)",
+    "Potwierdzenie opłaconej polisy NNW (wszystkie biegi)",
+    "Spodnie wodoodporne zakrywające całe nogi (80 km i 120 km)",
+    "Bielizna termoaktywna z długim rękawem (80 km i 120 km)",
+    "Dwie działające lampy czołówki z zapasem baterii (120 km)"
+   ],
    "id": "festiwal-tatra-skymarathon-2026-07-25",
    "surface": "gorski",
    "minKm": 5,
@@ -5940,6 +5976,12 @@
     }
    ],
    "regulaminUrl": "https://gorceultratrail.pl/assets/files/GUT-2026-regulamin.pdf",
+   "gear": [
+    "Włączony, sprawny, naładowany telefon komórkowy",
+    "Własny kubek wielokrotnego użytku",
+    "Butelka lub bukłak do uzupełniania płynów",
+    "Ślad GPX w zegarku lub telefonie (GUT 102, GUT 66)"
+   ],
    "id": "xi-festiwal-biegow-gorskich-gorce-ultra-trail-2026-07-31",
    "surface": "gorski",
    "minKm": 5,
@@ -10307,13 +10349,13 @@
     "status": "open",
     "until": "2026-12-03",
     "limit": 50,
-    "registered": 39,
+    "registered": 40,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/turbacz_trail/",
     "checkedAt": "2026-11-13"
    },
    "signupOpen": true,
-   "participants": 39,
+   "participants": 40,
    "id": "turbacz-trail-2026-12-06",
    "surface": "trail",
    "minKm": 1,
@@ -11477,7 +11519,7 @@
    "beginnerWhy": "najkrótszy dystans 7 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Turbacz Winter Trail: Turbacz Winter Trail - AK-47 (48km), Turbacz Winter Trail - TWT na 6 Łap (22km), Turbacz Winter Trail - Turbaczowe Love - bieg dla par (6km), Turbacz Winter Trail - Mizuno Nocna zaDycha (12km), Turbacz Winter Trail - Zimna Połówka (22km), Turbacz Winter Trail - Turbaczowe Love - bieg dla singli (6km)",
+   "name": "Turbacz Winter Trail: Turbacz Winter Trail - Mizuno Nocna zaDycha (12km), Turbacz Winter Trail - Zimna Połówka (22km), Turbacz Winter Trail - AK-47 (48km), Turbacz Winter Trail - TWT na 6 Łap (22km), Turbacz Winter Trail - Turbaczowe Love - bieg dla par (6km), Turbacz Winter Trail - Turbaczowe Love - bieg dla singli (6km)",
    "eventName": "TURBACZ WINTER TRAIL",
    "dateStart": "2027-02-13",
    "dateEnd": "2027-02-14",
@@ -11657,6 +11699,12 @@
     "checkedAt": "2026-11-13"
    },
    "regulaminUrl": "https://gorceultratrail.pl/assets/files/GUT-2026-regulamin.pdf",
+   "gear": [
+    "Włączony, sprawny, naładowany telefon komórkowy",
+    "Własny kubek wielokrotnego użytku",
+    "Butelka lub bukłak do uzupełniania płynów",
+    "Ślad GPX w zegarku lub telefonie (GUT 102, GUT 66)"
+   ],
    "surface": "gorski",
    "id": "gorce-ultra-trail-winter-2027-zadyszka-2027-02-27",
    "minKm": 10,
@@ -12220,7 +12268,7 @@
    "beginnerWhy": "najkrótszy dystans 10 km; średnio stromo: ok. 40 m przewyższenia na kilometr; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Festiwal Pieszo - Biegowy PRZEDWIOŚNIE: Mini Przedwiośnie, Maraton Przedwiośnie, Ultra Przedwiośnie, Giga Przedwiośnie",
+   "name": "Festiwal Pieszo - Biegowy PRZEDWIOŚNIE: Maraton Przedwiośnie, Mini Przedwiośnie, Ultra Przedwiośnie, Giga Przedwiośnie",
    "eventName": "Festiwal Pieszo - Biegowy PRZEDWIOŚNIE",
    "dateStart": "2027-04-10",
    "dateEnd": "2027-04-10",
@@ -12302,6 +12350,9 @@
    ],
    "provisional": "termin ze strony organizatora, dystanse z poprzedniej edycji",
    "regulaminUrl": "https://citytrail.pl/strony/stat/id/8/regulamin-bieg-glowny",
+   "gear": [
+    "Krótka smycz dla psa (tylko przy biegu z psem)"
+   ],
    "id": "zyrowski-wierch-2027-04-10",
    "minKm": 7,
    "maxKm": 7,
@@ -13336,6 +13387,12 @@
    ],
    "provisional": "termin ze strony organizatora, dystanse z poprzedniej edycji",
    "regulaminUrl": "https://summer.pomeraniatrail.pl/wp-content/uploads/2026/11/REGULAMIN-COCONAUT-POMERANIA-SUMMER-TRAIL-2027.pdf",
+   "gear": [
+    "Aktywny telefon z GPS (55, 42 i 25 km)",
+    "Bukłak, bidon lub softflask, min. 0,5 l (55, 42 i 25 km)",
+    "Kubek na wodę (55, 42 i 25 km)",
+    "Plecak, kamizelka lub pas biegowy (55 i 42 km)"
+   ],
    "signup": {
     "status": "unknown",
     "note": "do wyczerpania limitu",
@@ -14196,7 +14253,7 @@
    "beginnerWhy": "najkrótszy dystans 18 km (jak półmaraton w terenie, zwykle wolniej); stromo: ok. 61 m przewyższenia na kilometr, dużo marszu pod górę; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Dolnośląski Festiwal Biegów Górskich: Bieg K-B-L – 110 km, Bieg Sto Mil Trail - 170 km, Bieg Ultra Trail - 68 km, Golden Mountains Trail GTS, Bieg Trojak Trail - 10 km, Złoty Maraton – 45 km, Złoty Półmaraton - 21 km, Nocny Trail - 15 km, Bieg 7 szczytów - 240 km, Bieg Super Trail - 130 km, Kids Trail",
+   "name": "Dolnośląski Festiwal Biegów Górskich: Bieg 7 szczytów - 240 km, Bieg K-B-L – 110 km, Bieg Sto Mil Trail - 170 km, Bieg Ultra Trail - 68 km, Golden Mountains Trail GTS, Bieg Trojak Trail - 10 km, Złoty Maraton – 45 km, Złoty Półmaraton - 21 km, Nocny Trail - 15 km, Bieg Super Trail - 130 km, Kids Trail",
    "eventName": "Dolnośląski Festiwal Biegów Górskich DFBG",
    "dateStart": "2027-07-15",
    "dateEnd": "2027-07-18",
@@ -14317,13 +14374,13 @@
     "status": "closed",
     "until": "2027-07-13",
     "limit": 350,
-    "registered": 849,
+    "registered": 850,
     "source": "zapisy",
     "sourceUrl": "https://b4sportonline.pl/dolnoslaski_festiwal_biegow_gorskich/",
     "checkedAt": "2026-11-13"
    },
    "signupOpen": true,
-   "participants": 849,
+   "participants": 850,
    "id": "dolnoslaski-festiwal-biegow-gorskich-dfbg-2027-07-15",
    "surface": "gorski",
    "minKm": 10,
@@ -15511,7 +15568,7 @@
    "beginnerWhy": "najkrótszy dystans 10 km; przewyższenie nieznane, sprawdź profil trasy; kilka dystansów na jednej imprezie, łatwiej dobrać właściwy."
   },
   {
-   "name": "Łemkowyna Trail - zapisy: Łemko Maraton 48 - 23.10.2027, Łemko Trail 30 - 23.10.2027, Łemko Trail 18 - 24.10.2027, Łemko Trail 10 - 24.10.2027, Łemkowyna Trail 70 - 23.10.2027, Łemkowyna Trail 100 - 23-24.10.2027, Łemkowyna Trail 150 23-24.10.2026",
+   "name": "Łemkowyna Trail - zapisy: Łemko Maraton 48 - 23.10.2027, Łemko Trail 30 - 23.10.2027, Łemko Trail 18 - 24.10.2027, Łemkowyna Trail 100 - 23-24.10.2027, Łemkowyna Trail 150 23-24.10.2026, Łemko Trail 10 - 24.10.2027, Łemkowyna Trail 70 - 23.10.2027",
    "eventName": "Łemkowyna Trail",
    "dateStart": "2027-10-23",
    "dateEnd": "2027-10-24",
