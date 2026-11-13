@@ -1,6 +1,13 @@
 #!/bin/sh
 # składnia workflow: błędny plik wyłącza po cichu zaplanowane odświeżanie danych
 node "$(git rev-parse --show-toplevel)/scripts/check_workflows.cjs" || exit 1
+# znaczniki konfliktu w plikach (13.11.2026: scalenie z main zatwierdzone ze znacznikami w app/layout.tsx)
+if git grep -nE '^(<<<<<<<|>>>>>>>) ' -- . ':!*.md' >/dev/null 2>&1; then
+  echo "pre-push: w repo są znaczniki konfliktu scalania:" >&2; git grep -nE '^(<<<<<<<|>>>>>>>) ' -- . ':!*.md' | head -5 >&2; exit 1
+fi
+if git grep -nE '^(<<<<<<<|>>>>>>>) ' -- '*.md' >/dev/null 2>&1; then
+  echo "pre-push: znaczniki konfliktu scalania w plikach .md:" >&2; git grep -nE '^(<<<<<<<|>>>>>>>) ' -- '*.md' | head -5 >&2; exit 1
+fi
 # Blokada (09.11.2026): push na main z więcej niż 2 nowymi commitami oznacza scalenie gałęzi,
 # a scalenie do main (= produkcja na Vercelu) wymaga OK Piotra. Świadome scalenie: PLASKIE_MERGE_OK=1 git push
 zero=0000000000000000000000000000000000000000
