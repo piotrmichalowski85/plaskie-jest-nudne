@@ -1,4 +1,6 @@
 #!/bin/sh
+# składnia workflow: błędny plik wyłącza po cichu zaplanowane odświeżanie danych
+node "$(git rev-parse --show-toplevel)/scripts/check_workflows.cjs" || exit 1
 # Blokada (09.11.2026): push na main z więcej niż 2 nowymi commitami oznacza scalenie gałęzi,
 # a scalenie do main (= produkcja na Vercelu) wymaga OK Piotra. Świadome scalenie: PLASKIE_MERGE_OK=1 git push
 zero=0000000000000000000000000000000000000000
