@@ -51,6 +51,39 @@ function withInfo(r: Race): Race {
     const covered = r.distancesKm.every((d) => rows.some((x) => x.km !== undefined && sameKm(x.km, d)));
     return covered ? rows.filter((x) => x.km === undefined || r.distancesKm.some((d) => sameKm(x.km!, d))) : rows;
   };
+  // regulamin cyklu (np. X-RUN: sześć imprez w jednym tekście): etykiety cenników to nazwy imprez. Zostają wiersze tej imprezy,
+  // której wyróżniające słowo (takie, którego nie ma w innych etykietach) stoi w nazwie albo miejscowości biegu; etykieta wtedy znika, bo jest nazwą tego biegu
+  if (rest.fees) {
+    const plain = (t: string) => t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/ł/g, "l");
+    const labels = [...new Set(rest.fees.filter((f) => !f.kind && f.label).map((f) => f.label!))];
+    const words = (l: string) => plain(l).split(/[^a-z0-9]+/).filter((w) => w.length >= 4);
+    const hay = plain(`${r.name} ${r.eventName} ${r.city}`);
+    const own = labels.filter((l) => words(l).some((w) => hay.includes(w) && !labels.some((o) => o !== l && words(o).includes(w))));
+    if (labels.length > 1 && own.length === 1) rest.fees = rest.fees.filter((f) => !f.label || f.label === own[0]).map((f) => (f.label === own[0] ? { ...f, label: undefined } : f));
+  }
+  // regulamin kilku imprez bez pewnych etykiet: cennik, którego ostatni termin wypada po tym biegu, należy do późniejszej imprezy cyklu,
+  // a gdy do jednego dystansu pasuje kilka cenników, zostaje ten z terminami najbliżej biegu. Nie dotyczy regulaminu innej edycji (tam terminy z definicji się nie zgadzają)
+  if (rest.fees && !stale) {
+    const gk = (f: { km?: number; kind?: string; label?: string }) => `${f.km ?? ""}|${f.kind ?? ""}|${f.label ?? ""}`;
+    const lastOf = new Map<string, string>();
+    for (const f of rest.fees) if (f.until && f.until > (lastOf.get(gk(f)) ?? "")) lastOf.set(gk(f), f.until);
+    const limit = new Date(Date.parse(r.dateEnd) + 3 * 86400000).toISOString().slice(0, 10);
+    const kept = rest.fees.filter((f) => (lastOf.get(gk(f)) ?? "") <= limit);
+    const perKm = r.distancesKm.map((d) => [...new Set(kept.filter((f) => !f.kind && f.km !== undefined && sameKm(f.km, d)).map(gk))]);
+    const multi = kept.length < rest.fees.length || perKm.some((keys) => new Set(keys.map((k) => lastOf.get(k) ?? "")).size > 1);
+    if (kept.length && multi) {
+      const drop = new Set<string>();
+      // cenniki kończące się ponad 3 tygodnie przed najpóźniejszym to wcześniejsze imprezy cyklu
+      const latest = [...new Set(kept.map(gk))].map((k) => lastOf.get(k) ?? "").sort().pop() ?? "";
+      const early = latest ? new Date(Date.parse(latest) - 21 * 86400000).toISOString().slice(0, 10) : "";
+      for (const k of new Set(kept.map(gk))) if (lastOf.get(k) && lastOf.get(k)! < early) drop.add(k);
+      for (const keys of perKm) {
+        const best = keys.filter((k) => !drop.has(k)).map((k) => lastOf.get(k) ?? "").sort().pop() ?? "";
+        for (const k of keys) if ((lastOf.get(k) ?? "") < best) drop.add(k);
+      }
+      rest.fees = kept.filter((f) => !drop.has(gk(f)));
+    }
+  }
   if (rest.fees) rest.fees = mine(rest.fees);
   if (rest.startTimes) rest.startTimes = mine(rest.startTimes);
   const hasMore = Object.keys(rest).some((k) => k !== "year");
