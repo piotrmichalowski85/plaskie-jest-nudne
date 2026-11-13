@@ -17,7 +17,7 @@ export default function OG() {
           <div style={{ marginTop: 26, fontSize: 54, fontWeight: 800, color: "#17201a", lineHeight: 1.05 }}>Ile kosztuje bieg górski w Polsce</div>
           <div style={{ display: "flex", alignItems: "flex-end", marginTop: 18 }}>
             <div style={{ fontSize: 150, fontWeight: 800, color: "#1f4128", lineHeight: 1 }}>{`+${pct(s.rise.median)}`}</div>
-            <div style={{ display: "flex", marginLeft: 28, marginBottom: 20, fontSize: 34, color: "#3d4d34", maxWidth: 560, lineHeight: 1.2 }}>tyle drożej kosztuje start w ostatnim progu zapisów niż w pierwszym</div>
+            <div style={{ display: "flex", marginLeft: 28, marginBottom: 20, fontSize: 34, color: "#3d4d34", maxWidth: 560, lineHeight: 1.2 }}>o tyle drożej jest zapisać się w ostatnim progu niż w pierwszym</div>
           </div>
           <div style={{ display: "flex", marginTop: 22, fontSize: 28, color: "#3d4d34" }}>{`Mediana w pierwszym progu: ${b.map((x) => `${x.label} ${zl(x.first.median)}`).join(" · ")}`}</div>
           <div style={{ display: "flex", marginTop: 8, fontSize: 24, color: "#5f665b" }}>{`${s.n} cenników z ${s.regulaminy} regulaminów`}</div>

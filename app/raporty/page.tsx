@@ -16,7 +16,7 @@ export default function Raporty() {
         <section className="entry">
           <p className="step">{report.generatedAt.split("-").reverse().join(".")} · edycje {report.season.join(" i ")}</p>
           <h2 className="text-[1.9rem] mt-1"><Link className="underline decoration-[var(--sun)] decoration-2 underline-offset-4" href="/raporty/ile-kosztuje-bieg-gorski">Ile kosztuje bieg górski i trailowy w Polsce</Link></h2>
-          <p className="mt-2 leading-relaxed">Opłaty startowe z {s.regulaminy} regulaminów: {s.n} cenników w podziale na dystanse, cena za kilometr, różnica między pierwszym a ostatnim progiem i termin końca najtańszego progu.</p>
+          <p className="mt-2 leading-relaxed">Opłaty startowe z {s.regulaminy} regulaminów: {s.n} cenników w podziale na dystanse, cena za kilometr, o ile drożej płaci się za późny zapis i do kiedy obowiązuje najniższa cena.</p>
         </section>
       </div>
     </article>
