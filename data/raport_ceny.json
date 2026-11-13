@@ -24,9 +24,9 @@
   "Źródłem każdej kwoty jest regulamin organizatora (adres przy rekordzie); każdy cennik został porównany z tekstem regulaminu, a rekord zawiera dosłowny cytat.",
   "Tylko starty indywidualne dorosłych w biegu. Poza zbiorem: biegi dzieci i rodzinne, sztafety i drużyny, starty w parze, biegi z psem, nordic walking, marsze i rajdy piesze, biegi na czas (6 h, 12 h), karnety na cykl.",
   "Cena podstawowa: bez zniżek (mieszkańcy, kluby, seniorzy, kody) i bez pakietów dodatkowych (koszulka, transport, nocleg). Jeżeli organizator wlicza w opłatę bilet do parku narodowego albo opłatę charytatywną, zostaje ona w cenie.",
-  "Edycje 2026 i 2027. Regulamin starszej edycji jest poza zbiorem. Rekord z polem previousEdition to regulamin edycji 2026 przy imprezie, która w kalendarzu ma już termin 2027.",
-  "Dystans z regulaminu musi odpowiadać dystansowi tego biegu w kalendarzu plaskiejestnudne.pl; długość trasy (km) pochodzi z regulaminu, a gdy regulamin jej nie podaje, z kalendarza (kmSource).",
-  "Progi cenowe: kwota i ostatni dzień jej obowiązywania (until). Próg ograniczony liczbą miejsc ma limitPlaces. Opłata płatna dopiero w biurze zawodów ma onsite: true i nie wchodzi do porównania pierwszego i ostatniego progu zapisów internetowych.",
+  "Edycje 2026 i 2027. Regulamin starszej edycji jest poza zbiorem. Gdy impreza ma w kalendarzu już termin 2027, a organizator opublikował dotąd tylko regulamin edycji 2026, cennik liczymy jako edycję 2026 i oznaczamy to przy rekordzie.",
+  "Dystans z regulaminu musi odpowiadać dystansowi tego biegu w kalendarzu plaskiejestnudne.pl; długość trasy (km) pochodzi z regulaminu, a gdy regulamin jej nie podaje, z kalendarza (rekord mówi, skąd ją wzięliśmy).",
+  "Progi cenowe: kwota i ostatni dzień jej obowiązywania. Próg ograniczony liczbą miejsc ma zapisany ten limit. Opłata płatna dopiero w biurze zawodów jest oznaczona osobno i nie wchodzi do porównania pierwszego i ostatniego progu zapisów internetowych.",
   "Poza zbiorem są cenniki, w których regulamin podaje sprzeczne albo błędnie zapisane kwoty, oraz imprezy bez pomiaru czasu i klasyfikacji.",
   "Kwoty brutto w złotych, tak jak w regulaminach."
  ],

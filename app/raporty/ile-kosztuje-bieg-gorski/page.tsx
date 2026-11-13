@@ -82,7 +82,7 @@ export default function RaportCen() {
           <p className="step">02 · Termin</p>
           <h2 className="text-[1.9rem] mt-1">Najtańszy próg kończy się {Math.round(s.days.median)} dni przed startem</h2>
           <p className="mt-3 leading-relaxed">To mediana z {s.days.n} cenników, w których pierwszy próg ma datę końcową: około {months(s.days.median)} miesiąca przed biegiem. W środkowej połowie cenników najniższa cena kończy się między {Math.round(s.days.q3)} a {Math.round(s.days.q1)} dniem przed startem; najkrótszy odstęp w zbiorze to {s.days.min} dni, najdłuższy {s.days.max}.</p>
-          <p className="mt-3 leading-relaxed">W przedziałach dystansu: {s.buckets.map((b) => `${b.label} ${Math.round(b.days.median)} dni (n=${b.days.n})`).join(", ")}. Kto planuje start na kolejny sezon, najniższą cenę zwykle znajdzie pół roku wcześniej, a nie na miesiąc przed biegiem.</p>
+          <p className="mt-3 leading-relaxed">W przedziałach dystansu: {s.buckets.map((b) => `${b.label} ${Math.round(b.days.median)} dni (n=${b.days.n})`).join(", ")}. Kto planuje start na kolejny sezon, najniższą cenę zwykle znajdzie ponad pięć miesięcy wcześniej, a nie na miesiąc przed biegiem.</p>
         </section>
         <section className="entry">
           <p className="step">03 · Cena za kilometr</p>
