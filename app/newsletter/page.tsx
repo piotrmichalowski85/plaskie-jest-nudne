@@ -18,7 +18,7 @@ export default function Newsletter() {
     <article>
       <header className="max-w-[46rem]">
         <h1 className="text-[3rem] sm:text-[3.6rem]">Newsletter</h1>
-        <p className="mt-3 text-[1.1rem] leading-relaxed text-[#3d4d34]">Kalendarz odświeża się sam dwa razy w tygodniu. Żeby nie trzeba było tu zaglądać i zgadywać, co doszło, w poniedziałek rano wysyłamy krótką listę zmian z ostatnich siedmiu dni.</p>
+        <p className="mt-3 text-[1.1rem] leading-relaxed text-[#3d4d34]">Kalendarz odświeża się sam dwa razy w tygodniu. Żeby nie trzeba było tu zaglądać i zgadywać, co doszło, w poniedziałek rano wysyłamy krótką listę: co doszło w ostatnich siedmiu dniach i które terminy zapisów zaraz mijają.</p>
       </header>
 
       <div className="mt-6 max-w-[46rem]">{newsletterLive() ? <NewsletterForm where="newsletter" /> : <p className="card text-sm">Zapis ruszy w najbliższych dniach. Do tego czasu te same zmiany są na stronie <Link href="/zmiany" className="underline font-semibold text-[var(--moss)]">Co nowego</Link>.</p>}</div>
@@ -26,7 +26,7 @@ export default function Newsletter() {
       <div className="mt-8 grid gap-x-10 md:grid-cols-2 max-w-[62rem]">
         <section className="entry">
           <p className="step">01 · Co przychodzi</p>
-          <h2 className="text-[1.9rem] mt-1">Tylko to, co się zmieniło</h2>
+          <h2 className="text-[1.9rem] mt-1">Nowości i terminy do pilnowania</h2>
           <ul className="mt-2 list-disc pl-5 space-y-1 text-sm leading-relaxed">
             <li><strong>Nowe w kalendarzu:</strong> biegi, które doszły w ostatnim tygodniu, z terminem, miejscem i dystansami.</li>
             <li><strong>Ruszyły zapisy:</strong> biegi, na które od niedawna można się zapisać.</li>
@@ -37,12 +37,12 @@ export default function Newsletter() {
         <section className="entry">
           <p className="step">02 · Jak często</p>
           <h2 className="text-[1.9rem] mt-1">W poniedziałek albo wcale</h2>
-          <p className="mt-2 text-sm leading-relaxed">Jeden mail tygodniowo, w poniedziałek rano. Gdy w kalendarzu nic się nie zmieniło, nie wysyłamy niczego. Bez reklam i bez ofert: w mailu są wyłącznie biegi i linki do ich stron w serwisie.</p>
+          <p className="mt-2 text-sm leading-relaxed">Jeden mail tygodniowo, w poniedziałek rano. Gdy nie ma nic nowego ani żadnego terminu do pilnowania, nie wysyłamy niczego. Bez reklam i bez ofert: w mailu są wyłącznie biegi i linki do ich stron w serwisie.</p>
         </section>
         <section className="entry">
           <p className="step">03 · Jak to wygląda</p>
           <h2 className="text-[1.9rem] mt-1">Wydanie z dzisiejszych danych</h2>
-          <p className="mt-2 text-sm leading-relaxed">{issue.empty ? "W ostatnim tygodniu w kalendarzu nic się nie zmieniło, więc dziś wydania by nie było." : `Gdyby wydanie wychodziło dziś, miałoby temat "${issue.subject}" i ${n} ${n === 1 ? "bieg" : n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? "biegi" : "biegów"}.`} <Link href="/newsletter/przyklad" className="underline font-semibold text-[var(--moss)]">Zobacz przykładowe wydanie</Link>.</p>
+          <p className="mt-2 text-sm leading-relaxed">{issue.empty ? "W ostatnim tygodniu nic nie doszło i żaden termin zapisów nie mija, więc dziś wydania by nie było." : `Gdyby wydanie wychodziło dziś, miałoby temat "${issue.subject}" i ${n} ${n === 1 ? "bieg" : n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? "biegi" : "biegów"}.`} <Link href="/newsletter/przyklad" className="underline font-semibold text-[var(--moss)]">Zobacz przykładowe wydanie</Link>.</p>
         </section>
         <section className="entry">
           <p className="step">04 · Twój adres</p>

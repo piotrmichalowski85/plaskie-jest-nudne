@@ -130,7 +130,7 @@ ${body}
 </table>
 </td></tr>
 <tr><td class="foot" style="padding:16px 4px 0;color:${C.muted};font-family:${F};font-size:12px;line-height:1.5;">
-Ten mail przychodzi na adres zapisany do newslettera na plaskiejestnudne.pl. Wysyłamy go w poniedziałki, tylko gdy w kalendarzu coś się zmieniło.<br>
+Ten mail przychodzi na adres zapisany do newslettera na plaskiejestnudne.pl. Wysyłamy go w poniedziałki, tylko gdy jest o czym: nowe biegi, ruszające zapisy albo terminy do pilnowania.<br>
 <a href="{{ unsubscribe }}" class="lnk" style="color:${C.moss};">Wypisz mnie</a> · <a href="${link("/prywatnosc", date)}" class="lnk" style="color:${C.moss};">Polityka prywatności</a>
 </td></tr>
 </table>
